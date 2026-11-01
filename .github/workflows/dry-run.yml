@@ -1,0 +1,30 @@
+name: dry-run
+
+# Proves the live tick end to end on GitHub's own runners when the market is closed: replays the LAST US session's
+# real Yahoo bars through live/tick.py (every 5 minutes, 9:30 AM to 4:15 PM ET) in a scratch folder, and checks the
+# trades and scan hits equal the backtest engine's for that day. Commits nothing; the live account is untouched.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dry-run
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with: {python-version: "3.11"}
+      - name: Unit tests
+        run: python -m unittest discover -s tests
+      - name: Replay the last session through the live tick
+        run: |
+          set -o pipefail
+          python research/dry_run_last_session.py --every 5 | tail -60
