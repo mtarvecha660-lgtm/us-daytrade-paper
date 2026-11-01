@@ -69,19 +69,32 @@ def fetch_chart(sym, rng="1d"):
     return E.parse_chart(E.yahoo_get(E.chart_path(sym, rng, "5m")), sym)
 
 
-def stage1_candidates(series, day, upto_ts, cfg, done):
-    """trader-scanner's stage 1 (orb_candidate), on spark closes: some completed bar after the opening range
-    closed at or above the highest close of the range. Necessary for a breakout, so no breakout is lost.
-    Symbols whose first breakout the bot has already processed today (`done`) are left out."""
+def stage1_candidates(series, day, after_ts, upto_ts, cfg, done):
+    """trader-scanner's stage 1 on spark closes, applied to the bars that closed since the last tick: a stock can
+    only break out at bar T if its close at T is at or above the highest close of its opening range (the range high
+    is at least every range close). A bar missing from spark counts as "maybe", so a data gap never hides a
+    breakout. Stocks whose first breakout the bot already processed today (`done`) are skipped."""
     n_range = cfg["or_minutes"] // 5
-    cands = set()
+    ots, _ = G.session_bounds(day)
     cutoff = G.et_of(upto_ts).replace(tzinfo=None)
+    first = max(n_range, 0 if after_ts is None else (after_ts - ots) // 300)
+    last = (upto_ts - ots) // 300          # bars 0 .. last-1 have closed
+    cands = set()
     for sym, s in series.items():
         if sym in done:
             continue
         bars = SC.session_bars(s, day, cutoff)
-        if len(bars) > n_range and SC.orb_candidate(bars, n_range):
+        by_k = {(int((G.ts_of_et(day, b["start"].time()) - ots) // 300)): b for b in bars}
+        rng = [by_k[k]["c"] for k in range(n_range) if k in by_k]
+        if not rng:
             cands.add(sym)
+            continue
+        top = max(rng)
+        for k in range(first, last):
+            b = by_k.get(k)
+            if b is None or b["c"] >= top:
+                cands.add(sym)
+                break
     return cands
 
 
@@ -153,7 +166,7 @@ def main():
             if len(series) < 0.5 * len(universe):
                 errors.append("Yahoo sent 5-minute data for only %d of %d stocks" % (len(series), len(universe)))
             done = set(ds.get("triggered") or []) if ds.get("date") == day.isoformat() else set()
-            cands = stage1_candidates(series, day, upto, cfg, done) if upto > ots else set()
+            cands = stage1_candidates(series, day, after, upto, cfg, done) if upto > ots else set()
             need = set(cands) | {cfg["benchmark"]}
             for k in ("position", "pending"):
                 if ds.get(k) and ds.get("date") == day.isoformat():
@@ -175,6 +188,7 @@ def main():
             dts = [c.get("data_time") for c in charts.values() if c.get("data_time")]
             health["yahoo_time"] = max(dts) if dts else None
             health["candidates"] = len(cands)
+            health["charts_fetched"] = len(charts)
             before = (acct.get("day_state") or {}).get("last_bar_end")
             if not errors or upto <= ots:
                 G.run_day(acct, day, maps, prev, cfg, upto, now_wall=now)
