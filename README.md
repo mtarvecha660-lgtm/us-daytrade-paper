@@ -43,11 +43,14 @@ fill. All settings: [`config.json`](config.json), frozen by EVALUATION.md.
 ## How it runs (free, on GitHub Actions)
 `.github/workflows/tick.yml` runs `live/tick.py` every ~5 minutes on weekdays during US hours, commits the state in
 `live/state/` and `docs/data/latest.json`, and republishes `docs/` to GitHub Pages.
-- GitHub's cron is unreliable on new repos (it never fired on the sister BTC repo), so each run also starts the next
-  one itself (`workflow_dispatch`): ~5 minutes later in market hours, unless GitHub's own schedule ran in the last
-  12 minutes. Outside market hours (nights, weekends, NYSE holidays from the skill's calendar) a run sleeps up to
-  5.5 hours and hands over until 5 minutes before the next open. Only one chain can exist: a run that sees another
-  waiting run stops.
+- **The chain (never depends on cron).** GitHub's cron is unreliable: it never fired on the sister BTC repo, and there
+  a single stray cron run once switched the backup off for 2.5 hours. So every run starts the next one itself with
+  `workflow_dispatch`: ~5 minutes after it began during market hours. Outside market hours (nights, weekends, NYSE
+  holidays from the skill's calendar) a run sleeps up to 5.5 hours (GitHub's job limit is 6) toward 5 minutes before
+  the next open, then starts the next run, which sleeps again if the open is still far; that is how it wakes up every
+  morning with no cron. Right before dispatching, a run checks whether a NEWER run of this workflow is already queued
+  or running (for example a cron run waiting behind it); if so, that run carries the chain, so there is only ever
+  one chain. A finished or cancelled cron run never switches it off. The cron line stays as a free extra.
 - **Health:** a failed tick (crash, Yahoo data missing for most stocks or for the held stock) exits 1 and turns the
   run red. `latest.json` has a `health` block; the dashboard shows a red banner if the last run failed or if there was
   no update for 20 minutes while the market is open, and an amber dot when Yahoo's data runs over 15 minutes behind.
