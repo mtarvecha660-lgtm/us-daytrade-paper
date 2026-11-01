@@ -1,4 +1,4 @@
-"""How long the backup ticker should wait before starting the next run (used by the workflow).
+"""How long the chain step should wait before starting the next run (used by the workflow).
 
 Prints JSON: {"mode": "market"|"off-hours", "wait": seconds, "next_open_utc": ...}
   market:    during 9:20 AM-4:15 PM ET on a trading day -> next run ~5 minutes after this one began
