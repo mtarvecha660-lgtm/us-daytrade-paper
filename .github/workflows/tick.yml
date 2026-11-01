@@ -74,12 +74,17 @@ jobs:
         continue-on-error: true
         uses: actions/deploy-pages@v5
 
-      # Backup ticker. GitHub's cron can start late, skip runs, or (on a new repo) not start for hours; it never
-      # fired on the sister BTC repo. So each run starts the next one itself:
-      #   market hours: ~5 min after this run began, unless GitHub's own schedule ran in the last 12 minutes;
-      #   off hours:    sleeps (up to 5.5 h a run) until 5 min before the next NYSE open, then starts the next run.
-      # If another run is already waiting, this one does nothing, so there is only ever one chain.
-      - name: Backup ticker (sleeps outside market hours)
+      # The chain. GitHub's cron is unreliable (it never fired on the sister BTC repo, and a single stray cron run once
+      # switched that repo's backup off for 2.5 h), so the bot NEVER depends on cron; cron above is only a bonus.
+      # Each run starts the next one itself (workflow_dispatch):
+      #   market hours: ~5 min after this run began;
+      #   off hours:    this run sleeps (at most 5.5 h, under GitHub's 6 h job limit) toward 5 min before the next
+      #                 NYSE open (skill calendar: weekends and holidays included), then starts the next run, which
+      #                 sleeps again if the open is still far. That is how it restarts every morning without cron.
+      # Just before dispatching it checks whether ANOTHER run of this workflow created after this run began is still
+      # queued or in progress (e.g. a cron run waiting behind this one): if so, that run carries the chain and this
+      # one stops, so there is only ever one chain. A finished or cancelled cron run never switches the chain off.
+      - name: Chain - start the next run (sleeps outside market hours)
         if: always()
         continue-on-error: true
         env:
@@ -89,17 +94,13 @@ jobs:
           plan=$(python live/schedule.py); echo "$plan"
           mode=$(echo "$plan" | python -c 'import json,sys;print(json.load(sys.stdin)["mode"])')
           wait_s=$(echo "$plan" | python -c 'import json,sys;print(json.load(sys.stdin)["wait"])')
-          others() { gh run list -R "$GITHUB_REPOSITORY" --workflow tick.yml --limit 20 --json databaseId,status \
-                       -q "[.[] | select(.databaseId != ${GITHUB_RUN_ID} and (.status==\"queued\" or .status==\"pending\" or .status==\"waiting\" or .status==\"requested\" or .status==\"in_progress\"))] | length" 2>/dev/null || echo 0; }
-          if [ "$(others)" != "0" ]; then echo "another run is already waiting; it continues the chain"; exit 0; fi
-          if [ "$mode" = "market" ]; then
-            last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow tick.yml --event schedule --limit 1 --json createdAt -q '.[0].createdAt' 2>/dev/null || true)
-            if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 720 ]; then
-              echo "GitHub's schedule is running (last scheduled run $last); no backup needed"; exit 0
-            fi
-          fi
+          me_created=$(gh run view "$GITHUB_RUN_ID" -R "$GITHUB_REPOSITORY" --json createdAt -q .createdAt 2>/dev/null || date -u -d "@$TICK_START" +%Y-%m-%dT%H:%M:%SZ)
           echo "mode=$mode: waiting ${wait_s}s"; sleep "$wait_s"
-          if [ "$(others)" != "0" ]; then echo "another run started while I waited; it continues the chain"; exit 0; fi
-          gh workflow run tick.yml -R "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME"
-          echo "started the next run"
-
+          alive=$(gh run list -R "$GITHUB_REPOSITORY" --workflow tick.yml --limit 30 --json databaseId,status,createdAt \
+            -q "[.[] | select(.databaseId != ${GITHUB_RUN_ID} and .createdAt > \"${me_created}\" and (.status==\"queued\" or .status==\"pending\" or .status==\"waiting\" or .status==\"requested\" or .status==\"in_progress\"))] | length" 2>/dev/null || echo 0)
+          if [ "${alive:-0}" != "0" ]; then echo "$alive newer run(s) already queued/running; they carry the chain"; exit 0; fi
+          for i in 1 2 3; do
+            gh workflow run tick.yml -R "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" && { echo "started the next run"; exit 0; }
+            sleep $((i * 10))
+          done
+          echo "could not start the next run"; exit 1
