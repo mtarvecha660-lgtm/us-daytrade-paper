@@ -23,14 +23,17 @@ def main():
     from daytrade import engine as G
     from daytrade.skills import entry as E, scan as SC
     memo = {}
+    calls, per_tick = [], []
     real_e, real_s = E.yahoo_get, SC.yahoo_get
 
     def m_e(path):
+        calls.append(path)
         if path not in memo:
             memo[path] = real_e(path)
         return memo[path]
 
     def m_s(path):
+        calls.append(path)
         if path not in memo:
             memo[path] = real_s(path)
         return memo[path]
@@ -44,7 +47,9 @@ def main():
     codes = []
     while t <= cts + 15 * 60:
         os.environ["TICK_NOW"] = str(t + 70)
+        n0 = len(calls)
         codes.append((G.clock(t + 70), tick.main()))
+        per_tick.append(len(calls) - n0)
         t += a.every * 60
     st = json.load(open(os.path.join(scratch, "state", "account.json")))
     latest = json.load(open(os.path.join(scratch, "data", "latest.json")))
@@ -75,7 +80,7 @@ def main():
            "live_hits": len(st["day_state"].get("hits", [])),
            "backtest_hits": len((acct.get("day_state") or {}).get("hits", [])), "equity": latest["account"],
            "spy": latest["spy"], "next_move": latest["next_move"], "hits_today": latest["today"]["n_hits"],
-           "requests": len(memo), "scratch": scratch}
+           "requests": len(memo), "yahoo_requests_per_tick_max": max(per_tick), "yahoo_requests_per_tick_avg": round(sum(per_tick) / len(per_tick), 1), "scratch": scratch}
     print(json.dumps(out, indent=1, default=str))
     return 0 if out["match"] and out["live_hits"] == out["backtest_hits"] and out["exit_codes"] == [0] else 1
 
