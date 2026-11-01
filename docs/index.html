@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>US Day-Trade Paper Bot · Live</title>
+<meta name="description" content="The day-trader skill's opening-range breakout on US stocks, $10,000 virtual, vs just holding SPY. Paper money only.">
+<meta property="og:title" content="US Day-Trade Paper Bot · Live">
+<meta property="og:description" content="Opening-range breakouts on 233 US stocks, $10,000 virtual, vs just holding SPY. Paper only.">
+<meta name="theme-color" content="#f6f5f1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>$</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner" role="note"><strong>PAPER TRADING</strong> · virtual money only, no broker, no real orders</div>
+<div id="stale" class="stale" role="alert" hidden></div>
+<main>
+  <header class="top">
+    <h1>US Day-Trade Paper Bot</h1>
+    <p class="sub">The day-trader skill’s opening-range breakout on <b>234</b> US stocks · <b>$10,000</b> virtual · vs just holding SPY</p>
+  </header>
+
+  <section class="pricebar" aria-live="polite">
+    <div class="price"><span class="lbl">MARKET</span> <span id="phase">…</span></div>
+    <div class="upd"><span id="dot" class="dot"></span><span id="updated">loading…</span></div>
+  </section>
+
+  <div class="next"><div class="lbl">The bot’s next move</div><div id="nextmove">…</div></div>
+
+  <section id="cards" class="cards" style="margin-top:12px"></section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Open position</h2><span class="hint" id="poshint"></span></div>
+    <div id="position"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Account value vs SPY</h2><span class="hint">$, since start</span></div>
+    <div class="chartwrap"><canvas id="chart" aria-label="Bot equity vs SPY buy-and-hold"></canvas></div>
+    <div class="legend"><span><i class="swatch" style="background:#2f5d8a"></i>Bot</span><span><i class="swatch" style="background:#9a9a9a"></i>Just hold SPY</span></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Scorecard</h2><span class="hint" id="scorehint"></span></div>
+    <div id="stats" class="statgrid"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Today’s scan hits</h2><span class="hint" id="hitshint"></span></div>
+    <div id="hits" class="hits"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Trade log</h2><span class="hint" id="tradecount"></span></div>
+    <div id="trades" class="trades"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Decisions</h2><span class="hint">newest first</span></div>
+    <div id="decisions"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h"><h2>Bot runs</h2><span class="hint" id="tickhint"></span></div>
+    <div id="ticks" class="ticks"></div>
+  </section>
+
+  <section class="panel about">
+    <h2>How it works</h2>
+    <ul>
+      <li>During US market hours (9:30 AM–4:00 PM ET = 8:00 PM–2:30 AM IST) GitHub runs the bot about every 5 minutes. It reads free Yahoo 5-minute bars. No broker, no keys, no real orders.</li>
+      <li><b>Scanner:</b> each stock’s opening range is its 9:30–9:45 AM high and low. A hit is the first 5-minute bar that <b>closes</b> above the range high (from 9:50 AM, no new entries after 3:30 PM).</li>
+      <li><b>Entry:</b> on a fresh hit the bot buys at the next bar’s open, most-traded stock first, one trade at a time, max 3 a day.</li>
+      <li><b>Exit plan:</b> stop at the middle of the opening range, target 1R (as far above the entry as the stop is below), and always sold by 3:55 PM ET.</li>
+      <li><b>Size & risk:</b> the skill’s own limits for a $10,000 account: max $100 loss a trade (1%), $300 a day (3%), 75% max in one stock, 10% always in cash, whole shares.</li>
+      <li><b>Costs:</b> no commission (like zero-commission US brokers), but every market order pays slippage of 2 bps (min 1 cent) a share.</li>
+      <li><b>Data delay:</b> the bot only uses bars that closed at least a minute ago, so it acts 1–6 minutes behind the market, plus however late GitHub starts the run.</li>
+      <li><b>R</b> = the trade’s result divided by its planned risk (+1R = target hit, −1R = stopped out). The rules are frozen in <a href="https://github.com/mtarvecha660-lgtm/us-daytrade-paper/blob/main/EVALUATION.md">EVALUATION.md</a>; backtest in <a href="https://github.com/mtarvecha660-lgtm/us-daytrade-paper/blob/main/RESULTS.md">RESULTS.md</a>.</li>
+    </ul>
+    <p class="fine">Paper results don’t predict real results; most day traders lose money. Not financial advice. <a href="https://github.com/mtarvecha660-lgtm/us-daytrade-paper">Code & raw data on GitHub</a></p>
+  </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

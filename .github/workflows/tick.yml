@@ -1,0 +1,105 @@
+name: tick
+
+# Runs the US day-trade PAPER bot (virtual money only, no broker, no orders) about every 5 minutes during US
+# market hours (9:30 AM-4:00 PM ET = 8:00 PM-2:30 AM IST in winter), commits the account's state and
+# republishes the dashboard on GitHub Pages.
+# Stop it any time: Actions tab -> tick -> "..." -> Disable workflow.
+
+on:
+  schedule:
+    # every 5 min, weekdays 13:00-21:59 UTC (covers 9:30-16:00 ET in both winter and summer time).
+    # The bot itself checks the NYSE calendar, so holidays and pre-/after-hours runs do nothing.
+    - cron: "2-57/5 13-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write     # commit the paper account's state
+  actions: write      # the backup ticker starts the next run
+  pages: write        # publish the dashboard
+  id-token: write
+
+concurrency:
+  group: tick         # never two ticks at once; a new one waits for the running one
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Note start time
+        run: echo "TICK_START=$(date +%s)" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Paper tick (virtual money)
+        id: tick
+        run: python live/tick.py
+
+      - name: Commit paper state
+        if: always()      # commit what succeeded even when the tick failed
+        run: |
+          git config user.name  "paper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add live/state docs/data
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "paper tick $(date -u +'%Y-%m-%d %H:%M') UTC [skip ci]"
+          for i in 1 2 3; do
+            git pull -q --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push failed, retrying ($i)"; sleep $((i * 5))
+          done
+          exit 1
+
+      - uses: actions/configure-pages@v6
+        if: always()
+        continue-on-error: true   # a dashboard hiccup never stops the bot
+
+      - uses: actions/upload-pages-artifact@v5
+        if: always()
+        continue-on-error: true
+        with:
+          path: docs
+
+      - id: deploy
+        if: always()
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      # Backup ticker. GitHub's cron can start late, skip runs, or (on a new repo) not start for hours; it never
+      # fired on the sister BTC repo. So each run starts the next one itself:
+      #   market hours: ~5 min after this run began, unless GitHub's own schedule ran in the last 12 minutes;
+      #   off hours:    sleeps (up to 5.5 h a run) until 5 min before the next NYSE open, then starts the next run.
+      # If another run is already waiting, this one does nothing, so there is only ever one chain.
+      - name: Backup ticker (sleeps outside market hours)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -u
+          plan=$(python live/schedule.py); echo "$plan"
+          mode=$(echo "$plan" | python -c 'import json,sys;print(json.load(sys.stdin)["mode"])')
+          wait_s=$(echo "$plan" | python -c 'import json,sys;print(json.load(sys.stdin)["wait"])')
+          others() { gh run list -R "$GITHUB_REPOSITORY" --workflow tick.yml --limit 20 --json databaseId,status \
+                       -q "[.[] | select(.databaseId != ${GITHUB_RUN_ID} and (.status==\"queued\" or .status==\"pending\" or .status==\"waiting\" or .status==\"requested\" or .status==\"in_progress\"))] | length" 2>/dev/null || echo 0; }
+          if [ "$(others)" != "0" ]; then echo "another run is already waiting; it continues the chain"; exit 0; fi
+          if [ "$mode" = "market" ]; then
+            last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow tick.yml --event schedule --limit 1 --json createdAt -q '.[0].createdAt' 2>/dev/null || true)
+            if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 720 ]; then
+              echo "GitHub's schedule is running (last scheduled run $last); no backup needed"; exit 0
+            fi
+          fi
+          echo "mode=$mode: waiting ${wait_s}s"; sleep "$wait_s"
+          if [ "$(others)" != "0" ]; then echo "another run started while I waited; it continues the chain"; exit 0; fi
+          gh workflow run tick.yml -R "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME"
+          echo "started the next run"
+
