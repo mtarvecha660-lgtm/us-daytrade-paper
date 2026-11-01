@@ -1,0 +1,105 @@
+{
+ "updated": 1793559735,
+ "updated_et": "2026-11-01 14:02 ET",
+ "phase": "closed",
+ "paper": true,
+ "version": "orb-v1",
+ "account": {
+  "start": 10000,
+  "cash": 10000.0,
+  "equity": 10000.0,
+  "return": 0.0,
+  "started": 1793559735
+ },
+ "spy": {
+  "value": null,
+  "return": null,
+  "start_price": null,
+  "last": null
+ },
+ "position": null,
+ "pending": null,
+ "today": {
+  "date": null,
+  "hits": [],
+  "n_hits": 0,
+  "entries": 0,
+  "max_trades": 3
+ },
+ "next_move": "Market closed. Next open: Mon Nov 2, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
+ "stats": {
+  "trades": 0
+ },
+ "curve": {
+  "return": 0.0,
+  "max_drawdown": 0.0,
+  "sharpe": null,
+  "sortino": null,
+  "days": 1
+ },
+ "spy_curve": {
+  "return": 0.0,
+  "max_drawdown": 0.0,
+  "sharpe": null,
+  "sortino": null,
+  "days": 1
+ },
+ "intraday_max_drawdown": 0.0,
+ "trades": [],
+ "decisions": [],
+ "equity": [],
+ "daily": [],
+ "runs": [
+  {
+   "ts": 1793559735,
+   "phase": "closed",
+   "status": "ok",
+   "bars": 0,
+   "secs": 0.0,
+   "errors": [],
+   "run_id": "41339641052",
+   "event": "workflow_dispatch"
+  }
+ ],
+ "health": {
+  "tick_at": 1793559735,
+  "data_ok": null,
+  "data_failed": 0,
+  "yahoo_time": null,
+  "ok": true,
+  "errors": [],
+  "stale_data": false,
+  "yahoo_lag_min": null,
+  "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
+ },
+ "config": {
+  "target_r": 1.0,
+  "slippage_bps": 2.0,
+  "slippage_min_usd": 0.01,
+  "or_minutes": 15
+ },
+ "skill_limits": {
+  "budget": 10000,
+  "cash_buffer_pct": 10,
+  "max_position_pct": 75,
+  "max_order_usd": 8000,
+  "min_order_usd": 5,
+  "max_loss_per_trade_usd": 100,
+  "max_daily_loss_usd": 300,
+  "max_trades_per_day": 3,
+  "max_orders_per_day": 10,
+  "min_reward_risk": 1.0,
+  "require_stop": true,
+  "no_entries_before": "09:45",
+  "no_entries_after": "15:30",
+  "flat_by": "15:55",
+  "fractional": false,
+  "broker": "alpaca",
+  "paper": true,
+  "blocked": [],
+  "allow_options": false,
+  "allow_margin": false,
+  "allow_short": false,
+  "pdt_guard": false
+ }
+}

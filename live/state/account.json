@@ -1,0 +1,17 @@
+{
+ "cash": 10000.0,
+ "start_cash": 10000.0,
+ "started": 1793559735,
+ "day": null,
+ "trades": [],
+ "decisions": [],
+ "equity": [],
+ "day_state": null,
+ "spy": {
+  "shares": null,
+  "start_ts": null,
+  "start_price": null,
+  "last": null
+ },
+ "seen_trades": 0
+}
