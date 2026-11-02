@@ -1,21 +1,21 @@
 {
- "updated": 1793633351,
- "updated_et": "2026-11-02 10:29 ET",
+ "updated": 1793633668,
+ "updated_et": "2026-11-02 10:34 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10036.17,
-  "return": 0.0036169999999999813,
+  "equity": 10050.31,
+  "return": 0.005031000000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 10048.25,
-  "return": 0.004825000000000079,
+  "value": 10050.69,
+  "return": 0.00506899999999999,
   "start_price": 759.47998046875,
-  "last": 763.4498901367188
+  "last": 763.635009765625
  },
  "position": {
   "symbol": "AMZN",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "WFC",
-    "at": "09:50",
-    "price": 84.8,
-    "or_high": 84.71,
-    "or_low": 84.1,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "Z",
-    "at": "09:50",
-    "price": 32.78,
-    "or_high": 32.74,
-    "or_low": 31.35,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "ZTS",
-    "at": "09:50",
-    "price": 81.82,
-    "or_high": 81.67,
-    "or_low": 79.89,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "AAL",
-    "at": "09:55",
-    "price": 13.27,
-    "or_high": 13.25,
-    "or_low": 12.96,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "ABT",
-    "at": "09:55",
-    "price": 108.72,
-    "or_high": 108.47,
-    "or_low": 106.4,
-    "pct_over": 0.23
-   },
    {
     "symbol": "BSX",
     "at": "09:55",
@@ -516,9 +476,49 @@
     "or_high": 12.84,
     "or_low": 12.09,
     "pct_over": 0.47
+   },
+   {
+    "symbol": "COF",
+    "at": "10:30",
+    "price": 211.44,
+    "or_high": 211.1,
+    "or_low": 207.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:30",
+    "price": 529.07,
+    "or_high": 528.48,
+    "or_low": 520.5,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:30",
+    "price": 89.16,
+    "or_high": 89.14,
+    "or_low": 88.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TER",
+    "at": "10:30",
+    "price": 275.55,
+    "or_high": 274.34,
+    "or_low": 269.23,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:30",
+    "price": 410.79,
+    "or_high": 410.45,
+    "or_low": 403.5,
+    "pct_over": 0.08
    }
   ],
-  "n_hits": 107,
+  "n_hits": 112,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,19 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793633400,
+   "et": "2026-11-02 10:30",
+   "kind": "busy",
+   "text": "5 more breakouts (COF, MSFT, SCHW, TER, TSLA) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "COF",
+    "MSFT",
+    "SCHW",
+    "TER",
+    "TSLA"
+   ]
+  },
   {
    "ts": 1793633100,
    "et": "2026-11-02 10:25",
@@ -789,10 +802,25 @@
    "ts": 1793633351,
    "equity": 10036.17,
    "spy": 10048.25
+  },
+  {
+   "ts": 1793633668,
+   "equity": 10050.31,
+   "spy": 10050.69
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793633668,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 24.3,
+   "errors": [],
+   "run_id": "41472866027",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793633351,
    "phase": "open",
@@ -965,10 +993,10 @@
   }
  ],
  "health": {
-  "tick_at": 1793633351,
+  "tick_at": 1793633668,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793633374,
+  "yahoo_time": 1793633690,
   "candidates": 61,
   "charts_fetched": 63,
   "ok": true,

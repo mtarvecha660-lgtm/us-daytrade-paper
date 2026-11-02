@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793633100,
+  "last_bar_end": 1793633400,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 107,
+  "triggers_seen": 112,
   "missed": [
    "AAL",
    "ABT",
@@ -117,7 +117,12 @@
    "NCLH",
    "NVDA",
    "PLTR",
-   "RIOT"
+   "RIOT",
+   "COF",
+   "MSFT",
+   "SCHW",
+   "TER",
+   "TSLA"
   ],
   "triggered": [
    "ABNB",
@@ -226,7 +231,12 @@
    "NCLH",
    "NVDA",
    "PLTR",
-   "RIOT"
+   "RIOT",
+   "COF",
+   "MSFT",
+   "SCHW",
+   "TER",
+   "TSLA"
   ],
   "hits": [
    {
@@ -1084,6 +1094,46 @@
     "or_high": 12.84,
     "or_low": 12.09,
     "pct_over": 0.47
+   },
+   {
+    "symbol": "COF",
+    "at": "10:30",
+    "price": 211.44,
+    "or_high": 211.1,
+    "or_low": 207.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:30",
+    "price": 529.07,
+    "or_high": 528.48,
+    "or_low": 520.5,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:30",
+    "price": 89.16,
+    "or_high": 89.14,
+    "or_low": 88.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TER",
+    "at": "10:30",
+    "price": 275.55,
+    "or_high": 274.34,
+    "or_low": 269.23,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:30",
+    "price": 410.79,
+    "or_high": 410.45,
+    "or_low": 403.5,
+    "pct_over": 0.08
    }
   ]
  },
@@ -1091,8 +1141,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 763.4498901367188,
-  "last_ts": 1793633100
+  "last": 763.635009765625,
+  "last_ts": 1793633400
  },
  "seen_trades": 0
 }
