@@ -1,6 +1,6 @@
 {
- "updated": 1793630802,
- "updated_et": "2026-11-02 09:46 ET",
+ "updated": 1793631119,
+ "updated_et": "2026-11-02 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,447 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 10001.4,
-  "return": 0.000140000000000029,
+  "value": 10008.11,
+  "return": 0.0008110000000001172,
   "start_price": 759.47998046875,
-  "last": 759.8900146484375
+  "last": 760.4000244140625
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "AMZN",
+  "qty": 23,
+  "plan": {
+   "symbol": "AMZN",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-02",
+   "entry_time": "9:50 AM",
+   "entry": 250.51,
+   "stop": 246.33,
+   "target": 254.69,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "AMZN: the 09:45 bar closed at $250.51, above the 15-min opening range high $250.39 (range 242.28-250.39)",
+   "exit": "plan: entry $250.51, stop $246.33 (opening-range midpoint), target $254.69 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
+   "risk": "trader-risk PASS: entry 250.51 (the latest price), stop 246.33, target 254.69: risk 4.18 a share; max loss $96.14 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1793631000,
+  "late": false
+ },
  "today": {
   "date": "2026-11-02",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "ABNB",
+    "at": "09:50",
+    "price": 170.88,
+    "or_high": 170.05,
+    "or_low": 166.51,
+    "pct_over": 0.49
+   },
+   {
+    "symbol": "ADI",
+    "at": "09:50",
+    "price": 427.15,
+    "or_high": 426.91,
+    "or_low": 421.15,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "AFRM",
+    "at": "09:50",
+    "price": 76.38,
+    "or_high": 76.0,
+    "or_low": 74.24,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "AMZN",
+    "at": "09:50",
+    "price": 250.51,
+    "or_high": 250.39,
+    "or_low": 242.28,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "APP",
+    "at": "09:50",
+    "price": 236.55,
+    "or_high": 235.48,
+    "or_low": 230.59,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "AXP",
+    "at": "09:50",
+    "price": 327.23,
+    "or_high": 326.77,
+    "or_low": 323.05,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "BABA",
+    "at": "09:50",
+    "price": 103.58,
+    "or_high": 103.45,
+    "or_low": 101.94,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "BKNG",
+    "at": "09:50",
+    "price": 153.63,
+    "or_high": 152.74,
+    "or_low": 149.81,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "C",
+    "at": "09:50",
+    "price": 124.13,
+    "or_high": 123.82,
+    "or_low": 122.72,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "CCL",
+    "at": "09:50",
+    "price": 30.0,
+    "or_high": 29.95,
+    "or_low": 29.63,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "CHPT",
+    "at": "09:50",
+    "price": 10.25,
+    "or_high": 10.02,
+    "or_low": 9.73,
+    "pct_over": 2.28
+   },
+   {
+    "symbol": "CHWY",
+    "at": "09:50",
+    "price": 22.02,
+    "or_high": 21.88,
+    "or_low": 21.15,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "CMG",
+    "at": "09:50",
+    "price": 33.34,
+    "or_high": 33.21,
+    "or_low": 31.9,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:50",
+    "price": 185.58,
+    "or_high": 184.53,
+    "or_low": 177.0,
+    "pct_over": 0.57
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:50",
+    "price": 113.19,
+    "or_high": 113.01,
+    "or_low": 111.77,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "DPZ",
+    "at": "09:50",
+    "price": 323.05,
+    "or_high": 321.35,
+    "or_low": 315.08,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "DUOL",
+    "at": "09:50",
+    "price": 134.3,
+    "or_high": 134.28,
+    "or_low": 131.17,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DXCM",
+    "at": "09:50",
+    "price": 84.1,
+    "or_high": 83.99,
+    "or_low": 82.58,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "ETSY",
+    "at": "09:50",
+    "price": 93.82,
+    "or_high": 92.7,
+    "or_low": 90.02,
+    "pct_over": 1.21
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 297.8,
+    "or_high": 295.71,
+    "or_low": 289.17,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "GE",
+    "at": "09:50",
+    "price": 314.49,
+    "or_high": 312.5,
+    "or_low": 308.17,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "GS",
+    "at": "09:50",
+    "price": 914.04,
+    "or_high": 910.7,
+    "or_low": 903.0,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "HMC",
+    "at": "09:50",
+    "price": 34.37,
+    "or_high": 34.3,
+    "or_low": 34.13,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "HON",
+    "at": "09:50",
+    "price": 223.71,
+    "or_high": 223.15,
+    "or_low": 221.4,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "JPM",
+    "at": "09:50",
+    "price": 341.92,
+    "or_high": 341.51,
+    "or_low": 339.92,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "KKR",
+    "at": "09:50",
+    "price": 97.07,
+    "or_high": 96.82,
+    "or_low": 95.22,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 16.73,
+    "or_high": 16.66,
+    "or_low": 16.23,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "MA",
+    "at": "09:50",
+    "price": 651.49,
+    "or_high": 650.81,
+    "or_low": 638.25,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "MELI",
+    "at": "09:50",
+    "price": 1684.53,
+    "or_high": 1676.12,
+    "or_low": 1631.0,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "MMM",
+    "at": "09:50",
+    "price": 177.8,
+    "or_high": 177.76,
+    "or_low": 175.96,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MS",
+    "at": "09:50",
+    "price": 187.45,
+    "or_high": 187.0,
+    "or_low": 185.71,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "NU",
+    "at": "09:50",
+    "price": 11.82,
+    "or_high": 11.82,
+    "or_low": 11.59,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ON",
+    "at": "09:50",
+    "price": 73.24,
+    "or_high": 72.89,
+    "or_low": 71.55,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "PEP",
+    "at": "09:50",
+    "price": 139.64,
+    "or_high": 139.63,
+    "or_low": 137.92,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PNC",
+    "at": "09:50",
+    "price": 231.32,
+    "or_high": 231.24,
+    "or_low": 229.44,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RCL",
+    "at": "09:50",
+    "price": 320.34,
+    "or_high": 318.45,
+    "or_low": 314.32,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "RTX",
+    "at": "09:50",
+    "price": 201.53,
+    "or_high": 201.24,
+    "or_low": 200.12,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SE",
+    "at": "09:50",
+    "price": 76.95,
+    "or_high": 76.69,
+    "or_low": 75.05,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "SOFI",
+    "at": "09:50",
+    "price": 17.15,
+    "or_high": 17.1,
+    "or_low": 16.8,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:50",
+    "price": 591.9,
+    "or_high": 591.08,
+    "or_low": 581.28,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:50",
+    "price": 89.04,
+    "or_high": 89.0,
+    "or_low": 87.9,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SYK",
+    "at": "09:50",
+    "price": 296.46,
+    "or_high": 296.36,
+    "or_low": 293.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 33.4,
+    "or_high": 33.38,
+    "or_low": 32.12,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:50",
+    "price": 12.7,
+    "or_high": 12.67,
+    "or_low": 12.38,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "UBER",
+    "at": "09:50",
+    "price": 66.99,
+    "or_high": 66.79,
+    "or_low": 65.55,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "USB",
+    "at": "09:50",
+    "price": 60.25,
+    "or_high": 60.24,
+    "or_low": 59.85,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "V",
+    "at": "09:50",
+    "price": 421.19,
+    "or_high": 420.71,
+    "or_low": 414.37,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "WFC",
+    "at": "09:50",
+    "price": 84.8,
+    "or_high": 84.71,
+    "or_low": 84.1,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "Z",
+    "at": "09:50",
+    "price": 32.78,
+    "or_high": 32.74,
+    "or_low": 31.35,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "ZTS",
+    "at": "09:50",
+    "price": 81.82,
+    "or_high": 81.67,
+    "or_low": 79.89,
+    "pct_over": 0.18
+   }
+  ],
+  "n_hits": 50,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 23 AMZN at the next bar's open (signal at 09:50 ET). Then: stop $246.33, target $254.69.",
  "stats": {
   "trades": 0
  },
@@ -46,7 +472,73 @@
  },
  "intraday_max_drawdown": 0.0,
  "trades": [],
- "decisions": [],
+ "decisions": [
+  {
+   "ts": 1793631000,
+   "et": "2026-11-02 09:50",
+   "kind": "order",
+   "text": "BUY 23 AMZN at market (decided on the 09:50 close). opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
+   "symbol": "AMZN",
+   "why": {
+    "scanner": "AMZN: the 09:45 bar closed at $250.51, above the 15-min opening range high $250.39 (range 242.28-250.39)",
+    "exit": "plan: entry $250.51, stop $246.33 (opening-range midpoint), target $254.69 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
+    "risk": "trader-risk PASS: entry 250.51 (the latest price), stop 246.33, target 254.69: risk 4.18 a share; max loss $96.14 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "BABA",
+    "V",
+    "ADI",
+    "MA",
+    "GE",
+    "UBER",
+    "MELI",
+    "GS",
+    "APP",
+    "BKNG",
+    "JPM",
+    "SYK",
+    "CCL",
+    "C",
+    "PEP",
+    "AXP",
+    "SPOT",
+    "SE",
+    "ABNB",
+    "SOFI",
+    "RCL",
+    "NU",
+    "DIS",
+    "CMG",
+    "WFC",
+    "ON",
+    "MS",
+    "RTX",
+    "DASH",
+    "TOST",
+    "ZTS",
+    "ETSY",
+    "AFRM",
+    "MMM",
+    "HON",
+    "EXPE",
+    "DXCM",
+    "USB",
+    "KKR",
+    "DPZ",
+    "PNC",
+    "TTD",
+    "SWKS",
+    "Z",
+    "CHWY",
+    "LYFT",
+    "DUOL",
+    "CHPT",
+    "HMC"
+   ]
+  }
+ ],
  "equity": [
   {
    "ts": 1793629840,
@@ -67,10 +559,25 @@
    "ts": 1793630802,
    "equity": 10000.0,
    "spy": 10001.4
+  },
+  {
+   "ts": 1793631119,
+   "equity": 10000.0,
+   "spy": 10008.11
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793631119,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 28.3,
+   "errors": [],
+   "run_id": "41465972780",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793630802,
    "phase": "open",
@@ -163,16 +670,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793630802,
+  "tick_at": 1793631119,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793630805,
-  "candidates": 1,
-  "charts_fetched": 2,
+  "yahoo_time": 1793631145,
+  "candidates": 101,
+  "charts_fetched": 102,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
