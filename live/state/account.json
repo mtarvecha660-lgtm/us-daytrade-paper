@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793646600,
+  "last_bar_end": 1793646900,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 132,
+  "triggers_seen": 133,
   "missed": [
    "AAL",
    "ABT",
@@ -142,7 +142,8 @@
    "DLTR",
    "DUK",
    "LLY",
-   "SHOP"
+   "SHOP",
+   "AEP"
   ],
   "triggered": [
    "ABNB",
@@ -276,7 +277,8 @@
    "DLTR",
    "DUK",
    "LLY",
-   "SHOP"
+   "SHOP",
+   "AEP"
   ],
   "hits": [
    {
@@ -1334,6 +1336,14 @@
     "or_high": 160.58,
     "or_low": 158.0,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "AEP",
+    "at": "14:15",
+    "price": 130.74,
+    "or_high": 130.66,
+    "or_low": 129.5,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1341,8 +1351,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.4000244140625,
-  "last_ts": 1793646600
+  "last": 756.5449829101562,
+  "last_ts": 1793646900
  },
  "seen_trades": 0
 }
