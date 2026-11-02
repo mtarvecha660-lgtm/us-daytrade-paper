@@ -1,21 +1,21 @@
 {
- "updated": 1793647301,
- "updated_et": "2026-11-02 14:21 ET",
+ "updated": 1793647615,
+ "updated_et": "2026-11-02 14:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9953.74,
-  "return": -0.004626000000000019,
+  "equity": 9943.07,
+  "return": -0.005693000000000059,
   "started": 1793559735
  },
  "spy": {
-  "value": 9946.51,
-  "return": -0.005348999999999937,
+  "value": 9935.85,
+  "return": -0.0064149999999999485,
   "start_price": 759.47998046875,
-  "last": 755.719970703125
+  "last": 754.9099731445312
  },
  "position": {
   "symbol": "AMZN",
@@ -540,7 +540,7 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": -0.011732630652974474,
+ "intraday_max_drawdown": -0.012792012637126482,
  "trades": [],
  "decisions": [
   {
@@ -1150,10 +1150,25 @@
    "ts": 1793647301,
    "equity": 9953.74,
    "spy": 9946.51
+  },
+  {
+   "ts": 1793647615,
+   "equity": 9943.07,
+   "spy": 9935.85
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793647615,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.2,
+   "errors": [],
+   "run_id": "41509989091",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793647301,
    "phase": "open",
@@ -1543,29 +1558,19 @@
    "errors": [],
    "run_id": "41476352112",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793634623,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.8,
-   "errors": [],
-   "run_id": "41475469348",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793647301,
+  "tick_at": 1793647615,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793647314,
-  "candidates": 23,
-  "charts_fetched": 25,
+  "yahoo_time": 1793647623,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
