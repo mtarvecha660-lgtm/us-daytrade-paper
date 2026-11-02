@@ -1,21 +1,21 @@
 {
- "updated": 1793634302,
- "updated_et": "2026-11-02 10:45 ET",
+ "updated": 1793634623,
+ "updated_et": "2026-11-02 10:50 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10051.69,
-  "return": 0.005168999999999979,
+  "equity": 10071.91,
+  "return": 0.0071909999999999474,
   "started": 1793559735
  },
  "spy": {
-  "value": 10036.8,
-  "return": 0.0036799999999999056,
+  "value": 10042.33,
+  "return": 0.004232999999999931,
   "start_price": 759.47998046875,
-  "last": 762.5800170898438
+  "last": 763.0
  },
  "position": {
   "symbol": "AMZN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "BSX",
-    "at": "09:55",
-    "price": 42.59,
-    "or_high": 42.46,
-    "or_low": 41.9,
-    "pct_over": 0.32
-   },
    {
     "symbol": "COST",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 410.45,
     "or_low": 403.5,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:45",
+    "price": 10.91,
+    "or_high": 10.9,
+    "or_low": 10.59,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 112,
+  "n_hits": 113,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,15 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793634300,
+   "et": "2026-11-02 10:45",
+   "kind": "busy",
+   "text": "1 more breakout (QBTS) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "QBTS"
+   ]
+  },
   {
    "ts": 1793633400,
    "et": "2026-11-02 10:30",
@@ -817,10 +826,25 @@
    "ts": 1793634302,
    "equity": 10051.69,
    "spy": 10036.8
+  },
+  {
+   "ts": 1793634623,
+   "equity": 10071.91,
+   "spy": 10042.33
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793634623,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.8,
+   "errors": [],
+   "run_id": "41475469348",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793634302,
    "phase": "open",
@@ -1023,16 +1047,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793634302,
+  "tick_at": 1793634623,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793634319,
-  "candidates": 44,
-  "charts_fetched": 46,
+  "yahoo_time": 1793634634,
+  "candidates": 45,
+  "charts_fetched": 47,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

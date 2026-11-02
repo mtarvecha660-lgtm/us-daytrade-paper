@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793634000,
+  "last_bar_end": 1793634300,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 112,
+  "triggers_seen": 113,
   "missed": [
    "AAL",
    "ABT",
@@ -122,7 +122,8 @@
    "MSFT",
    "SCHW",
    "TER",
-   "TSLA"
+   "TSLA",
+   "QBTS"
   ],
   "triggered": [
    "ABNB",
@@ -236,7 +237,8 @@
    "MSFT",
    "SCHW",
    "TER",
-   "TSLA"
+   "TSLA",
+   "QBTS"
   ],
   "hits": [
    {
@@ -1134,6 +1136,14 @@
     "or_high": 410.45,
     "or_low": 403.5,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:45",
+    "price": 10.91,
+    "or_high": 10.9,
+    "or_low": 10.59,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1141,8 +1151,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 762.5800170898438,
-  "last_ts": 1793634000
+  "last": 763.0,
+  "last_ts": 1793634300
  },
  "seen_trades": 0
 }
