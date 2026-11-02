@@ -1,21 +1,21 @@
 {
- "updated": 1793648241,
- "updated_et": "2026-11-02 14:37 ET",
+ "updated": 1793648645,
+ "updated_et": "2026-11-02 14:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9949.71,
-  "return": -0.005029000000000061,
+  "equity": 9936.26,
+  "return": -0.006373999999999991,
   "started": 1793559735
  },
  "spy": {
-  "value": 9935.19,
-  "return": -0.006480999999999959,
+  "value": 9925.32,
+  "return": -0.00746800000000003,
   "start_price": 759.47998046875,
-  "last": 754.8599853515625
+  "last": 754.1099853515625
  },
  "position": {
   "symbol": "AMZN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "RIVN",
-    "at": "10:05",
-    "price": 13.22,
-    "or_high": 13.1,
-    "or_low": 12.65,
-    "pct_over": 0.88
-   },
    {
     "symbol": "SNAP",
     "at": "10:05",
@@ -516,9 +508,17 @@
     "or_high": 130.66,
     "or_low": 129.5,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "ROST",
+    "at": "14:40",
+    "price": 230.46,
+    "or_high": 230.45,
+    "or_low": 225.3,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 133,
+  "n_hits": 134,
   "entries": 1,
   "max_trades": 3
  },
@@ -540,9 +540,18 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": -0.012792012637126482,
+ "intraday_max_drawdown": -0.013468150529541978,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793648400,
+   "et": "2026-11-02 14:40",
+   "kind": "busy",
+   "text": "1 more breakout (ROST) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "ROST"
+   ]
+  },
   {
    "ts": 1793646900,
    "et": "2026-11-02 14:15",
@@ -1165,10 +1174,25 @@
    "ts": 1793648241,
    "equity": 9949.71,
    "spy": 9935.19
+  },
+  {
+   "ts": 1793648645,
+   "equity": 9936.26,
+   "spy": 9925.32
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793648645,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.3,
+   "errors": [],
+   "run_id": "41512421936",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793648241,
    "phase": "open",
@@ -1558,29 +1582,19 @@
    "errors": [],
    "run_id": "41478993953",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793635579,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 19.4,
-   "errors": [],
-   "run_id": "41478112642",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793648241,
+  "tick_at": 1793648645,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793648249,
-  "candidates": 20,
-  "charts_fetched": 22,
+  "yahoo_time": 1793648657,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
