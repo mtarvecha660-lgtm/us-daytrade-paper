@@ -1,21 +1,21 @@
 {
- "updated": 1793648965,
- "updated_et": "2026-11-02 14:49 ET",
+ "updated": 1793649287,
+ "updated_et": "2026-11-02 14:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9940.4,
-  "return": -0.005960000000000076,
+  "equity": 9927.08,
+  "return": -0.007291999999999965,
   "started": 1793559735
  },
  "spy": {
-  "value": 9928.55,
-  "return": -0.007145000000000068,
+  "value": 9915.71,
+  "return": -0.00842900000000013,
   "start_price": 759.47998046875,
-  "last": 754.35498046875
+  "last": 753.3800048828125
  },
  "position": {
   "symbol": "AMZN",
@@ -540,7 +540,7 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": -0.013468150529541978,
+ "intraday_max_drawdown": -0.01437959632284247,
  "trades": [],
  "decisions": [
   {
@@ -1184,10 +1184,25 @@
    "ts": 1793648965,
    "equity": 9940.4,
    "spy": 9928.55
+  },
+  {
+   "ts": 1793649287,
+   "equity": 9927.08,
+   "spy": 9915.71
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793649287,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.0,
+   "errors": [],
+   "run_id": "41514266818",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793648965,
    "phase": "open",
@@ -1577,29 +1592,19 @@
    "errors": [],
    "run_id": "41480784420",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793636236,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.1,
-   "errors": [],
-   "run_id": "41479890348",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793648965,
+  "tick_at": 1793649287,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793648976,
+  "yahoo_time": 1793649296,
   "candidates": 24,
   "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
