@@ -1,33 +1,24 @@
 {
- "cash": 4237.0786,
+ "cash": 9901.5347,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
- "trades": [],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-02",
-  "last_bar_end": 1793651400,
-  "position": {
+ "trades": [
+  {
+   "date": "2026-11-02",
    "symbol": "AMZN",
    "qty": 23,
+   "entry_et": "09:50",
    "entry_fill": 250.5618,
-   "entry_ts": 1793631000,
-   "plan": {
-    "symbol": "AMZN",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-02",
-    "entry_time": "9:50 AM",
-    "entry": 250.51,
-    "stop": 246.33,
-    "target": 254.69,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 250.51170349121094
-   },
+   "exit_et": "15:35",
+   "exit_fill": 246.2807,
+   "exit_reason": "stop $246.33 hit",
+   "stop": 246.33,
+   "target": 254.69,
+   "pnl": -98.47,
+   "r": -1.024,
+   "risk_usd": 96.14,
+   "cost_usd": 2.29,
    "why": {
     "scanner": "AMZN: the 09:45 bar closed at $250.51, above the 15-min opening range high $250.39 (range 242.28-250.39)",
     "exit": "plan: entry $250.51, stop $246.33 (opening-range midpoint), target $254.69 (1R (one times the risk)), flat by 15:55 ET",
@@ -36,7 +27,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-02",
+  "last_bar_end": 1793651700,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -54,6 +52,14 @@
     "symbol": "AMZN",
     "side": "buy",
     "kind": "entry",
+    "qty": 23
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-02",
+    "symbol": "AMZN",
+    "side": "sell",
+    "kind": "exit",
     "qty": 23
    }
   ],
@@ -1361,8 +1367,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.2000122070312,
-  "last_ts": 1793651400
+  "last": 753.2100219726562,
+  "last_ts": 1793651700
  },
  "seen_trades": 0
 }

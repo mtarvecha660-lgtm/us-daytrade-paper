@@ -23,3 +23,4 @@
 {"ts": 1793643000, "et": "2026-11-02 13:10", "kind": "busy", "text": "2 more breakouts (LLY, SHOP) not taken: already in AMZN (one trade at a time)", "symbols": ["LLY", "SHOP"]}
 {"ts": 1793646900, "et": "2026-11-02 14:15", "kind": "busy", "text": "1 more breakout (AEP) not taken: already in AMZN (one trade at a time)", "symbols": ["AEP"]}
 {"ts": 1793648400, "et": "2026-11-02 14:40", "kind": "busy", "text": "1 more breakout (ROST) not taken: already in AMZN (one trade at a time)", "symbols": ["ROST"]}
+{"ts": 1793651700, "et": "2026-11-02 15:35", "kind": "exit", "text": "SELL 23 AMZN at $246.28: stop $246.33 hit. P&L $-98.47 (-1.02R)", "symbol": "AMZN"}
