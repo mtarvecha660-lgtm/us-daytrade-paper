@@ -1,100 +1,42 @@
 {
- "updated": 1793631119,
- "updated_et": "2026-11-02 09:51 ET",
+ "updated": 1793631433,
+ "updated_et": "2026-11-02 09:57 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 10000.0,
-  "equity": 10000.0,
-  "return": 0.0,
+  "cash": 4237.08,
+  "equity": 9986.62,
+  "return": -0.0013379999999999503,
   "started": 1793559735
  },
  "spy": {
-  "value": 10008.11,
-  "return": 0.0008110000000001172,
+  "value": 10005.87,
+  "return": 0.0005870000000001152,
   "start_price": 759.47998046875,
-  "last": 760.4000244140625
+  "last": 760.22998046875
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "AMZN",
   "qty": 23,
-  "plan": {
-   "symbol": "AMZN",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-02",
-   "entry_time": "9:50 AM",
-   "entry": 250.51,
-   "stop": 246.33,
-   "target": 254.69,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 250.5618,
+  "entry_et": "09:50",
+  "stop": 246.33,
+  "target": 254.69,
+  "last": null,
   "why": {
    "scanner": "AMZN: the 09:45 bar closed at $250.51, above the 15-min opening range high $250.39 (range 242.28-250.39)",
    "exit": "plan: entry $250.51, stop $246.33 (opening-range midpoint), target $254.69 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
    "risk": "trader-risk PASS: entry 250.51 (the latest price), stop 246.33, target 254.69: risk 4.18 a share; max loss $96.14 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793631000,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "ABNB",
-    "at": "09:50",
-    "price": 170.88,
-    "or_high": 170.05,
-    "or_low": 166.51,
-    "pct_over": 0.49
-   },
-   {
-    "symbol": "ADI",
-    "at": "09:50",
-    "price": 427.15,
-    "or_high": 426.91,
-    "or_low": 421.15,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "AFRM",
-    "at": "09:50",
-    "price": 76.38,
-    "or_high": 76.0,
-    "or_low": 74.24,
-    "pct_over": 0.5
-   },
-   {
-    "symbol": "AMZN",
-    "at": "09:50",
-    "price": 250.51,
-    "or_high": 250.39,
-    "or_low": 242.28,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "APP",
-    "at": "09:50",
-    "price": 236.55,
-    "or_high": 235.48,
-    "or_low": 230.59,
-    "pct_over": 0.46
-   },
-   {
-    "symbol": "AXP",
-    "at": "09:50",
-    "price": 327.23,
-    "or_high": 326.77,
-    "or_low": 323.05,
-    "pct_over": 0.14
-   },
    {
     "symbol": "BABA",
     "at": "09:50",
@@ -446,13 +388,141 @@
     "or_high": 81.67,
     "or_low": 79.89,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "AAL",
+    "at": "09:55",
+    "price": 13.27,
+    "or_high": 13.25,
+    "or_low": 12.96,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "ABT",
+    "at": "09:55",
+    "price": 108.72,
+    "or_high": 108.47,
+    "or_low": 106.4,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "BSX",
+    "at": "09:55",
+    "price": 42.59,
+    "or_high": 42.46,
+    "or_low": 41.9,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "COST",
+    "at": "09:55",
+    "price": 1029.3,
+    "or_high": 1026.47,
+    "or_low": 1014.34,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "D",
+    "at": "09:55",
+    "price": 66.72,
+    "or_high": 66.72,
+    "or_low": 66.31,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GM",
+    "at": "09:55",
+    "price": 89.13,
+    "or_high": 89.11,
+    "or_low": 87.92,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "IDXX",
+    "at": "09:55",
+    "price": 661.97,
+    "or_high": 656.83,
+    "or_low": 620.2,
+    "pct_over": 0.78
+   },
+   {
+    "symbol": "KO",
+    "at": "09:55",
+    "price": 95.02,
+    "or_high": 94.97,
+    "or_low": 94.28,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "LOW",
+    "at": "09:55",
+    "price": 214.87,
+    "or_high": 214.71,
+    "or_low": 212.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "MCD",
+    "at": "09:55",
+    "price": 264.02,
+    "or_high": 263.93,
+    "or_low": 259.75,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MDT",
+    "at": "09:55",
+    "price": 97.5,
+    "or_high": 97.33,
+    "or_low": 96.75,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PG",
+    "at": "09:55",
+    "price": 163.76,
+    "or_high": 163.47,
+    "or_low": 162.24,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:55",
+    "price": 19.78,
+    "or_high": 19.73,
+    "or_low": 19.12,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:55",
+    "price": 57.83,
+    "or_high": 57.75,
+    "or_low": 57.26,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "REGN",
+    "at": "09:55",
+    "price": 970.82,
+    "or_high": 959.0,
+    "or_low": 927.0,
+    "pct_over": 1.23
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:55",
+    "price": 125.85,
+    "or_high": 125.84,
+    "or_low": 124.14,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 50,
+  "n_hits": 66,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 23 AMZN at the next bar's open (signal at 09:50 ET). Then: stop $246.33, target $254.69.",
+ "next_move": "Holding 23 AMZN bought at $250.56. It sells at the stop $246.33, the target $254.69, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 0
  },
@@ -470,9 +540,40 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": 0.0,
+ "intraday_max_drawdown": -0.0013379999999999503,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793631300,
+   "et": "2026-11-02 09:55",
+   "kind": "busy",
+   "text": "16 more breakouts (AAL, ABT, BSX, COST, D, GM, IDXX, KO ...) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "AAL",
+    "ABT",
+    "BSX",
+    "COST",
+    "D",
+    "GM",
+    "IDXX",
+    "KO",
+    "LOW",
+    "MCD",
+    "MDT",
+    "PG",
+    "PINS",
+    "PYPL",
+    "REGN",
+    "WMT"
+   ]
+  },
+  {
+   "ts": 1793631000,
+   "et": "2026-11-02 09:50",
+   "kind": "fill",
+   "text": "BUY 23 AMZN filled at $250.56 (next bar's open $250.51 + slippage). Stop $246.33, target $254.69",
+   "symbol": "AMZN"
+  },
   {
    "ts": 1793631000,
    "et": "2026-11-02 09:50",
@@ -564,10 +665,25 @@
    "ts": 1793631119,
    "equity": 10000.0,
    "spy": 10008.11
+  },
+  {
+   "ts": 1793631433,
+   "equity": 9986.62,
+   "spy": 10005.87
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793631433,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 22.2,
+   "errors": [],
+   "run_id": "41466800514",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793631119,
    "phase": "open",
@@ -670,16 +786,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793631119,
+  "tick_at": 1793631433,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793631145,
-  "candidates": 101,
-  "charts_fetched": 102,
+  "yahoo_time": 1793631139,
+  "candidates": 57,
+  "charts_fetched": 59,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": 4.9,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
