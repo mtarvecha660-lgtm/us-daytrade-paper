@@ -1,21 +1,21 @@
 {
- "updated": 1793632717,
- "updated_et": "2026-11-02 10:18 ET",
+ "updated": 1793633032,
+ "updated_et": "2026-11-02 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10014.67,
-  "return": 0.001467000000000107,
+  "equity": 10034.85,
+  "return": 0.0034849999999999604,
   "started": 1793559735
  },
  "spy": {
-  "value": 10022.98,
-  "return": 0.0022979999999999112,
+  "value": 10033.91,
+  "return": 0.003390999999999922,
   "start_price": 759.47998046875,
-  "last": 761.530029296875
+  "last": 762.3599853515625
  },
  "position": {
   "symbol": "AMZN",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "PNC",
-    "at": "09:50",
-    "price": 231.32,
-    "or_high": 231.24,
-    "or_low": 229.44,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "RCL",
-    "at": "09:50",
-    "price": 320.34,
-    "or_high": 318.45,
-    "or_low": 314.32,
-    "pct_over": 0.59
-   },
-   {
-    "symbol": "RTX",
-    "at": "09:50",
-    "price": 201.53,
-    "or_high": 201.24,
-    "or_low": 200.12,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "SE",
-    "at": "09:50",
-    "price": 76.95,
-    "or_high": 76.69,
-    "or_low": 75.05,
-    "pct_over": 0.34
-   },
-   {
-    "symbol": "SOFI",
-    "at": "09:50",
-    "price": 17.15,
-    "or_high": 17.1,
-    "or_low": 16.8,
-    "pct_over": 0.26
-   },
    {
     "symbol": "SPOT",
     "at": "09:50",
@@ -516,9 +476,49 @@
     "or_high": 9.7,
     "or_low": 9.51,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:20",
+    "price": 232.32,
+    "or_high": 232.3,
+    "or_low": 228.38,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LUV",
+    "at": "10:20",
+    "price": 44.33,
+    "or_high": 44.24,
+    "or_low": 43.53,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:20",
+    "price": 267.68,
+    "or_high": 266.79,
+    "or_low": 261.85,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:20",
+    "price": 44.57,
+    "or_high": 44.19,
+    "or_low": 41.78,
+    "pct_over": 0.86
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:20",
+    "price": 31.67,
+    "or_high": 31.6,
+    "or_low": 30.25,
+    "pct_over": 0.22
    }
   ],
-  "n_hits": 94,
+  "n_hits": 99,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,19 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793632800,
+   "et": "2026-11-02 10:20",
+   "kind": "busy",
+   "text": "5 more breakouts (CRM, LUV, NXPI, RBLX, SEDG) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "CRM",
+    "LUV",
+    "NXPI",
+    "RBLX",
+    "SEDG"
+   ]
+  },
   {
    "ts": 1793632500,
    "et": "2026-11-02 10:15",
@@ -750,10 +763,25 @@
    "ts": 1793632717,
    "equity": 10014.67,
    "spy": 10022.98
+  },
+  {
+   "ts": 1793633032,
+   "equity": 10034.85,
+   "spy": 10033.91
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793633032,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.5,
+   "errors": [],
+   "run_id": "41471142209",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793632717,
    "phase": "open",
@@ -906,16 +934,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793632717,
+  "tick_at": 1793633032,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793632740,
-  "candidates": 66,
-  "charts_fetched": 68,
+  "yahoo_time": 1793632958,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": 1.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
