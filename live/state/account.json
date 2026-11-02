@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793636700,
+  "last_bar_end": 1793637000,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -1251,8 +1251,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.0,
-  "last_ts": 1793636700
+  "last": 760.02001953125,
+  "last_ts": 1793637000
  },
  "seen_trades": 0
 }
