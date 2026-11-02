@@ -1,7 +1,7 @@
 {
- "updated": 1793629526,
- "updated_et": "2026-11-02 09:25 ET",
- "phase": "pre-open",
+ "updated": 1793629840,
+ "updated_et": "2026-11-02 09:30 ET",
+ "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
@@ -20,13 +20,13 @@
  "position": null,
  "pending": null,
  "today": {
-  "date": null,
+  "date": "2026-11-02",
   "hits": [],
   "n_hits": 0,
   "entries": 0,
   "max_trades": 3
  },
- "next_move": "Market closed. Next open: Mon Nov 2, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
+ "next_move": "The opening range is still forming (9:30-9:45 AM ET). Watching from the 9:50 bar close.",
  "stats": {
   "trades": 0
  },
@@ -47,9 +47,25 @@
  "intraday_max_drawdown": 0.0,
  "trades": [],
  "decisions": [],
- "equity": [],
+ "equity": [
+  {
+   "ts": 1793629840,
+   "equity": 10000.0,
+   "spy": null
+  }
+ ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793629840,
+   "phase": "open",
+   "status": "ok",
+   "bars": 0,
+   "secs": 4.7,
+   "errors": [],
+   "run_id": "41462597708",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793629526,
    "phase": "pre-open",
@@ -102,14 +118,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793629526,
-  "data_ok": null,
-  "data_failed": 0,
-  "yahoo_time": null,
+  "tick_at": 1793629840,
+  "data_ok": 233,
+  "data_failed": 1,
+  "yahoo_time": 1793629828,
+  "candidates": 0,
+  "charts_fetched": 1,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": null,
+  "yahoo_lag_min": 0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -6,7 +6,17 @@
  "trades": [],
  "decisions": [],
  "equity": [],
- "day_state": null,
+ "day_state": {
+  "date": "2026-11-02",
+  "last_bar_end": null,
+  "position": null,
+  "pending": null,
+  "orders": [],
+  "entries": 0,
+  "skips": 0,
+  "triggers_seen": 0,
+  "missed": []
+ },
  "spy": {
   "shares": null,
   "start_ts": null,
