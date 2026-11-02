@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793631900,
+  "last_bar_end": 1793632200,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 77,
+  "triggers_seen": 81,
   "missed": [
    "AAL",
    "ABT",
@@ -87,7 +87,11 @@
    "RIVN",
    "SNAP",
    "T",
-   "VZ"
+   "VZ",
+   "ASML",
+   "HOOD",
+   "MSTR",
+   "RDDT"
   ],
   "triggered": [
    "ABNB",
@@ -166,7 +170,11 @@
    "RIVN",
    "SNAP",
    "T",
-   "VZ"
+   "VZ",
+   "ASML",
+   "HOOD",
+   "MSTR",
+   "RDDT"
   ],
   "hits": [
    {
@@ -784,6 +792,38 @@
     "or_high": 44.77,
     "or_low": 44.03,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:10",
+    "price": 1591.37,
+    "or_high": 1587.37,
+    "or_low": 1571.91,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:10",
+    "price": 86.74,
+    "or_high": 86.46,
+    "or_low": 84.9,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "MSTR",
+    "at": "10:10",
+    "price": 136.16,
+    "or_high": 135.2,
+    "or_low": 130.77,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:10",
+    "price": 94.86,
+    "or_high": 94.4,
+    "or_low": 90.5,
+    "pct_over": 0.49
    }
   ]
  },
@@ -791,8 +831,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.3499755859375,
-  "last_ts": 1793631900
+  "last": 760.780029296875,
+  "last_ts": 1793632200
  },
  "seen_trades": 0
 }

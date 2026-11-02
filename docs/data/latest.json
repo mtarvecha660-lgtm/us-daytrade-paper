@@ -1,21 +1,21 @@
 {
- "updated": 1793632079,
- "updated_et": "2026-11-02 10:07 ET",
+ "updated": 1793632401,
+ "updated_et": "2026-11-02 10:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9984.32,
-  "return": -0.0015680000000000138,
+  "equity": 10020.77,
+  "return": 0.0020770000000001065,
   "started": 1793559735
  },
  "spy": {
-  "value": 10007.45,
-  "return": 0.0007449999999999957,
+  "value": 10013.11,
+  "return": 0.0013110000000000621,
   "start_price": 759.47998046875,
-  "last": 760.3499755859375
+  "last": 760.780029296875
  },
  "position": {
   "symbol": "AMZN",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "DXCM",
-    "at": "09:50",
-    "price": 84.1,
-    "or_high": 83.99,
-    "or_low": 82.58,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "ETSY",
-    "at": "09:50",
-    "price": 93.82,
-    "or_high": 92.7,
-    "or_low": 90.02,
-    "pct_over": 1.21
-   },
-   {
-    "symbol": "EXPE",
-    "at": "09:50",
-    "price": 297.8,
-    "or_high": 295.71,
-    "or_low": 289.17,
-    "pct_over": 0.71
-   },
-   {
-    "symbol": "GE",
-    "at": "09:50",
-    "price": 314.49,
-    "or_high": 312.5,
-    "or_low": 308.17,
-    "pct_over": 0.64
-   },
    {
     "symbol": "GS",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 44.77,
     "or_low": 44.03,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:10",
+    "price": 1591.37,
+    "or_high": 1587.37,
+    "or_low": 1571.91,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:10",
+    "price": 86.74,
+    "or_high": 86.46,
+    "or_low": 84.9,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "MSTR",
+    "at": "10:10",
+    "price": 136.16,
+    "or_high": 135.2,
+    "or_low": 130.77,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:10",
+    "price": 94.86,
+    "or_high": 94.4,
+    "or_low": 90.5,
+    "pct_over": 0.49
    }
   ],
-  "n_hits": 77,
+  "n_hits": 81,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,18 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793632200,
+   "et": "2026-11-02 10:10",
+   "kind": "busy",
+   "text": "4 more breakouts (ASML, HOOD, MSTR, RDDT) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "ASML",
+    "HOOD",
+    "MSTR",
+    "RDDT"
+   ]
+  },
   {
    "ts": 1793631900,
    "et": "2026-11-02 10:05",
@@ -707,10 +719,25 @@
    "ts": 1793632079,
    "equity": 9984.32,
    "spy": 10007.45
+  },
+  {
+   "ts": 1793632401,
+   "equity": 10020.77,
+   "spy": 10013.11
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793632401,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.7,
+   "errors": [],
+   "run_id": "41469386389",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793632079,
    "phase": "open",
@@ -843,12 +870,12 @@
   }
  ],
  "health": {
-  "tick_at": 1793632079,
+  "tick_at": 1793632401,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793632096,
-  "candidates": 59,
-  "charts_fetched": 61,
+  "yahoo_time": 1793632418,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
