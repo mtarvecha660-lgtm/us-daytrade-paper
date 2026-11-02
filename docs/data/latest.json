@@ -1,21 +1,21 @@
 {
- "updated": 1793633668,
- "updated_et": "2026-11-02 10:34 ET",
+ "updated": 1793633983,
+ "updated_et": "2026-11-02 10:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10050.31,
-  "return": 0.005031000000000008,
+  "equity": 10053.76,
+  "return": 0.005376000000000047,
   "started": 1793559735
  },
  "spy": {
-  "value": 10050.69,
-  "return": 0.00506899999999999,
+  "value": 10038.25,
+  "return": 0.0038249999999999673,
   "start_price": 759.47998046875,
-  "last": 763.635009765625
+  "last": 762.6900024414062
  },
  "position": {
   "symbol": "AMZN",
@@ -807,10 +807,25 @@
    "ts": 1793633668,
    "equity": 10050.31,
    "spy": 10050.69
+  },
+  {
+   "ts": 1793633983,
+   "equity": 10053.76,
+   "spy": 10038.25
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793633983,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.4,
+   "errors": [],
+   "run_id": "41473740236",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793633668,
    "phase": "open",
@@ -993,16 +1008,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793633668,
+  "tick_at": 1793633983,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793633690,
-  "candidates": 61,
-  "charts_fetched": 63,
+  "yahoo_time": 1793634002,
+  "candidates": 50,
+  "charts_fetched": 52,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
