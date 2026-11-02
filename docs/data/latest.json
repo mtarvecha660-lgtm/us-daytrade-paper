@@ -1,21 +1,21 @@
 {
- "updated": 1793641854,
- "updated_et": "2026-11-02 12:50 ET",
+ "updated": 1793642174,
+ "updated_et": "2026-11-02 12:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9987.42,
-  "return": -0.0012579999999999814,
+  "equity": 9997.93,
+  "return": -0.00020699999999995722,
   "started": 1793559735
  },
  "spy": {
-  "value": 9972.38,
-  "return": -0.002762000000000042,
+  "value": 9971.39,
+  "return": -0.0028610000000001135,
   "start_price": 759.47998046875,
-  "last": 757.6849975585938
+  "last": 757.6099853515625
  },
  "position": {
   "symbol": "AMZN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "DE",
-    "at": "10:00",
-    "price": 676.38,
-    "or_high": 673.9,
-    "or_low": 663.38,
-    "pct_over": 0.37
-   },
    {
     "symbol": "HAL",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 211.84,
     "or_low": 202.65,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "PFE",
+    "at": "12:55",
+    "price": 30.64,
+    "or_high": 30.64,
+    "or_low": 30.32,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 127,
+  "n_hits": 128,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,15 @@
  "intraday_max_drawdown": -0.00838867702352386,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793642100,
+   "et": "2026-11-02 12:55",
+   "kind": "busy",
+   "text": "1 more breakout (PFE) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "PFE"
+   ]
+  },
   {
    "ts": 1793639700,
    "et": "2026-11-02 12:15",
@@ -1027,10 +1036,25 @@
    "ts": 1793641854,
    "equity": 9987.42,
    "spy": 9972.38
+  },
+  {
+   "ts": 1793642174,
+   "equity": 9997.93,
+   "spy": 9971.39
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793642174,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 13.3,
+   "errors": [],
+   "run_id": "41495760593",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793641854,
    "phase": "open",
@@ -1420,25 +1444,15 @@
    "errors": [],
    "run_id": "41461740870",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793619176,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "41437667893",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793641854,
+  "tick_at": 1793642174,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793641865,
-  "candidates": 28,
-  "charts_fetched": 30,
+  "yahoo_time": 1793642185,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
