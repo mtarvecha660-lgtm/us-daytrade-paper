@@ -1,21 +1,21 @@
 {
- "updated": 1793636236,
- "updated_et": "2026-11-02 11:17 ET",
+ "updated": 1793636566,
+ "updated_et": "2026-11-02 11:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10053.96,
-  "return": 0.005395999999999956,
+  "equity": 10023.07,
+  "return": 0.002307000000000059,
   "started": 1793559735
  },
  "spy": {
-  "value": 10009.43,
-  "return": 0.0009430000000001382,
+  "value": 10011.14,
+  "return": 0.0011139999999998373,
   "start_price": 759.47998046875,
-  "last": 760.5
+  "last": 760.6300048828125
  },
  "position": {
   "symbol": "AMZN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "PINS",
-    "at": "09:55",
-    "price": 19.78,
-    "or_high": 19.73,
-    "or_low": 19.12,
-    "pct_over": 0.25
-   },
    {
     "symbol": "PYPL",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 134.21,
     "or_low": 132.54,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "F",
+    "at": "11:20",
+    "price": 12.56,
+    "or_high": 12.56,
+    "or_low": 12.38,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 122,
+  "n_hits": 123,
   "entries": 1,
   "max_trades": 3
  },
@@ -540,9 +540,18 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": -0.001782184312608126,
+ "intraday_max_drawdown": -0.004849129906839944,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793636400,
+   "et": "2026-11-02 11:20",
+   "kind": "busy",
+   "text": "1 more breakout (F) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "F"
+   ]
+  },
   {
    "ts": 1793635800,
    "et": "2026-11-02 11:10",
@@ -905,10 +914,25 @@
    "ts": 1793636236,
    "equity": 10053.96,
    "spy": 10009.43
+  },
+  {
+   "ts": 1793636566,
+   "equity": 10023.07,
+   "spy": 10011.14
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793636566,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.3,
+   "errors": [],
+   "run_id": "41480784420",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793636236,
    "phase": "open",
@@ -1171,12 +1195,12 @@
   }
  ],
  "health": {
-  "tick_at": 1793636236,
+  "tick_at": 1793636566,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793636247,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1793636576,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,

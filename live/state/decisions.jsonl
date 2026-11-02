@@ -14,3 +14,4 @@
 {"ts": 1793635200, "et": "2026-11-02 11:00", "kind": "busy", "text": "1 more breakout (BMY) not taken: already in AMZN (one trade at a time)", "symbols": ["BMY"]}
 {"ts": 1793635500, "et": "2026-11-02 11:05", "kind": "busy", "text": "2 more breakouts (CMCSA, DOCU) not taken: already in AMZN (one trade at a time)", "symbols": ["CMCSA", "DOCU"]}
 {"ts": 1793635800, "et": "2026-11-02 11:10", "kind": "busy", "text": "3 more breakouts (AI, CHTR, DG) not taken: already in AMZN (one trade at a time)", "symbols": ["AI", "CHTR", "DG"]}
+{"ts": 1793636400, "et": "2026-11-02 11:20", "kind": "busy", "text": "1 more breakout (F) not taken: already in AMZN (one trade at a time)", "symbols": ["F"]}
