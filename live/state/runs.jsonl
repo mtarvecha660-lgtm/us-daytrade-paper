@@ -1,2 +1,3 @@
 {"ts": 1793559735, "phase": "closed", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "41339641052", "event": "workflow_dispatch"}
 {"ts": 1793579547, "phase": "closed", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "41367676425", "event": "workflow_dispatch"}
+{"ts": 1793599361, "phase": "pre-open", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "41397478631", "event": "workflow_dispatch"}
