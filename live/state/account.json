@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793632200,
+  "last_bar_end": 1793632500,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 81,
+  "triggers_seen": 94,
   "missed": [
    "AAL",
    "ABT",
@@ -91,7 +91,20 @@
    "ASML",
    "HOOD",
    "MSTR",
-   "RDDT"
+   "RDDT",
+   "AMAT",
+   "BIDU",
+   "BLK",
+   "EBAY",
+   "FSLR",
+   "GOOGL",
+   "MARA",
+   "MCHP",
+   "MPC",
+   "RGTI",
+   "SNPS",
+   "TXN",
+   "XPEV"
   ],
   "triggered": [
    "ABNB",
@@ -174,7 +187,20 @@
    "ASML",
    "HOOD",
    "MSTR",
-   "RDDT"
+   "RDDT",
+   "AMAT",
+   "BIDU",
+   "BLK",
+   "EBAY",
+   "FSLR",
+   "GOOGL",
+   "MARA",
+   "MCHP",
+   "MPC",
+   "RGTI",
+   "SNPS",
+   "TXN",
+   "XPEV"
   ],
   "hits": [
    {
@@ -824,6 +850,110 @@
     "or_high": 94.4,
     "or_low": 90.5,
     "pct_over": 0.49
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:15",
+    "price": 396.14,
+    "or_high": 395.27,
+    "or_low": 389.75,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "BIDU",
+    "at": "10:15",
+    "price": 78.58,
+    "or_high": 78.56,
+    "or_low": 77.29,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:15",
+    "price": 1171.65,
+    "or_high": 1170.67,
+    "or_low": 1161.0,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "EBAY",
+    "at": "10:15",
+    "price": 123.37,
+    "or_high": 122.83,
+    "or_low": 121.0,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:15",
+    "price": 184.93,
+    "or_high": 184.31,
+    "or_low": 177.0,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "10:15",
+    "price": 286.62,
+    "or_high": 286.42,
+    "or_low": 282.36,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:15",
+    "price": 6.8,
+    "or_high": 6.79,
+    "or_low": 6.46,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:15",
+    "price": 79.47,
+    "or_high": 79.3,
+    "or_low": 78.19,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:15",
+    "price": 441.82,
+    "or_high": 441.3,
+    "or_low": 430.68,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:15",
+    "price": 11.52,
+    "or_high": 11.45,
+    "or_low": 11.17,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:15",
+    "price": 471.68,
+    "or_high": 471.5,
+    "or_low": 465.08,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:15",
+    "price": 308.25,
+    "or_high": 307.12,
+    "or_low": 303.21,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "XPEV",
+    "at": "10:15",
+    "price": 9.72,
+    "or_high": 9.7,
+    "or_low": 9.51,
+    "pct_over": 0.1
    }
   ]
  },
@@ -831,8 +961,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.780029296875,
-  "last_ts": 1793632200
+  "last": 761.530029296875,
+  "last_ts": 1793632500
  },
  "seen_trades": 0
 }
