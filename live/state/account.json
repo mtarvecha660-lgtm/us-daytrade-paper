@@ -1361,7 +1361,8 @@
     "or_low": 225.3,
     "pct_over": 0.0
    }
-  ]
+  ],
+  "finalised": true
  },
  "spy": {
   "shares": 13.16427074745018,
@@ -1370,5 +1371,13 @@
   "last": 752.1199951171875,
   "last_ts": 1793653200
  },
- "seen_trades": 0
+ "seen_trades": 0,
+ "daily": [
+  {
+   "date": "2026-11-02",
+   "equity": 9901.53,
+   "spy": 9899.13,
+   "trades": 1
+  }
+ ]
 }
