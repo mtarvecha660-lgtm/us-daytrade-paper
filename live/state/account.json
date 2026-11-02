@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793637000,
+  "last_bar_end": 1793637300,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 123,
+  "triggers_seen": 124,
   "missed": [
    "AAL",
    "ABT",
@@ -133,7 +133,8 @@
    "AI",
    "CHTR",
    "DG",
-   "F"
+   "F",
+   "ISRG"
   ],
   "triggered": [
    "ABNB",
@@ -258,7 +259,8 @@
    "AI",
    "CHTR",
    "DG",
-   "F"
+   "F",
+   "ISRG"
   ],
   "hits": [
    {
@@ -1244,6 +1246,14 @@
     "or_high": 12.56,
     "or_low": 12.38,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "ISRG",
+    "at": "11:35",
+    "price": 443.92,
+    "or_high": 441.87,
+    "or_low": 437.07,
+    "pct_over": 0.46
    }
   ]
  },
@@ -1251,8 +1261,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.02001953125,
-  "last_ts": 1793637000
+  "last": 760.489990234375,
+  "last_ts": 1793637300
  },
  "seen_trades": 0
 }
