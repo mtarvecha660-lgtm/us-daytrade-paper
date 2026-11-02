@@ -1,21 +1,21 @@
 {
- "updated": 1793638908,
- "updated_et": "2026-11-02 12:01 ET",
+ "updated": 1793639268,
+ "updated_et": "2026-11-02 12:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10014.9,
-  "return": 0.0014899999999999913,
+  "equity": 10016.98,
+  "return": 0.0016979999999999773,
   "started": 1793559735
  },
  "spy": {
-  "value": 10002.58,
-  "return": 0.0002580000000000915,
+  "value": 10001.0,
+  "return": 9.999999999998899e-05,
   "start_price": 759.47998046875,
-  "last": 759.97998046875
+  "last": 759.8599853515625
  },
  "position": {
   "symbol": "AMZN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "REGN",
-    "at": "09:55",
-    "price": 970.82,
-    "or_high": 959.0,
-    "or_low": 927.0,
-    "pct_over": 1.23
-   },
    {
     "symbol": "WMT",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 441.87,
     "or_low": 437.07,
     "pct_over": 0.46
+   },
+   {
+    "symbol": "TGT",
+    "at": "12:05",
+    "price": 157.31,
+    "or_high": 157.0,
+    "or_low": 155.0,
+    "pct_over": 0.2
    }
   ],
-  "n_hits": 124,
+  "n_hits": 125,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,15 @@
  "intraday_max_drawdown": -0.005660296805670484,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793639100,
+   "et": "2026-11-02 12:05",
+   "kind": "busy",
+   "text": "1 more breakout (TGT) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "TGT"
+   ]
+  },
   {
    "ts": 1793637300,
    "et": "2026-11-02 11:35",
@@ -963,10 +972,25 @@
    "ts": 1793638908,
    "equity": 10014.9,
    "spy": 10002.58
+  },
+  {
+   "ts": 1793639268,
+   "equity": 10016.98,
+   "spy": 10001.0
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793639268,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.3,
+   "errors": [],
+   "run_id": "41488005188",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793638908,
    "phase": "open",
@@ -1309,12 +1333,12 @@
   }
  ],
  "health": {
-  "tick_at": 1793638908,
+  "tick_at": 1793639268,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793638919,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1793639281,
+  "candidates": 39,
+  "charts_fetched": 41,
   "ok": true,
   "errors": [],
   "stale_data": false,
