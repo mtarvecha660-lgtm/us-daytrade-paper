@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793634900,
+  "last_bar_end": 1793635500,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 116,
+  "triggers_seen": 119,
   "missed": [
    "AAL",
    "ABT",
@@ -126,7 +126,10 @@
    "QBTS",
    "NEE",
    "CDNS",
-   "LMT"
+   "LMT",
+   "BMY",
+   "CMCSA",
+   "DOCU"
   ],
   "triggered": [
    "ABNB",
@@ -244,7 +247,10 @@
    "QBTS",
    "NEE",
    "CDNS",
-   "LMT"
+   "LMT",
+   "BMY",
+   "CMCSA",
+   "DOCU"
   ],
   "hits": [
    {
@@ -1174,6 +1180,30 @@
     "or_high": 637.0,
     "or_low": 631.04,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "BMY",
+    "at": "11:00",
+    "price": 62.71,
+    "or_high": 62.71,
+    "or_low": 62.17,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "11:05",
+    "price": 23.59,
+    "or_high": 23.58,
+    "or_low": 23.1,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DOCU",
+    "at": "11:05",
+    "price": 82.34,
+    "or_high": 82.28,
+    "or_low": 81.41,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1181,8 +1211,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.7098999023438,
-  "last_ts": 1793634900
+  "last": 761.1749877929688,
+  "last_ts": 1793635500
  },
  "seen_trades": 0
 }

@@ -1,21 +1,21 @@
 {
- "updated": 1793635256,
- "updated_et": "2026-11-02 11:00 ET",
+ "updated": 1793635579,
+ "updated_et": "2026-11-02 11:06 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10061.7,
-  "return": 0.006170000000000009,
+  "equity": 10061.58,
+  "return": 0.006157999999999886,
   "started": 1793559735
  },
  "spy": {
-  "value": 10025.35,
-  "return": 0.002534999999999954,
+  "value": 10018.31,
+  "return": 0.001830999999999916,
   "start_price": 759.47998046875,
-  "last": 761.7098999023438
+  "last": 761.1749877929688
  },
  "position": {
   "symbol": "AMZN",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "IDXX",
-    "at": "09:55",
-    "price": 661.97,
-    "or_high": 656.83,
-    "or_low": 620.2,
-    "pct_over": 0.78
-   },
-   {
-    "symbol": "KO",
-    "at": "09:55",
-    "price": 95.02,
-    "or_high": 94.97,
-    "or_low": 94.28,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "LOW",
-    "at": "09:55",
-    "price": 214.87,
-    "or_high": 214.71,
-    "or_low": 212.0,
-    "pct_over": 0.07
-   },
    {
     "symbol": "MCD",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 637.0,
     "or_low": 631.04,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "BMY",
+    "at": "11:00",
+    "price": 62.71,
+    "or_high": 62.71,
+    "or_low": 62.17,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "11:05",
+    "price": 23.59,
+    "or_high": 23.58,
+    "or_low": 23.1,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DOCU",
+    "at": "11:05",
+    "price": 82.34,
+    "or_high": 82.28,
+    "or_low": 81.41,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 116,
+  "n_hits": 119,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,25 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793635500,
+   "et": "2026-11-02 11:05",
+   "kind": "busy",
+   "text": "2 more breakouts (CMCSA, DOCU) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "CMCSA",
+    "DOCU"
+   ]
+  },
+  {
+   "ts": 1793635200,
+   "et": "2026-11-02 11:00",
+   "kind": "busy",
+   "text": "1 more breakout (BMY) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "BMY"
+   ]
+  },
   {
    "ts": 1793634900,
    "et": "2026-11-02 10:55",
@@ -860,10 +879,25 @@
    "ts": 1793635256,
    "equity": 10061.7,
    "spy": 10025.35
+  },
+  {
+   "ts": 1793635579,
+   "equity": 10061.58,
+   "spy": 10018.31
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793635579,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 19.4,
+   "errors": [],
+   "run_id": "41478112642",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793635256,
    "phase": "open",
@@ -1096,12 +1130,12 @@
   }
  ],
  "health": {
-  "tick_at": 1793635256,
+  "tick_at": 1793635579,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793635276,
-  "candidates": 45,
-  "charts_fetched": 47,
+  "yahoo_time": 1793635596,
+  "candidates": 48,
+  "charts_fetched": 50,
   "ok": true,
   "errors": [],
   "stale_data": false,
