@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793631600,
+  "last_bar_end": 1793631900,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 71,
+  "triggers_seen": 77,
   "missed": [
    "AAL",
    "ABT",
@@ -81,7 +81,13 @@
    "DE",
    "HAL",
    "SLB",
-   "TMUS"
+   "TMUS",
+   "BA",
+   "META",
+   "RIVN",
+   "SNAP",
+   "T",
+   "VZ"
   ],
   "triggered": [
    "ABNB",
@@ -154,7 +160,13 @@
    "DE",
    "HAL",
    "SLB",
-   "TMUS"
+   "TMUS",
+   "BA",
+   "META",
+   "RIVN",
+   "SNAP",
+   "T",
+   "VZ"
   ],
   "hits": [
    {
@@ -724,6 +736,54 @@
     "or_high": 156.55,
     "or_low": 154.0,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "BA",
+    "at": "10:05",
+    "price": 176.01,
+    "or_high": 175.5,
+    "or_low": 172.78,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "META",
+    "at": "10:05",
+    "price": 619.64,
+    "or_high": 619.32,
+    "or_low": 610.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:05",
+    "price": 13.22,
+    "or_high": 13.1,
+    "or_low": 12.65,
+    "pct_over": 0.88
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:05",
+    "price": 5.45,
+    "or_high": 5.43,
+    "or_low": 5.33,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "T",
+    "at": "10:05",
+    "price": 21.5,
+    "or_high": 21.44,
+    "or_low": 21.1,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:05",
+    "price": 44.87,
+    "or_high": 44.77,
+    "or_low": 44.03,
+    "pct_over": 0.22
    }
   ]
  },
@@ -731,8 +791,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.4500122070312,
-  "last_ts": 1793631600
+  "last": 760.3499755859375,
+  "last_ts": 1793631900
  },
  "seen_trades": 0
 }

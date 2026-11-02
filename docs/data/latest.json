@@ -1,21 +1,21 @@
 {
- "updated": 1793631760,
- "updated_et": "2026-11-02 10:02 ET",
+ "updated": 1793632079,
+ "updated_et": "2026-11-02 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9989.15,
-  "return": -0.0010850000000000026,
+  "equity": 9984.32,
+  "return": -0.0015680000000000138,
   "started": 1793559735
  },
  "spy": {
-  "value": 10008.77,
-  "return": 0.0008770000000000167,
+  "value": 10007.45,
+  "return": 0.0007449999999999957,
   "start_price": 759.47998046875,
-  "last": 760.4500122070312
+  "last": 760.3499755859375
  },
  "position": {
   "symbol": "AMZN",
@@ -37,54 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "CHWY",
-    "at": "09:50",
-    "price": 22.02,
-    "or_high": 21.88,
-    "or_low": 21.15,
-    "pct_over": 0.64
-   },
-   {
-    "symbol": "CMG",
-    "at": "09:50",
-    "price": 33.34,
-    "or_high": 33.21,
-    "or_low": 31.9,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "DASH",
-    "at": "09:50",
-    "price": 185.58,
-    "or_high": 184.53,
-    "or_low": 177.0,
-    "pct_over": 0.57
-   },
-   {
-    "symbol": "DIS",
-    "at": "09:50",
-    "price": 113.19,
-    "or_high": 113.01,
-    "or_low": 111.77,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "DPZ",
-    "at": "09:50",
-    "price": 323.05,
-    "or_high": 321.35,
-    "or_low": 315.08,
-    "pct_over": 0.53
-   },
-   {
-    "symbol": "DUOL",
-    "at": "09:50",
-    "price": 134.3,
-    "or_high": 134.28,
-    "or_low": 131.17,
-    "pct_over": 0.01
-   },
    {
     "symbol": "DXCM",
     "at": "09:50",
@@ -516,9 +468,57 @@
     "or_high": 156.55,
     "or_low": 154.0,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "BA",
+    "at": "10:05",
+    "price": 176.01,
+    "or_high": 175.5,
+    "or_low": 172.78,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "META",
+    "at": "10:05",
+    "price": 619.64,
+    "or_high": 619.32,
+    "or_low": 610.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:05",
+    "price": 13.22,
+    "or_high": 13.1,
+    "or_low": 12.65,
+    "pct_over": 0.88
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:05",
+    "price": 5.45,
+    "or_high": 5.43,
+    "or_low": 5.33,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "T",
+    "at": "10:05",
+    "price": 21.5,
+    "or_high": 21.44,
+    "or_low": 21.1,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:05",
+    "price": 44.87,
+    "or_high": 44.77,
+    "or_low": 44.03,
+    "pct_over": 0.22
    }
   ],
-  "n_hits": 71,
+  "n_hits": 77,
   "entries": 1,
   "max_trades": 3
  },
@@ -540,9 +540,23 @@
   "sortino": null,
   "days": 1
  },
- "intraday_max_drawdown": -0.0013379999999999503,
+ "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793631900,
+   "et": "2026-11-02 10:05",
+   "kind": "busy",
+   "text": "6 more breakouts (BA, META, RIVN, SNAP, T, VZ) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "BA",
+    "META",
+    "RIVN",
+    "SNAP",
+    "T",
+    "VZ"
+   ]
+  },
   {
    "ts": 1793631600,
    "et": "2026-11-02 10:00",
@@ -688,10 +702,25 @@
    "ts": 1793631760,
    "equity": 9989.15,
    "spy": 10008.77
+  },
+  {
+   "ts": 1793632079,
+   "equity": 9984.32,
+   "spy": 10007.45
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793632079,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.0,
+   "errors": [],
+   "run_id": "41468517453",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793631760,
    "phase": "open",
@@ -814,16 +843,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793631760,
+  "tick_at": 1793632079,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793631782,
-  "candidates": 61,
-  "charts_fetched": 63,
+  "yahoo_time": 1793632096,
+  "candidates": 59,
+  "charts_fetched": 61,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
