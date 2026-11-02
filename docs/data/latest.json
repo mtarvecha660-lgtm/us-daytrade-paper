@@ -1,21 +1,21 @@
 {
- "updated": 1793642820,
- "updated_et": "2026-11-02 13:07 ET",
+ "updated": 1793643162,
+ "updated_et": "2026-11-02 13:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10001.93,
-  "return": 0.00019300000000010975,
+  "equity": 10002.6,
+  "return": 0.00025999999999992696,
   "started": 1793559735
  },
  "spy": {
-  "value": 9985.74,
-  "return": -0.0014260000000000383,
+  "value": 9991.33,
+  "return": -0.0008670000000000622,
   "start_price": 759.47998046875,
-  "last": 758.7000122070312
+  "last": 759.125
  },
  "position": {
   "symbol": "AMZN",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "TMUS",
-    "at": "10:00",
-    "price": 156.63,
-    "or_high": 156.55,
-    "or_low": 154.0,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "BA",
-    "at": "10:05",
-    "price": 176.01,
-    "or_high": 175.5,
-    "or_low": 172.78,
-    "pct_over": 0.29
-   },
    {
     "symbol": "META",
     "at": "10:05",
@@ -516,9 +500,25 @@
     "or_high": 127.67,
     "or_low": 126.27,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "LLY",
+    "at": "13:10",
+    "price": 1413.3,
+    "or_high": 1411.31,
+    "or_low": 1387.1,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SHOP",
+    "at": "13:10",
+    "price": 160.59,
+    "or_high": 160.58,
+    "or_low": 158.0,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 130,
+  "n_hits": 132,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,16 @@
  "intraday_max_drawdown": -0.00838867702352386,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793643000,
+   "et": "2026-11-02 13:10",
+   "kind": "busy",
+   "text": "2 more breakouts (LLY, SHOP) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "LLY",
+    "SHOP"
+   ]
+  },
   {
    "ts": 1793642700,
    "et": "2026-11-02 13:05",
@@ -1061,10 +1071,25 @@
    "ts": 1793642820,
    "equity": 10001.93,
    "spy": 9985.74
+  },
+  {
+   "ts": 1793643162,
+   "equity": 10002.6,
+   "spy": 9991.33
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793643162,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.4,
+   "errors": [],
+   "run_id": "41498279800",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793642820,
    "phase": "open",
@@ -1454,29 +1479,19 @@
    "errors": [],
    "run_id": "41464264622",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793630157,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 4.9,
-   "errors": [],
-   "run_id": "41463434836",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793642820,
+  "tick_at": 1793643162,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793642836,
-  "candidates": 35,
-  "charts_fetched": 37,
+  "yahoo_time": 1793643174,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
