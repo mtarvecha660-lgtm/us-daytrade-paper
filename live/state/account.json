@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793631300,
+  "last_bar_end": 1793631600,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 66,
+  "triggers_seen": 71,
   "missed": [
    "AAL",
    "ABT",
@@ -76,7 +76,12 @@
    "PINS",
    "PYPL",
    "REGN",
-   "WMT"
+   "WMT",
+   "AVGO",
+   "DE",
+   "HAL",
+   "SLB",
+   "TMUS"
   ],
   "triggered": [
    "ABNB",
@@ -144,7 +149,12 @@
    "PINS",
    "PYPL",
    "REGN",
-   "WMT"
+   "WMT",
+   "AVGO",
+   "DE",
+   "HAL",
+   "SLB",
+   "TMUS"
   ],
   "hits": [
    {
@@ -674,6 +684,46 @@
     "or_high": 125.84,
     "or_low": 124.14,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:00",
+    "price": 328.64,
+    "or_high": 328.55,
+    "or_low": 324.31,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DE",
+    "at": "10:00",
+    "price": 676.38,
+    "or_high": 673.9,
+    "or_low": 663.38,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "HAL",
+    "at": "10:00",
+    "price": 35.8,
+    "or_high": 35.8,
+    "or_low": 35.08,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SLB",
+    "at": "10:00",
+    "price": 53.41,
+    "or_high": 53.12,
+    "or_low": 52.27,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:00",
+    "price": 156.63,
+    "or_high": 156.55,
+    "or_low": 154.0,
+    "pct_over": 0.05
    }
   ]
  },
@@ -681,8 +731,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.22998046875,
-  "last_ts": 1793631300
+  "last": 760.4500122070312,
+  "last_ts": 1793631600
  },
  "seen_trades": 0
 }

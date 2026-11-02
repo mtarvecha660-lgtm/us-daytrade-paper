@@ -1,21 +1,21 @@
 {
- "updated": 1793631433,
- "updated_et": "2026-11-02 09:57 ET",
+ "updated": 1793631760,
+ "updated_et": "2026-11-02 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 9986.62,
-  "return": -0.0013379999999999503,
+  "equity": 9989.15,
+  "return": -0.0010850000000000026,
   "started": 1793559735
  },
  "spy": {
-  "value": 10005.87,
-  "return": 0.0005870000000001152,
+  "value": 10008.77,
+  "return": 0.0008770000000000167,
   "start_price": 759.47998046875,
-  "last": 760.22998046875
+  "last": 760.4500122070312
  },
  "position": {
   "symbol": "AMZN",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "BABA",
-    "at": "09:50",
-    "price": 103.58,
-    "or_high": 103.45,
-    "or_low": 101.94,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "BKNG",
-    "at": "09:50",
-    "price": 153.63,
-    "or_high": 152.74,
-    "or_low": 149.81,
-    "pct_over": 0.59
-   },
-   {
-    "symbol": "C",
-    "at": "09:50",
-    "price": 124.13,
-    "or_high": 123.82,
-    "or_low": 122.72,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "CCL",
-    "at": "09:50",
-    "price": 30.0,
-    "or_high": 29.95,
-    "or_low": 29.63,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "CHPT",
-    "at": "09:50",
-    "price": 10.25,
-    "or_high": 10.02,
-    "or_low": 9.73,
-    "pct_over": 2.28
-   },
    {
     "symbol": "CHWY",
     "at": "09:50",
@@ -516,9 +476,49 @@
     "or_high": 125.84,
     "or_low": 124.14,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:00",
+    "price": 328.64,
+    "or_high": 328.55,
+    "or_low": 324.31,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DE",
+    "at": "10:00",
+    "price": 676.38,
+    "or_high": 673.9,
+    "or_low": 663.38,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "HAL",
+    "at": "10:00",
+    "price": 35.8,
+    "or_high": 35.8,
+    "or_low": 35.08,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SLB",
+    "at": "10:00",
+    "price": 53.41,
+    "or_high": 53.12,
+    "or_low": 52.27,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:00",
+    "price": 156.63,
+    "or_high": 156.55,
+    "or_low": 154.0,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 66,
+  "n_hits": 71,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,19 @@
  "intraday_max_drawdown": -0.0013379999999999503,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793631600,
+   "et": "2026-11-02 10:00",
+   "kind": "busy",
+   "text": "5 more breakouts (AVGO, DE, HAL, SLB, TMUS) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "DE",
+    "HAL",
+    "SLB",
+    "TMUS"
+   ]
+  },
   {
    "ts": 1793631300,
    "et": "2026-11-02 09:55",
@@ -670,10 +683,25 @@
    "ts": 1793631433,
    "equity": 9986.62,
    "spy": 10005.87
+  },
+  {
+   "ts": 1793631760,
+   "equity": 9989.15,
+   "spy": 10008.77
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793631760,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 24.8,
+   "errors": [],
+   "run_id": "41467634830",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793631433,
    "phase": "open",
@@ -786,16 +814,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793631433,
+  "tick_at": 1793631760,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793631139,
-  "candidates": 57,
-  "charts_fetched": 59,
+  "yahoo_time": 1793631782,
+  "candidates": 61,
+  "charts_fetched": 63,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": 4.9,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
