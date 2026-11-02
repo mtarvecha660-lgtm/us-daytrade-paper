@@ -1,21 +1,21 @@
 {
- "updated": 1793643162,
- "updated_et": "2026-11-02 13:12 ET",
+ "updated": 1793643494,
+ "updated_et": "2026-11-02 13:18 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10002.6,
-  "return": 0.00025999999999992696,
+  "equity": 9993.98,
+  "return": -0.0006019999999999914,
   "started": 1793559735
  },
  "spy": {
-  "value": 9991.33,
-  "return": -0.0008670000000000622,
+  "value": 9985.21,
+  "return": -0.001479000000000119,
   "start_price": 759.47998046875,
-  "last": 759.125
+  "last": 758.6599731445312
  },
  "position": {
   "symbol": "AMZN",
@@ -1076,10 +1076,25 @@
    "ts": 1793643162,
    "equity": 10002.6,
    "spy": 9991.33
+  },
+  {
+   "ts": 1793643494,
+   "equity": 9993.98,
+   "spy": 9985.21
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793643494,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.5,
+   "errors": [],
+   "run_id": "41499195986",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793643162,
    "phase": "open",
@@ -1469,25 +1484,15 @@
    "errors": [],
    "run_id": "41465101405",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793630473,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 5.9,
-   "errors": [],
-   "run_id": "41464264622",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793643162,
+  "tick_at": 1793643494,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793643174,
-  "candidates": 33,
-  "charts_fetched": 35,
+  "yahoo_time": 1793643509,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
