@@ -17,3 +17,4 @@
 {"ts": 1793636400, "et": "2026-11-02 11:20", "kind": "busy", "text": "1 more breakout (F) not taken: already in AMZN (one trade at a time)", "symbols": ["F"]}
 {"ts": 1793637300, "et": "2026-11-02 11:35", "kind": "busy", "text": "1 more breakout (ISRG) not taken: already in AMZN (one trade at a time)", "symbols": ["ISRG"]}
 {"ts": 1793639100, "et": "2026-11-02 12:05", "kind": "busy", "text": "1 more breakout (TGT) not taken: already in AMZN (one trade at a time)", "symbols": ["TGT"]}
+{"ts": 1793639700, "et": "2026-11-02 12:15", "kind": "busy", "text": "2 more breakouts (SO, TWLO) not taken: already in AMZN (one trade at a time)", "symbols": ["SO", "TWLO"]}

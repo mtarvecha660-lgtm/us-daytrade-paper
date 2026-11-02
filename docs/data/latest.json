@@ -1,21 +1,21 @@
 {
- "updated": 1793639641,
- "updated_et": "2026-11-02 12:14 ET",
+ "updated": 1793639952,
+ "updated_et": "2026-11-02 12:19 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4237.08,
-  "equity": 10019.5,
-  "return": 0.0019499999999998963,
+  "equity": 10023.18,
+  "return": 0.0023180000000000422,
   "started": 1793559735
  },
  "spy": {
-  "value": 9998.37,
-  "return": -0.00016299999999991321,
+  "value": 10000.21,
+  "return": 2.0999999999826713e-05,
   "start_price": 759.47998046875,
-  "last": 759.6599731445312
+  "last": 759.7999877929688
  },
  "position": {
   "symbol": "AMZN",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "WMT",
-    "at": "09:55",
-    "price": 125.85,
-    "or_high": 125.84,
-    "or_low": 124.14,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "AVGO",
-    "at": "10:00",
-    "price": 328.64,
-    "or_high": 328.55,
-    "or_low": 324.31,
-    "pct_over": 0.03
-   },
    {
     "symbol": "DE",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 157.0,
     "or_low": 155.0,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "SO",
+    "at": "12:15",
+    "price": 93.95,
+    "or_high": 93.91,
+    "or_low": 93.25,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TWLO",
+    "at": "12:15",
+    "price": 212.24,
+    "or_high": 211.84,
+    "or_low": 202.65,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 125,
+  "n_hits": 127,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,16 @@
  "intraday_max_drawdown": -0.005660296805670484,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793639700,
+   "et": "2026-11-02 12:15",
+   "kind": "busy",
+   "text": "2 more breakouts (SO, TWLO) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "SO",
+    "TWLO"
+   ]
+  },
   {
    "ts": 1793639100,
    "et": "2026-11-02 12:05",
@@ -982,10 +992,25 @@
    "ts": 1793639641,
    "equity": 10019.5,
    "spy": 9998.37
+  },
+  {
+   "ts": 1793639952,
+   "equity": 10023.18,
+   "spy": 10000.21
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793639952,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.4,
+   "errors": [],
+   "run_id": "41490001210",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793639641,
    "phase": "open",
@@ -1348,12 +1373,12 @@
   }
  ],
  "health": {
-  "tick_at": 1793639641,
+  "tick_at": 1793639952,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793639652,
-  "candidates": 38,
-  "charts_fetched": 40,
+  "yahoo_time": 1793639965,
+  "candidates": 40,
+  "charts_fetched": 42,
   "ok": true,
   "errors": [],
   "stale_data": false,

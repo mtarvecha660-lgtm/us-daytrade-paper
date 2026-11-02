@@ -8,7 +8,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-02",
-  "last_bar_end": 1793639400,
+  "last_bar_end": 1793639700,
   "position": {
    "symbol": "AMZN",
    "qty": 23,
@@ -59,7 +59,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 125,
+  "triggers_seen": 127,
   "missed": [
    "AAL",
    "ABT",
@@ -135,7 +135,9 @@
    "DG",
    "F",
    "ISRG",
-   "TGT"
+   "TGT",
+   "SO",
+   "TWLO"
   ],
   "triggered": [
    "ABNB",
@@ -262,7 +264,9 @@
    "DG",
    "F",
    "ISRG",
-   "TGT"
+   "TGT",
+   "SO",
+   "TWLO"
   ],
   "hits": [
    {
@@ -1264,6 +1268,22 @@
     "or_high": 157.0,
     "or_low": 155.0,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "SO",
+    "at": "12:15",
+    "price": 93.95,
+    "or_high": 93.91,
+    "or_low": 93.25,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TWLO",
+    "at": "12:15",
+    "price": 212.24,
+    "or_high": 211.84,
+    "or_low": 202.65,
+    "pct_over": 0.19
    }
   ]
  },
@@ -1271,8 +1291,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 759.6599731445312,
-  "last_ts": 1793639400
+  "last": 759.7999877929688,
+  "last_ts": 1793639700
  },
  "seen_trades": 0
 }
