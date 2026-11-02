@@ -1,6 +1,6 @@
 {
- "updated": 1793635579,
- "updated_et": "2026-11-02 11:06 ET",
+ "updated": 1793635895,
+ "updated_et": "2026-11-02 11:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 10018.31,
-  "return": 0.001830999999999916,
+  "value": 10015.08,
+  "return": 0.0015080000000000648,
   "start_price": 759.47998046875,
-  "last": 761.1749877929688
+  "last": 760.9299926757812
  },
  "position": {
   "symbol": "AMZN",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-02",
   "hits": [
-   {
-    "symbol": "MCD",
-    "at": "09:55",
-    "price": 264.02,
-    "or_high": 263.93,
-    "or_low": 259.75,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "MDT",
-    "at": "09:55",
-    "price": 97.5,
-    "or_high": 97.33,
-    "or_low": 96.75,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "PG",
-    "at": "09:55",
-    "price": 163.76,
-    "or_high": 163.47,
-    "or_low": 162.24,
-    "pct_over": 0.18
-   },
    {
     "symbol": "PINS",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 82.28,
     "or_low": 81.41,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "AI",
+    "at": "11:10",
+    "price": 11.94,
+    "or_high": 11.92,
+    "or_low": 11.51,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "CHTR",
+    "at": "11:10",
+    "price": 114.55,
+    "or_high": 114.29,
+    "or_low": 111.39,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "DG",
+    "at": "11:10",
+    "price": 134.36,
+    "or_high": 134.21,
+    "or_low": 132.54,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 119,
+  "n_hits": 122,
   "entries": 1,
   "max_trades": 3
  },
@@ -543,6 +543,17 @@
  "intraday_max_drawdown": -0.0015680000000000138,
  "trades": [],
  "decisions": [
+  {
+   "ts": 1793635800,
+   "et": "2026-11-02 11:10",
+   "kind": "busy",
+   "text": "3 more breakouts (AI, CHTR, DG) not taken: already in AMZN (one trade at a time)",
+   "symbols": [
+    "AI",
+    "CHTR",
+    "DG"
+   ]
+  },
   {
    "ts": 1793635500,
    "et": "2026-11-02 11:05",
@@ -884,10 +895,25 @@
    "ts": 1793635579,
    "equity": 10061.58,
    "spy": 10018.31
+  },
+  {
+   "ts": 1793635895,
+   "equity": 10061.58,
+   "spy": 10015.08
   }
  ],
  "daily": [],
  "runs": [
+  {
+   "ts": 1793635895,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.3,
+   "errors": [],
+   "run_id": "41478993953",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793635579,
    "phase": "open",
@@ -1130,16 +1156,16 @@
   }
  ],
  "health": {
-  "tick_at": 1793635579,
+  "tick_at": 1793635895,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793635596,
-  "candidates": 48,
-  "charts_fetched": 50,
+  "yahoo_time": 1793635909,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
