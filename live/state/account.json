@@ -1,5 +1,5 @@
 {
- "cash": 9802.9827,
+ "cash": 6527.3075,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -57,11 +57,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793720100,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793720400,
+  "position": {
    "symbol": "MRNA",
    "qty": 14,
+   "entry_fill": 233.9768,
+   "entry_ts": 1793720100,
    "plan": {
     "symbol": "MRNA",
     "side": "buy",
@@ -73,7 +74,8 @@
     "target": 241.05,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 233.92999267578125
    },
    "why": {
     "scanner": "MRNA: the 10:30 bar closed at $233.91, above the 15-min opening range high $233.32 (range 220.23-233.32)",
@@ -82,9 +84,9 @@
     "risk": "trader-risk PASS: entry 233.91 (the plan's entry), stop 226.77, target 241.05: risk 7.14 a share; max loss $99.96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.40 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793720100,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -119,11 +121,19 @@
     "kind": "entry",
     "max_loss": 99.96,
     "at": "2026-11-03T10:35:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-03",
+    "symbol": "MRNA",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 14
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 70,
+  "triggers_seen": 74,
   "missed": [
    "BA",
    "BAC",
@@ -173,7 +183,11 @@
    "PNC",
    "SONY",
    "FSLR",
-   "OXY"
+   "OXY",
+   "AEP",
+   "BSX",
+   "DPZ",
+   "SHOP"
   ],
   "triggered": [
    "AAPL",
@@ -245,7 +259,11 @@
    "CHTR",
    "MRNA",
    "SPOT",
-   "ZS"
+   "ZS",
+   "AEP",
+   "BSX",
+   "DPZ",
+   "SHOP"
   ],
   "hits": [
    {
@@ -807,6 +825,38 @@
     "or_high": 226.79,
     "or_low": 220.07,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:40",
+    "price": 129.95,
+    "or_high": 129.91,
+    "or_low": 128.73,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "BSX",
+    "at": "10:40",
+    "price": 44.23,
+    "or_high": 44.18,
+    "or_low": 43.24,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:40",
+    "price": 322.57,
+    "or_high": 322.56,
+    "or_low": 317.81,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:40",
+    "price": 143.99,
+    "or_high": 142.98,
+    "or_low": 135.65,
+    "pct_over": 0.71
    }
   ]
  },
@@ -814,8 +864,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.3099975585938,
-  "last_ts": 1793720100
+  "last": 754.25,
+  "last_ts": 1793720400
  },
  "seen_trades": 0,
  "daily": [

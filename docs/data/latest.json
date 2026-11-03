@@ -1,84 +1,42 @@
 {
- "updated": 1793720354,
- "updated_et": "2026-11-03 10:39 ET",
+ "updated": 1793720673,
+ "updated_et": "2026-11-03 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9802.98,
-  "equity": 9802.98,
-  "return": -0.019701999999999997,
+  "cash": 6527.31,
+  "equity": 9794.11,
+  "return": -0.02058899999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9927.95,
-  "return": -0.007204999999999906,
+  "value": 9927.17,
+  "return": -0.0072830000000000394,
   "start_price": 759.47998046875,
-  "last": 754.3099975585938
+  "last": 754.25
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "MRNA",
   "qty": 14,
-  "plan": {
-   "symbol": "MRNA",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-03",
-   "entry_time": "10:35 AM",
-   "entry": 233.91,
-   "stop": 226.77,
-   "target": 241.05,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 233.9768,
+  "entry_et": "10:35",
+  "stop": 226.77,
+  "target": 241.05,
+  "last": null,
   "why": {
    "scanner": "MRNA: the 10:30 bar closed at $233.91, above the 15-min opening range high $233.32 (range 220.23-233.32)",
    "exit": "plan: entry $233.91, stop $226.77 (opening-range midpoint), target $241.05 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on MRNA: 14 shares, bound by your $100 max loss per trade (14 x 7.14 = $99.96 at the stop) (limits: max loss 14; position cap 31; max order 34; cash 37)",
    "risk": "trader-risk PASS: entry 233.91 (the plan's entry), stop 226.77, target 241.05: risk 7.14 a share; max loss $99.96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.40 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793720100,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "RIOT",
-    "at": "09:50",
-    "price": 12.74,
-    "or_high": 12.6,
-    "or_low": 11.9,
-    "pct_over": 1.07
-   },
-   {
-    "symbol": "ROKU",
-    "at": "09:50",
-    "price": 158.11,
-    "or_high": 157.52,
-    "or_low": 155.68,
-    "pct_over": 0.37
-   },
-   {
-    "symbol": "RUN",
-    "at": "09:50",
-    "price": 8.56,
-    "or_high": 8.54,
-    "or_low": 8.22,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "STX",
-    "at": "09:50",
-    "price": 625.7,
-    "or_high": 625.54,
-    "or_low": 604.56,
-    "pct_over": 0.02
-   },
    {
     "symbol": "TER",
     "at": "09:50",
@@ -526,13 +484,45 @@
     "or_high": 226.79,
     "or_low": 220.07,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:40",
+    "price": 129.95,
+    "or_high": 129.91,
+    "or_low": 128.73,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "BSX",
+    "at": "10:40",
+    "price": 44.23,
+    "or_high": 44.18,
+    "or_low": 43.24,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:40",
+    "price": 322.57,
+    "or_high": 322.56,
+    "or_low": 317.81,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:40",
+    "price": 143.99,
+    "or_high": 142.98,
+    "or_low": 135.65,
+    "pct_over": 0.71
    }
   ],
-  "n_hits": 70,
+  "n_hits": 74,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 14 MRNA at the next bar's open (signal at 10:35 ET). Then: stop $226.77, target $241.05.",
+ "next_move": "Holding 14 MRNA bought at $233.98. It sells at the stop $226.77, the target $241.05, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 2,
   "wins": 0,
@@ -563,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.026700993158199404,
+ "intraday_max_drawdown": -0.027581660280919795,
  "trades": [
   {
    "date": "2026-11-03",
@@ -615,6 +605,25 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793720400,
+   "et": "2026-11-03 10:40",
+   "kind": "busy",
+   "text": "4 more breakouts (AEP, BSX, DPZ, SHOP) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "AEP",
+    "BSX",
+    "DPZ",
+    "SHOP"
+   ]
+  },
+  {
+   "ts": 1793720100,
+   "et": "2026-11-03 10:35",
+   "kind": "fill",
+   "text": "BUY 14 MRNA filled at $233.98 (next bar's open $233.93 + slippage). Stop $226.77, target $241.05",
+   "symbol": "MRNA"
+  },
   {
    "ts": 1793720100,
    "et": "2026-11-03 10:35",
@@ -1581,6 +1590,11 @@
    "ts": 1793720354,
    "equity": 9802.98,
    "spy": 9927.95
+  },
+  {
+   "ts": 1793720673,
+   "equity": 9794.11,
+   "spy": 9927.17
   }
  ],
  "daily": [
@@ -1592,6 +1606,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793720673,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 28.3,
+   "errors": [],
+   "run_id": "41666972121",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793720354,
    "phase": "open",
@@ -1981,29 +2005,19 @@
    "errors": [],
    "run_id": "41510793076",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793647615,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.2,
-   "errors": [],
-   "run_id": "41509989091",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793720354,
+  "tick_at": 1793720673,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793720297,
-  "candidates": 55,
-  "charts_fetched": 57,
+  "yahoo_time": 1793720605,
+  "candidates": 58,
+  "charts_fetched": 60,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": 0.9,
+  "yahoo_lag_min": 1.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
