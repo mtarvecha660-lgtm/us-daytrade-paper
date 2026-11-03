@@ -33,7 +33,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793719200,
+  "last_bar_end": 1793719500,
   "position": {
    "symbol": "AAPL",
    "qty": 20,
@@ -84,7 +84,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 60,
+  "triggers_seen": 64,
   "missed": [
    "BA",
    "BAC",
@@ -128,7 +128,11 @@
    "RDDT",
    "SNOW",
    "TWLO",
-   "ZM"
+   "ZM",
+   "DIS",
+   "NOC",
+   "PNC",
+   "SONY"
   ],
   "triggered": [
    "AAPL",
@@ -190,7 +194,11 @@
    "RDDT",
    "SNOW",
    "TWLO",
-   "ZM"
+   "ZM",
+   "DIS",
+   "NOC",
+   "PNC",
+   "SONY"
   ],
   "hits": [
    {
@@ -672,6 +680,38 @@
     "or_high": 91.15,
     "or_low": 89.25,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:25",
+    "price": 113.06,
+    "or_high": 112.98,
+    "or_low": 112.18,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:25",
+    "price": 552.95,
+    "or_high": 552.47,
+    "or_low": 548.05,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PNC",
+    "at": "10:25",
+    "price": 231.52,
+    "or_high": 231.38,
+    "or_low": 229.56,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:25",
+    "price": 25.48,
+    "or_high": 25.47,
+    "or_low": 25.36,
+    "pct_over": 0.05
    }
   ]
  },
@@ -679,8 +719,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.47998046875,
-  "last_ts": 1793719200
+  "last": 754.25,
+  "last_ts": 1793719500
  },
  "seen_trades": 0,
  "daily": [

@@ -1,21 +1,21 @@
 {
- "updated": 1793719402,
- "updated_et": "2026-11-03 10:23 ET",
+ "updated": 1793719716,
+ "updated_et": "2026-11-03 10:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3224.3,
-  "equity": 9871.67,
-  "return": -0.012832999999999983,
+  "equity": 9856.87,
+  "return": -0.014312999999999909,
   "started": 1793559735
  },
  "spy": {
-  "value": 9930.19,
-  "return": -0.006980999999999904,
+  "value": 9927.17,
+  "return": -0.0072830000000000394,
   "start_price": 759.47998046875,
-  "last": 754.47998046875
+  "last": 754.25
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "AAPL",
-    "at": "09:50",
-    "price": 333.82,
-    "or_high": 332.67,
-    "or_low": 325.33,
-    "pct_over": 0.35
-   },
-   {
-    "symbol": "APP",
-    "at": "09:50",
-    "price": 236.77,
-    "or_high": 236.11,
-    "or_low": 231.1,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "CAT",
-    "at": "09:50",
-    "price": 622.97,
-    "or_high": 622.95,
-    "or_low": 617.01,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "CHPT",
-    "at": "09:50",
-    "price": 10.24,
-    "or_high": 10.21,
-    "or_low": 10.0,
-    "pct_over": 0.29
-   },
    {
     "symbol": "CLSK",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 91.15,
     "or_low": 89.25,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:25",
+    "price": 113.06,
+    "or_high": 112.98,
+    "or_low": 112.18,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:25",
+    "price": 552.95,
+    "or_high": 552.47,
+    "or_low": 548.05,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PNC",
+    "at": "10:25",
+    "price": 231.52,
+    "or_high": 231.38,
+    "or_low": 229.56,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:25",
+    "price": 25.48,
+    "or_high": 25.47,
+    "or_low": 25.36,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 60,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
@@ -581,6 +581,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793719500,
+   "et": "2026-11-03 10:25",
+   "kind": "busy",
+   "text": "4 more breakouts (DIS, NOC, PNC, SONY) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DIS",
+    "NOC",
+    "PNC",
+    "SONY"
+   ]
+  },
   {
    "ts": 1793719200,
    "et": "2026-11-03 10:20",
@@ -1484,6 +1496,11 @@
    "ts": 1793719402,
    "equity": 9871.67,
    "spy": 9930.19
+  },
+  {
+   "ts": 1793719716,
+   "equity": 9856.87,
+   "spy": 9927.17
   }
  ],
  "daily": [
@@ -1495,6 +1512,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793719716,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 25.9,
+   "errors": [],
+   "run_id": "41664241322",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793719402,
    "phase": "open",
@@ -1884,29 +1911,19 @@
    "errors": [],
    "run_id": "41508334765",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793646663,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 11.8,
-   "errors": [],
-   "run_id": "41507531549",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793719402,
+  "tick_at": 1793719716,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793719423,
-  "candidates": 59,
-  "charts_fetched": 61,
+  "yahoo_time": 1793719739,
+  "candidates": 57,
+  "charts_fetched": 59,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
