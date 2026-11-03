@@ -1,5 +1,5 @@
 {
- "cash": 3224.2987,
+ "cash": 9802.9827,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -27,32 +27,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-03",
-  "last_bar_end": 1793719800,
-  "position": {
+  },
+  {
+   "date": "2026-11-03",
    "symbol": "AAPL",
    "qty": 20,
+   "entry_et": "09:50",
    "entry_fill": 333.8618,
-   "entry_ts": 1793717400,
-   "plan": {
-    "symbol": "AAPL",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-03",
-    "entry_time": "9:50 AM",
-    "entry": 333.82,
-    "stop": 329.0,
-    "target": 338.64,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 333.7950134277344
-   },
+   "exit_et": "10:35",
+   "exit_fill": 328.9342,
+   "exit_reason": "stop $329.00 hit",
+   "stop": 329.0,
+   "target": 338.64,
+   "pnl": -98.55,
+   "r": -1.022,
+   "risk_usd": 96.4,
+   "cost_usd": 2.65,
    "why": {
     "scanner": "AAPL: the 09:45 bar closed at $333.82, above the 15-min opening range high $332.67 (range 325.33-332.67)",
     "exit": "plan: entry $333.82, stop $329.00 (opening-range midpoint), target $338.64 (1R (one times the risk)), flat by 15:55 ET",
@@ -61,8 +51,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-03",
+  "last_bar_end": 1793720100,
+  "position": null,
+  "pending": {
+   "symbol": "MRNA",
+   "qty": 14,
+   "plan": {
+    "symbol": "MRNA",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-03",
+    "entry_time": "10:35 AM",
+    "entry": 233.91,
+    "stop": 226.77,
+    "target": 241.05,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "MRNA: the 10:30 bar closed at $233.91, above the 15-min opening range high $233.32 (range 220.23-233.32)",
+    "exit": "plan: entry $233.91, stop $226.77 (opening-range midpoint), target $241.05 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MRNA: 14 shares, bound by your $100 max loss per trade (14 x 7.14 = $99.96 at the stop) (limits: max loss 14; position cap 31; max order 34; cash 37)",
+    "risk": "trader-risk PASS: entry 233.91 (the plan's entry), stop 226.77, target 241.05: risk 7.14 a share; max loss $99.96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.40 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793720100,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -80,11 +102,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 20
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-03",
+    "symbol": "AAPL",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 20
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-03",
+    "symbol": "MRNA",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 99.96,
+    "at": "2026-11-03T10:35:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 66,
+  "triggers_seen": 70,
   "missed": [
    "BA",
    "BAC",
@@ -202,7 +241,11 @@
    "PNC",
    "SONY",
    "FSLR",
-   "OXY"
+   "OXY",
+   "CHTR",
+   "MRNA",
+   "SPOT",
+   "ZS"
   ],
   "hits": [
    {
@@ -732,6 +775,38 @@
     "or_high": 60.67,
     "or_low": 59.69,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:35",
+    "price": 114.99,
+    "or_high": 114.8,
+    "or_low": 113.32,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "MRNA",
+    "at": "10:35",
+    "price": 233.91,
+    "or_high": 233.32,
+    "or_low": 220.23,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "SPOT",
+    "at": "10:35",
+    "price": 592.17,
+    "or_high": 591.99,
+    "or_low": 581.72,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ZS",
+    "at": "10:35",
+    "price": 227.39,
+    "or_high": 226.79,
+    "or_low": 220.07,
+    "pct_over": 0.26
    }
   ]
  },
@@ -739,8 +814,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.5700073242188,
-  "last_ts": 1793719800
+  "last": 754.3099975585938,
+  "last_ts": 1793720100
  },
  "seen_trades": 0,
  "daily": [
