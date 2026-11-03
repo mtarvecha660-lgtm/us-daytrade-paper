@@ -1,38 +1,23 @@
 {
- "updated": 1793735878,
- "updated_et": "2026-11-03 14:57 ET",
+ "updated": 1793736199,
+ "updated_et": "2026-11-03 15:03 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 6527.31,
-  "equity": 9708.46,
-  "return": -0.029154000000000124,
+  "cash": 9701.45,
+  "equity": 9701.45,
+  "return": -0.029854999999999965,
   "started": 1793559735
  },
  "spy": {
-  "value": 9921.24,
-  "return": -0.007875999999999994,
+  "value": 9922.16,
+  "return": -0.007784000000000013,
   "start_price": 759.47998046875,
-  "last": 753.7999877929688
+  "last": 753.8699951171875
  },
- "position": {
-  "symbol": "MRNA",
-  "qty": 14,
-  "entry": 233.9768,
-  "entry_et": "10:35",
-  "stop": 226.77,
-  "target": 241.05,
-  "last": null,
-  "why": {
-   "scanner": "MRNA: the 10:30 bar closed at $233.91, above the 15-min opening range high $233.32 (range 220.23-233.32)",
-   "exit": "plan: entry $233.91, stop $226.77 (opening-range midpoint), target $241.05 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on MRNA: 14 shares, bound by your $100 max loss per trade (14 x 7.14 = $99.96 at the stop) (limits: max loss 14; position cap 31; max order 34; cash 37)",
-   "risk": "trader-risk PASS: entry 233.91 (the plan's entry), stop 226.77, target 241.05: risk 7.14 a share; max loss $99.96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.40 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-03",
@@ -522,21 +507,21 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 14 MRNA bought at $233.98. It sells at the stop $226.77, the target $241.05, or at 15:55 ET, whichever comes first.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 2 of 3 trades used today.",
  "stats": {
-  "trades": 2,
+  "trades": 3,
   "wins": 0,
   "win_rate": 0.0,
-  "avg_r": -1.0230000000000001,
-  "t_stat_r": null,
-  "net_pnl": -197.02,
+  "avg_r": -1.0206666666666668,
+  "t_stat_r": -424.62300021041256,
+  "net_pnl": -298.55,
   "profit_factor": 0.0,
-  "expectancy_usd": -98.51,
+  "expectancy_usd": -99.52,
   "avg_win": null,
-  "avg_loss": -98.51,
-  "costs_usd": 4.94,
+  "avg_loss": -99.52,
+  "costs_usd": 6.23,
   "exits": {
-   "stop": 2
+   "stop": 3
   }
  },
  "curve": {
@@ -553,8 +538,32 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.036085509104032965,
+ "intraday_max_drawdown": -0.036781504203274196,
  "trades": [
+  {
+   "date": "2026-11-03",
+   "symbol": "MRNA",
+   "qty": 14,
+   "entry_et": "10:35",
+   "entry_fill": 233.9768,
+   "exit_et": "15:00",
+   "exit_fill": 226.7246,
+   "exit_reason": "stop $226.77 hit",
+   "stop": 226.77,
+   "target": 241.05,
+   "pnl": -101.53,
+   "r": -1.016,
+   "risk_usd": 99.96,
+   "cost_usd": 1.29,
+   "why": {
+    "scanner": "MRNA: the 10:30 bar closed at $233.91, above the 15-min opening range high $233.32 (range 220.23-233.32)",
+    "exit": "plan: entry $233.91, stop $226.77 (opening-range midpoint), target $241.05 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MRNA: 14 shares, bound by your $100 max loss per trade (14 x 7.14 = $99.96 at the stop) (limits: max loss 14; position cap 31; max order 34; cash 37)",
+    "risk": "trader-risk PASS: entry 233.91 (the plan's entry), stop 226.77, target 241.05: risk 7.14 a share; max loss $99.96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.40 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-03",
    "symbol": "AAPL",
@@ -605,6 +614,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793736000,
+   "et": "2026-11-03 15:00",
+   "kind": "exit",
+   "text": "SELL 14 MRNA at $226.72: stop $226.77 hit. P&L $-101.53 (-1.02R)",
+   "symbol": "MRNA"
+  },
   {
    "ts": 1793732700,
    "et": "2026-11-03 14:05",
@@ -2063,6 +2079,11 @@
    "ts": 1793735878,
    "equity": 9708.46,
    "spy": 9921.24
+  },
+  {
+   "ts": 1793736199,
+   "equity": 9701.45,
+   "spy": 9922.16
   }
  ],
  "daily": [
@@ -2074,6 +2095,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793736199,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.6,
+   "errors": [],
+   "run_id": "41708918524",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793735878,
    "phase": "open",
@@ -2463,29 +2494,19 @@
    "errors": [],
    "run_id": "41676124187",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793723557,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.7,
-   "errors": [],
-   "run_id": "41675225957",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793735878,
+  "tick_at": 1793736199,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793735885,
+  "yahoo_time": 1793736211,
   "candidates": 14,
   "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -61,3 +61,4 @@
 {"ts": 1793730900, "et": "2026-11-03 13:35", "kind": "busy", "text": "2 more breakouts (EBAY, SE) not taken: already in MRNA (one trade at a time)", "symbols": ["EBAY", "SE"]}
 {"ts": 1793731200, "et": "2026-11-03 13:40", "kind": "busy", "text": "1 more breakout (NFLX) not taken: already in MRNA (one trade at a time)", "symbols": ["NFLX"]}
 {"ts": 1793732700, "et": "2026-11-03 14:05", "kind": "busy", "text": "2 more breakouts (ADBE, MS) not taken: already in MRNA (one trade at a time)", "symbols": ["ADBE", "MS"]}
+{"ts": 1793736000, "et": "2026-11-03 15:00", "kind": "exit", "text": "SELL 14 MRNA at $226.72: stop $226.77 hit. P&L $-101.53 (-1.02R)", "symbol": "MRNA"}
