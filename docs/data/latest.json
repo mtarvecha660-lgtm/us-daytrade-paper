@@ -1,21 +1,21 @@
 {
- "updated": 1793724496,
- "updated_et": "2026-11-03 11:48 ET",
+ "updated": 1793724821,
+ "updated_et": "2026-11-03 11:53 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9767.94,
-  "return": -0.02320599999999995,
+  "equity": 9775.22,
+  "return": -0.02247800000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9934.8,
-  "return": -0.006520000000000081,
+  "value": 9932.3,
+  "return": -0.006770000000000054,
   "start_price": 759.47998046875,
-  "last": 754.8300170898438
+  "last": 754.6400146484375
  },
  "position": {
   "symbol": "MRNA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "AI",
-    "at": "10:20",
-    "price": 11.48,
-    "or_high": 11.44,
-    "or_low": 11.17,
-    "pct_over": 0.26
-   },
    {
     "symbol": "BB",
     "at": "10:20",
@@ -516,9 +508,17 @@
     "or_high": 386.33,
     "or_low": 378.26,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "DE",
+    "at": "11:50",
+    "price": 672.7,
+    "or_high": 672.0,
+    "or_low": 659.46,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 108,
+  "n_hits": 109,
   "entries": 2,
   "max_trades": 3
  },
@@ -605,6 +605,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793724600,
+   "et": "2026-11-03 11:50",
+   "kind": "busy",
+   "text": "1 more breakout (DE) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "DE"
+   ]
+  },
   {
    "ts": 1793724300,
    "et": "2026-11-03 11:45",
@@ -1764,6 +1773,11 @@
    "ts": 1793724496,
    "equity": 9767.94,
    "spy": 9934.8
+  },
+  {
+   "ts": 1793724821,
+   "equity": 9775.22,
+   "spy": 9932.3
   }
  ],
  "daily": [
@@ -1775,6 +1789,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793724821,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.2,
+   "errors": [],
+   "run_id": "41678741173",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793724496,
    "phase": "open",
@@ -2164,25 +2188,15 @@
    "errors": [],
    "run_id": "41520829458",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793651517,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.7,
-   "errors": [],
-   "run_id": "41519997571",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793724496,
+  "tick_at": 1793724821,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793724506,
-  "candidates": 28,
-  "charts_fetched": 30,
+  "yahoo_time": 1793724831,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
