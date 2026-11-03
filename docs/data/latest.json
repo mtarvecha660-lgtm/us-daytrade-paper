@@ -1,21 +1,21 @@
 {
- "updated": 1793728947,
- "updated_et": "2026-11-03 13:02 ET",
+ "updated": 1793729266,
+ "updated_et": "2026-11-03 13:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9776.76,
-  "return": -0.02232400000000001,
+  "equity": 9761.08,
+  "return": -0.023892000000000024,
   "started": 1793559735
  },
  "spy": {
-  "value": 9945.99,
-  "return": -0.005400999999999989,
+  "value": 9948.36,
+  "return": -0.005163999999999946,
   "start_price": 759.47998046875,
-  "last": 755.6799926757812
+  "last": 755.8599853515625
  },
  "position": {
   "symbol": "MRNA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "RDDT",
-    "at": "10:20",
-    "price": 95.4,
-    "or_high": 94.72,
-    "or_low": 91.64,
-    "pct_over": 0.72
-   },
    {
     "symbol": "SNOW",
     "at": "10:20",
@@ -516,9 +508,17 @@
     "or_high": 11.66,
     "or_low": 11.51,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "AMZN",
+    "at": "13:05",
+    "price": 249.96,
+    "or_high": 249.82,
+    "or_low": 246.23,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 116,
+  "n_hits": 117,
   "entries": 2,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.03069427745085085,
+ "intraday_max_drawdown": -0.030861077988186936,
  "trades": [
   {
    "date": "2026-11-03",
@@ -605,6 +605,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793729100,
+   "et": "2026-11-03 13:05",
+   "kind": "busy",
+   "text": "1 more breakout (AMZN) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "AMZN"
+   ]
+  },
   {
    "ts": 1793728800,
    "et": "2026-11-03 13:00",
@@ -1906,6 +1915,11 @@
    "ts": 1793728947,
    "equity": 9776.76,
    "spy": 9945.99
+  },
+  {
+   "ts": 1793729266,
+   "equity": 9761.08,
+   "spy": 9948.36
   }
  ],
  "daily": [
@@ -1917,6 +1931,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793729266,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.8,
+   "errors": [],
+   "run_id": "41690752956",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793728947,
    "phase": "open",
@@ -2306,25 +2330,15 @@
    "errors": [],
    "run_id": "41655205868",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793716228,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 4.9,
-   "errors": [],
-   "run_id": "41654321374",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793728947,
+  "tick_at": 1793729266,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793728958,
-  "candidates": 26,
-  "charts_fetched": 28,
+  "yahoo_time": 1793729276,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,
