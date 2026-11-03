@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793721000,
+  "last_bar_end": 1793721600,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 86,
+  "triggers_seen": 96,
   "missed": [
    "BA",
    "BAC",
@@ -199,7 +199,17 @@
    "JNJ",
    "NXPI",
    "PATH",
-   "RKT"
+   "RKT",
+   "IBM",
+   "PLTR",
+   "SBUX",
+   "VZ",
+   "ADI",
+   "CSCO",
+   "LYFT",
+   "SLB",
+   "SOFI",
+   "UNH"
   ],
   "triggered": [
    "AAPL",
@@ -287,7 +297,17 @@
    "JNJ",
    "NXPI",
    "PATH",
-   "RKT"
+   "RKT",
+   "IBM",
+   "PLTR",
+   "SBUX",
+   "VZ",
+   "ADI",
+   "CSCO",
+   "LYFT",
+   "SLB",
+   "SOFI",
+   "UNH"
   ],
   "hits": [
    {
@@ -977,6 +997,86 @@
     "or_high": 13.93,
     "or_low": 13.7,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:55",
+    "price": 249.65,
+    "or_high": 249.56,
+    "or_low": 244.61,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:55",
+    "price": 173.82,
+    "or_high": 172.66,
+    "or_low": 165.25,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "SBUX",
+    "at": "10:55",
+    "price": 104.56,
+    "or_high": 104.37,
+    "or_low": 102.75,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:55",
+    "price": 45.13,
+    "or_high": 45.1,
+    "or_low": 44.6,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "ADI",
+    "at": "11:00",
+    "price": 430.67,
+    "or_high": 430.6,
+    "or_low": 423.19,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CSCO",
+    "at": "11:00",
+    "price": 103.33,
+    "or_high": 103.0,
+    "or_low": 101.7,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "LYFT",
+    "at": "11:00",
+    "price": 16.64,
+    "or_high": 16.63,
+    "or_low": 16.32,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SLB",
+    "at": "11:00",
+    "price": 52.65,
+    "or_high": 52.61,
+    "or_low": 51.73,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "SOFI",
+    "at": "11:00",
+    "price": 16.82,
+    "or_high": 16.81,
+    "or_low": 16.47,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "UNH",
+    "at": "11:00",
+    "price": 402.38,
+    "or_high": 402.08,
+    "or_low": 397.32,
+    "pct_over": 0.08
    }
   ]
  },
@@ -984,8 +1084,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.39501953125,
-  "last_ts": 1793721000
+  "last": 756.2000122070312,
+  "last_ts": 1793721600
  },
  "seen_trades": 0,
  "daily": [

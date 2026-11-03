@@ -40,3 +40,5 @@
 {"ts": 1793720400, "et": "2026-11-03 10:40", "kind": "busy", "text": "4 more breakouts (AEP, BSX, DPZ, SHOP) not taken: already in MRNA (one trade at a time)", "symbols": ["AEP", "BSX", "DPZ", "SHOP"]}
 {"ts": 1793720700, "et": "2026-11-03 10:45", "kind": "busy", "text": "6 more breakouts (CPNG, HOOD, ON, PYPL, SCHW, TXN) not taken: already in MRNA (one trade at a time)", "symbols": ["CPNG", "HOOD", "ON", "PYPL", "SCHW", "TXN"]}
 {"ts": 1793721000, "et": "2026-11-03 10:50", "kind": "busy", "text": "6 more breakouts (GE, IDXX, JNJ, NXPI, PATH, RKT) not taken: already in MRNA (one trade at a time)", "symbols": ["GE", "IDXX", "JNJ", "NXPI", "PATH", "RKT"]}
+{"ts": 1793721300, "et": "2026-11-03 10:55", "kind": "busy", "text": "4 more breakouts (IBM, PLTR, SBUX, VZ) not taken: already in MRNA (one trade at a time)", "symbols": ["IBM", "PLTR", "SBUX", "VZ"]}
+{"ts": 1793721600, "et": "2026-11-03 11:00", "kind": "busy", "text": "6 more breakouts (ADI, CSCO, LYFT, SLB, SOFI, UNH) not taken: already in MRNA (one trade at a time)", "symbols": ["ADI", "CSCO", "LYFT", "SLB", "SOFI", "UNH"]}
