@@ -33,7 +33,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793717700,
+  "last_bar_end": 1793718000,
   "position": {
    "symbol": "AAPL",
    "qty": 20,
@@ -84,7 +84,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 25,
+  "triggers_seen": 34,
   "missed": [
    "BA",
    "BAC",
@@ -93,7 +93,16 @@
    "ORCL",
    "REGN",
    "SEDG",
-   "ZTS"
+   "ZTS",
+   "ABT",
+   "CVNA",
+   "DXCM",
+   "GD",
+   "ISRG",
+   "MDT",
+   "RIVN",
+   "SYK",
+   "TM"
   ],
   "triggered": [
    "AAPL",
@@ -120,7 +129,16 @@
    "ORCL",
    "REGN",
    "SEDG",
-   "ZTS"
+   "ZTS",
+   "ABT",
+   "CVNA",
+   "DXCM",
+   "GD",
+   "ISRG",
+   "MDT",
+   "RIVN",
+   "SYK",
+   "TM"
   ],
   "hits": [
    {
@@ -322,6 +340,78 @@
     "or_high": 82.94,
     "or_low": 81.53,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "ABT",
+    "at": "10:00",
+    "price": 110.47,
+    "or_high": 110.0,
+    "or_low": 109.09,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 72.19,
+    "or_high": 72.0,
+    "or_low": 70.94,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:00",
+    "price": 84.99,
+    "or_high": 84.74,
+    "or_low": 83.82,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "GD",
+    "at": "10:00",
+    "price": 373.09,
+    "or_high": 372.8,
+    "or_low": 368.36,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:00",
+    "price": 438.5,
+    "or_high": 438.0,
+    "or_low": 434.05,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "MDT",
+    "at": "10:00",
+    "price": 99.13,
+    "or_high": 98.99,
+    "or_low": 98.17,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:00",
+    "price": 13.52,
+    "or_high": 13.5,
+    "or_low": 12.97,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "SYK",
+    "at": "10:00",
+    "price": 310.86,
+    "or_high": 309.14,
+    "or_low": 306.41,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TM",
+    "at": "10:00",
+    "price": 196.13,
+    "or_high": 195.84,
+    "or_low": 195.18,
+    "pct_over": 0.15
    }
   ]
  },
@@ -329,8 +419,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 753.6085815429688,
-  "last_ts": 1793717700
+  "last": 753.8150024414062,
+  "last_ts": 1793718000
  },
  "seen_trades": 0,
  "daily": [

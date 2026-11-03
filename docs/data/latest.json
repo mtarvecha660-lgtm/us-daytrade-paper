@@ -1,21 +1,21 @@
 {
- "updated": 1793717812,
- "updated_et": "2026-11-03 09:56 ET",
+ "updated": 1793718127,
+ "updated_et": "2026-11-03 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3224.3,
-  "equity": 9858.07,
-  "return": -0.014193000000000011,
+  "equity": 9848.77,
+  "return": -0.015122999999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9918.72,
-  "return": -0.008128000000000024,
+  "value": 9921.44,
+  "return": -0.007855999999999974,
   "start_price": 759.47998046875,
-  "last": 753.6085815429688
+  "last": 753.8150024414062
  },
  "position": {
   "symbol": "AAPL",
@@ -236,9 +236,81 @@
     "or_high": 82.94,
     "or_low": 81.53,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "ABT",
+    "at": "10:00",
+    "price": 110.47,
+    "or_high": 110.0,
+    "or_low": 109.09,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 72.19,
+    "or_high": 72.0,
+    "or_low": 70.94,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:00",
+    "price": 84.99,
+    "or_high": 84.74,
+    "or_low": 83.82,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "GD",
+    "at": "10:00",
+    "price": 373.09,
+    "or_high": 372.8,
+    "or_low": 368.36,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:00",
+    "price": 438.5,
+    "or_high": 438.0,
+    "or_low": 434.05,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "MDT",
+    "at": "10:00",
+    "price": 99.13,
+    "or_high": 98.99,
+    "or_low": 98.17,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:00",
+    "price": 13.52,
+    "or_high": 13.5,
+    "or_low": 12.97,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "SYK",
+    "at": "10:00",
+    "price": 310.86,
+    "or_high": 309.14,
+    "or_low": 306.41,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TM",
+    "at": "10:00",
+    "price": 196.13,
+    "or_high": 195.84,
+    "or_low": 195.18,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 25,
+  "n_hits": 34,
   "entries": 1,
   "max_trades": 3
  },
@@ -273,7 +345,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.021231325538055845,
+ "intraday_max_drawdown": -0.022154685655451645,
  "trades": [
   {
    "date": "2026-11-02",
@@ -301,6 +373,23 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793718000,
+   "et": "2026-11-03 10:00",
+   "kind": "busy",
+   "text": "9 more breakouts (ABT, CVNA, DXCM, GD, ISRG, MDT, RIVN, SYK ...) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ABT",
+    "CVNA",
+    "DXCM",
+    "GD",
+    "ISRG",
+    "MDT",
+    "RIVN",
+    "SYK",
+    "TM"
+   ]
+  },
   {
    "ts": 1793717700,
    "et": "2026-11-03 09:55",
@@ -1104,6 +1193,11 @@
    "ts": 1793717812,
    "equity": 9858.07,
    "spy": 9918.72
+  },
+  {
+   "ts": 1793718127,
+   "equity": 9848.77,
+   "spy": 9921.44
   }
  ],
  "daily": [
@@ -1115,6 +1209,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793718127,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.4,
+   "errors": [],
+   "run_id": "41659601397",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793717812,
    "phase": "open",
@@ -1504,29 +1608,19 @@
    "errors": [],
    "run_id": "41504246470",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793645090,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.2,
-   "errors": [],
-   "run_id": "41503396772",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793717812,
+  "tick_at": 1793718127,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793717834,
-  "candidates": 71,
-  "charts_fetched": 73,
+  "yahoo_time": 1793718146,
+  "candidates": 62,
+  "charts_fetched": 64,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
