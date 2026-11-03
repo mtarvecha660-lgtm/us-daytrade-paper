@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793729400,
+  "last_bar_end": 1793729700,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 117,
+  "triggers_seen": 118,
   "missed": [
    "BA",
    "BAC",
@@ -230,7 +230,8 @@
    "CDNS",
    "KO",
    "NU",
-   "AMZN"
+   "AMZN",
+   "GOOGL"
   ],
   "triggered": [
    "AAPL",
@@ -349,7 +350,8 @@
    "CDNS",
    "KO",
    "NU",
-   "AMZN"
+   "AMZN",
+   "GOOGL"
   ],
   "hits": [
    {
@@ -1287,6 +1289,14 @@
     "or_high": 249.82,
     "or_low": 246.23,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "13:15",
+    "price": 281.52,
+    "or_high": 281.36,
+    "or_low": 278.06,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1294,8 +1304,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.5399780273438,
-  "last_ts": 1793729400
+  "last": 756.7150268554688,
+  "last_ts": 1793729700
  },
  "seen_trades": 0,
  "daily": [
