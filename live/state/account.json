@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793720400,
+  "last_bar_end": 1793721000,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 74,
+  "triggers_seen": 86,
   "missed": [
    "BA",
    "BAC",
@@ -187,7 +187,19 @@
    "AEP",
    "BSX",
    "DPZ",
-   "SHOP"
+   "SHOP",
+   "CPNG",
+   "HOOD",
+   "ON",
+   "PYPL",
+   "SCHW",
+   "TXN",
+   "GE",
+   "IDXX",
+   "JNJ",
+   "NXPI",
+   "PATH",
+   "RKT"
   ],
   "triggered": [
    "AAPL",
@@ -263,7 +275,19 @@
    "AEP",
    "BSX",
    "DPZ",
-   "SHOP"
+   "SHOP",
+   "CPNG",
+   "HOOD",
+   "ON",
+   "PYPL",
+   "SCHW",
+   "TXN",
+   "GE",
+   "IDXX",
+   "JNJ",
+   "NXPI",
+   "PATH",
+   "RKT"
   ],
   "hits": [
    {
@@ -857,6 +881,102 @@
     "or_high": 142.98,
     "or_low": 135.65,
     "pct_over": 0.71
+   },
+   {
+    "symbol": "CPNG",
+    "at": "10:45",
+    "price": 14.89,
+    "or_high": 14.86,
+    "or_low": 14.61,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:45",
+    "price": 85.61,
+    "or_high": 85.39,
+    "or_low": 84.19,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "ON",
+    "at": "10:45",
+    "price": 73.31,
+    "or_high": 72.83,
+    "or_low": 70.06,
+    "pct_over": 0.65
+   },
+   {
+    "symbol": "PYPL",
+    "at": "10:45",
+    "price": 58.93,
+    "or_high": 58.82,
+    "or_low": 58.22,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:45",
+    "price": 89.11,
+    "or_high": 88.95,
+    "or_low": 88.33,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:45",
+    "price": 313.61,
+    "or_high": 311.66,
+    "or_low": 306.4,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "GE",
+    "at": "10:50",
+    "price": 322.72,
+    "or_high": 322.28,
+    "or_low": 317.18,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "IDXX",
+    "at": "10:50",
+    "price": 673.41,
+    "or_high": 672.7,
+    "or_low": 655.52,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:50",
+    "price": 270.83,
+    "or_high": 270.56,
+    "or_low": 267.74,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:50",
+    "price": 265.29,
+    "or_high": 264.95,
+    "or_low": 259.16,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:50",
+    "price": 13.28,
+    "or_high": 13.16,
+    "or_low": 12.88,
+    "pct_over": 0.95
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:50",
+    "price": 13.94,
+    "or_high": 13.93,
+    "or_low": 13.7,
+    "pct_over": 0.04
    }
   ]
  },
@@ -864,8 +984,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.25,
-  "last_ts": 1793720400
+  "last": 755.39501953125,
+  "last_ts": 1793721000
  },
  "seen_trades": 0,
  "daily": [

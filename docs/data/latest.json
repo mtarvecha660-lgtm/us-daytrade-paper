@@ -1,21 +1,21 @@
 {
- "updated": 1793720673,
- "updated_et": "2026-11-03 10:44 ET",
+ "updated": 1793721355,
+ "updated_et": "2026-11-03 10:55 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9794.11,
-  "return": -0.02058899999999997,
+  "equity": 9810.91,
+  "return": -0.018909000000000065,
   "started": 1793559735
  },
  "spy": {
-  "value": 9927.17,
-  "return": -0.0072830000000000394,
+  "value": 9942.24,
+  "return": -0.005776000000000003,
   "start_price": 759.47998046875,
-  "last": 754.25
+  "last": 755.39501953125
  },
  "position": {
   "symbol": "MRNA",
@@ -37,102 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "TER",
-    "at": "09:50",
-    "price": 272.93,
-    "or_high": 272.76,
-    "or_low": 266.64,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "U",
-    "at": "09:50",
-    "price": 39.21,
-    "or_high": 39.14,
-    "or_low": 38.3,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "WDC",
-    "at": "09:50",
-    "price": 359.07,
-    "or_high": 358.24,
-    "or_low": 346.62,
-    "pct_over": 0.23
-   },
-   {
-    "symbol": "BA",
-    "at": "09:55",
-    "price": 176.01,
-    "or_high": 175.57,
-    "or_low": 173.88,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "BAC",
-    "at": "09:55",
-    "price": 49.63,
-    "or_high": 49.58,
-    "or_low": 49.17,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "BIIB",
-    "at": "09:55",
-    "price": 250.5,
-    "or_high": 250.31,
-    "or_low": 246.25,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "HON",
-    "at": "09:55",
-    "price": 224.23,
-    "or_high": 223.98,
-    "or_low": 222.36,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "ORCL",
-    "at": "09:55",
-    "price": 123.96,
-    "or_high": 123.92,
-    "or_low": 121.35,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "REGN",
-    "at": "09:55",
-    "price": 970.0,
-    "or_high": 968.26,
-    "or_low": 953.0,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "SEDG",
-    "at": "09:55",
-    "price": 31.48,
-    "or_high": 31.17,
-    "or_low": 30.39,
-    "pct_over": 0.99
-   },
-   {
-    "symbol": "ZTS",
-    "at": "09:55",
-    "price": 83.11,
-    "or_high": 82.94,
-    "or_low": 81.53,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "ABT",
-    "at": "10:00",
-    "price": 110.47,
-    "or_high": 110.0,
-    "or_low": 109.09,
-    "pct_over": 0.43
-   },
    {
     "symbol": "CVNA",
     "at": "10:00",
@@ -516,9 +420,105 @@
     "or_high": 142.98,
     "or_low": 135.65,
     "pct_over": 0.71
+   },
+   {
+    "symbol": "CPNG",
+    "at": "10:45",
+    "price": 14.89,
+    "or_high": 14.86,
+    "or_low": 14.61,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:45",
+    "price": 85.61,
+    "or_high": 85.39,
+    "or_low": 84.19,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "ON",
+    "at": "10:45",
+    "price": 73.31,
+    "or_high": 72.83,
+    "or_low": 70.06,
+    "pct_over": 0.65
+   },
+   {
+    "symbol": "PYPL",
+    "at": "10:45",
+    "price": 58.93,
+    "or_high": 58.82,
+    "or_low": 58.22,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:45",
+    "price": 89.11,
+    "or_high": 88.95,
+    "or_low": 88.33,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:45",
+    "price": 313.61,
+    "or_high": 311.66,
+    "or_low": 306.4,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "GE",
+    "at": "10:50",
+    "price": 322.72,
+    "or_high": 322.28,
+    "or_low": 317.18,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "IDXX",
+    "at": "10:50",
+    "price": 673.41,
+    "or_high": 672.7,
+    "or_low": 655.52,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:50",
+    "price": 270.83,
+    "or_high": 270.56,
+    "or_low": 267.74,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:50",
+    "price": 265.29,
+    "or_high": 264.95,
+    "or_low": 259.16,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:50",
+    "price": 13.28,
+    "or_high": 13.16,
+    "or_low": 12.88,
+    "pct_over": 0.95
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:50",
+    "price": 13.94,
+    "or_high": 13.93,
+    "or_low": 13.7,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 74,
+  "n_hits": 86,
   "entries": 2,
   "max_trades": 3
  },
@@ -605,6 +605,34 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793721000,
+   "et": "2026-11-03 10:50",
+   "kind": "busy",
+   "text": "6 more breakouts (GE, IDXX, JNJ, NXPI, PATH, RKT) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "GE",
+    "IDXX",
+    "JNJ",
+    "NXPI",
+    "PATH",
+    "RKT"
+   ]
+  },
+  {
+   "ts": 1793720700,
+   "et": "2026-11-03 10:45",
+   "kind": "busy",
+   "text": "6 more breakouts (CPNG, HOOD, ON, PYPL, SCHW, TXN) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "CPNG",
+    "HOOD",
+    "ON",
+    "PYPL",
+    "SCHW",
+    "TXN"
+   ]
+  },
   {
    "ts": 1793720400,
    "et": "2026-11-03 10:40",
@@ -1595,6 +1623,11 @@
    "ts": 1793720673,
    "equity": 9794.11,
    "spy": 9927.17
+  },
+  {
+   "ts": 1793721355,
+   "equity": 9810.91,
+   "spy": 9942.24
   }
  ],
  "daily": [
@@ -1606,6 +1639,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793721355,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 23.5,
+   "errors": [],
+   "run_id": "41668876530",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793720673,
    "phase": "open",
@@ -1995,29 +2038,19 @@
    "errors": [],
    "run_id": "41511617484",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793647928,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.2,
-   "errors": [],
-   "run_id": "41510793076",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793720673,
+  "tick_at": 1793721355,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793720605,
-  "candidates": 58,
-  "charts_fetched": 60,
+  "yahoo_time": 1793721376,
+  "candidates": 74,
+  "charts_fetched": 76,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": 1.1,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
