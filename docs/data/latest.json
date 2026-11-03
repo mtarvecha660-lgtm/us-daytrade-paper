@@ -1,21 +1,21 @@
 {
- "updated": 1793732734,
- "updated_et": "2026-11-03 14:05 ET",
+ "updated": 1793733043,
+ "updated_et": "2026-11-03 14:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9768.64,
-  "return": -0.023136000000000045,
+  "equity": 9748.41,
+  "return": -0.025159000000000042,
   "started": 1793559735
  },
  "spy": {
-  "value": 9955.59,
-  "return": -0.004441000000000028,
+  "value": 9951.51,
+  "return": -0.004848999999999992,
   "start_price": 759.47998046875,
-  "last": 756.4099731445312
+  "last": 756.0999755859375
  },
  "position": {
   "symbol": "MRNA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "NOC",
-    "at": "10:25",
-    "price": 552.95,
-    "or_high": 552.47,
-    "or_low": 548.05,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "PNC",
-    "at": "10:25",
-    "price": 231.52,
-    "or_high": 231.38,
-    "or_low": 229.56,
-    "pct_over": 0.06
-   },
    {
     "symbol": "SONY",
     "at": "10:25",
@@ -516,9 +500,25 @@
     "or_high": 63.02,
     "or_low": 62.03,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "ADBE",
+    "at": "14:05",
+    "price": 248.26,
+    "or_high": 248.19,
+    "or_low": 241.7,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MS",
+    "at": "14:05",
+    "price": 186.85,
+    "or_high": 186.55,
+    "or_low": 185.6,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 121,
+  "n_hits": 123,
   "entries": 2,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.030861077988186936,
+ "intraday_max_drawdown": -0.032119032040596074,
  "trades": [
   {
    "date": "2026-11-03",
@@ -605,6 +605,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793732700,
+   "et": "2026-11-03 14:05",
+   "kind": "busy",
+   "text": "2 more breakouts (ADBE, MS) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "MS"
+   ]
+  },
   {
    "ts": 1793731200,
    "et": "2026-11-03 13:40",
@@ -2003,6 +2013,11 @@
    "ts": 1793732734,
    "equity": 9768.64,
    "spy": 9955.59
+  },
+  {
+   "ts": 1793733043,
+   "equity": 9748.41,
+   "spy": 9951.51
   }
  ],
  "daily": [
@@ -2014,6 +2029,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793733043,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.3,
+   "errors": [],
+   "run_id": "41700763487",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793732734,
    "phase": "open",
@@ -2403,25 +2428,15 @@
    "errors": [],
    "run_id": "41666049195",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793720033,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.8,
-   "errors": [],
-   "run_id": "41665146268",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793732734,
+  "tick_at": 1793733043,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793732743,
-  "candidates": 21,
-  "charts_fetched": 23,
+  "yahoo_time": 1793733051,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
