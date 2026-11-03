@@ -1,21 +1,21 @@
 {
- "updated": 1793721984,
- "updated_et": "2026-11-03 11:06 ET",
+ "updated": 1793722298,
+ "updated_et": "2026-11-03 11:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9780.68,
-  "return": -0.02193199999999995,
+  "equity": 9777.88,
+  "return": -0.02221200000000012,
   "started": 1793559735
  },
  "spy": {
-  "value": 9951.38,
-  "return": -0.004862000000000033,
+  "value": 9953.09,
+  "return": -0.004691000000000001,
   "start_price": 759.47998046875,
-  "last": 756.0900268554688
+  "last": 756.219970703125
  },
  "position": {
   "symbol": "MRNA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "RTX",
-    "at": "10:10",
-    "price": 203.55,
-    "or_high": 203.19,
-    "or_low": 201.62,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "TMO",
-    "at": "10:10",
-    "price": 696.51,
-    "or_high": 696.03,
-    "or_low": 671.99,
-    "pct_over": 0.07
-   },
    {
     "symbol": "DHR",
     "at": "10:15",
@@ -516,9 +500,25 @@
     "or_high": 408.0,
     "or_low": 403.21,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "BLK",
+    "at": "11:10",
+    "price": 1171.06,
+    "or_high": 1170.36,
+    "or_low": 1154.0,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "W",
+    "at": "11:10",
+    "price": 113.5,
+    "or_high": 113.14,
+    "or_low": 110.0,
+    "pct_over": 0.31
    }
   ],
-  "n_hits": 100,
+  "n_hits": 102,
   "entries": 2,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.02891507171926666,
+ "intraday_max_drawdown": -0.029193072614826843,
  "trades": [
   {
    "date": "2026-11-03",
@@ -605,6 +605,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793722200,
+   "et": "2026-11-03 11:10",
+   "kind": "busy",
+   "text": "2 more breakouts (BLK, W) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "BLK",
+    "W"
+   ]
+  },
   {
    "ts": 1793721900,
    "et": "2026-11-03 11:05",
@@ -1676,6 +1686,11 @@
    "ts": 1793721984,
    "equity": 9780.68,
    "spy": 9951.38
+  },
+  {
+   "ts": 1793722298,
+   "equity": 9777.88,
+   "spy": 9953.09
   }
  ],
  "daily": [
@@ -1687,6 +1702,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793722298,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 24.4,
+   "errors": [],
+   "run_id": "41671605539",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793721984,
    "phase": "open",
@@ -2076,29 +2101,19 @@
    "errors": [],
    "run_id": "41514266818",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793648965,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.6,
-   "errors": [],
-   "run_id": "41513457971",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793721984,
+  "tick_at": 1793722298,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793722001,
-  "candidates": 46,
-  "charts_fetched": 48,
+  "yahoo_time": 1793722320,
+  "candidates": 48,
+  "charts_fetched": 50,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

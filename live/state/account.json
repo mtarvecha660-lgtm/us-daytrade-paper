@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793721900,
+  "last_bar_end": 1793722200,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 100,
+  "triggers_seen": 102,
   "missed": [
    "BA",
    "BAC",
@@ -213,7 +213,9 @@
    "CRM",
    "PINS",
    "QCOM",
-   "TSM"
+   "TSM",
+   "BLK",
+   "W"
   ],
   "triggered": [
    "AAPL",
@@ -315,7 +317,9 @@
    "CRM",
    "PINS",
    "QCOM",
-   "TSM"
+   "TSM",
+   "BLK",
+   "W"
   ],
   "hits": [
    {
@@ -1117,6 +1121,22 @@
     "or_high": 408.0,
     "or_low": 403.21,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "BLK",
+    "at": "11:10",
+    "price": 1171.06,
+    "or_high": 1170.36,
+    "or_low": 1154.0,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "W",
+    "at": "11:10",
+    "price": 113.5,
+    "or_high": 113.14,
+    "or_low": 110.0,
+    "pct_over": 0.31
    }
   ]
  },
@@ -1124,8 +1144,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.0900268554688,
-  "last_ts": 1793721900
+  "last": 756.219970703125,
+  "last_ts": 1793722200
  },
  "seen_trades": 0,
  "daily": [
