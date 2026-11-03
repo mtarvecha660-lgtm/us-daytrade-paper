@@ -33,7 +33,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793718900,
+  "last_bar_end": 1793719200,
   "position": {
    "symbol": "AAPL",
    "qty": 20,
@@ -84,7 +84,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 48,
+  "triggers_seen": 60,
   "missed": [
    "BA",
    "BAC",
@@ -116,7 +116,19 @@
    "ROST",
    "SNAP",
    "TOST",
-   "TTD"
+   "TTD",
+   "AI",
+   "BB",
+   "DUOL",
+   "HLT",
+   "LMT",
+   "MDB",
+   "NET",
+   "OKTA",
+   "RDDT",
+   "SNOW",
+   "TWLO",
+   "ZM"
   ],
   "triggered": [
    "AAPL",
@@ -166,7 +178,19 @@
    "ROST",
    "SNAP",
    "TOST",
-   "TTD"
+   "TTD",
+   "AI",
+   "BB",
+   "DUOL",
+   "HLT",
+   "LMT",
+   "MDB",
+   "NET",
+   "OKTA",
+   "RDDT",
+   "SNOW",
+   "TWLO",
+   "ZM"
   ],
   "hits": [
    {
@@ -552,6 +576,102 @@
     "or_high": 12.5,
     "or_low": 12.3,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "AI",
+    "at": "10:20",
+    "price": 11.48,
+    "or_high": 11.44,
+    "or_low": 11.17,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "BB",
+    "at": "10:20",
+    "price": 8.32,
+    "or_high": 8.27,
+    "or_low": 8.06,
+    "pct_over": 0.63
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:20",
+    "price": 133.3,
+    "or_high": 133.21,
+    "or_low": 129.3,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HLT",
+    "at": "10:20",
+    "price": 365.13,
+    "or_high": 365.0,
+    "or_low": 362.72,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "LMT",
+    "at": "10:20",
+    "price": 641.44,
+    "or_high": 641.24,
+    "or_low": 636.04,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:20",
+    "price": 338.0,
+    "or_high": 336.02,
+    "or_low": 326.87,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "NET",
+    "at": "10:20",
+    "price": 275.45,
+    "or_high": 274.98,
+    "or_low": 266.7,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:20",
+    "price": 190.13,
+    "or_high": 187.6,
+    "or_low": 180.0,
+    "pct_over": 1.35
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:20",
+    "price": 95.4,
+    "or_high": 94.72,
+    "or_low": 91.64,
+    "pct_over": 0.72
+   },
+   {
+    "symbol": "SNOW",
+    "at": "10:20",
+    "price": 294.48,
+    "or_high": 293.0,
+    "or_low": 283.61,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "TWLO",
+    "at": "10:20",
+    "price": 212.75,
+    "or_high": 212.36,
+    "or_low": 205.13,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "ZM",
+    "at": "10:20",
+    "price": 91.17,
+    "or_high": 91.15,
+    "or_low": 89.25,
+    "pct_over": 0.02
    }
   ]
  },
@@ -559,8 +679,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.3699951171875,
-  "last_ts": 1793718900
+  "last": 754.47998046875,
+  "last_ts": 1793719200
  },
  "seen_trades": 0,
  "daily": [
