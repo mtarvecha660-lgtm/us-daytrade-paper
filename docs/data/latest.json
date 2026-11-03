@@ -1,21 +1,21 @@
 {
- "updated": 1793719716,
- "updated_et": "2026-11-03 10:28 ET",
+ "updated": 1793720033,
+ "updated_et": "2026-11-03 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3224.3,
-  "equity": 9856.87,
-  "return": -0.014312999999999909,
+  "equity": 9825.48,
+  "return": -0.017452000000000023,
   "started": 1793559735
  },
  "spy": {
-  "value": 9927.17,
-  "return": -0.0072830000000000394,
+  "value": 9931.38,
+  "return": -0.006862000000000035,
   "start_price": 759.47998046875,
-  "last": 754.25
+  "last": 754.5700073242188
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "CLSK",
-    "at": "09:50",
-    "price": 7.66,
-    "or_high": 7.6,
-    "or_low": 7.2,
-    "pct_over": 0.79
-   },
-   {
-    "symbol": "COIN",
-    "at": "09:50",
-    "price": 143.52,
-    "or_high": 143.42,
-    "or_low": 137.89,
-    "pct_over": 0.07
-   },
    {
     "symbol": "ENPH",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 25.47,
     "or_low": 25.36,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:30",
+    "price": 186.37,
+    "or_high": 186.06,
+    "or_low": 181.1,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:30",
+    "price": 60.78,
+    "or_high": 60.67,
+    "or_low": 59.69,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 64,
+  "n_hits": 66,
   "entries": 1,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.022154685655451645,
+ "intraday_max_drawdown": -0.0244670573903063,
  "trades": [
   {
    "date": "2026-11-02",
@@ -581,6 +581,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793719800,
+   "et": "2026-11-03 10:30",
+   "kind": "busy",
+   "text": "2 more breakouts (FSLR, OXY) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "FSLR",
+    "OXY"
+   ]
+  },
   {
    "ts": 1793719500,
    "et": "2026-11-03 10:25",
@@ -1501,6 +1511,11 @@
    "ts": 1793719716,
    "equity": 9856.87,
    "spy": 9927.17
+  },
+  {
+   "ts": 1793720033,
+   "equity": 9825.48,
+   "spy": 9931.38
   }
  ],
  "daily": [
@@ -1512,6 +1527,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793720033,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.8,
+   "errors": [],
+   "run_id": "41665146268",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793719716,
    "phase": "open",
@@ -1901,29 +1926,19 @@
    "errors": [],
    "run_id": "41509168753",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793646981,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.7,
-   "errors": [],
-   "run_id": "41508334765",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793719716,
+  "tick_at": 1793720033,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793719739,
-  "candidates": 57,
-  "charts_fetched": 59,
+  "yahoo_time": 1793720047,
+  "candidates": 50,
+  "charts_fetched": 52,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
