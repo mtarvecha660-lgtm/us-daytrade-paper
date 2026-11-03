@@ -1,21 +1,21 @@
 {
- "updated": 1793718127,
- "updated_et": "2026-11-03 10:02 ET",
+ "updated": 1793718443,
+ "updated_et": "2026-11-03 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3224.3,
-  "equity": 9848.77,
-  "return": -0.015122999999999998,
+  "equity": 9880.27,
+  "return": -0.011973000000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9921.44,
-  "return": -0.007855999999999974,
+  "value": 9915.32,
+  "return": -0.008468000000000031,
   "start_price": 759.47998046875,
-  "last": 753.8150024414062
+  "last": 753.3499755859375
  },
  "position": {
   "symbol": "AAPL",
@@ -308,9 +308,33 @@
     "or_high": 195.84,
     "or_low": 195.18,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:05",
+    "price": 418.44,
+    "or_high": 418.27,
+    "or_low": 414.06,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "META",
+    "at": "10:05",
+    "price": 615.31,
+    "or_high": 615.14,
+    "or_low": 610.1,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:05",
+    "price": 44.57,
+    "or_high": 44.5,
+    "or_low": 43.28,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 34,
+  "n_hits": 37,
   "entries": 1,
   "max_trades": 3
  },
@@ -373,6 +397,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793718300,
+   "et": "2026-11-03 10:05",
+   "kind": "busy",
+   "text": "3 more breakouts (MAR, META, RBLX) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "MAR",
+    "META",
+    "RBLX"
+   ]
+  },
   {
    "ts": 1793718000,
    "et": "2026-11-03 10:00",
@@ -1198,6 +1233,11 @@
    "ts": 1793718127,
    "equity": 9848.77,
    "spy": 9921.44
+  },
+  {
+   "ts": 1793718443,
+   "equity": 9880.27,
+   "spy": 9915.32
   }
  ],
  "daily": [
@@ -1209,6 +1249,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793718443,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.2,
+   "errors": [],
+   "run_id": "41660519498",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793718127,
    "phase": "open",
@@ -1598,29 +1648,19 @@
    "errors": [],
    "run_id": "41505047100",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793645402,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.9,
-   "errors": [],
-   "run_id": "41504246470",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793718127,
+  "tick_at": 1793718443,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793718146,
-  "candidates": 62,
-  "charts_fetched": 64,
+  "yahoo_time": 1793718456,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

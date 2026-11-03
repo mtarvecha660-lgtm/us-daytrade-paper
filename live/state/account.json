@@ -33,7 +33,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793718000,
+  "last_bar_end": 1793718300,
   "position": {
    "symbol": "AAPL",
    "qty": 20,
@@ -84,7 +84,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 34,
+  "triggers_seen": 37,
   "missed": [
    "BA",
    "BAC",
@@ -102,7 +102,10 @@
    "MDT",
    "RIVN",
    "SYK",
-   "TM"
+   "TM",
+   "MAR",
+   "META",
+   "RBLX"
   ],
   "triggered": [
    "AAPL",
@@ -138,7 +141,10 @@
    "MDT",
    "RIVN",
    "SYK",
-   "TM"
+   "TM",
+   "MAR",
+   "META",
+   "RBLX"
   ],
   "hits": [
    {
@@ -412,6 +418,30 @@
     "or_high": 195.84,
     "or_low": 195.18,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:05",
+    "price": 418.44,
+    "or_high": 418.27,
+    "or_low": 414.06,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "META",
+    "at": "10:05",
+    "price": 615.31,
+    "or_high": 615.14,
+    "or_low": 610.1,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:05",
+    "price": 44.57,
+    "or_high": 44.5,
+    "or_low": 43.28,
+    "pct_over": 0.16
    }
   ]
  },
@@ -419,8 +449,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 753.8150024414062,
-  "last_ts": 1793718000
+  "last": 753.3499755859375,
+  "last_ts": 1793718300
  },
  "seen_trades": 0,
  "daily": [
