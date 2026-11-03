@@ -1,21 +1,21 @@
 {
- "updated": 1793733679,
- "updated_et": "2026-11-03 14:21 ET",
+ "updated": 1793734002,
+ "updated_et": "2026-11-03 14:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9723.99,
-  "return": -0.027600999999999987,
+  "equity": 9719.37,
+  "return": -0.02806299999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9947.04,
-  "return": -0.005295999999999967,
+  "value": 9942.17,
+  "return": -0.005782999999999983,
   "start_price": 759.47998046875,
-  "last": 755.760009765625
+  "last": 755.3900146484375
  },
  "position": {
   "symbol": "MRNA",
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.03454359699401599,
+ "intraday_max_drawdown": -0.03500229847169001,
  "trades": [
   {
    "date": "2026-11-03",
@@ -2028,6 +2028,11 @@
    "ts": 1793733679,
    "equity": 9723.99,
    "spy": 9947.04
+  },
+  {
+   "ts": 1793734002,
+   "equity": 9719.37,
+   "spy": 9942.17
   }
  ],
  "daily": [
@@ -2039,6 +2044,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793734002,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.4,
+   "errors": [],
+   "run_id": "41703229035",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793733679,
    "phase": "open",
@@ -2428,29 +2443,19 @@
    "errors": [],
    "run_id": "41669772090",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793721355,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 23.5,
-   "errors": [],
-   "run_id": "41668876530",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793733679,
+  "tick_at": 1793734002,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793733689,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1793734011,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
