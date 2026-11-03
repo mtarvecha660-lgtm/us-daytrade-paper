@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793724900,
+  "last_bar_end": 1793725200,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 110,
+  "triggers_seen": 111,
   "missed": [
    "BA",
    "BAC",
@@ -223,7 +223,8 @@
    "SO",
    "VLO",
    "DE",
-   "HUM"
+   "HUM",
+   "PSX"
   ],
   "triggered": [
    "AAPL",
@@ -335,7 +336,8 @@
    "SO",
    "VLO",
    "DE",
-   "HUM"
+   "HUM",
+   "PSX"
   ],
   "hits": [
    {
@@ -1217,6 +1219,14 @@
     "or_high": 416.9,
     "or_low": 405.45,
     "pct_over": 0.3
+   },
+   {
+    "symbol": "PSX",
+    "at": "12:00",
+    "price": 279.35,
+    "or_high": 279.01,
+    "or_low": 273.02,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1224,8 +1234,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.1898803710938,
-  "last_ts": 1793724900
+  "last": 755.3599853515625,
+  "last_ts": 1793725200
  },
  "seen_trades": 0,
  "daily": [
