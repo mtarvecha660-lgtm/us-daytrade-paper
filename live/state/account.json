@@ -57,7 +57,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793721600,
+  "last_bar_end": 1793721900,
   "position": {
    "symbol": "MRNA",
    "qty": 14,
@@ -133,7 +133,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 96,
+  "triggers_seen": 100,
   "missed": [
    "BA",
    "BAC",
@@ -209,7 +209,11 @@
    "LYFT",
    "SLB",
    "SOFI",
-   "UNH"
+   "UNH",
+   "CRM",
+   "PINS",
+   "QCOM",
+   "TSM"
   ],
   "triggered": [
    "AAPL",
@@ -307,7 +311,11 @@
    "LYFT",
    "SLB",
    "SOFI",
-   "UNH"
+   "UNH",
+   "CRM",
+   "PINS",
+   "QCOM",
+   "TSM"
   ],
   "hits": [
    {
@@ -1077,6 +1085,38 @@
     "or_high": 402.08,
     "or_low": 397.32,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "CRM",
+    "at": "11:05",
+    "price": 222.87,
+    "or_high": 222.59,
+    "or_low": 214.67,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "PINS",
+    "at": "11:05",
+    "price": 20.18,
+    "or_high": 20.15,
+    "or_low": 19.8,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "QCOM",
+    "at": "11:05",
+    "price": 164.62,
+    "or_high": 164.51,
+    "or_low": 161.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TSM",
+    "at": "11:05",
+    "price": 408.29,
+    "or_high": 408.0,
+    "or_low": 403.21,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1084,8 +1124,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.2000122070312,
-  "last_ts": 1793721600
+  "last": 756.0900268554688,
+  "last_ts": 1793721900
  },
  "seen_trades": 0,
  "daily": [

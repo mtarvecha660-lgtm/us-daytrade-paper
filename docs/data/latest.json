@@ -1,21 +1,21 @@
 {
- "updated": 1793721667,
- "updated_et": "2026-11-03 11:01 ET",
+ "updated": 1793721984,
+ "updated_et": "2026-11-03 11:06 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9812.17,
-  "return": -0.018782999999999994,
+  "equity": 9780.68,
+  "return": -0.02193199999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9952.83,
-  "return": -0.004716999999999971,
+  "value": 9951.38,
+  "return": -0.004862000000000033,
   "start_price": 759.47998046875,
-  "last": 756.2000122070312
+  "last": 756.0900268554688
  },
  "position": {
   "symbol": "MRNA",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "RBLX",
-    "at": "10:05",
-    "price": 44.57,
-    "or_high": 44.5,
-    "or_low": 43.28,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "DOCU",
-    "at": "10:10",
-    "price": 80.61,
-    "or_high": 80.52,
-    "or_low": 79.0,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "GME",
-    "at": "10:10",
-    "price": 24.35,
-    "or_high": 24.3,
-    "or_low": 24.1,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "MSFT",
-    "at": "10:10",
-    "price": 512.63,
-    "or_high": 512.6,
-    "or_low": 507.85,
-    "pct_over": 0.01
-   },
    {
     "symbol": "RTX",
     "at": "10:10",
@@ -516,9 +484,41 @@
     "or_high": 402.08,
     "or_low": 397.32,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "CRM",
+    "at": "11:05",
+    "price": 222.87,
+    "or_high": 222.59,
+    "or_low": 214.67,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "PINS",
+    "at": "11:05",
+    "price": 20.18,
+    "or_high": 20.15,
+    "or_low": 19.8,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "QCOM",
+    "at": "11:05",
+    "price": 164.62,
+    "or_high": 164.51,
+    "or_low": 161.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TSM",
+    "at": "11:05",
+    "price": 408.29,
+    "or_high": 408.0,
+    "or_low": 403.21,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 96,
+  "n_hits": 100,
   "entries": 2,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.027581660280919795,
+ "intraday_max_drawdown": -0.02891507171926666,
  "trades": [
   {
    "date": "2026-11-03",
@@ -605,6 +605,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793721900,
+   "et": "2026-11-03 11:05",
+   "kind": "busy",
+   "text": "4 more breakouts (CRM, PINS, QCOM, TSM) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "CRM",
+    "PINS",
+    "QCOM",
+    "TSM"
+   ]
+  },
   {
    "ts": 1793721600,
    "et": "2026-11-03 11:00",
@@ -1659,6 +1671,11 @@
    "ts": 1793721667,
    "equity": 9812.17,
    "spy": 9952.83
+  },
+  {
+   "ts": 1793721984,
+   "equity": 9780.68,
+   "spy": 9951.38
   }
  ],
  "daily": [
@@ -1670,6 +1687,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793721984,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.9,
+   "errors": [],
+   "run_id": "41670697375",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793721667,
    "phase": "open",
@@ -2059,25 +2086,15 @@
    "errors": [],
    "run_id": "41513457971",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793648645,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.3,
-   "errors": [],
-   "run_id": "41512421936",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793721667,
+  "tick_at": 1793721984,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793721686,
-  "candidates": 68,
-  "charts_fetched": 70,
+  "yahoo_time": 1793722001,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
