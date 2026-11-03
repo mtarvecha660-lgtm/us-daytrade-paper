@@ -1,21 +1,21 @@
 {
- "updated": 1793727651,
- "updated_et": "2026-11-03 12:40 ET",
+ "updated": 1793727963,
+ "updated_et": "2026-11-03 12:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6527.31,
-  "equity": 9774.45,
-  "return": -0.02255499999999988,
+  "equity": 9769.06,
+  "return": -0.02309400000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9934.54,
-  "return": -0.006545999999999941,
+  "value": 9935.98,
+  "return": -0.006402000000000019,
   "start_price": 759.47998046875,
-  "last": 754.8099975585938
+  "last": 754.9199829101562
  },
  "position": {
   "symbol": "MRNA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-03",
   "hits": [
-   {
-    "symbol": "MDB",
-    "at": "10:20",
-    "price": 338.0,
-    "or_high": 336.02,
-    "or_low": 326.87,
-    "pct_over": 0.59
-   },
    {
     "symbol": "NET",
     "at": "10:20",
@@ -516,9 +508,17 @@
     "or_high": 461.31,
     "or_low": 446.84,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "CDNS",
+    "at": "12:40",
+    "price": 323.12,
+    "or_high": 323.01,
+    "or_low": 312.0,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 113,
+  "n_hits": 114,
   "entries": 2,
   "max_trades": 3
  },
@@ -605,6 +605,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793727600,
+   "et": "2026-11-03 12:40",
+   "kind": "busy",
+   "text": "1 more breakout (CDNS) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "CDNS"
+   ]
+  },
   {
    "ts": 1793725800,
    "et": "2026-11-03 12:10",
@@ -1859,6 +1868,11 @@
    "ts": 1793727651,
    "equity": 9774.45,
    "spy": 9934.54
+  },
+  {
+   "ts": 1793727963,
+   "equity": 9769.06,
+   "spy": 9935.98
   }
  ],
  "daily": [
@@ -1870,6 +1884,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793727963,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 15.7,
+   "errors": [],
+   "run_id": "41687362846",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793727651,
    "phase": "open",
@@ -2259,29 +2283,19 @@
    "errors": [],
    "run_id": "41602499776",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793674203,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "41534317859",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1793727651,
+  "tick_at": 1793727963,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793727660,
-  "candidates": 26,
-  "charts_fetched": 28,
+  "yahoo_time": 1793727977,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
