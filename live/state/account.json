@@ -33,7 +33,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793718600,
+  "last_bar_end": 1793718900,
   "position": {
    "symbol": "AAPL",
    "qty": 20,
@@ -84,7 +84,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 42,
+  "triggers_seen": 48,
   "missed": [
    "BA",
    "BAC",
@@ -110,7 +110,13 @@
    "GME",
    "MSFT",
    "RTX",
-   "TMO"
+   "TMO",
+   "DHR",
+   "MCHP",
+   "ROST",
+   "SNAP",
+   "TOST",
+   "TTD"
   ],
   "triggered": [
    "AAPL",
@@ -154,7 +160,13 @@
    "GME",
    "MSFT",
    "RTX",
-   "TMO"
+   "TMO",
+   "DHR",
+   "MCHP",
+   "ROST",
+   "SNAP",
+   "TOST",
+   "TTD"
   ],
   "hits": [
    {
@@ -492,6 +504,54 @@
     "or_high": 696.03,
     "or_low": 671.99,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "DHR",
+    "at": "10:15",
+    "price": 232.06,
+    "or_high": 231.68,
+    "or_low": 227.2,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:15",
+    "price": 79.19,
+    "or_high": 78.91,
+    "or_low": 77.8,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "ROST",
+    "at": "10:15",
+    "price": 231.6,
+    "or_high": 231.48,
+    "or_low": 228.67,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:15",
+    "price": 5.54,
+    "or_high": 5.52,
+    "or_low": 5.4,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:15",
+    "price": 33.69,
+    "or_high": 33.59,
+    "or_low": 32.76,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:15",
+    "price": 12.52,
+    "or_high": 12.5,
+    "or_low": 12.3,
+    "pct_over": 0.16
    }
   ]
  },
@@ -499,8 +559,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.0549926757812,
-  "last_ts": 1793718600
+  "last": 754.3699951171875,
+  "last_ts": 1793718900
  },
  "seen_trades": 0,
  "daily": [

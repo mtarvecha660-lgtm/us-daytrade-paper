@@ -1,21 +1,21 @@
 {
- "updated": 1793718759,
- "updated_et": "2026-11-03 10:12 ET",
+ "updated": 1793719074,
+ "updated_et": "2026-11-03 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3224.3,
-  "equity": 9881.57,
-  "return": -0.011843000000000048,
+  "equity": 9870.97,
+  "return": -0.012903000000000109,
   "started": 1793559735
  },
  "spy": {
-  "value": 9924.6,
-  "return": -0.007539999999999991,
+  "value": 9928.74,
+  "return": -0.007126000000000077,
   "start_price": 759.47998046875,
-  "last": 754.0549926757812
+  "last": 754.3699951171875
  },
  "position": {
   "symbol": "AAPL",
@@ -372,9 +372,57 @@
     "or_high": 696.03,
     "or_low": 671.99,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "DHR",
+    "at": "10:15",
+    "price": 232.06,
+    "or_high": 231.68,
+    "or_low": 227.2,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:15",
+    "price": 79.19,
+    "or_high": 78.91,
+    "or_low": 77.8,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "ROST",
+    "at": "10:15",
+    "price": 231.6,
+    "or_high": 231.48,
+    "or_low": 228.67,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:15",
+    "price": 5.54,
+    "or_high": 5.52,
+    "or_low": 5.4,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:15",
+    "price": 33.69,
+    "or_high": 33.59,
+    "or_low": 32.76,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:15",
+    "price": 12.52,
+    "or_high": 12.5,
+    "or_low": 12.3,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 42,
+  "n_hits": 48,
   "entries": 1,
   "max_trades": 3
  },
@@ -437,6 +485,20 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793718900,
+   "et": "2026-11-03 10:15",
+   "kind": "busy",
+   "text": "6 more breakouts (DHR, MCHP, ROST, SNAP, TOST, TTD) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DHR",
+    "MCHP",
+    "ROST",
+    "SNAP",
+    "TOST",
+    "TTD"
+   ]
+  },
   {
    "ts": 1793718600,
    "et": "2026-11-03 10:10",
@@ -1296,6 +1358,11 @@
    "ts": 1793718759,
    "equity": 9881.57,
    "spy": 9924.6
+  },
+  {
+   "ts": 1793719074,
+   "equity": 9870.97,
+   "spy": 9928.74
   }
  ],
  "daily": [
@@ -1307,6 +1374,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793719074,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.5,
+   "errors": [],
+   "run_id": "41662377150",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793718759,
    "phase": "open",
@@ -1696,25 +1773,15 @@
    "errors": [],
    "run_id": "41506699015",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793646036,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.6,
-   "errors": [],
-   "run_id": "41505857823",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793718759,
+  "tick_at": 1793719074,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793718778,
-  "candidates": 45,
-  "charts_fetched": 47,
+  "yahoo_time": 1793719092,
+  "candidates": 64,
+  "charts_fetched": 66,
   "ok": true,
   "errors": [],
   "stale_data": false,
