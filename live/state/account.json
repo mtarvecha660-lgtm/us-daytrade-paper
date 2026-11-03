@@ -1,5 +1,5 @@
 {
- "cash": 9901.5347,
+ "cash": 3224.2987,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -33,11 +33,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-03",
-  "last_bar_end": 1793717400,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793717700,
+  "position": {
    "symbol": "AAPL",
    "qty": 20,
+   "entry_fill": 333.8618,
+   "entry_ts": 1793717400,
    "plan": {
     "symbol": "AAPL",
     "side": "buy",
@@ -49,7 +50,8 @@
     "target": 338.64,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 333.7950134277344
    },
    "why": {
     "scanner": "AAPL: the 09:45 bar closed at $333.82, above the 15-min opening range high $332.67 (range 325.33-332.67)",
@@ -58,9 +60,9 @@
     "risk": "trader-risk PASS: entry 333.82 (the latest price), stop 329.00, target 338.64: risk 4.82 a share; max loss $96.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793717400,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -70,12 +72,29 @@
     "kind": "entry",
     "max_loss": 96.4,
     "at": "2026-11-03T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-03",
+    "symbol": "AAPL",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 20
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 17,
-  "missed": [],
+  "triggers_seen": 25,
+  "missed": [
+   "BA",
+   "BAC",
+   "BIIB",
+   "HON",
+   "ORCL",
+   "REGN",
+   "SEDG",
+   "ZTS"
+  ],
   "triggered": [
    "AAPL",
    "APP",
@@ -93,7 +112,15 @@
    "STX",
    "TER",
    "U",
-   "WDC"
+   "WDC",
+   "BA",
+   "BAC",
+   "BIIB",
+   "HON",
+   "ORCL",
+   "REGN",
+   "SEDG",
+   "ZTS"
   ],
   "hits": [
    {
@@ -231,6 +258,70 @@
     "or_high": 358.24,
     "or_low": 346.62,
     "pct_over": 0.23
+   },
+   {
+    "symbol": "BA",
+    "at": "09:55",
+    "price": 176.01,
+    "or_high": 175.57,
+    "or_low": 173.88,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "BAC",
+    "at": "09:55",
+    "price": 49.63,
+    "or_high": 49.58,
+    "or_low": 49.17,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "BIIB",
+    "at": "09:55",
+    "price": 250.5,
+    "or_high": 250.31,
+    "or_low": 246.25,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HON",
+    "at": "09:55",
+    "price": 224.23,
+    "or_high": 223.98,
+    "or_low": 222.36,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "ORCL",
+    "at": "09:55",
+    "price": 123.96,
+    "or_high": 123.92,
+    "or_low": 121.35,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "REGN",
+    "at": "09:55",
+    "price": 970.0,
+    "or_high": 968.26,
+    "or_low": 953.0,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "SEDG",
+    "at": "09:55",
+    "price": 31.48,
+    "or_high": 31.17,
+    "or_low": 30.39,
+    "pct_over": 0.99
+   },
+   {
+    "symbol": "ZTS",
+    "at": "09:55",
+    "price": 83.11,
+    "or_high": 82.94,
+    "or_low": 81.53,
+    "pct_over": 0.2
    }
   ]
  },
@@ -238,8 +329,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.02001953125,
-  "last_ts": 1793717400
+  "last": 753.6085815429688,
+  "last_ts": 1793717700
  },
  "seen_trades": 0,
  "daily": [

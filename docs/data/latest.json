@@ -1,49 +1,39 @@
 {
- "updated": 1793717499,
- "updated_et": "2026-11-03 09:51 ET",
+ "updated": 1793717812,
+ "updated_et": "2026-11-03 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9901.53,
-  "equity": 9901.53,
-  "return": -0.00984699999999994,
+  "cash": 3224.3,
+  "equity": 9858.07,
+  "return": -0.014193000000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9924.14,
-  "return": -0.007586000000000093,
+  "value": 9918.72,
+  "return": -0.008128000000000024,
   "start_price": 759.47998046875,
-  "last": 754.02001953125
+  "last": 753.6085815429688
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "AAPL",
   "qty": 20,
-  "plan": {
-   "symbol": "AAPL",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-03",
-   "entry_time": "9:50 AM",
-   "entry": 333.82,
-   "stop": 329.0,
-   "target": 338.64,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 333.8618,
+  "entry_et": "09:50",
+  "stop": 329.0,
+  "target": 338.64,
+  "last": null,
   "why": {
    "scanner": "AAPL: the 09:45 bar closed at $333.82, above the 15-min opening range high $332.67 (range 325.33-332.67)",
    "exit": "plan: entry $333.82, stop $329.00 (opening-range midpoint), target $338.64 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on AAPL: 20 shares, bound by your $100 max loss per trade (20 x 4.82 = $96.40 at the stop) (limits: max loss 20; position cap 22; max order 23; cash 26)",
    "risk": "trader-risk PASS: entry 333.82 (the latest price), stop 329.00, target 338.64: risk 4.82 a share; max loss $96.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793717400,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-03",
   "hits": [
@@ -182,13 +172,77 @@
     "or_high": 358.24,
     "or_low": 346.62,
     "pct_over": 0.23
+   },
+   {
+    "symbol": "BA",
+    "at": "09:55",
+    "price": 176.01,
+    "or_high": 175.57,
+    "or_low": 173.88,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "BAC",
+    "at": "09:55",
+    "price": 49.63,
+    "or_high": 49.58,
+    "or_low": 49.17,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "BIIB",
+    "at": "09:55",
+    "price": 250.5,
+    "or_high": 250.31,
+    "or_low": 246.25,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HON",
+    "at": "09:55",
+    "price": 224.23,
+    "or_high": 223.98,
+    "or_low": 222.36,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "ORCL",
+    "at": "09:55",
+    "price": 123.96,
+    "or_high": 123.92,
+    "or_low": 121.35,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "REGN",
+    "at": "09:55",
+    "price": 970.0,
+    "or_high": 968.26,
+    "or_low": 953.0,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "SEDG",
+    "at": "09:55",
+    "price": 31.48,
+    "or_high": 31.17,
+    "or_low": 30.39,
+    "pct_over": 0.99
+   },
+   {
+    "symbol": "ZTS",
+    "at": "09:55",
+    "price": 83.11,
+    "or_high": 82.94,
+    "or_low": 81.53,
+    "pct_over": 0.2
    }
   ],
-  "n_hits": 17,
+  "n_hits": 25,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 20 AAPL at the next bar's open (signal at 09:50 ET). Then: stop $329.00, target $338.64.",
+ "next_move": "Holding 20 AAPL bought at $333.86. It sells at the stop $329.00, the target $338.64, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 1,
   "wins": 0,
@@ -219,7 +273,7 @@
   "sortino": null,
   "days": 2
  },
- "intraday_max_drawdown": -0.016916354494827646,
+ "intraday_max_drawdown": -0.021231325538055845,
  "trades": [
   {
    "date": "2026-11-02",
@@ -247,6 +301,29 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793717700,
+   "et": "2026-11-03 09:55",
+   "kind": "busy",
+   "text": "8 more breakouts (BA, BAC, BIIB, HON, ORCL, REGN, SEDG, ZTS) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "BA",
+    "BAC",
+    "BIIB",
+    "HON",
+    "ORCL",
+    "REGN",
+    "SEDG",
+    "ZTS"
+   ]
+  },
+  {
+   "ts": 1793717400,
+   "et": "2026-11-03 09:50",
+   "kind": "fill",
+   "text": "BUY 20 AAPL filled at $333.86 (next bar's open $333.80 + slippage). Stop $329.00, target $338.64",
+   "symbol": "AAPL"
+  },
   {
    "ts": 1793717400,
    "et": "2026-11-03 09:50",
@@ -1022,6 +1099,11 @@
    "ts": 1793717499,
    "equity": 9901.53,
    "spy": 9924.14
+  },
+  {
+   "ts": 1793717812,
+   "equity": 9858.07,
+   "spy": 9918.72
   }
  ],
  "daily": [
@@ -1033,6 +1115,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793717812,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 24.0,
+   "errors": [],
+   "run_id": "41658702062",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793717499,
    "phase": "open",
@@ -1422,29 +1514,19 @@
    "errors": [],
    "run_id": "41503396772",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793644760,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.3,
-   "errors": [],
-   "run_id": "41502588965",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793717499,
+  "tick_at": 1793717812,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793717514,
-  "candidates": 52,
-  "charts_fetched": 53,
+  "yahoo_time": 1793717834,
+  "candidates": 71,
+  "charts_fetched": 73,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
