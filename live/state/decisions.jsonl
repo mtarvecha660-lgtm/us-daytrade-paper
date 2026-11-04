@@ -94,3 +94,4 @@
 {"ts": 1793812800, "et": "2026-11-04 12:20", "kind": "busy", "text": "1 more breakout (APO) not taken: already in HLT (one trade at a time)", "symbols": ["APO"]}
 {"ts": 1793813100, "et": "2026-11-04 12:25", "kind": "busy", "text": "1 more breakout (GS) not taken: already in HLT (one trade at a time)", "symbols": ["GS"]}
 {"ts": 1793813400, "et": "2026-11-04 12:30", "kind": "busy", "text": "3 more breakouts (AEP, DE, MS) not taken: already in HLT (one trade at a time)", "symbols": ["AEP", "DE", "MS"]}
+{"ts": 1793815800, "et": "2026-11-04 13:10", "kind": "busy", "text": "1 more breakout (MMM) not taken: already in HLT (one trade at a time)", "symbols": ["MMM"]}
