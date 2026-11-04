@@ -1,21 +1,21 @@
 {
- "updated": 1793804204,
- "updated_et": "2026-11-04 09:56 ET",
+ "updated": 1793804518,
+ "updated_et": "2026-11-04 10:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 7150.79,
-  "equity": 9641.49,
-  "return": -0.03585100000000008,
+  "equity": 9641.27,
+  "return": -0.03587299999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 10088.92,
-  "return": 0.0088919999999999,
+  "value": 10098.0,
+  "return": 0.009800000000000031,
   "start_price": 759.47998046875,
-  "last": 766.5399780273438
+  "last": 767.22998046875
  },
  "position": {
   "symbol": "AMD",
@@ -37,62 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "ABNB",
-    "at": "09:50",
-    "price": 176.2,
-    "or_high": 175.54,
-    "or_low": 172.9,
-    "pct_over": 0.37
-   },
-   {
-    "symbol": "AI",
-    "at": "09:50",
-    "price": 12.06,
-    "or_high": 11.96,
-    "or_low": 11.57,
-    "pct_over": 0.84
-   },
-   {
-    "symbol": "AMD",
-    "at": "09:50",
-    "price": 510.15,
-    "or_high": 508.08,
-    "or_low": 476.5,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "ANET",
-    "at": "09:50",
-    "price": 187.6,
-    "or_high": 186.83,
-    "or_low": 176.66,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "BABA",
-    "at": "09:50",
-    "price": 106.0,
-    "or_high": 105.86,
-    "or_low": 104.71,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "COIN",
-    "at": "09:50",
-    "price": 149.09,
-    "or_high": 148.5,
-    "or_low": 141.88,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "CRWD",
-    "at": "09:50",
-    "price": 247.32,
-    "or_high": 246.0,
-    "or_low": 237.21,
-    "pct_over": 0.54
-   },
    {
     "symbol": "CSCO",
     "at": "09:50",
@@ -452,9 +396,129 @@
     "or_high": 163.07,
     "or_low": 159.41,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 270.37,
+    "or_high": 269.97,
+    "or_low": 263.85,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "APP",
+    "at": "10:00",
+    "price": 260.99,
+    "or_high": 260.65,
+    "or_low": 249.85,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "10:00",
+    "price": 24.65,
+    "or_high": 24.61,
+    "or_low": 24.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 75.86,
+    "or_high": 75.47,
+    "or_low": 72.9,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:00",
+    "price": 336.59,
+    "or_high": 336.02,
+    "or_low": 328.2,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:00",
+    "price": 165.79,
+    "or_high": 164.5,
+    "or_low": 157.0,
+    "pct_over": 0.79
+   },
+   {
+    "symbol": "LI",
+    "at": "10:00",
+    "price": 11.71,
+    "or_high": 11.69,
+    "or_low": 11.44,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:00",
+    "price": 276.14,
+    "or_high": 275.3,
+    "or_low": 267.8,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:00",
+    "price": 553.17,
+    "or_high": 551.81,
+    "or_low": 542.34,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "PDD",
+    "at": "10:00",
+    "price": 83.67,
+    "or_high": 83.5,
+    "or_low": 82.07,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:00",
+    "price": 141.62,
+    "or_high": 141.17,
+    "or_low": 138.82,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "PINS",
+    "at": "10:00",
+    "price": 21.24,
+    "or_high": 21.2,
+    "or_low": 20.42,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:00",
+    "price": 5.88,
+    "or_high": 5.87,
+    "or_low": 5.69,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:00",
+    "price": 112.57,
+    "or_high": 112.54,
+    "or_low": 110.07,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "XPEV",
+    "at": "10:00",
+    "price": 10.09,
+    "or_high": 10.05,
+    "or_low": 9.85,
+    "pct_over": 0.4
    }
   ],
-  "n_hits": 52,
+  "n_hits": 67,
   "entries": 1,
   "max_trades": 3
  },
@@ -489,7 +553,7 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.042734694809623996,
+ "intraday_max_drawdown": -0.04275653773713217,
  "trades": [
   {
    "date": "2026-11-03",
@@ -565,6 +629,29 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793804400,
+   "et": "2026-11-04 10:00",
+   "kind": "busy",
+   "text": "15 more breakouts (AMZN, APP, CMCSA, CVNA, DPZ, DUOL, LI, MCD ...) not taken: already in AMD (one trade at a time)",
+   "symbols": [
+    "AMZN",
+    "APP",
+    "CMCSA",
+    "CVNA",
+    "DPZ",
+    "DUOL",
+    "LI",
+    "MCD",
+    "MSFT",
+    "PDD",
+    "PEP",
+    "PINS",
+    "SNAP",
+    "UPS",
+    "XPEV"
+   ]
+  },
   {
    "ts": 1793804100,
    "et": "2026-11-04 09:55",
@@ -2202,6 +2289,11 @@
    "ts": 1793804204,
    "equity": 9641.49,
    "spy": 10088.92
+  },
+  {
+   "ts": 1793804518,
+   "equity": 9641.27,
+   "spy": 10098.0
   }
  ],
  "daily": [
@@ -2219,6 +2311,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793804518,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.3,
+   "errors": [],
+   "run_id": "41853494006",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793804204,
    "phase": "open",
@@ -2608,25 +2710,15 @@
    "errors": [],
    "run_id": "41697463205",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793731477,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.1,
-   "errors": [],
-   "run_id": "41696631491",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793804204,
+  "tick_at": 1793804518,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793804219,
-  "candidates": 45,
-  "charts_fetched": 47,
+  "yahoo_time": 1793804532,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,

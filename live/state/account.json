@@ -81,7 +81,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793804100,
+  "last_bar_end": 1793804400,
   "position": {
    "symbol": "AMD",
    "qty": 5,
@@ -132,7 +132,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 52,
+  "triggers_seen": 67,
   "missed": [
    "AAPL",
    "AFRM",
@@ -153,7 +153,22 @@
    "TSLA",
    "TTD",
    "UBER",
-   "YUM"
+   "YUM",
+   "AMZN",
+   "APP",
+   "CMCSA",
+   "CVNA",
+   "DPZ",
+   "DUOL",
+   "LI",
+   "MCD",
+   "MSFT",
+   "PDD",
+   "PEP",
+   "PINS",
+   "SNAP",
+   "UPS",
+   "XPEV"
   ],
   "triggered": [
    "ABNB",
@@ -207,7 +222,22 @@
    "TSLA",
    "TTD",
    "UBER",
-   "YUM"
+   "YUM",
+   "AMZN",
+   "APP",
+   "CMCSA",
+   "CVNA",
+   "DPZ",
+   "DUOL",
+   "LI",
+   "MCD",
+   "MSFT",
+   "PDD",
+   "PEP",
+   "PINS",
+   "SNAP",
+   "UPS",
+   "XPEV"
   ],
   "hits": [
    {
@@ -625,6 +655,126 @@
     "or_high": 163.07,
     "or_low": 159.41,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 270.37,
+    "or_high": 269.97,
+    "or_low": 263.85,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "APP",
+    "at": "10:00",
+    "price": 260.99,
+    "or_high": 260.65,
+    "or_low": 249.85,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "10:00",
+    "price": 24.65,
+    "or_high": 24.61,
+    "or_low": 24.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 75.86,
+    "or_high": 75.47,
+    "or_low": 72.9,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:00",
+    "price": 336.59,
+    "or_high": 336.02,
+    "or_low": 328.2,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:00",
+    "price": 165.79,
+    "or_high": 164.5,
+    "or_low": 157.0,
+    "pct_over": 0.79
+   },
+   {
+    "symbol": "LI",
+    "at": "10:00",
+    "price": 11.71,
+    "or_high": 11.69,
+    "or_low": 11.44,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:00",
+    "price": 276.14,
+    "or_high": 275.3,
+    "or_low": 267.8,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:00",
+    "price": 553.17,
+    "or_high": 551.81,
+    "or_low": 542.34,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "PDD",
+    "at": "10:00",
+    "price": 83.67,
+    "or_high": 83.5,
+    "or_low": 82.07,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:00",
+    "price": 141.62,
+    "or_high": 141.17,
+    "or_low": 138.82,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "PINS",
+    "at": "10:00",
+    "price": 21.24,
+    "or_high": 21.2,
+    "or_low": 20.42,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:00",
+    "price": 5.88,
+    "or_high": 5.87,
+    "or_low": 5.69,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:00",
+    "price": 112.57,
+    "or_high": 112.54,
+    "or_low": 110.07,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "XPEV",
+    "at": "10:00",
+    "price": 10.09,
+    "or_high": 10.05,
+    "or_low": 9.85,
+    "pct_over": 0.4
    }
   ]
  },
@@ -632,8 +782,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 766.5399780273438,
-  "last_ts": 1793804100
+  "last": 767.22998046875,
+  "last_ts": 1793804400
  },
  "seen_trades": 0,
  "daily": [
