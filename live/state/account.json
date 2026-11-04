@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793806800,
+  "last_bar_end": 1793807100,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 106,
+  "triggers_seen": 112,
   "missed": [
    "AAPL",
    "AFRM",
@@ -254,7 +254,13 @@
    "CHTR",
    "LULU",
    "PG",
-   "T"
+   "T",
+   "BKNG",
+   "DG",
+   "MA",
+   "SYK",
+   "TJX",
+   "V"
   ],
   "triggered": [
    "ABNB",
@@ -362,7 +368,13 @@
    "CHTR",
    "LULU",
    "PG",
-   "T"
+   "T",
+   "BKNG",
+   "DG",
+   "MA",
+   "SYK",
+   "TJX",
+   "V"
   ],
   "hits": [
    {
@@ -1212,6 +1224,54 @@
     "or_high": 21.95,
     "or_low": 21.65,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "BKNG",
+    "at": "10:45",
+    "price": 170.77,
+    "or_high": 170.35,
+    "or_low": 160.0,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "DG",
+    "at": "10:45",
+    "price": 138.03,
+    "or_high": 137.5,
+    "or_low": 133.79,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "MA",
+    "at": "10:45",
+    "price": 666.27,
+    "or_high": 664.9,
+    "or_low": 655.0,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "SYK",
+    "at": "10:45",
+    "price": 333.61,
+    "or_high": 333.03,
+    "or_low": 322.0,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "TJX",
+    "at": "10:45",
+    "price": 143.28,
+    "or_high": 143.14,
+    "or_low": 140.0,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "V",
+    "at": "10:45",
+    "price": 431.08,
+    "or_high": 429.59,
+    "or_low": 423.28,
+    "pct_over": 0.35
    }
   ]
  },
@@ -1219,8 +1279,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.1400756835938,
-  "last_ts": 1793806800
+  "last": 766.3099975585938,
+  "last_ts": 1793807100
  },
  "seen_trades": 0,
  "daily": [
