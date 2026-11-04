@@ -129,7 +129,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793821800,
+  "last_bar_end": 1793822400,
   "position": {
    "symbol": "HLT",
    "qty": 19,
@@ -1737,8 +1737,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.8699951171875,
-  "last_ts": 1793821800
+  "last": 767.2899780273438,
+  "last_ts": 1793822400
  },
  "seen_trades": 0,
  "daily": [
