@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793807100,
+  "last_bar_end": 1793808900,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 112,
+  "triggers_seen": 126,
   "missed": [
    "AAPL",
    "AFRM",
@@ -260,7 +260,21 @@
    "MA",
    "SYK",
    "TJX",
-   "V"
+   "V",
+   "DXCM",
+   "JPM",
+   "MRK",
+   "Z",
+   "BAC",
+   "DUK",
+   "NEE",
+   "CHWY",
+   "KKR",
+   "LOW",
+   "TGT",
+   "D",
+   "HUM",
+   "IDXX"
   ],
   "triggered": [
    "ABNB",
@@ -374,7 +388,21 @@
    "MA",
    "SYK",
    "TJX",
-   "V"
+   "V",
+   "DXCM",
+   "JPM",
+   "MRK",
+   "Z",
+   "BAC",
+   "DUK",
+   "NEE",
+   "CHWY",
+   "KKR",
+   "LOW",
+   "TGT",
+   "D",
+   "HUM",
+   "IDXX"
   ],
   "hits": [
    {
@@ -1272,6 +1300,118 @@
     "or_high": 429.59,
     "or_low": 423.28,
     "pct_over": 0.35
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:50",
+    "price": 88.46,
+    "or_high": 88.32,
+    "or_low": 84.75,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "JPM",
+    "at": "10:50",
+    "price": 348.26,
+    "or_high": 347.83,
+    "or_low": 342.21,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:50",
+    "price": 148.67,
+    "or_high": 148.54,
+    "or_low": 146.05,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "Z",
+    "at": "10:50",
+    "price": 34.22,
+    "or_high": 34.1,
+    "or_low": 32.8,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "BAC",
+    "at": "10:55",
+    "price": 51.38,
+    "or_high": 51.37,
+    "or_low": 50.78,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:55",
+    "price": 129.03,
+    "or_high": 128.8,
+    "or_low": 126.93,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:55",
+    "price": 87.83,
+    "or_high": 87.82,
+    "or_low": 86.49,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CHWY",
+    "at": "11:00",
+    "price": 23.62,
+    "or_high": 23.57,
+    "or_low": 22.5,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:00",
+    "price": 101.39,
+    "or_high": 100.84,
+    "or_low": 98.6,
+    "pct_over": 0.55
+   },
+   {
+    "symbol": "LOW",
+    "at": "11:00",
+    "price": 227.97,
+    "or_high": 227.49,
+    "or_low": 221.1,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "TGT",
+    "at": "11:00",
+    "price": 161.01,
+    "or_high": 160.92,
+    "or_low": 156.41,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "D",
+    "at": "11:05",
+    "price": 69.68,
+    "or_high": 69.62,
+    "or_low": 68.34,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HUM",
+    "at": "11:10",
+    "price": 417.02,
+    "or_high": 416.63,
+    "or_low": 404.18,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "IDXX",
+    "at": "11:10",
+    "price": 698.24,
+    "or_high": 698.0,
+    "or_low": 681.7,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1279,8 +1419,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 766.3099975585938,
-  "last_ts": 1793807100
+  "last": 765.8599853515625,
+  "last_ts": 1793808900
  },
  "seen_trades": 0,
  "daily": [

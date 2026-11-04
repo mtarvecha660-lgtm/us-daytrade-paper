@@ -1,21 +1,21 @@
 {
- "updated": 1793807377,
- "updated_et": "2026-11-04 10:49 ET",
+ "updated": 1793809026,
+ "updated_et": "2026-11-04 11:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9620.63,
-  "return": -0.03793700000000011,
+  "equity": 9586.47,
+  "return": -0.041353000000000084,
   "started": 1793559735
  },
  "spy": {
-  "value": 10085.89,
-  "return": 0.008588999999999958,
+  "value": 10079.97,
+  "return": 0.007997000000000032,
   "start_price": 759.47998046875,
-  "last": 766.3099975585938
+  "last": 765.8599853515625
  },
  "position": {
   "symbol": "IBM",
@@ -37,118 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "AMZN",
-    "at": "10:00",
-    "price": 270.37,
-    "or_high": 269.97,
-    "or_low": 263.85,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "APP",
-    "at": "10:00",
-    "price": 260.99,
-    "or_high": 260.65,
-    "or_low": 249.85,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "CMCSA",
-    "at": "10:00",
-    "price": 24.65,
-    "or_high": 24.61,
-    "or_low": 24.0,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "CVNA",
-    "at": "10:00",
-    "price": 75.86,
-    "or_high": 75.47,
-    "or_low": 72.9,
-    "pct_over": 0.51
-   },
-   {
-    "symbol": "DPZ",
-    "at": "10:00",
-    "price": 336.59,
-    "or_high": 336.02,
-    "or_low": 328.2,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "DUOL",
-    "at": "10:00",
-    "price": 165.79,
-    "or_high": 164.5,
-    "or_low": 157.0,
-    "pct_over": 0.79
-   },
-   {
-    "symbol": "LI",
-    "at": "10:00",
-    "price": 11.71,
-    "or_high": 11.69,
-    "or_low": 11.44,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "MCD",
-    "at": "10:00",
-    "price": 276.14,
-    "or_high": 275.3,
-    "or_low": 267.8,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "MSFT",
-    "at": "10:00",
-    "price": 553.17,
-    "or_high": 551.81,
-    "or_low": 542.34,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "PDD",
-    "at": "10:00",
-    "price": 83.67,
-    "or_high": 83.5,
-    "or_low": 82.07,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "PEP",
-    "at": "10:00",
-    "price": 141.62,
-    "or_high": 141.17,
-    "or_low": 138.82,
-    "pct_over": 0.32
-   },
-   {
-    "symbol": "PINS",
-    "at": "10:00",
-    "price": 21.24,
-    "or_high": 21.2,
-    "or_low": 20.42,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "SNAP",
-    "at": "10:00",
-    "price": 5.88,
-    "or_high": 5.87,
-    "or_low": 5.69,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "UPS",
-    "at": "10:00",
-    "price": 112.57,
-    "or_high": 112.54,
-    "or_low": 110.07,
-    "pct_over": 0.03
-   },
    {
     "symbol": "XPEV",
     "at": "10:00",
@@ -516,9 +404,121 @@
     "or_high": 429.59,
     "or_low": 423.28,
     "pct_over": 0.35
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:50",
+    "price": 88.46,
+    "or_high": 88.32,
+    "or_low": 84.75,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "JPM",
+    "at": "10:50",
+    "price": 348.26,
+    "or_high": 347.83,
+    "or_low": 342.21,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:50",
+    "price": 148.67,
+    "or_high": 148.54,
+    "or_low": 146.05,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "Z",
+    "at": "10:50",
+    "price": 34.22,
+    "or_high": 34.1,
+    "or_low": 32.8,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "BAC",
+    "at": "10:55",
+    "price": 51.38,
+    "or_high": 51.37,
+    "or_low": 50.78,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:55",
+    "price": 129.03,
+    "or_high": 128.8,
+    "or_low": 126.93,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:55",
+    "price": 87.83,
+    "or_high": 87.82,
+    "or_low": 86.49,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CHWY",
+    "at": "11:00",
+    "price": 23.62,
+    "or_high": 23.57,
+    "or_low": 22.5,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:00",
+    "price": 101.39,
+    "or_high": 100.84,
+    "or_low": 98.6,
+    "pct_over": 0.55
+   },
+   {
+    "symbol": "LOW",
+    "at": "11:00",
+    "price": 227.97,
+    "or_high": 227.49,
+    "or_low": 221.1,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "TGT",
+    "at": "11:00",
+    "price": 161.01,
+    "or_high": 160.92,
+    "or_low": 156.41,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "D",
+    "at": "11:05",
+    "price": 69.68,
+    "or_high": 69.62,
+    "or_low": 68.34,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HUM",
+    "at": "11:10",
+    "price": 417.02,
+    "or_high": 416.63,
+    "or_low": 404.18,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "IDXX",
+    "at": "11:10",
+    "price": 698.24,
+    "or_high": 698.0,
+    "or_low": 681.7,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 112,
+  "n_hits": 126,
   "entries": 2,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.045687461464608004,
+ "intraday_max_drawdown": -0.048197412407378626,
  "trades": [
   {
    "date": "2026-11-04",
@@ -653,6 +653,60 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793808600,
+   "et": "2026-11-04 11:10",
+   "kind": "busy",
+   "text": "2 more breakouts (HUM, IDXX) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "HUM",
+    "IDXX"
+   ]
+  },
+  {
+   "ts": 1793808300,
+   "et": "2026-11-04 11:05",
+   "kind": "busy",
+   "text": "1 more breakout (D) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "D"
+   ]
+  },
+  {
+   "ts": 1793808000,
+   "et": "2026-11-04 11:00",
+   "kind": "busy",
+   "text": "4 more breakouts (CHWY, KKR, LOW, TGT) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "CHWY",
+    "KKR",
+    "LOW",
+    "TGT"
+   ]
+  },
+  {
+   "ts": 1793807700,
+   "et": "2026-11-04 10:55",
+   "kind": "busy",
+   "text": "3 more breakouts (BAC, DUK, NEE) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "BAC",
+    "DUK",
+    "NEE"
+   ]
+  },
+  {
+   "ts": 1793807400,
+   "et": "2026-11-04 10:50",
+   "kind": "busy",
+   "text": "4 more breakouts (DXCM, JPM, MRK, Z) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "DXCM",
+    "JPM",
+    "MRK",
+    "Z"
+   ]
+  },
   {
    "ts": 1793807100,
    "et": "2026-11-04 10:45",
@@ -1591,78 +1645,6 @@
     "REGN",
     "WMT"
    ]
-  },
-  {
-   "ts": 1793631000,
-   "et": "2026-11-02 09:50",
-   "kind": "fill",
-   "text": "BUY 23 AMZN filled at $250.56 (next bar's open $250.51 + slippage). Stop $246.33, target $254.69",
-   "symbol": "AMZN"
-  },
-  {
-   "ts": 1793631000,
-   "et": "2026-11-02 09:50",
-   "kind": "order",
-   "text": "BUY 23 AMZN at market (decided on the 09:50 close). opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
-   "symbol": "AMZN",
-   "why": {
-    "scanner": "AMZN: the 09:45 bar closed at $250.51, above the 15-min opening range high $250.39 (range 242.28-250.39)",
-    "exit": "plan: entry $250.51, stop $246.33 (opening-range midpoint), target $254.69 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on AMZN: 23 shares, bound by your $100 max loss per trade (23 x 4.18 = $96.14 at the stop) (limits: max loss 23; position cap 29; max order 31; cash 35)",
-    "risk": "trader-risk PASS: entry 250.51 (the latest price), stop 246.33, target 254.69: risk 4.18 a share; max loss $96.14 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "BABA",
-    "V",
-    "ADI",
-    "MA",
-    "GE",
-    "UBER",
-    "MELI",
-    "GS",
-    "APP",
-    "BKNG",
-    "JPM",
-    "SYK",
-    "CCL",
-    "C",
-    "PEP",
-    "AXP",
-    "SPOT",
-    "SE",
-    "ABNB",
-    "SOFI",
-    "RCL",
-    "NU",
-    "DIS",
-    "CMG",
-    "WFC",
-    "ON",
-    "MS",
-    "RTX",
-    "DASH",
-    "TOST",
-    "ZTS",
-    "ETSY",
-    "AFRM",
-    "MMM",
-    "HON",
-    "EXPE",
-    "DXCM",
-    "USB",
-    "KKR",
-    "DPZ",
-    "PNC",
-    "TTD",
-    "SWKS",
-    "Z",
-    "CHWY",
-    "LYFT",
-    "DUOL",
-    "CHPT",
-    "HMC"
-   ]
   }
  ],
  "equity": [
@@ -2480,6 +2462,11 @@
    "ts": 1793807377,
    "equity": 9620.63,
    "spy": 10085.89
+  },
+  {
+   "ts": 1793809026,
+   "equity": 9586.47,
+   "spy": 10079.97
   }
  ],
  "daily": [
@@ -2497,6 +2484,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793809026,
+   "phase": "open",
+   "status": "ok",
+   "bars": 6,
+   "secs": 13.9,
+   "errors": [],
+   "run_id": "41862504866",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793807377,
    "phase": "open",
@@ -2886,29 +2883,19 @@
    "errors": [],
    "run_id": "41704873043",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793734301,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.1,
-   "errors": [],
-   "run_id": "41704042190",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793807377,
+  "tick_at": 1793809026,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793807385,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1793809038,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
