@@ -100,3 +100,4 @@
 {"ts": 1793818800, "et": "2026-11-04 14:00", "kind": "busy", "text": "1 more breakout (KO) not taken: already in HLT (one trade at a time)", "symbols": ["KO"]}
 {"ts": 1793820900, "et": "2026-11-04 14:35", "kind": "busy", "text": "1 more breakout (CI) not taken: already in HLT (one trade at a time)", "symbols": ["CI"]}
 {"ts": 1793823900, "et": "2026-11-04 15:25", "kind": "busy", "text": "1 more breakout (BMY) not taken: already in HLT (one trade at a time)", "symbols": ["BMY"]}
+{"ts": 1793825100, "et": "2026-11-04 15:45", "kind": "exit", "text": "SELL 19 HLT at $377.01: target $377.01 hit (1R). P&L $+70.31 (+0.96R)", "symbol": "HLT"}
