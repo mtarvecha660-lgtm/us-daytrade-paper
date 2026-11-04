@@ -81,7 +81,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793805000,
+  "last_bar_end": 1793805300,
   "position": {
    "symbol": "AMD",
    "qty": 5,
@@ -132,7 +132,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 80,
+  "triggers_seen": 94,
   "missed": [
    "AAPL",
    "AFRM",
@@ -181,7 +181,21 @@
    "QCOM",
    "SHOP",
    "SNPS",
-   "ZTS"
+   "ZTS",
+   "AMAT",
+   "BB",
+   "CDNS",
+   "CRM",
+   "DLTR",
+   "ISRG",
+   "LRCX",
+   "MDB",
+   "NKE",
+   "PATH",
+   "QBTS",
+   "RGTI",
+   "RKT",
+   "TOST"
   ],
   "triggered": [
    "ABNB",
@@ -263,7 +277,21 @@
    "QCOM",
    "SHOP",
    "SNPS",
-   "ZTS"
+   "ZTS",
+   "AMAT",
+   "BB",
+   "CDNS",
+   "CRM",
+   "DLTR",
+   "ISRG",
+   "LRCX",
+   "MDB",
+   "NKE",
+   "PATH",
+   "QBTS",
+   "RGTI",
+   "RKT",
+   "TOST"
   ],
   "hits": [
    {
@@ -905,6 +933,118 @@
     "or_high": 86.15,
     "or_low": 84.83,
     "pct_over": 0.13
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:15",
+    "price": 382.54,
+    "or_high": 381.72,
+    "or_low": 369.3,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "BB",
+    "at": "10:15",
+    "price": 8.3,
+    "or_high": 8.29,
+    "or_low": 8.07,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:15",
+    "price": 327.73,
+    "or_high": 327.01,
+    "or_low": 320.35,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:15",
+    "price": 232.74,
+    "or_high": 231.96,
+    "or_low": 228.0,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:15",
+    "price": 144.34,
+    "or_high": 143.97,
+    "or_low": 137.13,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:15",
+    "price": 476.8,
+    "or_high": 476.69,
+    "or_low": 453.69,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:15",
+    "price": 232.29,
+    "or_high": 231.52,
+    "or_low": 224.27,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:15",
+    "price": 336.55,
+    "or_high": 335.84,
+    "or_low": 322.02,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:15",
+    "price": 40.33,
+    "or_high": 40.33,
+    "or_low": 39.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:15",
+    "price": 13.73,
+    "or_high": 13.62,
+    "or_low": 13.19,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:15",
+    "price": 10.67,
+    "or_high": 10.64,
+    "or_low": 10.38,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:15",
+    "price": 11.51,
+    "or_high": 11.45,
+    "or_low": 11.03,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:15",
+    "price": 14.84,
+    "or_high": 14.81,
+    "or_low": 14.3,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:15",
+    "price": 35.22,
+    "or_high": 35.12,
+    "or_low": 33.0,
+    "pct_over": 0.28
    }
   ]
  },
@@ -912,8 +1052,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.8400268554688,
-  "last_ts": 1793805000
+  "last": 768.2349853515625,
+  "last_ts": 1793805300
  },
  "seen_trades": 0,
  "daily": [
