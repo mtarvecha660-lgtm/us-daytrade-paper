@@ -81,7 +81,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793804700,
+  "last_bar_end": 1793805000,
   "position": {
    "symbol": "AMD",
    "qty": 5,
@@ -132,7 +132,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 76,
+  "triggers_seen": 80,
   "missed": [
    "AAPL",
    "AFRM",
@@ -177,7 +177,11 @@
    "NU",
    "RDDT",
    "TM",
-   "U"
+   "U",
+   "QCOM",
+   "SHOP",
+   "SNPS",
+   "ZTS"
   ],
   "triggered": [
    "ABNB",
@@ -255,7 +259,11 @@
    "NU",
    "RDDT",
    "TM",
-   "U"
+   "U",
+   "QCOM",
+   "SHOP",
+   "SNPS",
+   "ZTS"
   ],
   "hits": [
    {
@@ -865,6 +873,38 @@
     "or_high": 41.91,
     "or_low": 39.0,
     "pct_over": 0.74
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:10",
+    "price": 171.51,
+    "or_high": 171.1,
+    "or_low": 165.11,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:10",
+    "price": 148.23,
+    "or_high": 147.86,
+    "or_low": 143.3,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:10",
+    "price": 464.19,
+    "or_high": 464.17,
+    "or_low": 457.49,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "ZTS",
+    "at": "10:10",
+    "price": 86.26,
+    "or_high": 86.15,
+    "or_low": 84.83,
+    "pct_over": 0.13
    }
   ]
  },
@@ -872,8 +912,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 768.02001953125,
-  "last_ts": 1793804700
+  "last": 767.8400268554688,
+  "last_ts": 1793805000
  },
  "seen_trades": 0,
  "daily": [

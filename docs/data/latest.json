@@ -1,21 +1,21 @@
 {
- "updated": 1793804837,
- "updated_et": "2026-11-04 10:07 ET",
+ "updated": 1793805153,
+ "updated_et": "2026-11-04 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 7150.79,
-  "equity": 9630.7,
-  "return": -0.03692999999999991,
+  "equity": 9655.69,
+  "return": -0.03443099999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 10108.4,
-  "return": 0.01083999999999996,
+  "value": 10106.03,
+  "return": 0.01060300000000014,
   "start_price": 759.47998046875,
-  "last": 768.02001953125
+  "last": 767.8400268554688
  },
  "position": {
   "symbol": "AMD",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "MRNA",
-    "at": "09:50",
-    "price": 251.39,
-    "or_high": 246.9,
-    "or_low": 230.21,
-    "pct_over": 1.82
-   },
-   {
-    "symbol": "MSTR",
-    "at": "09:50",
-    "price": 140.79,
-    "or_high": 140.79,
-    "or_low": 135.8,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "NFLX",
-    "at": "09:50",
-    "price": 65.3,
-    "or_high": 65.24,
-    "or_low": 64.02,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "PANW",
-    "at": "09:50",
-    "price": 353.32,
-    "or_high": 351.64,
-    "or_low": 341.45,
-    "pct_over": 0.48
-   },
    {
     "symbol": "PLTR",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 41.91,
     "or_low": 39.0,
     "pct_over": 0.74
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:10",
+    "price": 171.51,
+    "or_high": 171.1,
+    "or_low": 165.11,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:10",
+    "price": 148.23,
+    "or_high": 147.86,
+    "or_low": 143.3,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:10",
+    "price": 464.19,
+    "or_high": 464.17,
+    "or_low": 457.49,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "ZTS",
+    "at": "10:10",
+    "price": 86.26,
+    "or_high": 86.15,
+    "or_low": 84.83,
+    "pct_over": 0.13
    }
   ],
-  "n_hits": 76,
+  "n_hits": 80,
   "entries": 1,
   "max_trades": 3
  },
@@ -629,6 +629,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793805000,
+   "et": "2026-11-04 10:10",
+   "kind": "busy",
+   "text": "4 more breakouts (QCOM, SHOP, SNPS, ZTS) not taken: already in AMD (one trade at a time)",
+   "symbols": [
+    "QCOM",
+    "SHOP",
+    "SNPS",
+    "ZTS"
+   ]
+  },
   {
    "ts": 1793804700,
    "et": "2026-11-04 10:05",
@@ -2316,6 +2328,11 @@
    "ts": 1793804837,
    "equity": 9630.7,
    "spy": 10108.4
+  },
+  {
+   "ts": 1793805153,
+   "equity": 9655.69,
+   "spy": 10106.03
   }
  ],
  "daily": [
@@ -2333,6 +2350,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793805153,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.3,
+   "errors": [],
+   "run_id": "41855291644",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793804837,
    "phase": "open",
@@ -2722,29 +2749,19 @@
    "errors": [],
    "run_id": "41699078799",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793732104,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.7,
-   "errors": [],
-   "run_id": "41698276521",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793804837,
+  "tick_at": 1793805153,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793804854,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1793805166,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
