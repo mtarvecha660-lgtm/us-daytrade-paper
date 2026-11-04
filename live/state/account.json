@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793811300,
+  "last_bar_end": 1793811600,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -1559,8 +1559,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 768.6500244140625,
-  "last_ts": 1793811300
+  "last": 768.5999755859375,
+  "last_ts": 1793811600
  },
  "seen_trades": 0,
  "daily": [
