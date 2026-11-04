@@ -1,6 +1,6 @@
 {
- "updated": 1793826536,
- "updated_et": "2026-11-04 16:08 ET",
+ "updated": 1793826851,
+ "updated_et": "2026-11-04 16:14 ET",
  "phase": "after-close",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 10091.16,
-  "return": 0.009115999999999902,
+  "value": 10091.55,
+  "return": 0.009155000000000024,
   "start_price": 759.47998046875,
-  "last": 766.7100219726562
+  "last": 766.739990234375
  },
  "position": null,
  "pending": null,
@@ -526,18 +526,18 @@
   }
  },
  "curve": {
-  "return": -0.029854999999999965,
-  "max_drawdown": -0.029854999999999965,
-  "sharpe": -32.56329925945539,
-  "sortino": -15.00786363406301,
-  "days": 3
+  "return": -0.03762600000000005,
+  "max_drawdown": -0.03762600000000005,
+  "sharpe": -30.628817622484437,
+  "sortino": -14.61936477254936,
+  "days": 4
  },
  "spy_curve": {
-  "return": -0.007086000000000037,
+  "return": 0.009155000000000024,
   "max_drawdown": -0.010087000000000068,
-  "sharpe": -6.037002554446452,
-  "sortino": -7.851382790808686,
-  "days": 3
+  "sharpe": 3.722470530283377,
+  "sortino": 8.451424036110717,
+  "days": 4
  },
  "intraday_max_drawdown": -0.053211357130871995,
  "trades": [
@@ -2689,9 +2689,25 @@
    "equity": 9701.45,
    "spy": 9929.14,
    "trades": 2
+  },
+  {
+   "date": "2026-11-04",
+   "equity": 9623.74,
+   "spy": 10091.55,
+   "trades": 3
   }
  ],
  "runs": [
+  {
+   "ts": 1793826851,
+   "phase": "after-close",
+   "status": "ok",
+   "bars": 0,
+   "secs": 6.6,
+   "errors": [],
+   "run_id": "41914138624",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793826536,
    "phase": "after-close",
@@ -3081,20 +3097,10 @@
    "errors": [],
    "run_id": "41875739444",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793811884,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.1,
-   "errors": [],
-   "run_id": "41873900910",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793826536,
+  "tick_at": 1793826851,
   "data_ok": 233,
   "data_failed": 1,
   "yahoo_time": 1793826000,
