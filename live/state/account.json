@@ -1,5 +1,5 @@
 {
- "cash": 9611.7494,
+ "cash": 2406.4674,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -105,11 +105,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793805900,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793806200,
+  "position": {
    "symbol": "IBM",
    "qty": 28,
+   "entry_fill": 257.3315,
+   "entry_ts": 1793805900,
    "plan": {
     "symbol": "IBM",
     "side": "buy",
@@ -121,7 +122,8 @@
     "target": 259.1,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 257.2799987792969
    },
    "why": {
     "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
@@ -130,9 +132,9 @@
     "risk": "trader-risk PASS: entry 257.20 (the plan's entry), stop 255.30, target 259.10: risk 1.90 a share; max loss $53.20 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $89.30 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793805900,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -167,6 +169,14 @@
     "kind": "entry",
     "max_loss": 53.2,
     "at": "2026-11-04T10:25:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-04",
+    "symbol": "IBM",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 28
    }
   ],
   "entries": 2,
@@ -1159,8 +1169,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 766.3699951171875,
-  "last_ts": 1793805900
+  "last": 766.5280151367188,
+  "last_ts": 1793806200
  },
  "seen_trades": 0,
  "daily": [

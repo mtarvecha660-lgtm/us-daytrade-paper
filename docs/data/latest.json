@@ -1,49 +1,39 @@
 {
- "updated": 1793806100,
- "updated_et": "2026-11-04 10:28 ET",
+ "updated": 1793806413,
+ "updated_et": "2026-11-04 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9611.75,
-  "equity": 9611.75,
-  "return": -0.038825,
+  "cash": 2406.47,
+  "equity": 9615.03,
+  "return": -0.03849699999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 10086.68,
-  "return": 0.00866800000000012,
+  "value": 10088.76,
+  "return": 0.008876000000000106,
   "start_price": 759.47998046875,
-  "last": 766.3699951171875
+  "last": 766.5280151367188
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "IBM",
   "qty": 28,
-  "plan": {
-   "symbol": "IBM",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-04",
-   "entry_time": "10:25 AM",
-   "entry": 257.2,
-   "stop": 255.3,
-   "target": 259.1,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 257.3315,
+  "entry_et": "10:25",
+  "stop": 255.3,
+  "target": 259.1,
+  "last": null,
   "why": {
    "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
    "exit": "plan: entry $257.20, stop $255.30 (opening-range midpoint), target $259.10 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on IBM: 28 shares, bound by your position cap (28 x 1.90 = $53.20 at the stop) (limits: max loss 52; position cap 28; max order 31; cash 33)",
    "risk": "trader-risk PASS: entry 257.20 (the plan's entry), stop 255.30, target 259.10: risk 1.90 a share; max loss $53.20 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $89.30 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793805900,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-04",
   "hits": [
@@ -532,7 +522,7 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 28 IBM at the next bar's open (signal at 10:25 ET). Then: stop $255.30, target $259.10.",
+ "next_move": "Holding 28 IBM bought at $257.33. It sells at the stop $255.30, the target $259.10, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 4,
   "wins": 0,
@@ -663,6 +653,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793805900,
+   "et": "2026-11-04 10:25",
+   "kind": "fill",
+   "text": "BUY 28 IBM filled at $257.33 (next bar's open $257.28 + slippage). Stop $255.30, target $259.10",
+   "symbol": "IBM"
+  },
   {
    "ts": 1793805900,
    "et": "2026-11-04 10:25",
@@ -2441,6 +2438,11 @@
    "ts": 1793806100,
    "equity": 9611.75,
    "spy": 10086.68
+  },
+  {
+   "ts": 1793806413,
+   "equity": 9615.03,
+   "spy": 10088.76
   }
  ],
  "daily": [
@@ -2458,6 +2460,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793806413,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.9,
+   "errors": [],
+   "run_id": "41858959661",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793806100,
    "phase": "open",
@@ -2847,25 +2859,15 @@
    "errors": [],
    "run_id": "41702419828",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793733365,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 13.7,
-   "errors": [],
-   "run_id": "41701595637",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793806100,
+  "tick_at": 1793806413,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793806110,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1793806428,
+  "candidates": 25,
+  "charts_fetched": 27,
   "ok": true,
   "errors": [],
   "stale_data": false,
