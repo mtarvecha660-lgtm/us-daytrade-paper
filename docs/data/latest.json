@@ -1,21 +1,21 @@
 {
- "updated": 1793818057,
- "updated_et": "2026-11-04 13:47 ET",
+ "updated": 1793818370,
+ "updated_et": "2026-11-04 13:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2460.55,
-  "equity": 9580.9,
-  "return": -0.04191,
+  "equity": 9575.3,
+  "return": -0.04247000000000012,
   "started": 1793559735
  },
  "spy": {
-  "value": 10106.16,
-  "return": 0.010615999999999959,
+  "value": 10102.87,
+  "return": 0.010287000000000157,
   "start_price": 759.47998046875,
-  "last": 767.8499755859375
+  "last": 767.5999755859375
  },
  "position": {
   "symbol": "HLT",
@@ -2545,6 +2545,11 @@
    "ts": 1793818057,
    "equity": 9580.9,
    "spy": 10106.16
+  },
+  {
+   "ts": 1793818370,
+   "equity": 9575.3,
+   "spy": 10102.87
   }
  ],
  "daily": [
@@ -2562,6 +2567,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793818370,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.8,
+   "errors": [],
+   "run_id": "41891428112",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793818057,
    "phase": "open",
@@ -2951,25 +2966,15 @@
    "errors": [],
    "run_id": "41798334306",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793760431,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "41746106250",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1793818057,
+  "tick_at": 1793818370,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793818065,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1793818376,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
