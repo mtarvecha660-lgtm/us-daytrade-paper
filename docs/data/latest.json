@@ -1,21 +1,21 @@
 {
- "updated": 1793809975,
- "updated_et": "2026-11-04 11:32 ET",
+ "updated": 1793810296,
+ "updated_et": "2026-11-04 11:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9563.52,
-  "return": -0.04364799999999991,
+  "equity": 9585.91,
+  "return": -0.04140900000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 10057.6,
-  "return": 0.005759999999999987,
+  "value": 10073.0,
+  "return": 0.007300000000000084,
   "start_price": 759.47998046875,
-  "last": 764.1599731445312
+  "last": 765.3300170898438
  },
  "position": {
   "symbol": "IBM",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "ADBE",
-    "at": "10:05",
-    "price": 254.55,
-    "or_high": 252.73,
-    "or_low": 246.14,
-    "pct_over": 0.72
-   },
    {
     "symbol": "BIDU",
     "at": "10:05",
@@ -516,9 +508,17 @@
     "or_high": 172.98,
     "or_low": 170.64,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "RCL",
+    "at": "11:35",
+    "price": 324.76,
+    "or_high": 324.59,
+    "or_low": 319.0,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 127,
+  "n_hits": 128,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793810100,
+   "et": "2026-11-04 11:35",
+   "kind": "busy",
+   "text": "1 more breakout (RCL) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "RCL"
+   ]
+  },
   {
    "ts": 1793809500,
    "et": "2026-11-04 11:25",
@@ -1617,19 +1626,6 @@
     "T",
     "VZ"
    ]
-  },
-  {
-   "ts": 1793631600,
-   "et": "2026-11-02 10:00",
-   "kind": "busy",
-   "text": "5 more breakouts (AVGO, DE, HAL, SLB, TMUS) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "AVGO",
-    "DE",
-    "HAL",
-    "SLB",
-    "TMUS"
-   ]
   }
  ],
  "equity": [
@@ -2457,6 +2453,11 @@
    "ts": 1793809975,
    "equity": 9563.52,
    "spy": 10057.6
+  },
+  {
+   "ts": 1793810296,
+   "equity": 9585.91,
+   "spy": 10073.0
   }
  ],
  "daily": [
@@ -2474,6 +2475,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793810296,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.4,
+   "errors": [],
+   "run_id": "41869269281",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793809975,
    "phase": "open",
@@ -2863,23 +2874,13 @@
    "errors": [],
    "run_id": "41706487640",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793734928,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.6,
-   "errors": [],
-   "run_id": "41705678837",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793809975,
+  "tick_at": 1793810296,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793809982,
+  "yahoo_time": 1793810305,
   "candidates": 16,
   "charts_fetched": 18,
   "ok": true,

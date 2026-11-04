@@ -81,3 +81,4 @@
 {"ts": 1793808300, "et": "2026-11-04 11:05", "kind": "busy", "text": "1 more breakout (D) not taken: already in IBM (one trade at a time)", "symbols": ["D"]}
 {"ts": 1793808600, "et": "2026-11-04 11:10", "kind": "busy", "text": "2 more breakouts (HUM, IDXX) not taken: already in IBM (one trade at a time)", "symbols": ["HUM", "IDXX"]}
 {"ts": 1793809500, "et": "2026-11-04 11:25", "kind": "busy", "text": "1 more breakout (GILD) not taken: already in IBM (one trade at a time)", "symbols": ["GILD"]}
+{"ts": 1793810100, "et": "2026-11-04 11:35", "kind": "busy", "text": "1 more breakout (RCL) not taken: already in IBM (one trade at a time)", "symbols": ["RCL"]}
