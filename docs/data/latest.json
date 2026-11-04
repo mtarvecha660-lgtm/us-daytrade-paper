@@ -1,21 +1,21 @@
 {
- "updated": 1793805466,
- "updated_et": "2026-11-04 10:17 ET",
+ "updated": 1793805782,
+ "updated_et": "2026-11-04 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 7150.79,
-  "equity": 9641.07,
-  "return": -0.035893000000000064,
+  "equity": 9639.59,
+  "return": -0.03604099999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 10111.23,
-  "return": 0.011122999999999994,
+  "value": 10106.16,
+  "return": 0.010615999999999959,
   "start_price": 759.47998046875,
-  "last": 768.2349853515625
+  "last": 767.8499755859375
  },
  "position": {
   "symbol": "AMD",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "CMG",
-    "at": "09:55",
-    "price": 34.87,
-    "or_high": 34.8,
-    "or_low": 34.08,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "COST",
-    "at": "09:55",
-    "price": 1040.16,
-    "or_high": 1039.5,
-    "or_low": 1028.5,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "CPNG",
-    "at": "09:55",
-    "price": 17.16,
-    "or_high": 17.13,
-    "or_low": 15.36,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "DASH",
-    "at": "09:55",
-    "price": 195.91,
-    "or_high": 195.0,
-    "or_low": 188.16,
-    "pct_over": 0.47
-   },
-   {
-    "symbol": "EXPE",
-    "at": "09:55",
-    "price": 314.21,
-    "or_high": 314.0,
-    "or_low": 295.26,
-    "pct_over": 0.07
-   },
    {
     "symbol": "GM",
     "at": "09:55",
@@ -516,9 +476,49 @@
     "or_high": 35.12,
     "or_low": 33.0,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:20",
+    "price": 1204.25,
+    "or_high": 1203.0,
+    "or_low": 1182.43,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:20",
+    "price": 7.02,
+    "or_high": 7.0,
+    "or_low": 6.71,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:20",
+    "price": 191.95,
+    "or_high": 191.0,
+    "or_low": 180.14,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:20",
+    "price": 91.6,
+    "or_high": 91.37,
+    "or_low": 90.65,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:20",
+    "price": 46.0,
+    "or_high": 45.99,
+    "or_low": 45.5,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 94,
+  "n_hits": 99,
   "entries": 1,
   "max_trades": 3
  },
@@ -629,6 +629,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793805600,
+   "et": "2026-11-04 10:20",
+   "kind": "busy",
+   "text": "5 more breakouts (BLK, MARA, OKTA, SCHW, VZ) not taken: already in AMD (one trade at a time)",
+   "symbols": [
+    "BLK",
+    "MARA",
+    "OKTA",
+    "SCHW",
+    "VZ"
+   ]
+  },
   {
    "ts": 1793805300,
    "et": "2026-11-04 10:15",
@@ -2360,6 +2373,11 @@
    "ts": 1793805466,
    "equity": 9641.07,
    "spy": 10111.23
+  },
+  {
+   "ts": 1793805782,
+   "equity": 9639.59,
+   "spy": 10106.16
   }
  ],
  "daily": [
@@ -2377,6 +2395,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793805782,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.2,
+   "errors": [],
+   "run_id": "41857116812",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793805466,
    "phase": "open",
@@ -2766,29 +2794,19 @@
    "errors": [],
    "run_id": "41700763487",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793732734,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.2,
-   "errors": [],
-   "run_id": "41699924554",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793805466,
+  "tick_at": 1793805782,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793805485,
-  "candidates": 45,
-  "charts_fetched": 47,
+  "yahoo_time": 1793805797,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

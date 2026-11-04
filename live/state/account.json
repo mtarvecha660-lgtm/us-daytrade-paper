@@ -81,7 +81,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793805300,
+  "last_bar_end": 1793805600,
   "position": {
    "symbol": "AMD",
    "qty": 5,
@@ -132,7 +132,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 94,
+  "triggers_seen": 99,
   "missed": [
    "AAPL",
    "AFRM",
@@ -195,7 +195,12 @@
    "QBTS",
    "RGTI",
    "RKT",
-   "TOST"
+   "TOST",
+   "BLK",
+   "MARA",
+   "OKTA",
+   "SCHW",
+   "VZ"
   ],
   "triggered": [
    "ABNB",
@@ -291,7 +296,12 @@
    "QBTS",
    "RGTI",
    "RKT",
-   "TOST"
+   "TOST",
+   "BLK",
+   "MARA",
+   "OKTA",
+   "SCHW",
+   "VZ"
   ],
   "hits": [
    {
@@ -1045,6 +1055,46 @@
     "or_high": 35.12,
     "or_low": 33.0,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:20",
+    "price": 1204.25,
+    "or_high": 1203.0,
+    "or_low": 1182.43,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:20",
+    "price": 7.02,
+    "or_high": 7.0,
+    "or_low": 6.71,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:20",
+    "price": 191.95,
+    "or_high": 191.0,
+    "or_low": 180.14,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:20",
+    "price": 91.6,
+    "or_high": 91.37,
+    "or_low": 90.65,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:20",
+    "price": 46.0,
+    "or_high": 45.99,
+    "or_low": 45.5,
+    "pct_over": 0.03
    }
   ]
  },
@@ -1052,8 +1102,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 768.2349853515625,
-  "last_ts": 1793805300
+  "last": 767.8499755859375,
+  "last_ts": 1793805600
  },
  "seen_trades": 0,
  "daily": [
