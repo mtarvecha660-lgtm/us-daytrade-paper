@@ -1,5 +1,5 @@
 {
- "cash": 7150.7919,
+ "cash": 9611.7494,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -75,32 +75,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-04",
-  "last_bar_end": 1793805600,
-  "position": {
+  },
+  {
+   "date": "2026-11-04",
    "symbol": "AMD",
    "qty": 5,
+   "entry_et": "09:50",
    "entry_fill": 510.132,
-   "entry_ts": 1793803800,
-   "plan": {
-    "symbol": "AMD",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-04",
-    "entry_time": "9:50 AM",
-    "entry": 510.15,
-    "stop": 492.29,
-    "target": 528.01,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 510.0299987792969
-   },
+   "exit_et": "10:25",
+   "exit_fill": 492.1915,
+   "exit_reason": "stop $492.29 hit",
+   "stop": 492.29,
+   "target": 528.01,
+   "pnl": -89.7,
+   "r": -1.004,
+   "risk_usd": 89.3,
+   "cost_usd": 1.0,
    "why": {
     "scanner": "AMD: the 09:45 bar closed at $510.15, above the 15-min opening range high $508.08 (range 476.50-508.08)",
     "exit": "plan: entry $510.15, stop $492.29 (opening-range midpoint), target $528.01 (1R (one times the risk)), flat by 15:55 ET",
@@ -109,8 +99,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-04",
+  "last_bar_end": 1793805900,
+  "position": null,
+  "pending": {
+   "symbol": "IBM",
+   "qty": 28,
+   "plan": {
+    "symbol": "IBM",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-04",
+    "entry_time": "10:25 AM",
+    "entry": 257.2,
+    "stop": 255.3,
+    "target": 259.1,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
+    "exit": "plan: entry $257.20, stop $255.30 (opening-range midpoint), target $259.10 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on IBM: 28 shares, bound by your position cap (28 x 1.90 = $53.20 at the stop) (limits: max loss 52; position cap 28; max order 31; cash 33)",
+    "risk": "trader-risk PASS: entry 257.20 (the plan's entry), stop 255.30, target 259.10: risk 1.90 a share; max loss $53.20 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $89.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793805900,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -128,11 +150,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 5
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-04",
+    "symbol": "AMD",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 5
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-04",
+    "symbol": "IBM",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 53.2,
+    "at": "2026-11-04T10:25:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 99,
+  "triggers_seen": 101,
   "missed": [
    "AAPL",
    "AFRM",
@@ -301,7 +340,9 @@
    "MARA",
    "OKTA",
    "SCHW",
-   "VZ"
+   "VZ",
+   "DOCU",
+   "IBM"
   ],
   "hits": [
    {
@@ -1095,6 +1136,22 @@
     "or_high": 45.99,
     "or_low": 45.5,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "DOCU",
+    "at": "10:25",
+    "price": 82.87,
+    "or_high": 82.76,
+    "or_low": 80.87,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:25",
+    "price": 257.2,
+    "or_high": 257.1,
+    "or_low": 253.51,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1102,8 +1159,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.8499755859375,
-  "last_ts": 1793805600
+  "last": 766.3699951171875,
+  "last_ts": 1793805900
  },
  "seen_trades": 0,
  "daily": [
