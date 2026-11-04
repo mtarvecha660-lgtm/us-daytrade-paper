@@ -1,21 +1,21 @@
 {
- "updated": 1793804518,
- "updated_et": "2026-11-04 10:01 ET",
+ "updated": 1793804837,
+ "updated_et": "2026-11-04 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 7150.79,
-  "equity": 9641.27,
-  "return": -0.03587299999999993,
+  "equity": 9630.7,
+  "return": -0.03692999999999991,
   "started": 1793559735
  },
  "spy": {
-  "value": 10098.0,
-  "return": 0.009800000000000031,
+  "value": 10108.4,
+  "return": 0.01083999999999996,
   "start_price": 759.47998046875,
-  "last": 767.22998046875
+  "last": 768.02001953125
  },
  "position": {
   "symbol": "AMD",
@@ -37,78 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "CSCO",
-    "at": "09:50",
-    "price": 104.36,
-    "or_high": 104.1,
-    "or_low": 102.74,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "EBAY",
-    "at": "09:50",
-    "price": 124.32,
-    "or_high": 123.84,
-    "or_low": 120.75,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "ELV",
-    "at": "09:50",
-    "price": 425.02,
-    "or_high": 424.99,
-    "or_low": 412.06,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "ETSY",
-    "at": "09:50",
-    "price": 96.63,
-    "or_high": 96.45,
-    "or_low": 92.68,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "FANG",
-    "at": "09:50",
-    "price": 190.15,
-    "or_high": 189.86,
-    "or_low": 185.93,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "GME",
-    "at": "09:50",
-    "price": 24.67,
-    "or_high": 24.6,
-    "or_low": 24.24,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "HOOD",
-    "at": "09:50",
-    "price": 86.35,
-    "or_high": 86.14,
-    "or_low": 83.46,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "HPQ",
-    "at": "09:50",
-    "price": 29.57,
-    "or_high": 29.45,
-    "or_low": 28.41,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "LYFT",
-    "at": "09:50",
-    "price": 18.13,
-    "or_high": 18.11,
-    "or_low": 17.1,
-    "pct_over": 0.12
-   },
    {
     "symbol": "MRNA",
     "at": "09:50",
@@ -516,9 +444,81 @@
     "or_high": 10.05,
     "or_low": 9.85,
     "pct_over": 0.4
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:05",
+    "price": 254.55,
+    "or_high": 252.73,
+    "or_low": 246.14,
+    "pct_over": 0.72
+   },
+   {
+    "symbol": "BIDU",
+    "at": "10:05",
+    "price": 81.21,
+    "or_high": 80.7,
+    "or_low": 79.5,
+    "pct_over": 0.63
+   },
+   {
+    "symbol": "BX",
+    "at": "10:05",
+    "price": 124.08,
+    "or_high": 124.07,
+    "or_low": 121.19,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:05",
+    "price": 118.9,
+    "or_high": 118.73,
+    "or_low": 116.3,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "JD",
+    "at": "10:05",
+    "price": 28.02,
+    "or_high": 27.97,
+    "or_low": 27.63,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "NU",
+    "at": "10:05",
+    "price": 12.13,
+    "or_high": 12.11,
+    "or_low": 11.85,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:05",
+    "price": 102.77,
+    "or_high": 101.71,
+    "or_low": 97.78,
+    "pct_over": 1.04
+   },
+   {
+    "symbol": "TM",
+    "at": "10:05",
+    "price": 198.57,
+    "or_high": 198.21,
+    "or_low": 193.52,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "U",
+    "at": "10:05",
+    "price": 42.22,
+    "or_high": 41.91,
+    "or_low": 39.0,
+    "pct_over": 0.74
    }
   ],
-  "n_hits": 67,
+  "n_hits": 76,
   "entries": 1,
   "max_trades": 3
  },
@@ -553,7 +553,7 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.04275653773713217,
+ "intraday_max_drawdown": -0.04380599111787131,
  "trades": [
   {
    "date": "2026-11-03",
@@ -629,6 +629,23 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793804700,
+   "et": "2026-11-04 10:05",
+   "kind": "busy",
+   "text": "9 more breakouts (ADBE, BIDU, BX, DIS, JD, NU, RDDT, TM ...) not taken: already in AMD (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "BIDU",
+    "BX",
+    "DIS",
+    "JD",
+    "NU",
+    "RDDT",
+    "TM",
+    "U"
+   ]
+  },
   {
    "ts": 1793804400,
    "et": "2026-11-04 10:00",
@@ -2294,6 +2311,11 @@
    "ts": 1793804518,
    "equity": 9641.27,
    "spy": 10098.0
+  },
+  {
+   "ts": 1793804837,
+   "equity": 9630.7,
+   "spy": 10108.4
   }
  ],
  "daily": [
@@ -2311,6 +2333,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793804837,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.4,
+   "errors": [],
+   "run_id": "41854386277",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793804518,
    "phase": "open",
@@ -2700,29 +2732,19 @@
    "errors": [],
    "run_id": "41698276521",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793731790,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.1,
-   "errors": [],
-   "run_id": "41697463205",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793804518,
+  "tick_at": 1793804837,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793804532,
-  "candidates": 46,
-  "charts_fetched": 48,
+  "yahoo_time": 1793804854,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

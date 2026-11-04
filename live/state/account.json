@@ -81,7 +81,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793804400,
+  "last_bar_end": 1793804700,
   "position": {
    "symbol": "AMD",
    "qty": 5,
@@ -132,7 +132,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 67,
+  "triggers_seen": 76,
   "missed": [
    "AAPL",
    "AFRM",
@@ -168,7 +168,16 @@
    "PINS",
    "SNAP",
    "UPS",
-   "XPEV"
+   "XPEV",
+   "ADBE",
+   "BIDU",
+   "BX",
+   "DIS",
+   "JD",
+   "NU",
+   "RDDT",
+   "TM",
+   "U"
   ],
   "triggered": [
    "ABNB",
@@ -237,7 +246,16 @@
    "PINS",
    "SNAP",
    "UPS",
-   "XPEV"
+   "XPEV",
+   "ADBE",
+   "BIDU",
+   "BX",
+   "DIS",
+   "JD",
+   "NU",
+   "RDDT",
+   "TM",
+   "U"
   ],
   "hits": [
    {
@@ -775,6 +793,78 @@
     "or_high": 10.05,
     "or_low": 9.85,
     "pct_over": 0.4
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:05",
+    "price": 254.55,
+    "or_high": 252.73,
+    "or_low": 246.14,
+    "pct_over": 0.72
+   },
+   {
+    "symbol": "BIDU",
+    "at": "10:05",
+    "price": 81.21,
+    "or_high": 80.7,
+    "or_low": 79.5,
+    "pct_over": 0.63
+   },
+   {
+    "symbol": "BX",
+    "at": "10:05",
+    "price": 124.08,
+    "or_high": 124.07,
+    "or_low": 121.19,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:05",
+    "price": 118.9,
+    "or_high": 118.73,
+    "or_low": 116.3,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "JD",
+    "at": "10:05",
+    "price": 28.02,
+    "or_high": 27.97,
+    "or_low": 27.63,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "NU",
+    "at": "10:05",
+    "price": 12.13,
+    "or_high": 12.11,
+    "or_low": 11.85,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:05",
+    "price": 102.77,
+    "or_high": 101.71,
+    "or_low": 97.78,
+    "pct_over": 1.04
+   },
+   {
+    "symbol": "TM",
+    "at": "10:05",
+    "price": 198.57,
+    "or_high": 198.21,
+    "or_low": 193.52,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "U",
+    "at": "10:05",
+    "price": 42.22,
+    "or_high": 41.91,
+    "or_low": 39.0,
+    "pct_over": 0.74
    }
   ]
  },
@@ -782,8 +872,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.22998046875,
-  "last_ts": 1793804400
+  "last": 768.02001953125,
+  "last_ts": 1793804700
  },
  "seen_trades": 0,
  "daily": [
