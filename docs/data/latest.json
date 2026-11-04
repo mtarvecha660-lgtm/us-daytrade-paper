@@ -1,92 +1,42 @@
 {
- "updated": 1793812838,
- "updated_et": "2026-11-04 12:20 ET",
+ "updated": 1793814162,
+ "updated_et": "2026-11-04 12:42 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9553.44,
-  "equity": 9553.44,
-  "return": -0.04465599999999992,
+  "cash": 2460.55,
+  "equity": 9540.25,
+  "return": -0.04597499999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 10103.14,
-  "return": 0.010313999999999934,
+  "value": 10107.61,
+  "return": 0.01076100000000002,
   "start_price": 759.47998046875,
-  "last": 767.6199951171875
+  "last": 767.9600219726562
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "HLT",
   "qty": 19,
-  "plan": {
-   "symbol": "HLT",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-04",
-   "entry_time": "12:15 PM",
-   "entry": 373.14,
-   "stop": 369.27,
-   "target": 377.01,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 373.3096,
+  "entry_et": "12:15",
+  "stop": 369.27,
+  "target": 377.01,
+  "last": null,
   "why": {
    "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
    "exit": "plan: entry $373.14, stop $369.27 (opening-range midpoint), target $377.01 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
    "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793812500,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "CRM",
-    "at": "10:15",
-    "price": 232.74,
-    "or_high": 231.96,
-    "or_low": 228.0,
-    "pct_over": 0.34
-   },
-   {
-    "symbol": "DLTR",
-    "at": "10:15",
-    "price": 144.34,
-    "or_high": 143.97,
-    "or_low": 137.13,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "ISRG",
-    "at": "10:15",
-    "price": 476.8,
-    "or_high": 476.69,
-    "or_low": 453.69,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "LRCX",
-    "at": "10:15",
-    "price": 232.29,
-    "or_high": 231.52,
-    "or_low": 224.27,
-    "pct_over": 0.33
-   },
-   {
-    "symbol": "MDB",
-    "at": "10:15",
-    "price": 336.55,
-    "or_high": 335.84,
-    "or_low": 322.02,
-    "pct_over": 0.21
-   },
    {
     "symbol": "NKE",
     "at": "10:15",
@@ -526,13 +476,53 @@
     "or_high": 373.01,
     "or_low": 365.54,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "12:20",
+    "price": 120.76,
+    "or_high": 120.74,
+    "or_low": 116.22,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GS",
+    "at": "12:25",
+    "price": 931.56,
+    "or_high": 930.66,
+    "or_low": 915.0,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "AEP",
+    "at": "12:30",
+    "price": 128.35,
+    "or_high": 128.14,
+    "or_low": 123.99,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "DE",
+    "at": "12:30",
+    "price": 675.16,
+    "or_high": 675.0,
+    "or_low": 662.18,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MS",
+    "at": "12:30",
+    "price": 192.62,
+    "or_high": 192.58,
+    "or_low": 189.78,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 143,
+  "n_hits": 148,
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 19 HLT at the next bar's open (signal at 12:15 ET). Then: stop $369.27, target $377.01.",
+ "next_move": "Holding 19 HLT bought at $373.31. It sells at the stop $369.27, the target $377.01, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 5,
   "wins": 0,
@@ -563,7 +553,7 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.051476830114645544,
+ "intraday_max_drawdown": -0.05278641290480157,
  "trades": [
   {
    "date": "2026-11-04",
@@ -687,6 +677,42 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793813400,
+   "et": "2026-11-04 12:30",
+   "kind": "busy",
+   "text": "3 more breakouts (AEP, DE, MS) not taken: already in HLT (one trade at a time)",
+   "symbols": [
+    "AEP",
+    "DE",
+    "MS"
+   ]
+  },
+  {
+   "ts": 1793813100,
+   "et": "2026-11-04 12:25",
+   "kind": "busy",
+   "text": "1 more breakout (GS) not taken: already in HLT (one trade at a time)",
+   "symbols": [
+    "GS"
+   ]
+  },
+  {
+   "ts": 1793812800,
+   "et": "2026-11-04 12:20",
+   "kind": "busy",
+   "text": "1 more breakout (APO) not taken: already in HLT (one trade at a time)",
+   "symbols": [
+    "APO"
+   ]
+  },
+  {
+   "ts": 1793812500,
+   "et": "2026-11-04 12:15",
+   "kind": "fill",
+   "text": "BUY 19 HLT filled at $373.31 (next bar's open $373.23 + slippage). Stop $369.27, target $377.01",
+   "symbol": "HLT"
+  },
   {
    "ts": 1793812500,
    "et": "2026-11-04 12:15",
@@ -1597,46 +1623,6 @@
    "symbols": [
     "F"
    ]
-  },
-  {
-   "ts": 1793635800,
-   "et": "2026-11-02 11:10",
-   "kind": "busy",
-   "text": "3 more breakouts (AI, CHTR, DG) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "AI",
-    "CHTR",
-    "DG"
-   ]
-  },
-  {
-   "ts": 1793635500,
-   "et": "2026-11-02 11:05",
-   "kind": "busy",
-   "text": "2 more breakouts (CMCSA, DOCU) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "CMCSA",
-    "DOCU"
-   ]
-  },
-  {
-   "ts": 1793635200,
-   "et": "2026-11-02 11:00",
-   "kind": "busy",
-   "text": "1 more breakout (BMY) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "BMY"
-   ]
-  },
-  {
-   "ts": 1793634900,
-   "et": "2026-11-02 10:55",
-   "kind": "busy",
-   "text": "2 more breakouts (CDNS, LMT) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "CDNS",
-    "LMT"
-   ]
   }
  ],
  "equity": [
@@ -2504,6 +2490,11 @@
    "ts": 1793812838,
    "equity": 9553.44,
    "spy": 10103.14
+  },
+  {
+   "ts": 1793814162,
+   "equity": 9540.25,
+   "spy": 10107.61
   }
  ],
  "daily": [
@@ -2521,6 +2512,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793814162,
+   "phase": "open",
+   "status": "ok",
+   "bars": 5,
+   "secs": 10.3,
+   "errors": [],
+   "run_id": "41877458609",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793812838,
    "phase": "open",
@@ -2910,29 +2911,19 @@
    "errors": [],
    "run_id": "41713059488",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793737480,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.9,
-   "errors": [],
-   "run_id": "41712185896",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793812838,
+  "tick_at": 1793814162,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793812848,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1793814171,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -1,5 +1,5 @@
 {
- "cash": 9553.4366,
+ "cash": 2460.5542,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -129,11 +129,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793812500,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793814000,
+  "position": {
    "symbol": "HLT",
    "qty": 19,
+   "entry_fill": 373.3096,
+   "entry_ts": 1793812500,
    "plan": {
     "symbol": "HLT",
     "side": "buy",
@@ -145,7 +146,8 @@
     "target": 377.01,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 373.2349853515625
    },
    "why": {
     "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
@@ -154,9 +156,9 @@
     "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793812500,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -216,11 +218,19 @@
     "kind": "entry",
     "max_loss": 73.53,
     "at": "2026-11-04T12:15:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-04",
+    "symbol": "HLT",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 19
    }
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 143,
+  "triggers_seen": 148,
   "missed": [
    "AAPL",
    "AFRM",
@@ -329,7 +339,12 @@
    "VRTX",
    "W",
    "SO",
-   "JNJ"
+   "JNJ",
+   "APO",
+   "GS",
+   "AEP",
+   "DE",
+   "MS"
   ],
   "triggered": [
    "ABNB",
@@ -474,7 +489,12 @@
    "W",
    "SO",
    "JNJ",
-   "HLT"
+   "HLT",
+   "APO",
+   "GS",
+   "AEP",
+   "DE",
+   "MS"
   ],
   "hits": [
    {
@@ -1620,6 +1640,46 @@
     "or_high": 373.01,
     "or_low": 365.54,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "12:20",
+    "price": 120.76,
+    "or_high": 120.74,
+    "or_low": 116.22,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GS",
+    "at": "12:25",
+    "price": 931.56,
+    "or_high": 930.66,
+    "or_low": 915.0,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "AEP",
+    "at": "12:30",
+    "price": 128.35,
+    "or_high": 128.14,
+    "or_low": 123.99,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "DE",
+    "at": "12:30",
+    "price": 675.16,
+    "or_high": 675.0,
+    "or_low": 662.18,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MS",
+    "at": "12:30",
+    "price": 192.62,
+    "or_high": 192.58,
+    "or_low": 189.78,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1627,8 +1687,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.6199951171875,
-  "last_ts": 1793812500
+  "last": 767.9600219726562,
+  "last_ts": 1793814000
  },
  "seen_trades": 0,
  "daily": [
