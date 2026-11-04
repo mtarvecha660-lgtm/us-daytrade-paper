@@ -1,21 +1,21 @@
 {
- "updated": 1793810928,
- "updated_et": "2026-11-04 11:48 ET",
+ "updated": 1793811247,
+ "updated_et": "2026-11-04 11:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9584.79,
-  "return": -0.04152099999999992,
+  "equity": 9586.47,
+  "return": -0.041353000000000084,
   "started": 1793559735
  },
  "spy": {
-  "value": 10096.56,
-  "return": 0.009655999999999887,
+  "value": 10101.82,
+  "return": 0.010181999999999913,
   "start_price": 759.47998046875,
-  "last": 767.1199951171875
+  "last": 767.52001953125
  },
  "position": {
   "symbol": "IBM",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "U",
-    "at": "10:05",
-    "price": 42.22,
-    "or_high": 41.91,
-    "or_low": 39.0,
-    "pct_over": 0.74
-   },
-   {
-    "symbol": "QCOM",
-    "at": "10:10",
-    "price": 171.51,
-    "or_high": 171.1,
-    "or_low": 165.11,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "SHOP",
-    "at": "10:10",
-    "price": 148.23,
-    "or_high": 147.86,
-    "or_low": 143.3,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "SNPS",
-    "at": "10:10",
-    "price": 464.19,
-    "or_high": 464.17,
-    "or_low": 457.49,
-    "pct_over": 0.0
-   },
    {
     "symbol": "ZTS",
     "at": "10:10",
@@ -516,9 +484,41 @@
     "or_high": 18.17,
     "or_low": 17.78,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "AAL",
+    "at": "11:50",
+    "price": 13.72,
+    "or_high": 13.64,
+    "or_low": 13.36,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "CCL",
+    "at": "11:50",
+    "price": 30.93,
+    "or_high": 30.6,
+    "or_low": 29.98,
+    "pct_over": 1.09
+   },
+   {
+    "symbol": "GE",
+    "at": "11:50",
+    "price": 332.46,
+    "or_high": 330.7,
+    "or_low": 325.01,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "VRTX",
+    "at": "11:50",
+    "price": 544.68,
+    "or_high": 544.21,
+    "or_low": 534.0,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 135,
+  "n_hits": 139,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793811000,
+   "et": "2026-11-04 11:50",
+   "kind": "busy",
+   "text": "4 more breakouts (AAL, CCL, GE, VRTX) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "AAL",
+    "CCL",
+    "GE",
+    "VRTX"
+   ]
+  },
   {
    "ts": 1793810700,
    "et": "2026-11-04 11:45",
@@ -1602,27 +1614,6 @@
     "RBLX",
     "SEDG"
    ]
-  },
-  {
-   "ts": 1793632500,
-   "et": "2026-11-02 10:15",
-   "kind": "busy",
-   "text": "13 more breakouts (AMAT, BIDU, BLK, EBAY, FSLR, GOOGL, MARA, MCHP ...) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "AMAT",
-    "BIDU",
-    "BLK",
-    "EBAY",
-    "FSLR",
-    "GOOGL",
-    "MARA",
-    "MCHP",
-    "MPC",
-    "RGTI",
-    "SNPS",
-    "TXN",
-    "XPEV"
-   ]
   }
  ],
  "equity": [
@@ -2465,6 +2456,11 @@
    "ts": 1793810928,
    "equity": 9584.79,
    "spy": 10096.56
+  },
+  {
+   "ts": 1793811247,
+   "equity": 9586.47,
+   "spy": 10101.82
   }
  ],
  "daily": [
@@ -2482,6 +2478,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793811247,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.8,
+   "errors": [],
+   "run_id": "41872098354",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793810928,
    "phase": "open",
@@ -2871,29 +2877,19 @@
    "errors": [],
    "run_id": "41708918524",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793735878,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.2,
-   "errors": [],
-   "run_id": "41707961806",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1793810928,
+  "tick_at": 1793811247,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793810938,
-  "candidates": 20,
-  "charts_fetched": 22,
+  "yahoo_time": 1793811256,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

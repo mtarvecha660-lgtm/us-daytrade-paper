@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793810700,
+  "last_bar_end": 1793811000,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 135,
+  "triggers_seen": 139,
   "missed": [
    "AAPL",
    "AFRM",
@@ -283,7 +283,11 @@
    "LUV",
    "UAL",
    "F",
-   "NCLH"
+   "NCLH",
+   "AAL",
+   "CCL",
+   "GE",
+   "VRTX"
   ],
   "triggered": [
    "ABNB",
@@ -420,7 +424,11 @@
    "LUV",
    "UAL",
    "F",
-   "NCLH"
+   "NCLH",
+   "AAL",
+   "CCL",
+   "GE",
+   "VRTX"
   ],
   "hits": [
    {
@@ -1502,6 +1510,38 @@
     "or_high": 18.17,
     "or_low": 17.78,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "AAL",
+    "at": "11:50",
+    "price": 13.72,
+    "or_high": 13.64,
+    "or_low": 13.36,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "CCL",
+    "at": "11:50",
+    "price": 30.93,
+    "or_high": 30.6,
+    "or_low": 29.98,
+    "pct_over": 1.09
+   },
+   {
+    "symbol": "GE",
+    "at": "11:50",
+    "price": 332.46,
+    "or_high": 330.7,
+    "or_low": 325.01,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "VRTX",
+    "at": "11:50",
+    "price": 544.68,
+    "or_high": 544.21,
+    "or_low": 534.0,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1509,8 +1549,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.1199951171875,
-  "last_ts": 1793810700
+  "last": 767.52001953125,
+  "last_ts": 1793811000
  },
  "seen_trades": 0,
  "daily": [
