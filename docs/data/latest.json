@@ -1,21 +1,21 @@
 {
- "updated": 1793810612,
- "updated_et": "2026-11-04 11:43 ET",
+ "updated": 1793810928,
+ "updated_et": "2026-11-04 11:48 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9590.39,
-  "return": -0.040961000000000025,
+  "equity": 9584.79,
+  "return": -0.04152099999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 10079.05,
-  "return": 0.007904999999999829,
+  "value": 10096.56,
+  "return": 0.009655999999999887,
   "start_price": 759.47998046875,
-  "last": 765.7899780273438
+  "last": 767.1199951171875
  },
  "position": {
   "symbol": "IBM",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "RDDT",
-    "at": "10:05",
-    "price": 102.77,
-    "or_high": 101.71,
-    "or_low": 97.78,
-    "pct_over": 1.04
-   },
-   {
-    "symbol": "TM",
-    "at": "10:05",
-    "price": 198.57,
-    "or_high": 198.21,
-    "or_low": 193.52,
-    "pct_over": 0.18
-   },
    {
     "symbol": "U",
     "at": "10:05",
@@ -516,9 +500,25 @@
     "or_high": 113.97,
     "or_low": 111.49,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "F",
+    "at": "11:45",
+    "price": 12.77,
+    "or_high": 12.75,
+    "or_low": 12.59,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "NCLH",
+    "at": "11:45",
+    "price": 18.19,
+    "or_high": 18.17,
+    "or_low": 17.78,
+    "pct_over": 0.14
    }
   ],
-  "n_hits": 133,
+  "n_hits": 135,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793810700,
+   "et": "2026-11-04 11:45",
+   "kind": "busy",
+   "text": "2 more breakouts (F, NCLH) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "F",
+    "NCLH"
+   ]
+  },
   {
    "ts": 1793810400,
    "et": "2026-11-04 11:40",
@@ -1613,18 +1623,6 @@
     "TXN",
     "XPEV"
    ]
-  },
-  {
-   "ts": 1793632200,
-   "et": "2026-11-02 10:10",
-   "kind": "busy",
-   "text": "4 more breakouts (ASML, HOOD, MSTR, RDDT) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "ASML",
-    "HOOD",
-    "MSTR",
-    "RDDT"
-   ]
   }
  ],
  "equity": [
@@ -2462,6 +2460,11 @@
    "ts": 1793810612,
    "equity": 9590.39,
    "spy": 10079.05
+  },
+  {
+   "ts": 1793810928,
+   "equity": 9584.79,
+   "spy": 10096.56
   }
  ],
  "daily": [
@@ -2479,6 +2482,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793810928,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.8,
+   "errors": [],
+   "run_id": "41871203106",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793810612,
    "phase": "open",
@@ -2868,25 +2881,15 @@
    "errors": [],
    "run_id": "41707961806",
    "event": "schedule"
-  },
-  {
-   "ts": 1793735559,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.0,
-   "errors": [],
-   "run_id": "41707306935",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793810612,
+  "tick_at": 1793810928,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793810623,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1793810938,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,

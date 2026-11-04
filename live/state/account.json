@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793810400,
+  "last_bar_end": 1793810700,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 133,
+  "triggers_seen": 135,
   "missed": [
    "AAPL",
    "AFRM",
@@ -281,7 +281,9 @@
    "HD",
    "HON",
    "LUV",
-   "UAL"
+   "UAL",
+   "F",
+   "NCLH"
   ],
   "triggered": [
    "ABNB",
@@ -416,7 +418,9 @@
    "HD",
    "HON",
    "LUV",
-   "UAL"
+   "UAL",
+   "F",
+   "NCLH"
   ],
   "hits": [
    {
@@ -1482,6 +1486,22 @@
     "or_high": 113.97,
     "or_low": 111.49,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "F",
+    "at": "11:45",
+    "price": 12.77,
+    "or_high": 12.75,
+    "or_low": 12.59,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "NCLH",
+    "at": "11:45",
+    "price": 18.19,
+    "or_high": 18.17,
+    "or_low": 17.78,
+    "pct_over": 0.14
    }
   ]
  },
@@ -1489,8 +1509,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 765.7899780273438,
-  "last_ts": 1793810400
+  "last": 767.1199951171875,
+  "last_ts": 1793810700
  },
  "seen_trades": 0,
  "daily": [
