@@ -1,49 +1,39 @@
 {
- "updated": 1793803889,
- "updated_et": "2026-11-04 09:51 ET",
+ "updated": 1793804204,
+ "updated_et": "2026-11-04 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9701.45,
-  "equity": 9701.45,
-  "return": -0.029854999999999965,
+  "cash": 7150.79,
+  "equity": 9641.49,
+  "return": -0.03585100000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 10097.06,
-  "return": 0.009705999999999992,
+  "value": 10088.92,
+  "return": 0.0088919999999999,
   "start_price": 759.47998046875,
-  "last": 767.1585083007812
+  "last": 766.5399780273438
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "AMD",
   "qty": 5,
-  "plan": {
-   "symbol": "AMD",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-04",
-   "entry_time": "9:50 AM",
-   "entry": 510.15,
-   "stop": 492.29,
-   "target": 528.01,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 510.132,
+  "entry_et": "09:50",
+  "stop": 492.29,
+  "target": 528.01,
+  "last": null,
   "why": {
    "scanner": "AMD: the 09:45 bar closed at $510.15, above the 15-min opening range high $508.08 (range 476.50-508.08)",
    "exit": "plan: entry $510.15, stop $492.29 (opening-range midpoint), target $528.01 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on AMD: 5 shares, bound by your $100 max loss per trade (5 x 17.86 = $89.30 at the stop) (limits: max loss 5; position cap 14; max order 15; cash 17)",
    "risk": "trader-risk PASS: entry 510.15 (the latest price), stop 492.29, target 528.01: risk 17.86 a share; max loss $89.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793803800,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-04",
   "hits": [
@@ -302,13 +292,173 @@
     "or_high": 226.0,
     "or_low": 220.08,
     "pct_over": 0.54
+   },
+   {
+    "symbol": "AAPL",
+    "at": "09:55",
+    "price": 350.9,
+    "or_high": 350.48,
+    "or_low": 340.99,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "AFRM",
+    "at": "09:55",
+    "price": 76.77,
+    "or_high": 76.38,
+    "or_low": 71.97,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "CMG",
+    "at": "09:55",
+    "price": 34.87,
+    "or_high": 34.8,
+    "or_low": 34.08,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "COST",
+    "at": "09:55",
+    "price": 1040.16,
+    "or_high": 1039.5,
+    "or_low": 1028.5,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "CPNG",
+    "at": "09:55",
+    "price": 17.16,
+    "or_high": 17.13,
+    "or_low": 15.36,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:55",
+    "price": 195.91,
+    "or_high": 195.0,
+    "or_low": 188.16,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:55",
+    "price": 314.21,
+    "or_high": 314.0,
+    "or_low": 295.26,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "GM",
+    "at": "09:55",
+    "price": 91.82,
+    "or_high": 91.6,
+    "or_low": 89.3,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "09:55",
+    "price": 290.4,
+    "or_high": 290.17,
+    "or_low": 283.51,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HMC",
+    "at": "09:55",
+    "price": 34.93,
+    "or_high": 34.92,
+    "or_low": 34.35,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MDT",
+    "at": "09:55",
+    "price": 103.42,
+    "or_high": 103.22,
+    "or_low": 99.8,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "MELI",
+    "at": "09:55",
+    "price": 1746.49,
+    "or_high": 1744.97,
+    "or_low": 1700.0,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:55",
+    "price": 47.56,
+    "or_high": 47.54,
+    "or_low": 46.1,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ROST",
+    "at": "09:55",
+    "price": 242.49,
+    "or_high": 242.0,
+    "or_low": 236.75,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "SE",
+    "at": "09:55",
+    "price": 80.33,
+    "or_high": 79.88,
+    "or_low": 77.9,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:55",
+    "price": 626.04,
+    "or_high": 623.54,
+    "or_low": 606.45,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "TSLA",
+    "at": "09:55",
+    "price": 384.14,
+    "or_high": 383.07,
+    "or_low": 375.5,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:55",
+    "price": 13.55,
+    "or_high": 13.52,
+    "or_low": 13.13,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "UBER",
+    "at": "09:55",
+    "price": 69.49,
+    "or_high": 69.03,
+    "or_low": 67.36,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:55",
+    "price": 163.24,
+    "or_high": 163.07,
+    "or_low": 159.41,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 32,
+  "n_hits": 52,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 5 AMD at the next bar's open (signal at 09:50 ET). Then: stop $492.29, target $528.01.",
+ "next_move": "Holding 5 AMD bought at $510.13. It sells at the stop $492.29, the target $528.01, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 3,
   "wins": 0,
@@ -339,7 +489,7 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.036781504203274196,
+ "intraday_max_drawdown": -0.042734694809623996,
  "trades": [
   {
    "date": "2026-11-03",
@@ -415,6 +565,41 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793804100,
+   "et": "2026-11-04 09:55",
+   "kind": "busy",
+   "text": "20 more breakouts (AAPL, AFRM, CMG, COST, CPNG, DASH, EXPE, GM ...) not taken: already in AMD (one trade at a time)",
+   "symbols": [
+    "AAPL",
+    "AFRM",
+    "CMG",
+    "COST",
+    "CPNG",
+    "DASH",
+    "EXPE",
+    "GM",
+    "GOOGL",
+    "HMC",
+    "MDT",
+    "MELI",
+    "RBLX",
+    "ROST",
+    "SE",
+    "SPOT",
+    "TSLA",
+    "TTD",
+    "UBER",
+    "YUM"
+   ]
+  },
+  {
+   "ts": 1793803800,
+   "et": "2026-11-04 09:50",
+   "kind": "fill",
+   "text": "BUY 5 AMD filled at $510.13 (next bar's open $510.03 + slippage). Stop $492.29, target $528.01",
+   "symbol": "AMD"
+  },
   {
    "ts": 1793803800,
    "et": "2026-11-04 09:50",
@@ -2012,6 +2197,11 @@
    "ts": 1793803889,
    "equity": 9701.45,
    "spy": 10097.06
+  },
+  {
+   "ts": 1793804204,
+   "equity": 9641.49,
+   "spy": 10088.92
   }
  ],
  "daily": [
@@ -2029,6 +2219,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793804204,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.3,
+   "errors": [],
+   "run_id": "41852604949",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793803889,
    "phase": "open",
@@ -2418,29 +2618,19 @@
    "errors": [],
    "run_id": "41696631491",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793731163,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.7,
-   "errors": [],
-   "run_id": "41695811857",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793803889,
+  "tick_at": 1793804204,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793803910,
-  "candidates": 74,
-  "charts_fetched": 75,
+  "yahoo_time": 1793804219,
+  "candidates": 45,
+  "charts_fetched": 47,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

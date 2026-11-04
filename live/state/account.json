@@ -1,5 +1,5 @@
 {
- "cash": 9701.4519,
+ "cash": 7150.7919,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -81,11 +81,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793803800,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793804100,
+  "position": {
    "symbol": "AMD",
    "qty": 5,
+   "entry_fill": 510.132,
+   "entry_ts": 1793803800,
    "plan": {
     "symbol": "AMD",
     "side": "buy",
@@ -97,7 +98,8 @@
     "target": 528.01,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 510.0299987792969
    },
    "why": {
     "scanner": "AMD: the 09:45 bar closed at $510.15, above the 15-min opening range high $508.08 (range 476.50-508.08)",
@@ -106,9 +108,9 @@
     "risk": "trader-risk PASS: entry 510.15 (the latest price), stop 492.29, target 528.01: risk 17.86 a share; max loss $89.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793803800,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -118,12 +120,41 @@
     "kind": "entry",
     "max_loss": 89.3,
     "at": "2026-11-04T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-04",
+    "symbol": "AMD",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 5
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 32,
-  "missed": [],
+  "triggers_seen": 52,
+  "missed": [
+   "AAPL",
+   "AFRM",
+   "CMG",
+   "COST",
+   "CPNG",
+   "DASH",
+   "EXPE",
+   "GM",
+   "GOOGL",
+   "HMC",
+   "MDT",
+   "MELI",
+   "RBLX",
+   "ROST",
+   "SE",
+   "SPOT",
+   "TSLA",
+   "TTD",
+   "UBER",
+   "YUM"
+  ],
   "triggered": [
    "ABNB",
    "AI",
@@ -156,7 +187,27 @@
    "UPST",
    "WMT",
    "ZM",
-   "ZS"
+   "ZS",
+   "AAPL",
+   "AFRM",
+   "CMG",
+   "COST",
+   "CPNG",
+   "DASH",
+   "EXPE",
+   "GM",
+   "GOOGL",
+   "HMC",
+   "MDT",
+   "MELI",
+   "RBLX",
+   "ROST",
+   "SE",
+   "SPOT",
+   "TSLA",
+   "TTD",
+   "UBER",
+   "YUM"
   ],
   "hits": [
    {
@@ -414,6 +465,166 @@
     "or_high": 226.0,
     "or_low": 220.08,
     "pct_over": 0.54
+   },
+   {
+    "symbol": "AAPL",
+    "at": "09:55",
+    "price": 350.9,
+    "or_high": 350.48,
+    "or_low": 340.99,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "AFRM",
+    "at": "09:55",
+    "price": 76.77,
+    "or_high": 76.38,
+    "or_low": 71.97,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "CMG",
+    "at": "09:55",
+    "price": 34.87,
+    "or_high": 34.8,
+    "or_low": 34.08,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "COST",
+    "at": "09:55",
+    "price": 1040.16,
+    "or_high": 1039.5,
+    "or_low": 1028.5,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "CPNG",
+    "at": "09:55",
+    "price": 17.16,
+    "or_high": 17.13,
+    "or_low": 15.36,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:55",
+    "price": 195.91,
+    "or_high": 195.0,
+    "or_low": 188.16,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:55",
+    "price": 314.21,
+    "or_high": 314.0,
+    "or_low": 295.26,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "GM",
+    "at": "09:55",
+    "price": 91.82,
+    "or_high": 91.6,
+    "or_low": 89.3,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "09:55",
+    "price": 290.4,
+    "or_high": 290.17,
+    "or_low": 283.51,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HMC",
+    "at": "09:55",
+    "price": 34.93,
+    "or_high": 34.92,
+    "or_low": 34.35,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MDT",
+    "at": "09:55",
+    "price": 103.42,
+    "or_high": 103.22,
+    "or_low": 99.8,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "MELI",
+    "at": "09:55",
+    "price": 1746.49,
+    "or_high": 1744.97,
+    "or_low": 1700.0,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:55",
+    "price": 47.56,
+    "or_high": 47.54,
+    "or_low": 46.1,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ROST",
+    "at": "09:55",
+    "price": 242.49,
+    "or_high": 242.0,
+    "or_low": 236.75,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "SE",
+    "at": "09:55",
+    "price": 80.33,
+    "or_high": 79.88,
+    "or_low": 77.9,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:55",
+    "price": 626.04,
+    "or_high": 623.54,
+    "or_low": 606.45,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "TSLA",
+    "at": "09:55",
+    "price": 384.14,
+    "or_high": 383.07,
+    "or_low": 375.5,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:55",
+    "price": 13.55,
+    "or_high": 13.52,
+    "or_low": 13.13,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "UBER",
+    "at": "09:55",
+    "price": 69.49,
+    "or_high": 69.03,
+    "or_low": 67.36,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:55",
+    "price": 163.24,
+    "or_high": 163.07,
+    "or_low": 159.41,
+    "pct_over": 0.1
    }
   ]
  },
@@ -421,8 +632,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.1585083007812,
-  "last_ts": 1793803800
+  "last": 766.5399780273438,
+  "last_ts": 1793804100
  },
  "seen_trades": 0,
  "daily": [
