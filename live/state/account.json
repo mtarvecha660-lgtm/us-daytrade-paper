@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793806200,
+  "last_bar_end": 1793806800,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 101,
+  "triggers_seen": 106,
   "missed": [
    "AAPL",
    "AFRM",
@@ -249,7 +249,12 @@
    "MARA",
    "OKTA",
    "SCHW",
-   "VZ"
+   "VZ",
+   "BBY",
+   "CHTR",
+   "LULU",
+   "PG",
+   "T"
   ],
   "triggered": [
    "ABNB",
@@ -352,7 +357,12 @@
    "SCHW",
    "VZ",
    "DOCU",
-   "IBM"
+   "IBM",
+   "BBY",
+   "CHTR",
+   "LULU",
+   "PG",
+   "T"
   ],
   "hits": [
    {
@@ -1162,6 +1172,46 @@
     "or_high": 257.1,
     "or_low": 253.51,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:35",
+    "price": 98.96,
+    "or_high": 98.82,
+    "or_low": 95.79,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:35",
+    "price": 121.5,
+    "or_high": 120.25,
+    "or_low": 116.55,
+    "pct_over": 1.04
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:35",
+    "price": 113.52,
+    "or_high": 113.3,
+    "or_low": 110.3,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "PG",
+    "at": "10:35",
+    "price": 166.8,
+    "or_high": 166.55,
+    "or_low": 164.65,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "T",
+    "at": "10:35",
+    "price": 21.98,
+    "or_high": 21.95,
+    "or_low": 21.65,
+    "pct_over": 0.11
    }
   ]
  },
@@ -1169,8 +1219,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 766.5280151367188,
-  "last_ts": 1793806200
+  "last": 767.1400756835938,
+  "last_ts": 1793806800
  },
  "seen_trades": 0,
  "daily": [

@@ -1,21 +1,21 @@
 {
- "updated": 1793806413,
- "updated_et": "2026-11-04 10:33 ET",
+ "updated": 1793807055,
+ "updated_et": "2026-11-04 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9615.03,
-  "return": -0.03849699999999989,
+  "equity": 9642.46,
+  "return": -0.035754000000000064,
   "started": 1793559735
  },
  "spy": {
-  "value": 10088.76,
-  "return": 0.008876000000000106,
+  "value": 10096.82,
+  "return": 0.009681999999999968,
   "start_price": 759.47998046875,
-  "last": 766.5280151367188
+  "last": 767.1400756835938
  },
  "position": {
   "symbol": "IBM",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "HMC",
-    "at": "09:55",
-    "price": 34.93,
-    "or_high": 34.92,
-    "or_low": 34.35,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "MDT",
-    "at": "09:55",
-    "price": 103.42,
-    "or_high": 103.22,
-    "or_low": 99.8,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "MELI",
-    "at": "09:55",
-    "price": 1746.49,
-    "or_high": 1744.97,
-    "or_low": 1700.0,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "RBLX",
-    "at": "09:55",
-    "price": 47.56,
-    "or_high": 47.54,
-    "or_low": 46.1,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "ROST",
-    "at": "09:55",
-    "price": 242.49,
-    "or_high": 242.0,
-    "or_low": 236.75,
-    "pct_over": 0.2
-   },
    {
     "symbol": "SE",
     "at": "09:55",
@@ -516,9 +476,49 @@
     "or_high": 257.1,
     "or_low": 253.51,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:35",
+    "price": 98.96,
+    "or_high": 98.82,
+    "or_low": 95.79,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:35",
+    "price": 121.5,
+    "or_high": 120.25,
+    "or_low": 116.55,
+    "pct_over": 1.04
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:35",
+    "price": 113.52,
+    "or_high": 113.3,
+    "or_low": 110.3,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "PG",
+    "at": "10:35",
+    "price": 166.8,
+    "or_high": 166.55,
+    "or_low": 164.65,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "T",
+    "at": "10:35",
+    "price": 21.98,
+    "or_high": 21.95,
+    "or_low": 21.65,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 101,
+  "n_hits": 106,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793806500,
+   "et": "2026-11-04 10:35",
+   "kind": "busy",
+   "text": "5 more breakouts (BBY, CHTR, LULU, PG, T) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "BBY",
+    "CHTR",
+    "LULU",
+    "PG",
+    "T"
+   ]
+  },
   {
    "ts": 1793805900,
    "et": "2026-11-04 10:25",
@@ -2443,6 +2456,11 @@
    "ts": 1793806413,
    "equity": 9615.03,
    "spy": 10088.76
+  },
+  {
+   "ts": 1793807055,
+   "equity": 9642.46,
+   "spy": 10096.82
   }
  ],
  "daily": [
@@ -2460,6 +2478,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793807055,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 14.2,
+   "errors": [],
+   "run_id": "41860796472",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793806413,
    "phase": "open",
@@ -2849,25 +2877,15 @@
    "errors": [],
    "run_id": "41703229035",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793733679,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.3,
-   "errors": [],
-   "run_id": "41702419828",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793806413,
+  "tick_at": 1793807055,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793806428,
-  "candidates": 25,
-  "charts_fetched": 27,
+  "yahoo_time": 1793807067,
+  "candidates": 27,
+  "charts_fetched": 29,
   "ok": true,
   "errors": [],
   "stale_data": false,
