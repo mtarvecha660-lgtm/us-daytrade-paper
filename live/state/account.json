@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793811600,
+  "last_bar_end": 1793812200,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 140,
+  "triggers_seen": 142,
   "missed": [
    "AAPL",
    "AFRM",
@@ -288,7 +288,9 @@
    "CCL",
    "GE",
    "VRTX",
-   "W"
+   "W",
+   "SO",
+   "JNJ"
   ],
   "triggered": [
    "ABNB",
@@ -430,7 +432,9 @@
    "CCL",
    "GE",
    "VRTX",
-   "W"
+   "W",
+   "SO",
+   "JNJ"
   ],
   "hits": [
    {
@@ -1552,6 +1556,22 @@
     "or_high": 126.9,
     "or_low": 116.17,
     "pct_over": 0.69
+   },
+   {
+    "symbol": "SO",
+    "at": "12:05",
+    "price": 92.72,
+    "or_high": 92.47,
+    "or_low": 90.46,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "JNJ",
+    "at": "12:10",
+    "price": 273.6,
+    "or_high": 273.12,
+    "or_low": 270.79,
+    "pct_over": 0.18
    }
   ]
  },
@@ -1559,8 +1579,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 768.5999755859375,
-  "last_ts": 1793811600
+  "last": 767.8599853515625,
+  "last_ts": 1793812200
  },
  "seen_trades": 0,
  "daily": [

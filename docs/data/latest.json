@@ -1,21 +1,21 @@
 {
- "updated": 1793811884,
- "updated_et": "2026-11-04 12:04 ET",
+ "updated": 1793812521,
+ "updated_et": "2026-11-04 12:15 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9571.63,
-  "return": -0.042837000000000125,
+  "equity": 9568.41,
+  "return": -0.04315900000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 10116.04,
-  "return": 0.01160400000000017,
+  "value": 10106.29,
+  "return": 0.010629,
   "start_price": 759.47998046875,
-  "last": 768.5999755859375
+  "last": 767.8599853515625
  },
  "position": {
   "symbol": "IBM",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "AMAT",
-    "at": "10:15",
-    "price": 382.54,
-    "or_high": 381.72,
-    "or_low": 369.3,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "BB",
-    "at": "10:15",
-    "price": 8.3,
-    "or_high": 8.29,
-    "or_low": 8.07,
-    "pct_over": 0.12
-   },
    {
     "symbol": "CDNS",
     "at": "10:15",
@@ -516,9 +500,25 @@
     "or_high": 126.9,
     "or_low": 116.17,
     "pct_over": 0.69
+   },
+   {
+    "symbol": "SO",
+    "at": "12:05",
+    "price": 92.72,
+    "or_high": 92.47,
+    "or_low": 90.46,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "JNJ",
+    "at": "12:10",
+    "price": 273.6,
+    "or_high": 273.12,
+    "or_low": 270.79,
+    "pct_over": 0.18
    }
   ],
-  "n_hits": 140,
+  "n_hits": 142,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793812200,
+   "et": "2026-11-04 12:10",
+   "kind": "busy",
+   "text": "1 more breakout (JNJ) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "JNJ"
+   ]
+  },
+  {
+   "ts": 1793811900,
+   "et": "2026-11-04 12:05",
+   "kind": "busy",
+   "text": "1 more breakout (SO) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "SO"
+   ]
+  },
   {
    "ts": 1793811300,
    "et": "2026-11-04 11:55",
@@ -1581,35 +1599,6 @@
    "symbols": [
     "QBTS"
    ]
-  },
-  {
-   "ts": 1793633400,
-   "et": "2026-11-02 10:30",
-   "kind": "busy",
-   "text": "5 more breakouts (COF, MSFT, SCHW, TER, TSLA) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "COF",
-    "MSFT",
-    "SCHW",
-    "TER",
-    "TSLA"
-   ]
-  },
-  {
-   "ts": 1793633100,
-   "et": "2026-11-02 10:25",
-   "kind": "busy",
-   "text": "8 more breakouts (CPNG, IBM, IONQ, LI, NCLH, NVDA, PLTR, RIOT) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "CPNG",
-    "IBM",
-    "IONQ",
-    "LI",
-    "NCLH",
-    "NVDA",
-    "PLTR",
-    "RIOT"
-   ]
   }
  ],
  "equity": [
@@ -2467,6 +2456,11 @@
    "ts": 1793811884,
    "equity": 9571.63,
    "spy": 10116.04
+  },
+  {
+   "ts": 1793812521,
+   "equity": 9568.41,
+   "spy": 10106.29
   }
  ],
  "daily": [
@@ -2484,6 +2478,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793812521,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 12.7,
+   "errors": [],
+   "run_id": "41875739444",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793811884,
    "phase": "open",
@@ -2873,29 +2877,19 @@
    "errors": [],
    "run_id": "41711386335",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793736832,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.6,
-   "errors": [],
-   "run_id": "41710571629",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793811884,
+  "tick_at": 1793812521,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793811892,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1793812531,
+  "candidates": 19,
+  "charts_fetched": 21,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
