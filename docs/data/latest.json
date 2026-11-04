@@ -1,50 +1,52 @@
 {
- "updated": 1793812521,
- "updated_et": "2026-11-04 12:15 ET",
+ "updated": 1793812838,
+ "updated_et": "2026-11-04 12:20 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2406.47,
-  "equity": 9568.41,
-  "return": -0.04315900000000006,
+  "cash": 9553.44,
+  "equity": 9553.44,
+  "return": -0.04465599999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 10106.29,
-  "return": 0.010629,
+  "value": 10103.14,
+  "return": 0.010313999999999934,
   "start_price": 759.47998046875,
-  "last": 767.8599853515625
+  "last": 767.6199951171875
  },
- "position": {
-  "symbol": "IBM",
-  "qty": 28,
-  "entry": 257.3315,
-  "entry_et": "10:25",
-  "stop": 255.3,
-  "target": 259.1,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "HLT",
+  "qty": 19,
+  "plan": {
+   "symbol": "HLT",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-04",
+   "entry_time": "12:15 PM",
+   "entry": 373.14,
+   "stop": 369.27,
+   "target": 377.01,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
-   "exit": "plan: entry $257.20, stop $255.30 (opening-range midpoint), target $259.10 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on IBM: 28 shares, bound by your position cap (28 x 1.90 = $53.20 at the stop) (limits: max loss 52; position cap 28; max order 31; cash 33)",
-   "risk": "trader-risk PASS: entry 257.20 (the plan's entry), stop 255.30, target 259.10: risk 1.90 a share; max loss $53.20 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $89.30 of $300 daily loss",
+   "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
+   "exit": "plan: entry $373.14, stop $369.27 (opening-range midpoint), target $377.01 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
+   "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1793812500,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "CDNS",
-    "at": "10:15",
-    "price": 327.73,
-    "or_high": 327.01,
-    "or_low": 320.35,
-    "pct_over": 0.22
-   },
    {
     "symbol": "CRM",
     "at": "10:15",
@@ -516,27 +518,35 @@
     "or_high": 273.12,
     "or_low": 270.79,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "HLT",
+    "at": "12:15",
+    "price": 373.14,
+    "or_high": 373.01,
+    "or_low": 365.54,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 142,
-  "entries": 2,
+  "n_hits": 143,
+  "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 28 IBM bought at $257.33. It sells at the stop $255.30, the target $259.10, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 19 HLT at the next bar's open (signal at 12:15 ET). Then: stop $369.27, target $377.01.",
  "stats": {
-  "trades": 4,
+  "trades": 5,
   "wins": 0,
   "win_rate": 0.0,
-  "avg_r": -1.0165000000000002,
-  "t_stat_r": -225.88888888888872,
-  "net_pnl": -388.25,
+  "avg_r": -1.0324000000000002,
+  "t_stat_r": -63.42461480596488,
+  "net_pnl": -446.56,
   "profit_factor": 0.0,
-  "expectancy_usd": -97.06,
+  "expectancy_usd": -89.31,
   "avg_win": null,
-  "avg_loss": -97.06,
-  "costs_usd": 7.23,
+  "avg_loss": -89.31,
+  "costs_usd": 10.1,
   "exits": {
-   "stop": 4
+   "stop": 5
   }
  },
  "curve": {
@@ -553,8 +563,32 @@
   "sortino": -7.851382790808686,
   "days": 3
  },
- "intraday_max_drawdown": -0.050476026890629466,
+ "intraday_max_drawdown": -0.051476830114645544,
  "trades": [
+  {
+   "date": "2026-11-04",
+   "symbol": "IBM",
+   "qty": 28,
+   "entry_et": "10:25",
+   "entry_fill": 257.3315,
+   "exit_et": "12:15",
+   "exit_fill": 255.2489,
+   "exit_reason": "stop $255.30 hit",
+   "stop": 255.3,
+   "target": 259.1,
+   "pnl": -58.31,
+   "r": -1.096,
+   "risk_usd": 53.2,
+   "cost_usd": 2.87,
+   "why": {
+    "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
+    "exit": "plan: entry $257.20, stop $255.30 (opening-range midpoint), target $259.10 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on IBM: 28 shares, bound by your position cap (28 x 1.90 = $53.20 at the stop) (limits: max loss 52; position cap 28; max order 31; cash 33)",
+    "risk": "trader-risk PASS: entry 257.20 (the plan's entry), stop 255.30, target 259.10: risk 1.90 a share; max loss $53.20 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $89.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-04",
    "symbol": "AMD",
@@ -653,6 +687,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793812500,
+   "et": "2026-11-04 12:15",
+   "kind": "order",
+   "text": "BUY 19 HLT at market (decided on the 12:15 close). opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
+   "symbol": "HLT",
+   "why": {
+    "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
+    "exit": "plan: entry $373.14, stop $369.27 (opening-range midpoint), target $377.01 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
+    "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
+  {
+   "ts": 1793812500,
+   "et": "2026-11-04 12:15",
+   "kind": "exit",
+   "text": "SELL 28 IBM at $255.25: stop $255.30 hit. P&L $-58.31 (-1.10R)",
+   "symbol": "IBM"
+  },
   {
    "ts": 1793812200,
    "et": "2026-11-04 12:10",
@@ -1581,24 +1637,6 @@
     "CDNS",
     "LMT"
    ]
-  },
-  {
-   "ts": 1793634600,
-   "et": "2026-11-02 10:50",
-   "kind": "busy",
-   "text": "1 more breakout (NEE) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "NEE"
-   ]
-  },
-  {
-   "ts": 1793634300,
-   "et": "2026-11-02 10:45",
-   "kind": "busy",
-   "text": "1 more breakout (QBTS) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "QBTS"
-   ]
   }
  ],
  "equity": [
@@ -2461,6 +2499,11 @@
    "ts": 1793812521,
    "equity": 9568.41,
    "spy": 10106.29
+  },
+  {
+   "ts": 1793812838,
+   "equity": 9553.44,
+   "spy": 10103.14
   }
  ],
  "daily": [
@@ -2478,6 +2521,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793812838,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.8,
+   "errors": [],
+   "run_id": "41876640870",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793812521,
    "phase": "open",
@@ -2867,25 +2920,15 @@
    "errors": [],
    "run_id": "41712185896",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793737143,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.8,
-   "errors": [],
-   "run_id": "41711386335",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793812521,
+  "tick_at": 1793812838,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793812531,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1793812848,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,

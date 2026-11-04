@@ -1,5 +1,5 @@
 {
- "cash": 2406.4674,
+ "cash": 9553.4366,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -99,32 +99,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-04",
-  "last_bar_end": 1793812200,
-  "position": {
+  },
+  {
+   "date": "2026-11-04",
    "symbol": "IBM",
    "qty": 28,
+   "entry_et": "10:25",
    "entry_fill": 257.3315,
-   "entry_ts": 1793805900,
-   "plan": {
-    "symbol": "IBM",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-04",
-    "entry_time": "10:25 AM",
-    "entry": 257.2,
-    "stop": 255.3,
-    "target": 259.1,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 257.2799987792969
-   },
+   "exit_et": "12:15",
+   "exit_fill": 255.2489,
+   "exit_reason": "stop $255.30 hit",
+   "stop": 255.3,
+   "target": 259.1,
+   "pnl": -58.31,
+   "r": -1.096,
+   "risk_usd": 53.2,
+   "cost_usd": 2.87,
    "why": {
     "scanner": "IBM: the 10:20 bar closed at $257.20, above the 15-min opening range high $257.10 (range 253.51-257.10)",
     "exit": "plan: entry $257.20, stop $255.30 (opening-range midpoint), target $259.10 (1R (one times the risk)), flat by 15:55 ET",
@@ -133,8 +123,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-04",
+  "last_bar_end": 1793812500,
+  "position": null,
+  "pending": {
+   "symbol": "HLT",
+   "qty": 19,
+   "plan": {
+    "symbol": "HLT",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-04",
+    "entry_time": "12:15 PM",
+    "entry": 373.14,
+    "stop": 369.27,
+    "target": 377.01,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
+    "exit": "plan: entry $373.14, stop $369.27 (opening-range midpoint), target $377.01 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
+    "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793812500,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -177,11 +199,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 28
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-04",
+    "symbol": "IBM",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 28
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-04",
+    "symbol": "HLT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 73.53,
+    "at": "2026-11-04T12:15:00"
    }
   ],
-  "entries": 2,
+  "entries": 3,
   "skips": 0,
-  "triggers_seen": 142,
+  "triggers_seen": 143,
   "missed": [
    "AAPL",
    "AFRM",
@@ -434,7 +473,8 @@
    "VRTX",
    "W",
    "SO",
-   "JNJ"
+   "JNJ",
+   "HLT"
   ],
   "hits": [
    {
@@ -1572,6 +1612,14 @@
     "or_high": 273.12,
     "or_low": 270.79,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "HLT",
+    "at": "12:15",
+    "price": 373.14,
+    "or_high": 373.01,
+    "or_low": 365.54,
+    "pct_over": 0.03
    }
   ]
  },
@@ -1579,8 +1627,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.8599853515625,
-  "last_ts": 1793812200
+  "last": 767.6199951171875,
+  "last_ts": 1793812500
  },
  "seen_trades": 0,
  "daily": [
