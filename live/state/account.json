@@ -105,7 +105,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793810100,
+  "last_bar_end": 1793810400,
   "position": {
    "symbol": "IBM",
    "qty": 28,
@@ -181,7 +181,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 128,
+  "triggers_seen": 133,
   "missed": [
    "AAPL",
    "AFRM",
@@ -276,7 +276,12 @@
    "HUM",
    "IDXX",
    "GILD",
-   "RCL"
+   "RCL",
+   "DAL",
+   "HD",
+   "HON",
+   "LUV",
+   "UAL"
   ],
   "triggered": [
    "ABNB",
@@ -406,7 +411,12 @@
    "HUM",
    "IDXX",
    "GILD",
-   "RCL"
+   "RCL",
+   "DAL",
+   "HD",
+   "HON",
+   "LUV",
+   "UAL"
   ],
   "hits": [
    {
@@ -1432,6 +1442,46 @@
     "or_high": 324.59,
     "or_low": 319.0,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "DAL",
+    "at": "11:40",
+    "price": 88.19,
+    "or_high": 87.17,
+    "or_low": 85.61,
+    "pct_over": 1.17
+   },
+   {
+    "symbol": "HD",
+    "at": "11:40",
+    "price": 352.52,
+    "or_high": 351.55,
+    "or_low": 345.26,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "HON",
+    "at": "11:40",
+    "price": 229.73,
+    "or_high": 229.37,
+    "or_low": 226.1,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "LUV",
+    "at": "11:40",
+    "price": 45.85,
+    "or_high": 45.71,
+    "or_low": 44.93,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "UAL",
+    "at": "11:40",
+    "price": 114.19,
+    "or_high": 113.97,
+    "or_low": 111.49,
+    "pct_over": 0.19
    }
   ]
  },
@@ -1439,8 +1489,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 765.3300170898438,
-  "last_ts": 1793810100
+  "last": 765.7899780273438,
+  "last_ts": 1793810400
  },
  "seen_trades": 0,
  "daily": [

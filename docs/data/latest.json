@@ -1,21 +1,21 @@
 {
- "updated": 1793810296,
- "updated_et": "2026-11-04 11:38 ET",
+ "updated": 1793810612,
+ "updated_et": "2026-11-04 11:43 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.47,
-  "equity": 9585.91,
-  "return": -0.04140900000000003,
+  "equity": 9590.39,
+  "return": -0.040961000000000025,
   "started": 1793559735
  },
  "spy": {
-  "value": 10073.0,
-  "return": 0.007300000000000084,
+  "value": 10079.05,
+  "return": 0.007904999999999829,
   "start_price": 759.47998046875,
-  "last": 765.3300170898438
+  "last": 765.7899780273438
  },
  "position": {
   "symbol": "IBM",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-04",
   "hits": [
-   {
-    "symbol": "BIDU",
-    "at": "10:05",
-    "price": 81.21,
-    "or_high": 80.7,
-    "or_low": 79.5,
-    "pct_over": 0.63
-   },
-   {
-    "symbol": "BX",
-    "at": "10:05",
-    "price": 124.08,
-    "or_high": 124.07,
-    "or_low": 121.19,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "DIS",
-    "at": "10:05",
-    "price": 118.9,
-    "or_high": 118.73,
-    "or_low": 116.3,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "JD",
-    "at": "10:05",
-    "price": 28.02,
-    "or_high": 27.97,
-    "or_low": 27.63,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "NU",
-    "at": "10:05",
-    "price": 12.13,
-    "or_high": 12.11,
-    "or_low": 11.85,
-    "pct_over": 0.18
-   },
    {
     "symbol": "RDDT",
     "at": "10:05",
@@ -516,9 +476,49 @@
     "or_high": 324.59,
     "or_low": 319.0,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "DAL",
+    "at": "11:40",
+    "price": 88.19,
+    "or_high": 87.17,
+    "or_low": 85.61,
+    "pct_over": 1.17
+   },
+   {
+    "symbol": "HD",
+    "at": "11:40",
+    "price": 352.52,
+    "or_high": 351.55,
+    "or_low": 345.26,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "HON",
+    "at": "11:40",
+    "price": 229.73,
+    "or_high": 229.37,
+    "or_low": 226.1,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "LUV",
+    "at": "11:40",
+    "price": 45.85,
+    "or_high": 45.71,
+    "or_low": 44.93,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "UAL",
+    "at": "11:40",
+    "price": 114.19,
+    "or_high": 113.97,
+    "or_low": 111.49,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 128,
+  "n_hits": 133,
   "entries": 2,
   "max_trades": 3
  },
@@ -653,6 +653,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793810400,
+   "et": "2026-11-04 11:40",
+   "kind": "busy",
+   "text": "5 more breakouts (DAL, HD, HON, LUV, UAL) not taken: already in IBM (one trade at a time)",
+   "symbols": [
+    "DAL",
+    "HD",
+    "HON",
+    "LUV",
+    "UAL"
+   ]
+  },
   {
    "ts": 1793810100,
    "et": "2026-11-04 11:35",
@@ -1612,20 +1625,6 @@
     "MSTR",
     "RDDT"
    ]
-  },
-  {
-   "ts": 1793631900,
-   "et": "2026-11-02 10:05",
-   "kind": "busy",
-   "text": "6 more breakouts (BA, META, RIVN, SNAP, T, VZ) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "BA",
-    "META",
-    "RIVN",
-    "SNAP",
-    "T",
-    "VZ"
-   ]
   }
  ],
  "equity": [
@@ -2458,6 +2457,11 @@
    "ts": 1793810296,
    "equity": 9585.91,
    "spy": 10073.0
+  },
+  {
+   "ts": 1793810612,
+   "equity": 9590.39,
+   "spy": 10079.05
   }
  ],
  "daily": [
@@ -2475,6 +2479,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793810612,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.1,
+   "errors": [],
+   "run_id": "41870245529",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793810296,
    "phase": "open",
@@ -2864,29 +2878,19 @@
    "errors": [],
    "run_id": "41707306935",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793735244,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.6,
-   "errors": [],
-   "run_id": "41706487640",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793810296,
+  "tick_at": 1793810612,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793810305,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1793810623,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
