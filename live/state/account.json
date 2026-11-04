@@ -129,7 +129,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793816100,
+  "last_bar_end": 1793816400,
   "position": {
    "symbol": "HLT",
    "qty": 19,
@@ -230,7 +230,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 149,
+  "triggers_seen": 150,
   "missed": [
    "AAPL",
    "AFRM",
@@ -345,7 +345,8 @@
    "AEP",
    "DE",
    "MS",
-   "MMM"
+   "MMM",
+   "ABT"
   ],
   "triggered": [
    "ABNB",
@@ -496,7 +497,8 @@
    "AEP",
    "DE",
    "MS",
-   "MMM"
+   "MMM",
+   "ABT"
   ],
   "hits": [
    {
@@ -1690,6 +1692,14 @@
     "or_high": 194.22,
     "or_low": 187.74,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "ABT",
+    "at": "13:20",
+    "price": 115.8,
+    "or_high": 115.74,
+    "or_low": 112.58,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1697,8 +1707,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 768.8350219726562,
-  "last_ts": 1793816100
+  "last": 768.5499877929688,
+  "last_ts": 1793816400
  },
  "seen_trades": 0,
  "daily": [
