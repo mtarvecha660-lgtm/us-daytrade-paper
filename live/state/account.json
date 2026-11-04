@@ -81,21 +81,348 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-04",
-  "last_bar_end": 1793803500,
+  "last_bar_end": 1793803800,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "AMD",
+   "qty": 5,
+   "plan": {
+    "symbol": "AMD",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-04",
+    "entry_time": "9:50 AM",
+    "entry": 510.15,
+    "stop": 492.29,
+    "target": 528.01,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "AMD: the 09:45 bar closed at $510.15, above the 15-min opening range high $508.08 (range 476.50-508.08)",
+    "exit": "plan: entry $510.15, stop $492.29 (opening-range midpoint), target $528.01 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AMD: 5 shares, bound by your $100 max loss per trade (5 x 17.86 = $89.30 at the stop) (limits: max loss 5; position cap 14; max order 15; cash 17)",
+    "risk": "trader-risk PASS: entry 510.15 (the latest price), stop 492.29, target 528.01: risk 17.86 a share; max loss $89.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793803800,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-04",
+    "symbol": "AMD",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 89.3,
+    "at": "2026-11-04T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 32,
+  "missed": [],
+  "triggered": [
+   "ABNB",
+   "AI",
+   "AMD",
+   "ANET",
+   "BABA",
+   "COIN",
+   "CRWD",
+   "CSCO",
+   "EBAY",
+   "ELV",
+   "ETSY",
+   "FANG",
+   "GME",
+   "HOOD",
+   "HPQ",
+   "LYFT",
+   "MRNA",
+   "MSTR",
+   "NFLX",
+   "PANW",
+   "PLTR",
+   "PYPL",
+   "ROKU",
+   "SBUX",
+   "SONY",
+   "SWKS",
+   "TMUS",
+   "UNH",
+   "UPST",
+   "WMT",
+   "ZM",
+   "ZS"
+  ],
+  "hits": [
+   {
+    "symbol": "ABNB",
+    "at": "09:50",
+    "price": 176.2,
+    "or_high": 175.54,
+    "or_low": 172.9,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "AI",
+    "at": "09:50",
+    "price": 12.06,
+    "or_high": 11.96,
+    "or_low": 11.57,
+    "pct_over": 0.84
+   },
+   {
+    "symbol": "AMD",
+    "at": "09:50",
+    "price": 510.15,
+    "or_high": 508.08,
+    "or_low": 476.5,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "ANET",
+    "at": "09:50",
+    "price": 187.6,
+    "or_high": 186.83,
+    "or_low": 176.66,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "BABA",
+    "at": "09:50",
+    "price": 106.0,
+    "or_high": 105.86,
+    "or_low": 104.71,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "COIN",
+    "at": "09:50",
+    "price": 149.09,
+    "or_high": 148.5,
+    "or_low": 141.88,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:50",
+    "price": 247.32,
+    "or_high": 246.0,
+    "or_low": 237.21,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:50",
+    "price": 104.36,
+    "or_high": 104.1,
+    "or_low": 102.74,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:50",
+    "price": 124.32,
+    "or_high": 123.84,
+    "or_low": 120.75,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "ELV",
+    "at": "09:50",
+    "price": 425.02,
+    "or_high": 424.99,
+    "or_low": 412.06,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "ETSY",
+    "at": "09:50",
+    "price": 96.63,
+    "or_high": 96.45,
+    "or_low": 92.68,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 190.15,
+    "or_high": 189.86,
+    "or_low": 185.93,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "GME",
+    "at": "09:50",
+    "price": 24.67,
+    "or_high": 24.6,
+    "or_low": 24.24,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "HOOD",
+    "at": "09:50",
+    "price": 86.35,
+    "or_high": 86.14,
+    "or_low": 83.46,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "HPQ",
+    "at": "09:50",
+    "price": 29.57,
+    "or_high": 29.45,
+    "or_low": 28.41,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 18.13,
+    "or_high": 18.11,
+    "or_low": 17.1,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MRNA",
+    "at": "09:50",
+    "price": 251.39,
+    "or_high": 246.9,
+    "or_low": 230.21,
+    "pct_over": 1.82
+   },
+   {
+    "symbol": "MSTR",
+    "at": "09:50",
+    "price": 140.79,
+    "or_high": 140.79,
+    "or_low": 135.8,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "NFLX",
+    "at": "09:50",
+    "price": 65.3,
+    "or_high": 65.24,
+    "or_low": 64.02,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:50",
+    "price": 353.32,
+    "or_high": 351.64,
+    "or_low": 341.45,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "PLTR",
+    "at": "09:50",
+    "price": 172.55,
+    "or_high": 172.46,
+    "or_low": 164.6,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:50",
+    "price": 60.4,
+    "or_high": 60.33,
+    "or_low": 58.96,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "ROKU",
+    "at": "09:50",
+    "price": 161.67,
+    "or_high": 161.6,
+    "or_low": 160.59,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SBUX",
+    "at": "09:50",
+    "price": 107.25,
+    "or_high": 107.16,
+    "or_low": 105.88,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "SONY",
+    "at": "09:50",
+    "price": 25.74,
+    "or_high": 25.72,
+    "or_low": 25.25,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:50",
+    "price": 77.99,
+    "or_high": 77.03,
+    "or_low": 72.89,
+    "pct_over": 1.25
+   },
+   {
+    "symbol": "TMUS",
+    "at": "09:50",
+    "price": 158.51,
+    "or_high": 158.41,
+    "or_low": 156.06,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "UNH",
+    "at": "09:50",
+    "price": 401.99,
+    "or_high": 401.1,
+    "or_low": 392.5,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "UPST",
+    "at": "09:50",
+    "price": 23.16,
+    "or_high": 23.15,
+    "or_low": 21.55,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:50",
+    "price": 127.57,
+    "or_high": 127.44,
+    "or_low": 125.84,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:50",
+    "price": 94.58,
+    "or_high": 93.81,
+    "or_low": 92.54,
+    "pct_over": 0.82
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:50",
+    "price": 227.21,
+    "or_high": 226.0,
+    "or_low": 220.08,
+    "pct_over": 0.54
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 767.7100219726562,
-  "last_ts": 1793803500
+  "last": 767.1585083007812,
+  "last_ts": 1793803800
  },
  "seen_trades": 0,
  "daily": [
