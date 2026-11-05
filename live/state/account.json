@@ -153,21 +153,105 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793889900,
+  "last_bar_end": 1793890200,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "QCOM",
+   "qty": 22,
+   "plan": {
+    "symbol": "QCOM",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-05",
+    "entry_time": "9:50 AM",
+    "entry": 157.77,
+    "stop": 153.29,
+    "target": 162.25,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
+    "exit": "plan: entry $157.77, stop $153.29 (opening-range midpoint), target $162.25 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
+    "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793890200,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-05",
+    "symbol": "QCOM",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 98.56,
+    "at": "2026-11-05T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 5,
+  "missed": [],
+  "triggered": [
+   "DUK",
+   "FANG",
+   "JNJ",
+   "PFE",
+   "QCOM"
+  ],
+  "hits": [
+   {
+    "symbol": "DUK",
+    "at": "09:50",
+    "price": 132.39,
+    "or_high": 132.24,
+    "or_low": 130.49,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 186.2,
+    "or_high": 186.15,
+    "or_low": 182.59,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "JNJ",
+    "at": "09:50",
+    "price": 279.65,
+    "or_high": 279.33,
+    "or_low": 276.77,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "PFE",
+    "at": "09:50",
+    "price": 31.3,
+    "or_high": 31.22,
+    "or_low": 31.01,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "QCOM",
+    "at": "09:50",
+    "price": 157.77,
+    "or_high": 157.5,
+    "or_low": 149.09,
+    "pct_over": 0.17
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.9400024414062,
-  "last_ts": 1793889900
+  "last": 755.9600219726562,
+  "last_ts": 1793890200
  },
  "seen_trades": 0,
  "daily": [
