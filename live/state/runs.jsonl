@@ -302,3 +302,4 @@
 {"ts": 1793911549, "phase": "open", "status": "ok", "bars": 1, "secs": 6.3, "errors": [], "run_id": "42106355506", "event": "workflow_dispatch"}
 {"ts": 1793911866, "phase": "open", "status": "ok", "bars": 2, "secs": 8.3, "errors": [], "run_id": "42107167171", "event": "workflow_dispatch"}
 {"ts": 1793912179, "phase": "open", "status": "ok", "bars": 1, "secs": 10.8, "errors": [], "run_id": "42107954929", "event": "workflow_dispatch"}
+{"ts": 1793912492, "phase": "after-close", "status": "ok", "bars": 1, "secs": 7.5, "errors": [], "run_id": "42108757738", "event": "workflow_dispatch"}
