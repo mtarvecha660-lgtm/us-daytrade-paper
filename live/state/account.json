@@ -177,7 +177,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793894100,
+  "last_bar_end": 1793894400,
   "position": {
    "symbol": "XOM",
    "qty": 41,
@@ -253,7 +253,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 36,
+  "triggers_seen": 37,
   "missed": [
    "APP",
    "CMCSA",
@@ -284,7 +284,8 @@
    "SO",
    "REGN",
    "EOG",
-   "DVN"
+   "DVN",
+   "ADBE"
   ],
   "triggered": [
    "DUK",
@@ -322,7 +323,8 @@
    "REGN",
    "EOG",
    "DVN",
-   "XOM"
+   "XOM",
+   "ADBE"
   ],
   "hits": [
    {
@@ -612,6 +614,14 @@
     "or_high": 172.7,
     "or_low": 170.5,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:00",
+    "price": 251.69,
+    "or_high": 251.32,
+    "or_low": 244.15,
+    "pct_over": 0.15
    }
   ]
  },
@@ -619,8 +629,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.4099731445312,
-  "last_ts": 1793894100
+  "last": 741.9000244140625,
+  "last_ts": 1793894400
  },
  "seen_trades": 0,
  "daily": [

@@ -1,21 +1,21 @@
 {
- "updated": 1793894406,
- "updated_et": "2026-11-05 11:00 ET",
+ "updated": 1793894732,
+ "updated_et": "2026-11-05 11:05 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2440.24,
-  "equity": 9512.96,
-  "return": -0.04870400000000008,
+  "equity": 9526.49,
+  "return": -0.04735100000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9731.85,
-  "return": -0.026814999999999922,
+  "value": 9764.62,
+  "return": -0.023537999999999948,
   "start_price": 759.47998046875,
-  "last": 739.4099731445312
+  "last": 741.9000244140625
  },
  "position": {
   "symbol": "XOM",
@@ -324,9 +324,17 @@
     "or_high": 172.7,
     "or_low": 170.5,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:00",
+    "price": 251.69,
+    "or_high": 251.32,
+    "or_low": 244.15,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 36,
+  "n_hits": 37,
   "entries": 2,
   "max_trades": 3
  },
@@ -534,6 +542,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793894400,
+   "et": "2026-11-05 11:00",
+   "kind": "busy",
+   "text": "1 more breakout (ADBE) not taken: already in XOM (one trade at a time)",
+   "symbols": [
+    "ADBE"
+   ]
+  },
   {
    "ts": 1793893500,
    "et": "2026-11-05 10:45",
@@ -1440,16 +1457,6 @@
    "kind": "exit",
    "text": "SELL 20 AAPL at $328.93: stop $329.00 hit. P&L $-98.55 (-1.02R)",
    "symbol": "AAPL"
-  },
-  {
-   "ts": 1793719800,
-   "et": "2026-11-03 10:30",
-   "kind": "busy",
-   "text": "2 more breakouts (FSLR, OXY) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "FSLR",
-    "OXY"
-   ]
   }
  ],
  "equity": [
@@ -2582,6 +2589,11 @@
    "ts": 1793894406,
    "equity": 9512.96,
    "spy": 9731.85
+  },
+  {
+   "ts": 1793894732,
+   "equity": 9526.49,
+   "spy": 9764.62
   }
  ],
  "daily": [
@@ -2605,6 +2617,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793894732,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.4,
+   "errors": [],
+   "run_id": "42061195554",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793894406,
    "phase": "open",
@@ -2994,25 +3016,15 @@
    "errors": [],
    "run_id": "41900796273",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793821193,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.5,
-   "errors": [],
-   "run_id": "41899082564",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793894406,
+  "tick_at": 1793894732,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793894412,
-  "candidates": 5,
-  "charts_fetched": 7,
+  "yahoo_time": 1793894738,
+  "candidates": 6,
+  "charts_fetched": 8,
   "ok": true,
   "errors": [],
   "stale_data": false,
