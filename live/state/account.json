@@ -1,5 +1,5 @@
 {
- "cash": 2440.2372,
+ "cash": 9474.4309,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -171,32 +171,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-05",
-  "last_bar_end": 1793895600,
-  "position": {
+  },
+  {
+   "date": "2026-11-05",
    "symbol": "XOM",
    "qty": 41,
+   "entry_et": "10:45",
    "entry_fill": 172.8346,
-   "entry_ts": 1793893500,
-   "plan": {
-    "symbol": "XOM",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-05",
-    "entry_time": "10:45 AM",
-    "entry": 172.76,
-    "stop": 171.6,
-    "target": 173.92,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 172.8000030517578
-   },
+   "exit_et": "11:25",
+   "exit_fill": 171.5657,
+   "exit_reason": "stop $171.60 hit",
+   "stop": 171.6,
+   "target": 173.92,
+   "pnl": -52.02,
+   "r": -1.094,
+   "risk_usd": 47.56,
+   "cost_usd": 2.82,
    "why": {
     "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
     "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
@@ -205,7 +195,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-05",
+  "last_bar_end": 1793895900,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -248,6 +245,14 @@
     "symbol": "XOM",
     "side": "buy",
     "kind": "entry",
+    "qty": 41
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-05",
+    "symbol": "XOM",
+    "side": "sell",
+    "kind": "exit",
     "qty": 41
    }
   ],
@@ -639,8 +644,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 744.0399780273438,
-  "last_ts": 1793895600
+  "last": 745.5399780273438,
+  "last_ts": 1793895900
  },
  "seen_trades": 0,
  "daily": [

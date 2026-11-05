@@ -115,3 +115,4 @@
 {"ts": 1793893500, "et": "2026-11-05 10:45", "kind": "fill", "text": "BUY 41 XOM filled at $172.83 (next bar's open $172.80 + slippage). Stop $171.60, target $173.92", "symbol": "XOM"}
 {"ts": 1793894400, "et": "2026-11-05 11:00", "kind": "busy", "text": "1 more breakout (ADBE) not taken: already in XOM (one trade at a time)", "symbols": ["ADBE"]}
 {"ts": 1793895000, "et": "2026-11-05 11:10", "kind": "busy", "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)", "symbols": ["CVX"]}
+{"ts": 1793895900, "et": "2026-11-05 11:25", "kind": "exit", "text": "SELL 41 XOM at $171.57: stop $171.60 hit. P&L $-52.02 (-1.09R)", "symbol": "XOM"}
