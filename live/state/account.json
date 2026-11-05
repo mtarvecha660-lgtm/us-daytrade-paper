@@ -201,7 +201,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793910000,
+  "last_bar_end": 1793910300,
   "position": {
    "symbol": "U",
    "qty": 51,
@@ -302,7 +302,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 40,
+  "triggers_seen": 41,
   "missed": [
    "APP",
    "CMCSA",
@@ -336,7 +336,8 @@
    "DVN",
    "ADBE",
    "CVX",
-   "RIOT"
+   "RIOT",
+   "CHTR"
   ],
   "triggered": [
    "DUK",
@@ -378,7 +379,8 @@
    "ADBE",
    "CVX",
    "U",
-   "RIOT"
+   "RIOT",
+   "CHTR"
   ],
   "hits": [
    {
@@ -700,6 +702,14 @@
     "or_high": 15.07,
     "or_low": 14.33,
     "pct_over": 0.46
+   },
+   {
+    "symbol": "CHTR",
+    "at": "15:25",
+    "price": 123.22,
+    "or_high": 122.99,
+    "or_low": 120.81,
+    "pct_over": 0.19
    }
   ]
  },
@@ -707,8 +717,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.1500244140625,
-  "last_ts": 1793910000
+  "last": 736.22998046875,
+  "last_ts": 1793910300
  },
  "seen_trades": 0,
  "daily": [
