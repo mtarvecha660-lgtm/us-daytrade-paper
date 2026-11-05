@@ -1,38 +1,23 @@
 {
- "updated": 1793892811,
- "updated_et": "2026-11-05 10:33 ET",
+ "updated": 1793893464,
+ "updated_et": "2026-11-05 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 6154.75,
-  "equity": 9595.74,
-  "return": -0.04042600000000007,
+  "cash": 9526.46,
+  "equity": 9526.46,
+  "return": -0.04735400000000012,
   "started": 1793559735
  },
  "spy": {
-  "value": 9836.42,
-  "return": -0.016357999999999984,
+  "value": 9820.03,
+  "return": -0.01799699999999993,
   "start_price": 759.47998046875,
-  "last": 747.35498046875
+  "last": 746.1099853515625
  },
- "position": {
-  "symbol": "QCOM",
-  "qty": 22,
-  "entry": 157.6815,
-  "entry_et": "09:50",
-  "stop": 153.29,
-  "target": 162.25,
-  "last": null,
-  "why": {
-   "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
-   "exit": "plan: entry $157.77, stop $153.29 (opening-range midpoint), target $162.25 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
-   "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-05",
@@ -322,21 +307,21 @@
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Holding 22 QCOM bought at $157.68. It sells at the stop $153.29, the target $162.25, or at 15:55 ET, whichever comes first.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 1 of 3 trades used today.",
  "stats": {
-  "trades": 6,
+  "trades": 7,
   "wins": 1,
-  "win_rate": 0.16666666666666666,
-  "avg_r": -0.7010000000000002,
-  "t_stat_r": -2.113569547088529,
-  "net_pnl": -376.25,
-  "profit_factor": 0.1574480472948764,
-  "expectancy_usd": -62.71,
+  "win_rate": 0.14285714285714285,
+  "avg_r": -0.7418571428571431,
+  "t_stat_r": -2.6188933242221863,
+  "net_pnl": -473.54,
+  "profit_factor": 0.12928197113174592,
+  "expectancy_usd": -67.65,
   "avg_win": 70.31,
-  "avg_loss": -89.31,
-  "costs_usd": 11.52,
+  "avg_loss": -90.64,
+  "costs_usd": 12.89,
   "exits": {
-   "stop": 5,
+   "stop": 6,
    "target": 1
   }
  },
@@ -354,8 +339,32 @@
   "sortino": 8.451424036110717,
   "days": 4
  },
- "intraday_max_drawdown": -0.053211357130871995,
+ "intraday_max_drawdown": -0.054155567315434805,
  "trades": [
+  {
+   "date": "2026-11-05",
+   "symbol": "QCOM",
+   "qty": 22,
+   "entry_et": "09:50",
+   "entry_fill": 157.6815,
+   "exit_et": "10:40",
+   "exit_fill": 153.2593,
+   "exit_reason": "stop $153.29 hit",
+   "stop": 153.29,
+   "target": 162.25,
+   "pnl": -97.29,
+   "r": -0.987,
+   "risk_usd": 98.56,
+   "cost_usd": 1.37,
+   "why": {
+    "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
+    "exit": "plan: entry $157.77, stop $153.29 (opening-range midpoint), target $162.25 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
+    "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-04",
    "symbol": "HLT",
@@ -502,6 +511,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793893200,
+   "et": "2026-11-05 10:40",
+   "kind": "exit",
+   "text": "SELL 22 QCOM at $153.26: stop $153.29 hit. P&L $-97.29 (-0.99R)",
+   "symbol": "QCOM"
+  },
   {
    "ts": 1793892600,
    "et": "2026-11-05 10:30",
@@ -1420,20 +1436,6 @@
     "SNOW",
     "TWLO",
     "ZM"
-   ]
-  },
-  {
-   "ts": 1793718900,
-   "et": "2026-11-03 10:15",
-   "kind": "busy",
-   "text": "6 more breakouts (DHR, MCHP, ROST, SNAP, TOST, TTD) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "DHR",
-    "MCHP",
-    "ROST",
-    "SNAP",
-    "TOST",
-    "TTD"
    ]
   }
  ],
@@ -2547,6 +2549,11 @@
    "ts": 1793892811,
    "equity": 9595.74,
    "spy": 9836.42
+  },
+  {
+   "ts": 1793893464,
+   "equity": 9526.46,
+   "spy": 9820.03
   }
  ],
  "daily": [
@@ -2570,6 +2577,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793893464,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 8.1,
+   "errors": [],
+   "run_id": "42057983449",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793892811,
    "phase": "open",
@@ -2959,25 +2976,15 @@
    "errors": [],
    "run_id": "41896565380",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793819941,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.4,
-   "errors": [],
-   "run_id": "41895727003",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793892811,
+  "tick_at": 1793893464,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793892818,
-  "candidates": 13,
-  "charts_fetched": 15,
+  "yahoo_time": 1793893471,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
