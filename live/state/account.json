@@ -177,9 +177,34 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793893200,
+  "last_bar_end": 1793893500,
   "position": null,
-  "pending": null,
+  "pending": {
+   "symbol": "XOM",
+   "qty": 41,
+   "plan": {
+    "symbol": "XOM",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-05",
+    "entry_time": "10:45 AM",
+    "entry": 172.76,
+    "stop": 171.6,
+    "target": 173.92,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
+    "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
+    "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793893500,
+   "late": false
+  },
   "orders": [
    {
     "status": "placed",
@@ -205,11 +230,20 @@
     "side": "sell",
     "kind": "exit",
     "qty": 22
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-05",
+    "symbol": "XOM",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 47.56,
+    "at": "2026-11-05T10:45:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 35,
+  "triggers_seen": 36,
   "missed": [
    "APP",
    "CMCSA",
@@ -277,7 +311,8 @@
    "SO",
    "REGN",
    "EOG",
-   "DVN"
+   "DVN",
+   "XOM"
   ],
   "hits": [
    {
@@ -559,6 +594,14 @@
     "or_high": 44.91,
     "or_low": 44.38,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "XOM",
+    "at": "10:45",
+    "price": 172.76,
+    "or_high": 172.7,
+    "or_low": 170.5,
+    "pct_over": 0.03
    }
   ]
  },
@@ -566,8 +609,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 746.1099853515625,
-  "last_ts": 1793893200
+  "last": 744.9600219726562,
+  "last_ts": 1793893500
  },
  "seen_trades": 0,
  "daily": [

@@ -1,6 +1,6 @@
 {
- "updated": 1793893464,
- "updated_et": "2026-11-05 10:44 ET",
+ "updated": 1793893777,
+ "updated_et": "2026-11-05 10:49 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,13 +12,38 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9820.03,
-  "return": -0.01799699999999993,
+  "value": 9804.89,
+  "return": -0.019511000000000056,
   "start_price": 759.47998046875,
-  "last": 746.1099853515625
+  "last": 744.9600219726562
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "XOM",
+  "qty": 41,
+  "plan": {
+   "symbol": "XOM",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-05",
+   "entry_time": "10:45 AM",
+   "entry": 172.76,
+   "stop": 171.6,
+   "target": 173.92,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
+   "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
+   "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1793893500,
+  "late": false
+ },
  "today": {
   "date": "2026-11-05",
   "hits": [
@@ -301,13 +326,21 @@
     "or_high": 44.91,
     "or_low": 44.38,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "XOM",
+    "at": "10:45",
+    "price": 172.76,
+    "or_high": 172.7,
+    "or_low": 170.5,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 35,
-  "entries": 1,
+  "n_hits": 36,
+  "entries": 2,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 1 of 3 trades used today.",
+ "next_move": "Buying 41 XOM at the next bar's open (signal at 10:45 ET). Then: stop $171.60, target $173.92.",
  "stats": {
   "trades": 7,
   "wins": 1,
@@ -511,6 +544,21 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793893500,
+   "et": "2026-11-05 10:45",
+   "kind": "order",
+   "text": "BUY 41 XOM at market (decided on the 10:45 close). opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
+   "symbol": "XOM",
+   "why": {
+    "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
+    "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
+    "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
   {
    "ts": 1793893200,
    "et": "2026-11-05 10:40",
@@ -1416,26 +1464,6 @@
     "NOC",
     "PNC",
     "SONY"
-   ]
-  },
-  {
-   "ts": 1793719200,
-   "et": "2026-11-03 10:20",
-   "kind": "busy",
-   "text": "12 more breakouts (AI, BB, DUOL, HLT, LMT, MDB, NET, OKTA ...) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "AI",
-    "BB",
-    "DUOL",
-    "HLT",
-    "LMT",
-    "MDB",
-    "NET",
-    "OKTA",
-    "RDDT",
-    "SNOW",
-    "TWLO",
-    "ZM"
    ]
   }
  ],
@@ -2554,6 +2582,11 @@
    "ts": 1793893464,
    "equity": 9526.46,
    "spy": 9820.03
+  },
+  {
+   "ts": 1793893777,
+   "equity": 9526.46,
+   "spy": 9804.89
   }
  ],
  "daily": [
@@ -2577,6 +2610,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793893777,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 6.8,
+   "errors": [],
+   "run_id": "42058869634",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793893464,
    "phase": "open",
@@ -2966,25 +3009,15 @@
    "errors": [],
    "run_id": "41897389353",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793820256,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.2,
-   "errors": [],
-   "run_id": "41896565380",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793893464,
+  "tick_at": 1793893777,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793893471,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1793893782,
+  "candidates": 10,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
