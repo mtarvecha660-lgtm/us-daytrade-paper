@@ -1,5 +1,5 @@
 {
- "cash": 9474.4309,
+ "cash": 6994.3009,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -201,11 +201,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793902500,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793902800,
+  "position": {
    "symbol": "U",
    "qty": 51,
+   "entry_fill": 48.63,
+   "entry_ts": 1793902500,
    "plan": {
     "symbol": "U",
     "side": "buy",
@@ -217,7 +218,8 @@
     "target": 50.59,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 48.619998931884766
    },
    "why": {
     "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
@@ -226,9 +228,9 @@
     "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793902500,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -288,6 +290,14 @@
     "kind": "entry",
     "max_loss": 99.45,
     "at": "2026-11-05T13:15:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-05",
+    "symbol": "U",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 51
    }
   ],
   "entries": 3,
@@ -687,8 +697,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 738.0650024414062,
-  "last_ts": 1793902500
+  "last": 736.5999755859375,
+  "last_ts": 1793902800
  },
  "seen_trades": 0,
  "daily": [

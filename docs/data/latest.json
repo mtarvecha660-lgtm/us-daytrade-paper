@@ -1,49 +1,39 @@
 {
- "updated": 1793902680,
- "updated_et": "2026-11-05 13:18 ET",
+ "updated": 1793902995,
+ "updated_et": "2026-11-05 13:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9474.43,
-  "equity": 9474.43,
-  "return": -0.052556999999999965,
+  "cash": 6994.3,
+  "equity": 9471.46,
+  "return": -0.05285400000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9714.14,
-  "return": -0.02858600000000011,
+  "value": 9694.86,
+  "return": -0.03051399999999993,
   "start_price": 759.47998046875,
-  "last": 738.0650024414062
+  "last": 736.5999755859375
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "U",
   "qty": 51,
-  "plan": {
-   "symbol": "U",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-05",
-   "entry_time": "1:15 PM",
-   "entry": 48.64,
-   "stop": 46.69,
-   "target": 50.59,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 48.63,
+  "entry_et": "13:15",
+  "stop": 46.69,
+  "target": 50.59,
+  "last": null,
   "why": {
    "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
    "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
    "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793902500,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-05",
   "hits": [
@@ -364,7 +354,7 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 51 U at the next bar's open (signal at 13:15 ET). Then: stop $46.69, target $50.59.",
+ "next_move": "Holding 51 U bought at $48.63. It sells at the stop $46.69, the target $50.59, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 8,
   "wins": 1,
@@ -396,7 +386,7 @@
   "sortino": 8.451424036110717,
   "days": 4
  },
- "intraday_max_drawdown": -0.05932141967114479,
+ "intraday_max_drawdown": -0.05961629919250677,
  "trades": [
   {
    "date": "2026-11-05",
@@ -592,6 +582,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793902500,
+   "et": "2026-11-05 13:15",
+   "kind": "fill",
+   "text": "BUY 51 U filled at $48.63 (next bar's open $48.62 + slippage). Stop $46.69, target $50.59",
+   "symbol": "U"
+  },
   {
    "ts": 1793902500,
    "et": "2026-11-05 13:15",
@@ -1492,18 +1489,6 @@
     "PYPL",
     "SCHW",
     "TXN"
-   ]
-  },
-  {
-   "ts": 1793720400,
-   "et": "2026-11-03 10:40",
-   "kind": "busy",
-   "text": "4 more breakouts (AEP, BSX, DPZ, SHOP) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "AEP",
-    "BSX",
-    "DPZ",
-    "SHOP"
    ]
   }
  ],
@@ -2767,6 +2752,11 @@
    "ts": 1793902680,
    "equity": 9474.43,
    "spy": 9714.14
+  },
+  {
+   "ts": 1793902995,
+   "equity": 9471.46,
+   "spy": 9694.86
   }
  ],
  "daily": [
@@ -2790,6 +2780,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793902995,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.8,
+   "errors": [],
+   "run_id": "42083684745",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793902680,
    "phase": "open",
@@ -3179,25 +3179,15 @@
    "errors": [],
    "run_id": "42049050169",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793889975,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 6.8,
-   "errors": [],
-   "run_id": "42048183799",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793902680,
+  "tick_at": 1793902995,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793902683,
-  "candidates": 3,
-  "charts_fetched": 4,
+  "yahoo_time": 1793903000,
+  "candidates": 5,
+  "charts_fetched": 7,
   "ok": true,
   "errors": [],
   "stale_data": false,
