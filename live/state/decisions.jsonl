@@ -106,3 +106,4 @@
 {"ts": 1793890500, "et": "2026-11-05 09:55", "kind": "busy", "text": "6 more breakouts (APP, CMCSA, COP, GD, PG, YUM) not taken: already in QCOM (one trade at a time)", "symbols": ["APP", "CMCSA", "COP", "GD", "PG", "YUM"]}
 {"ts": 1793890800, "et": "2026-11-05 10:00", "kind": "busy", "text": "12 more breakouts (ABBV, AEP, BMY, ELV, LLY, LMT, MRK, PEP ...) not taken: already in QCOM (one trade at a time)", "symbols": ["ABBV", "AEP", "BMY", "ELV", "LLY", "LMT", "MRK", "PEP", "T", "TM", "TMUS", "VZ"]}
 {"ts": 1793891100, "et": "2026-11-05 10:05", "kind": "busy", "text": "4 more breakouts (HUM, MPC, NOC, OXY) not taken: already in QCOM (one trade at a time)", "symbols": ["HUM", "MPC", "NOC", "OXY"]}
+{"ts": 1793891400, "et": "2026-11-05 10:10", "kind": "busy", "text": "5 more breakouts (COST, DOCU, KO, MCD, SO) not taken: already in QCOM (one trade at a time)", "symbols": ["COST", "DOCU", "KO", "MCD", "SO"]}
