@@ -1,21 +1,21 @@
 {
- "updated": 1793892491,
- "updated_et": "2026-11-05 10:28 ET",
+ "updated": 1793892811,
+ "updated_et": "2026-11-05 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6154.75,
-  "equity": 9582.32,
-  "return": -0.04176800000000003,
+  "equity": 9595.74,
+  "return": -0.04042600000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9839.9,
-  "return": -0.01601000000000008,
+  "value": 9836.42,
+  "return": -0.016357999999999984,
   "start_price": 759.47998046875,
-  "last": 747.6199951171875
+  "last": 747.35498046875
  },
  "position": {
   "symbol": "QCOM",
@@ -308,9 +308,17 @@
     "or_high": 150.09,
     "or_low": 148.01,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:30",
+    "price": 44.98,
+    "or_high": 44.91,
+    "or_low": 44.38,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 34,
+  "n_hits": 35,
   "entries": 1,
   "max_trades": 3
  },
@@ -494,6 +502,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793892600,
+   "et": "2026-11-05 10:30",
+   "kind": "busy",
+   "text": "1 more breakout (DVN) not taken: already in QCOM (one trade at a time)",
+   "symbols": [
+    "DVN"
+   ]
+  },
   {
    "ts": 1793892000,
    "et": "2026-11-05 10:20",
@@ -1417,19 +1434,6 @@
     "SNAP",
     "TOST",
     "TTD"
-   ]
-  },
-  {
-   "ts": 1793718600,
-   "et": "2026-11-03 10:10",
-   "kind": "busy",
-   "text": "5 more breakouts (DOCU, GME, MSFT, RTX, TMO) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "DOCU",
-    "GME",
-    "MSFT",
-    "RTX",
-    "TMO"
    ]
   }
  ],
@@ -2538,6 +2542,11 @@
    "ts": 1793892491,
    "equity": 9582.32,
    "spy": 9839.9
+  },
+  {
+   "ts": 1793892811,
+   "equity": 9595.74,
+   "spy": 9836.42
   }
  ],
  "daily": [
@@ -2561,6 +2570,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793892811,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.9,
+   "errors": [],
+   "run_id": "42056137882",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793892491,
    "phase": "open",
@@ -2950,25 +2969,15 @@
    "errors": [],
    "run_id": "41895727003",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793819629,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.4,
-   "errors": [],
-   "run_id": "41894883892",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793892491,
+  "tick_at": 1793892811,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793892500,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1793892818,
+  "candidates": 13,
+  "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,

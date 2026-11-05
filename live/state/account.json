@@ -153,7 +153,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793892300,
+  "last_bar_end": 1793892600,
   "position": {
    "symbol": "QCOM",
    "qty": 22,
@@ -204,7 +204,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 34,
+  "triggers_seen": 35,
   "missed": [
    "APP",
    "CMCSA",
@@ -234,7 +234,8 @@
    "MCD",
    "SO",
    "REGN",
-   "EOG"
+   "EOG",
+   "DVN"
   ],
   "triggered": [
    "DUK",
@@ -270,7 +271,8 @@
    "MCD",
    "SO",
    "REGN",
-   "EOG"
+   "EOG",
+   "DVN"
   ],
   "hits": [
    {
@@ -544,6 +546,14 @@
     "or_high": 150.09,
     "or_low": 148.01,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:30",
+    "price": 44.98,
+    "or_high": 44.91,
+    "or_low": 44.38,
+    "pct_over": 0.16
    }
   ]
  },
@@ -551,8 +561,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.6199951171875,
-  "last_ts": 1793892300
+  "last": 747.35498046875,
+  "last_ts": 1793892600
  },
  "seen_trades": 0,
  "daily": [
