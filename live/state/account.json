@@ -1,5 +1,5 @@
 {
- "cash": 9623.7442,
+ "cash": 6154.7512,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -153,11 +153,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793890200,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793890500,
+  "position": {
    "symbol": "QCOM",
    "qty": 22,
+   "entry_fill": 157.6815,
+   "entry_ts": 1793890200,
    "plan": {
     "symbol": "QCOM",
     "side": "buy",
@@ -169,7 +170,8 @@
     "target": 162.25,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 157.64999389648438
    },
    "why": {
     "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
@@ -178,9 +180,9 @@
     "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793890200,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -190,18 +192,39 @@
     "kind": "entry",
     "max_loss": 98.56,
     "at": "2026-11-05T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-05",
+    "symbol": "QCOM",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 22
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 5,
-  "missed": [],
+  "triggers_seen": 11,
+  "missed": [
+   "APP",
+   "CMCSA",
+   "COP",
+   "GD",
+   "PG",
+   "YUM"
+  ],
   "triggered": [
    "DUK",
    "FANG",
    "JNJ",
    "PFE",
-   "QCOM"
+   "QCOM",
+   "APP",
+   "CMCSA",
+   "COP",
+   "GD",
+   "PG",
+   "YUM"
   ],
   "hits": [
    {
@@ -243,6 +266,54 @@
     "or_high": 157.5,
     "or_low": 149.09,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "APP",
+    "at": "09:55",
+    "price": 362.44,
+    "or_high": 360.5,
+    "or_low": 338.88,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.21,
+    "or_high": 25.11,
+    "or_low": 24.85,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 140.3,
+    "or_high": 140.12,
+    "or_low": 138.08,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "GD",
+    "at": "09:55",
+    "price": 369.71,
+    "or_high": 368.65,
+    "or_low": 362.55,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PG",
+    "at": "09:55",
+    "price": 169.84,
+    "or_high": 169.57,
+    "or_low": 168.66,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:55",
+    "price": 167.27,
+    "or_high": 167.1,
+    "or_low": 166.24,
+    "pct_over": 0.1
    }
   ]
  },
@@ -250,8 +321,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.9600219726562,
-  "last_ts": 1793890200
+  "last": 754.594970703125,
+  "last_ts": 1793890500
  },
  "seen_trades": 0,
  "daily": [

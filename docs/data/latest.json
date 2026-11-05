@@ -1,49 +1,39 @@
 {
- "updated": 1793890292,
- "updated_et": "2026-11-05 09:51 ET",
+ "updated": 1793890605,
+ "updated_et": "2026-11-05 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9623.74,
-  "equity": 9623.74,
-  "return": -0.03762600000000005,
+  "cash": 6154.75,
+  "equity": 9601.24,
+  "return": -0.03987600000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9949.67,
-  "return": -0.005032999999999954,
+  "value": 9931.71,
+  "return": -0.006829000000000085,
   "start_price": 759.47998046875,
-  "last": 755.9600219726562
+  "last": 754.594970703125
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "QCOM",
   "qty": 22,
-  "plan": {
-   "symbol": "QCOM",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-05",
-   "entry_time": "9:50 AM",
-   "entry": 157.77,
-   "stop": 153.29,
-   "target": 162.25,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 157.6815,
+  "entry_et": "09:50",
+  "stop": 153.29,
+  "target": 162.25,
+  "last": null,
   "why": {
    "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
    "exit": "plan: entry $157.77, stop $153.29 (opening-range midpoint), target $162.25 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
    "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793890200,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-05",
   "hits": [
@@ -86,13 +76,61 @@
     "or_high": 157.5,
     "or_low": 149.09,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "APP",
+    "at": "09:55",
+    "price": 362.44,
+    "or_high": 360.5,
+    "or_low": 338.88,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.21,
+    "or_high": 25.11,
+    "or_low": 24.85,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 140.3,
+    "or_high": 140.12,
+    "or_low": 138.08,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "GD",
+    "at": "09:55",
+    "price": 369.71,
+    "or_high": 368.65,
+    "or_low": 362.55,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PG",
+    "at": "09:55",
+    "price": 169.84,
+    "or_high": 169.57,
+    "or_low": 168.66,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:55",
+    "price": 167.27,
+    "or_high": 167.1,
+    "or_low": 166.24,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 5,
+  "n_hits": 11,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 22 QCOM at the next bar's open (signal at 09:50 ET). Then: stop $153.29, target $162.25.",
+ "next_move": "Holding 22 QCOM bought at $157.68. It sells at the stop $153.29, the target $162.25, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 6,
   "wins": 1,
@@ -272,6 +310,27 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793890500,
+   "et": "2026-11-05 09:55",
+   "kind": "busy",
+   "text": "6 more breakouts (APP, CMCSA, COP, GD, PG, YUM) not taken: already in QCOM (one trade at a time)",
+   "symbols": [
+    "APP",
+    "CMCSA",
+    "COP",
+    "GD",
+    "PG",
+    "YUM"
+   ]
+  },
+  {
+   "ts": 1793890200,
+   "et": "2026-11-05 09:50",
+   "kind": "fill",
+   "text": "BUY 22 QCOM filled at $157.68 (next bar's open $157.65 + slippage). Stop $153.29, target $162.25",
+   "symbol": "QCOM"
+  },
   {
    "ts": 1793890200,
    "et": "2026-11-05 09:50",
@@ -1207,22 +1266,6 @@
     "CLSK",
     "RUN",
     "CHPT"
-   ]
-  },
-  {
-   "ts": 1793651700,
-   "et": "2026-11-02 15:35",
-   "kind": "exit",
-   "text": "SELL 23 AMZN at $246.28: stop $246.33 hit. P&L $-98.47 (-1.02R)",
-   "symbol": "AMZN"
-  },
-  {
-   "ts": 1793648400,
-   "et": "2026-11-02 14:40",
-   "kind": "busy",
-   "text": "1 more breakout (ROST) not taken: already in AMZN (one trade at a time)",
-   "symbols": [
-    "ROST"
    ]
   }
  ],
@@ -2296,6 +2339,11 @@
    "ts": 1793890292,
    "equity": 9623.74,
    "spy": 9949.67
+  },
+  {
+   "ts": 1793890605,
+   "equity": 9601.24,
+   "spy": 9931.71
   }
  ],
  "daily": [
@@ -2319,6 +2367,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793890605,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.4,
+   "errors": [],
+   "run_id": "42049912803",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793890292,
    "phase": "open",
@@ -2708,29 +2766,19 @@
    "errors": [],
    "run_id": "41889732066",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793817426,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.2,
-   "errors": [],
-   "run_id": "41888891296",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793890292,
+  "tick_at": 1793890605,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793890282,
-  "candidates": 26,
-  "charts_fetched": 27,
+  "yahoo_time": 1793890616,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": 0.2,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
