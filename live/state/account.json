@@ -153,7 +153,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793890500,
+  "last_bar_end": 1793890800,
   "position": {
    "symbol": "QCOM",
    "qty": 22,
@@ -204,14 +204,26 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 11,
+  "triggers_seen": 23,
   "missed": [
    "APP",
    "CMCSA",
    "COP",
    "GD",
    "PG",
-   "YUM"
+   "YUM",
+   "ABBV",
+   "AEP",
+   "BMY",
+   "ELV",
+   "LLY",
+   "LMT",
+   "MRK",
+   "PEP",
+   "T",
+   "TM",
+   "TMUS",
+   "VZ"
   ],
   "triggered": [
    "DUK",
@@ -224,7 +236,19 @@
    "COP",
    "GD",
    "PG",
-   "YUM"
+   "YUM",
+   "ABBV",
+   "AEP",
+   "BMY",
+   "ELV",
+   "LLY",
+   "LMT",
+   "MRK",
+   "PEP",
+   "T",
+   "TM",
+   "TMUS",
+   "VZ"
   ],
   "hits": [
    {
@@ -314,6 +338,102 @@
     "or_high": 167.1,
     "or_low": 166.24,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "ABBV",
+    "at": "10:00",
+    "price": 299.92,
+    "or_high": 299.39,
+    "or_low": 295.2,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:00",
+    "price": 131.08,
+    "or_high": 130.95,
+    "or_low": 130.12,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "BMY",
+    "at": "10:00",
+    "price": 65.04,
+    "or_high": 65.01,
+    "or_low": 64.25,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "ELV",
+    "at": "10:00",
+    "price": 446.46,
+    "or_high": 444.88,
+    "or_low": 437.73,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "LLY",
+    "at": "10:00",
+    "price": 1443.91,
+    "or_high": 1438.0,
+    "or_low": 1417.72,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "LMT",
+    "at": "10:00",
+    "price": 594.89,
+    "or_high": 594.51,
+    "or_low": 584.85,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:00",
+    "price": 152.51,
+    "or_high": 152.34,
+    "or_low": 150.55,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:00",
+    "price": 144.35,
+    "or_high": 144.18,
+    "or_low": 142.76,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "T",
+    "at": "10:00",
+    "price": 22.16,
+    "or_high": 22.11,
+    "or_low": 21.97,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "TM",
+    "at": "10:00",
+    "price": 220.47,
+    "or_high": 220.0,
+    "or_low": 216.79,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:00",
+    "price": 161.6,
+    "or_high": 161.23,
+    "or_low": 159.4,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:00",
+    "price": 46.88,
+    "or_high": 46.81,
+    "or_low": 46.45,
+    "pct_over": 0.15
    }
   ]
  },
@@ -321,8 +441,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 754.594970703125,
-  "last_ts": 1793890500
+  "last": 754.1400146484375,
+  "last_ts": 1793890800
  },
  "seen_trades": 0,
  "daily": [
