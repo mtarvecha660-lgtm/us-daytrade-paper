@@ -1,49 +1,39 @@
 {
- "updated": 1793893777,
- "updated_et": "2026-11-05 10:49 ET",
+ "updated": 1793894092,
+ "updated_et": "2026-11-05 10:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9526.46,
-  "equity": 9526.46,
-  "return": -0.04735400000000012,
+  "cash": 2440.24,
+  "equity": 9509.48,
+  "return": -0.049052000000000096,
   "started": 1793559735
  },
  "spy": {
-  "value": 9804.89,
-  "return": -0.019511000000000056,
+  "value": 9763.17,
+  "return": -0.02368300000000001,
   "start_price": 759.47998046875,
-  "last": 744.9600219726562
+  "last": 741.7899780273438
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "XOM",
   "qty": 41,
-  "plan": {
-   "symbol": "XOM",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-05",
-   "entry_time": "10:45 AM",
-   "entry": 172.76,
-   "stop": 171.6,
-   "target": 173.92,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 172.8346,
+  "entry_et": "10:45",
+  "stop": 171.6,
+  "target": 173.92,
+  "last": null,
   "why": {
    "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
    "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
    "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1793893500,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-05",
   "hits": [
@@ -340,7 +330,7 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 41 XOM at the next bar's open (signal at 10:45 ET). Then: stop $171.60, target $173.92.",
+ "next_move": "Holding 41 XOM bought at $172.83. It sells at the stop $171.60, the target $173.92, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 7,
   "wins": 1,
@@ -372,7 +362,7 @@
   "sortino": 8.451424036110717,
   "days": 4
  },
- "intraday_max_drawdown": -0.054155567315434805,
+ "intraday_max_drawdown": -0.05584144417493808,
  "trades": [
   {
    "date": "2026-11-05",
@@ -544,6 +534,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793893500,
+   "et": "2026-11-05 10:45",
+   "kind": "fill",
+   "text": "BUY 41 XOM filled at $172.83 (next bar's open $172.80 + slippage). Stop $171.60, target $173.92",
+   "symbol": "XOM"
+  },
   {
    "ts": 1793893500,
    "et": "2026-11-05 10:45",
@@ -1452,18 +1449,6 @@
    "symbols": [
     "FSLR",
     "OXY"
-   ]
-  },
-  {
-   "ts": 1793719500,
-   "et": "2026-11-03 10:25",
-   "kind": "busy",
-   "text": "4 more breakouts (DIS, NOC, PNC, SONY) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "DIS",
-    "NOC",
-    "PNC",
-    "SONY"
    ]
   }
  ],
@@ -2587,6 +2572,11 @@
    "ts": 1793893777,
    "equity": 9526.46,
    "spy": 9804.89
+  },
+  {
+   "ts": 1793894092,
+   "equity": 9509.48,
+   "spy": 9763.17
   }
  ],
  "daily": [
@@ -2610,6 +2600,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793894092,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.6,
+   "errors": [],
+   "run_id": "42059749478",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793893777,
    "phase": "open",
@@ -2999,25 +2999,15 @@
    "errors": [],
    "run_id": "41898246044",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793820569,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.2,
-   "errors": [],
-   "run_id": "41897389353",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793893777,
+  "tick_at": 1793894092,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793893782,
+  "yahoo_time": 1793894101,
   "candidates": 10,
-  "charts_fetched": 11,
+  "charts_fetched": 12,
   "ok": true,
   "errors": [],
   "stale_data": false,

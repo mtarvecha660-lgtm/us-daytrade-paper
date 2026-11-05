@@ -1,5 +1,5 @@
 {
- "cash": 9526.4558,
+ "cash": 2440.2372,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -177,11 +177,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793893500,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793893800,
+  "position": {
    "symbol": "XOM",
    "qty": 41,
+   "entry_fill": 172.8346,
+   "entry_ts": 1793893500,
    "plan": {
     "symbol": "XOM",
     "side": "buy",
@@ -193,7 +194,8 @@
     "target": 173.92,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 172.8000030517578
    },
    "why": {
     "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
@@ -202,9 +204,9 @@
     "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793893500,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -239,6 +241,14 @@
     "kind": "entry",
     "max_loss": 47.56,
     "at": "2026-11-05T10:45:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-05",
+    "symbol": "XOM",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 41
    }
   ],
   "entries": 2,
@@ -609,8 +619,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 744.9600219726562,
-  "last_ts": 1793893500
+  "last": 741.7899780273438,
+  "last_ts": 1793893800
  },
  "seen_trades": 0,
  "daily": [
