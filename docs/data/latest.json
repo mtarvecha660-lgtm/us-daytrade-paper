@@ -1,21 +1,21 @@
 {
- "updated": 1793890918,
- "updated_et": "2026-11-05 10:01 ET",
+ "updated": 1793891232,
+ "updated_et": "2026-11-05 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6154.75,
-  "equity": 9606.96,
-  "return": -0.03930400000000012,
+  "equity": 9619.28,
+  "return": -0.038071999999999884,
   "started": 1793559735
  },
  "spy": {
-  "value": 9925.72,
-  "return": -0.007428000000000101,
+  "value": 9903.61,
+  "return": -0.009638999999999953,
   "start_price": 759.47998046875,
-  "last": 754.1400146484375
+  "last": 752.4600219726562
  },
  "position": {
   "symbol": "QCOM",
@@ -220,9 +220,41 @@
     "or_high": 46.81,
     "or_low": 46.45,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 422.86,
+    "or_high": 420.83,
+    "or_low": 413.92,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:05",
+    "price": 396.73,
+    "or_high": 393.32,
+    "or_low": 386.0,
+    "pct_over": 0.87
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:05",
+    "price": 532.78,
+    "or_high": 531.52,
+    "or_low": 520.08,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:05",
+    "price": 58.42,
+    "or_high": 58.24,
+    "or_low": 57.56,
+    "pct_over": 0.32
    }
   ],
-  "n_hits": 23,
+  "n_hits": 27,
   "entries": 1,
   "max_trades": 3
  },
@@ -406,6 +438,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793891100,
+   "et": "2026-11-05 10:05",
+   "kind": "busy",
+   "text": "4 more breakouts (HUM, MPC, NOC, OXY) not taken: already in QCOM (one trade at a time)",
+   "symbols": [
+    "HUM",
+    "MPC",
+    "NOC",
+    "OXY"
+   ]
+  },
   {
    "ts": 1793890800,
    "et": "2026-11-05 10:00",
@@ -1344,13 +1388,6 @@
     "SEDG",
     "ZTS"
    ]
-  },
-  {
-   "ts": 1793717400,
-   "et": "2026-11-03 09:50",
-   "kind": "fill",
-   "text": "BUY 20 AAPL filled at $333.86 (next bar's open $333.80 + slippage). Stop $329.00, target $338.64",
-   "symbol": "AAPL"
   }
  ],
  "equity": [
@@ -2433,6 +2470,11 @@
    "ts": 1793890918,
    "equity": 9606.96,
    "spy": 9925.72
+  },
+  {
+   "ts": 1793891232,
+   "equity": 9619.28,
+   "spy": 9903.61
   }
  ],
  "daily": [
@@ -2456,6 +2498,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793891232,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.5,
+   "errors": [],
+   "run_id": "42051671915",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793890918,
    "phase": "open",
@@ -2845,29 +2897,19 @@
    "errors": [],
    "run_id": "41891428112",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793818057,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.8,
-   "errors": [],
-   "run_id": "41890579038",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793890918,
+  "tick_at": 1793891232,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793890935,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1793891245,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
