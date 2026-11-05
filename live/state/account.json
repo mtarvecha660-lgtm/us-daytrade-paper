@@ -201,7 +201,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793910300,
+  "last_bar_end": 1793910600,
   "position": {
    "symbol": "U",
    "qty": 51,
@@ -717,8 +717,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.22998046875,
-  "last_ts": 1793910300
+  "last": 735.2100219726562,
+  "last_ts": 1793910600
  },
  "seen_trades": 0,
  "daily": [
