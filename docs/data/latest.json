@@ -1,14 +1,14 @@
 {
- "updated": 1793894732,
- "updated_et": "2026-11-05 11:05 ET",
+ "updated": 1793895092,
+ "updated_et": "2026-11-05 11:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2440.24,
-  "equity": 9526.49,
-  "return": -0.04735100000000003,
+  "equity": 9540.84,
+  "return": -0.04591599999999996,
   "started": 1793559735
  },
  "spy": {
@@ -332,9 +332,17 @@
     "or_high": 251.32,
     "or_low": 244.15,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "CVX",
+    "at": "11:10",
+    "price": 221.91,
+    "or_high": 221.58,
+    "or_low": 218.28,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 37,
+  "n_hits": 38,
   "entries": 2,
   "max_trades": 3
  },
@@ -542,6 +550,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793895000,
+   "et": "2026-11-05 11:10",
+   "kind": "busy",
+   "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)",
+   "symbols": [
+    "CVX"
+   ]
+  },
   {
    "ts": 1793894400,
    "et": "2026-11-05 11:00",
@@ -1450,13 +1467,6 @@
     "ZS",
     "CHTR"
    ]
-  },
-  {
-   "ts": 1793720100,
-   "et": "2026-11-03 10:35",
-   "kind": "exit",
-   "text": "SELL 20 AAPL at $328.93: stop $329.00 hit. P&L $-98.55 (-1.02R)",
-   "symbol": "AAPL"
   }
  ],
  "equity": [
@@ -2594,6 +2604,11 @@
    "ts": 1793894732,
    "equity": 9526.49,
    "spy": 9764.62
+  },
+  {
+   "ts": 1793895092,
+   "equity": 9540.84,
+   "spy": 9764.62
   }
  ],
  "daily": [
@@ -2617,6 +2632,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793895092,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 6.6,
+   "errors": [],
+   "run_id": "42061889816",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793894732,
    "phase": "open",
@@ -3006,25 +3031,15 @@
    "errors": [],
    "run_id": "41901626391",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793821830,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 6.7,
-   "errors": [],
-   "run_id": "41900796273",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793894732,
+  "tick_at": 1793895092,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793894738,
-  "candidates": 6,
-  "charts_fetched": 8,
+  "yahoo_time": 1793895098,
+  "candidates": 8,
+  "charts_fetched": 10,
   "ok": true,
   "errors": [],
   "stale_data": false,
