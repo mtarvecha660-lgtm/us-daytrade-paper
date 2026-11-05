@@ -1,21 +1,21 @@
 {
- "updated": 1793891857,
- "updated_et": "2026-11-05 10:17 ET",
+ "updated": 1793892179,
+ "updated_et": "2026-11-05 10:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6154.75,
-  "equity": 9620.16,
-  "return": -0.03798400000000002,
+  "equity": 9610.48,
+  "return": -0.0389520000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9875.83,
-  "return": -0.012417000000000011,
+  "value": 9856.22,
+  "return": -0.014378000000000113,
   "start_price": 759.47998046875,
-  "last": 750.3499145507812
+  "last": 748.8599853515625
  },
  "position": {
   "symbol": "QCOM",
@@ -300,9 +300,17 @@
     "or_high": 947.1,
     "or_low": 938.01,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "EOG",
+    "at": "10:20",
+    "price": 150.35,
+    "or_high": 150.09,
+    "or_low": 148.01,
+    "pct_over": 0.17
    }
   ],
-  "n_hits": 33,
+  "n_hits": 34,
   "entries": 1,
   "max_trades": 3
  },
@@ -486,6 +494,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793892000,
+   "et": "2026-11-05 10:20",
+   "kind": "busy",
+   "text": "1 more breakout (EOG) not taken: already in QCOM (one trade at a time)",
+   "symbols": [
+    "EOG"
+   ]
+  },
   {
    "ts": 1793891700,
    "et": "2026-11-05 10:15",
@@ -1413,17 +1430,6 @@
     "MSFT",
     "RTX",
     "TMO"
-   ]
-  },
-  {
-   "ts": 1793718300,
-   "et": "2026-11-03 10:05",
-   "kind": "busy",
-   "text": "3 more breakouts (MAR, META, RBLX) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "MAR",
-    "META",
-    "RBLX"
    ]
   }
  ],
@@ -2522,6 +2528,11 @@
    "ts": 1793891857,
    "equity": 9620.16,
    "spy": 9875.83
+  },
+  {
+   "ts": 1793892179,
+   "equity": 9610.48,
+   "spy": 9856.22
   }
  ],
  "daily": [
@@ -2545,6 +2556,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793892179,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.7,
+   "errors": [],
+   "run_id": "42054347460",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793891857,
    "phase": "open",
@@ -2934,29 +2955,19 @@
    "errors": [],
    "run_id": "41894014855",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793818998,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.0,
-   "errors": [],
-   "run_id": "41893135349",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793891857,
+  "tick_at": 1793892179,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793891865,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1793892190,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
