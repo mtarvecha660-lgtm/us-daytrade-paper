@@ -1,6 +1,6 @@
 {
- "updated": 1793902365,
- "updated_et": "2026-11-05 13:12 ET",
+ "updated": 1793902680,
+ "updated_et": "2026-11-05 13:18 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,13 +12,38 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9696.44,
-  "return": -0.03035599999999994,
+  "value": 9714.14,
+  "return": -0.02858600000000011,
   "start_price": 759.47998046875,
-  "last": 736.719970703125
+  "last": 738.0650024414062
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "U",
+  "qty": 51,
+  "plan": {
+   "symbol": "U",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-05",
+   "entry_time": "1:15 PM",
+   "entry": 48.64,
+   "stop": 46.69,
+   "target": 50.59,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
+   "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
+   "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1793902500,
+  "late": false
+ },
  "today": {
   "date": "2026-11-05",
   "hits": [
@@ -325,13 +350,21 @@
     "or_high": 221.58,
     "or_low": 218.28,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "U",
+    "at": "13:15",
+    "price": 48.64,
+    "or_high": 48.56,
+    "or_low": 44.82,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 38,
-  "entries": 2,
+  "n_hits": 39,
+  "entries": 3,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 2 of 3 trades used today.",
+ "next_move": "Buying 51 U at the next bar's open (signal at 13:15 ET). Then: stop $46.69, target $50.59.",
  "stats": {
   "trades": 8,
   "wins": 1,
@@ -559,6 +592,21 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793902500,
+   "et": "2026-11-05 13:15",
+   "kind": "order",
+   "text": "BUY 51 U at market (decided on the 13:15 close). opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
+   "symbol": "U",
+   "why": {
+    "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
+    "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
+    "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
   {
    "ts": 1793895900,
    "et": "2026-11-05 11:25",
@@ -1457,13 +1505,6 @@
     "DPZ",
     "SHOP"
    ]
-  },
-  {
-   "ts": 1793720100,
-   "et": "2026-11-03 10:35",
-   "kind": "fill",
-   "text": "BUY 14 MRNA filled at $233.98 (next bar's open $233.93 + slippage). Stop $226.77, target $241.05",
-   "symbol": "MRNA"
   }
  ],
  "equity": [
@@ -2721,6 +2762,11 @@
    "ts": 1793902365,
    "equity": 9474.43,
    "spy": 9696.44
+  },
+  {
+   "ts": 1793902680,
+   "equity": 9474.43,
+   "spy": 9714.14
   }
  ],
  "daily": [
@@ -2744,6 +2790,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793902680,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 5.4,
+   "errors": [],
+   "run_id": "42082848539",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793902365,
    "phase": "open",
@@ -3133,25 +3189,15 @@
    "errors": [],
    "run_id": "42048183799",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793889659,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.9,
-   "errors": [],
-   "run_id": "42047332790",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793902365,
+  "tick_at": 1793902680,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793902369,
-  "candidates": 5,
-  "charts_fetched": 6,
+  "yahoo_time": 1793902683,
+  "candidates": 3,
+  "charts_fetched": 4,
   "ok": true,
   "errors": [],
   "stale_data": false,

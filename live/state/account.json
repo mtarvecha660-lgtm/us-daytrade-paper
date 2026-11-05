@@ -201,9 +201,34 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-05",
-  "last_bar_end": 1793902200,
+  "last_bar_end": 1793902500,
   "position": null,
-  "pending": null,
+  "pending": {
+   "symbol": "U",
+   "qty": 51,
+   "plan": {
+    "symbol": "U",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-05",
+    "entry_time": "1:15 PM",
+    "entry": 48.64,
+    "stop": 46.69,
+    "target": 50.59,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
+    "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
+    "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1793902500,
+   "late": false
+  },
   "orders": [
    {
     "status": "placed",
@@ -254,11 +279,20 @@
     "side": "sell",
     "kind": "exit",
     "qty": 41
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-05",
+    "symbol": "U",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 99.45,
+    "at": "2026-11-05T13:15:00"
    }
   ],
-  "entries": 2,
+  "entries": 3,
   "skips": 0,
-  "triggers_seen": 38,
+  "triggers_seen": 39,
   "missed": [
    "APP",
    "CMCSA",
@@ -331,7 +365,8 @@
    "DVN",
    "XOM",
    "ADBE",
-   "CVX"
+   "CVX",
+   "U"
   ],
   "hits": [
    {
@@ -637,6 +672,14 @@
     "or_high": 221.58,
     "or_low": 218.28,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "U",
+    "at": "13:15",
+    "price": 48.64,
+    "or_high": 48.56,
+    "or_low": 44.82,
+    "pct_over": 0.15
    }
   ]
  },
@@ -644,8 +687,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.719970703125,
-  "last_ts": 1793902200
+  "last": 738.0650024414062,
+  "last_ts": 1793902500
  },
  "seen_trades": 0,
  "daily": [
