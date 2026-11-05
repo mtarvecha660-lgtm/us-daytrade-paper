@@ -1,38 +1,23 @@
 {
- "updated": 1793911866,
- "updated_et": "2026-11-05 15:51 ET",
+ "updated": 1793912179,
+ "updated_et": "2026-11-05 15:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 6994.3,
-  "equity": 9483.61,
-  "return": -0.05163899999999999,
+  "cash": 9459.64,
+  "equity": 9459.64,
+  "return": -0.054036000000000084,
   "started": 1793559735
  },
  "spy": {
-  "value": 9671.57,
-  "return": -0.03284300000000007,
+  "value": 9683.28,
+  "return": -0.03167199999999992,
   "start_price": 759.47998046875,
-  "last": 734.8300170898438
+  "last": 735.719970703125
  },
- "position": {
-  "symbol": "U",
-  "qty": 51,
-  "entry": 48.63,
-  "entry_et": "13:15",
-  "stop": 46.69,
-  "target": 50.59,
-  "last": null,
-  "why": {
-   "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
-   "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
-   "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-05",
@@ -370,22 +355,23 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 51 U bought at $48.63. It sells at the stop $46.69, the target $50.59, or at 15:55 ET, whichever comes first.",
+ "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
  "stats": {
-  "trades": 8,
+  "trades": 9,
   "wins": 1,
-  "win_rate": 0.125,
-  "avg_r": -0.7858750000000002,
-  "t_stat_r": -3.153112331498827,
-  "net_pnl": -525.56,
-  "profit_factor": 0.11799553593904713,
-  "expectancy_usd": -65.69,
+  "win_rate": 0.1111111111111111,
+  "avg_r": -0.7151111111111113,
+  "t_stat_r": -3.0968304772751107,
+  "net_pnl": -540.35,
+  "profit_factor": 0.11513771984410313,
+  "expectancy_usd": -60.04,
   "avg_win": 70.31,
-  "avg_loss": -85.12,
-  "costs_usd": 15.71,
+  "avg_loss": -76.33,
+  "costs_usd": 16.73,
   "exits": {
    "stop": 7,
-   "target": 1
+   "target": 1,
+   "flat-by": 1
   }
  },
  "curve": {
@@ -404,6 +390,30 @@
  },
  "intraday_max_drawdown": -0.06149876239958463,
  "trades": [
+  {
+   "date": "2026-11-05",
+   "symbol": "U",
+   "qty": 51,
+   "entry_et": "13:15",
+   "entry_fill": 48.63,
+   "exit_et": "15:55",
+   "exit_fill": 48.34,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 46.69,
+   "target": 50.59,
+   "pnl": -14.79,
+   "r": -0.149,
+   "risk_usd": 99.45,
+   "cost_usd": 1.02,
+   "why": {
+    "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
+    "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
+    "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-05",
    "symbol": "XOM",
@@ -598,6 +608,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793912100,
+   "et": "2026-11-05 15:55",
+   "kind": "exit",
+   "text": "SELL 51 U at $48.34: flat by 15:55 ET (the skill's flat-by rule). P&L $-14.79 (-0.15R)",
+   "symbol": "U"
+  },
   {
    "ts": 1793910300,
    "et": "2026-11-05 15:25",
@@ -1483,18 +1500,6 @@
     "SLB",
     "SOFI",
     "UNH"
-   ]
-  },
-  {
-   "ts": 1793721300,
-   "et": "2026-11-03 10:55",
-   "kind": "busy",
-   "text": "4 more breakouts (IBM, PLTR, SBUX, VZ) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "IBM",
-    "PLTR",
-    "SBUX",
-    "VZ"
    ]
   }
  ],
@@ -2883,6 +2888,11 @@
    "ts": 1793911866,
    "equity": 9483.61,
    "spy": 9671.57
+  },
+  {
+   "ts": 1793912179,
+   "equity": 9459.64,
+   "spy": 9683.28
   }
  ],
  "daily": [
@@ -2906,6 +2916,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793912179,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.8,
+   "errors": [],
+   "run_id": "42107954929",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793911866,
    "phase": "open",
@@ -3295,29 +3315,19 @@
    "errors": [],
    "run_id": "42071816747",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793898266,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.3,
-   "errors": [],
-   "run_id": "42070933150",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793911866,
+  "tick_at": 1793912179,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793911873,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1793912179,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": 0.0,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

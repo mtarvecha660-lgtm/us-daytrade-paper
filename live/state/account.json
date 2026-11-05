@@ -1,5 +1,5 @@
 {
- "cash": 6994.3009,
+ "cash": 9459.6409,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -195,32 +195,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-05",
-  "last_bar_end": 1793911800,
-  "position": {
+  },
+  {
+   "date": "2026-11-05",
    "symbol": "U",
    "qty": 51,
+   "entry_et": "13:15",
    "entry_fill": 48.63,
-   "entry_ts": 1793902500,
-   "plan": {
-    "symbol": "U",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-05",
-    "entry_time": "1:15 PM",
-    "entry": 48.64,
-    "stop": 46.69,
-    "target": 50.59,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 48.619998931884766
-   },
+   "exit_et": "15:55",
+   "exit_fill": 48.34,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 46.69,
+   "target": 50.59,
+   "pnl": -14.79,
+   "r": -0.149,
+   "risk_usd": 99.45,
+   "cost_usd": 1.02,
    "why": {
     "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
     "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
@@ -229,7 +219,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-05",
+  "last_bar_end": 1793912100,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -297,6 +294,14 @@
     "symbol": "U",
     "side": "buy",
     "kind": "entry",
+    "qty": 51
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-05",
+    "symbol": "U",
+    "side": "sell",
+    "kind": "exit",
     "qty": 51
    }
   ],
@@ -717,8 +722,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 734.8300170898438,
-  "last_ts": 1793911800
+  "last": 735.719970703125,
+  "last_ts": 1793912100
  },
  "seen_trades": 0,
  "daily": [
