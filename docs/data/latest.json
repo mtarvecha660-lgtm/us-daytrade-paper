@@ -1,21 +1,21 @@
 {
- "updated": 1793983551,
- "updated_et": "2026-11-06 11:45 ET",
+ "updated": 1793983866,
+ "updated_et": "2026-11-06 11:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9400.55,
-  "return": -0.059945000000000026,
+  "equity": 9389.56,
+  "return": -0.0610440000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9748.17,
-  "return": -0.025182999999999955,
+  "value": 9735.4,
+  "return": -0.02646000000000004,
   "start_price": 759.47998046875,
-  "last": 740.6500244140625
+  "last": 739.6799926757812
  },
  "position": {
   "symbol": "MSFT",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "PDD",
-    "at": "09:55",
-    "price": 83.92,
-    "or_high": 83.61,
-    "or_low": 82.25,
-    "pct_over": 0.37
-   },
    {
     "symbol": "PEP",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 8.82,
     "or_low": 8.61,
     "pct_over": 0.62
+   },
+   {
+    "symbol": "DUOL",
+    "at": "11:45",
+    "price": 158.65,
+    "or_high": 158.0,
+    "or_low": 154.17,
+    "pct_over": 0.41
    }
   ],
-  "n_hits": 156,
+  "n_hits": 157,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793983500,
+   "et": "2026-11-06 11:45",
+   "kind": "busy",
+   "text": "1 more breakout (DUOL) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "DUOL"
+   ]
+  },
   {
    "ts": 1793983200,
    "et": "2026-11-06 11:40",
@@ -1818,16 +1827,6 @@
    "kind": "exit",
    "text": "SELL 14 MRNA at $226.72: stop $226.77 hit. P&L $-101.53 (-1.02R)",
    "symbol": "MRNA"
-  },
-  {
-   "ts": 1793732700,
-   "et": "2026-11-03 14:05",
-   "kind": "busy",
-   "text": "2 more breakouts (ADBE, MS) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "MS"
-   ]
   }
  ],
  "equity": [
@@ -3340,6 +3339,11 @@
    "ts": 1793983551,
    "equity": 9400.55,
    "spy": 9748.17
+  },
+  {
+   "ts": 1793983866,
+   "equity": 9389.56,
+   "spy": 9735.4
   }
  ],
  "daily": [
@@ -3369,6 +3373,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793983866,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 12.3,
+   "errors": [],
+   "run_id": "42256157449",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793983551,
    "phase": "open",
@@ -3758,25 +3772,15 @@
    "errors": [],
    "run_id": "42102337679",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793909332,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.5,
-   "errors": [],
-   "run_id": "42100590068",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793983551,
+  "tick_at": 1793983866,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793983557,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1793983875,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,
