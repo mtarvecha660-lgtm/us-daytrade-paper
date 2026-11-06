@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793996400,
+  "last_bar_end": 1793996700,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -1922,8 +1922,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 737.6300048828125,
-  "last_ts": 1793996400
+  "last": 737.9000244140625,
+  "last_ts": 1793996700
  },
  "seen_trades": 0,
  "daily": [
