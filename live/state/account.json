@@ -225,7 +225,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793977200,
+  "last_bar_end": 1793977500,
   "position": {
    "symbol": "MU",
    "qty": 6,
@@ -276,7 +276,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 116,
+  "triggers_seen": 117,
   "missed": [
    "AAPL",
    "ABBV",
@@ -320,7 +320,8 @@
    "GM",
    "NEE",
    "TMO",
-   "TSLA"
+   "TSLA",
+   "LI"
   ],
   "triggered": [
    "AFRM",
@@ -438,7 +439,8 @@
    "GM",
    "NEE",
    "TMO",
-   "TSLA"
+   "TSLA",
+   "LI"
   ],
   "hits": [
    {
@@ -1368,6 +1370,14 @@
     "or_high": 354.8,
     "or_low": 347.6,
     "pct_over": 0.48
+   },
+   {
+    "symbol": "LI",
+    "at": "10:05",
+    "price": 12.26,
+    "or_high": 12.24,
+    "or_low": 12.01,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1375,8 +1385,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.5399780273438,
-  "last_ts": 1793977200
+  "last": 739.1400146484375,
+  "last_ts": 1793977500
  },
  "seen_trades": 0,
  "daily": [
