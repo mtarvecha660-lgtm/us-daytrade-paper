@@ -1,21 +1,21 @@
 {
- "updated": 1793994819,
- "updated_et": "2026-11-06 14:53 ET",
+ "updated": 1793995131,
+ "updated_et": "2026-11-06 14:58 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9343.42,
-  "return": -0.065658,
+  "equity": 9342.28,
+  "return": -0.06577199999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9710.66,
-  "return": -0.028934000000000015,
+  "value": 9701.84,
+  "return": -0.029815999999999954,
   "start_price": 759.47998046875,
-  "last": 737.7999877929688
+  "last": 737.1300048828125
  },
  "position": {
   "symbol": "MSFT",
@@ -555,7 +555,7 @@
   "sortino": -6.086769817420796,
   "days": 5
  },
- "intraday_max_drawdown": -0.0723288830023302,
+ "intraday_max_drawdown": -0.07244206908123674,
  "trades": [
   {
    "date": "2026-11-06",
@@ -3438,6 +3438,11 @@
    "ts": 1793994819,
    "equity": 9343.42,
    "spy": 9710.66
+  },
+  {
+   "ts": 1793995131,
+   "equity": 9342.28,
+   "spy": 9701.84
   }
  ],
  "daily": [
@@ -3467,6 +3472,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793995131,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.3,
+   "errors": [],
+   "run_id": "42284324607",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793994819,
    "phase": "open",
@@ -3856,23 +3871,13 @@
    "errors": [],
    "run_id": "42252926309",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793981972,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.9,
-   "errors": [],
-   "run_id": "42251275984",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793994819,
+  "tick_at": 1793995131,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793994825,
+  "yahoo_time": 1793995136,
   "candidates": 12,
   "charts_fetched": 14,
   "ok": true,
