@@ -1,21 +1,21 @@
 {
- "updated": 1793978692,
- "updated_et": "2026-11-06 10:24 ET",
+ "updated": 1793979123,
+ "updated_et": "2026-11-06 10:32 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9353.04,
-  "return": -0.06469599999999986,
+  "equity": 9349.08,
+  "return": -0.06509200000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9748.42,
-  "return": -0.025158000000000014,
+  "value": 9726.19,
+  "return": -0.02738099999999999,
   "start_price": 759.47998046875,
-  "last": 740.6690063476562
+  "last": 738.97998046875
  },
  "position": {
   "symbol": "MSFT",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "DIS",
-    "at": "09:55",
-    "price": 115.97,
-    "or_high": 115.79,
-    "or_low": 113.79,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "DLTR",
-    "at": "09:55",
-    "price": 136.44,
-    "or_high": 136.39,
-    "or_low": 134.08,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "DXCM",
-    "at": "09:55",
-    "price": 82.76,
-    "or_high": 82.73,
-    "or_low": 81.67,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "GILD",
-    "at": "09:55",
-    "price": 167.58,
-    "or_high": 166.66,
-    "or_low": 164.0,
-    "pct_over": 0.55
-   },
-   {
-    "symbol": "HD",
-    "at": "09:55",
-    "price": 342.5,
-    "or_high": 341.77,
-    "or_low": 338.12,
-    "pct_over": 0.21
-   },
    {
     "symbol": "HLT",
     "at": "09:55",
@@ -516,9 +476,49 @@
     "or_high": 13.42,
     "or_low": 13.13,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:25",
+    "price": 126.38,
+    "or_high": 125.99,
+    "or_low": 124.23,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "BSX",
+    "at": "10:25",
+    "price": 43.57,
+    "or_high": 43.53,
+    "or_low": 42.93,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:25",
+    "price": 164.92,
+    "or_high": 164.6,
+    "or_low": 159.11,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "REGN",
+    "at": "10:25",
+    "price": 905.91,
+    "or_high": 903.97,
+    "or_low": 887.22,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VRTX",
+    "at": "10:25",
+    "price": 541.32,
+    "or_high": 540.59,
+    "or_low": 531.53,
+    "pct_over": 0.14
    }
   ],
-  "n_hits": 142,
+  "n_hits": 147,
   "entries": 2,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -6.086769817420796,
   "days": 5
  },
- "intraday_max_drawdown": -0.07137375135401314,
+ "intraday_max_drawdown": -0.07176692404916252,
  "trades": [
   {
    "date": "2026-11-06",
@@ -799,6 +799,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793978700,
+   "et": "2026-11-06 10:25",
+   "kind": "busy",
+   "text": "5 more breakouts (AEP, BSX, QCOM, REGN, VRTX) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "AEP",
+    "BSX",
+    "QCOM",
+    "REGN",
+    "VRTX"
+   ]
+  },
   {
    "ts": 1793978400,
    "et": "2026-11-06 10:20",
@@ -1814,15 +1827,6 @@
    "text": "1 more breakout (SNPS) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "SNPS"
-   ]
-  },
-  {
-   "ts": 1793725500,
-   "et": "2026-11-03 12:05",
-   "kind": "busy",
-   "text": "1 more breakout (UPST) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "UPST"
    ]
   }
  ],
@@ -3271,6 +3275,11 @@
    "ts": 1793978692,
    "equity": 9353.04,
    "spy": 9748.42
+  },
+  {
+   "ts": 1793979123,
+   "equity": 9349.08,
+   "spy": 9726.19
   }
  ],
  "daily": [
@@ -3300,6 +3309,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793979123,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 9.5,
+   "errors": [],
+   "run_id": "42243893191",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793978692,
    "phase": "open",
@@ -3689,29 +3708,19 @@
    "errors": [],
    "run_id": "42088760296",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793904570,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 8.9,
-   "errors": [],
-   "run_id": "42087920797",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793978692,
+  "tick_at": 1793979123,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793978704,
-  "candidates": 43,
-  "charts_fetched": 45,
+  "yahoo_time": 1793979131,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

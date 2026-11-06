@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793978400,
+  "last_bar_end": 1793979000,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 142,
+  "triggers_seen": 147,
   "missed": [
    "AAPL",
    "ABBV",
@@ -383,7 +383,12 @@
    "AAL",
    "BX",
    "ENPH",
-   "RIVN"
+   "RIVN",
+   "AEP",
+   "BSX",
+   "QCOM",
+   "REGN",
+   "VRTX"
   ],
   "triggered": [
    "AFRM",
@@ -527,7 +532,12 @@
    "AAL",
    "BX",
    "ENPH",
-   "RIVN"
+   "RIVN",
+   "AEP",
+   "BSX",
+   "QCOM",
+   "REGN",
+   "VRTX"
   ],
   "hits": [
    {
@@ -1665,6 +1675,46 @@
     "or_high": 13.42,
     "or_low": 13.13,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:25",
+    "price": 126.38,
+    "or_high": 125.99,
+    "or_low": 124.23,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "BSX",
+    "at": "10:25",
+    "price": 43.57,
+    "or_high": 43.53,
+    "or_low": 42.93,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:25",
+    "price": 164.92,
+    "or_high": 164.6,
+    "or_low": 159.11,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "REGN",
+    "at": "10:25",
+    "price": 905.91,
+    "or_high": 903.97,
+    "or_low": 887.22,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VRTX",
+    "at": "10:25",
+    "price": 541.32,
+    "or_high": 540.59,
+    "or_low": 531.53,
+    "pct_over": 0.14
    }
   ]
  },
@@ -1672,8 +1722,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.6690063476562,
-  "last_ts": 1793978400
+  "last": 738.97998046875,
+  "last_ts": 1793979000
  },
  "seen_trades": 0,
  "daily": [
