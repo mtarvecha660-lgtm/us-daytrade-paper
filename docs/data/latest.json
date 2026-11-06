@@ -1,21 +1,21 @@
 {
- "updated": 1793976998,
- "updated_et": "2026-11-06 09:56 ET",
+ "updated": 1793977318,
+ "updated_et": "2026-11-06 10:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5147.72,
-  "equity": 9436.74,
-  "return": -0.05632599999999999,
+  "equity": 9460.56,
+  "return": -0.0539440000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9750.73,
-  "return": -0.024927000000000032,
+  "value": 9746.72,
+  "return": -0.025328000000000017,
   "start_price": 759.47998046875,
-  "last": 740.844970703125
+  "last": 740.5399780273438
  },
  "position": {
   "symbol": "MU",
@@ -37,54 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "PLTR",
-    "at": "09:50",
-    "price": 163.43,
-    "or_high": 161.3,
-    "or_low": 157.24,
-    "pct_over": 1.32
-   },
-   {
-    "symbol": "PYPL",
-    "at": "09:50",
-    "price": 59.3,
-    "or_high": 59.0,
-    "or_low": 57.57,
-    "pct_over": 0.51
-   },
-   {
-    "symbol": "RCL",
-    "at": "09:50",
-    "price": 325.71,
-    "or_high": 325.26,
-    "or_low": 320.57,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "RDDT",
-    "at": "09:50",
-    "price": 96.29,
-    "or_high": 96.05,
-    "or_low": 93.5,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "RGTI",
-    "at": "09:50",
-    "price": 10.65,
-    "or_high": 10.59,
-    "or_low": 10.08,
-    "pct_over": 0.55
-   },
-   {
-    "symbol": "RKT",
-    "at": "09:50",
-    "price": 14.72,
-    "or_high": 14.67,
-    "or_low": 14.38,
-    "pct_over": 0.37
-   },
    {
     "symbol": "ROST",
     "at": "09:50",
@@ -516,9 +468,57 @@
     "or_high": 163.19,
     "or_low": 161.01,
     "pct_over": 0.38
+   },
+   {
+    "symbol": "CHPT",
+    "at": "10:00",
+    "price": 11.94,
+    "or_high": 11.77,
+    "or_low": 11.03,
+    "pct_over": 1.44
+   },
+   {
+    "symbol": "F",
+    "at": "10:00",
+    "price": 12.57,
+    "or_high": 12.56,
+    "or_low": 12.34,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "GM",
+    "at": "10:00",
+    "price": 88.47,
+    "or_high": 88.37,
+    "or_low": 87.0,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:00",
+    "price": 87.02,
+    "or_high": 86.99,
+    "or_low": 85.64,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "TMO",
+    "at": "10:00",
+    "price": 691.17,
+    "or_high": 688.84,
+    "or_low": 661.6,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:00",
+    "price": 356.49,
+    "or_high": 354.8,
+    "or_low": 347.6,
+    "pct_over": 0.48
    }
   ],
-  "n_hits": 110,
+  "n_hits": 116,
   "entries": 1,
   "max_trades": 3
  },
@@ -775,6 +775,20 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793977200,
+   "et": "2026-11-06 10:00",
+   "kind": "busy",
+   "text": "6 more breakouts (CHPT, F, GM, NEE, TMO, TSLA) not taken: already in MU (one trade at a time)",
+   "symbols": [
+    "CHPT",
+    "F",
+    "GM",
+    "NEE",
+    "TMO",
+    "TSLA"
+   ]
+  },
   {
    "ts": 1793976900,
    "et": "2026-11-06 09:55",
@@ -1761,16 +1775,6 @@
    "text": "1 more breakout (CVS) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "CVS"
-   ]
-  },
-  {
-   "ts": 1793722500,
-   "et": "2026-11-03 11:15",
-   "kind": "busy",
-   "text": "2 more breakouts (CI, V) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "CI",
-    "V"
    ]
   }
  ],
@@ -3199,6 +3203,11 @@
    "ts": 1793976998,
    "equity": 9436.74,
    "spy": 9750.73
+  },
+  {
+   "ts": 1793977318,
+   "equity": 9460.56,
+   "spy": 9746.72
   }
  ],
  "daily": [
@@ -3228,6 +3237,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793977318,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.6,
+   "errors": [],
+   "run_id": "42239197289",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793976998,
    "phase": "open",
@@ -3617,29 +3636,19 @@
    "errors": [],
    "run_id": "42084532330",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793902995,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.8,
-   "errors": [],
-   "run_id": "42083684745",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793976998,
+  "tick_at": 1793977318,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793977018,
-  "candidates": 77,
-  "charts_fetched": 79,
+  "yahoo_time": 1793977331,
+  "candidates": 41,
+  "charts_fetched": 43,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

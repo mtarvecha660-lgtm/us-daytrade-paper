@@ -225,7 +225,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793976900,
+  "last_bar_end": 1793977200,
   "position": {
    "symbol": "MU",
    "qty": 6,
@@ -276,7 +276,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 110,
+  "triggers_seen": 116,
   "missed": [
    "AAPL",
    "ABBV",
@@ -314,7 +314,13 @@
    "VZ",
    "WMT",
    "XPEV",
-   "YUM"
+   "YUM",
+   "CHPT",
+   "F",
+   "GM",
+   "NEE",
+   "TMO",
+   "TSLA"
   ],
   "triggered": [
    "AFRM",
@@ -426,7 +432,13 @@
    "VZ",
    "WMT",
    "XPEV",
-   "YUM"
+   "YUM",
+   "CHPT",
+   "F",
+   "GM",
+   "NEE",
+   "TMO",
+   "TSLA"
   ],
   "hits": [
    {
@@ -1308,6 +1320,54 @@
     "or_high": 163.19,
     "or_low": 161.01,
     "pct_over": 0.38
+   },
+   {
+    "symbol": "CHPT",
+    "at": "10:00",
+    "price": 11.94,
+    "or_high": 11.77,
+    "or_low": 11.03,
+    "pct_over": 1.44
+   },
+   {
+    "symbol": "F",
+    "at": "10:00",
+    "price": 12.57,
+    "or_high": 12.56,
+    "or_low": 12.34,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "GM",
+    "at": "10:00",
+    "price": 88.47,
+    "or_high": 88.37,
+    "or_low": 87.0,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:00",
+    "price": 87.02,
+    "or_high": 86.99,
+    "or_low": 85.64,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "TMO",
+    "at": "10:00",
+    "price": 691.17,
+    "or_high": 688.84,
+    "or_low": 661.6,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:00",
+    "price": 356.49,
+    "or_high": 354.8,
+    "or_low": 347.6,
+    "pct_over": 0.48
    }
   ]
  },
@@ -1315,8 +1375,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.844970703125,
-  "last_ts": 1793976900
+  "last": 740.5399780273438,
+  "last_ts": 1793977200
  },
  "seen_trades": 0,
  "daily": [
