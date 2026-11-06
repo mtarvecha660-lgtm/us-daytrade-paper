@@ -1,21 +1,21 @@
 {
- "updated": 1793995444,
- "updated_et": "2026-11-06 15:04 ET",
+ "updated": 1793995757,
+ "updated_et": "2026-11-06 15:09 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9347.45,
-  "return": -0.06525499999999995,
+  "equity": 9340.04,
+  "return": -0.06599599999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9713.95,
-  "return": -0.02860499999999988,
+  "value": 9711.38,
+  "return": -0.028862000000000054,
   "start_price": 759.47998046875,
-  "last": 738.0499877929688
+  "last": 737.85498046875
  },
  "position": {
   "symbol": "MSFT",
@@ -555,7 +555,7 @@
   "sortino": -6.086769817420796,
   "days": 5
  },
- "intraday_max_drawdown": -0.07244206908123674,
+ "intraday_max_drawdown": -0.0726644697976847,
  "trades": [
   {
    "date": "2026-11-06",
@@ -3435,6 +3435,11 @@
    "ts": 1793995444,
    "equity": 9347.45,
    "spy": 9713.95
+  },
+  {
+   "ts": 1793995757,
+   "equity": 9340.04,
+   "spy": 9711.38
   }
  ],
  "daily": [
@@ -3464,6 +3469,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793995757,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.6,
+   "errors": [],
+   "run_id": "42285863736",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793995444,
    "phase": "open",
@@ -3853,29 +3868,19 @@
    "errors": [],
    "run_id": "42254568259",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793982923,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "42253765585",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793995444,
+  "tick_at": 1793995757,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793995450,
+  "yahoo_time": 1793995767,
   "candidates": 13,
   "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
