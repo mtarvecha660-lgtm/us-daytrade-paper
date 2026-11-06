@@ -1,21 +1,21 @@
 {
- "updated": 1793977631,
- "updated_et": "2026-11-06 10:07 ET",
+ "updated": 1793978032,
+ "updated_et": "2026-11-06 10:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5147.72,
-  "equity": 9426.45,
-  "return": -0.057354999999999934,
+  "equity": 9392.94,
+  "return": -0.06070599999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9728.29,
-  "return": -0.027170999999999945,
+  "value": 9729.08,
+  "return": -0.027092000000000005,
   "start_price": 759.47998046875,
-  "last": 739.1400146484375
+  "last": 739.2000122070312
  },
  "position": {
   "symbol": "MU",
@@ -37,78 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "RTX",
-    "at": "09:50",
-    "price": 190.05,
-    "or_high": 190.0,
-    "or_low": 187.71,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "RUN",
-    "at": "09:50",
-    "price": 9.98,
-    "or_high": 9.91,
-    "or_low": 9.56,
-    "pct_over": 0.69
-   },
-   {
-    "symbol": "SCHW",
-    "at": "09:50",
-    "price": 92.69,
-    "or_high": 92.68,
-    "or_low": 91.22,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "SEDG",
-    "at": "09:50",
-    "price": 27.65,
-    "or_high": 27.41,
-    "or_low": 26.26,
-    "pct_over": 0.88
-   },
-   {
-    "symbol": "SLB",
-    "at": "09:50",
-    "price": 50.63,
-    "or_high": 50.2,
-    "or_low": 49.45,
-    "pct_over": 0.86
-   },
-   {
-    "symbol": "SMCI",
-    "at": "09:50",
-    "price": 29.31,
-    "or_high": 29.2,
-    "or_low": 28.3,
-    "pct_over": 0.36
-   },
-   {
-    "symbol": "SOFI",
-    "at": "09:50",
-    "price": 16.56,
-    "or_high": 16.42,
-    "or_low": 15.98,
-    "pct_over": 0.82
-   },
-   {
-    "symbol": "TJX",
-    "at": "09:50",
-    "price": 137.13,
-    "or_high": 136.55,
-    "or_low": 134.69,
-    "pct_over": 0.43
-   },
-   {
-    "symbol": "UAL",
-    "at": "09:50",
-    "price": 113.45,
-    "or_high": 113.24,
-    "or_low": 111.28,
-    "pct_over": 0.19
-   },
    {
     "symbol": "UPS",
     "at": "09:50",
@@ -516,9 +444,81 @@
     "or_high": 12.24,
     "or_low": 12.01,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "BABA",
+    "at": "10:10",
+    "price": 108.6,
+    "or_high": 108.5,
+    "or_low": 106.44,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:10",
+    "price": 121.34,
+    "or_high": 121.11,
+    "or_low": 110.58,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CMG",
+    "at": "10:10",
+    "price": 34.85,
+    "or_high": 34.76,
+    "or_low": 34.17,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "DASH",
+    "at": "10:10",
+    "price": 181.61,
+    "or_high": 180.75,
+    "or_low": 175.2,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:10",
+    "price": 128.24,
+    "or_high": 127.96,
+    "or_low": 126.72,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "LMT",
+    "at": "10:10",
+    "price": 570.31,
+    "or_high": 570.12,
+    "or_low": 561.85,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SE",
+    "at": "10:10",
+    "price": 74.33,
+    "or_high": 74.21,
+    "or_low": 72.48,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:10",
+    "price": 26.75,
+    "or_high": 26.74,
+    "or_low": 26.35,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "UBER",
+    "at": "10:10",
+    "price": 69.63,
+    "or_high": 69.6,
+    "or_low": 67.99,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 117,
+  "n_hits": 126,
   "entries": 1,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -6.086769817420796,
   "days": 5
  },
- "intraday_max_drawdown": -0.06408516358863403,
+ "intraday_max_drawdown": -0.06741223859228285,
  "trades": [
   {
    "date": "2026-11-05",
@@ -775,6 +775,23 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793977800,
+   "et": "2026-11-06 10:10",
+   "kind": "busy",
+   "text": "9 more breakouts (BABA, CHTR, CMG, DASH, DUK, LMT, SE, SONY ...) not taken: already in MU (one trade at a time)",
+   "symbols": [
+    "BABA",
+    "CHTR",
+    "CMG",
+    "DASH",
+    "DUK",
+    "LMT",
+    "SE",
+    "SONY",
+    "UBER"
+   ]
+  },
   {
    "ts": 1793977500,
    "et": "2026-11-06 10:05",
@@ -1765,16 +1782,6 @@
    "text": "1 more breakout (VLO) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "VLO"
-   ]
-  },
-  {
-   "ts": 1793723400,
-   "et": "2026-11-03 11:30",
-   "kind": "busy",
-   "text": "2 more breakouts (CMG, SO) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "CMG",
-    "SO"
    ]
   }
  ],
@@ -3213,6 +3220,11 @@
    "ts": 1793977631,
    "equity": 9426.45,
    "spy": 9728.29
+  },
+  {
+   "ts": 1793978032,
+   "equity": 9392.94,
+   "spy": 9729.08
   }
  ],
  "daily": [
@@ -3242,6 +3254,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793978032,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.7,
+   "errors": [],
+   "run_id": "42241056443",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793977631,
    "phase": "open",
@@ -3631,25 +3653,15 @@
    "errors": [],
    "run_id": "42086212485",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793903619,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.9,
-   "errors": [],
-   "run_id": "42085375217",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793977631,
+  "tick_at": 1793978032,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793977643,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1793978045,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
