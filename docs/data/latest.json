@@ -1,7 +1,7 @@
 {
- "updated": 1793933242,
- "updated_et": "2026-11-05 21:47 ET",
- "phase": "after-close",
+ "updated": 1793953057,
+ "updated_et": "2026-11-06 03:17 ET",
+ "phase": "pre-open",
  "paper": true,
  "version": "orb-v1",
  "account": {
@@ -20,339 +20,10 @@
  "position": null,
  "pending": null,
  "today": {
-  "date": "2026-11-05",
-  "hits": [
-   {
-    "symbol": "DUK",
-    "at": "09:50",
-    "price": 132.39,
-    "or_high": 132.24,
-    "or_low": 130.49,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "FANG",
-    "at": "09:50",
-    "price": 186.2,
-    "or_high": 186.15,
-    "or_low": 182.59,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "JNJ",
-    "at": "09:50",
-    "price": 279.65,
-    "or_high": 279.33,
-    "or_low": 276.77,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "PFE",
-    "at": "09:50",
-    "price": 31.3,
-    "or_high": 31.22,
-    "or_low": 31.01,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "QCOM",
-    "at": "09:50",
-    "price": 157.77,
-    "or_high": 157.5,
-    "or_low": 149.09,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "APP",
-    "at": "09:55",
-    "price": 362.44,
-    "or_high": 360.5,
-    "or_low": 338.88,
-    "pct_over": 0.54
-   },
-   {
-    "symbol": "CMCSA",
-    "at": "09:55",
-    "price": 25.21,
-    "or_high": 25.11,
-    "or_low": 24.85,
-    "pct_over": 0.37
-   },
-   {
-    "symbol": "COP",
-    "at": "09:55",
-    "price": 140.3,
-    "or_high": 140.12,
-    "or_low": 138.08,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "GD",
-    "at": "09:55",
-    "price": 369.71,
-    "or_high": 368.65,
-    "or_low": 362.55,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "PG",
-    "at": "09:55",
-    "price": 169.84,
-    "or_high": 169.57,
-    "or_low": 168.66,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "YUM",
-    "at": "09:55",
-    "price": 167.27,
-    "or_high": 167.1,
-    "or_low": 166.24,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "ABBV",
-    "at": "10:00",
-    "price": 299.92,
-    "or_high": 299.39,
-    "or_low": 295.2,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "AEP",
-    "at": "10:00",
-    "price": 131.08,
-    "or_high": 130.95,
-    "or_low": 130.12,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "BMY",
-    "at": "10:00",
-    "price": 65.04,
-    "or_high": 65.01,
-    "or_low": 64.25,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "ELV",
-    "at": "10:00",
-    "price": 446.46,
-    "or_high": 444.88,
-    "or_low": 437.73,
-    "pct_over": 0.36
-   },
-   {
-    "symbol": "LLY",
-    "at": "10:00",
-    "price": 1443.91,
-    "or_high": 1438.0,
-    "or_low": 1417.72,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "LMT",
-    "at": "10:00",
-    "price": 594.89,
-    "or_high": 594.51,
-    "or_low": 584.85,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "MRK",
-    "at": "10:00",
-    "price": 152.51,
-    "or_high": 152.34,
-    "or_low": 150.55,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "PEP",
-    "at": "10:00",
-    "price": 144.35,
-    "or_high": 144.18,
-    "or_low": 142.76,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "T",
-    "at": "10:00",
-    "price": 22.16,
-    "or_high": 22.11,
-    "or_low": 21.97,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "TM",
-    "at": "10:00",
-    "price": 220.47,
-    "or_high": 220.0,
-    "or_low": 216.79,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "TMUS",
-    "at": "10:00",
-    "price": 161.6,
-    "or_high": 161.23,
-    "or_low": 159.4,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "VZ",
-    "at": "10:00",
-    "price": 46.88,
-    "or_high": 46.81,
-    "or_low": 46.45,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "HUM",
-    "at": "10:05",
-    "price": 422.86,
-    "or_high": 420.83,
-    "or_low": 413.92,
-    "pct_over": 0.48
-   },
-   {
-    "symbol": "MPC",
-    "at": "10:05",
-    "price": 396.73,
-    "or_high": 393.32,
-    "or_low": 386.0,
-    "pct_over": 0.87
-   },
-   {
-    "symbol": "NOC",
-    "at": "10:05",
-    "price": 532.78,
-    "or_high": 531.52,
-    "or_low": 520.08,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "OXY",
-    "at": "10:05",
-    "price": 58.42,
-    "or_high": 58.24,
-    "or_low": 57.56,
-    "pct_over": 0.32
-   },
-   {
-    "symbol": "COST",
-    "at": "10:10",
-    "price": 1073.4,
-    "or_high": 1072.07,
-    "or_low": 1061.33,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "DOCU",
-    "at": "10:10",
-    "price": 81.21,
-    "or_high": 80.82,
-    "or_low": 78.48,
-    "pct_over": 0.48
-   },
-   {
-    "symbol": "KO",
-    "at": "10:10",
-    "price": 97.19,
-    "or_high": 96.94,
-    "or_low": 95.65,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "MCD",
-    "at": "10:10",
-    "price": 281.33,
-    "or_high": 281.0,
-    "or_low": 277.5,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "SO",
-    "at": "10:10",
-    "price": 95.11,
-    "or_high": 94.7,
-    "or_low": 93.53,
-    "pct_over": 0.43
-   },
-   {
-    "symbol": "REGN",
-    "at": "10:15",
-    "price": 947.96,
-    "or_high": 947.1,
-    "or_low": 938.01,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "EOG",
-    "at": "10:20",
-    "price": 150.35,
-    "or_high": 150.09,
-    "or_low": 148.01,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "DVN",
-    "at": "10:30",
-    "price": 44.98,
-    "or_high": 44.91,
-    "or_low": 44.38,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "XOM",
-    "at": "10:45",
-    "price": 172.76,
-    "or_high": 172.7,
-    "or_low": 170.5,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "ADBE",
-    "at": "11:00",
-    "price": 251.69,
-    "or_high": 251.32,
-    "or_low": 244.15,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "CVX",
-    "at": "11:10",
-    "price": 221.91,
-    "or_high": 221.58,
-    "or_low": 218.28,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "U",
-    "at": "13:15",
-    "price": 48.64,
-    "or_high": 48.56,
-    "or_low": 44.82,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "RIOT",
-    "at": "14:45",
-    "price": 15.14,
-    "or_high": 15.07,
-    "or_low": 14.33,
-    "pct_over": 0.46
-   },
-   {
-    "symbol": "CHTR",
-    "at": "15:25",
-    "price": 123.22,
-    "or_high": 122.99,
-    "or_low": 120.81,
-    "pct_over": 0.19
-   }
-  ],
-  "n_hits": 41,
-  "entries": 3,
+  "date": null,
+  "hits": [],
+  "n_hits": 0,
+  "entries": 0,
   "max_trades": 3
  },
  "next_move": "Market closed. Next open: Fri Nov 6, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
@@ -2928,6 +2599,16 @@
  ],
  "runs": [
   {
+   "ts": 1793953057,
+   "phase": "pre-open",
+   "status": "ok",
+   "bars": 0,
+   "secs": 0.0,
+   "errors": [],
+   "run_id": "42186605215",
+   "event": "workflow_dispatch"
+  },
+  {
    "ts": 1793933242,
    "phase": "after-close",
    "status": "ok",
@@ -3316,20 +2997,10 @@
    "errors": [],
    "run_id": "42077006326",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793900159,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.9,
-   "errors": [],
-   "run_id": "42076164342",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793933242,
+  "tick_at": 1793953057,
   "data_ok": null,
   "data_failed": 0,
   "yahoo_time": null,
