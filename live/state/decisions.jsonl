@@ -132,3 +132,4 @@
 {"ts": 1793978100, "et": "2026-11-06 10:15", "kind": "fill", "text": "BUY 13 MSFT filled at $533.80 (next bar's open $533.69 + slippage). Stop $528.52, target $538.92", "symbol": "MSFT"}
 {"ts": 1793978400, "et": "2026-11-06 10:20", "kind": "busy", "text": "4 more breakouts (AAL, BX, ENPH, RIVN) not taken: already in MSFT (one trade at a time)", "symbols": ["AAL", "BX", "ENPH", "RIVN"]}
 {"ts": 1793978700, "et": "2026-11-06 10:25", "kind": "busy", "text": "5 more breakouts (AEP, BSX, QCOM, REGN, VRTX) not taken: already in MSFT (one trade at a time)", "symbols": ["AEP", "BSX", "QCOM", "REGN", "VRTX"]}
+{"ts": 1793979300, "et": "2026-11-06 10:35", "kind": "busy", "text": "1 more breakout (SO) not taken: already in MSFT (one trade at a time)", "symbols": ["SO"]}
