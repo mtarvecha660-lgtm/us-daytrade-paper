@@ -1,5 +1,5 @@
 {
- "cash": 9459.6409,
+ "cash": 5147.7187,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -225,11 +225,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793976600,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1793976900,
+  "position": {
    "symbol": "MU",
    "qty": 6,
+   "entry_fill": 718.6537,
+   "entry_ts": 1793976600,
    "plan": {
     "symbol": "MU",
     "side": "buy",
@@ -241,7 +242,8 @@
     "target": 733.42,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 718.510009765625
    },
    "why": {
     "scanner": "MU: the 09:45 bar closed at $718.30, above the 15-min opening range high $717.70 (range 688.67-717.70)",
@@ -250,9 +252,9 @@
     "risk": "trader-risk PASS: entry 718.30 (the plan's entry), stop 703.18, target 733.42: risk 15.12 a share; max loss $90.72 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1793976600,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -262,12 +264,58 @@
     "kind": "entry",
     "max_loss": 90.72,
     "at": "2026-11-06T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-06",
+    "symbol": "MU",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 6
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 73,
-  "missed": [],
+  "triggers_seen": 110,
+  "missed": [
+   "AAPL",
+   "ABBV",
+   "APP",
+   "AXP",
+   "BIIB",
+   "BMY",
+   "CMCSA",
+   "COST",
+   "DG",
+   "DIS",
+   "DLTR",
+   "DXCM",
+   "GILD",
+   "HD",
+   "HLT",
+   "JD",
+   "KO",
+   "LOW",
+   "LULU",
+   "MCD",
+   "MMM",
+   "MRK",
+   "MRNA",
+   "PDD",
+   "PEP",
+   "PNC",
+   "SBUX",
+   "SHOP",
+   "SPOT",
+   "T",
+   "TGT",
+   "TM",
+   "TMUS",
+   "VZ",
+   "WMT",
+   "XPEV",
+   "YUM"
+  ],
   "triggered": [
    "AFRM",
    "AMD",
@@ -341,7 +389,44 @@
    "W",
    "WFC",
    "XOM",
-   "ZM"
+   "ZM",
+   "AAPL",
+   "ABBV",
+   "APP",
+   "AXP",
+   "BIIB",
+   "BMY",
+   "CMCSA",
+   "COST",
+   "DG",
+   "DIS",
+   "DLTR",
+   "DXCM",
+   "GILD",
+   "HD",
+   "HLT",
+   "JD",
+   "KO",
+   "LOW",
+   "LULU",
+   "MCD",
+   "MMM",
+   "MRK",
+   "MRNA",
+   "PDD",
+   "PEP",
+   "PNC",
+   "SBUX",
+   "SHOP",
+   "SPOT",
+   "T",
+   "TGT",
+   "TM",
+   "TMUS",
+   "VZ",
+   "WMT",
+   "XPEV",
+   "YUM"
   ],
   "hits": [
    {
@@ -927,6 +1012,302 @@
     "or_high": 89.35,
     "or_low": 87.73,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "AAPL",
+    "at": "09:55",
+    "price": 343.3,
+    "or_high": 341.68,
+    "or_low": 338.3,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "ABBV",
+    "at": "09:55",
+    "price": 288.15,
+    "or_high": 286.99,
+    "or_low": 281.07,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "APP",
+    "at": "09:55",
+    "price": 373.47,
+    "or_high": 367.88,
+    "or_low": 348.95,
+    "pct_over": 1.52
+   },
+   {
+    "symbol": "AXP",
+    "at": "09:55",
+    "price": 324.11,
+    "or_high": 324.0,
+    "or_low": 319.2,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "BIIB",
+    "at": "09:55",
+    "price": 245.65,
+    "or_high": 244.09,
+    "or_low": 240.0,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "BMY",
+    "at": "09:55",
+    "price": 62.36,
+    "or_high": 62.24,
+    "or_low": 61.32,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 24.47,
+    "or_high": 24.39,
+    "or_low": 24.08,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "COST",
+    "at": "09:55",
+    "price": 1056.39,
+    "or_high": 1051.07,
+    "or_low": 1043.0,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "DG",
+    "at": "09:55",
+    "price": 136.96,
+    "or_high": 136.31,
+    "or_low": 134.16,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:55",
+    "price": 115.97,
+    "or_high": 115.79,
+    "or_low": 113.79,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "DLTR",
+    "at": "09:55",
+    "price": 136.44,
+    "or_high": 136.39,
+    "or_low": 134.08,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "DXCM",
+    "at": "09:55",
+    "price": 82.76,
+    "or_high": 82.73,
+    "or_low": 81.67,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "GILD",
+    "at": "09:55",
+    "price": 167.58,
+    "or_high": 166.66,
+    "or_low": 164.0,
+    "pct_over": 0.55
+   },
+   {
+    "symbol": "HD",
+    "at": "09:55",
+    "price": 342.5,
+    "or_high": 341.77,
+    "or_low": 338.12,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "HLT",
+    "at": "09:55",
+    "price": 369.92,
+    "or_high": 368.37,
+    "or_low": 365.27,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "JD",
+    "at": "09:55",
+    "price": 29.0,
+    "or_high": 28.97,
+    "or_low": 28.58,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "KO",
+    "at": "09:55",
+    "price": 94.55,
+    "or_high": 94.16,
+    "or_low": 93.05,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "LOW",
+    "at": "09:55",
+    "price": 222.93,
+    "or_high": 222.26,
+    "or_low": 220.32,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "LULU",
+    "at": "09:55",
+    "price": 111.22,
+    "or_high": 110.89,
+    "or_low": 107.55,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MCD",
+    "at": "09:55",
+    "price": 272.87,
+    "or_high": 271.83,
+    "or_low": 269.12,
+    "pct_over": 0.38
+   },
+   {
+    "symbol": "MMM",
+    "at": "09:55",
+    "price": 185.88,
+    "or_high": 185.63,
+    "or_low": 183.59,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MRK",
+    "at": "09:55",
+    "price": 146.11,
+    "or_high": 145.84,
+    "or_low": 142.8,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "MRNA",
+    "at": "09:55",
+    "price": 260.19,
+    "or_high": 257.07,
+    "or_low": 237.86,
+    "pct_over": 1.22
+   },
+   {
+    "symbol": "PDD",
+    "at": "09:55",
+    "price": 83.92,
+    "or_high": 83.61,
+    "or_low": 82.25,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "PEP",
+    "at": "09:55",
+    "price": 140.16,
+    "or_high": 139.95,
+    "or_low": 138.3,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "PNC",
+    "at": "09:55",
+    "price": 226.99,
+    "or_high": 226.81,
+    "or_low": 224.36,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "SBUX",
+    "at": "09:55",
+    "price": 104.77,
+    "or_high": 104.29,
+    "or_low": 102.68,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "SHOP",
+    "at": "09:55",
+    "price": 147.52,
+    "or_high": 147.11,
+    "or_low": 142.98,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:55",
+    "price": 604.29,
+    "or_high": 602.59,
+    "or_low": 589.5,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "T",
+    "at": "09:55",
+    "price": 21.58,
+    "or_high": 21.56,
+    "or_low": 21.23,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "TGT",
+    "at": "09:55",
+    "price": 157.8,
+    "or_high": 157.19,
+    "or_low": 154.79,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "TM",
+    "at": "09:55",
+    "price": 214.36,
+    "or_high": 214.02,
+    "or_low": 210.67,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TMUS",
+    "at": "09:55",
+    "price": 158.82,
+    "or_high": 158.52,
+    "or_low": 155.57,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "VZ",
+    "at": "09:55",
+    "price": 45.69,
+    "or_high": 45.54,
+    "or_low": 45.0,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:55",
+    "price": 125.36,
+    "or_high": 124.74,
+    "or_low": 123.04,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "XPEV",
+    "at": "09:55",
+    "price": 10.01,
+    "or_high": 10.01,
+    "or_low": 9.9,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:55",
+    "price": 163.82,
+    "or_high": 163.19,
+    "or_low": 161.01,
+    "pct_over": 0.38
    }
   ]
  },
@@ -934,8 +1315,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.5499877929688,
-  "last_ts": 1793976600
+  "last": 740.844970703125,
+  "last_ts": 1793976900
  },
  "seen_trades": 0,
  "daily": [
