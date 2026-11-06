@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793979600,
+  "last_bar_end": 1793979900,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 148,
+  "triggers_seen": 149,
   "missed": [
    "AAPL",
    "ABBV",
@@ -389,7 +389,8 @@
    "QCOM",
    "REGN",
    "VRTX",
-   "SO"
+   "SO",
+   "AMZN"
   ],
   "triggered": [
    "AFRM",
@@ -539,7 +540,8 @@
    "QCOM",
    "REGN",
    "VRTX",
-   "SO"
+   "SO",
+   "AMZN"
   ],
   "hits": [
    {
@@ -1725,6 +1727,14 @@
     "or_high": 92.29,
     "or_low": 91.09,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:45",
+    "price": 263.67,
+    "or_high": 263.55,
+    "or_low": 258.63,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1732,8 +1742,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 738.1199951171875,
-  "last_ts": 1793979600
+  "last": 738.6699829101562,
+  "last_ts": 1793979900
  },
  "seen_trades": 0,
  "daily": [

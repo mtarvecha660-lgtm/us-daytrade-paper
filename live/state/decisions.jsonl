@@ -133,3 +133,4 @@
 {"ts": 1793978400, "et": "2026-11-06 10:20", "kind": "busy", "text": "4 more breakouts (AAL, BX, ENPH, RIVN) not taken: already in MSFT (one trade at a time)", "symbols": ["AAL", "BX", "ENPH", "RIVN"]}
 {"ts": 1793978700, "et": "2026-11-06 10:25", "kind": "busy", "text": "5 more breakouts (AEP, BSX, QCOM, REGN, VRTX) not taken: already in MSFT (one trade at a time)", "symbols": ["AEP", "BSX", "QCOM", "REGN", "VRTX"]}
 {"ts": 1793979300, "et": "2026-11-06 10:35", "kind": "busy", "text": "1 more breakout (SO) not taken: already in MSFT (one trade at a time)", "symbols": ["SO"]}
+{"ts": 1793979900, "et": "2026-11-06 10:45", "kind": "busy", "text": "1 more breakout (AMZN) not taken: already in MSFT (one trade at a time)", "symbols": ["AMZN"]}
