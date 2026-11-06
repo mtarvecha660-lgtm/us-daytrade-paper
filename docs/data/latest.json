@@ -1,21 +1,21 @@
 {
- "updated": 1793984180,
- "updated_et": "2026-11-06 11:56 ET",
+ "updated": 1793984493,
+ "updated_et": "2026-11-06 12:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9398.47,
-  "return": -0.06015300000000001,
+  "equity": 9395.02,
+  "return": -0.06049799999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9748.23,
-  "return": -0.025177000000000005,
+  "value": 9745.67,
+  "return": -0.02543300000000004,
   "start_price": 759.47998046875,
-  "last": 740.655029296875
+  "last": 740.4600219726562
  },
  "position": {
   "symbol": "MSFT",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "SBUX",
-    "at": "09:55",
-    "price": 104.77,
-    "or_high": 104.29,
-    "or_low": 102.68,
-    "pct_over": 0.46
-   },
    {
     "symbol": "SHOP",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 52.5,
     "or_low": 49.07,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "RIOT",
+    "at": "12:00",
+    "price": 16.55,
+    "or_high": 16.4,
+    "or_low": 14.87,
+    "pct_over": 0.91
    }
   ],
-  "n_hits": 159,
+  "n_hits": 160,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793984400,
+   "et": "2026-11-06 12:00",
+   "kind": "busy",
+   "text": "1 more breakout (RIOT) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "RIOT"
+   ]
+  },
   {
    "ts": 1793984100,
    "et": "2026-11-06 11:55",
@@ -1783,53 +1792,6 @@
    "kind": "fill",
    "text": "BUY 5 AMD filled at $510.13 (next bar's open $510.03 + slippage). Stop $492.29, target $528.01",
    "symbol": "AMD"
-  },
-  {
-   "ts": 1793803800,
-   "et": "2026-11-04 09:50",
-   "kind": "order",
-   "text": "BUY 5 AMD at market (decided on the 09:50 close). opening-range breakout on AMD: 5 shares, bound by your $100 max loss per trade (5 x 17.86 = $89.30 at the stop) (limits: max loss 5; position cap 14; max order 15; cash 17)",
-   "symbol": "AMD",
-   "why": {
-    "scanner": "AMD: the 09:45 bar closed at $510.15, above the 15-min opening range high $508.08 (range 476.50-508.08)",
-    "exit": "plan: entry $510.15, stop $492.29 (opening-range midpoint), target $528.01 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on AMD: 5 shares, bound by your $100 max loss per trade (5 x 17.86 = $89.30 at the stop) (limits: max loss 5; position cap 14; max order 15; cash 17)",
-    "risk": "trader-risk PASS: entry 510.15 (the latest price), stop 492.29, target 528.01: risk 17.86 a share; max loss $89.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "PLTR",
-    "MSTR",
-    "ANET",
-    "UNH",
-    "MRNA",
-    "CRWD",
-    "WMT",
-    "NFLX",
-    "BABA",
-    "HOOD",
-    "COIN",
-    "PANW",
-    "CSCO",
-    "SWKS",
-    "TMUS",
-    "PYPL",
-    "SBUX",
-    "ABNB",
-    "ELV",
-    "LYFT",
-    "FANG",
-    "ZS",
-    "HPQ",
-    "EBAY",
-    "UPST",
-    "ROKU",
-    "ETSY",
-    "SONY",
-    "GME",
-    "ZM",
-    "AI"
-   ]
   }
  ],
  "equity": [
@@ -3352,6 +3314,11 @@
    "ts": 1793984180,
    "equity": 9398.47,
    "spy": 9748.23
+  },
+  {
+   "ts": 1793984493,
+   "equity": 9395.02,
+   "spy": 9745.67
   }
  ],
  "daily": [
@@ -3381,6 +3348,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793984493,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.9,
+   "errors": [],
+   "run_id": "42257759581",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793984180,
    "phase": "open",
@@ -3770,29 +3747,19 @@
    "errors": [],
    "run_id": "42103540962",
    "event": "schedule"
-  },
-  {
-   "ts": 1793910300,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.3,
-   "errors": [],
-   "run_id": "42103138070",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793984180,
+  "tick_at": 1793984493,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793984190,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1793984499,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
