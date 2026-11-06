@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793990400,
+  "last_bar_end": 1793991000,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 163,
+  "triggers_seen": 164,
   "missed": [
    "AAPL",
    "ABBV",
@@ -404,7 +404,8 @@
    "RIOT",
    "CHWY",
    "MARA",
-   "UNH"
+   "UNH",
+   "INTC"
   ],
   "triggered": [
    "AFRM",
@@ -569,7 +570,8 @@
    "RIOT",
    "CHWY",
    "MARA",
-   "UNH"
+   "UNH",
+   "INTC"
   ],
   "hits": [
    {
@@ -1875,6 +1877,14 @@
     "or_high": 395.86,
     "or_low": 388.0,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "INTC",
+    "at": "13:50",
+    "price": 56.65,
+    "or_high": 56.6,
+    "or_low": 54.56,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1882,8 +1892,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 737.9199829101562,
-  "last_ts": 1793990400
+  "last": 738.47998046875,
+  "last_ts": 1793991000
  },
  "seen_trades": 0,
  "daily": [
