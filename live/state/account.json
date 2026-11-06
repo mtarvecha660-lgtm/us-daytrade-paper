@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793981100,
+  "last_bar_end": 1793981400,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 153,
+  "triggers_seen": 154,
   "missed": [
    "AAPL",
    "ABBV",
@@ -394,7 +394,8 @@
    "META",
    "ADBE",
    "NFLX",
-   "DOCU"
+   "DOCU",
+   "SYK"
   ],
   "triggered": [
    "AFRM",
@@ -549,7 +550,8 @@
    "META",
    "ADBE",
    "NFLX",
-   "DOCU"
+   "DOCU",
+   "SYK"
   ],
   "hits": [
    {
@@ -1775,6 +1777,14 @@
     "or_high": 77.99,
     "or_low": 76.28,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "SYK",
+    "at": "11:10",
+    "price": 327.36,
+    "or_high": 326.85,
+    "or_low": 322.59,
+    "pct_over": 0.16
    }
   ]
  },
@@ -1782,8 +1792,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.25,
-  "last_ts": 1793981100
+  "last": 739.280029296875,
+  "last_ts": 1793981400
  },
  "seen_trades": 0,
  "daily": [

@@ -1,21 +1,21 @@
 {
- "updated": 1793981345,
- "updated_et": "2026-11-06 11:09 ET",
+ "updated": 1793981659,
+ "updated_et": "2026-11-06 11:14 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9387.5,
-  "return": -0.06125000000000003,
+  "equity": 9381.11,
+  "return": -0.06188899999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9729.74,
-  "return": -0.027025999999999994,
+  "value": 9730.14,
+  "return": -0.026986000000000065,
   "start_price": 759.47998046875,
-  "last": 739.25
+  "last": 739.280029296875
  },
  "position": {
   "symbol": "MSFT",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "MMM",
-    "at": "09:55",
-    "price": 185.88,
-    "or_high": 185.63,
-    "or_low": 183.59,
-    "pct_over": 0.13
-   },
    {
     "symbol": "MRK",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 77.99,
     "or_low": 76.28,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "SYK",
+    "at": "11:10",
+    "price": 327.36,
+    "or_high": 326.85,
+    "or_low": 322.59,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 153,
+  "n_hits": 154,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793981400,
+   "et": "2026-11-06 11:10",
+   "kind": "busy",
+   "text": "1 more breakout (SYK) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "SYK"
+   ]
+  },
   {
    "ts": 1793981100,
    "et": "2026-11-06 11:05",
@@ -1819,15 +1828,6 @@
    "symbols": [
     "EBAY",
     "SE"
-   ]
-  },
-  {
-   "ts": 1793729700,
-   "et": "2026-11-03 13:15",
-   "kind": "busy",
-   "text": "1 more breakout (GOOGL) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "GOOGL"
    ]
   }
  ],
@@ -3311,6 +3311,11 @@
    "ts": 1793981345,
    "equity": 9387.5,
    "spy": 9729.74
+  },
+  {
+   "ts": 1793981659,
+   "equity": 9381.11,
+   "spy": 9730.14
   }
  ],
  "daily": [
@@ -3340,6 +3345,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793981659,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.0,
+   "errors": [],
+   "run_id": "42250446310",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793981345,
    "phase": "open",
@@ -3729,25 +3744,15 @@
    "errors": [],
    "run_id": "42096427946",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793907105,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.7,
-   "errors": [],
-   "run_id": "42094704883",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793981345,
+  "tick_at": 1793981659,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793981351,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1793981667,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
