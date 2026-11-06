@@ -1,6 +1,6 @@
 {
- "updated": 1793976057,
- "updated_et": "2026-11-06 09:40 ET",
+ "updated": 1793976371,
+ "updated_et": "2026-11-06 09:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9682.75,
-  "return": -0.031725,
+  "value": 9723.69,
+  "return": -0.02763099999999996,
   "start_price": 759.47998046875,
-  "last": 735.6799926757812
+  "last": 738.7899780273438
  },
  "position": null,
  "pending": null,
@@ -26,7 +26,7 @@
   "entries": 0,
   "max_trades": 3
  },
- "next_move": "The opening range is still forming (9:30-9:45 AM ET). Watching from the 9:50 bar close.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
  "stats": {
   "trades": 9,
   "wins": 1,
@@ -2584,6 +2584,11 @@
    "ts": 1793976057,
    "equity": 9459.64,
    "spy": 9682.75
+  },
+  {
+   "ts": 1793976371,
+   "equity": 9459.64,
+   "spy": 9723.69
   }
  ],
  "daily": [
@@ -2613,6 +2618,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793976371,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 5.8,
+   "errors": [],
+   "run_id": "42236844464",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793976057,
    "phase": "open",
@@ -3002,23 +3017,13 @@
    "errors": [],
    "run_id": "42082003130",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793902051,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.0,
-   "errors": [],
-   "run_id": "42081171543",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793976057,
+  "tick_at": 1793976371,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793976061,
+  "yahoo_time": 1793976376,
   "candidates": 1,
   "charts_fetched": 2,
   "ok": true,
