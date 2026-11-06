@@ -1,21 +1,21 @@
 {
- "updated": 1793995131,
- "updated_et": "2026-11-06 14:58 ET",
+ "updated": 1793995444,
+ "updated_et": "2026-11-06 15:04 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9342.28,
-  "return": -0.06577199999999994,
+  "equity": 9347.45,
+  "return": -0.06525499999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9701.84,
-  "return": -0.029815999999999954,
+  "value": 9713.95,
+  "return": -0.02860499999999988,
   "start_price": 759.47998046875,
-  "last": 737.1300048828125
+  "last": 738.0499877929688
  },
  "position": {
   "symbol": "MSFT",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "VZ",
-    "at": "09:55",
-    "price": 45.69,
-    "or_high": 45.54,
-    "or_low": 45.0,
-    "pct_over": 0.33
-   },
    {
     "symbol": "WMT",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 449.78,
     "or_low": 441.49,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "CLSK",
+    "at": "15:00",
+    "price": 6.14,
+    "or_high": 6.11,
+    "or_low": 5.7,
+    "pct_over": 0.49
    }
   ],
-  "n_hits": 166,
+  "n_hits": 167,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793995200,
+   "et": "2026-11-06 15:00",
+   "kind": "busy",
+   "text": "1 more breakout (CLSK) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "CLSK"
+   ]
+  },
   {
    "ts": 1793993100,
    "et": "2026-11-06 14:25",
@@ -1728,28 +1737,6 @@
     "OKTA",
     "SCHW",
     "VZ"
-   ]
-  },
-  {
-   "ts": 1793805300,
-   "et": "2026-11-04 10:15",
-   "kind": "busy",
-   "text": "14 more breakouts (AMAT, BB, CDNS, CRM, DLTR, ISRG, LRCX, MDB ...) not taken: already in AMD (one trade at a time)",
-   "symbols": [
-    "AMAT",
-    "BB",
-    "CDNS",
-    "CRM",
-    "DLTR",
-    "ISRG",
-    "LRCX",
-    "MDB",
-    "NKE",
-    "PATH",
-    "QBTS",
-    "RGTI",
-    "RKT",
-    "TOST"
    ]
   }
  ],
@@ -3443,6 +3430,11 @@
    "ts": 1793995131,
    "equity": 9342.28,
    "spy": 9701.84
+  },
+  {
+   "ts": 1793995444,
+   "equity": 9347.45,
+   "spy": 9713.95
   }
  ],
  "daily": [
@@ -3472,6 +3464,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793995444,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.0,
+   "errors": [],
+   "run_id": "42285092784",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793995131,
    "phase": "open",
@@ -3861,25 +3863,15 @@
    "errors": [],
    "run_id": "42253765585",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793982611,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 8.3,
-   "errors": [],
-   "run_id": "42252926309",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793995131,
+  "tick_at": 1793995444,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793995136,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1793995450,
+  "candidates": 13,
+  "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,

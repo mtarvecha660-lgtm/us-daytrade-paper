@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793994900,
+  "last_bar_end": 1793995200,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 166,
+  "triggers_seen": 167,
   "missed": [
    "AAPL",
    "ABBV",
@@ -407,7 +407,8 @@
    "UNH",
    "INTC",
    "CDNS",
-   "SNPS"
+   "SNPS",
+   "CLSK"
   ],
   "triggered": [
    "AFRM",
@@ -575,7 +576,8 @@
    "UNH",
    "INTC",
    "CDNS",
-   "SNPS"
+   "SNPS",
+   "CLSK"
   ],
   "hits": [
    {
@@ -1905,6 +1907,14 @@
     "or_high": 449.78,
     "or_low": 441.49,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "CLSK",
+    "at": "15:00",
+    "price": 6.14,
+    "or_high": 6.11,
+    "or_low": 5.7,
+    "pct_over": 0.49
    }
   ]
  },
@@ -1912,8 +1922,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 737.1300048828125,
-  "last_ts": 1793994900
+  "last": 738.0499877929688,
+  "last_ts": 1793995200
  },
  "seen_trades": 0,
  "daily": [
