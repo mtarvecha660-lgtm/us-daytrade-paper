@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793992800,
+  "last_bar_end": 1793993100,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 165,
+  "triggers_seen": 166,
   "missed": [
    "AAPL",
    "ABBV",
@@ -406,7 +406,8 @@
    "MARA",
    "UNH",
    "INTC",
-   "CDNS"
+   "CDNS",
+   "SNPS"
   ],
   "triggered": [
    "AFRM",
@@ -573,7 +574,8 @@
    "MARA",
    "UNH",
    "INTC",
-   "CDNS"
+   "CDNS",
+   "SNPS"
   ],
   "hits": [
    {
@@ -1895,6 +1897,14 @@
     "or_high": 315.49,
     "or_low": 310.57,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "SNPS",
+    "at": "14:25",
+    "price": 450.39,
+    "or_high": 449.78,
+    "or_low": 441.49,
+    "pct_over": 0.14
    }
   ]
  },
@@ -1902,8 +1912,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 738.0700073242188,
-  "last_ts": 1793992800
+  "last": 738.0399780273438,
+  "last_ts": 1793993100
  },
  "seen_trades": 0,
  "daily": [
