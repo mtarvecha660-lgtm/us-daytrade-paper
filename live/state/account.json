@@ -1,5 +1,5 @@
 {
- "cash": 5147.7187,
+ "cash": 2426.5954,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -219,37 +219,61 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "MU",
+   "qty": 6,
+   "entry_et": "09:50",
+   "entry_fill": 718.6537,
+   "exit_et": "10:15",
+   "exit_fill": 703.0394,
+   "exit_reason": "stop $703.18 hit",
+   "stop": 703.18,
+   "target": 733.42,
+   "pnl": -93.69,
+   "r": -1.033,
+   "risk_usd": 90.72,
+   "cost_usd": 1.71,
+   "why": {
+    "scanner": "MU: the 09:45 bar closed at $718.30, above the 15-min opening range high $717.70 (range 688.67-717.70)",
+    "exit": "plan: entry $718.30, stop $703.18 (opening-range midpoint), target $733.42 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MU: 6 shares, bound by your $100 max loss per trade (6 x 15.12 = $90.72 at the stop) (limits: max loss 6; position cap 9; max order 11; cash 11)",
+    "risk": "trader-risk PASS: entry 718.30 (the plan's entry), stop 703.18, target 733.42: risk 15.12 a share; max loss $90.72 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
   }
  ],
  "decisions": [],
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793977800,
+  "last_bar_end": 1793978400,
   "position": {
-   "symbol": "MU",
-   "qty": 6,
-   "entry_fill": 718.6537,
-   "entry_ts": 1793976600,
+   "symbol": "MSFT",
+   "qty": 13,
+   "entry_fill": 533.7969,
+   "entry_ts": 1793978100,
    "plan": {
-    "symbol": "MU",
+    "symbol": "MSFT",
     "side": "buy",
     "setup": "orb",
     "date": "2026-11-06",
-    "entry_time": "9:50 AM",
-    "entry": 718.3,
-    "stop": 703.18,
-    "target": 733.42,
+    "entry_time": "10:15 AM",
+    "entry": 533.72,
+    "stop": 528.52,
+    "target": 538.92,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
     "flat_by": "15:55",
-    "entry_ref": 718.510009765625
+    "entry_ref": 533.690185546875
    },
    "why": {
-    "scanner": "MU: the 09:45 bar closed at $718.30, above the 15-min opening range high $717.70 (range 688.67-717.70)",
-    "exit": "plan: entry $718.30, stop $703.18 (opening-range midpoint), target $733.42 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on MU: 6 shares, bound by your $100 max loss per trade (6 x 15.12 = $90.72 at the stop) (limits: max loss 6; position cap 9; max order 11; cash 11)",
-    "risk": "trader-risk PASS: entry 718.30 (the plan's entry), stop 703.18, target 733.42: risk 15.12 a share; max loss $90.72 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "scanner": "MSFT: the 10:10 bar closed at $533.72, above the 15-min opening range high $532.44 (range 524.61-532.44)",
+    "exit": "plan: entry $533.72, stop $528.52 (opening-range midpoint), target $538.92 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.20 = $67.60 at the stop) (limits: max loss 19; position cap 13; max order 14; cash 15)",
+    "risk": "trader-risk PASS: entry 533.72 (the latest price), stop 528.52, target 538.92: risk 5.20 a share; max loss $67.60 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $90.72 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
@@ -272,11 +296,36 @@
     "side": "buy",
     "kind": "entry",
     "qty": 6
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-06",
+    "symbol": "MU",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 6
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-06",
+    "symbol": "MSFT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 67.6,
+    "at": "2026-11-06T10:15:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-06",
+    "symbol": "MSFT",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 13
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 126,
+  "triggers_seen": 142,
   "missed": [
    "AAPL",
    "ABBV",
@@ -330,7 +379,11 @@
    "LMT",
    "SE",
    "SONY",
-   "UBER"
+   "UBER",
+   "AAL",
+   "BX",
+   "ENPH",
+   "RIVN"
   ],
   "triggered": [
    "AFRM",
@@ -458,7 +511,23 @@
    "LMT",
    "SE",
    "SONY",
-   "UBER"
+   "UBER",
+   "BLK",
+   "D",
+   "DPZ",
+   "GME",
+   "MA",
+   "MSFT",
+   "NCLH",
+   "QBTS",
+   "RBLX",
+   "ROKU",
+   "TOST",
+   "USB",
+   "AAL",
+   "BX",
+   "ENPH",
+   "RIVN"
   ],
   "hits": [
    {
@@ -1468,6 +1537,134 @@
     "or_high": 69.6,
     "or_low": 67.99,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:15",
+    "price": 1185.49,
+    "or_high": 1181.99,
+    "or_low": 1155.52,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "D",
+    "at": "10:15",
+    "price": 69.07,
+    "or_high": 68.87,
+    "or_low": 67.83,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:15",
+    "price": 335.77,
+    "or_high": 334.42,
+    "or_low": 328.02,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "GME",
+    "at": "10:15",
+    "price": 24.36,
+    "or_high": 24.22,
+    "or_low": 23.85,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "MA",
+    "at": "10:15",
+    "price": 652.95,
+    "or_high": 652.78,
+    "or_low": 638.01,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:15",
+    "price": 533.72,
+    "or_high": 532.44,
+    "or_low": 524.61,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "NCLH",
+    "at": "10:15",
+    "price": 17.99,
+    "or_high": 17.85,
+    "or_low": 17.52,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:15",
+    "price": 9.81,
+    "or_high": 9.7,
+    "or_low": 9.21,
+    "pct_over": 1.08
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:15",
+    "price": 48.27,
+    "or_high": 48.19,
+    "or_low": 46.86,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "ROKU",
+    "at": "10:15",
+    "price": 161.26,
+    "or_high": 160.77,
+    "or_low": 158.82,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:15",
+    "price": 35.37,
+    "or_high": 35.24,
+    "or_low": 34.5,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "USB",
+    "at": "10:15",
+    "price": 59.85,
+    "or_high": 59.59,
+    "or_low": 58.99,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "AAL",
+    "at": "10:20",
+    "price": 13.27,
+    "or_high": 13.23,
+    "or_low": 12.97,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "BX",
+    "at": "10:20",
+    "price": 120.29,
+    "or_high": 120.23,
+    "or_low": 118.05,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:20",
+    "price": 29.81,
+    "or_high": 29.8,
+    "or_low": 28.8,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:20",
+    "price": 13.43,
+    "or_high": 13.42,
+    "or_low": 13.13,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1475,8 +1672,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.2000122070312,
-  "last_ts": 1793977800
+  "last": 740.6690063476562,
+  "last_ts": 1793978400
  },
  "seen_trades": 0,
  "daily": [
