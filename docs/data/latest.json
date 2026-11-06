@@ -1,21 +1,21 @@
 {
- "updated": 1793980383,
- "updated_et": "2026-11-06 10:53 ET",
+ "updated": 1793980696,
+ "updated_et": "2026-11-06 10:58 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9382.55,
-  "return": -0.06174500000000005,
+  "equity": 9385.92,
+  "return": -0.06140800000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9741.65,
-  "return": -0.025835000000000052,
+  "value": 9744.35,
+  "return": -0.02556499999999995,
   "start_price": 759.47998046875,
-  "last": 740.155029296875
+  "last": 740.3599853515625
  },
  "position": {
   "symbol": "MSFT",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "LOW",
-    "at": "09:55",
-    "price": 222.93,
-    "or_high": 222.26,
-    "or_low": 220.32,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "LULU",
-    "at": "09:55",
-    "price": 111.22,
-    "or_high": 110.89,
-    "or_low": 107.55,
-    "pct_over": 0.3
-   },
    {
     "symbol": "MCD",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 622.19,
     "or_low": 606.96,
     "pct_over": 0.25
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:55",
+    "price": 241.89,
+    "or_high": 240.94,
+    "or_low": 236.84,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "NFLX",
+    "at": "10:55",
+    "price": 64.23,
+    "or_high": 64.2,
+    "or_low": 63.46,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 150,
+  "n_hits": 152,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793980500,
+   "et": "2026-11-06 10:55",
+   "kind": "busy",
+   "text": "2 more breakouts (ADBE, NFLX) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "NFLX"
+   ]
+  },
   {
    "ts": 1793980200,
    "et": "2026-11-06 10:50",
@@ -1818,15 +1828,6 @@
    "text": "1 more breakout (AMZN) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "AMZN"
-   ]
-  },
-  {
-   "ts": 1793728800,
-   "et": "2026-11-03 13:00",
-   "kind": "busy",
-   "text": "1 more breakout (NU) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "NU"
    ]
   }
  ],
@@ -3300,6 +3301,11 @@
    "ts": 1793980383,
    "equity": 9382.55,
    "spy": 9741.65
+  },
+  {
+   "ts": 1793980696,
+   "equity": 9385.92,
+   "spy": 9744.35
   }
  ],
  "daily": [
@@ -3329,6 +3335,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793980696,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.1,
+   "errors": [],
+   "run_id": "42247935797",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793980383,
    "phase": "open",
@@ -3718,29 +3734,19 @@
    "errors": [],
    "run_id": "42093876537",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793906477,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.2,
-   "errors": [],
-   "run_id": "42093035914",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793980383,
+  "tick_at": 1793980696,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793980393,
-  "candidates": 13,
-  "charts_fetched": 15,
+  "yahoo_time": 1793980703,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
