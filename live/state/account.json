@@ -249,7 +249,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-06",
-  "last_bar_end": 1793986800,
+  "last_bar_end": 1793987400,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -325,7 +325,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 160,
+  "triggers_seen": 161,
   "missed": [
    "AAPL",
    "ABBV",
@@ -401,7 +401,8 @@
    "DUOL",
    "DHR",
    "U",
-   "RIOT"
+   "RIOT",
+   "CHWY"
   ],
   "triggered": [
    "AFRM",
@@ -563,7 +564,8 @@
    "DUOL",
    "DHR",
    "U",
-   "RIOT"
+   "RIOT",
+   "CHWY"
   ],
   "hits": [
    {
@@ -1845,6 +1847,14 @@
     "or_high": 16.4,
     "or_low": 14.87,
     "pct_over": 0.91
+   },
+   {
+    "symbol": "CHWY",
+    "at": "12:45",
+    "price": 22.56,
+    "or_high": 22.55,
+    "or_low": 22.21,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1852,8 +1862,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 737.0599975585938,
-  "last_ts": 1793986800
+  "last": 736.2899780273438,
+  "last_ts": 1793987400
  },
  "seen_trades": 0,
  "daily": [
