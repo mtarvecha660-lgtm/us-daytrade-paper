@@ -141,3 +141,4 @@
 {"ts": 1793982900, "et": "2026-11-06 11:35", "kind": "busy", "text": "1 more breakout (PATH) not taken: already in MSFT (one trade at a time)", "symbols": ["PATH"]}
 {"ts": 1793983200, "et": "2026-11-06 11:40", "kind": "busy", "text": "1 more breakout (BB) not taken: already in MSFT (one trade at a time)", "symbols": ["BB"]}
 {"ts": 1793983500, "et": "2026-11-06 11:45", "kind": "busy", "text": "1 more breakout (DUOL) not taken: already in MSFT (one trade at a time)", "symbols": ["DUOL"]}
+{"ts": 1793984100, "et": "2026-11-06 11:55", "kind": "busy", "text": "2 more breakouts (DHR, U) not taken: already in MSFT (one trade at a time)", "symbols": ["DHR", "U"]}

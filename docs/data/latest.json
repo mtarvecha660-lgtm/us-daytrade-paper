@@ -1,21 +1,21 @@
 {
- "updated": 1793983866,
- "updated_et": "2026-11-06 11:51 ET",
+ "updated": 1793984180,
+ "updated_et": "2026-11-06 11:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2426.6,
-  "equity": 9389.56,
-  "return": -0.0610440000000001,
+  "equity": 9398.47,
+  "return": -0.06015300000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9735.4,
-  "return": -0.02646000000000004,
+  "value": 9748.23,
+  "return": -0.025177000000000005,
   "start_price": 759.47998046875,
-  "last": 739.6799926757812
+  "last": 740.655029296875
  },
  "position": {
   "symbol": "MSFT",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-06",
   "hits": [
-   {
-    "symbol": "PEP",
-    "at": "09:55",
-    "price": 140.16,
-    "or_high": 139.95,
-    "or_low": 138.3,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "PNC",
-    "at": "09:55",
-    "price": 226.99,
-    "or_high": 226.81,
-    "or_low": 224.36,
-    "pct_over": 0.08
-   },
    {
     "symbol": "SBUX",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 158.0,
     "or_low": 154.17,
     "pct_over": 0.41
+   },
+   {
+    "symbol": "DHR",
+    "at": "11:55",
+    "price": 229.03,
+    "or_high": 228.85,
+    "or_low": 222.96,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "U",
+    "at": "11:55",
+    "price": 52.58,
+    "or_high": 52.5,
+    "or_low": 49.07,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 157,
+  "n_hits": 159,
   "entries": 2,
   "max_trades": 3
  },
@@ -799,6 +799,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1793984100,
+   "et": "2026-11-06 11:55",
+   "kind": "busy",
+   "text": "2 more breakouts (DHR, U) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "DHR",
+    "U"
+   ]
+  },
   {
    "ts": 1793983500,
    "et": "2026-11-06 11:45",
@@ -1820,13 +1830,6 @@
     "ZM",
     "AI"
    ]
-  },
-  {
-   "ts": 1793736000,
-   "et": "2026-11-03 15:00",
-   "kind": "exit",
-   "text": "SELL 14 MRNA at $226.72: stop $226.77 hit. P&L $-101.53 (-1.02R)",
-   "symbol": "MRNA"
   }
  ],
  "equity": [
@@ -3344,6 +3347,11 @@
    "ts": 1793983866,
    "equity": 9389.56,
    "spy": 9735.4
+  },
+  {
+   "ts": 1793984180,
+   "equity": 9398.47,
+   "spy": 9748.23
   }
  ],
  "daily": [
@@ -3373,6 +3381,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1793984180,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.2,
+   "errors": [],
+   "run_id": "42256956465",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1793983866,
    "phase": "open",
@@ -3762,29 +3780,19 @@
    "errors": [],
    "run_id": "42103138070",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793909991,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 7.6,
-   "errors": [],
-   "run_id": "42102337679",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1793983866,
+  "tick_at": 1793984180,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1793983875,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1793984190,
+  "candidates": 19,
+  "charts_fetched": 21,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
