@@ -146,3 +146,4 @@
 {"ts": 1793987100, "et": "2026-11-06 12:45", "kind": "busy", "text": "1 more breakout (CHWY) not taken: already in MSFT (one trade at a time)", "symbols": ["CHWY"]}
 {"ts": 1793990100, "et": "2026-11-06 13:35", "kind": "busy", "text": "2 more breakouts (MARA, UNH) not taken: already in MSFT (one trade at a time)", "symbols": ["MARA", "UNH"]}
 {"ts": 1793991000, "et": "2026-11-06 13:50", "kind": "busy", "text": "1 more breakout (INTC) not taken: already in MSFT (one trade at a time)", "symbols": ["INTC"]}
+{"ts": 1793992800, "et": "2026-11-06 14:20", "kind": "busy", "text": "1 more breakout (CDNS) not taken: already in MSFT (one trade at a time)", "symbols": ["CDNS"]}
