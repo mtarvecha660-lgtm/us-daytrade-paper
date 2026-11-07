@@ -1,13 +1,27 @@
+<div align="center">
+
 # US Day-Trade Paper Bot
 
-**PAPER ONLY.** Virtual money, no broker account, no API keys, no real orders. There is no order code in this repo.
+**A fully automatic paper day trader for US stocks: opening-range breakouts, tested against buy-and-hold SPY, with virtual money only.**
+
+![Python](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/runs%20on-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Mode](https://img.shields.io/badge/mode-PAPER%20ONLY-critical)
+![Money](https://img.shields.io/badge/money-virtual%20%2410%2C000-lightgrey)
+
+[Live dashboard](https://mtarvecha660-lgtm.github.io/us-daytrade-paper/) · [Scorecard](EVALUATION.md) · [Backtest](RESULTS.md)
+
+</div>
+
+> **PAPER ONLY.** Virtual money, no broker account, no API keys, no real orders. Not financial advice. Retail day trading mostly loses money, and the backtest here did not beat holding SPY.
+
+There is no order code in this repo.
 
 A fully automatic paper day trader for US stocks, built on the
 [day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) (MIT). Every trading decision is made by
 the skill's own Python tools, vendored unchanged in `skill/` (upstream commit `3d0f4ef6986f`, checked by a
 test). Where the skill waits for a human "yes", this bot auto-approves on paper and logs the full reasoning.
 
-- **Dashboard:** https://mtarvecha660-lgtm.github.io/us-daytrade-paper/
 - **Scorecard (locked before the first trade):** [EVALUATION.md](EVALUATION.md)
 - **Backtest (60 days, small sample):** [RESULTS.md](RESULTS.md): -4.21% vs SPY -2.02%, 133 trades, no edge.
 
