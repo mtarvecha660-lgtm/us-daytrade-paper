@@ -9,6 +9,10 @@
 ![Mode](https://img.shields.io/badge/mode-PAPER%20ONLY-critical)
 ![Money](https://img.shields.io/badge/money-virtual%20%2410%2C000-lightgrey)
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="US Day-Trade Paper Bot dashboard, paper trading with virtual money only" width="720">
+</p>
+
 [Live dashboard](https://mtarvecha660-lgtm.github.io/us-daytrade-paper/) · [Scorecard](EVALUATION.md) · [Backtest](RESULTS.md)
 
 </div>
