@@ -1,5 +1,5 @@
 {
- "cash": 5065.1816,
+ "cash": 9336.3272,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -267,32 +267,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-09",
-  "last_bar_end": 1794247200,
-  "position": {
+  },
+  {
+   "date": "2026-11-09",
    "symbol": "NVDA",
    "qty": 24,
+   "entry_et": "09:50",
    "entry_fill": 177.4355,
-   "entry_ts": 1794235800,
-   "plan": {
-    "symbol": "NVDA",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-09",
-    "entry_time": "9:50 AM",
-    "entry": 177.44,
-    "stop": 173.34,
-    "target": 181.54,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 177.39999389648438
-   },
+   "exit_et": "15:55",
+   "exit_fill": 177.9644,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 173.34,
+   "target": 181.54,
+   "pnl": 12.69,
+   "r": 0.129,
+   "risk_usd": 98.4,
+   "cost_usd": 1.71,
    "why": {
     "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
     "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
@@ -301,7 +291,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-09",
+  "last_bar_end": 1794258000,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -320,11 +317,19 @@
     "side": "buy",
     "kind": "entry",
     "qty": 24
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-09",
+    "symbol": "NVDA",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 24
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 157,
+  "triggers_seen": 177,
   "missed": [
    "AVGO",
    "CHPT",
@@ -419,7 +424,27 @@
    "WMT",
    "REGN",
    "MA",
-   "Z"
+   "Z",
+   "CMCSA",
+   "DIS",
+   "MMM",
+   "ABBV",
+   "DUK",
+   "MRK",
+   "TGT",
+   "AMGN",
+   "DXCM",
+   "SPOT",
+   "AAL",
+   "BIDU",
+   "META",
+   "NCLH",
+   "XPEV",
+   "CCL",
+   "DAL",
+   "LUV",
+   "MSFT",
+   "LI"
   ],
   "triggered": [
    "ADI",
@@ -578,7 +603,27 @@
    "WMT",
    "REGN",
    "MA",
-   "Z"
+   "Z",
+   "CMCSA",
+   "DIS",
+   "MMM",
+   "ABBV",
+   "DUK",
+   "MRK",
+   "TGT",
+   "AMGN",
+   "DXCM",
+   "SPOT",
+   "AAL",
+   "BIDU",
+   "META",
+   "NCLH",
+   "XPEV",
+   "CCL",
+   "DAL",
+   "LUV",
+   "MSFT",
+   "LI"
   ],
   "hits": [
    {
@@ -1836,15 +1881,176 @@
     "or_high": 29.9,
     "or_low": 29.31,
     "pct_over": 0.32
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "13:05",
+    "price": 24.47,
+    "or_high": 24.46,
+    "or_low": 24.16,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DIS",
+    "at": "13:05",
+    "price": 118.5,
+    "or_high": 118.46,
+    "or_low": 117.6,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MMM",
+    "at": "13:05",
+    "price": 189.27,
+    "or_high": 188.89,
+    "or_low": 185.81,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ABBV",
+    "at": "13:15",
+    "price": 294.23,
+    "or_high": 293.84,
+    "or_low": 289.78,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "DUK",
+    "at": "13:25",
+    "price": 129.13,
+    "or_high": 129.12,
+    "or_low": 127.63,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "MRK",
+    "at": "13:30",
+    "price": 148.52,
+    "or_high": 148.51,
+    "or_low": 146.65,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "TGT",
+    "at": "13:30",
+    "price": 166.05,
+    "or_high": 165.97,
+    "or_low": 159.52,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "AMGN",
+    "at": "13:35",
+    "price": 465.55,
+    "or_high": 465.5,
+    "or_low": 455.58,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DXCM",
+    "at": "14:05",
+    "price": 80.83,
+    "or_high": 80.78,
+    "or_low": 79.81,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SPOT",
+    "at": "14:05",
+    "price": 603.5,
+    "or_high": 602.02,
+    "or_low": 595.84,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "AAL",
+    "at": "14:40",
+    "price": 14.23,
+    "or_high": 14.14,
+    "or_low": 13.75,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "BIDU",
+    "at": "14:40",
+    "price": 81.07,
+    "or_high": 80.91,
+    "or_low": 79.52,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "META",
+    "at": "14:40",
+    "price": 644.6,
+    "or_high": 644.11,
+    "or_low": 630.0,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NCLH",
+    "at": "14:40",
+    "price": 18.59,
+    "or_high": 18.58,
+    "or_low": 18.32,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "XPEV",
+    "at": "14:40",
+    "price": 10.15,
+    "or_high": 10.14,
+    "or_low": 9.98,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CCL",
+    "at": "14:45",
+    "price": 31.15,
+    "or_high": 30.93,
+    "or_low": 30.42,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "DAL",
+    "at": "14:45",
+    "price": 92.08,
+    "or_high": 91.7,
+    "or_low": 90.08,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "LUV",
+    "at": "14:45",
+    "price": 46.88,
+    "or_high": 46.85,
+    "or_low": 45.93,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MSFT",
+    "at": "15:15",
+    "price": 547.71,
+    "or_high": 547.48,
+    "or_low": 542.07,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "LI",
+    "at": "15:30",
+    "price": 12.4,
+    "or_high": 12.39,
+    "or_low": 12.2,
+    "pct_over": 0.04
    }
-  ]
+  ],
+  "finalised": true
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.4400024414062,
-  "last_ts": 1794247200
+  "last": 752.6099853515625,
+  "last_ts": 1794258000
  },
  "seen_trades": 0,
  "daily": [
@@ -1877,6 +2083,12 @@
    "equity": 9323.63,
    "spy": 9679.59,
    "trades": 2
+  },
+  {
+   "date": "2026-11-09",
+   "equity": 9336.33,
+   "spy": 9905.58,
+   "trades": 1
   }
  ]
 }

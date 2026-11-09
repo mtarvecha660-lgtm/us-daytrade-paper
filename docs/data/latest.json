@@ -1,202 +1,27 @@
 {
- "updated": 1794247517,
- "updated_et": "2026-11-09 13:05 ET",
- "phase": "open",
+ "updated": 1794264680,
+ "updated_et": "2026-11-09 17:51 ET",
+ "phase": "after-close",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 5065.18,
-  "equity": 9317.61,
-  "return": -0.06823899999999994,
+  "cash": 9336.33,
+  "equity": 9336.33,
+  "return": -0.06636699999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9903.34,
-  "return": -0.009665999999999952,
+  "value": 9905.58,
+  "return": -0.009442000000000061,
   "start_price": 759.47998046875,
-  "last": 752.4400024414062
+  "last": 752.6099853515625
  },
- "position": {
-  "symbol": "NVDA",
-  "qty": 24,
-  "entry": 177.4355,
-  "entry_et": "09:50",
-  "stop": 173.34,
-  "target": 181.54,
-  "last": null,
-  "why": {
-   "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
-   "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
-   "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "VZ",
-    "at": "10:05",
-    "price": 46.04,
-    "or_high": 45.9,
-    "or_low": 45.36,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "APP",
-    "at": "10:10",
-    "price": 406.54,
-    "or_high": 405.8,
-    "or_low": 386.51,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "BAC",
-    "at": "10:10",
-    "price": 50.39,
-    "or_high": 50.36,
-    "or_low": 49.72,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "CVS",
-    "at": "10:10",
-    "price": 84.85,
-    "or_high": 84.8,
-    "or_low": 83.83,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "USB",
-    "at": "10:10",
-    "price": 60.79,
-    "or_high": 60.65,
-    "or_low": 59.95,
-    "pct_over": 0.23
-   },
-   {
-    "symbol": "WFC",
-    "at": "10:10",
-    "price": 85.38,
-    "or_high": 85.35,
-    "or_low": 84.25,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "BIIB",
-    "at": "10:15",
-    "price": 251.72,
-    "or_high": 251.03,
-    "or_low": 246.44,
-    "pct_over": 0.27
-   },
-   {
-    "symbol": "FANG",
-    "at": "10:15",
-    "price": 176.38,
-    "or_high": 176.14,
-    "or_low": 173.75,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "MELI",
-    "at": "10:15",
-    "price": 1533.49,
-    "or_high": 1532.0,
-    "or_low": 1510.48,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "SBUX",
-    "at": "10:15",
-    "price": 107.99,
-    "or_high": 107.98,
-    "or_low": 106.28,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "NU",
-    "at": "10:20",
-    "price": 12.23,
-    "or_high": 12.22,
-    "or_low": 12.0,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "PEP",
-    "at": "10:20",
-    "price": 141.75,
-    "or_high": 141.68,
-    "or_low": 140.61,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "RIOT",
-    "at": "10:20",
-    "price": 17.35,
-    "or_high": 17.34,
-    "or_low": 16.75,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "AAPL",
-    "at": "10:25",
-    "price": 350.35,
-    "or_high": 350.33,
-    "or_low": 344.79,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "DASH",
-    "at": "10:25",
-    "price": 183.07,
-    "or_high": 183.0,
-    "or_low": 179.59,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "LULU",
-    "at": "10:30",
-    "price": 112.44,
-    "or_high": 112.38,
-    "or_low": 110.19,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "OXY",
-    "at": "10:30",
-    "price": 55.92,
-    "or_high": 55.91,
-    "or_low": 54.97,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "UAL",
-    "at": "10:35",
-    "price": 120.76,
-    "or_high": 120.75,
-    "or_low": 117.5,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "BBY",
-    "at": "10:40",
-    "price": 105.68,
-    "or_high": 105.67,
-    "or_low": 100.0,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "GD",
-    "at": "10:40",
-    "price": 359.64,
-    "or_high": 359.4,
-    "or_low": 356.96,
-    "pct_over": 0.06
-   },
    {
     "symbol": "MCD",
     "at": "10:40",
@@ -516,47 +341,231 @@
     "or_high": 29.9,
     "or_low": 29.31,
     "pct_over": 0.32
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "13:05",
+    "price": 24.47,
+    "or_high": 24.46,
+    "or_low": 24.16,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DIS",
+    "at": "13:05",
+    "price": 118.5,
+    "or_high": 118.46,
+    "or_low": 117.6,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MMM",
+    "at": "13:05",
+    "price": 189.27,
+    "or_high": 188.89,
+    "or_low": 185.81,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ABBV",
+    "at": "13:15",
+    "price": 294.23,
+    "or_high": 293.84,
+    "or_low": 289.78,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "DUK",
+    "at": "13:25",
+    "price": 129.13,
+    "or_high": 129.12,
+    "or_low": 127.63,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "MRK",
+    "at": "13:30",
+    "price": 148.52,
+    "or_high": 148.51,
+    "or_low": 146.65,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "TGT",
+    "at": "13:30",
+    "price": 166.05,
+    "or_high": 165.97,
+    "or_low": 159.52,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "AMGN",
+    "at": "13:35",
+    "price": 465.55,
+    "or_high": 465.5,
+    "or_low": 455.58,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DXCM",
+    "at": "14:05",
+    "price": 80.83,
+    "or_high": 80.78,
+    "or_low": 79.81,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SPOT",
+    "at": "14:05",
+    "price": 603.5,
+    "or_high": 602.02,
+    "or_low": 595.84,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "AAL",
+    "at": "14:40",
+    "price": 14.23,
+    "or_high": 14.14,
+    "or_low": 13.75,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "BIDU",
+    "at": "14:40",
+    "price": 81.07,
+    "or_high": 80.91,
+    "or_low": 79.52,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "META",
+    "at": "14:40",
+    "price": 644.6,
+    "or_high": 644.11,
+    "or_low": 630.0,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NCLH",
+    "at": "14:40",
+    "price": 18.59,
+    "or_high": 18.58,
+    "or_low": 18.32,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "XPEV",
+    "at": "14:40",
+    "price": 10.15,
+    "or_high": 10.14,
+    "or_low": 9.98,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CCL",
+    "at": "14:45",
+    "price": 31.15,
+    "or_high": 30.93,
+    "or_low": 30.42,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "DAL",
+    "at": "14:45",
+    "price": 92.08,
+    "or_high": 91.7,
+    "or_low": 90.08,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "LUV",
+    "at": "14:45",
+    "price": 46.88,
+    "or_high": 46.85,
+    "or_low": 45.93,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MSFT",
+    "at": "15:15",
+    "price": 547.71,
+    "or_high": 547.48,
+    "or_low": 542.07,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "LI",
+    "at": "15:30",
+    "price": 12.4,
+    "or_high": 12.39,
+    "or_low": 12.2,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 157,
+  "n_hits": 177,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Holding 24 NVDA bought at $177.44. It sells at the stop $173.34, the target $181.54, or at 15:55 ET, whichever comes first.",
+ "next_move": "Market closed. Next open: Tue Nov 10, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
  "stats": {
-  "trades": 11,
-  "wins": 1,
-  "win_rate": 0.09090909090909091,
-  "avg_r": -0.735909090909091,
-  "t_stat_r": -3.8867015167051933,
-  "net_pnl": -676.36,
-  "profit_factor": 0.09416475819304379,
-  "expectancy_usd": -61.49,
-  "avg_win": 70.31,
+  "trades": 12,
+  "wins": 2,
+  "win_rate": 0.16666666666666666,
+  "avg_r": -0.6638333333333334,
+  "t_stat_r": -3.544810839550408,
+  "net_pnl": -663.67,
+  "profit_factor": 0.11116021803474092,
+  "expectancy_usd": -55.31,
+  "avg_win": 41.5,
   "avg_loss": -74.67,
-  "costs_usd": 21.21,
+  "costs_usd": 22.92,
   "exits": {
    "stop": 8,
    "target": 1,
-   "flat-by": 2
+   "flat-by": 3
   }
  },
  "curve": {
-  "return": -0.06763700000000006,
+  "return": -0.06636699999999995,
   "max_drawdown": -0.06763700000000006,
-  "sharpe": -43.89590770065463,
-  "sortino": -15.104018378984343,
-  "days": 6
+  "sharpe": -23.46238751684308,
+  "sortino": -13.517763146004178,
+  "days": 7
  },
  "spy_curve": {
-  "return": -0.032040999999999986,
+  "return": -0.009442000000000061,
   "max_drawdown": -0.04367812674960725,
-  "sharpe": -4.35153107386836,
-  "sortino": -4.971238547734508,
-  "days": 6
+  "sharpe": -0.8945691228315384,
+  "sortino": -1.1628172159763364,
+  "days": 7
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-09",
+   "symbol": "NVDA",
+   "qty": 24,
+   "entry_et": "09:50",
+   "entry_fill": 177.4355,
+   "exit_et": "15:55",
+   "exit_fill": 177.9644,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 173.34,
+   "target": 181.54,
+   "pnl": 12.69,
+   "r": 0.129,
+   "risk_usd": 98.4,
+   "cost_usd": 1.71,
+   "why": {
+    "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
+    "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
+    "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-06",
    "symbol": "MSFT",
@@ -823,6 +832,113 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794257700,
+   "et": "2026-11-09 15:55",
+   "kind": "exit",
+   "text": "SELL 24 NVDA at $177.96: flat by 15:55 ET (the skill's flat-by rule). P&L $+12.69 (+0.13R)",
+   "symbol": "NVDA"
+  },
+  {
+   "ts": 1794256200,
+   "et": "2026-11-09 15:30",
+   "kind": "busy",
+   "text": "1 more breakout (LI) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "LI"
+   ]
+  },
+  {
+   "ts": 1794255300,
+   "et": "2026-11-09 15:15",
+   "kind": "busy",
+   "text": "1 more breakout (MSFT) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "MSFT"
+   ]
+  },
+  {
+   "ts": 1794253500,
+   "et": "2026-11-09 14:45",
+   "kind": "busy",
+   "text": "3 more breakouts (CCL, DAL, LUV) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "CCL",
+    "DAL",
+    "LUV"
+   ]
+  },
+  {
+   "ts": 1794253200,
+   "et": "2026-11-09 14:40",
+   "kind": "busy",
+   "text": "5 more breakouts (AAL, BIDU, META, NCLH, XPEV) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "AAL",
+    "BIDU",
+    "META",
+    "NCLH",
+    "XPEV"
+   ]
+  },
+  {
+   "ts": 1794251100,
+   "et": "2026-11-09 14:05",
+   "kind": "busy",
+   "text": "2 more breakouts (DXCM, SPOT) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "DXCM",
+    "SPOT"
+   ]
+  },
+  {
+   "ts": 1794249300,
+   "et": "2026-11-09 13:35",
+   "kind": "busy",
+   "text": "1 more breakout (AMGN) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "AMGN"
+   ]
+  },
+  {
+   "ts": 1794249000,
+   "et": "2026-11-09 13:30",
+   "kind": "busy",
+   "text": "2 more breakouts (MRK, TGT) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "MRK",
+    "TGT"
+   ]
+  },
+  {
+   "ts": 1794248700,
+   "et": "2026-11-09 13:25",
+   "kind": "busy",
+   "text": "1 more breakout (DUK) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "DUK"
+   ]
+  },
+  {
+   "ts": 1794248100,
+   "et": "2026-11-09 13:15",
+   "kind": "busy",
+   "text": "1 more breakout (ABBV) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "ABBV"
+   ]
+  },
+  {
+   "ts": 1794247500,
+   "et": "2026-11-09 13:05",
+   "kind": "busy",
+   "text": "3 more breakouts (CMCSA, DIS, MMM) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "CMCSA",
+    "DIS",
+    "MMM"
+   ]
+  },
   {
    "ts": 1794247200,
    "et": "2026-11-09 13:00",
@@ -1720,130 +1836,6 @@
    "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)",
    "symbols": [
     "CVX"
-   ]
-  },
-  {
-   "ts": 1793894400,
-   "et": "2026-11-05 11:00",
-   "kind": "busy",
-   "text": "1 more breakout (ADBE) not taken: already in XOM (one trade at a time)",
-   "symbols": [
-    "ADBE"
-   ]
-  },
-  {
-   "ts": 1793893500,
-   "et": "2026-11-05 10:45",
-   "kind": "fill",
-   "text": "BUY 41 XOM filled at $172.83 (next bar's open $172.80 + slippage). Stop $171.60, target $173.92",
-   "symbol": "XOM"
-  },
-  {
-   "ts": 1793893500,
-   "et": "2026-11-05 10:45",
-   "kind": "order",
-   "text": "BUY 41 XOM at market (decided on the 10:45 close). opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
-   "symbol": "XOM",
-   "why": {
-    "scanner": "XOM: the 10:40 bar closed at $172.76, above the 15-min opening range high $172.70 (range 170.50-172.70)",
-    "exit": "plan: entry $172.76, stop $171.60 (opening-range midpoint), target $173.92 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on XOM: 41 shares, bound by your position cap (41 x 1.16 = $47.56 at the stop) (limits: max loss 86; position cap 41; max order 46; cash 49)",
-    "risk": "trader-risk PASS: entry 172.76 (the plan's entry), stop 171.60, target 173.92: risk 1.16 a share; max loss $47.56 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $98.56 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
-  },
-  {
-   "ts": 1793893200,
-   "et": "2026-11-05 10:40",
-   "kind": "exit",
-   "text": "SELL 22 QCOM at $153.26: stop $153.29 hit. P&L $-97.29 (-0.99R)",
-   "symbol": "QCOM"
-  },
-  {
-   "ts": 1793892600,
-   "et": "2026-11-05 10:30",
-   "kind": "busy",
-   "text": "1 more breakout (DVN) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "DVN"
-   ]
-  },
-  {
-   "ts": 1793892000,
-   "et": "2026-11-05 10:20",
-   "kind": "busy",
-   "text": "1 more breakout (EOG) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "EOG"
-   ]
-  },
-  {
-   "ts": 1793891700,
-   "et": "2026-11-05 10:15",
-   "kind": "busy",
-   "text": "1 more breakout (REGN) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "REGN"
-   ]
-  },
-  {
-   "ts": 1793891400,
-   "et": "2026-11-05 10:10",
-   "kind": "busy",
-   "text": "5 more breakouts (COST, DOCU, KO, MCD, SO) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "COST",
-    "DOCU",
-    "KO",
-    "MCD",
-    "SO"
-   ]
-  },
-  {
-   "ts": 1793891100,
-   "et": "2026-11-05 10:05",
-   "kind": "busy",
-   "text": "4 more breakouts (HUM, MPC, NOC, OXY) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "HUM",
-    "MPC",
-    "NOC",
-    "OXY"
-   ]
-  },
-  {
-   "ts": 1793890800,
-   "et": "2026-11-05 10:00",
-   "kind": "busy",
-   "text": "12 more breakouts (ABBV, AEP, BMY, ELV, LLY, LMT, MRK, PEP ...) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "ABBV",
-    "AEP",
-    "BMY",
-    "ELV",
-    "LLY",
-    "LMT",
-    "MRK",
-    "PEP",
-    "T",
-    "TM",
-    "TMUS",
-    "VZ"
-   ]
-  },
-  {
-   "ts": 1793890500,
-   "et": "2026-11-05 09:55",
-   "kind": "busy",
-   "text": "6 more breakouts (APP, CMCSA, COP, GD, PG, YUM) not taken: already in QCOM (one trade at a time)",
-   "symbols": [
-    "APP",
-    "CMCSA",
-    "COP",
-    "GD",
-    "PG",
-    "YUM"
    ]
   }
  ],
@@ -3807,6 +3799,11 @@
    "ts": 1794247517,
    "equity": 9317.61,
    "spy": 9903.34
+  },
+  {
+   "ts": 1794264680,
+   "equity": 9336.33,
+   "spy": 9905.58
   }
  ],
  "daily": [
@@ -3839,9 +3836,25 @@
    "equity": 9323.63,
    "spy": 9679.59,
    "trades": 2
+  },
+  {
+   "date": "2026-11-09",
+   "equity": 9336.33,
+   "spy": 9905.58,
+   "trades": 1
   }
  ],
  "runs": [
+  {
+   "ts": 1794264680,
+   "phase": "after-close",
+   "status": "ok",
+   "bars": 36,
+   "secs": 18.5,
+   "errors": [],
+   "run_id": "42715520028",
+   "event": "schedule"
+  },
   {
    "ts": 1794247517,
    "phase": "open",
@@ -4231,29 +4244,19 @@
    "errors": [],
    "run_id": "42637871571",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794235257,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.1,
-   "errors": [],
-   "run_id": "42637025797",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794247517,
+  "tick_at": 1794264680,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794247532,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794258235,
+  "candidates": 59,
+  "charts_fetched": 61,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": null,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
