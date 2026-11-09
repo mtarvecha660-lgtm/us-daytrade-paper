@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794245100,
+  "last_bar_end": 1794245400,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 148,
+  "triggers_seen": 151,
   "missed": [
    "AVGO",
    "CHPT",
@@ -410,7 +410,10 @@
    "TJX",
    "W",
    "DOCU",
-   "CI"
+   "CI",
+   "ADBE",
+   "C",
+   "SHOP"
   ],
   "triggered": [
    "ADI",
@@ -560,7 +563,10 @@
    "TJX",
    "W",
    "DOCU",
-   "CI"
+   "CI",
+   "ADBE",
+   "C",
+   "SHOP"
   ],
   "hits": [
    {
@@ -1746,6 +1752,30 @@
     "or_high": 296.0,
     "or_low": 293.09,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "ADBE",
+    "at": "12:30",
+    "price": 239.59,
+    "or_high": 239.12,
+    "or_low": 236.55,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "C",
+    "at": "12:30",
+    "price": 121.96,
+    "or_high": 121.95,
+    "or_low": 118.21,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SHOP",
+    "at": "12:30",
+    "price": 151.16,
+    "or_high": 150.98,
+    "or_low": 148.01,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1753,8 +1783,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.219970703125,
-  "last_ts": 1794245100
+  "last": 752.52001953125,
+  "last_ts": 1794245400
  },
  "seen_trades": 0,
  "daily": [

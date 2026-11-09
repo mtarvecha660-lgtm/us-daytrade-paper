@@ -1,21 +1,21 @@
 {
- "updated": 1794245309,
- "updated_et": "2026-11-09 12:28 ET",
+ "updated": 1794245625,
+ "updated_et": "2026-11-09 12:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9323.13,
-  "return": -0.06768700000000005,
+  "equity": 9332.49,
+  "return": -0.066751,
   "started": 1793559735
  },
  "spy": {
-  "value": 9900.45,
-  "return": -0.009954999999999936,
+  "value": 9904.4,
+  "return": -0.009560000000000013,
   "start_price": 759.47998046875,
-  "last": 752.219970703125
+  "last": 752.52001953125
  },
  "position": {
   "symbol": "NVDA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "NKE",
-    "at": "10:05",
-    "price": 39.13,
-    "or_high": 39.05,
-    "or_low": 38.6,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "NOC",
-    "at": "10:05",
-    "price": 531.75,
-    "or_high": 531.34,
-    "or_low": 523.16,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "PDD",
-    "at": "10:05",
-    "price": 81.2,
-    "or_high": 81.15,
-    "or_low": 80.35,
-    "pct_over": 0.06
-   },
    {
     "symbol": "RCL",
     "at": "10:05",
@@ -516,9 +492,33 @@
     "or_high": 296.0,
     "or_low": 293.09,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "ADBE",
+    "at": "12:30",
+    "price": 239.59,
+    "or_high": 239.12,
+    "or_low": 236.55,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "C",
+    "at": "12:30",
+    "price": 121.96,
+    "or_high": 121.95,
+    "or_low": 118.21,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SHOP",
+    "at": "12:30",
+    "price": 151.16,
+    "or_high": 150.98,
+    "or_low": 148.01,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 148,
+  "n_hits": 151,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794245400,
+   "et": "2026-11-09 12:30",
+   "kind": "busy",
+   "text": "3 more breakouts (ADBE, C, SHOP) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "C",
+    "SHOP"
+   ]
+  },
   {
    "ts": 1794245100,
    "et": "2026-11-09 12:25",
@@ -1838,15 +1849,6 @@
    "text": "1 more breakout (BMY) not taken: already in HLT (one trade at a time)",
    "symbols": [
     "BMY"
-   ]
-  },
-  {
-   "ts": 1793820900,
-   "et": "2026-11-04 14:35",
-   "kind": "busy",
-   "text": "1 more breakout (CI) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "CI"
    ]
   }
  ],
@@ -3775,6 +3777,11 @@
    "ts": 1794245309,
    "equity": 9323.13,
    "spy": 9900.45
+  },
+  {
+   "ts": 1794245625,
+   "equity": 9332.49,
+   "spy": 9904.4
   }
  ],
  "daily": [
@@ -3810,6 +3817,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794245625,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.3,
+   "errors": [],
+   "run_id": "42665783417",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794245309,
    "phase": "open",
@@ -4199,29 +4216,19 @@
    "errors": [],
    "run_id": "42532093370",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794158330,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42504308315",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794245309,
+  "tick_at": 1794245625,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794245318,
-  "candidates": 33,
-  "charts_fetched": 35,
+  "yahoo_time": 1794245635,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
