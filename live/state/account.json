@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794236100,
+  "last_bar_end": 1794236400,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 82,
+  "triggers_seen": 85,
   "missed": [
    "AVGO",
    "CHPT",
@@ -344,7 +344,10 @@
    "RBLX",
    "SWKS",
    "TSLA",
-   "TXN"
+   "TXN",
+   "GM",
+   "NET",
+   "RIVN"
   ],
   "triggered": [
    "ADI",
@@ -428,7 +431,10 @@
    "RBLX",
    "SWKS",
    "TSLA",
-   "TXN"
+   "TXN",
+   "GM",
+   "NET",
+   "RIVN"
   ],
   "hits": [
    {
@@ -1086,6 +1092,30 @@
     "or_high": 288.0,
     "or_low": 280.0,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "GM",
+    "at": "10:00",
+    "price": 88.91,
+    "or_high": 88.74,
+    "or_low": 87.09,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "NET",
+    "at": "10:00",
+    "price": 292.61,
+    "or_high": 290.94,
+    "or_low": 274.0,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:00",
+    "price": 13.89,
+    "or_high": 13.88,
+    "or_low": 13.57,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1093,8 +1123,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.635009765625,
-  "last_ts": 1794236100
+  "last": 747.72998046875,
+  "last_ts": 1794236400
  },
  "seen_trades": 0,
  "daily": [

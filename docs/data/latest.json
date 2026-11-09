@@ -1,21 +1,21 @@
 {
- "updated": 1794236196,
- "updated_et": "2026-11-09 09:56 ET",
+ "updated": 1794236507,
+ "updated_et": "2026-11-09 10:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9332.37,
-  "return": -0.0667629999999999,
+  "equity": 9355.04,
+  "return": -0.06449599999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 9840.1,
-  "return": -0.01598999999999995,
+  "value": 9841.35,
+  "return": -0.015865000000000018,
   "start_price": 759.47998046875,
-  "last": 747.635009765625
+  "last": 747.72998046875
  },
  "position": {
   "symbol": "NVDA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "HPQ",
-    "at": "09:50",
-    "price": 28.92,
-    "or_high": 28.79,
-    "or_low": 28.5,
-    "pct_over": 0.45
-   },
-   {
-    "symbol": "IBM",
-    "at": "09:50",
-    "price": 247.42,
-    "or_high": 247.09,
-    "or_low": 245.2,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "INTC",
-    "at": "09:50",
-    "price": 57.59,
-    "or_high": 57.54,
-    "or_low": 55.83,
-    "pct_over": 0.08
-   },
    {
     "symbol": "KLAC",
     "at": "09:50",
@@ -516,9 +492,33 @@
     "or_high": 288.0,
     "or_low": 280.0,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "GM",
+    "at": "10:00",
+    "price": 88.91,
+    "or_high": 88.74,
+    "or_low": 87.09,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "NET",
+    "at": "10:00",
+    "price": 292.61,
+    "or_high": 290.94,
+    "or_low": 274.0,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:00",
+    "price": 13.89,
+    "or_high": 13.88,
+    "or_low": 13.57,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 82,
+  "n_hits": 85,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794236400,
+   "et": "2026-11-09 10:00",
+   "kind": "busy",
+   "text": "3 more breakouts (GM, NET, RIVN) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "GM",
+    "NET",
+    "RIVN"
+   ]
+  },
   {
    "ts": 1794236100,
    "et": "2026-11-09 09:55",
@@ -1823,19 +1834,6 @@
     "SYK",
     "TJX",
     "V"
-   ]
-  },
-  {
-   "ts": 1793806500,
-   "et": "2026-11-04 10:35",
-   "kind": "busy",
-   "text": "5 more breakouts (BBY, CHTR, LULU, PG, T) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "BBY",
-    "CHTR",
-    "LULU",
-    "PG",
-    "T"
    ]
   }
  ],
@@ -3619,6 +3617,11 @@
    "ts": 1794236196,
    "equity": 9332.37,
    "spy": 9840.1
+  },
+  {
+   "ts": 1794236507,
+   "equity": 9355.04,
+   "spy": 9841.35
   }
  ],
  "daily": [
@@ -3654,6 +3657,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794236507,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.7,
+   "errors": [],
+   "run_id": "42640442683",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794236196,
    "phase": "open",
@@ -4043,29 +4056,19 @@
    "errors": [],
    "run_id": "42280533844",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793993254,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.7,
-   "errors": [],
-   "run_id": "42279771335",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794236196,
+  "tick_at": 1794236507,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794236212,
-  "candidates": 54,
-  "charts_fetched": 56,
+  "yahoo_time": 1794236518,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
