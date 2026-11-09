@@ -170,3 +170,4 @@
 {"ts": 1794240900, "et": "2026-11-09 11:15", "kind": "busy", "text": "1 more breakout (TMO) not taken: already in NVDA (one trade at a time)", "symbols": ["TMO"]}
 {"ts": 1794241200, "et": "2026-11-09 11:20", "kind": "busy", "text": "1 more breakout (AEP) not taken: already in NVDA (one trade at a time)", "symbols": ["AEP"]}
 {"ts": 1794241500, "et": "2026-11-09 11:25", "kind": "busy", "text": "1 more breakout (EOG) not taken: already in NVDA (one trade at a time)", "symbols": ["EOG"]}
+{"ts": 1794241800, "et": "2026-11-09 11:30", "kind": "busy", "text": "2 more breakouts (CVX, GE) not taken: already in NVDA (one trade at a time)", "symbols": ["CVX", "GE"]}

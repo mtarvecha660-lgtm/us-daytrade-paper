@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794241500,
+  "last_bar_end": 1794241800,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 133,
+  "triggers_seen": 135,
   "missed": [
    "AVGO",
    "CHPT",
@@ -395,7 +395,9 @@
    "UBER",
    "TMO",
    "AEP",
-   "EOG"
+   "EOG",
+   "CVX",
+   "GE"
   ],
   "triggered": [
    "ADI",
@@ -530,7 +532,9 @@
    "UBER",
    "TMO",
    "AEP",
-   "EOG"
+   "EOG",
+   "CVX",
+   "GE"
   ],
   "hits": [
    {
@@ -1596,6 +1600,22 @@
     "or_high": 147.7,
     "or_low": 144.14,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "CVX",
+    "at": "11:30",
+    "price": 211.99,
+    "or_high": 211.98,
+    "or_low": 209.68,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GE",
+    "at": "11:30",
+    "price": 333.34,
+    "or_high": 333.33,
+    "or_low": 330.05,
+    "pct_over": 0.0
    }
   ]
  },
@@ -1603,8 +1623,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.0,
-  "last_ts": 1794241500
+  "last": 749.639892578125,
+  "last_ts": 1794241800
  },
  "seen_trades": 0,
  "daily": [
