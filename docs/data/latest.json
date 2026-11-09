@@ -1,21 +1,21 @@
 {
- "updated": 1794237763,
- "updated_et": "2026-11-09 10:22 ET",
+ "updated": 1794238077,
+ "updated_et": "2026-11-09 10:27 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9354.77,
-  "return": -0.064523,
+  "equity": 9341.85,
+  "return": -0.06581499999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9859.32,
-  "return": -0.01406800000000008,
+  "value": 9858.99,
+  "return": -0.01410100000000003,
   "start_price": 759.47998046875,
-  "last": 749.094970703125
+  "last": 749.0700073242188
  },
  "position": {
   "symbol": "NVDA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "SMCI",
-    "at": "09:50",
-    "price": 28.8,
-    "or_high": 28.14,
-    "or_low": 27.18,
-    "pct_over": 2.32
-   },
-   {
-    "symbol": "SNOW",
-    "at": "09:50",
-    "price": 290.35,
-    "or_high": 286.97,
-    "or_low": 278.32,
-    "pct_over": 1.18
-   },
    {
     "symbol": "SNPS",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 17.34,
     "or_low": 16.75,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "AAPL",
+    "at": "10:25",
+    "price": 350.35,
+    "or_high": 350.33,
+    "or_low": 344.79,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "DASH",
+    "at": "10:25",
+    "price": 183.07,
+    "or_high": 183.0,
+    "or_low": 179.59,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 110,
+  "n_hits": 112,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794237900,
+   "et": "2026-11-09 10:25",
+   "kind": "busy",
+   "text": "2 more breakouts (AAPL, DASH) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "AAPL",
+    "DASH"
+   ]
+  },
   {
    "ts": 1794237600,
    "et": "2026-11-09 10:20",
@@ -1833,15 +1843,6 @@
    "symbols": [
     "HUM",
     "IDXX"
-   ]
-  },
-  {
-   "ts": 1793808300,
-   "et": "2026-11-04 11:05",
-   "kind": "busy",
-   "text": "1 more breakout (D) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "D"
    ]
   }
  ],
@@ -3650,6 +3651,11 @@
    "ts": 1794237763,
    "equity": 9354.77,
    "spy": 9859.32
+  },
+  {
+   "ts": 1794238077,
+   "equity": 9341.85,
+   "spy": 9858.99
   }
  ],
  "daily": [
@@ -3685,6 +3691,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794238077,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.6,
+   "errors": [],
+   "run_id": "42644900393",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794237763,
    "phase": "open",
@@ -4074,29 +4090,19 @@
    "errors": [],
    "run_id": "42284324607",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793994819,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.0,
-   "errors": [],
-   "run_id": "42283047385",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1794237763,
+  "tick_at": 1794238077,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794237776,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794238085,
+  "candidates": 28,
+  "charts_fetched": 30,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
