@@ -1,14 +1,14 @@
 {
- "updated": 1794244996,
- "updated_et": "2026-11-09 12:23 ET",
+ "updated": 1794245309,
+ "updated_et": "2026-11-09 12:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9322.41,
-  "return": -0.06775900000000001,
+  "equity": 9323.13,
+  "return": -0.06768700000000005,
   "started": 1793559735
  },
  "spy": {
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "NFLX",
-    "at": "10:05",
-    "price": 63.95,
-    "or_high": 63.74,
-    "or_low": 62.95,
-    "pct_over": 0.33
-   },
    {
     "symbol": "NKE",
     "at": "10:05",
@@ -516,9 +508,17 @@
     "or_high": 77.86,
     "or_low": 76.78,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "CI",
+    "at": "12:25",
+    "price": 296.3,
+    "or_high": 296.0,
+    "or_low": 293.09,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 147,
+  "n_hits": 148,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794245100,
+   "et": "2026-11-09 12:25",
+   "kind": "busy",
+   "text": "1 more breakout (CI) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "CI"
+   ]
+  },
   {
    "ts": 1794244800,
    "et": "2026-11-09 12:20",
@@ -1838,15 +1847,6 @@
    "text": "1 more breakout (CI) not taken: already in HLT (one trade at a time)",
    "symbols": [
     "CI"
-   ]
-  },
-  {
-   "ts": 1793818800,
-   "et": "2026-11-04 14:00",
-   "kind": "busy",
-   "text": "1 more breakout (KO) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "KO"
    ]
   }
  ],
@@ -3770,6 +3770,11 @@
    "ts": 1794244996,
    "equity": 9322.41,
    "spy": 9900.45
+  },
+  {
+   "ts": 1794245309,
+   "equity": 9323.13,
+   "spy": 9900.45
   }
  ],
  "daily": [
@@ -3805,6 +3810,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794245309,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.0,
+   "errors": [],
+   "run_id": "42664931590",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794244996,
    "phase": "open",
@@ -4194,29 +4209,19 @@
    "errors": [],
    "run_id": "42504308315",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794138515,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42477348195",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794244996,
+  "tick_at": 1794245309,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794245010,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794245318,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
