@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794243900,
+  "last_bar_end": 1794244200,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 143,
+  "triggers_seen": 146,
   "missed": [
    "AVGO",
    "CHPT",
@@ -405,7 +405,10 @@
    "DG",
    "HD",
    "MDT",
-   "ZTS"
+   "ZTS",
+   "ENPH",
+   "TJX",
+   "W"
   ],
   "triggered": [
    "ADI",
@@ -550,7 +553,10 @@
    "DG",
    "HD",
    "MDT",
-   "ZTS"
+   "ZTS",
+   "ENPH",
+   "TJX",
+   "W"
   ],
   "hits": [
    {
@@ -1696,6 +1702,30 @@
     "or_high": 80.85,
     "or_low": 80.0,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "ENPH",
+    "at": "12:10",
+    "price": 28.7,
+    "or_high": 28.62,
+    "or_low": 27.72,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TJX",
+    "at": "12:10",
+    "price": 137.78,
+    "or_high": 137.59,
+    "or_low": 136.14,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "W",
+    "at": "12:10",
+    "price": 117.79,
+    "or_high": 117.73,
+    "or_low": 114.93,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1703,8 +1733,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 751.4299926757812,
-  "last_ts": 1794243900
+  "last": 752.0900268554688,
+  "last_ts": 1794244200
  },
  "seen_trades": 0,
  "daily": [

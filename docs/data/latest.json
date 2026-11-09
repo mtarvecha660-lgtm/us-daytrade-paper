@@ -1,21 +1,21 @@
 {
- "updated": 1794244049,
- "updated_et": "2026-11-09 12:07 ET",
+ "updated": 1794244364,
+ "updated_et": "2026-11-09 12:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9319.34,
-  "return": -0.06806599999999996,
+  "equity": 9322.53,
+  "return": -0.06774699999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 9890.05,
-  "return": -0.010995000000000088,
+  "value": 9898.74,
+  "return": -0.010125999999999968,
   "start_price": 759.47998046875,
-  "last": 751.4299926757812
+  "last": 752.0900268554688
  },
  "position": {
   "symbol": "NVDA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "NET",
-    "at": "10:00",
-    "price": 292.61,
-    "or_high": 290.94,
-    "or_low": 274.0,
-    "pct_over": 0.58
-   },
-   {
-    "symbol": "RIVN",
-    "at": "10:00",
-    "price": 13.89,
-    "or_high": 13.88,
-    "or_low": 13.57,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "AXP",
-    "at": "10:05",
-    "price": 325.29,
-    "or_high": 324.64,
-    "or_low": 316.57,
-    "pct_over": 0.2
-   },
    {
     "symbol": "HON",
     "at": "10:05",
@@ -516,9 +492,33 @@
     "or_high": 80.85,
     "or_low": 80.0,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "ENPH",
+    "at": "12:10",
+    "price": 28.7,
+    "or_high": 28.62,
+    "or_low": 27.72,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TJX",
+    "at": "12:10",
+    "price": 137.78,
+    "or_high": 137.59,
+    "or_low": 136.14,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "W",
+    "at": "12:10",
+    "price": 117.79,
+    "or_high": 117.73,
+    "or_low": 114.93,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 143,
+  "n_hits": 146,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794244200,
+   "et": "2026-11-09 12:10",
+   "kind": "busy",
+   "text": "3 more breakouts (ENPH, TJX, W) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "ENPH",
+    "TJX",
+    "W"
+   ]
+  },
   {
    "ts": 1794243900,
    "et": "2026-11-09 12:05",
@@ -1836,15 +1847,6 @@
    "text": "1 more breakout (MAR) not taken: already in HLT (one trade at a time)",
    "symbols": [
     "MAR"
-   ]
-  },
-  {
-   "ts": 1793816400,
-   "et": "2026-11-04 13:20",
-   "kind": "busy",
-   "text": "1 more breakout (ABT) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "ABT"
    ]
   }
  ],
@@ -3753,6 +3755,11 @@
    "ts": 1794244049,
    "equity": 9319.34,
    "spy": 9890.05
+  },
+  {
+   "ts": 1794244364,
+   "equity": 9322.53,
+   "spy": 9898.74
   }
  ],
  "daily": [
@@ -3788,6 +3795,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794244364,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.2,
+   "errors": [],
+   "run_id": "42662345676",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794244049,
    "phase": "open",
@@ -4177,25 +4194,15 @@
    "errors": [],
    "run_id": "42431399308",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794079075,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42405499696",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794244049,
+  "tick_at": 1794244364,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794244064,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794244378,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
