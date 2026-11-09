@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794241800,
+  "last_bar_end": 1794242400,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 135,
+  "triggers_seen": 139,
   "missed": [
    "AVGO",
    "CHPT",
@@ -397,7 +397,11 @@
    "AEP",
    "EOG",
    "CVX",
-   "GE"
+   "GE",
+   "DHR",
+   "JNJ",
+   "COST",
+   "XOM"
   ],
   "triggered": [
    "ADI",
@@ -534,7 +538,11 @@
    "AEP",
    "EOG",
    "CVX",
-   "GE"
+   "GE",
+   "DHR",
+   "JNJ",
+   "COST",
+   "XOM"
   ],
   "hits": [
    {
@@ -1616,6 +1624,38 @@
     "or_high": 333.33,
     "or_low": 330.05,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "DHR",
+    "at": "11:35",
+    "price": 232.26,
+    "or_high": 232.05,
+    "or_low": 228.37,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "JNJ",
+    "at": "11:35",
+    "price": 279.42,
+    "or_high": 279.13,
+    "or_low": 276.84,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "COST",
+    "at": "11:40",
+    "price": 1054.49,
+    "or_high": 1053.71,
+    "or_low": 1045.73,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "XOM",
+    "at": "11:40",
+    "price": 165.37,
+    "or_high": 165.3,
+    "or_low": 162.84,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1623,8 +1663,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.639892578125,
-  "last_ts": 1794241800
+  "last": 749.739990234375,
+  "last_ts": 1794242400
  },
  "seen_trades": 0,
  "daily": [

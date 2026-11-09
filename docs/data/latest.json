@@ -1,21 +1,21 @@
 {
- "updated": 1794242159,
- "updated_et": "2026-11-09 11:35 ET",
+ "updated": 1794242472,
+ "updated_et": "2026-11-09 11:41 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9270.94,
-  "return": -0.07290599999999992,
+  "equity": 9259.78,
+  "return": -0.07402199999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9866.49,
-  "return": -0.013351000000000002,
+  "value": 9867.81,
+  "return": -0.013219000000000092,
   "start_price": 759.47998046875,
-  "last": 749.639892578125
+  "last": 749.739990234375
  },
  "position": {
   "symbol": "NVDA",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "PNC",
-    "at": "09:55",
-    "price": 229.68,
-    "or_high": 229.47,
-    "or_low": 226.61,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "PYPL",
-    "at": "09:55",
-    "price": 60.26,
-    "or_high": 60.18,
-    "or_low": 59.69,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "QBTS",
-    "at": "09:55",
-    "price": 10.93,
-    "or_high": 10.85,
-    "or_low": 10.47,
-    "pct_over": 0.74
-   },
-   {
-    "symbol": "RBLX",
-    "at": "09:55",
-    "price": 51.56,
-    "or_high": 51.5,
-    "or_low": 50.11,
-    "pct_over": 0.12
-   },
    {
     "symbol": "SWKS",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 333.33,
     "or_low": 330.05,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "DHR",
+    "at": "11:35",
+    "price": 232.26,
+    "or_high": 232.05,
+    "or_low": 228.37,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "JNJ",
+    "at": "11:35",
+    "price": 279.42,
+    "or_high": 279.13,
+    "or_low": 276.84,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "COST",
+    "at": "11:40",
+    "price": 1054.49,
+    "or_high": 1053.71,
+    "or_low": 1045.73,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "XOM",
+    "at": "11:40",
+    "price": 165.37,
+    "or_high": 165.3,
+    "or_low": 162.84,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 135,
+  "n_hits": 139,
   "entries": 1,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -4.971238547734508,
   "days": 6
  },
- "intraday_max_drawdown": -0.07952513475596978,
+ "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
   {
    "date": "2026-11-06",
@@ -823,6 +823,26 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794242400,
+   "et": "2026-11-09 11:40",
+   "kind": "busy",
+   "text": "2 more breakouts (COST, XOM) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "COST",
+    "XOM"
+   ]
+  },
+  {
+   "ts": 1794242100,
+   "et": "2026-11-09 11:35",
+   "kind": "busy",
+   "text": "2 more breakouts (DHR, JNJ) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "DHR",
+    "JNJ"
+   ]
+  },
   {
    "ts": 1794241800,
    "et": "2026-11-09 11:30",
@@ -1825,24 +1845,6 @@
     "AEP",
     "DE",
     "MS"
-   ]
-  },
-  {
-   "ts": 1793813100,
-   "et": "2026-11-04 12:25",
-   "kind": "busy",
-   "text": "1 more breakout (GS) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "GS"
-   ]
-  },
-  {
-   "ts": 1793812800,
-   "et": "2026-11-04 12:20",
-   "kind": "busy",
-   "text": "1 more breakout (APO) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "APO"
    ]
   }
  ],
@@ -3721,6 +3723,11 @@
    "ts": 1794242159,
    "equity": 9270.94,
    "spy": 9866.49
+  },
+  {
+   "ts": 1794242472,
+   "equity": 9259.78,
+   "spy": 9867.81
   }
  ],
  "daily": [
@@ -3756,6 +3763,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794242472,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 15.5,
+   "errors": [],
+   "run_id": "42657237422",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794242159,
    "phase": "open",
@@ -4145,25 +4162,15 @@
    "errors": [],
    "run_id": "42294700894",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793999203,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.3,
-   "errors": [],
-   "run_id": "42293962569",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794242159,
+  "tick_at": 1794242472,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794242170,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794242486,
+  "candidates": 44,
+  "charts_fetched": 46,
   "ok": true,
   "errors": [],
   "stale_data": false,
