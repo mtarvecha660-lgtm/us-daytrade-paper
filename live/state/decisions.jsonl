@@ -157,3 +157,4 @@
 {"ts": 1794236700, "et": "2026-11-09 10:05", "kind": "busy", "text": "13 more breakouts (AXP, HON, NFLX, NKE, NOC, PDD, RCL, SE ...) not taken: already in NVDA (one trade at a time)", "symbols": ["AXP", "HON", "NFLX", "NKE", "NOC", "PDD", "RCL", "SE", "SEDG", "TTD", "UPS", "UPST", "VZ"]}
 {"ts": 1794237000, "et": "2026-11-09 10:10", "kind": "busy", "text": "5 more breakouts (APP, BAC, CVS, USB, WFC) not taken: already in NVDA (one trade at a time)", "symbols": ["APP", "BAC", "CVS", "USB", "WFC"]}
 {"ts": 1794237300, "et": "2026-11-09 10:15", "kind": "busy", "text": "4 more breakouts (BIIB, FANG, MELI, SBUX) not taken: already in NVDA (one trade at a time)", "symbols": ["BIIB", "FANG", "MELI", "SBUX"]}
+{"ts": 1794237600, "et": "2026-11-09 10:20", "kind": "busy", "text": "3 more breakouts (NU, PEP, RIOT) not taken: already in NVDA (one trade at a time)", "symbols": ["NU", "PEP", "RIOT"]}

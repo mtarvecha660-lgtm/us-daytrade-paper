@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794237300,
+  "last_bar_end": 1794237600,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 107,
+  "triggers_seen": 110,
   "missed": [
    "AVGO",
    "CHPT",
@@ -369,7 +369,10 @@
    "BIIB",
    "FANG",
    "MELI",
-   "SBUX"
+   "SBUX",
+   "NU",
+   "PEP",
+   "RIOT"
   ],
   "triggered": [
    "ADI",
@@ -478,7 +481,10 @@
    "BIIB",
    "FANG",
    "MELI",
-   "SBUX"
+   "SBUX",
+   "NU",
+   "PEP",
+   "RIOT"
   ],
   "hits": [
    {
@@ -1336,6 +1342,30 @@
     "or_high": 107.98,
     "or_low": 106.28,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "NU",
+    "at": "10:20",
+    "price": 12.23,
+    "or_high": 12.22,
+    "or_low": 12.0,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:20",
+    "price": 141.75,
+    "or_high": 141.68,
+    "or_low": 140.61,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RIOT",
+    "at": "10:20",
+    "price": 17.35,
+    "or_high": 17.34,
+    "or_low": 16.75,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1343,8 +1373,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 748.7000122070312,
-  "last_ts": 1794237300
+  "last": 749.094970703125,
+  "last_ts": 1794237600
  },
  "seen_trades": 0,
  "daily": [
