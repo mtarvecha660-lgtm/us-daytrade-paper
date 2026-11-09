@@ -1,21 +1,21 @@
 {
- "updated": 1794239336,
- "updated_et": "2026-11-09 10:48 ET",
+ "updated": 1794239647,
+ "updated_et": "2026-11-09 10:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9353.84,
-  "return": -0.064616,
+  "equity": 9351.68,
+  "return": -0.064832,
   "started": 1793559735
  },
  "spy": {
-  "value": 9867.68,
-  "return": -0.013232000000000022,
+  "value": 9874.59,
+  "return": -0.012541000000000024,
   "start_price": 759.47998046875,
-  "last": 749.7301025390625
+  "last": 750.2550048828125
  },
  "position": {
   "symbol": "NVDA",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "VLO",
-    "at": "09:50",
-    "price": 352.33,
-    "or_high": 351.45,
-    "or_low": 341.84,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "WDC",
-    "at": "09:50",
-    "price": 285.96,
-    "or_high": 284.0,
-    "or_low": 270.0,
-    "pct_over": 0.69
-   },
-   {
-    "symbol": "ZM",
-    "at": "09:50",
-    "price": 92.0,
-    "or_high": 91.31,
-    "or_low": 89.8,
-    "pct_over": 0.76
-   },
-   {
-    "symbol": "ZS",
-    "at": "09:50",
-    "price": 200.81,
-    "or_high": 199.42,
-    "or_low": 195.8,
-    "pct_over": 0.7
-   },
-   {
-    "symbol": "AVGO",
-    "at": "09:55",
-    "price": 313.61,
-    "or_high": 313.53,
-    "or_low": 304.29,
-    "pct_over": 0.03
-   },
    {
     "symbol": "CHPT",
     "at": "09:55",
@@ -516,9 +476,49 @@
     "or_high": 166.41,
     "or_low": 165.23,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "COP",
+    "at": "10:50",
+    "price": 135.38,
+    "or_high": 135.36,
+    "or_low": 133.4,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:50",
+    "price": 136.41,
+    "or_high": 136.18,
+    "or_low": 132.0,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "GILD",
+    "at": "10:50",
+    "price": 169.26,
+    "or_high": 169.21,
+    "or_low": 166.17,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "JPM",
+    "at": "10:50",
+    "price": 340.39,
+    "or_high": 339.84,
+    "or_low": 335.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "SO",
+    "at": "10:50",
+    "price": 93.02,
+    "or_high": 93.01,
+    "or_low": 91.85,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 119,
+  "n_hits": 124,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794239400,
+   "et": "2026-11-09 10:50",
+   "kind": "busy",
+   "text": "5 more breakouts (COP, DLTR, GILD, JPM, SO) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "COP",
+    "DLTR",
+    "GILD",
+    "JPM",
+    "SO"
+   ]
+  },
   {
    "ts": 1794238800,
    "et": "2026-11-09 10:40",
@@ -1833,19 +1846,6 @@
    "symbols": [
     "F",
     "NCLH"
-   ]
-  },
-  {
-   "ts": 1793810400,
-   "et": "2026-11-04 11:40",
-   "kind": "busy",
-   "text": "5 more breakouts (DAL, HD, HON, LUV, UAL) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "DAL",
-    "HD",
-    "HON",
-    "LUV",
-    "UAL"
    ]
   }
  ],
@@ -3679,6 +3679,11 @@
    "ts": 1794239336,
    "equity": 9353.84,
    "spy": 9867.68
+  },
+  {
+   "ts": 1794239647,
+   "equity": 9351.68,
+   "spy": 9874.59
   }
  ],
  "daily": [
@@ -3714,6 +3719,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794239647,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.3,
+   "errors": [],
+   "run_id": "42649268067",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794239336,
    "phase": "open",
@@ -4103,25 +4118,15 @@
    "errors": [],
    "run_id": "42288128018",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793996383,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.0,
-   "errors": [],
-   "run_id": "42287375547",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794239336,
+  "tick_at": 1794239647,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794239347,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794239660,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
