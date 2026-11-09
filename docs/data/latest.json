@@ -1,21 +1,21 @@
 {
- "updated": 1794245625,
- "updated_et": "2026-11-09 12:33 ET",
+ "updated": 1794245938,
+ "updated_et": "2026-11-09 12:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9332.49,
-  "return": -0.066751,
+  "equity": 9337.89,
+  "return": -0.06621100000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9904.4,
-  "return": -0.009560000000000013,
+  "value": 9907.29,
+  "return": -0.009270999999999918,
   "start_price": 759.47998046875,
-  "last": 752.52001953125
+  "last": 752.739990234375
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "RCL",
-    "at": "10:05",
-    "price": 338.64,
-    "or_high": 338.5,
-    "or_low": 334.3,
-    "pct_over": 0.04
-   },
    {
     "symbol": "SE",
     "at": "10:05",
@@ -516,9 +508,17 @@
     "or_high": 150.98,
     "or_low": 148.01,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "LOW",
+    "at": "12:35",
+    "price": 232.03,
+    "or_high": 231.95,
+    "or_low": 229.0,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 151,
+  "n_hits": 152,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794245700,
+   "et": "2026-11-09 12:35",
+   "kind": "busy",
+   "text": "1 more breakout (LOW) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "LOW"
+   ]
+  },
   {
    "ts": 1794245400,
    "et": "2026-11-09 12:30",
@@ -1841,15 +1850,6 @@
    "kind": "exit",
    "text": "SELL 19 HLT at $377.01: target $377.01 hit (1R). P&L $+70.31 (+0.96R)",
    "symbol": "HLT"
-  },
-  {
-   "ts": 1793823900,
-   "et": "2026-11-04 15:25",
-   "kind": "busy",
-   "text": "1 more breakout (BMY) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "BMY"
-   ]
   }
  ],
  "equity": [
@@ -3782,6 +3782,11 @@
    "ts": 1794245625,
    "equity": 9332.49,
    "spy": 9904.4
+  },
+  {
+   "ts": 1794245938,
+   "equity": 9337.89,
+   "spy": 9907.29
   }
  ],
  "daily": [
@@ -3817,6 +3822,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794245938,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.6,
+   "errors": [],
+   "run_id": "42666644457",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794245625,
    "phase": "open",
@@ -4206,25 +4221,15 @@
    "errors": [],
    "run_id": "42561146775",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794178144,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42532093370",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794245625,
+  "tick_at": 1794245938,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794245635,
-  "candidates": 35,
-  "charts_fetched": 37,
+  "yahoo_time": 1794245949,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
