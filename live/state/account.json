@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794240600,
+  "last_bar_end": 1794240900,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 130,
+  "triggers_seen": 131,
   "missed": [
    "AVGO",
    "CHPT",
@@ -392,7 +392,8 @@
    "ROST",
    "BSX",
    "HAL",
-   "UBER"
+   "UBER",
+   "TMO"
   ],
   "triggered": [
    "ADI",
@@ -524,7 +525,8 @@
    "ROST",
    "BSX",
    "HAL",
-   "UBER"
+   "UBER",
+   "TMO"
   ],
   "hits": [
    {
@@ -1566,6 +1568,14 @@
     "or_high": 69.59,
     "or_low": 68.94,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "TMO",
+    "at": "11:15",
+    "price": 701.08,
+    "or_high": 701.0,
+    "or_low": 692.39,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1573,8 +1583,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.5449829101562,
-  "last_ts": 1794240600
+  "last": 749.97998046875,
+  "last_ts": 1794240900
  },
  "seen_trades": 0,
  "daily": [

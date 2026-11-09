@@ -1,21 +1,21 @@
 {
- "updated": 1794240898,
- "updated_et": "2026-11-09 11:14 ET",
+ "updated": 1794241212,
+ "updated_et": "2026-11-09 11:20 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9310.41,
-  "return": -0.06895899999999999,
+  "equity": 9281.64,
+  "return": -0.07183600000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9878.4,
-  "return": -0.01216000000000006,
+  "value": 9870.97,
+  "return": -0.012903000000000109,
   "start_price": 759.47998046875,
-  "last": 750.5449829101562
+  "last": 749.97998046875
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "KKR",
-    "at": "09:55",
-    "price": 98.4,
-    "or_high": 97.88,
-    "or_low": 95.51,
-    "pct_over": 0.54
-   },
    {
     "symbol": "LLY",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 69.59,
     "or_low": 68.94,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "TMO",
+    "at": "11:15",
+    "price": 701.08,
+    "or_high": 701.0,
+    "or_low": 692.39,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 130,
+  "n_hits": 131,
   "entries": 1,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -4.971238547734508,
   "days": 6
  },
- "intraday_max_drawdown": -0.07560631498891468,
+ "intraday_max_drawdown": -0.07846277419079406,
  "trades": [
   {
    "date": "2026-11-06",
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794240900,
+   "et": "2026-11-09 11:15",
+   "kind": "busy",
+   "text": "1 more breakout (TMO) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "TMO"
+   ]
+  },
   {
    "ts": 1794240600,
    "et": "2026-11-09 11:10",
@@ -1836,15 +1845,6 @@
    "kind": "exit",
    "text": "SELL 28 IBM at $255.25: stop $255.30 hit. P&L $-58.31 (-1.10R)",
    "symbol": "IBM"
-  },
-  {
-   "ts": 1793812200,
-   "et": "2026-11-04 12:10",
-   "kind": "busy",
-   "text": "1 more breakout (JNJ) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "JNJ"
-   ]
   }
  ],
  "equity": [
@@ -3702,6 +3702,11 @@
    "ts": 1794240898,
    "equity": 9310.41,
    "spy": 9878.4
+  },
+  {
+   "ts": 1794241212,
+   "equity": 9281.64,
+   "spy": 9870.97
   }
  ],
  "daily": [
@@ -3737,6 +3742,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794241212,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.2,
+   "errors": [],
+   "run_id": "42653651853",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794240898,
    "phase": "open",
@@ -4126,25 +4141,15 @@
    "errors": [],
    "run_id": "42291786300",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793997950,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.0,
-   "errors": [],
-   "run_id": "42291059916",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794240898,
+  "tick_at": 1794241212,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794240909,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794241222,
+  "candidates": 25,
+  "charts_fetched": 27,
   "ok": true,
   "errors": [],
   "stale_data": false,
