@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794246000,
+  "last_bar_end": 1794246300,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 152,
+  "triggers_seen": 154,
   "missed": [
    "AVGO",
    "CHPT",
@@ -414,7 +414,9 @@
    "ADBE",
    "C",
    "SHOP",
-   "LOW"
+   "LOW",
+   "CRM",
+   "WMT"
   ],
   "triggered": [
    "ADI",
@@ -568,7 +570,9 @@
    "ADBE",
    "C",
    "SHOP",
-   "LOW"
+   "LOW",
+   "CRM",
+   "WMT"
   ],
   "hits": [
    {
@@ -1786,6 +1790,22 @@
     "or_high": 231.95,
     "or_low": 229.0,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "CRM",
+    "at": "12:45",
+    "price": 217.26,
+    "or_high": 216.37,
+    "or_low": 213.9,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "WMT",
+    "at": "12:45",
+    "price": 125.04,
+    "or_high": 124.88,
+    "or_low": 123.57,
+    "pct_over": 0.13
    }
   ]
  },
@@ -1793,8 +1813,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.3499755859375,
-  "last_ts": 1794246000
+  "last": 752.1898803710938,
+  "last_ts": 1794246300
  },
  "seen_trades": 0,
  "daily": [

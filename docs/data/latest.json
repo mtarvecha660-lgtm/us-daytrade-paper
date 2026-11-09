@@ -1,21 +1,21 @@
 {
- "updated": 1794246251,
- "updated_et": "2026-11-09 12:44 ET",
+ "updated": 1794246566,
+ "updated_et": "2026-11-09 12:49 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9337.29,
-  "return": -0.06627099999999986,
+  "equity": 9334.41,
+  "return": -0.06655900000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9902.16,
-  "return": -0.009784000000000015,
+  "value": 9900.05,
+  "return": -0.009995000000000087,
   "start_price": 759.47998046875,
-  "last": 752.3499755859375
+  "last": 752.1898803710938
  },
  "position": {
   "symbol": "NVDA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "SE",
-    "at": "10:05",
-    "price": 78.72,
-    "or_high": 78.6,
-    "or_low": 76.58,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "SEDG",
-    "at": "10:05",
-    "price": 27.44,
-    "or_high": 27.36,
-    "or_low": 26.34,
-    "pct_over": 0.27
-   },
    {
     "symbol": "TTD",
     "at": "10:05",
@@ -516,9 +500,25 @@
     "or_high": 231.95,
     "or_low": 229.0,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "CRM",
+    "at": "12:45",
+    "price": 217.26,
+    "or_high": 216.37,
+    "or_low": 213.9,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "WMT",
+    "at": "12:45",
+    "price": 125.04,
+    "or_high": 124.88,
+    "or_low": 123.57,
+    "pct_over": 0.13
    }
   ],
-  "n_hits": 152,
+  "n_hits": 154,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794246300,
+   "et": "2026-11-09 12:45",
+   "kind": "busy",
+   "text": "2 more breakouts (CRM, WMT) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "CRM",
+    "WMT"
+   ]
+  },
   {
    "ts": 1794245700,
    "et": "2026-11-09 12:35",
@@ -1843,13 +1853,6 @@
     "DUK",
     "FANG"
    ]
-  },
-  {
-   "ts": 1793825100,
-   "et": "2026-11-04 15:45",
-   "kind": "exit",
-   "text": "SELL 19 HLT at $377.01: target $377.01 hit (1R). P&L $+70.31 (+0.96R)",
-   "symbol": "HLT"
   }
  ],
  "equity": [
@@ -3792,6 +3795,11 @@
    "ts": 1794246251,
    "equity": 9337.29,
    "spy": 9902.16
+  },
+  {
+   "ts": 1794246566,
+   "equity": 9334.41,
+   "spy": 9900.05
   }
  ],
  "daily": [
@@ -3827,6 +3835,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794246566,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.0,
+   "errors": [],
+   "run_id": "42668314055",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794246251,
    "phase": "open",
@@ -4216,23 +4234,13 @@
    "errors": [],
    "run_id": "42634462448",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794217773,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42596319689",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794246251,
+  "tick_at": 1794246566,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794246261,
+  "yahoo_time": 1794246576,
   "candidates": 34,
   "charts_fetched": 36,
   "ok": true,
