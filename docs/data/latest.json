@@ -1,21 +1,21 @@
 {
- "updated": 1794237135,
- "updated_et": "2026-11-09 10:12 ET",
+ "updated": 1794237449,
+ "updated_et": "2026-11-09 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9349.52,
-  "return": -0.065048,
+  "equity": 9362.24,
+  "return": -0.06377600000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 9846.81,
-  "return": -0.015319000000000083,
+  "value": 9854.12,
+  "return": -0.014587999999999934,
   "start_price": 759.47998046875,
-  "last": 748.14501953125
+  "last": 748.7000122070312
  },
  "position": {
   "symbol": "NVDA",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "PSX",
-    "at": "09:50",
-    "price": 248.79,
-    "or_high": 248.6,
-    "or_low": 240.93,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "QCOM",
-    "at": "09:50",
-    "price": 169.86,
-    "or_high": 167.48,
-    "or_low": 163.29,
-    "pct_over": 1.42
-   },
-   {
-    "symbol": "RDDT",
-    "at": "09:50",
-    "price": 95.96,
-    "or_high": 95.62,
-    "or_low": 94.1,
-    "pct_over": 0.36
-   },
-   {
-    "symbol": "RGTI",
-    "at": "09:50",
-    "price": 12.06,
-    "or_high": 12.03,
-    "or_low": 11.67,
-    "pct_over": 0.21
-   },
    {
     "symbol": "RTX",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 85.35,
     "or_low": 84.25,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "BIIB",
+    "at": "10:15",
+    "price": 251.72,
+    "or_high": 251.03,
+    "or_low": 246.44,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "FANG",
+    "at": "10:15",
+    "price": 176.38,
+    "or_high": 176.14,
+    "or_low": 173.75,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:15",
+    "price": 1533.49,
+    "or_high": 1532.0,
+    "or_low": 1510.48,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "SBUX",
+    "at": "10:15",
+    "price": 107.99,
+    "or_high": 107.98,
+    "or_low": 106.28,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 103,
+  "n_hits": 107,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794237300,
+   "et": "2026-11-09 10:15",
+   "kind": "busy",
+   "text": "4 more breakouts (BIIB, FANG, MELI, SBUX) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "BIIB",
+    "FANG",
+    "MELI",
+    "SBUX"
+   ]
+  },
   {
    "ts": 1794237000,
    "et": "2026-11-09 10:10",
@@ -1831,17 +1843,6 @@
     "KKR",
     "LOW",
     "TGT"
-   ]
-  },
-  {
-   "ts": 1793807700,
-   "et": "2026-11-04 10:55",
-   "kind": "busy",
-   "text": "3 more breakouts (BAC, DUK, NEE) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "BAC",
-    "DUK",
-    "NEE"
    ]
   }
  ],
@@ -3640,6 +3641,11 @@
    "ts": 1794237135,
    "equity": 9349.52,
    "spy": 9846.81
+  },
+  {
+   "ts": 1794237449,
+   "equity": 9362.24,
+   "spy": 9854.12
   }
  ],
  "daily": [
@@ -3675,6 +3681,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794237449,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.8,
+   "errors": [],
+   "run_id": "42643132956",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794237135,
    "phase": "open",
@@ -4064,25 +4080,15 @@
    "errors": [],
    "run_id": "42282835500",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793994194,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.9,
-   "errors": [],
-   "run_id": "42282064687",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794237135,
+  "tick_at": 1794237449,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794237146,
-  "candidates": 40,
-  "charts_fetched": 42,
+  "yahoo_time": 1794237460,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
