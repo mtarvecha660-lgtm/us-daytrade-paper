@@ -1,21 +1,21 @@
 {
- "updated": 1794236507,
- "updated_et": "2026-11-09 10:01 ET",
+ "updated": 1794236823,
+ "updated_et": "2026-11-09 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9355.04,
-  "return": -0.06449599999999989,
+  "equity": 9348.08,
+  "return": -0.06519200000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9841.35,
-  "return": -0.015865000000000018,
+  "value": 9850.83,
+  "return": -0.014916999999999958,
   "start_price": 759.47998046875,
-  "last": 747.72998046875
+  "last": 748.4500122070312
  },
  "position": {
   "symbol": "NVDA",
@@ -37,110 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "KLAC",
-    "at": "09:50",
-    "price": 145.4,
-    "or_high": 145.36,
-    "or_low": 141.51,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "LMT",
-    "at": "09:50",
-    "price": 575.99,
-    "or_high": 574.34,
-    "or_low": 566.27,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "LRCX",
-    "at": "09:50",
-    "price": 212.34,
-    "or_high": 210.88,
-    "or_low": 203.9,
-    "pct_over": 0.69
-   },
-   {
-    "symbol": "MARA",
-    "at": "09:50",
-    "price": 6.36,
-    "or_high": 6.35,
-    "or_low": 6.16,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "MDB",
-    "at": "09:50",
-    "price": 324.87,
-    "or_high": 323.0,
-    "or_low": 312.11,
-    "pct_over": 0.58
-   },
-   {
-    "symbol": "MPC",
-    "at": "09:50",
-    "price": 381.87,
-    "or_high": 381.26,
-    "or_low": 370.05,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "MRNA",
-    "at": "09:50",
-    "price": 262.98,
-    "or_high": 262.93,
-    "or_low": 253.5,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "MRVL",
-    "at": "09:50",
-    "price": 151.46,
-    "or_high": 149.4,
-    "or_low": 142.28,
-    "pct_over": 1.38
-   },
-   {
-    "symbol": "MS",
-    "at": "09:50",
-    "price": 187.51,
-    "or_high": 187.26,
-    "or_low": 184.37,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "MSTR",
-    "at": "09:50",
-    "price": 125.81,
-    "or_high": 125.15,
-    "or_low": 122.48,
-    "pct_over": 0.53
-   },
-   {
-    "symbol": "MU",
-    "at": "09:50",
-    "price": 719.0,
-    "or_high": 709.75,
-    "or_low": 689.65,
-    "pct_over": 1.3
-   },
-   {
-    "symbol": "NVDA",
-    "at": "09:50",
-    "price": 177.44,
-    "or_high": 176.45,
-    "or_low": 170.24,
-    "pct_over": 0.56
-   },
-   {
-    "symbol": "OKTA",
-    "at": "09:50",
-    "price": 175.69,
-    "or_high": 172.56,
-    "or_low": 166.5,
-    "pct_over": 1.81
-   },
    {
     "symbol": "ON",
     "at": "09:50",
@@ -516,9 +412,113 @@
     "or_high": 13.88,
     "or_low": 13.57,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "AXP",
+    "at": "10:05",
+    "price": 325.29,
+    "or_high": 324.64,
+    "or_low": 316.57,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "HON",
+    "at": "10:05",
+    "price": 225.44,
+    "or_high": 225.34,
+    "or_low": 222.6,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "NFLX",
+    "at": "10:05",
+    "price": 63.95,
+    "or_high": 63.74,
+    "or_low": 62.95,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:05",
+    "price": 39.13,
+    "or_high": 39.05,
+    "or_low": 38.6,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:05",
+    "price": 531.75,
+    "or_high": 531.34,
+    "or_low": 523.16,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PDD",
+    "at": "10:05",
+    "price": 81.2,
+    "or_high": 81.15,
+    "or_low": 80.35,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "RCL",
+    "at": "10:05",
+    "price": 338.64,
+    "or_high": 338.5,
+    "or_low": 334.3,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SE",
+    "at": "10:05",
+    "price": 78.72,
+    "or_high": 78.6,
+    "or_low": 76.58,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:05",
+    "price": 27.44,
+    "or_high": 27.36,
+    "or_low": 26.34,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:05",
+    "price": 14.53,
+    "or_high": 14.34,
+    "or_low": 13.75,
+    "pct_over": 1.36
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:05",
+    "price": 110.37,
+    "or_high": 110.31,
+    "or_low": 109.24,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "UPST",
+    "at": "10:05",
+    "price": 22.18,
+    "or_high": 22.1,
+    "or_low": 21.7,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:05",
+    "price": 46.04,
+    "or_high": 45.9,
+    "or_low": 45.36,
+    "pct_over": 0.3
    }
   ],
-  "n_hits": 85,
+  "n_hits": 98,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,27 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794236700,
+   "et": "2026-11-09 10:05",
+   "kind": "busy",
+   "text": "13 more breakouts (AXP, HON, NFLX, NKE, NOC, PDD, RCL, SE ...) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "AXP",
+    "HON",
+    "NFLX",
+    "NKE",
+    "NOC",
+    "PDD",
+    "RCL",
+    "SE",
+    "SEDG",
+    "TTD",
+    "UPS",
+    "UPST",
+    "VZ"
+   ]
+  },
   {
    "ts": 1794236400,
    "et": "2026-11-09 10:00",
@@ -1820,20 +1841,6 @@
     "JPM",
     "MRK",
     "Z"
-   ]
-  },
-  {
-   "ts": 1793807100,
-   "et": "2026-11-04 10:45",
-   "kind": "busy",
-   "text": "6 more breakouts (BKNG, DG, MA, SYK, TJX, V) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "BKNG",
-    "DG",
-    "MA",
-    "SYK",
-    "TJX",
-    "V"
    ]
   }
  ],
@@ -3622,6 +3629,11 @@
    "ts": 1794236507,
    "equity": 9355.04,
    "spy": 9841.35
+  },
+  {
+   "ts": 1794236823,
+   "equity": 9348.08,
+   "spy": 9850.83
   }
  ],
  "daily": [
@@ -3657,6 +3669,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794236823,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.5,
+   "errors": [],
+   "run_id": "42641319679",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794236507,
    "phase": "open",
@@ -4046,29 +4068,19 @@
    "errors": [],
    "run_id": "42281310356",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793993566,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.2,
-   "errors": [],
-   "run_id": "42280533844",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794236507,
+  "tick_at": 1794236823,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794236518,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794236841,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

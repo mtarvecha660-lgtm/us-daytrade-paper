@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794236400,
+  "last_bar_end": 1794236700,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 85,
+  "triggers_seen": 98,
   "missed": [
    "AVGO",
    "CHPT",
@@ -347,7 +347,20 @@
    "TXN",
    "GM",
    "NET",
-   "RIVN"
+   "RIVN",
+   "AXP",
+   "HON",
+   "NFLX",
+   "NKE",
+   "NOC",
+   "PDD",
+   "RCL",
+   "SE",
+   "SEDG",
+   "TTD",
+   "UPS",
+   "UPST",
+   "VZ"
   ],
   "triggered": [
    "ADI",
@@ -434,7 +447,20 @@
    "TXN",
    "GM",
    "NET",
-   "RIVN"
+   "RIVN",
+   "AXP",
+   "HON",
+   "NFLX",
+   "NKE",
+   "NOC",
+   "PDD",
+   "RCL",
+   "SE",
+   "SEDG",
+   "TTD",
+   "UPS",
+   "UPST",
+   "VZ"
   ],
   "hits": [
    {
@@ -1116,6 +1142,110 @@
     "or_high": 13.88,
     "or_low": 13.57,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "AXP",
+    "at": "10:05",
+    "price": 325.29,
+    "or_high": 324.64,
+    "or_low": 316.57,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "HON",
+    "at": "10:05",
+    "price": 225.44,
+    "or_high": 225.34,
+    "or_low": 222.6,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "NFLX",
+    "at": "10:05",
+    "price": 63.95,
+    "or_high": 63.74,
+    "or_low": 62.95,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:05",
+    "price": 39.13,
+    "or_high": 39.05,
+    "or_low": 38.6,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:05",
+    "price": 531.75,
+    "or_high": 531.34,
+    "or_low": 523.16,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PDD",
+    "at": "10:05",
+    "price": 81.2,
+    "or_high": 81.15,
+    "or_low": 80.35,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "RCL",
+    "at": "10:05",
+    "price": 338.64,
+    "or_high": 338.5,
+    "or_low": 334.3,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SE",
+    "at": "10:05",
+    "price": 78.72,
+    "or_high": 78.6,
+    "or_low": 76.58,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:05",
+    "price": 27.44,
+    "or_high": 27.36,
+    "or_low": 26.34,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:05",
+    "price": 14.53,
+    "or_high": 14.34,
+    "or_low": 13.75,
+    "pct_over": 1.36
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:05",
+    "price": 110.37,
+    "or_high": 110.31,
+    "or_low": 109.24,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "UPST",
+    "at": "10:05",
+    "price": 22.18,
+    "or_high": 22.1,
+    "or_low": 21.7,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:05",
+    "price": 46.04,
+    "or_high": 45.9,
+    "or_low": 45.36,
+    "pct_over": 0.3
    }
   ]
  },
@@ -1123,8 +1253,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.72998046875,
-  "last_ts": 1794236400
+  "last": 748.4500122070312,
+  "last_ts": 1794236700
  },
  "seen_trades": 0,
  "daily": [
