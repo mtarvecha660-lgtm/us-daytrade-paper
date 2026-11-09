@@ -1,6 +1,6 @@
 {
- "updated": 1794235570,
- "updated_et": "2026-11-09 09:46 ET",
+ "updated": 1794235884,
+ "updated_et": "2026-11-09 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,527 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9827.27,
-  "return": -0.017272999999999983,
+  "value": 9832.6,
+  "return": -0.016739999999999977,
   "start_price": 759.47998046875,
-  "last": 746.6599731445312
+  "last": 747.0650024414062
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "NVDA",
+  "qty": 24,
+  "plan": {
+   "symbol": "NVDA",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-09",
+   "entry_time": "9:50 AM",
+   "entry": 177.44,
+   "stop": 173.34,
+   "target": 181.54,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
+   "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
+   "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1794235800,
+  "late": false
+ },
  "today": {
   "date": "2026-11-09",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "AMD",
+    "at": "09:50",
+    "price": 488.86,
+    "or_high": 480.6,
+    "or_low": 468.21,
+    "pct_over": 1.72
+   },
+   {
+    "symbol": "ANET",
+    "at": "09:50",
+    "price": 184.04,
+    "or_high": 182.9,
+    "or_low": 176.25,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "APO",
+    "at": "09:50",
+    "price": 120.0,
+    "or_high": 119.7,
+    "or_low": 117.77,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "ARM",
+    "at": "09:50",
+    "price": 183.59,
+    "or_high": 180.88,
+    "or_low": 174.76,
+    "pct_over": 1.5
+   },
+   {
+    "symbol": "ASML",
+    "at": "09:50",
+    "price": 1503.93,
+    "or_high": 1501.94,
+    "or_low": 1468.02,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "BB",
+    "at": "09:50",
+    "price": 8.85,
+    "or_high": 8.84,
+    "or_low": 8.69,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "BLK",
+    "at": "09:50",
+    "price": 1204.99,
+    "or_high": 1204.56,
+    "or_low": 1192.83,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BX",
+    "at": "09:50",
+    "price": 123.0,
+    "or_high": 122.54,
+    "or_low": 120.77,
+    "pct_over": 0.38
+   },
+   {
+    "symbol": "CAT",
+    "at": "09:50",
+    "price": 585.16,
+    "or_high": 583.82,
+    "or_low": 572.05,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "CDNS",
+    "at": "09:50",
+    "price": 328.25,
+    "or_high": 326.62,
+    "or_low": 321.93,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "CLSK",
+    "at": "09:50",
+    "price": 6.4,
+    "or_high": 6.33,
+    "or_low": 6.07,
+    "pct_over": 1.11
+   },
+   {
+    "symbol": "COIN",
+    "at": "09:50",
+    "price": 136.01,
+    "or_high": 135.09,
+    "or_low": 131.12,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:50",
+    "price": 221.86,
+    "or_high": 220.87,
+    "or_low": 216.25,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:50",
+    "price": 97.64,
+    "or_high": 96.72,
+    "or_low": 94.97,
+    "pct_over": 0.96
+   },
+   {
+    "symbol": "DDOG",
+    "at": "09:50",
+    "price": 180.5,
+    "or_high": 179.69,
+    "or_low": 176.51,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "DE",
+    "at": "09:50",
+    "price": 689.09,
+    "or_high": 688.97,
+    "or_low": 681.4,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DELL",
+    "at": "09:50",
+    "price": 344.18,
+    "or_high": 339.0,
+    "or_low": 328.3,
+    "pct_over": 1.53
+   },
+   {
+    "symbol": "GS",
+    "at": "09:50",
+    "price": 896.41,
+    "or_high": 893.69,
+    "or_low": 878.61,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "HOOD",
+    "at": "09:50",
+    "price": 83.91,
+    "or_high": 82.84,
+    "or_low": 80.55,
+    "pct_over": 1.29
+   },
+   {
+    "symbol": "HPQ",
+    "at": "09:50",
+    "price": 28.92,
+    "or_high": 28.79,
+    "or_low": 28.5,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "IBM",
+    "at": "09:50",
+    "price": 247.42,
+    "or_high": 247.09,
+    "or_low": 245.2,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "INTC",
+    "at": "09:50",
+    "price": 57.59,
+    "or_high": 57.54,
+    "or_low": 55.83,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "KLAC",
+    "at": "09:50",
+    "price": 145.4,
+    "or_high": 145.36,
+    "or_low": 141.51,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "LMT",
+    "at": "09:50",
+    "price": 575.99,
+    "or_high": 574.34,
+    "or_low": 566.27,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "LRCX",
+    "at": "09:50",
+    "price": 212.34,
+    "or_high": 210.88,
+    "or_low": 203.9,
+    "pct_over": 0.69
+   },
+   {
+    "symbol": "MARA",
+    "at": "09:50",
+    "price": 6.36,
+    "or_high": 6.35,
+    "or_low": 6.16,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "MDB",
+    "at": "09:50",
+    "price": 324.87,
+    "or_high": 323.0,
+    "or_low": 312.11,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "MPC",
+    "at": "09:50",
+    "price": 381.87,
+    "or_high": 381.26,
+    "or_low": 370.05,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MRNA",
+    "at": "09:50",
+    "price": 262.98,
+    "or_high": 262.93,
+    "or_low": 253.5,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MRVL",
+    "at": "09:50",
+    "price": 151.46,
+    "or_high": 149.4,
+    "or_low": 142.28,
+    "pct_over": 1.38
+   },
+   {
+    "symbol": "MS",
+    "at": "09:50",
+    "price": 187.51,
+    "or_high": 187.26,
+    "or_low": 184.37,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MSTR",
+    "at": "09:50",
+    "price": 125.81,
+    "or_high": 125.15,
+    "or_low": 122.48,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "MU",
+    "at": "09:50",
+    "price": 719.0,
+    "or_high": 709.75,
+    "or_low": 689.65,
+    "pct_over": 1.3
+   },
+   {
+    "symbol": "NVDA",
+    "at": "09:50",
+    "price": 177.44,
+    "or_high": 176.45,
+    "or_low": 170.24,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "OKTA",
+    "at": "09:50",
+    "price": 175.69,
+    "or_high": 172.56,
+    "or_low": 166.5,
+    "pct_over": 1.81
+   },
+   {
+    "symbol": "ON",
+    "at": "09:50",
+    "price": 66.81,
+    "or_high": 66.22,
+    "or_low": 64.04,
+    "pct_over": 0.89
+   },
+   {
+    "symbol": "ORCL",
+    "at": "09:50",
+    "price": 118.96,
+    "or_high": 117.41,
+    "or_low": 114.91,
+    "pct_over": 1.32
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:50",
+    "price": 321.15,
+    "or_high": 320.95,
+    "or_low": 314.1,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "PATH",
+    "at": "09:50",
+    "price": 13.07,
+    "or_high": 13.06,
+    "or_low": 12.88,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "PLTR",
+    "at": "09:50",
+    "price": 167.77,
+    "or_high": 166.35,
+    "or_low": 161.05,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "PSX",
+    "at": "09:50",
+    "price": 248.79,
+    "or_high": 248.6,
+    "or_low": 240.93,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "QCOM",
+    "at": "09:50",
+    "price": 169.86,
+    "or_high": 167.48,
+    "or_low": 163.29,
+    "pct_over": 1.42
+   },
+   {
+    "symbol": "RDDT",
+    "at": "09:50",
+    "price": 95.96,
+    "or_high": 95.62,
+    "or_low": 94.1,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "RGTI",
+    "at": "09:50",
+    "price": 12.06,
+    "or_high": 12.03,
+    "or_low": 11.67,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "RTX",
+    "at": "09:50",
+    "price": 193.61,
+    "or_high": 193.48,
+    "or_low": 191.47,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "SCHW",
+    "at": "09:50",
+    "price": 92.46,
+    "or_high": 92.41,
+    "or_low": 91.63,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:50",
+    "price": 50.31,
+    "or_high": 50.26,
+    "or_low": 49.4,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "SMCI",
+    "at": "09:50",
+    "price": 28.8,
+    "or_high": 28.14,
+    "or_low": 27.18,
+    "pct_over": 2.32
+   },
+   {
+    "symbol": "SNOW",
+    "at": "09:50",
+    "price": 290.35,
+    "or_high": 286.97,
+    "or_low": 278.32,
+    "pct_over": 1.18
+   },
+   {
+    "symbol": "SNPS",
+    "at": "09:50",
+    "price": 463.05,
+    "or_high": 459.11,
+    "or_low": 451.78,
+    "pct_over": 0.86
+   },
+   {
+    "symbol": "SOFI",
+    "at": "09:50",
+    "price": 16.58,
+    "or_high": 16.48,
+    "or_low": 16.15,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "STX",
+    "at": "09:50",
+    "price": 495.39,
+    "or_high": 488.82,
+    "or_low": 466.16,
+    "pct_over": 1.35
+   },
+   {
+    "symbol": "TER",
+    "at": "09:50",
+    "price": 231.8,
+    "or_high": 229.08,
+    "or_low": 222.47,
+    "pct_over": 1.19
+   },
+   {
+    "symbol": "TMUS",
+    "at": "09:50",
+    "price": 165.04,
+    "or_high": 164.64,
+    "or_low": 161.55,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "TSM",
+    "at": "09:50",
+    "price": 389.16,
+    "or_high": 387.45,
+    "or_low": 380.33,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:50",
+    "price": 207.23,
+    "or_high": 205.49,
+    "or_low": 199.32,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "VLO",
+    "at": "09:50",
+    "price": 352.33,
+    "or_high": 351.45,
+    "or_low": 341.84,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "WDC",
+    "at": "09:50",
+    "price": 285.96,
+    "or_high": 284.0,
+    "or_low": 270.0,
+    "pct_over": 0.69
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:50",
+    "price": 92.0,
+    "or_high": 91.31,
+    "or_low": 89.8,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:50",
+    "price": 200.81,
+    "or_high": 199.42,
+    "or_low": 195.8,
+    "pct_over": 0.7
+   }
+  ],
+  "n_hits": 63,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 24 NVDA at the next bar's open (signal at 09:50 ET). Then: stop $173.34, target $181.54.",
  "stats": {
   "trades": 11,
   "wins": 1,
@@ -327,6 +833,84 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794235800,
+   "et": "2026-11-09 09:50",
+   "kind": "order",
+   "text": "BUY 24 NVDA at market (decided on the 09:50 close). opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
+   "symbol": "NVDA",
+   "why": {
+    "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
+    "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
+    "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "AMD",
+    "MU",
+    "INTC",
+    "TSM",
+    "MRVL",
+    "AMAT",
+    "ASML",
+    "PLTR",
+    "ORCL",
+    "MSTR",
+    "DELL",
+    "MRNA",
+    "WDC",
+    "ANET",
+    "KLAC",
+    "PANW",
+    "LRCX",
+    "CAT",
+    "STX",
+    "SMCI",
+    "CRWD",
+    "GS",
+    "CSCO",
+    "QCOM",
+    "COIN",
+    "HOOD",
+    "ARM",
+    "ADI",
+    "SNOW",
+    "MS",
+    "MPC",
+    "VLO",
+    "SOFI",
+    "TMUS",
+    "DDOG",
+    "IBM",
+    "PSX",
+    "TER",
+    "DE",
+    "SLB",
+    "BX",
+    "BLK",
+    "ON",
+    "RDDT",
+    "LMT",
+    "OKTA",
+    "SCHW",
+    "RTX",
+    "RGTI",
+    "SNPS",
+    "ZS",
+    "MARA",
+    "CDNS",
+    "MDB",
+    "HPQ",
+    "TWLO",
+    "CLSK",
+    "PATH",
+    "APO",
+    "ZM",
+    "BB",
+    "AI"
+   ]
+  },
   {
    "ts": 1793998500,
    "et": "2026-11-06 15:55",
@@ -1253,13 +1837,6 @@
    "others": [
     "DOCU"
    ]
-  },
-  {
-   "ts": 1793805900,
-   "et": "2026-11-04 10:25",
-   "kind": "exit",
-   "text": "SELL 5 AMD at $492.19: stop $492.29 hit. P&L $-89.70 (-1.00R)",
-   "symbol": "AMD"
   }
  ],
  "equity": [
@@ -3032,6 +3609,11 @@
    "ts": 1794235570,
    "equity": 9323.63,
    "spy": 9827.27
+  },
+  {
+   "ts": 1794235884,
+   "equity": 9323.63,
+   "spy": 9832.6
   }
  ],
  "daily": [
@@ -3067,6 +3649,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794235884,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 32.8,
+   "errors": [],
+   "run_id": "42638728239",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794235570,
    "phase": "open",
@@ -3456,29 +4048,19 @@
    "errors": [],
    "run_id": "42279012371",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793992630,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.9,
-   "errors": [],
-   "run_id": "42278242114",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794235570,
+  "tick_at": 1794235884,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794235576,
-  "candidates": 3,
-  "charts_fetched": 4,
+  "yahoo_time": 1794235916,
+  "candidates": 99,
+  "charts_fetched": 100,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.5,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
