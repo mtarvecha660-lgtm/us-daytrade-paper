@@ -1,5 +1,5 @@
 {
- "cash": 9323.6336,
+ "cash": 5065.1816,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -273,11 +273,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794235800,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794236100,
+  "position": {
    "symbol": "NVDA",
    "qty": 24,
+   "entry_fill": 177.4355,
+   "entry_ts": 1794235800,
    "plan": {
     "symbol": "NVDA",
     "side": "buy",
@@ -289,7 +290,8 @@
     "target": 181.54,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 177.39999389648438
    },
    "why": {
     "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
@@ -298,9 +300,9 @@
     "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794235800,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -310,12 +312,40 @@
     "kind": "entry",
     "max_loss": 98.4,
     "at": "2026-11-09T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-09",
+    "symbol": "NVDA",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 24
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 63,
-  "missed": [],
+  "triggers_seen": 82,
+  "missed": [
+   "AVGO",
+   "CHPT",
+   "CPNG",
+   "DVN",
+   "HUM",
+   "IDXX",
+   "IONQ",
+   "KKR",
+   "LLY",
+   "LYFT",
+   "MCHP",
+   "NXPI",
+   "PNC",
+   "PYPL",
+   "QBTS",
+   "RBLX",
+   "SWKS",
+   "TSLA",
+   "TXN"
+  ],
   "triggered": [
    "ADI",
    "AI",
@@ -379,7 +409,26 @@
    "VLO",
    "WDC",
    "ZM",
-   "ZS"
+   "ZS",
+   "AVGO",
+   "CHPT",
+   "CPNG",
+   "DVN",
+   "HUM",
+   "IDXX",
+   "IONQ",
+   "KKR",
+   "LLY",
+   "LYFT",
+   "MCHP",
+   "NXPI",
+   "PNC",
+   "PYPL",
+   "QBTS",
+   "RBLX",
+   "SWKS",
+   "TSLA",
+   "TXN"
   ],
   "hits": [
    {
@@ -885,6 +934,158 @@
     "or_high": 199.42,
     "or_low": 195.8,
     "pct_over": 0.7
+   },
+   {
+    "symbol": "AVGO",
+    "at": "09:55",
+    "price": 313.61,
+    "or_high": 313.53,
+    "or_low": 304.29,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "CHPT",
+    "at": "09:55",
+    "price": 11.97,
+    "or_high": 11.88,
+    "or_low": 11.5,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "CPNG",
+    "at": "09:55",
+    "price": 16.14,
+    "or_high": 16.13,
+    "or_low": 15.7,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:55",
+    "price": 42.21,
+    "or_high": 42.08,
+    "or_low": 41.29,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "HUM",
+    "at": "09:55",
+    "price": 445.27,
+    "or_high": 445.18,
+    "or_low": 434.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "IDXX",
+    "at": "09:55",
+    "price": 688.77,
+    "or_high": 688.09,
+    "or_low": 680.89,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "IONQ",
+    "at": "09:55",
+    "price": 33.6,
+    "or_high": 33.35,
+    "or_low": 32.15,
+    "pct_over": 0.75
+   },
+   {
+    "symbol": "KKR",
+    "at": "09:55",
+    "price": 98.4,
+    "or_high": 97.88,
+    "or_low": 95.51,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "LLY",
+    "at": "09:55",
+    "price": 1391.39,
+    "or_high": 1385.0,
+    "or_low": 1364.58,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:55",
+    "price": 17.3,
+    "or_high": 17.27,
+    "or_low": 16.82,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "MCHP",
+    "at": "09:55",
+    "price": 60.07,
+    "or_high": 59.47,
+    "or_low": 58.56,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "NXPI",
+    "at": "09:55",
+    "price": 253.96,
+    "or_high": 250.97,
+    "or_low": 247.03,
+    "pct_over": 1.19
+   },
+   {
+    "symbol": "PNC",
+    "at": "09:55",
+    "price": 229.68,
+    "or_high": 229.47,
+    "or_low": 226.61,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:55",
+    "price": 60.26,
+    "or_high": 60.18,
+    "or_low": 59.69,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "QBTS",
+    "at": "09:55",
+    "price": 10.93,
+    "or_high": 10.85,
+    "or_low": 10.47,
+    "pct_over": 0.74
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:55",
+    "price": 51.56,
+    "or_high": 51.5,
+    "or_low": 50.11,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 83.21,
+    "or_high": 82.79,
+    "or_low": 81.39,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "TSLA",
+    "at": "09:55",
+    "price": 377.14,
+    "or_high": 376.29,
+    "or_low": 360.02,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "TXN",
+    "at": "09:55",
+    "price": 288.64,
+    "or_high": 288.0,
+    "or_low": 280.0,
+    "pct_over": 0.22
    }
   ]
  },
@@ -892,8 +1093,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.0650024414062,
-  "last_ts": 1794235800
+  "last": 747.635009765625,
+  "last_ts": 1794236100
  },
  "seen_trades": 0,
  "daily": [
