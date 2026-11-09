@@ -1,21 +1,21 @@
 {
- "updated": 1794240271,
- "updated_et": "2026-11-09 11:04 ET",
+ "updated": 1794240587,
+ "updated_et": "2026-11-09 11:09 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9375.92,
-  "return": -0.06240800000000002,
+  "equity": 9315.21,
+  "return": -0.06847900000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9893.48,
-  "return": -0.010651999999999995,
+  "value": 9880.51,
+  "return": -0.011948999999999987,
   "start_price": 759.47998046875,
-  "last": 751.6904907226562
+  "last": 750.7050170898438
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "IDXX",
-    "at": "09:55",
-    "price": 688.77,
-    "or_high": 688.09,
-    "or_low": 680.89,
-    "pct_over": 0.1
-   },
    {
     "symbol": "IONQ",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 43.78,
     "or_low": 43.04,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "HAL",
+    "at": "11:05",
+    "price": 31.82,
+    "or_high": 31.8,
+    "or_low": 31.14,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 128,
+  "n_hits": 129,
   "entries": 1,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -4.971238547734508,
   "days": 6
  },
- "intraday_max_drawdown": -0.07429375361773494,
+ "intraday_max_drawdown": -0.07512974202509759,
  "trades": [
   {
    "date": "2026-11-06",
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794240300,
+   "et": "2026-11-09 11:05",
+   "kind": "busy",
+   "text": "1 more breakout (HAL) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "HAL"
+   ]
+  },
   {
    "ts": 1794240000,
    "et": "2026-11-09 11:00",
@@ -1835,15 +1844,6 @@
    "text": "1 more breakout (SO) not taken: already in IBM (one trade at a time)",
    "symbols": [
     "SO"
-   ]
-  },
-  {
-   "ts": 1793811300,
-   "et": "2026-11-04 11:55",
-   "kind": "busy",
-   "text": "1 more breakout (W) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "W"
    ]
   }
  ],
@@ -3692,6 +3692,11 @@
    "ts": 1794240271,
    "equity": 9375.92,
    "spy": 9893.48
+  },
+  {
+   "ts": 1794240587,
+   "equity": 9315.21,
+   "spy": 9880.51
   }
  ],
  "daily": [
@@ -3727,6 +3732,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794240587,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.0,
+   "errors": [],
+   "run_id": "42651899405",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794240271,
    "phase": "open",
@@ -4116,29 +4131,19 @@
    "errors": [],
    "run_id": "42290327797",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793997324,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "42289609070",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794240271,
+  "tick_at": 1794240587,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794240284,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794240595,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
