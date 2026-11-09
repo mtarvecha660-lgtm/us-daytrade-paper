@@ -1,21 +1,21 @@
 {
- "updated": 1794241527,
- "updated_et": "2026-11-09 11:25 ET",
+ "updated": 1794241843,
+ "updated_et": "2026-11-09 11:30 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9302.01,
-  "return": -0.06979899999999994,
+  "equity": 9288.34,
+  "return": -0.07116599999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9873.99,
-  "return": -0.012600999999999973,
+  "value": 9871.23,
+  "return": -0.012877000000000027,
   "start_price": 759.47998046875,
-  "last": 750.2100219726562
+  "last": 750.0
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "LYFT",
-    "at": "09:55",
-    "price": 17.3,
-    "or_high": 17.27,
-    "or_low": 16.82,
-    "pct_over": 0.17
-   },
    {
     "symbol": "MCHP",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 127.6,
     "or_low": 125.83,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "EOG",
+    "at": "11:25",
+    "price": 148.09,
+    "or_high": 147.7,
+    "or_low": 144.14,
+    "pct_over": 0.26
    }
   ],
-  "n_hits": 132,
+  "n_hits": 133,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794241500,
+   "et": "2026-11-09 11:25",
+   "kind": "busy",
+   "text": "1 more breakout (EOG) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "EOG"
+   ]
+  },
   {
    "ts": 1794241200,
    "et": "2026-11-09 11:20",
@@ -1832,21 +1841,6 @@
    "kind": "fill",
    "text": "BUY 19 HLT filled at $373.31 (next bar's open $373.23 + slippage). Stop $369.27, target $377.01",
    "symbol": "HLT"
-  },
-  {
-   "ts": 1793812500,
-   "et": "2026-11-04 12:15",
-   "kind": "order",
-   "text": "BUY 19 HLT at market (decided on the 12:15 close). opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
-   "symbol": "HLT",
-   "why": {
-    "scanner": "HLT: the 12:10 bar closed at $373.14, above the 15-min opening range high $373.01 (range 365.54-373.01)",
-    "exit": "plan: entry $373.14, stop $369.27 (opening-range midpoint), target $377.01 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 3.87 = $73.53 at the stop) (limits: max loss 25; position cap 19; max order 21; cash 23)",
-    "risk": "trader-risk PASS: entry 373.14 (the plan's entry), stop 369.27, target 377.01: risk 3.87 a share; max loss $73.53 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $142.50 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -3714,6 +3708,11 @@
    "ts": 1794241527,
    "equity": 9302.01,
    "spy": 9873.99
+  },
+  {
+   "ts": 1794241843,
+   "equity": 9288.34,
+   "spy": 9871.23
   }
  ],
  "daily": [
@@ -3749,6 +3748,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794241843,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.0,
+   "errors": [],
+   "run_id": "42655468214",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794241527,
    "phase": "open",
@@ -4138,29 +4147,19 @@
    "errors": [],
    "run_id": "42293217259",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793998576,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.2,
-   "errors": [],
-   "run_id": "42292496759",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794241527,
+  "tick_at": 1794241843,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794241537,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794241852,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
