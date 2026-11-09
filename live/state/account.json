@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794239700,
+  "last_bar_end": 1794240000,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 127,
+  "triggers_seen": 128,
   "missed": [
    "AVGO",
    "CHPT",
@@ -389,7 +389,8 @@
    "SO",
    "GME",
    "ISRG",
-   "ROST"
+   "ROST",
+   "BSX"
   ],
   "triggered": [
    "ADI",
@@ -518,7 +519,8 @@
    "SO",
    "GME",
    "ISRG",
-   "ROST"
+   "ROST",
+   "BSX"
   ],
   "hits": [
    {
@@ -1536,6 +1538,14 @@
     "or_high": 237.24,
     "or_low": 233.5,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "BSX",
+    "at": "11:00",
+    "price": 43.8,
+    "or_high": 43.78,
+    "or_low": 43.04,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1543,8 +1553,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.9439697265625,
-  "last_ts": 1794239700
+  "last": 751.6904907226562,
+  "last_ts": 1794240000
  },
  "seen_trades": 0,
  "daily": [
