@@ -1,21 +1,21 @@
 {
- "updated": 1794246878,
- "updated_et": "2026-11-09 12:54 ET",
+ "updated": 1794247196,
+ "updated_et": "2026-11-09 12:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9327.68,
-  "return": -0.06723199999999996,
+  "equity": 9317.49,
+  "return": -0.06825100000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9904.66,
-  "return": -0.009534000000000042,
+  "value": 9902.82,
+  "return": -0.009718000000000004,
   "start_price": 759.47998046875,
-  "last": 752.5399780273438
+  "last": 752.4000244140625
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "TTD",
-    "at": "10:05",
-    "price": 14.53,
-    "or_high": 14.34,
-    "or_low": 13.75,
-    "pct_over": 1.36
-   },
    {
     "symbol": "UPS",
     "at": "10:05",
@@ -516,9 +508,17 @@
     "or_high": 124.88,
     "or_low": 123.57,
     "pct_over": 0.13
+   },
+   {
+    "symbol": "REGN",
+    "at": "12:55",
+    "price": 922.52,
+    "or_high": 922.35,
+    "or_low": 901.07,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 154,
+  "n_hits": 155,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794246900,
+   "et": "2026-11-09 12:55",
+   "kind": "busy",
+   "text": "1 more breakout (REGN) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "REGN"
+   ]
+  },
   {
    "ts": 1794246300,
    "et": "2026-11-09 12:45",
@@ -1833,26 +1842,6 @@
    "kind": "fill",
    "text": "BUY 22 QCOM filled at $157.68 (next bar's open $157.65 + slippage). Stop $153.29, target $162.25",
    "symbol": "QCOM"
-  },
-  {
-   "ts": 1793890200,
-   "et": "2026-11-05 09:50",
-   "kind": "order",
-   "text": "BUY 22 QCOM at market (decided on the 09:50 close). opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
-   "symbol": "QCOM",
-   "why": {
-    "scanner": "QCOM: the 09:45 bar closed at $157.77, above the 15-min opening range high $157.50 (range 149.09-157.50)",
-    "exit": "plan: entry $157.77, stop $153.29 (opening-range midpoint), target $162.25 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on QCOM: 22 shares, bound by your $100 max loss per trade (22 x 4.48 = $98.56 at the stop) (limits: max loss 22; position cap 45; max order 50; cash 54)",
-    "risk": "trader-risk PASS: entry 157.77 (the latest price), stop 153.29, target 162.25: risk 4.48 a share; max loss $98.56 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "JNJ",
-    "PFE",
-    "DUK",
-    "FANG"
-   ]
   }
  ],
  "equity": [
@@ -3805,6 +3794,11 @@
    "ts": 1794246878,
    "equity": 9327.68,
    "spy": 9904.66
+  },
+  {
+   "ts": 1794247196,
+   "equity": 9317.49,
+   "spy": 9902.82
   }
  ],
  "daily": [
@@ -3840,6 +3834,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794247196,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.1,
+   "errors": [],
+   "run_id": "42669955438",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794246878,
    "phase": "open",
@@ -4229,25 +4233,15 @@
    "errors": [],
    "run_id": "42636178407",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794234630,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.3,
-   "errors": [],
-   "run_id": "42635322544",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794246878,
+  "tick_at": 1794247196,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794246890,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794247211,
+  "candidates": 37,
+  "charts_fetched": 39,
   "ok": true,
   "errors": [],
   "stale_data": false,
