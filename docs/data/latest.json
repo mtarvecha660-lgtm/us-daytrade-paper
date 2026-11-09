@@ -1,21 +1,21 @@
 {
- "updated": 1794243736,
- "updated_et": "2026-11-09 12:02 ET",
+ "updated": 1794244049,
+ "updated_et": "2026-11-09 12:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9300.09,
-  "return": -0.06999100000000003,
+  "equity": 9319.34,
+  "return": -0.06806599999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9886.23,
-  "return": -0.011377000000000081,
+  "value": 9890.05,
+  "return": -0.010995000000000088,
   "start_price": 759.47998046875,
-  "last": 751.1400146484375
+  "last": 751.4299926757812
  },
  "position": {
   "symbol": "NVDA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "TXN",
-    "at": "09:55",
-    "price": 288.64,
-    "or_high": 288.0,
-    "or_low": 280.0,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "GM",
-    "at": "10:00",
-    "price": 88.91,
-    "or_high": 88.74,
-    "or_low": 87.09,
-    "pct_over": 0.19
-   },
    {
     "symbol": "NET",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 351.49,
     "or_low": 346.78,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "MDT",
+    "at": "12:05",
+    "price": 102.82,
+    "or_high": 102.8,
+    "or_low": 101.8,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "ZTS",
+    "at": "12:05",
+    "price": 80.95,
+    "or_high": 80.85,
+    "or_low": 80.0,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 141,
+  "n_hits": 143,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794243900,
+   "et": "2026-11-09 12:05",
+   "kind": "busy",
+   "text": "2 more breakouts (MDT, ZTS) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "MDT",
+    "ZTS"
+   ]
+  },
   {
    "ts": 1794242700,
    "et": "2026-11-09 11:45",
@@ -1835,15 +1845,6 @@
    "text": "1 more breakout (ABT) not taken: already in HLT (one trade at a time)",
    "symbols": [
     "ABT"
-   ]
-  },
-  {
-   "ts": 1793815800,
-   "et": "2026-11-04 13:10",
-   "kind": "busy",
-   "text": "1 more breakout (MMM) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "MMM"
    ]
   }
  ],
@@ -3747,6 +3748,11 @@
    "ts": 1794243736,
    "equity": 9300.09,
    "spy": 9886.23
+  },
+  {
+   "ts": 1794244049,
+   "equity": 9319.34,
+   "spy": 9890.05
   }
  ],
  "daily": [
@@ -3782,6 +3788,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794244049,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.5,
+   "errors": [],
+   "run_id": "42661487513",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794243736,
    "phase": "open",
@@ -4171,25 +4187,15 @@
    "errors": [],
    "run_id": "42405499696",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794059262,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42378569554",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794243736,
+  "tick_at": 1794244049,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794243746,
-  "candidates": 35,
-  "charts_fetched": 37,
+  "yahoo_time": 1794244064,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
