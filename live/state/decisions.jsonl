@@ -168,3 +168,4 @@
 {"ts": 1794240300, "et": "2026-11-09 11:05", "kind": "busy", "text": "1 more breakout (HAL) not taken: already in NVDA (one trade at a time)", "symbols": ["HAL"]}
 {"ts": 1794240600, "et": "2026-11-09 11:10", "kind": "busy", "text": "1 more breakout (UBER) not taken: already in NVDA (one trade at a time)", "symbols": ["UBER"]}
 {"ts": 1794240900, "et": "2026-11-09 11:15", "kind": "busy", "text": "1 more breakout (TMO) not taken: already in NVDA (one trade at a time)", "symbols": ["TMO"]}
+{"ts": 1794241200, "et": "2026-11-09 11:20", "kind": "busy", "text": "1 more breakout (AEP) not taken: already in NVDA (one trade at a time)", "symbols": ["AEP"]}

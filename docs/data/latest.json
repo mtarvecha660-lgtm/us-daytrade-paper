@@ -1,21 +1,21 @@
 {
- "updated": 1794241212,
- "updated_et": "2026-11-09 11:20 ET",
+ "updated": 1794241527,
+ "updated_et": "2026-11-09 11:25 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9281.64,
-  "return": -0.07183600000000001,
+  "equity": 9302.01,
+  "return": -0.06979899999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9870.97,
-  "return": -0.012903000000000109,
+  "value": 9873.99,
+  "return": -0.012600999999999973,
   "start_price": 759.47998046875,
-  "last": 749.97998046875
+  "last": 750.2100219726562
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "LLY",
-    "at": "09:55",
-    "price": 1391.39,
-    "or_high": 1385.0,
-    "or_low": 1364.58,
-    "pct_over": 0.46
-   },
    {
     "symbol": "LYFT",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 701.0,
     "or_low": 692.39,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "AEP",
+    "at": "11:20",
+    "price": 127.63,
+    "or_high": 127.6,
+    "or_low": 125.83,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 131,
+  "n_hits": 132,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794241200,
+   "et": "2026-11-09 11:20",
+   "kind": "busy",
+   "text": "1 more breakout (AEP) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "AEP"
+   ]
+  },
   {
    "ts": 1794240900,
    "et": "2026-11-09 11:15",
@@ -1838,13 +1847,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1793812500,
-   "et": "2026-11-04 12:15",
-   "kind": "exit",
-   "text": "SELL 28 IBM at $255.25: stop $255.30 hit. P&L $-58.31 (-1.10R)",
-   "symbol": "IBM"
   }
  ],
  "equity": [
@@ -3707,6 +3709,11 @@
    "ts": 1794241212,
    "equity": 9281.64,
    "spy": 9870.97
+  },
+  {
+   "ts": 1794241527,
+   "equity": 9302.01,
+   "spy": 9873.99
   }
  ],
  "daily": [
@@ -3742,6 +3749,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794241527,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.3,
+   "errors": [],
+   "run_id": "42654578397",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794241212,
    "phase": "open",
@@ -4131,25 +4148,15 @@
    "errors": [],
    "run_id": "42292496759",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793998262,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 8.6,
-   "errors": [],
-   "run_id": "42291786300",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794241212,
+  "tick_at": 1794241527,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794241222,
-  "candidates": 25,
-  "charts_fetched": 27,
+  "yahoo_time": 1794241537,
+  "candidates": 32,
+  "charts_fetched": 34,
   "ok": true,
   "errors": [],
   "stale_data": false,
