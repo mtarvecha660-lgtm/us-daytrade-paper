@@ -1,21 +1,21 @@
 {
- "updated": 1794242788,
- "updated_et": "2026-11-09 11:46 ET",
+ "updated": 1794243105,
+ "updated_et": "2026-11-09 11:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9283.54,
-  "return": -0.07164599999999988,
+  "equity": 9297.95,
+  "return": -0.07020499999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9879.13,
-  "return": -0.01208700000000007,
+  "value": 9884.78,
+  "return": -0.011521999999999921,
   "start_price": 759.47998046875,
-  "last": 750.5999755859375
+  "last": 751.030029296875
  },
  "position": {
   "symbol": "NVDA",
@@ -3732,6 +3732,11 @@
    "ts": 1794242788,
    "equity": 9283.54,
    "spy": 9879.13
+  },
+  {
+   "ts": 1794243105,
+   "equity": 9297.95,
+   "spy": 9884.78
   }
  ],
  "daily": [
@@ -3767,6 +3772,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794243105,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.4,
+   "errors": [],
+   "run_id": "42658960903",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794242788,
    "phase": "open",
@@ -4156,25 +4171,15 @@
    "errors": [],
    "run_id": "42314484086",
    "event": "schedule"
-  },
-  {
-   "ts": 1793999827,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42295408959",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794242788,
+  "tick_at": 1794243105,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794242803,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794243115,
+  "candidates": 40,
+  "charts_fetched": 42,
   "ok": true,
   "errors": [],
   "stale_data": false,
