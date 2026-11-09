@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794244500,
+  "last_bar_end": 1794244800,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 146,
+  "triggers_seen": 147,
   "missed": [
    "AVGO",
    "CHPT",
@@ -408,7 +408,8 @@
    "ZTS",
    "ENPH",
    "TJX",
-   "W"
+   "W",
+   "DOCU"
   ],
   "triggered": [
    "ADI",
@@ -556,7 +557,8 @@
    "ZTS",
    "ENPH",
    "TJX",
-   "W"
+   "W",
+   "DOCU"
   ],
   "hits": [
    {
@@ -1726,6 +1728,14 @@
     "or_high": 117.73,
     "or_low": 114.93,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "DOCU",
+    "at": "12:20",
+    "price": 78.03,
+    "or_high": 77.86,
+    "or_low": 76.78,
+    "pct_over": 0.22
    }
   ]
  },
@@ -1733,8 +1743,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.1900024414062,
-  "last_ts": 1794244500
+  "last": 752.219970703125,
+  "last_ts": 1794244800
  },
  "seen_trades": 0,
  "daily": [
