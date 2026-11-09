@@ -1,21 +1,21 @@
 {
- "updated": 1794247196,
- "updated_et": "2026-11-09 12:59 ET",
+ "updated": 1794247517,
+ "updated_et": "2026-11-09 13:05 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9317.49,
-  "return": -0.06825100000000006,
+  "equity": 9317.61,
+  "return": -0.06823899999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9902.82,
-  "return": -0.009718000000000004,
+  "value": 9903.34,
+  "return": -0.009665999999999952,
   "start_price": 759.47998046875,
-  "last": 752.4000244140625
+  "last": 752.4400024414062
  },
  "position": {
   "symbol": "NVDA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "UPS",
-    "at": "10:05",
-    "price": 110.37,
-    "or_high": 110.31,
-    "or_low": 109.24,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "UPST",
-    "at": "10:05",
-    "price": 22.18,
-    "or_high": 22.1,
-    "or_low": 21.7,
-    "pct_over": 0.36
-   },
    {
     "symbol": "VZ",
     "at": "10:05",
@@ -516,9 +500,25 @@
     "or_high": 922.35,
     "or_low": 901.07,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "MA",
+    "at": "13:00",
+    "price": 659.54,
+    "or_high": 658.76,
+    "or_low": 653.03,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "Z",
+    "at": "13:00",
+    "price": 29.99,
+    "or_high": 29.9,
+    "or_low": 29.31,
+    "pct_over": 0.32
    }
   ],
-  "n_hits": 155,
+  "n_hits": 157,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794247200,
+   "et": "2026-11-09 13:00",
+   "kind": "busy",
+   "text": "2 more breakouts (MA, Z) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "MA",
+    "Z"
+   ]
+  },
   {
    "ts": 1794246900,
    "et": "2026-11-09 12:55",
@@ -1835,13 +1845,6 @@
     "PG",
     "YUM"
    ]
-  },
-  {
-   "ts": 1793890200,
-   "et": "2026-11-05 09:50",
-   "kind": "fill",
-   "text": "BUY 22 QCOM filled at $157.68 (next bar's open $157.65 + slippage). Stop $153.29, target $162.25",
-   "symbol": "QCOM"
   }
  ],
  "equity": [
@@ -3799,6 +3802,11 @@
    "ts": 1794247196,
    "equity": 9317.49,
    "spy": 9902.82
+  },
+  {
+   "ts": 1794247517,
+   "equity": 9317.61,
+   "spy": 9903.34
   }
  ],
  "daily": [
@@ -3834,6 +3842,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794247517,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.5,
+   "errors": [],
+   "run_id": "42670790404",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794247196,
    "phase": "open",
@@ -4223,25 +4241,15 @@
    "errors": [],
    "run_id": "42637025797",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794234941,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.8,
-   "errors": [],
-   "run_id": "42636178407",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794247196,
+  "tick_at": 1794247517,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794247211,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1794247532,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
