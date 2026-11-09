@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794238500,
+  "last_bar_end": 1794238800,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 115,
+  "triggers_seen": 119,
   "missed": [
    "AVGO",
    "CHPT",
@@ -377,7 +377,11 @@
    "DASH",
    "LULU",
    "OXY",
-   "UAL"
+   "UAL",
+   "BBY",
+   "GD",
+   "MCD",
+   "PG"
   ],
   "triggered": [
    "ADI",
@@ -494,7 +498,11 @@
    "DASH",
    "LULU",
    "OXY",
-   "UAL"
+   "UAL",
+   "BBY",
+   "GD",
+   "MCD",
+   "PG"
   ],
   "hits": [
    {
@@ -1416,6 +1424,38 @@
     "or_high": 120.75,
     "or_low": 117.5,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:40",
+    "price": 105.68,
+    "or_high": 105.67,
+    "or_low": 100.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "GD",
+    "at": "10:40",
+    "price": 359.64,
+    "or_high": 359.4,
+    "or_low": 356.96,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:40",
+    "price": 280.57,
+    "or_high": 279.83,
+    "or_low": 276.85,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "PG",
+    "at": "10:40",
+    "price": 166.53,
+    "or_high": 166.41,
+    "or_low": 165.23,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1423,8 +1463,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.5,
-  "last_ts": 1794238500
+  "last": 749.4400024414062,
+  "last_ts": 1794238800
  },
  "seen_trades": 0,
  "daily": [

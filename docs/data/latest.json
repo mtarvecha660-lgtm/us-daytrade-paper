@@ -1,21 +1,21 @@
 {
- "updated": 1794238708,
- "updated_et": "2026-11-09 10:38 ET",
+ "updated": 1794239023,
+ "updated_et": "2026-11-09 10:43 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9375.2,
-  "return": -0.06247999999999998,
+  "equity": 9340.41,
+  "return": -0.06595899999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9864.65,
-  "return": -0.013535000000000075,
+  "value": 9863.86,
+  "return": -0.013613999999999904,
   "start_price": 759.47998046875,
-  "last": 749.5
+  "last": 749.4400024414062
  },
  "position": {
   "symbol": "NVDA",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "TER",
-    "at": "09:50",
-    "price": 231.8,
-    "or_high": 229.08,
-    "or_low": 222.47,
-    "pct_over": 1.19
-   },
-   {
-    "symbol": "TMUS",
-    "at": "09:50",
-    "price": 165.04,
-    "or_high": 164.64,
-    "or_low": 161.55,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "TSM",
-    "at": "09:50",
-    "price": 389.16,
-    "or_high": 387.45,
-    "or_low": 380.33,
-    "pct_over": 0.44
-   },
-   {
-    "symbol": "TWLO",
-    "at": "09:50",
-    "price": 207.23,
-    "or_high": 205.49,
-    "or_low": 199.32,
-    "pct_over": 0.85
-   },
    {
     "symbol": "VLO",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 120.75,
     "or_low": 117.5,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:40",
+    "price": 105.68,
+    "or_high": 105.67,
+    "or_low": 100.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "GD",
+    "at": "10:40",
+    "price": 359.64,
+    "or_high": 359.4,
+    "or_low": 356.96,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:40",
+    "price": 280.57,
+    "or_high": 279.83,
+    "or_low": 276.85,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "PG",
+    "at": "10:40",
+    "price": 166.53,
+    "or_high": 166.41,
+    "or_low": 165.23,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 115,
+  "n_hits": 119,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794238800,
+   "et": "2026-11-09 10:40",
+   "kind": "busy",
+   "text": "4 more breakouts (BBY, GD, MCD, PG) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "BBY",
+    "GD",
+    "MCD",
+    "PG"
+   ]
+  },
   {
    "ts": 1794238500,
    "et": "2026-11-09 10:35",
@@ -1834,15 +1846,6 @@
     "HON",
     "LUV",
     "UAL"
-   ]
-  },
-  {
-   "ts": 1793810100,
-   "et": "2026-11-04 11:35",
-   "kind": "busy",
-   "text": "1 more breakout (RCL) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "RCL"
    ]
   }
  ],
@@ -3666,6 +3669,11 @@
    "ts": 1794238708,
    "equity": 9375.2,
    "spy": 9864.65
+  },
+  {
+   "ts": 1794239023,
+   "equity": 9340.41,
+   "spy": 9863.86
   }
  ],
  "daily": [
@@ -3701,6 +3709,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794239023,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.0,
+   "errors": [],
+   "run_id": "42647527260",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794238708,
    "phase": "open",
@@ -4090,25 +4108,15 @@
    "errors": [],
    "run_id": "42286624682",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793995757,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.6,
-   "errors": [],
-   "run_id": "42285863736",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794238708,
+  "tick_at": 1794239023,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794238718,
-  "candidates": 29,
-  "charts_fetched": 31,
+  "yahoo_time": 1794239036,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
