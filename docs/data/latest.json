@@ -1,21 +1,21 @@
 {
- "updated": 1794238077,
- "updated_et": "2026-11-09 10:27 ET",
+ "updated": 1794238393,
+ "updated_et": "2026-11-09 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9341.85,
-  "return": -0.06581499999999996,
+  "equity": 9364.4,
+  "return": -0.06356000000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9858.99,
-  "return": -0.01410100000000003,
+  "value": 9859.91,
+  "return": -0.01400900000000005,
   "start_price": 759.47998046875,
-  "last": 749.0700073242188
+  "last": 749.1400146484375
  },
  "position": {
   "symbol": "NVDA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "SNPS",
-    "at": "09:50",
-    "price": 463.05,
-    "or_high": 459.11,
-    "or_low": 451.78,
-    "pct_over": 0.86
-   },
-   {
-    "symbol": "SOFI",
-    "at": "09:50",
-    "price": 16.58,
-    "or_high": 16.48,
-    "or_low": 16.15,
-    "pct_over": 0.58
-   },
    {
     "symbol": "STX",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 183.0,
     "or_low": 179.59,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:30",
+    "price": 112.44,
+    "or_high": 112.38,
+    "or_low": 110.19,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:30",
+    "price": 55.92,
+    "or_high": 55.91,
+    "or_low": 54.97,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 112,
+  "n_hits": 114,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794238200,
+   "et": "2026-11-09 10:30",
+   "kind": "busy",
+   "text": "2 more breakouts (LULU, OXY) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "LULU",
+    "OXY"
+   ]
+  },
   {
    "ts": 1794237900,
    "et": "2026-11-09 10:25",
@@ -1833,16 +1843,6 @@
    "text": "1 more breakout (GILD) not taken: already in IBM (one trade at a time)",
    "symbols": [
     "GILD"
-   ]
-  },
-  {
-   "ts": 1793808600,
-   "et": "2026-11-04 11:10",
-   "kind": "busy",
-   "text": "2 more breakouts (HUM, IDXX) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "HUM",
-    "IDXX"
    ]
   }
  ],
@@ -3656,6 +3656,11 @@
    "ts": 1794238077,
    "equity": 9341.85,
    "spy": 9858.99
+  },
+  {
+   "ts": 1794238393,
+   "equity": 9364.4,
+   "spy": 9859.91
   }
  ],
  "daily": [
@@ -3691,6 +3696,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794238393,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.4,
+   "errors": [],
+   "run_id": "42645774581",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794238077,
    "phase": "open",
@@ -4080,25 +4095,15 @@
    "errors": [],
    "run_id": "42285092784",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793995131,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.3,
-   "errors": [],
-   "run_id": "42284324607",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794238077,
+  "tick_at": 1794238393,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794238085,
-  "candidates": 28,
-  "charts_fetched": 30,
+  "yahoo_time": 1794238402,
+  "candidates": 27,
+  "charts_fetched": 29,
   "ok": true,
   "errors": [],
   "stale_data": false,
