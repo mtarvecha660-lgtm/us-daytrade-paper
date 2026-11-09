@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794242400,
+  "last_bar_end": 1794242700,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 139,
+  "triggers_seen": 141,
   "missed": [
    "AVGO",
    "CHPT",
@@ -401,7 +401,9 @@
    "DHR",
    "JNJ",
    "COST",
-   "XOM"
+   "XOM",
+   "DG",
+   "HD"
   ],
   "triggered": [
    "ADI",
@@ -542,7 +544,9 @@
    "DHR",
    "JNJ",
    "COST",
-   "XOM"
+   "XOM",
+   "DG",
+   "HD"
   ],
   "hits": [
    {
@@ -1656,6 +1660,22 @@
     "or_high": 165.3,
     "or_low": 162.84,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "DG",
+    "at": "11:45",
+    "price": 135.04,
+    "or_high": 135.01,
+    "or_low": 133.35,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "HD",
+    "at": "11:45",
+    "price": 351.8,
+    "or_high": 351.49,
+    "or_low": 346.78,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1663,8 +1683,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.739990234375,
-  "last_ts": 1794242400
+  "last": 750.5999755859375,
+  "last_ts": 1794242700
  },
  "seen_trades": 0,
  "daily": [
