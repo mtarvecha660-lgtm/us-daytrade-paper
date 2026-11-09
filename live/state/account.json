@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794246300,
+  "last_bar_end": 1794246600,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -1813,8 +1813,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.1898803710938,
-  "last_ts": 1794246300
+  "last": 752.5399780273438,
+  "last_ts": 1794246600
  },
  "seen_trades": 0,
  "daily": [
