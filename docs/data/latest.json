@@ -1,21 +1,21 @@
 {
- "updated": 1794239647,
- "updated_et": "2026-11-09 10:54 ET",
+ "updated": 1794239959,
+ "updated_et": "2026-11-09 10:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9351.68,
-  "return": -0.064832,
+  "equity": 9360.8,
+  "return": -0.06392000000000009,
   "started": 1793559735
  },
  "spy": {
-  "value": 9874.59,
-  "return": -0.012541000000000024,
+  "value": 9883.65,
+  "return": -0.011635000000000062,
   "start_price": 759.47998046875,
-  "last": 750.2550048828125
+  "last": 750.9439697265625
  },
  "position": {
   "symbol": "NVDA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "CHPT",
-    "at": "09:55",
-    "price": 11.97,
-    "or_high": 11.88,
-    "or_low": 11.5,
-    "pct_over": 0.76
-   },
-   {
-    "symbol": "CPNG",
-    "at": "09:55",
-    "price": 16.14,
-    "or_high": 16.13,
-    "or_low": 15.7,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "DVN",
-    "at": "09:55",
-    "price": 42.21,
-    "or_high": 42.08,
-    "or_low": 41.29,
-    "pct_over": 0.31
-   },
    {
     "symbol": "HUM",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 93.01,
     "or_low": 91.85,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "GME",
+    "at": "10:55",
+    "price": 25.43,
+    "or_high": 25.37,
+    "or_low": 24.61,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:55",
+    "price": 459.85,
+    "or_high": 458.99,
+    "or_low": 454.04,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "ROST",
+    "at": "10:55",
+    "price": 237.58,
+    "or_high": 237.24,
+    "or_low": 233.5,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 124,
+  "n_hits": 127,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794239700,
+   "et": "2026-11-09 10:55",
+   "kind": "busy",
+   "text": "3 more breakouts (GME, ISRG, ROST) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "GME",
+    "ISRG",
+    "ROST"
+   ]
+  },
   {
    "ts": 1794239400,
    "et": "2026-11-09 10:50",
@@ -1836,16 +1847,6 @@
     "CCL",
     "GE",
     "VRTX"
-   ]
-  },
-  {
-   "ts": 1793810700,
-   "et": "2026-11-04 11:45",
-   "kind": "busy",
-   "text": "2 more breakouts (F, NCLH) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "F",
-    "NCLH"
    ]
   }
  ],
@@ -3684,6 +3685,11 @@
    "ts": 1794239647,
    "equity": 9351.68,
    "spy": 9874.59
+  },
+  {
+   "ts": 1794239959,
+   "equity": 9360.8,
+   "spy": 9883.65
   }
  ],
  "daily": [
@@ -3719,6 +3725,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794239959,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.9,
+   "errors": [],
+   "run_id": "42650123383",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794239647,
    "phase": "open",
@@ -4108,25 +4124,15 @@
    "errors": [],
    "run_id": "42288845820",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793996695,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.0,
-   "errors": [],
-   "run_id": "42288128018",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794239647,
+  "tick_at": 1794239959,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794239660,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794239973,
+  "candidates": 37,
+  "charts_fetched": 39,
   "ok": true,
   "errors": [],
   "stale_data": false,

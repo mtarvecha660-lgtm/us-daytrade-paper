@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794239400,
+  "last_bar_end": 1794239700,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 124,
+  "triggers_seen": 127,
   "missed": [
    "AVGO",
    "CHPT",
@@ -386,7 +386,10 @@
    "DLTR",
    "GILD",
    "JPM",
-   "SO"
+   "SO",
+   "GME",
+   "ISRG",
+   "ROST"
   ],
   "triggered": [
    "ADI",
@@ -512,7 +515,10 @@
    "DLTR",
    "GILD",
    "JPM",
-   "SO"
+   "SO",
+   "GME",
+   "ISRG",
+   "ROST"
   ],
   "hits": [
    {
@@ -1506,6 +1512,30 @@
     "or_high": 93.01,
     "or_low": 91.85,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "GME",
+    "at": "10:55",
+    "price": 25.43,
+    "or_high": 25.37,
+    "or_low": 24.61,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:55",
+    "price": 459.85,
+    "or_high": 458.99,
+    "or_low": 454.04,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "ROST",
+    "at": "10:55",
+    "price": 237.58,
+    "or_high": 237.24,
+    "or_low": 233.5,
+    "pct_over": 0.15
    }
   ]
  },
@@ -1513,8 +1543,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.2550048828125,
-  "last_ts": 1794239400
+  "last": 750.9439697265625,
+  "last_ts": 1794239700
  },
  "seen_trades": 0,
  "daily": [
