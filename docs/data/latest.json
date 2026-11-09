@@ -1,21 +1,21 @@
 {
- "updated": 1794238393,
- "updated_et": "2026-11-09 10:33 ET",
+ "updated": 1794238708,
+ "updated_et": "2026-11-09 10:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5065.18,
-  "equity": 9364.4,
-  "return": -0.06356000000000006,
+  "equity": 9375.2,
+  "return": -0.06247999999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9859.91,
-  "return": -0.01400900000000005,
+  "value": 9864.65,
+  "return": -0.013535000000000075,
   "start_price": 759.47998046875,
-  "last": 749.1400146484375
+  "last": 749.5
  },
  "position": {
   "symbol": "NVDA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-09",
   "hits": [
-   {
-    "symbol": "STX",
-    "at": "09:50",
-    "price": 495.39,
-    "or_high": 488.82,
-    "or_low": 466.16,
-    "pct_over": 1.35
-   },
    {
     "symbol": "TER",
     "at": "09:50",
@@ -516,9 +508,17 @@
     "or_high": 55.91,
     "or_low": 54.97,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:35",
+    "price": 120.76,
+    "or_high": 120.75,
+    "or_low": 117.5,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 114,
+  "n_hits": 115,
   "entries": 1,
   "max_trades": 3
  },
@@ -823,6 +823,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794238500,
+   "et": "2026-11-09 10:35",
+   "kind": "busy",
+   "text": "1 more breakout (UAL) not taken: already in NVDA (one trade at a time)",
+   "symbols": [
+    "UAL"
+   ]
+  },
   {
    "ts": 1794238200,
    "et": "2026-11-09 10:30",
@@ -1834,15 +1843,6 @@
    "text": "1 more breakout (RCL) not taken: already in IBM (one trade at a time)",
    "symbols": [
     "RCL"
-   ]
-  },
-  {
-   "ts": 1793809500,
-   "et": "2026-11-04 11:25",
-   "kind": "busy",
-   "text": "1 more breakout (GILD) not taken: already in IBM (one trade at a time)",
-   "symbols": [
-    "GILD"
    ]
   }
  ],
@@ -3661,6 +3661,11 @@
    "ts": 1794238393,
    "equity": 9364.4,
    "spy": 9859.91
+  },
+  {
+   "ts": 1794238708,
+   "equity": 9375.2,
+   "spy": 9864.65
   }
  ],
  "daily": [
@@ -3696,6 +3701,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794238708,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.3,
+   "errors": [],
+   "run_id": "42646671887",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794238393,
    "phase": "open",
@@ -4085,29 +4100,19 @@
    "errors": [],
    "run_id": "42285863736",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1793995444,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.0,
-   "errors": [],
-   "run_id": "42285092784",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794238393,
+  "tick_at": 1794238708,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794238402,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1794238718,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -273,7 +273,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-09",
-  "last_bar_end": 1794238200,
+  "last_bar_end": 1794238500,
   "position": {
    "symbol": "NVDA",
    "qty": 24,
@@ -324,7 +324,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 114,
+  "triggers_seen": 115,
   "missed": [
    "AVGO",
    "CHPT",
@@ -376,7 +376,8 @@
    "AAPL",
    "DASH",
    "LULU",
-   "OXY"
+   "OXY",
+   "UAL"
   ],
   "triggered": [
    "ADI",
@@ -492,7 +493,8 @@
    "AAPL",
    "DASH",
    "LULU",
-   "OXY"
+   "OXY",
+   "UAL"
   ],
   "hits": [
    {
@@ -1406,6 +1408,14 @@
     "or_high": 55.91,
     "or_low": 54.97,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:35",
+    "price": 120.76,
+    "or_high": 120.75,
+    "or_low": 117.5,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1413,8 +1423,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.1400146484375,
-  "last_ts": 1794238200
+  "last": 749.5,
+  "last_ts": 1794238500
  },
  "seen_trades": 0,
  "daily": [
