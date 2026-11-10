@@ -1,21 +1,21 @@
 {
- "updated": 1794339065,
- "updated_et": "2026-11-10 14:31 ET",
+ "updated": 1794339381,
+ "updated_et": "2026-11-10 14:36 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9386.83,
-  "return": -0.061316999999999955,
+  "equity": 9408.92,
+  "return": -0.05910799999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9852.34,
-  "return": -0.014765999999999946,
+  "value": 9857.41,
+  "return": -0.014259000000000022,
   "start_price": 759.47998046875,
-  "last": 748.5650024414062
+  "last": 748.9500122070312
  },
  "position": {
   "symbol": "UNH",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "MARA",
-    "at": "10:00",
-    "price": 7.45,
-    "or_high": 7.25,
-    "or_low": 6.48,
-    "pct_over": 2.76
-   },
-   {
-    "symbol": "META",
-    "at": "10:00",
-    "price": 643.63,
-    "or_high": 643.1,
-    "or_low": 635.5,
-    "pct_over": 0.08
-   },
    {
     "symbol": "MSTR",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 44.1,
     "or_low": 43.58,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "DUOL",
+    "at": "14:35",
+    "price": 157.88,
+    "or_high": 157.65,
+    "or_low": 154.5,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "PFE",
+    "at": "14:35",
+    "price": 29.32,
+    "or_high": 29.29,
+    "or_low": 28.99,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 120,
+  "n_hits": 122,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794339300,
+   "et": "2026-11-10 14:35",
+   "kind": "busy",
+   "text": "2 more breakouts (DUOL, PFE) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "DUOL",
+    "PFE"
+   ]
+  },
   {
    "ts": 1794336000,
    "et": "2026-11-10 13:40",
@@ -1844,13 +1854,6 @@
     "BB",
     "AI"
    ]
-  },
-  {
-   "ts": 1793998500,
-   "et": "2026-11-06 15:55",
-   "kind": "exit",
-   "text": "SELL 13 MSFT at $530.54: flat by 15:55 ET (the skill's flat-by rule). P&L $-42.32 (-0.63R)",
-   "symbol": "MSFT"
   }
  ],
  "equity": [
@@ -4108,6 +4111,11 @@
    "ts": 1794339065,
    "equity": 9386.83,
    "spy": 9852.34
+  },
+  {
+   "ts": 1794339381,
+   "equity": 9408.92,
+   "spy": 9857.41
   }
  ],
  "daily": [
@@ -4149,6 +4157,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794339381,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.9,
+   "errors": [],
+   "run_id": "42886907509",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794339065,
    "phase": "open",
@@ -4538,25 +4556,15 @@
    "errors": [],
    "run_id": "42851924915",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794326744,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.7,
-   "errors": [],
-   "run_id": "42851072978",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794339065,
+  "tick_at": 1794339381,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794339075,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1794339391,
+  "candidates": 23,
+  "charts_fetched": 25,
   "ok": true,
   "errors": [],
   "stale_data": false,
