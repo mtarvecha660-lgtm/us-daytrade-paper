@@ -1,21 +1,21 @@
 {
- "updated": 1794323878,
- "updated_et": "2026-11-10 10:17 ET",
+ "updated": 1794324192,
+ "updated_et": "2026-11-10 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9456.55,
-  "return": -0.05434500000000009,
+  "equity": 9436.55,
+  "return": -0.05634500000000009,
   "started": 1793559735
  },
  "spy": {
-  "value": 9886.69,
-  "return": -0.01133099999999998,
+  "value": 9878.07,
+  "return": -0.01219300000000001,
   "start_price": 759.47998046875,
-  "last": 751.1749877929688
+  "last": 750.52001953125
  },
  "position": {
   "symbol": "META",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "WFC",
-    "at": "09:50",
-    "price": 86.38,
-    "or_high": 86.15,
-    "or_low": 85.56,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "XOM",
-    "at": "09:50",
-    "price": 163.12,
-    "or_high": 162.43,
-    "or_low": 160.11,
-    "pct_over": 0.42
-   },
    {
     "symbol": "ZM",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 119.77,
     "or_low": 116.31,
     "pct_over": 0.29
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:20",
+    "price": 122.71,
+    "or_high": 122.11,
+    "or_low": 119.5,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:20",
+    "price": 1522.18,
+    "or_high": 1522.0,
+    "or_low": 1503.75,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 76,
+  "n_hits": 78,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794324000,
+   "et": "2026-11-10 10:20",
+   "kind": "busy",
+   "text": "2 more breakouts (CHTR, MELI) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "CHTR",
+    "MELI"
+   ]
+  },
   {
    "ts": 1794323700,
    "et": "2026-11-10 10:15",
@@ -1831,51 +1841,6 @@
     "NEE",
     "TMO",
     "TSLA"
-   ]
-  },
-  {
-   "ts": 1793976900,
-   "et": "2026-11-06 09:55",
-   "kind": "busy",
-   "text": "37 more breakouts (AAPL, ABBV, APP, AXP, BIIB, BMY, CMCSA, COST ...) not taken: already in MU (one trade at a time)",
-   "symbols": [
-    "AAPL",
-    "ABBV",
-    "APP",
-    "AXP",
-    "BIIB",
-    "BMY",
-    "CMCSA",
-    "COST",
-    "DG",
-    "DIS",
-    "DLTR",
-    "DXCM",
-    "GILD",
-    "HD",
-    "HLT",
-    "JD",
-    "KO",
-    "LOW",
-    "LULU",
-    "MCD",
-    "MMM",
-    "MRK",
-    "MRNA",
-    "PDD",
-    "PEP",
-    "PNC",
-    "SBUX",
-    "SHOP",
-    "SPOT",
-    "T",
-    "TGT",
-    "TM",
-    "TMUS",
-    "VZ",
-    "WMT",
-    "XPEV",
-    "YUM"
    ]
   }
  ],
@@ -3894,6 +3859,11 @@
    "ts": 1794323878,
    "equity": 9456.55,
    "spy": 9886.69
+  },
+  {
+   "ts": 1794324192,
+   "equity": 9436.55,
+   "spy": 9878.07
   }
  ],
  "daily": [
@@ -3935,6 +3905,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794324192,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.5,
+   "errors": [],
+   "run_id": "42843740904",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794323878,
    "phase": "open",
@@ -4324,25 +4304,15 @@
    "errors": [],
    "run_id": "42650123383",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794239647,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.3,
-   "errors": [],
-   "run_id": "42649268067",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794323878,
+  "tick_at": 1794324192,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794323888,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794324203,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,

@@ -321,7 +321,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794323700,
+  "last_bar_end": 1794324000,
   "position": {
    "symbol": "META",
    "qty": 10,
@@ -397,7 +397,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 76,
+  "triggers_seen": 78,
   "missed": [
    "AMAT",
    "AMD",
@@ -442,7 +442,9 @@
    "HUM",
    "SNAP",
    "CPNG",
-   "ORCL"
+   "ORCL",
+   "CHTR",
+   "MELI"
   ],
   "triggered": [
    "AVGO",
@@ -520,7 +522,9 @@
    "HUM",
    "SNAP",
    "CPNG",
-   "ORCL"
+   "ORCL",
+   "CHTR",
+   "MELI"
   ],
   "hits": [
    {
@@ -1130,6 +1134,22 @@
     "or_high": 119.77,
     "or_low": 116.31,
     "pct_over": 0.29
+   },
+   {
+    "symbol": "CHTR",
+    "at": "10:20",
+    "price": 122.71,
+    "or_high": 122.11,
+    "or_low": 119.5,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:20",
+    "price": 1522.18,
+    "or_high": 1522.0,
+    "or_low": 1503.75,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1137,8 +1157,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 751.1749877929688,
-  "last_ts": 1794323700
+  "last": 750.52001953125,
+  "last_ts": 1794324000
  },
  "seen_trades": 0,
  "daily": [
