@@ -321,7 +321,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794327900,
+  "last_bar_end": 1794328200,
   "position": {
    "symbol": "META",
    "qty": 10,
@@ -397,7 +397,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 89,
+  "triggers_seen": 91,
   "missed": [
    "AMAT",
    "AMD",
@@ -455,7 +455,9 @@
    "CDNS",
    "MAR",
    "TSLA",
-   "CMCSA"
+   "CMCSA",
+   "ELV",
+   "KKR"
   ],
   "triggered": [
    "AVGO",
@@ -546,7 +548,9 @@
    "CDNS",
    "MAR",
    "TSLA",
-   "CMCSA"
+   "CMCSA",
+   "ELV",
+   "KKR"
   ],
   "hits": [
    {
@@ -1260,6 +1264,22 @@
     "or_high": 24.62,
     "or_low": 24.24,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "ELV",
+    "at": "11:30",
+    "price": 422.25,
+    "or_high": 421.89,
+    "or_low": 418.03,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:30",
+    "price": 99.89,
+    "or_high": 99.83,
+    "or_low": 98.23,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1267,8 +1287,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.9136962890625,
-  "last_ts": 1794327900
+  "last": 747.75,
+  "last_ts": 1794328200
  },
  "seen_trades": 0,
  "daily": [

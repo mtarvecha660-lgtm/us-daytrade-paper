@@ -1,21 +1,21 @@
 {
- "updated": 1794328008,
- "updated_et": "2026-11-10 11:26 ET",
+ "updated": 1794328326,
+ "updated_et": "2026-11-10 11:32 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9426.45,
-  "return": -0.057354999999999934,
+  "equity": 9434.25,
+  "return": -0.05657500000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9843.77,
-  "return": -0.015622999999999942,
+  "value": 9841.62,
+  "return": -0.015837999999999908,
   "start_price": 759.47998046875,
-  "last": 747.9136962890625
+  "last": 747.75
  },
  "position": {
   "symbol": "META",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "INTC",
-    "at": "09:55",
-    "price": 59.46,
-    "or_high": 58.86,
-    "or_low": 57.58,
-    "pct_over": 1.02
-   },
-   {
-    "symbol": "KLAC",
-    "at": "09:55",
-    "price": 151.87,
-    "or_high": 151.52,
-    "or_low": 148.06,
-    "pct_over": 0.23
-   },
    {
     "symbol": "LRCX",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 24.62,
     "or_low": 24.24,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "ELV",
+    "at": "11:30",
+    "price": 422.25,
+    "or_high": 421.89,
+    "or_low": 418.03,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:30",
+    "price": 99.89,
+    "or_high": 99.83,
+    "or_low": 98.23,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 89,
+  "n_hits": 91,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794328200,
+   "et": "2026-11-10 11:30",
+   "kind": "busy",
+   "text": "2 more breakouts (ELV, KKR) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "ELV",
+    "KKR"
+   ]
+  },
   {
    "ts": 1794327900,
    "et": "2026-11-10 11:25",
@@ -1807,18 +1817,6 @@
     "QCOM",
     "REGN",
     "VRTX"
-   ]
-  },
-  {
-   "ts": 1793978400,
-   "et": "2026-11-06 10:20",
-   "kind": "busy",
-   "text": "4 more breakouts (AAL, BX, ENPH, RIVN) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "AAL",
-    "BX",
-    "ENPH",
-    "RIVN"
    ]
   }
  ],
@@ -3902,6 +3900,11 @@
    "ts": 1794328008,
    "equity": 9426.45,
    "spy": 9843.77
+  },
+  {
+   "ts": 1794328326,
+   "equity": 9434.25,
+   "spy": 9841.62
   }
  ],
  "daily": [
@@ -3943,6 +3946,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794328326,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.9,
+   "errors": [],
+   "run_id": "42855439203",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794328008,
    "phase": "open",
@@ -4332,25 +4345,15 @@
    "errors": [],
    "run_id": "42661487513",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794243736,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.1,
-   "errors": [],
-   "run_id": "42660641634",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794328008,
+  "tick_at": 1794328326,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794328016,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1794328332,
+  "candidates": 15,
+  "charts_fetched": 17,
   "ok": true,
   "errors": [],
   "stale_data": false,
