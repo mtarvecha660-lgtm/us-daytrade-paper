@@ -345,7 +345,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794335700,
+  "last_bar_end": 1794336000,
   "position": {
    "symbol": "UNH",
    "qty": 17,
@@ -446,7 +446,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 119,
+  "triggers_seen": 120,
   "missed": [
    "AMAT",
    "AMD",
@@ -531,7 +531,8 @@
    "SEDG",
    "V",
    "ZTS",
-   "HLT"
+   "HLT",
+   "BSX"
   ],
   "triggered": [
    "AVGO",
@@ -652,7 +653,8 @@
    "SEDG",
    "V",
    "ZTS",
-   "HLT"
+   "HLT",
+   "BSX"
   ],
   "hits": [
    {
@@ -1606,6 +1608,14 @@
     "or_high": 376.79,
     "or_low": 373.42,
     "pct_over": 0.13
+   },
+   {
+    "symbol": "BSX",
+    "at": "13:40",
+    "price": 44.13,
+    "or_high": 44.1,
+    "or_low": 43.58,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1613,8 +1623,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.0999755859375,
-  "last_ts": 1794335700
+  "last": 746.864990234375,
+  "last_ts": 1794336000
  },
  "seen_trades": 0,
  "daily": [
