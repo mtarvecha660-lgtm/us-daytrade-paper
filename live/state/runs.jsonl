@@ -440,3 +440,4 @@
 {"ts": 1794247517, "phase": "open", "status": "ok", "bars": 1, "secs": 16.5, "errors": [], "run_id": "42670790404", "event": "workflow_dispatch"}
 {"ts": 1794264680, "phase": "after-close", "status": "ok", "bars": 36, "secs": 18.5, "errors": [], "run_id": "42715520028", "event": "schedule"}
 {"ts": 1794284494, "phase": "after-close", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "42755331560", "event": "workflow_dispatch"}
+{"ts": 1794304310, "phase": "pre-open", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "42794223996", "event": "workflow_dispatch"}
