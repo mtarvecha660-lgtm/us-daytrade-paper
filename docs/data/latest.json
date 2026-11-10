@@ -1,82 +1,52 @@
 {
- "updated": 1794322615,
- "updated_et": "2026-11-10 09:56 ET",
+ "updated": 1794322933,
+ "updated_et": "2026-11-10 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2823.23,
-  "equity": 9403.61,
-  "return": -0.05963899999999989,
+  "cash": 9432.83,
+  "equity": 9432.83,
+  "return": -0.05671700000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9848.72,
-  "return": -0.01512800000000003,
+  "value": 9880.97,
+  "return": -0.011903000000000108,
   "start_price": 759.47998046875,
-  "last": 748.2899780273438
+  "last": 750.739990234375
  },
- "position": {
-  "symbol": "AVGO",
-  "qty": 20,
-  "entry": 325.6551,
-  "entry_et": "09:50",
-  "stop": 320.76,
-  "target": 330.48,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "META",
+  "qty": 10,
+  "plan": {
+   "symbol": "META",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-10",
+   "entry_time": "10:00 AM",
+   "entry": 643.63,
+   "stop": 639.3,
+   "target": 647.96,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
-   "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
-   "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
+   "exit": "plan: entry $643.63, stop $639.30 (opening-range midpoint), target $647.96 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
+   "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1794322800,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "AVGO",
-    "at": "09:50",
-    "price": 325.62,
-    "or_high": 324.83,
-    "or_low": 316.69,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "BB",
-    "at": "09:50",
-    "price": 9.18,
-    "or_high": 9.1,
-    "or_low": 8.86,
-    "pct_over": 0.85
-   },
-   {
-    "symbol": "COP",
-    "at": "09:50",
-    "price": 134.39,
-    "or_high": 133.41,
-    "or_low": 131.12,
-    "pct_over": 0.73
-   },
-   {
-    "symbol": "CRWD",
-    "at": "09:50",
-    "price": 225.97,
-    "or_high": 225.77,
-    "or_low": 218.41,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "CVX",
-    "at": "09:50",
-    "price": 208.71,
-    "or_high": 208.61,
-    "or_low": 206.01,
-    "pct_over": 0.05
-   },
    {
     "symbol": "DVN",
     "at": "09:50",
@@ -460,28 +430,124 @@
     "or_high": 286.16,
     "or_low": 277.5,
     "pct_over": 1.6
+   },
+   {
+    "symbol": "ADI",
+    "at": "10:00",
+    "price": 393.21,
+    "or_high": 390.48,
+    "or_low": 385.68,
+    "pct_over": 0.7
+   },
+   {
+    "symbol": "CAT",
+    "at": "10:00",
+    "price": 584.18,
+    "or_high": 582.86,
+    "or_low": 566.12,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "COIN",
+    "at": "10:00",
+    "price": 135.84,
+    "or_high": 134.8,
+    "or_low": 130.25,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:00",
+    "price": 28.46,
+    "or_high": 28.46,
+    "or_low": 27.95,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "10:00",
+    "price": 291.06,
+    "or_high": 290.66,
+    "or_low": 287.22,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "IONQ",
+    "at": "10:00",
+    "price": 35.37,
+    "or_high": 35.33,
+    "or_low": 33.92,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "LMT",
+    "at": "10:00",
+    "price": 595.85,
+    "or_high": 595.84,
+    "or_low": 587.11,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:00",
+    "price": 7.45,
+    "or_high": 7.25,
+    "or_low": 6.48,
+    "pct_over": 2.76
+   },
+   {
+    "symbol": "META",
+    "at": "10:00",
+    "price": 643.63,
+    "or_high": 643.1,
+    "or_low": 635.5,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "MSTR",
+    "at": "10:00",
+    "price": 125.35,
+    "or_high": 124.26,
+    "or_low": 119.7,
+    "pct_over": 0.88
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:00",
+    "price": 463.57,
+    "or_high": 463.48,
+    "or_low": 452.46,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:00",
+    "price": 296.35,
+    "or_high": 293.43,
+    "or_low": 287.24,
+    "pct_over": 1.0
    }
   ],
-  "n_hits": 53,
-  "entries": 1,
+  "n_hits": 65,
+  "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 20 AVGO bought at $325.66. It sells at the stop $320.76, the target $330.48, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 10 META at the next bar's open (signal at 10:00 ET). Then: stop $639.30, target $647.96.",
  "stats": {
-  "trades": 12,
-  "wins": 2,
-  "win_rate": 0.16666666666666666,
-  "avg_r": -0.6638333333333334,
-  "t_stat_r": -3.544810839550408,
-  "net_pnl": -663.67,
-  "profit_factor": 0.11116021803474092,
-  "expectancy_usd": -55.31,
-  "avg_win": 41.5,
+  "trades": 13,
+  "wins": 3,
+  "win_rate": 0.23076923076923078,
+  "avg_r": -0.5363846153846155,
+  "t_stat_r": -2.503150959054871,
+  "net_pnl": -567.17,
+  "profit_factor": 0.2404007124968192,
+  "expectancy_usd": -43.63,
+  "avg_win": 59.83,
   "avg_loss": -74.67,
-  "costs_usd": 22.92,
+  "costs_usd": 24.22,
   "exits": {
    "stop": 8,
-   "target": 1,
+   "target": 2,
    "flat-by": 3
   }
  },
@@ -501,6 +567,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-10",
+   "symbol": "AVGO",
+   "qty": 20,
+   "entry_et": "09:50",
+   "entry_fill": 325.6551,
+   "exit_et": "10:00",
+   "exit_fill": 330.48,
+   "exit_reason": "target $330.48 hit (1R)",
+   "stop": 320.76,
+   "target": 330.48,
+   "pnl": 96.5,
+   "r": 0.993,
+   "risk_usd": 97.2,
+   "cost_usd": 1.3,
+   "why": {
+    "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
+    "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
+    "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-09",
    "symbol": "NVDA",
@@ -791,6 +881,40 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794322800,
+   "et": "2026-11-10 10:00",
+   "kind": "order",
+   "text": "BUY 10 META at market (decided on the 10:00 close). opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
+   "symbol": "META",
+   "why": {
+    "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
+    "exit": "plan: entry $643.63, stop $639.30 (opening-range midpoint), target $647.96 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
+    "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "GOOGL",
+    "CAT",
+    "MSTR",
+    "ADI",
+    "COIN",
+    "TXN",
+    "IONQ",
+    "MARA",
+    "LMT",
+    "SNPS",
+    "ENPH"
+   ]
+  },
+  {
+   "ts": 1794322800,
+   "et": "2026-11-10 10:00",
+   "kind": "exit",
+   "text": "SELL 20 AVGO at $330.48: target $330.48 hit (1R). P&L $+96.50 (+0.99R)",
+   "symbol": "AVGO"
+  },
   {
    "ts": 1794322500,
    "et": "2026-11-10 09:55",
@@ -1832,22 +1956,6 @@
    "symbols": [
     "CHTR"
    ]
-  },
-  {
-   "ts": 1793907900,
-   "et": "2026-11-05 14:45",
-   "kind": "busy",
-   "text": "1 more breakout (RIOT) not taken: already in U (one trade at a time)",
-   "symbols": [
-    "RIOT"
-   ]
-  },
-  {
-   "ts": 1793902500,
-   "et": "2026-11-05 13:15",
-   "kind": "fill",
-   "text": "BUY 51 U filled at $48.63 (next bar's open $48.62 + slippage). Stop $46.69, target $50.59",
-   "symbol": "U"
   }
  ],
  "equity": [
@@ -3845,6 +3953,11 @@
    "ts": 1794322615,
    "equity": 9403.61,
    "spy": 9848.72
+  },
+  {
+   "ts": 1794322933,
+   "equity": 9432.83,
+   "spy": 9880.97
   }
  ],
  "daily": [
@@ -3886,6 +3999,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794322933,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.5,
+   "errors": [],
+   "run_id": "42840151607",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794322615,
    "phase": "open",
@@ -4275,29 +4398,19 @@
    "errors": [],
    "run_id": "42646671887",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794238393,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.4,
-   "errors": [],
-   "run_id": "42645774581",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794322615,
+  "tick_at": 1794322933,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794322634,
-  "candidates": 52,
-  "charts_fetched": 54,
+  "yahoo_time": 1794322943,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
