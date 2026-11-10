@@ -1,21 +1,21 @@
 {
- "updated": 1794339698,
- "updated_et": "2026-11-10 14:41 ET",
+ "updated": 1794340013,
+ "updated_et": "2026-11-10 14:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9407.99,
-  "return": -0.05920100000000006,
+  "equity": 9399.41,
+  "return": -0.060058999999999974,
   "started": 1793559735
  },
  "spy": {
-  "value": 9847.93,
-  "return": -0.01520699999999997,
+  "value": 9852.93,
+  "return": -0.014707000000000026,
   "start_price": 759.47998046875,
-  "last": 748.22998046875
+  "last": 748.6099853515625
  },
  "position": {
   "symbol": "UNH",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "MSTR",
-    "at": "10:00",
-    "price": 125.35,
-    "or_high": 124.26,
-    "or_low": 119.7,
-    "pct_over": 0.88
-   },
    {
     "symbol": "SNPS",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 29.29,
     "or_low": 28.99,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "RCL",
+    "at": "14:45",
+    "price": 339.9,
+    "or_high": 339.88,
+    "or_low": 335.95,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 122,
+  "n_hits": 123,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794339900,
+   "et": "2026-11-10 14:45",
+   "kind": "busy",
+   "text": "1 more breakout (RCL) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "RCL"
+   ]
+  },
   {
    "ts": 1794339300,
    "et": "2026-11-10 14:35",
@@ -1776,84 +1785,6 @@
    "kind": "fill",
    "text": "BUY 24 NVDA filled at $177.44 (next bar's open $177.40 + slippage). Stop $173.34, target $181.54",
    "symbol": "NVDA"
-  },
-  {
-   "ts": 1794235800,
-   "et": "2026-11-09 09:50",
-   "kind": "order",
-   "text": "BUY 24 NVDA at market (decided on the 09:50 close). opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
-   "symbol": "NVDA",
-   "why": {
-    "scanner": "NVDA: the 09:45 bar closed at $177.44, above the 15-min opening range high $176.45 (range 170.24-176.45)",
-    "exit": "plan: entry $177.44, stop $173.34 (opening-range midpoint), target $181.54 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on NVDA: 24 shares, bound by your $100 max loss per trade (24 x 4.10 = $98.40 at the stop) (limits: max loss 24; position cap 39; max order 45; cash 47)",
-    "risk": "trader-risk PASS: entry 177.44 (the plan's entry), stop 173.34, target 181.54: risk 4.10 a share; max loss $98.40 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "AMD",
-    "MU",
-    "INTC",
-    "TSM",
-    "MRVL",
-    "AMAT",
-    "ASML",
-    "PLTR",
-    "ORCL",
-    "MSTR",
-    "DELL",
-    "MRNA",
-    "WDC",
-    "ANET",
-    "KLAC",
-    "PANW",
-    "LRCX",
-    "CAT",
-    "STX",
-    "SMCI",
-    "CRWD",
-    "GS",
-    "CSCO",
-    "QCOM",
-    "COIN",
-    "HOOD",
-    "ARM",
-    "ADI",
-    "SNOW",
-    "MS",
-    "MPC",
-    "VLO",
-    "SOFI",
-    "TMUS",
-    "DDOG",
-    "IBM",
-    "PSX",
-    "TER",
-    "DE",
-    "SLB",
-    "BX",
-    "BLK",
-    "ON",
-    "RDDT",
-    "LMT",
-    "OKTA",
-    "SCHW",
-    "RTX",
-    "RGTI",
-    "SNPS",
-    "ZS",
-    "MARA",
-    "CDNS",
-    "MDB",
-    "HPQ",
-    "TWLO",
-    "CLSK",
-    "PATH",
-    "APO",
-    "ZM",
-    "BB",
-    "AI"
-   ]
   }
  ],
  "equity": [
@@ -4121,6 +4052,11 @@
    "ts": 1794339698,
    "equity": 9407.99,
    "spy": 9847.93
+  },
+  {
+   "ts": 1794340013,
+   "equity": 9399.41,
+   "spy": 9852.93
   }
  ],
  "daily": [
@@ -4162,6 +4098,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794340013,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.2,
+   "errors": [],
+   "run_id": "42888644887",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794339698,
    "phase": "open",
@@ -4551,29 +4497,19 @@
    "errors": [],
    "run_id": "42853682915",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794327375,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "42852799307",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794339698,
+  "tick_at": 1794340013,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794339705,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794340025,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
