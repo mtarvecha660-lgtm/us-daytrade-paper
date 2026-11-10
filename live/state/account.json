@@ -345,7 +345,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794330900,
+  "last_bar_end": 1794331200,
   "position": {
    "symbol": "UNH",
    "qty": 17,
@@ -446,7 +446,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 102,
+  "triggers_seen": 104,
   "missed": [
    "AMAT",
    "AMD",
@@ -514,7 +514,9 @@
    "MA",
    "DE",
    "LOW",
-   "BA"
+   "BA",
+   "PG",
+   "ROST"
   ],
   "triggered": [
    "AVGO",
@@ -618,7 +620,9 @@
    "MA",
    "DE",
    "LOW",
-   "BA"
+   "BA",
+   "PG",
+   "ROST"
   ],
   "hits": [
    {
@@ -1436,6 +1440,22 @@
     "or_high": 172.9,
     "or_low": 170.5,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "PG",
+    "at": "12:20",
+    "price": 169.58,
+    "or_high": 169.55,
+    "or_low": 168.25,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "ROST",
+    "at": "12:20",
+    "price": 237.36,
+    "or_high": 237.34,
+    "or_low": 234.58,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1443,8 +1463,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.3699951171875,
-  "last_ts": 1794330900
+  "last": 747.60498046875,
+  "last_ts": 1794331200
  },
  "seen_trades": 0,
  "daily": [
