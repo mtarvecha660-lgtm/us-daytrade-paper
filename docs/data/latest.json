@@ -1,7 +1,7 @@
 {
- "updated": 1794320717,
- "updated_et": "2026-11-10 09:25 ET",
- "phase": "pre-open",
+ "updated": 1794321033,
+ "updated_et": "2026-11-10 09:30 ET",
+ "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
@@ -20,13 +20,13 @@
  "position": null,
  "pending": null,
  "today": {
-  "date": null,
+  "date": "2026-11-10",
   "hits": [],
   "n_hits": 0,
   "entries": 0,
   "max_trades": 3
  },
- "next_move": "Market closed. Next open: Tue Nov 10, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
+ "next_move": "The opening range is still forming (9:30-9:45 AM ET). Watching from the 9:50 bar close.",
  "stats": {
   "trades": 12,
   "wins": 2,
@@ -3323,6 +3323,11 @@
    "ts": 1794264680,
    "equity": 9336.33,
    "spy": 9905.58
+  },
+  {
+   "ts": 1794321033,
+   "equity": 9336.33,
+   "spy": 9905.58
   }
  ],
  "daily": [
@@ -3364,6 +3369,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794321033,
+   "phase": "open",
+   "status": "ok",
+   "bars": 0,
+   "secs": 6.6,
+   "errors": [],
+   "run_id": "42834741543",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794320717,
    "phase": "pre-open",
@@ -3753,27 +3768,19 @@
    "errors": [],
    "run_id": "42641319679",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794236507,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.7,
-   "errors": [],
-   "run_id": "42640442683",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794320717,
-  "data_ok": null,
-  "data_failed": 0,
-  "yahoo_time": null,
+  "tick_at": 1794321033,
+  "data_ok": 233,
+  "data_failed": 1,
+  "yahoo_time": 1794321023,
+  "candidates": 0,
+  "charts_fetched": 1,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": null,
+  "yahoo_lag_min": 0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
