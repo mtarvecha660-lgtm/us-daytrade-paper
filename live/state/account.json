@@ -321,7 +321,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794324600,
+  "last_bar_end": 1794324900,
   "position": {
    "symbol": "META",
    "qty": 10,
@@ -397,7 +397,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 79,
+  "triggers_seen": 82,
   "missed": [
    "AMAT",
    "AMD",
@@ -445,7 +445,10 @@
    "ORCL",
    "CHTR",
    "MELI",
-   "LLY"
+   "LLY",
+   "CMG",
+   "HPQ",
+   "LYFT"
   ],
   "triggered": [
    "AVGO",
@@ -526,7 +529,10 @@
    "ORCL",
    "CHTR",
    "MELI",
-   "LLY"
+   "LLY",
+   "CMG",
+   "HPQ",
+   "LYFT"
   ],
   "hits": [
    {
@@ -1160,6 +1166,30 @@
     "or_high": 1420.42,
     "or_low": 1400.0,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "CMG",
+    "at": "10:35",
+    "price": 35.97,
+    "or_high": 35.94,
+    "or_low": 35.38,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HPQ",
+    "at": "10:35",
+    "price": 28.34,
+    "or_high": 28.32,
+    "or_low": 27.7,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "LYFT",
+    "at": "10:35",
+    "price": 16.8,
+    "or_high": 16.74,
+    "or_low": 16.38,
+    "pct_over": 0.33
    }
   ]
  },
@@ -1167,8 +1197,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.469970703125,
-  "last_ts": 1794324600
+  "last": 750.2000122070312,
+  "last_ts": 1794324900
  },
  "seen_trades": 0,
  "daily": [
