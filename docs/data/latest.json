@@ -1,21 +1,21 @@
 {
- "updated": 1794326744,
- "updated_et": "2026-11-10 11:05 ET",
+ "updated": 1794327061,
+ "updated_et": "2026-11-10 11:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9414.5,
-  "return": -0.05854999999999999,
+  "equity": 9426.3,
+  "return": -0.05737000000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9829.64,
-  "return": -0.01703600000000005,
+  "value": 9847.54,
+  "return": -0.01524599999999987,
   "start_price": 759.47998046875,
-  "last": 746.8400268554688
+  "last": 748.2000122070312
  },
  "position": {
   "symbol": "META",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "CSCO",
-    "at": "09:55",
-    "price": 97.86,
-    "or_high": 97.77,
-    "or_low": 96.42,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "DDOG",
-    "at": "09:55",
-    "price": 181.57,
-    "or_high": 180.05,
-    "or_low": 173.18,
-    "pct_over": 0.84
-   },
-   {
-    "symbol": "DELL",
-    "at": "09:55",
-    "price": 341.24,
-    "or_high": 338.5,
-    "or_low": 328.16,
-    "pct_over": 0.81
-   },
    {
     "symbol": "DOCU",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 15.16,
     "or_low": 14.3,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "CDNS",
+    "at": "11:05",
+    "price": 334.46,
+    "or_high": 333.51,
+    "or_low": 324.82,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "MAR",
+    "at": "11:10",
+    "price": 423.1,
+    "or_high": 422.23,
+    "or_low": 418.68,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "TSLA",
+    "at": "11:10",
+    "price": 378.02,
+    "or_high": 377.53,
+    "or_low": 370.43,
+    "pct_over": 0.13
    }
   ],
-  "n_hits": 85,
+  "n_hits": 88,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,25 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794327000,
+   "et": "2026-11-10 11:10",
+   "kind": "busy",
+   "text": "2 more breakouts (MAR, TSLA) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "MAR",
+    "TSLA"
+   ]
+  },
+  {
+   "ts": 1794326700,
+   "et": "2026-11-10 11:05",
+   "kind": "busy",
+   "text": "1 more breakout (CDNS) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "CDNS"
+   ]
+  },
   {
    "ts": 1794326400,
    "et": "2026-11-10 11:00",
@@ -1799,40 +1818,6 @@
    "kind": "fill",
    "text": "BUY 13 MSFT filled at $533.80 (next bar's open $533.69 + slippage). Stop $528.52, target $538.92",
    "symbol": "MSFT"
-  },
-  {
-   "ts": 1793978100,
-   "et": "2026-11-06 10:15",
-   "kind": "order",
-   "text": "BUY 13 MSFT at market (decided on the 10:15 close). opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.20 = $67.60 at the stop) (limits: max loss 19; position cap 13; max order 14; cash 15)",
-   "symbol": "MSFT",
-   "why": {
-    "scanner": "MSFT: the 10:10 bar closed at $533.72, above the 15-min opening range high $532.44 (range 524.61-532.44)",
-    "exit": "plan: entry $533.72, stop $528.52 (opening-range midpoint), target $538.92 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.20 = $67.60 at the stop) (limits: max loss 19; position cap 13; max order 14; cash 15)",
-    "risk": "trader-risk PASS: entry 533.72 (the latest price), stop 528.52, target 538.92: risk 5.20 a share; max loss $67.60 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $90.72 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "MA",
-    "ROKU",
-    "RBLX",
-    "USB",
-    "BLK",
-    "D",
-    "QBTS",
-    "NCLH",
-    "TOST",
-    "DPZ",
-    "GME"
-   ]
-  },
-  {
-   "ts": 1793978100,
-   "et": "2026-11-06 10:15",
-   "kind": "exit",
-   "text": "SELL 6 MU at $703.04: stop $703.18 hit. P&L $-93.69 (-1.03R)",
-   "symbol": "MU"
   }
  ],
  "equity": [
@@ -3895,6 +3880,11 @@
    "ts": 1794326744,
    "equity": 9414.5,
    "spy": 9829.64
+  },
+  {
+   "ts": 1794327061,
+   "equity": 9426.3,
+   "spy": 9847.54
   }
  ],
  "daily": [
@@ -3936,6 +3926,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794327061,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 12.9,
+   "errors": [],
+   "run_id": "42851924915",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794326744,
    "phase": "open",
@@ -4325,29 +4325,19 @@
    "errors": [],
    "run_id": "42658103305",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794242472,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 15.5,
-   "errors": [],
-   "run_id": "42657237422",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794326744,
+  "tick_at": 1794327061,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794326755,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1794327000,
+  "candidates": 23,
+  "charts_fetched": 25,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": 1.0,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

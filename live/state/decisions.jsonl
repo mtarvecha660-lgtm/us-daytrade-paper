@@ -207,3 +207,5 @@
 {"ts": 1794324300, "et": "2026-11-10 10:25", "kind": "busy", "text": "1 more breakout (LLY) not taken: already in META (one trade at a time)", "symbols": ["LLY"]}
 {"ts": 1794324900, "et": "2026-11-10 10:35", "kind": "busy", "text": "3 more breakouts (CMG, HPQ, LYFT) not taken: already in META (one trade at a time)", "symbols": ["CMG", "HPQ", "LYFT"]}
 {"ts": 1794326400, "et": "2026-11-10 11:00", "kind": "busy", "text": "3 more breakouts (AEP, DUK, TTD) not taken: already in META (one trade at a time)", "symbols": ["AEP", "DUK", "TTD"]}
+{"ts": 1794326700, "et": "2026-11-10 11:05", "kind": "busy", "text": "1 more breakout (CDNS) not taken: already in META (one trade at a time)", "symbols": ["CDNS"]}
+{"ts": 1794327000, "et": "2026-11-10 11:10", "kind": "busy", "text": "2 more breakouts (MAR, TSLA) not taken: already in META (one trade at a time)", "symbols": ["MAR", "TSLA"]}
