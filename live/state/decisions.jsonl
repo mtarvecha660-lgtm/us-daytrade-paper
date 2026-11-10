@@ -217,3 +217,4 @@
 {"ts": 1794329400, "et": "2026-11-10 11:50", "kind": "fill", "text": "BUY 17 UNH filled at $401.79 (next bar's open $401.71 + slippage). Stop $399.69, target $404.03", "symbol": "UNH"}
 {"ts": 1794330000, "et": "2026-11-10 12:00", "kind": "busy", "text": "3 more breakouts (CI, KO, MA) not taken: already in UNH (one trade at a time)", "symbols": ["CI", "KO", "MA"]}
 {"ts": 1794330300, "et": "2026-11-10 12:05", "kind": "busy", "text": "1 more breakout (DE) not taken: already in UNH (one trade at a time)", "symbols": ["DE"]}
+{"ts": 1794330600, "et": "2026-11-10 12:10", "kind": "busy", "text": "1 more breakout (LOW) not taken: already in UNH (one trade at a time)", "symbols": ["LOW"]}
