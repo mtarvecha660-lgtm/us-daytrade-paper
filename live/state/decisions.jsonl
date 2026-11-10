@@ -202,3 +202,4 @@
 {"ts": 1794322800, "et": "2026-11-10 10:00", "kind": "fill", "text": "BUY 10 META filled at $643.50 (next bar's open $643.37 + slippage). Stop $639.30, target $647.96", "symbol": "META"}
 {"ts": 1794323100, "et": "2026-11-10 10:05", "kind": "busy", "text": "9 more breakouts (AFRM, AMZN, C, CVS, DLTR, F, GS, HUM ...) not taken: already in META (one trade at a time)", "symbols": ["AFRM", "AMZN", "C", "CVS", "DLTR", "F", "GS", "HUM", "SNAP"]}
 {"ts": 1794323400, "et": "2026-11-10 10:10", "kind": "busy", "text": "1 more breakout (CPNG) not taken: already in META (one trade at a time)", "symbols": ["CPNG"]}
+{"ts": 1794323700, "et": "2026-11-10 10:15", "kind": "busy", "text": "1 more breakout (ORCL) not taken: already in META (one trade at a time)", "symbols": ["ORCL"]}

@@ -1,21 +1,21 @@
 {
- "updated": 1794323564,
- "updated_et": "2026-11-10 10:12 ET",
+ "updated": 1794323878,
+ "updated_et": "2026-11-10 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9451.55,
-  "return": -0.05484500000000003,
+  "equity": 9456.55,
+  "return": -0.05434500000000009,
   "started": 1793559735
  },
  "spy": {
-  "value": 9894.79,
-  "return": -0.010520999999999892,
+  "value": 9886.69,
+  "return": -0.01133099999999998,
   "start_price": 759.47998046875,
-  "last": 751.7899780273438
+  "last": 751.1749877929688
  },
  "position": {
   "symbol": "META",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "TSM",
-    "at": "09:50",
-    "price": 393.48,
-    "or_high": 392.99,
-    "or_low": 387.2,
-    "pct_over": 0.12
-   },
    {
     "symbol": "WFC",
     "at": "09:50",
@@ -516,9 +508,17 @@
     "or_high": 16.49,
     "or_low": 16.21,
     "pct_over": 0.21
+   },
+   {
+    "symbol": "ORCL",
+    "at": "10:15",
+    "price": 120.12,
+    "or_high": 119.77,
+    "or_low": 116.31,
+    "pct_over": 0.29
    }
   ],
-  "n_hits": 75,
+  "n_hits": 76,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794323700,
+   "et": "2026-11-10 10:15",
+   "kind": "busy",
+   "text": "1 more breakout (ORCL) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "ORCL"
+   ]
+  },
   {
    "ts": 1794323400,
    "et": "2026-11-10 10:10",
@@ -1868,13 +1877,6 @@
     "XPEV",
     "YUM"
    ]
-  },
-  {
-   "ts": 1793976600,
-   "et": "2026-11-06 09:50",
-   "kind": "fill",
-   "text": "BUY 6 MU filled at $718.65 (next bar's open $718.51 + slippage). Stop $703.18, target $733.42",
-   "symbol": "MU"
   }
  ],
  "equity": [
@@ -3887,6 +3889,11 @@
    "ts": 1794323564,
    "equity": 9451.55,
    "spy": 9894.79
+  },
+  {
+   "ts": 1794323878,
+   "equity": 9456.55,
+   "spy": 9886.69
   }
  ],
  "daily": [
@@ -3928,6 +3935,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794323878,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.1,
+   "errors": [],
+   "run_id": "42842850711",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794323564,
    "phase": "open",
@@ -4317,25 +4334,15 @@
    "errors": [],
    "run_id": "42649268067",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794239336,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.9,
-   "errors": [],
-   "run_id": "42648400432",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794323564,
+  "tick_at": 1794323878,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794323575,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794323888,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
