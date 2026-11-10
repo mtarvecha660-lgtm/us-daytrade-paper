@@ -1,21 +1,21 @@
 {
- "updated": 1794334975,
- "updated_et": "2026-11-10 13:22 ET",
+ "updated": 1794335290,
+ "updated_et": "2026-11-10 13:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9408.53,
-  "return": -0.05914699999999995,
+  "equity": 9412.83,
+  "return": -0.05871700000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9816.61,
-  "return": -0.018338999999999994,
+  "value": 9817.4,
+  "return": -0.018260000000000054,
   "start_price": 759.47998046875,
-  "last": 745.8499755859375
+  "last": 745.9099731445312
  },
  "position": {
   "symbol": "UNH",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "ENPH",
-    "at": "10:00",
-    "price": 28.46,
-    "or_high": 28.46,
-    "or_low": 27.95,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "GOOGL",
-    "at": "10:00",
-    "price": 291.06,
-    "or_high": 290.66,
-    "or_low": 287.22,
-    "pct_over": 0.14
-   },
    {
     "symbol": "IONQ",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 27.19,
     "or_low": 26.6,
     "pct_over": 1.71
+   },
+   {
+    "symbol": "V",
+    "at": "13:25",
+    "price": 424.23,
+    "or_high": 424.0,
+    "or_low": 420.75,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "ZTS",
+    "at": "13:25",
+    "price": 82.26,
+    "or_high": 82.26,
+    "or_low": 81.42,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 116,
+  "n_hits": 118,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794335100,
+   "et": "2026-11-10 13:25",
+   "kind": "busy",
+   "text": "2 more breakouts (V, ZTS) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "V",
+    "ZTS"
+   ]
+  },
   {
    "ts": 1794333600,
    "et": "2026-11-10 13:00",
@@ -1840,15 +1850,6 @@
    "text": "1 more breakout (SNPS) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "SNPS"
-   ]
-  },
-  {
-   "ts": 1793992800,
-   "et": "2026-11-06 14:20",
-   "kind": "busy",
-   "text": "1 more breakout (CDNS) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "CDNS"
    ]
   }
  ],
@@ -4042,6 +4043,11 @@
    "ts": 1794334975,
    "equity": 9408.53,
    "spy": 9816.61
+  },
+  {
+   "ts": 1794335290,
+   "equity": 9412.83,
+   "spy": 9817.4
   }
  ],
  "daily": [
@@ -4083,6 +4089,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794335290,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.4,
+   "errors": [],
+   "run_id": "42875462562",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794334975,
    "phase": "open",
@@ -4472,25 +4488,15 @@
    "errors": [],
    "run_id": "42840151607",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794322615,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 20.5,
-   "errors": [],
-   "run_id": "42839241598",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794334975,
+  "tick_at": 1794335290,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794334983,
-  "candidates": 17,
-  "charts_fetched": 19,
+  "yahoo_time": 1794335297,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
