@@ -321,7 +321,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794325500,
+  "last_bar_end": 1794325800,
   "position": {
    "symbol": "META",
    "qty": 10,
@@ -1197,8 +1197,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.8599853515625,
-  "last_ts": 1794325500
+  "last": 747.2999877929688,
+  "last_ts": 1794325800
  },
  "seen_trades": 0,
  "daily": [
