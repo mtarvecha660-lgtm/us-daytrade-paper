@@ -1,66 +1,52 @@
 {
- "updated": 1794329274,
- "updated_et": "2026-11-10 11:47 ET",
+ "updated": 1794329587,
+ "updated_et": "2026-11-10 11:53 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2997.84,
-  "equity": 9422.86,
-  "return": -0.05771399999999993,
+  "cash": 9389.56,
+  "equity": 9389.56,
+  "return": -0.0610440000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9837.34,
-  "return": -0.016266000000000003,
+  "value": 9825.16,
+  "return": -0.017484000000000055,
   "start_price": 759.47998046875,
-  "last": 747.4249877929688
+  "last": 746.5
  },
- "position": {
-  "symbol": "META",
-  "qty": 10,
-  "entry": 643.4987,
-  "entry_et": "10:00",
-  "stop": 639.3,
-  "target": 647.96,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "UNH",
+  "qty": 17,
+  "plan": {
+   "symbol": "UNH",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-10",
+   "entry_time": "11:50 AM",
+   "entry": 401.86,
+   "stop": 399.69,
+   "target": 404.03,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
-   "exit": "plan: entry $643.63, stop $639.30 (opening-range midpoint), target $647.96 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
-   "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
+   "scanner": "UNH: the 11:45 bar closed at $401.86, above the 15-min opening range high $401.63 (range 397.75-401.63)",
+   "exit": "plan: entry $401.86, stop $399.69 (opening-range midpoint), target $404.03 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
+   "risk": "trader-risk PASS: entry 401.86 (the plan's entry), stop 399.69, target 404.03: risk 2.17 a share; max loss $36.89 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $140.50 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1794329400,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "MDB",
-    "at": "09:55",
-    "price": 334.9,
-    "or_high": 333.2,
-    "or_low": 318.68,
-    "pct_over": 0.51
-   },
-   {
-    "symbol": "MPC",
-    "at": "09:55",
-    "price": 385.91,
-    "or_high": 383.76,
-    "or_low": 376.65,
-    "pct_over": 0.56
-   },
-   {
-    "symbol": "MRVL",
-    "at": "09:55",
-    "price": 155.82,
-    "or_high": 153.66,
-    "or_low": 147.79,
-    "pct_over": 1.41
-   },
    {
     "symbol": "MU",
     "at": "09:55",
@@ -516,27 +502,51 @@
     "or_high": 142.19,
     "or_low": 140.82,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "GD",
+    "at": "11:50",
+    "price": 366.55,
+    "or_high": 365.95,
+    "or_low": 360.89,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "NOC",
+    "at": "11:50",
+    "price": 547.01,
+    "or_high": 546.5,
+    "or_low": 534.16,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "UNH",
+    "at": "11:50",
+    "price": 401.86,
+    "or_high": 401.63,
+    "or_low": 397.75,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 93,
-  "entries": 2,
+  "n_hits": 96,
+  "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 10 META bought at $643.50. It sells at the stop $639.30, the target $647.96, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 17 UNH at the next bar's open (signal at 11:50 ET). Then: stop $399.69, target $404.03.",
  "stats": {
-  "trades": 13,
+  "trades": 14,
   "wins": 3,
-  "win_rate": 0.23076923076923078,
-  "avg_r": -0.5363846153846155,
-  "t_stat_r": -2.503150959054871,
-  "net_pnl": -567.17,
-  "profit_factor": 0.2404007124968192,
-  "expectancy_usd": -43.63,
+  "win_rate": 0.21428571428571427,
+  "avg_r": -0.5694285714285715,
+  "t_stat_r": -2.831268969147227,
+  "net_pnl": -610.44,
+  "profit_factor": 0.22723244803402792,
+  "expectancy_usd": -43.6,
   "avg_win": 59.83,
-  "avg_loss": -74.67,
-  "costs_usd": 24.22,
+  "avg_loss": -71.81,
+  "costs_usd": 26.79,
   "exits": {
-   "stop": 8,
+   "stop": 9,
    "target": 2,
    "flat-by": 3
   }
@@ -557,6 +567,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-10",
+   "symbol": "META",
+   "qty": 10,
+   "entry_et": "10:00",
+   "entry_fill": 643.4987,
+   "exit_et": "11:50",
+   "exit_fill": 639.1721,
+   "exit_reason": "stop $639.30 hit",
+   "stop": 639.3,
+   "target": 647.96,
+   "pnl": -43.27,
+   "r": -0.999,
+   "risk_usd": 43.3,
+   "cost_usd": 2.57,
+   "why": {
+    "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
+    "exit": "plan: entry $643.63, stop $639.30 (opening-range midpoint), target $647.96 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
+    "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-10",
    "symbol": "AVGO",
@@ -871,6 +905,31 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794329400,
+   "et": "2026-11-10 11:50",
+   "kind": "order",
+   "text": "BUY 17 UNH at market (decided on the 11:50 close). opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
+   "symbol": "UNH",
+   "why": {
+    "scanner": "UNH: the 11:45 bar closed at $401.86, above the 15-min opening range high $401.63 (range 397.75-401.63)",
+    "exit": "plan: entry $401.86, stop $399.69 (opening-range midpoint), target $404.03 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
+    "risk": "trader-risk PASS: entry 401.86 (the plan's entry), stop 399.69, target 404.03: risk 2.17 a share; max loss $36.89 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $140.50 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "GD",
+    "NOC"
+   ]
+  },
+  {
+   "ts": 1794329400,
+   "et": "2026-11-10 11:50",
+   "kind": "exit",
+   "text": "SELL 10 META at $639.17: stop $639.30 hit. P&L $-43.27 (-1.00R)",
+   "symbol": "META"
+  },
   {
    "ts": 1794328800,
    "et": "2026-11-10 11:40",
@@ -1796,24 +1855,6 @@
    "text": "1 more breakout (META) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "META"
-   ]
-  },
-  {
-   "ts": 1793979900,
-   "et": "2026-11-06 10:45",
-   "kind": "busy",
-   "text": "1 more breakout (AMZN) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "AMZN"
-   ]
-  },
-  {
-   "ts": 1793979300,
-   "et": "2026-11-06 10:35",
-   "kind": "busy",
-   "text": "1 more breakout (SO) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "SO"
    ]
   }
  ],
@@ -3917,6 +3958,11 @@
    "ts": 1794329274,
    "equity": 9422.86,
    "spy": 9837.34
+  },
+  {
+   "ts": 1794329587,
+   "equity": 9389.56,
+   "spy": 9825.16
   }
  ],
  "daily": [
@@ -3958,6 +4004,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794329587,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.0,
+   "errors": [],
+   "run_id": "42859098518",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794329274,
    "phase": "open",
@@ -4347,29 +4403,19 @@
    "errors": [],
    "run_id": "42664931590",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794244996,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 18.0,
-   "errors": [],
-   "run_id": "42664070590",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794329274,
+  "tick_at": 1794329587,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794329284,
-  "candidates": 21,
-  "charts_fetched": 23,
+  "yahoo_time": 1794329596,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
