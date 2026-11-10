@@ -1,6 +1,6 @@
 {
- "updated": 1794321983,
- "updated_et": "2026-11-10 09:46 ET",
+ "updated": 1794322298,
+ "updated_et": "2026-11-10 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,207 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9861.88,
-  "return": -0.013812000000000046,
+  "value": 9851.49,
+  "return": -0.014851000000000059,
   "start_price": 759.47998046875,
-  "last": 749.2899780273438
+  "last": 748.5
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "AVGO",
+  "qty": 20,
+  "plan": {
+   "symbol": "AVGO",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-10",
+   "entry_time": "9:50 AM",
+   "entry": 325.62,
+   "stop": 320.76,
+   "target": 330.48,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
+   "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
+   "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1794322200,
+  "late": false
+ },
  "today": {
   "date": "2026-11-10",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "AVGO",
+    "at": "09:50",
+    "price": 325.62,
+    "or_high": 324.83,
+    "or_low": 316.69,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "BB",
+    "at": "09:50",
+    "price": 9.18,
+    "or_high": 9.1,
+    "or_low": 8.86,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "COP",
+    "at": "09:50",
+    "price": 134.39,
+    "or_high": 133.41,
+    "or_low": 131.12,
+    "pct_over": 0.73
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:50",
+    "price": 225.97,
+    "or_high": 225.77,
+    "or_low": 218.41,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:50",
+    "price": 208.71,
+    "or_high": 208.61,
+    "or_low": 206.01,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:50",
+    "price": 42.87,
+    "or_high": 42.38,
+    "or_low": 41.49,
+    "pct_over": 1.16
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:50",
+    "price": 122.17,
+    "or_high": 121.69,
+    "or_low": 120.8,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:50",
+    "price": 149.14,
+    "or_high": 148.27,
+    "or_low": 145.66,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 261.31,
+    "or_high": 261.25,
+    "or_low": 258.23,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 177.31,
+    "or_high": 175.68,
+    "or_low": 172.19,
+    "pct_over": 0.93
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:50",
+    "price": 31.4,
+    "or_high": 31.24,
+    "or_low": 30.8,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "NXPI",
+    "at": "09:50",
+    "price": 257.74,
+    "or_high": 256.6,
+    "or_low": 250.59,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:50",
+    "price": 327.5,
+    "or_high": 326.59,
+    "or_low": 315.44,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "PSX",
+    "at": "09:50",
+    "price": 248.02,
+    "or_high": 247.99,
+    "or_low": 243.6,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:50",
+    "price": 49.53,
+    "or_high": 49.36,
+    "or_low": 48.5,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "TSM",
+    "at": "09:50",
+    "price": 393.48,
+    "or_high": 392.99,
+    "or_low": 387.2,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "WFC",
+    "at": "09:50",
+    "price": 86.38,
+    "or_high": 86.15,
+    "or_low": 85.56,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:50",
+    "price": 163.12,
+    "or_high": 162.43,
+    "or_low": 160.11,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:50",
+    "price": 91.58,
+    "or_high": 91.49,
+    "or_low": 89.29,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:50",
+    "price": 198.22,
+    "or_high": 197.45,
+    "or_low": 188.91,
+    "pct_over": 0.39
+   }
+  ],
+  "n_hits": 20,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 20 AVGO at the next bar's open (signal at 09:50 ET). Then: stop $320.76, target $330.48.",
  "stats": {
   "trades": 12,
   "wins": 2,
@@ -351,6 +537,41 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794322200,
+   "et": "2026-11-10 09:50",
+   "kind": "order",
+   "text": "BUY 20 AVGO at market (decided on the 09:50 close). opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
+   "symbol": "AVGO",
+   "why": {
+    "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
+    "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
+    "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "TSM",
+    "XOM",
+    "CRWD",
+    "PANW",
+    "CVX",
+    "COP",
+    "WFC",
+    "NXPI",
+    "PSX",
+    "SLB",
+    "EBAY",
+    "EXPE",
+    "HAL",
+    "DVN",
+    "ZS",
+    "EOG",
+    "FANG",
+    "BB",
+    "ZM"
+   ]
+  },
   {
    "ts": 1794257700,
    "et": "2026-11-09 15:55",
@@ -1347,15 +1568,6 @@
    "kind": "exit",
    "text": "SELL 41 XOM at $171.57: stop $171.60 hit. P&L $-52.02 (-1.09R)",
    "symbol": "XOM"
-  },
-  {
-   "ts": 1793895000,
-   "et": "2026-11-05 11:10",
-   "kind": "busy",
-   "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)",
-   "symbols": [
-    "CVX"
-   ]
   }
  ],
  "equity": [
@@ -3343,6 +3555,11 @@
    "ts": 1794321983,
    "equity": 9336.33,
    "spy": 9861.88
+  },
+  {
+   "ts": 1794322298,
+   "equity": 9336.33,
+   "spy": 9851.49
   }
  ],
  "daily": [
@@ -3384,6 +3601,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794322298,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.6,
+   "errors": [],
+   "run_id": "42838345886",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794321983,
    "phase": "open",
@@ -3773,29 +4000,19 @@
    "errors": [],
    "run_id": "42644900393",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794237763,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.1,
-   "errors": [],
-   "run_id": "42644017715",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794321983,
+  "tick_at": 1794322298,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794321989,
-  "candidates": 3,
-  "charts_fetched": 4,
+  "yahoo_time": 1794322310,
+  "candidates": 49,
+  "charts_fetched": 50,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

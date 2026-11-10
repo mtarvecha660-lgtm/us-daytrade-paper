@@ -297,21 +297,240 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794321900,
+  "last_bar_end": 1794322200,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "AVGO",
+   "qty": 20,
+   "plan": {
+    "symbol": "AVGO",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-10",
+    "entry_time": "9:50 AM",
+    "entry": 325.62,
+    "stop": 320.76,
+    "target": 330.48,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
+    "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
+    "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794322200,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-10",
+    "symbol": "AVGO",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 97.2,
+    "at": "2026-11-10T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 20,
+  "missed": [],
+  "triggered": [
+   "AVGO",
+   "BB",
+   "COP",
+   "CRWD",
+   "CVX",
+   "DVN",
+   "EBAY",
+   "EOG",
+   "EXPE",
+   "FANG",
+   "HAL",
+   "NXPI",
+   "PANW",
+   "PSX",
+   "SLB",
+   "TSM",
+   "WFC",
+   "XOM",
+   "ZM",
+   "ZS"
+  ],
+  "hits": [
+   {
+    "symbol": "AVGO",
+    "at": "09:50",
+    "price": 325.62,
+    "or_high": 324.83,
+    "or_low": 316.69,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "BB",
+    "at": "09:50",
+    "price": 9.18,
+    "or_high": 9.1,
+    "or_low": 8.86,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "COP",
+    "at": "09:50",
+    "price": 134.39,
+    "or_high": 133.41,
+    "or_low": 131.12,
+    "pct_over": 0.73
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:50",
+    "price": 225.97,
+    "or_high": 225.77,
+    "or_low": 218.41,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:50",
+    "price": 208.71,
+    "or_high": 208.61,
+    "or_low": 206.01,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:50",
+    "price": 42.87,
+    "or_high": 42.38,
+    "or_low": 41.49,
+    "pct_over": 1.16
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:50",
+    "price": 122.17,
+    "or_high": 121.69,
+    "or_low": 120.8,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:50",
+    "price": 149.14,
+    "or_high": 148.27,
+    "or_low": 145.66,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 261.31,
+    "or_high": 261.25,
+    "or_low": 258.23,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 177.31,
+    "or_high": 175.68,
+    "or_low": 172.19,
+    "pct_over": 0.93
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:50",
+    "price": 31.4,
+    "or_high": 31.24,
+    "or_low": 30.8,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "NXPI",
+    "at": "09:50",
+    "price": 257.74,
+    "or_high": 256.6,
+    "or_low": 250.59,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:50",
+    "price": 327.5,
+    "or_high": 326.59,
+    "or_low": 315.44,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "PSX",
+    "at": "09:50",
+    "price": 248.02,
+    "or_high": 247.99,
+    "or_low": 243.6,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:50",
+    "price": 49.53,
+    "or_high": 49.36,
+    "or_low": 48.5,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "TSM",
+    "at": "09:50",
+    "price": 393.48,
+    "or_high": 392.99,
+    "or_low": 387.2,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "WFC",
+    "at": "09:50",
+    "price": 86.38,
+    "or_high": 86.15,
+    "or_low": 85.56,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:50",
+    "price": 163.12,
+    "or_high": 162.43,
+    "or_low": 160.11,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:50",
+    "price": 91.58,
+    "or_high": 91.49,
+    "or_low": 89.29,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:50",
+    "price": 198.22,
+    "or_high": 197.45,
+    "or_low": 188.91,
+    "pct_over": 0.39
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.2899780273438,
-  "last_ts": 1794321900
+  "last": 748.5,
+  "last_ts": 1794322200
  },
  "seen_trades": 0,
  "daily": [
