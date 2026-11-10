@@ -1,21 +1,21 @@
 {
- "updated": 1794329902,
- "updated_et": "2026-11-10 11:58 ET",
+ "updated": 1794330217,
+ "updated_et": "2026-11-10 12:03 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9378.92,
-  "return": -0.06210799999999994,
+  "equity": 9383.6,
+  "return": -0.06163999999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9826.81,
-  "return": -0.017319000000000084,
+  "value": 9821.08,
+  "return": -0.01789200000000002,
   "start_price": 759.47998046875,
-  "last": 746.625
+  "last": 746.1900024414062
  },
  "position": {
   "symbol": "UNH",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "MU",
-    "at": "09:55",
-    "price": 728.84,
-    "or_high": 721.5,
-    "or_low": 702.36,
-    "pct_over": 1.02
-   },
-   {
-    "symbol": "NET",
-    "at": "09:55",
-    "price": 302.52,
-    "or_high": 301.68,
-    "or_low": 288.93,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "OKTA",
-    "at": "09:55",
-    "price": 180.88,
-    "or_high": 177.14,
-    "or_low": 170.0,
-    "pct_over": 2.11
-   },
    {
     "symbol": "ON",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 401.63,
     "or_low": 397.75,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "CI",
+    "at": "12:00",
+    "price": 299.86,
+    "or_high": 299.36,
+    "or_low": 295.65,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "KO",
+    "at": "12:00",
+    "price": 96.74,
+    "or_high": 96.73,
+    "or_low": 96.04,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "MA",
+    "at": "12:00",
+    "price": 659.79,
+    "or_high": 659.58,
+    "or_low": 655.49,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 96,
+  "n_hits": 99,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794330000,
+   "et": "2026-11-10 12:00",
+   "kind": "busy",
+   "text": "3 more breakouts (CI, KO, MA) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "CI",
+    "KO",
+    "MA"
+   ]
+  },
   {
    "ts": 1794329400,
    "et": "2026-11-10 11:50",
@@ -1833,16 +1844,6 @@
    "text": "1 more breakout (DOCU) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "DOCU"
-   ]
-  },
-  {
-   "ts": 1793980500,
-   "et": "2026-11-06 10:55",
-   "kind": "busy",
-   "text": "2 more breakouts (ADBE, NFLX) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "NFLX"
    ]
   }
  ],
@@ -3956,6 +3957,11 @@
    "ts": 1794329902,
    "equity": 9378.92,
    "spy": 9826.81
+  },
+  {
+   "ts": 1794330217,
+   "equity": 9383.6,
+   "spy": 9821.08
   }
  ],
  "daily": [
@@ -3997,6 +4003,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794330217,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.8,
+   "errors": [],
+   "run_id": "42860934116",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794329902,
    "phase": "open",
@@ -4386,29 +4402,19 @@
    "errors": [],
    "run_id": "42666644457",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794245625,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.3,
-   "errors": [],
-   "run_id": "42665783417",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794329902,
+  "tick_at": 1794330217,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794329909,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794330230,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
