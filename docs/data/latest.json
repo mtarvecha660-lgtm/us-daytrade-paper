@@ -1,49 +1,39 @@
 {
- "updated": 1794329587,
- "updated_et": "2026-11-10 11:53 ET",
+ "updated": 1794329902,
+ "updated_et": "2026-11-10 11:58 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9389.56,
-  "equity": 9389.56,
-  "return": -0.0610440000000001,
+  "cash": 2559.12,
+  "equity": 9378.92,
+  "return": -0.06210799999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9825.16,
-  "return": -0.017484000000000055,
+  "value": 9826.81,
+  "return": -0.017319000000000084,
   "start_price": 759.47998046875,
-  "last": 746.5
+  "last": 746.625
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "UNH",
   "qty": 17,
-  "plan": {
-   "symbol": "UNH",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-10",
-   "entry_time": "11:50 AM",
-   "entry": 401.86,
-   "stop": 399.69,
-   "target": 404.03,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 401.7903,
+  "entry_et": "11:50",
+  "stop": 399.69,
+  "target": 404.03,
+  "last": null,
   "why": {
    "scanner": "UNH: the 11:45 bar closed at $401.86, above the 15-min opening range high $401.63 (range 397.75-401.63)",
    "exit": "plan: entry $401.86, stop $399.69 (opening-range midpoint), target $404.03 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
    "risk": "trader-risk PASS: entry 401.86 (the plan's entry), stop 399.69, target 404.03: risk 2.17 a share; max loss $36.89 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $140.50 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794329400,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-10",
   "hits": [
@@ -532,7 +522,7 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 17 UNH at the next bar's open (signal at 11:50 ET). Then: stop $399.69, target $404.03.",
+ "next_move": "Holding 17 UNH bought at $401.79. It sells at the stop $399.69, the target $404.03, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 14,
   "wins": 3,
@@ -905,6 +895,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794329400,
+   "et": "2026-11-10 11:50",
+   "kind": "fill",
+   "text": "BUY 17 UNH filled at $401.79 (next bar's open $401.71 + slippage). Stop $399.69, target $404.03",
+   "symbol": "UNH"
+  },
   {
    "ts": 1794329400,
    "et": "2026-11-10 11:50",
@@ -1846,15 +1843,6 @@
    "symbols": [
     "ADBE",
     "NFLX"
-   ]
-  },
-  {
-   "ts": 1793980200,
-   "et": "2026-11-06 10:50",
-   "kind": "busy",
-   "text": "1 more breakout (META) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "META"
    ]
   }
  ],
@@ -3963,6 +3951,11 @@
    "ts": 1794329587,
    "equity": 9389.56,
    "spy": 9825.16
+  },
+  {
+   "ts": 1794329902,
+   "equity": 9378.92,
+   "spy": 9826.81
   }
  ],
  "daily": [
@@ -4004,6 +3997,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794329902,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.8,
+   "errors": [],
+   "run_id": "42860010673",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794329587,
    "phase": "open",
@@ -4393,25 +4396,15 @@
    "errors": [],
    "run_id": "42665783417",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794245309,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.0,
-   "errors": [],
-   "run_id": "42664931590",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794329587,
+  "tick_at": 1794329902,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794329596,
-  "candidates": 26,
-  "charts_fetched": 28,
+  "yahoo_time": 1794329909,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
