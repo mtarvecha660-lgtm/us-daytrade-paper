@@ -1,21 +1,21 @@
 {
- "updated": 1794323250,
- "updated_et": "2026-11-10 10:07 ET",
+ "updated": 1794323564,
+ "updated_et": "2026-11-10 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9451.0,
-  "return": -0.05489999999999995,
+  "equity": 9451.55,
+  "return": -0.05484500000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9893.8,
-  "return": -0.010620000000000074,
+  "value": 9894.79,
+  "return": -0.010520999999999892,
   "start_price": 759.47998046875,
-  "last": 751.7150268554688
+  "last": 751.7899780273438
  },
  "position": {
   "symbol": "META",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "SLB",
-    "at": "09:50",
-    "price": 49.53,
-    "or_high": 49.36,
-    "or_low": 48.5,
-    "pct_over": 0.34
-   },
    {
     "symbol": "TSM",
     "at": "09:50",
@@ -516,9 +508,17 @@
     "or_high": 5.03,
     "or_low": 4.94,
     "pct_over": 0.3
+   },
+   {
+    "symbol": "CPNG",
+    "at": "10:10",
+    "price": 16.52,
+    "or_high": 16.49,
+    "or_low": 16.21,
+    "pct_over": 0.21
    }
   ],
-  "n_hits": 74,
+  "n_hits": 75,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794323400,
+   "et": "2026-11-10 10:10",
+   "kind": "busy",
+   "text": "1 more breakout (CPNG) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "CPNG"
+   ]
+  },
   {
    "ts": 1794323100,
    "et": "2026-11-10 10:05",
@@ -1866,94 +1875,6 @@
    "kind": "fill",
    "text": "BUY 6 MU filled at $718.65 (next bar's open $718.51 + slippage). Stop $703.18, target $733.42",
    "symbol": "MU"
-  },
-  {
-   "ts": 1793976600,
-   "et": "2026-11-06 09:50",
-   "kind": "order",
-   "text": "BUY 6 MU at market (decided on the 09:50 close). opening-range breakout on MU: 6 shares, bound by your $100 max loss per trade (6 x 15.12 = $90.72 at the stop) (limits: max loss 6; position cap 9; max order 11; cash 11)",
-   "symbol": "MU",
-   "why": {
-    "scanner": "MU: the 09:45 bar closed at $718.30, above the 15-min opening range high $717.70 (range 688.67-717.70)",
-    "exit": "plan: entry $718.30, stop $703.18 (opening-range midpoint), target $733.42 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on MU: 6 shares, bound by your $100 max loss per trade (6 x 15.12 = $90.72 at the stop) (limits: max loss 6; position cap 9; max order 11; cash 11)",
-    "risk": "trader-risk PASS: entry 718.30 (the plan's entry), stop 703.18, target 733.42: risk 15.12 a share; max loss $90.72 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "AMD",
-    "PLTR",
-    "LLY",
-    "JPM",
-    "PFE",
-    "V",
-    "SMCI",
-    "GS",
-    "KLAC",
-    "WFC",
-    "HOOD",
-    "BAC",
-    "XOM",
-    "IONQ",
-    "CVX",
-    "PG",
-    "COIN",
-    "JNJ",
-    "AFRM",
-    "C",
-    "NKE",
-    "DDOG",
-    "CVS",
-    "SOFI",
-    "AMGN",
-    "UPS",
-    "GE",
-    "NXPI",
-    "BA",
-    "MS",
-    "IBM",
-    "CVNA",
-    "PYPL",
-    "MAR",
-    "FSLR",
-    "NOC",
-    "RDDT",
-    "DVN",
-    "TJX",
-    "MDT",
-    "COP",
-    "RTX",
-    "NU",
-    "EOG",
-    "MDB",
-    "SLB",
-    "RCL",
-    "SCHW",
-    "COF",
-    "CCL",
-    "UAL",
-    "OXY",
-    "DE",
-    "EBAY",
-    "HON",
-    "DAL",
-    "BIDU",
-    "ROST",
-    "RGTI",
-    "RKT",
-    "FANG",
-    "IDXX",
-    "ELV",
-    "RUN",
-    "HAL",
-    "ZM",
-    "BBY",
-    "UPST",
-    "SEDG",
-    "ETSY",
-    "W",
-    "HMC"
-   ]
   }
  ],
  "equity": [
@@ -3961,6 +3882,11 @@
    "ts": 1794323250,
    "equity": 9451.0,
    "spy": 9893.8
+  },
+  {
+   "ts": 1794323564,
+   "equity": 9451.55,
+   "spy": 9894.79
   }
  ],
  "daily": [
@@ -4002,6 +3928,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794323564,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.5,
+   "errors": [],
+   "run_id": "42841942496",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794323250,
    "phase": "open",
@@ -4391,25 +4327,15 @@
    "errors": [],
    "run_id": "42648400432",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794239023,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.0,
-   "errors": [],
-   "run_id": "42647527260",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794323250,
+  "tick_at": 1794323564,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794323261,
-  "candidates": 39,
-  "charts_fetched": 41,
+  "yahoo_time": 1794323575,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
