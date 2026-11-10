@@ -1,21 +1,21 @@
 {
- "updated": 1794332771,
- "updated_et": "2026-11-10 12:46 ET",
+ "updated": 1794333085,
+ "updated_et": "2026-11-10 12:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9396.18,
-  "return": -0.060381999999999936,
+  "equity": 9400.42,
+  "return": -0.059957999999999956,
   "started": 1793559735
  },
  "spy": {
-  "value": 9814.9,
-  "return": -0.018510000000000026,
+  "value": 9816.74,
+  "return": -0.018326000000000064,
   "start_price": 759.47998046875,
-  "last": 745.719970703125
+  "last": 745.8599243164062
  },
  "position": {
   "symbol": "UNH",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "CAT",
-    "at": "10:00",
-    "price": 584.18,
-    "or_high": 582.86,
-    "or_low": 566.12,
-    "pct_over": 0.23
-   },
    {
     "symbol": "COIN",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 110.8,
     "or_low": 109.7,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "TGT",
+    "at": "12:50",
+    "price": 161.65,
+    "or_high": 161.39,
+    "or_low": 157.92,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 114,
+  "n_hits": 115,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794333000,
+   "et": "2026-11-10 12:50",
+   "kind": "busy",
+   "text": "1 more breakout (TGT) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "TGT"
+   ]
+  },
   {
    "ts": 1794332700,
    "et": "2026-11-10 12:45",
@@ -1840,16 +1849,6 @@
    "text": "1 more breakout (INTC) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "INTC"
-   ]
-  },
-  {
-   "ts": 1793990100,
-   "et": "2026-11-06 13:35",
-   "kind": "busy",
-   "text": "2 more breakouts (MARA, UNH) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "MARA",
-    "UNH"
    ]
   }
  ],
@@ -4008,6 +4007,11 @@
    "ts": 1794332771,
    "equity": 9396.18,
    "spy": 9814.9
+  },
+  {
+   "ts": 1794333085,
+   "equity": 9400.42,
+   "spy": 9816.74
   }
  ],
  "daily": [
@@ -4049,6 +4053,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794333085,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.1,
+   "errors": [],
+   "run_id": "42869165873",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794332771,
    "phase": "open",
@@ -4438,25 +4452,15 @@
    "errors": [],
    "run_id": "42833866262",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794304310,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42794223996",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794332771,
+  "tick_at": 1794333085,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794332786,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794333096,
+  "candidates": 23,
+  "charts_fetched": 25,
   "ok": true,
   "errors": [],
   "stale_data": false,
