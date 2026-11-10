@@ -1,21 +1,21 @@
 {
- "updated": 1794331797,
- "updated_et": "2026-11-10 12:29 ET",
+ "updated": 1794332115,
+ "updated_et": "2026-11-10 12:35 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9378.16,
-  "return": -0.06218400000000002,
+  "equity": 9372.64,
+  "return": -0.06273600000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9825.16,
-  "return": -0.017484000000000055,
+  "value": 9829.99,
+  "return": -0.017001000000000044,
   "start_price": 759.47998046875,
-  "last": 746.5
+  "last": 746.8668212890625
  },
  "position": {
   "symbol": "UNH",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "SMCI",
-    "at": "09:55",
-    "price": 28.26,
-    "or_high": 28.14,
-    "or_low": 27.38,
-    "pct_over": 0.44
-   },
-   {
-    "symbol": "SNOW",
-    "at": "09:55",
-    "price": 297.71,
-    "or_high": 296.9,
-    "or_low": 286.19,
-    "pct_over": 0.27
-   },
-   {
-    "symbol": "STX",
-    "at": "09:55",
-    "price": 501.13,
-    "or_high": 497.31,
-    "or_low": 482.26,
-    "pct_over": 0.77
-   },
    {
     "symbol": "SWKS",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 283.11,
     "or_low": 280.23,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "RTX",
+    "at": "12:30",
+    "price": 200.48,
+    "or_high": 200.2,
+    "or_low": 195.87,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SBUX",
+    "at": "12:30",
+    "price": 109.28,
+    "or_high": 109.21,
+    "or_low": 108.25,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "YUM",
+    "at": "12:30",
+    "price": 161.6,
+    "or_high": 161.6,
+    "or_low": 159.02,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 105,
+  "n_hits": 108,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794331800,
+   "et": "2026-11-10 12:30",
+   "kind": "busy",
+   "text": "3 more breakouts (RTX, SBUX, YUM) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "RTX",
+    "SBUX",
+    "YUM"
+   ]
+  },
   {
    "ts": 1794331500,
    "et": "2026-11-10 12:25",
@@ -1835,16 +1846,6 @@
    "text": "1 more breakout (RIOT) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "RIOT"
-   ]
-  },
-  {
-   "ts": 1793984100,
-   "et": "2026-11-06 11:55",
-   "kind": "busy",
-   "text": "2 more breakouts (DHR, U) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "DHR",
-    "U"
    ]
   }
  ],
@@ -3988,6 +3989,11 @@
    "ts": 1794331797,
    "equity": 9378.16,
    "spy": 9825.16
+  },
+  {
+   "ts": 1794332115,
+   "equity": 9372.64,
+   "spy": 9829.99
   }
  ],
  "daily": [
@@ -4029,6 +4035,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794332115,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.6,
+   "errors": [],
+   "run_id": "42866436286",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794331797,
    "phase": "open",
@@ -4418,29 +4434,19 @@
    "errors": [],
    "run_id": "42715520028",
    "event": "schedule"
-  },
-  {
-   "ts": 1794247517,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.5,
-   "errors": [],
-   "run_id": "42670790404",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794331797,
+  "tick_at": 1794332115,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794331805,
+  "yahoo_time": 1794332129,
   "candidates": 28,
   "charts_fetched": 30,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
