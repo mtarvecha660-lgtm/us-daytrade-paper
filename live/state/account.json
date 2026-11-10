@@ -1,5 +1,5 @@
 {
- "cash": 9432.8252,
+ "cash": 2997.8382,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -321,11 +321,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794322800,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794323100,
+  "position": {
    "symbol": "META",
    "qty": 10,
+   "entry_fill": 643.4987,
+   "entry_ts": 1794322800,
    "plan": {
     "symbol": "META",
     "side": "buy",
@@ -337,7 +338,8 @@
     "target": 647.96,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 643.3699951171875
    },
    "why": {
     "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
@@ -346,9 +348,9 @@
     "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794322800,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -383,11 +385,19 @@
     "kind": "entry",
     "max_loss": 43.3,
     "at": "2026-11-10T10:00:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-10",
+    "symbol": "META",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 10
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 65,
+  "triggers_seen": 74,
   "missed": [
    "AMAT",
    "AMD",
@@ -421,7 +431,16 @@
    "TER",
    "TWLO",
    "VLO",
-   "WDC"
+   "WDC",
+   "AFRM",
+   "AMZN",
+   "C",
+   "CVS",
+   "DLTR",
+   "F",
+   "GS",
+   "HUM",
+   "SNAP"
   ],
   "triggered": [
    "AVGO",
@@ -488,7 +507,16 @@
    "META",
    "MSTR",
    "SNPS",
-   "TXN"
+   "TXN",
+   "AFRM",
+   "AMZN",
+   "C",
+   "CVS",
+   "DLTR",
+   "F",
+   "GS",
+   "HUM",
+   "SNAP"
   ],
   "hits": [
    {
@@ -1010,6 +1038,78 @@
     "or_high": 293.43,
     "or_low": 287.24,
     "pct_over": 1.0
+   },
+   {
+    "symbol": "AFRM",
+    "at": "10:05",
+    "price": 67.7,
+    "or_high": 67.2,
+    "or_low": 64.55,
+    "pct_over": 0.74
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:05",
+    "price": 272.39,
+    "or_high": 271.96,
+    "or_low": 266.14,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "C",
+    "at": "10:05",
+    "price": 123.19,
+    "or_high": 123.13,
+    "or_low": 122.08,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:05",
+    "price": 86.6,
+    "or_high": 86.55,
+    "or_low": 85.05,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:05",
+    "price": 136.88,
+    "or_high": 136.71,
+    "or_low": 135.51,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "F",
+    "at": "10:05",
+    "price": 12.36,
+    "or_high": 12.36,
+    "or_low": 12.23,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GS",
+    "at": "10:05",
+    "price": 914.72,
+    "or_high": 914.49,
+    "or_low": 906.58,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 428.23,
+    "or_high": 427.17,
+    "or_low": 422.63,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:05",
+    "price": 5.05,
+    "or_high": 5.03,
+    "or_low": 4.94,
+    "pct_over": 0.3
    }
   ]
  },
@@ -1017,8 +1117,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.739990234375,
-  "last_ts": 1794322800
+  "last": 751.7150268554688,
+  "last_ts": 1794323100
  },
  "seen_trades": 0,
  "daily": [

@@ -1,124 +1,42 @@
 {
- "updated": 1794322933,
- "updated_et": "2026-11-10 10:02 ET",
+ "updated": 1794323250,
+ "updated_et": "2026-11-10 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9432.83,
-  "equity": 9432.83,
-  "return": -0.05671700000000002,
+  "cash": 2997.84,
+  "equity": 9451.0,
+  "return": -0.05489999999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9880.97,
-  "return": -0.011903000000000108,
+  "value": 9893.8,
+  "return": -0.010620000000000074,
   "start_price": 759.47998046875,
-  "last": 750.739990234375
+  "last": 751.7150268554688
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "META",
   "qty": 10,
-  "plan": {
-   "symbol": "META",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-10",
-   "entry_time": "10:00 AM",
-   "entry": 643.63,
-   "stop": 639.3,
-   "target": 647.96,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 643.4987,
+  "entry_et": "10:00",
+  "stop": 639.3,
+  "target": 647.96,
+  "last": null,
   "why": {
    "scanner": "META: the 09:55 bar closed at $643.63, above the 15-min opening range high $643.10 (range 635.50-643.10)",
    "exit": "plan: entry $643.63, stop $639.30 (opening-range midpoint), target $647.96 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on META: 10 shares, bound by your position cap (10 x 4.33 = $43.30 at the stop) (limits: max loss 23; position cap 10; max order 12; cash 13)",
    "risk": "trader-risk PASS: entry 643.63 (the latest price), stop 639.30, target 647.96: risk 4.33 a share; max loss $43.30 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $97.20 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794322800,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "DVN",
-    "at": "09:50",
-    "price": 42.87,
-    "or_high": 42.38,
-    "or_low": 41.49,
-    "pct_over": 1.16
-   },
-   {
-    "symbol": "EBAY",
-    "at": "09:50",
-    "price": 122.17,
-    "or_high": 121.69,
-    "or_low": 120.8,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "EOG",
-    "at": "09:50",
-    "price": 149.14,
-    "or_high": 148.27,
-    "or_low": 145.66,
-    "pct_over": 0.59
-   },
-   {
-    "symbol": "EXPE",
-    "at": "09:50",
-    "price": 261.31,
-    "or_high": 261.25,
-    "or_low": 258.23,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "FANG",
-    "at": "09:50",
-    "price": 177.31,
-    "or_high": 175.68,
-    "or_low": 172.19,
-    "pct_over": 0.93
-   },
-   {
-    "symbol": "HAL",
-    "at": "09:50",
-    "price": 31.4,
-    "or_high": 31.24,
-    "or_low": 30.8,
-    "pct_over": 0.51
-   },
-   {
-    "symbol": "NXPI",
-    "at": "09:50",
-    "price": 257.74,
-    "or_high": 256.6,
-    "or_low": 250.59,
-    "pct_over": 0.45
-   },
-   {
-    "symbol": "PANW",
-    "at": "09:50",
-    "price": 327.5,
-    "or_high": 326.59,
-    "or_low": 315.44,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "PSX",
-    "at": "09:50",
-    "price": 248.02,
-    "or_high": 247.99,
-    "or_low": 243.6,
-    "pct_over": 0.01
-   },
    {
     "symbol": "SLB",
     "at": "09:50",
@@ -526,13 +444,85 @@
     "or_high": 293.43,
     "or_low": 287.24,
     "pct_over": 1.0
+   },
+   {
+    "symbol": "AFRM",
+    "at": "10:05",
+    "price": 67.7,
+    "or_high": 67.2,
+    "or_low": 64.55,
+    "pct_over": 0.74
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:05",
+    "price": 272.39,
+    "or_high": 271.96,
+    "or_low": 266.14,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "C",
+    "at": "10:05",
+    "price": 123.19,
+    "or_high": 123.13,
+    "or_low": 122.08,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:05",
+    "price": 86.6,
+    "or_high": 86.55,
+    "or_low": 85.05,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:05",
+    "price": 136.88,
+    "or_high": 136.71,
+    "or_low": 135.51,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "F",
+    "at": "10:05",
+    "price": 12.36,
+    "or_high": 12.36,
+    "or_low": 12.23,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GS",
+    "at": "10:05",
+    "price": 914.72,
+    "or_high": 914.49,
+    "or_low": 906.58,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 428.23,
+    "or_high": 427.17,
+    "or_low": 422.63,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "SNAP",
+    "at": "10:05",
+    "price": 5.05,
+    "or_high": 5.03,
+    "or_low": 4.94,
+    "pct_over": 0.3
    }
   ],
-  "n_hits": 65,
+  "n_hits": 74,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 10 META at the next bar's open (signal at 10:00 ET). Then: stop $639.30, target $647.96.",
+ "next_move": "Holding 10 META bought at $643.50. It sells at the stop $639.30, the target $647.96, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 13,
   "wins": 3,
@@ -881,6 +871,30 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794323100,
+   "et": "2026-11-10 10:05",
+   "kind": "busy",
+   "text": "9 more breakouts (AFRM, AMZN, C, CVS, DLTR, F, GS, HUM ...) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "AFRM",
+    "AMZN",
+    "C",
+    "CVS",
+    "DLTR",
+    "F",
+    "GS",
+    "HUM",
+    "SNAP"
+   ]
+  },
+  {
+   "ts": 1794322800,
+   "et": "2026-11-10 10:00",
+   "kind": "fill",
+   "text": "BUY 10 META filled at $643.50 (next bar's open $643.37 + slippage). Stop $639.30, target $647.96",
+   "symbol": "META"
+  },
   {
    "ts": 1794322800,
    "et": "2026-11-10 10:00",
@@ -1939,22 +1953,6 @@
     "ETSY",
     "W",
     "HMC"
-   ]
-  },
-  {
-   "ts": 1793912100,
-   "et": "2026-11-05 15:55",
-   "kind": "exit",
-   "text": "SELL 51 U at $48.34: flat by 15:55 ET (the skill's flat-by rule). P&L $-14.79 (-0.15R)",
-   "symbol": "U"
-  },
-  {
-   "ts": 1793910300,
-   "et": "2026-11-05 15:25",
-   "kind": "busy",
-   "text": "1 more breakout (CHTR) not taken: already in U (one trade at a time)",
-   "symbols": [
-    "CHTR"
    ]
   }
  ],
@@ -3958,6 +3956,11 @@
    "ts": 1794322933,
    "equity": 9432.83,
    "spy": 9880.97
+  },
+  {
+   "ts": 1794323250,
+   "equity": 9451.0,
+   "spy": 9893.8
   }
  ],
  "daily": [
@@ -3999,6 +4002,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794323250,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.6,
+   "errors": [],
+   "run_id": "42841044801",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794322933,
    "phase": "open",
@@ -4388,25 +4401,15 @@
    "errors": [],
    "run_id": "42647527260",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794238708,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.3,
-   "errors": [],
-   "run_id": "42646671887",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794322933,
+  "tick_at": 1794323250,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794322943,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794323261,
+  "candidates": 39,
+  "charts_fetched": 41,
   "ok": true,
   "errors": [],
   "stale_data": false,
