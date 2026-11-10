@@ -231,3 +231,4 @@
 {"ts": 1794336000, "et": "2026-11-10 13:40", "kind": "busy", "text": "1 more breakout (BSX) not taken: already in UNH (one trade at a time)", "symbols": ["BSX"]}
 {"ts": 1794339300, "et": "2026-11-10 14:35", "kind": "busy", "text": "2 more breakouts (DUOL, PFE) not taken: already in UNH (one trade at a time)", "symbols": ["DUOL", "PFE"]}
 {"ts": 1794339900, "et": "2026-11-10 14:45", "kind": "busy", "text": "1 more breakout (RCL) not taken: already in UNH (one trade at a time)", "symbols": ["RCL"]}
+{"ts": 1794343200, "et": "2026-11-10 15:40", "kind": "exit", "text": "SELL 17 UNH at $404.03: target $404.03 hit (1R). P&L $+38.07 (+1.03R)", "symbol": "UNH"}
