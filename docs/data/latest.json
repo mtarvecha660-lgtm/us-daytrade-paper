@@ -1,21 +1,21 @@
 {
- "updated": 1794326431,
- "updated_et": "2026-11-10 11:00 ET",
+ "updated": 1794326744,
+ "updated_et": "2026-11-10 11:05 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2997.84,
-  "equity": 9426.85,
-  "return": -0.057315000000000005,
+  "equity": 9414.5,
+  "return": -0.05854999999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9830.82,
-  "return": -0.01691799999999999,
+  "value": 9829.64,
+  "return": -0.01703600000000005,
   "start_price": 759.47998046875,
-  "last": 746.9299926757812
+  "last": 746.8400268554688
  },
  "position": {
   "symbol": "META",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "ANET",
-    "at": "09:55",
-    "price": 189.19,
-    "or_high": 188.66,
-    "or_low": 182.45,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "ARM",
-    "at": "09:55",
-    "price": 183.5,
-    "or_high": 183.16,
-    "or_low": 179.44,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "ASML",
-    "at": "09:55",
-    "price": 1523.59,
-    "or_high": 1521.91,
-    "or_low": 1500.69,
-    "pct_over": 0.11
-   },
    {
     "symbol": "CSCO",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 16.74,
     "or_low": 16.38,
     "pct_over": 0.33
+   },
+   {
+    "symbol": "AEP",
+    "at": "11:00",
+    "price": 126.81,
+    "or_high": 126.77,
+    "or_low": 125.7,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "DUK",
+    "at": "11:00",
+    "price": 128.49,
+    "or_high": 128.45,
+    "or_low": 127.23,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "TTD",
+    "at": "11:00",
+    "price": 15.18,
+    "or_high": 15.16,
+    "or_low": 14.3,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 82,
+  "n_hits": 85,
   "entries": 2,
   "max_trades": 3
  },
@@ -871,6 +871,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794326400,
+   "et": "2026-11-10 11:00",
+   "kind": "busy",
+   "text": "3 more breakouts (AEP, DUK, TTD) not taken: already in META (one trade at a time)",
+   "symbols": [
+    "AEP",
+    "DUK",
+    "TTD"
+   ]
+  },
   {
    "ts": 1794324900,
    "et": "2026-11-10 10:35",
@@ -1822,23 +1833,6 @@
    "kind": "exit",
    "text": "SELL 6 MU at $703.04: stop $703.18 hit. P&L $-93.69 (-1.03R)",
    "symbol": "MU"
-  },
-  {
-   "ts": 1793977800,
-   "et": "2026-11-06 10:10",
-   "kind": "busy",
-   "text": "9 more breakouts (BABA, CHTR, CMG, DASH, DUK, LMT, SE, SONY ...) not taken: already in MU (one trade at a time)",
-   "symbols": [
-    "BABA",
-    "CHTR",
-    "CMG",
-    "DASH",
-    "DUK",
-    "LMT",
-    "SE",
-    "SONY",
-    "UBER"
-   ]
   }
  ],
  "equity": [
@@ -3896,6 +3890,11 @@
    "ts": 1794326431,
    "equity": 9426.85,
    "spy": 9830.82
+  },
+  {
+   "ts": 1794326744,
+   "equity": 9414.5,
+   "spy": 9829.64
   }
  ],
  "daily": [
@@ -3937,6 +3936,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794326744,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.7,
+   "errors": [],
+   "run_id": "42851072978",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794326431,
    "phase": "open",
@@ -4326,29 +4335,19 @@
    "errors": [],
    "run_id": "42657237422",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794242159,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.9,
-   "errors": [],
-   "run_id": "42656364779",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794326431,
+  "tick_at": 1794326744,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794326438,
-  "candidates": 17,
-  "charts_fetched": 19,
+  "yahoo_time": 1794326755,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
