@@ -1,21 +1,21 @@
 {
- "updated": 1794333400,
- "updated_et": "2026-11-10 12:56 ET",
+ "updated": 1794333715,
+ "updated_et": "2026-11-10 13:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9402.13,
-  "return": -0.059787000000000035,
+  "equity": 9408.41,
+  "return": -0.05915899999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9821.87,
-  "return": -0.017812999999999968,
+  "value": 9826.81,
+  "return": -0.017319000000000084,
   "start_price": 759.47998046875,
-  "last": 746.25
+  "last": 746.625
  },
  "position": {
   "symbol": "UNH",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "COIN",
-    "at": "10:00",
-    "price": 135.84,
-    "or_high": 134.8,
-    "or_low": 130.25,
-    "pct_over": 0.77
-   },
    {
     "symbol": "ENPH",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 161.39,
     "or_low": 157.92,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "SEDG",
+    "at": "13:00",
+    "price": 27.66,
+    "or_high": 27.19,
+    "or_low": 26.6,
+    "pct_over": 1.71
    }
   ],
-  "n_hits": 115,
+  "n_hits": 116,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794333600,
+   "et": "2026-11-10 13:00",
+   "kind": "busy",
+   "text": "1 more breakout (SEDG) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "SEDG"
+   ]
+  },
   {
    "ts": 1794333000,
    "et": "2026-11-10 12:50",
@@ -1840,15 +1849,6 @@
    "text": "1 more breakout (CDNS) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "CDNS"
-   ]
-  },
-  {
-   "ts": 1793991000,
-   "et": "2026-11-06 13:50",
-   "kind": "busy",
-   "text": "1 more breakout (INTC) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "INTC"
    ]
   }
  ],
@@ -4017,6 +4017,11 @@
    "ts": 1794333400,
    "equity": 9402.13,
    "spy": 9821.87
+  },
+  {
+   "ts": 1794333715,
+   "equity": 9408.41,
+   "spy": 9826.81
   }
  ],
  "daily": [
@@ -4058,6 +4063,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794333715,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.3,
+   "errors": [],
+   "run_id": "42870927902",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794333400,
    "phase": "open",
@@ -4447,25 +4462,15 @@
    "errors": [],
    "run_id": "42835656253",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794321033,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 6.6,
-   "errors": [],
-   "run_id": "42834741543",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794333400,
+  "tick_at": 1794333715,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794333409,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1794333724,
+  "candidates": 17,
+  "charts_fetched": 19,
   "ok": true,
   "errors": [],
   "stale_data": false,
