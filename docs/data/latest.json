@@ -1,49 +1,39 @@
 {
- "updated": 1794322298,
- "updated_et": "2026-11-10 09:51 ET",
+ "updated": 1794322615,
+ "updated_et": "2026-11-10 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9336.33,
-  "equity": 9336.33,
-  "return": -0.06636699999999995,
+  "cash": 2823.23,
+  "equity": 9403.61,
+  "return": -0.05963899999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 9851.49,
-  "return": -0.014851000000000059,
+  "value": 9848.72,
+  "return": -0.01512800000000003,
   "start_price": 759.47998046875,
-  "last": 748.5
+  "last": 748.2899780273438
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "AVGO",
   "qty": 20,
-  "plan": {
-   "symbol": "AVGO",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-10",
-   "entry_time": "9:50 AM",
-   "entry": 325.62,
-   "stop": 320.76,
-   "target": 330.48,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 325.6551,
+  "entry_et": "09:50",
+  "stop": 320.76,
+  "target": 330.48,
+  "last": null,
   "why": {
    "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
    "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
    "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794322200,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-10",
   "hits": [
@@ -206,13 +196,277 @@
     "or_high": 197.45,
     "or_low": 188.91,
     "pct_over": 0.39
+   },
+   {
+    "symbol": "AMAT",
+    "at": "09:55",
+    "price": 375.87,
+    "or_high": 373.62,
+    "or_low": 364.23,
+    "pct_over": 0.6
+   },
+   {
+    "symbol": "AMD",
+    "at": "09:55",
+    "price": 525.47,
+    "or_high": 519.49,
+    "or_low": 500.25,
+    "pct_over": 1.15
+   },
+   {
+    "symbol": "ANET",
+    "at": "09:55",
+    "price": 189.19,
+    "or_high": 188.66,
+    "or_low": 182.45,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "ARM",
+    "at": "09:55",
+    "price": 183.5,
+    "or_high": 183.16,
+    "or_low": 179.44,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "ASML",
+    "at": "09:55",
+    "price": 1523.59,
+    "or_high": 1521.91,
+    "or_low": 1500.69,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:55",
+    "price": 97.86,
+    "or_high": 97.77,
+    "or_low": 96.42,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "DDOG",
+    "at": "09:55",
+    "price": 181.57,
+    "or_high": 180.05,
+    "or_low": 173.18,
+    "pct_over": 0.84
+   },
+   {
+    "symbol": "DELL",
+    "at": "09:55",
+    "price": 341.24,
+    "or_high": 338.5,
+    "or_low": 328.16,
+    "pct_over": 0.81
+   },
+   {
+    "symbol": "DOCU",
+    "at": "09:55",
+    "price": 77.6,
+    "or_high": 77.5,
+    "or_low": 75.61,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "INTC",
+    "at": "09:55",
+    "price": 59.46,
+    "or_high": 58.86,
+    "or_low": 57.58,
+    "pct_over": 1.02
+   },
+   {
+    "symbol": "KLAC",
+    "at": "09:55",
+    "price": 151.87,
+    "or_high": 151.52,
+    "or_low": 148.06,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "LRCX",
+    "at": "09:55",
+    "price": 224.64,
+    "or_high": 222.74,
+    "or_low": 217.05,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "MCHP",
+    "at": "09:55",
+    "price": 62.02,
+    "or_high": 61.5,
+    "or_low": 59.75,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "MDB",
+    "at": "09:55",
+    "price": 334.9,
+    "or_high": 333.2,
+    "or_low": 318.68,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "MPC",
+    "at": "09:55",
+    "price": 385.91,
+    "or_high": 383.76,
+    "or_low": 376.65,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "MRVL",
+    "at": "09:55",
+    "price": 155.82,
+    "or_high": 153.66,
+    "or_low": 147.79,
+    "pct_over": 1.41
+   },
+   {
+    "symbol": "MU",
+    "at": "09:55",
+    "price": 728.84,
+    "or_high": 721.5,
+    "or_low": 702.36,
+    "pct_over": 1.02
+   },
+   {
+    "symbol": "NET",
+    "at": "09:55",
+    "price": 302.52,
+    "or_high": 301.68,
+    "or_low": 288.93,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "OKTA",
+    "at": "09:55",
+    "price": 180.88,
+    "or_high": 177.14,
+    "or_low": 170.0,
+    "pct_over": 2.11
+   },
+   {
+    "symbol": "ON",
+    "at": "09:55",
+    "price": 68.39,
+    "or_high": 68.24,
+    "or_low": 67.11,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:55",
+    "price": 55.47,
+    "or_high": 55.45,
+    "or_low": 53.86,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "QCOM",
+    "at": "09:55",
+    "price": 170.86,
+    "or_high": 170.53,
+    "or_low": 167.2,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "RDDT",
+    "at": "09:55",
+    "price": 101.3,
+    "or_high": 100.68,
+    "or_low": 98.23,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "RIVN",
+    "at": "09:55",
+    "price": 14.09,
+    "or_high": 13.99,
+    "or_low": 13.78,
+    "pct_over": 0.7
+   },
+   {
+    "symbol": "SE",
+    "at": "09:55",
+    "price": 83.92,
+    "or_high": 82.99,
+    "or_low": 77.73,
+    "pct_over": 1.12
+   },
+   {
+    "symbol": "SMCI",
+    "at": "09:55",
+    "price": 28.26,
+    "or_high": 28.14,
+    "or_low": 27.38,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "SNOW",
+    "at": "09:55",
+    "price": 297.71,
+    "or_high": 296.9,
+    "or_low": 286.19,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "STX",
+    "at": "09:55",
+    "price": 501.13,
+    "or_high": 497.31,
+    "or_low": 482.26,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 82.38,
+    "or_high": 82.35,
+    "or_low": 80.81,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TER",
+    "at": "09:55",
+    "price": 248.87,
+    "or_high": 244.98,
+    "or_low": 237.57,
+    "pct_over": 1.59
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:55",
+    "price": 214.65,
+    "or_high": 211.52,
+    "or_low": 203.26,
+    "pct_over": 1.48
+   },
+   {
+    "symbol": "VLO",
+    "at": "09:55",
+    "price": 349.52,
+    "or_high": 349.36,
+    "or_low": 341.51,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "WDC",
+    "at": "09:55",
+    "price": 290.74,
+    "or_high": 286.16,
+    "or_low": 277.5,
+    "pct_over": 1.6
    }
   ],
-  "n_hits": 20,
+  "n_hits": 53,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 20 AVGO at the next bar's open (signal at 09:50 ET). Then: stop $320.76, target $330.48.",
+ "next_move": "Holding 20 AVGO bought at $325.66. It sells at the stop $320.76, the target $330.48, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 12,
   "wins": 2,
@@ -537,6 +791,54 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794322500,
+   "et": "2026-11-10 09:55",
+   "kind": "busy",
+   "text": "33 more breakouts (AMAT, AMD, ANET, ARM, ASML, CSCO, DDOG, DELL ...) not taken: already in AVGO (one trade at a time)",
+   "symbols": [
+    "AMAT",
+    "AMD",
+    "ANET",
+    "ARM",
+    "ASML",
+    "CSCO",
+    "DDOG",
+    "DELL",
+    "DOCU",
+    "INTC",
+    "KLAC",
+    "LRCX",
+    "MCHP",
+    "MDB",
+    "MPC",
+    "MRVL",
+    "MU",
+    "NET",
+    "OKTA",
+    "ON",
+    "OXY",
+    "QCOM",
+    "RDDT",
+    "RIVN",
+    "SE",
+    "SMCI",
+    "SNOW",
+    "STX",
+    "SWKS",
+    "TER",
+    "TWLO",
+    "VLO",
+    "WDC"
+   ]
+  },
+  {
+   "ts": 1794322200,
+   "et": "2026-11-10 09:50",
+   "kind": "fill",
+   "text": "BUY 20 AVGO filled at $325.66 (next bar's open $325.59 + slippage). Stop $320.76, target $330.48",
+   "symbol": "AVGO"
+  },
   {
    "ts": 1794322200,
    "et": "2026-11-10 09:50",
@@ -1546,28 +1848,6 @@
    "kind": "fill",
    "text": "BUY 51 U filled at $48.63 (next bar's open $48.62 + slippage). Stop $46.69, target $50.59",
    "symbol": "U"
-  },
-  {
-   "ts": 1793902500,
-   "et": "2026-11-05 13:15",
-   "kind": "order",
-   "text": "BUY 51 U at market (decided on the 13:15 close). opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
-   "symbol": "U",
-   "why": {
-    "scanner": "U: the 13:10 bar closed at $48.64, above the 15-min opening range high $48.56 (range 44.82-48.56)",
-    "exit": "plan: entry $48.64, stop $46.69 (opening-range midpoint), target $50.59 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on U: 51 shares, bound by your $100 max loss per trade (51 x 1.95 = $99.45 at the stop) (limits: max loss 51; position cap 146; max order 164; cash 175)",
-    "risk": "trader-risk PASS: entry 48.64 (the plan's entry), stop 46.69, target 50.59: risk 1.95 a share; max loss $99.45 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $146.12 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
-  },
-  {
-   "ts": 1793895900,
-   "et": "2026-11-05 11:25",
-   "kind": "exit",
-   "text": "SELL 41 XOM at $171.57: stop $171.60 hit. P&L $-52.02 (-1.09R)",
-   "symbol": "XOM"
   }
  ],
  "equity": [
@@ -3560,6 +3840,11 @@
    "ts": 1794322298,
    "equity": 9336.33,
    "spy": 9851.49
+  },
+  {
+   "ts": 1794322615,
+   "equity": 9403.61,
+   "spy": 9848.72
   }
  ],
  "daily": [
@@ -3601,6 +3886,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794322615,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.5,
+   "errors": [],
+   "run_id": "42839241598",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794322298,
    "phase": "open",
@@ -3990,29 +4285,19 @@
    "errors": [],
    "run_id": "42645774581",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794238077,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.6,
-   "errors": [],
-   "run_id": "42644900393",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794322298,
+  "tick_at": 1794322615,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794322310,
-  "candidates": 49,
-  "charts_fetched": 50,
+  "yahoo_time": 1794322634,
+  "candidates": 52,
+  "charts_fetched": 54,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
