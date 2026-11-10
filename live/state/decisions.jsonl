@@ -222,3 +222,5 @@
 {"ts": 1794331200, "et": "2026-11-10 12:20", "kind": "busy", "text": "2 more breakouts (PG, ROST) not taken: already in UNH (one trade at a time)", "symbols": ["PG", "ROST"]}
 {"ts": 1794331500, "et": "2026-11-10 12:25", "kind": "busy", "text": "1 more breakout (MCD) not taken: already in UNH (one trade at a time)", "symbols": ["MCD"]}
 {"ts": 1794331800, "et": "2026-11-10 12:30", "kind": "busy", "text": "3 more breakouts (RTX, SBUX, YUM) not taken: already in UNH (one trade at a time)", "symbols": ["RTX", "SBUX", "YUM"]}
+{"ts": 1794332400, "et": "2026-11-10 12:40", "kind": "busy", "text": "3 more breakouts (BMY, D, VZ) not taken: already in UNH (one trade at a time)", "symbols": ["BMY", "D", "VZ"]}
+{"ts": 1794332700, "et": "2026-11-10 12:45", "kind": "busy", "text": "3 more breakouts (APO, MMM, UPS) not taken: already in UNH (one trade at a time)", "symbols": ["APO", "MMM", "UPS"]}

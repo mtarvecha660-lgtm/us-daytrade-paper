@@ -1,21 +1,21 @@
 {
- "updated": 1794332431,
- "updated_et": "2026-11-10 12:40 ET",
+ "updated": 1794332771,
+ "updated_et": "2026-11-10 12:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2559.12,
-  "equity": 9374.0,
-  "return": -0.06259999999999999,
+  "equity": 9396.18,
+  "return": -0.060381999999999936,
   "started": 1793559735
  },
  "spy": {
-  "value": 9830.3,
-  "return": -0.01697000000000004,
+  "value": 9814.9,
+  "return": -0.018510000000000026,
   "start_price": 759.47998046875,
-  "last": 746.8900146484375
+  "last": 745.719970703125
  },
  "position": {
   "symbol": "UNH",
@@ -37,54 +37,6 @@
  "today": {
   "date": "2026-11-10",
   "hits": [
-   {
-    "symbol": "SWKS",
-    "at": "09:55",
-    "price": 82.38,
-    "or_high": 82.35,
-    "or_low": 80.81,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "TER",
-    "at": "09:55",
-    "price": 248.87,
-    "or_high": 244.98,
-    "or_low": 237.57,
-    "pct_over": 1.59
-   },
-   {
-    "symbol": "TWLO",
-    "at": "09:55",
-    "price": 214.65,
-    "or_high": 211.52,
-    "or_low": 203.26,
-    "pct_over": 1.48
-   },
-   {
-    "symbol": "VLO",
-    "at": "09:55",
-    "price": 349.52,
-    "or_high": 349.36,
-    "or_low": 341.51,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "WDC",
-    "at": "09:55",
-    "price": 290.74,
-    "or_high": 286.16,
-    "or_low": 277.5,
-    "pct_over": 1.6
-   },
-   {
-    "symbol": "ADI",
-    "at": "10:00",
-    "price": 393.21,
-    "or_high": 390.48,
-    "or_low": 385.68,
-    "pct_over": 0.7
-   },
    {
     "symbol": "CAT",
     "at": "10:00",
@@ -516,9 +468,57 @@
     "or_high": 161.6,
     "or_low": 159.02,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "BMY",
+    "at": "12:40",
+    "price": 62.17,
+    "or_high": 62.13,
+    "or_low": 61.42,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "D",
+    "at": "12:40",
+    "price": 68.35,
+    "or_high": 68.31,
+    "or_low": 67.45,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "VZ",
+    "at": "12:40",
+    "price": 46.31,
+    "or_high": 46.3,
+    "or_low": 45.86,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "12:45",
+    "price": 123.13,
+    "or_high": 123.0,
+    "or_low": 121.78,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "MMM",
+    "at": "12:45",
+    "price": 189.12,
+    "or_high": 189.06,
+    "or_low": 187.7,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "UPS",
+    "at": "12:45",
+    "price": 110.81,
+    "or_high": 110.8,
+    "or_low": 109.7,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 108,
+  "n_hits": 114,
   "entries": 3,
   "max_trades": 3
  },
@@ -895,6 +895,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794332700,
+   "et": "2026-11-10 12:45",
+   "kind": "busy",
+   "text": "3 more breakouts (APO, MMM, UPS) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "APO",
+    "MMM",
+    "UPS"
+   ]
+  },
+  {
+   "ts": 1794332400,
+   "et": "2026-11-10 12:40",
+   "kind": "busy",
+   "text": "3 more breakouts (BMY, D, VZ) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "BMY",
+    "D",
+    "VZ"
+   ]
+  },
   {
    "ts": 1794331800,
    "et": "2026-11-10 12:30",
@@ -1828,24 +1850,6 @@
    "symbols": [
     "MARA",
     "UNH"
-   ]
-  },
-  {
-   "ts": 1793987100,
-   "et": "2026-11-06 12:45",
-   "kind": "busy",
-   "text": "1 more breakout (CHWY) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "CHWY"
-   ]
-  },
-  {
-   "ts": 1793984400,
-   "et": "2026-11-06 12:00",
-   "kind": "busy",
-   "text": "1 more breakout (RIOT) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "RIOT"
    ]
   }
  ],
@@ -3999,6 +4003,11 @@
    "ts": 1794332431,
    "equity": 9374.0,
    "spy": 9830.3
+  },
+  {
+   "ts": 1794332771,
+   "equity": 9396.18,
+   "spy": 9814.9
   }
  ],
  "daily": [
@@ -4040,6 +4049,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794332771,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 17.8,
+   "errors": [],
+   "run_id": "42868207402",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794332431,
    "phase": "open",
@@ -4429,25 +4448,15 @@
    "errors": [],
    "run_id": "42794223996",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794284494,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42755331560",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794332431,
+  "tick_at": 1794332771,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794332441,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1794332786,
+  "candidates": 32,
+  "charts_fetched": 34,
   "ok": true,
   "errors": [],
   "stale_data": false,

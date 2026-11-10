@@ -345,7 +345,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-10",
-  "last_bar_end": 1794332100,
+  "last_bar_end": 1794332700,
   "position": {
    "symbol": "UNH",
    "qty": 17,
@@ -446,7 +446,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 108,
+  "triggers_seen": 114,
   "missed": [
    "AMAT",
    "AMD",
@@ -520,7 +520,13 @@
    "MCD",
    "RTX",
    "SBUX",
-   "YUM"
+   "YUM",
+   "BMY",
+   "D",
+   "VZ",
+   "APO",
+   "MMM",
+   "UPS"
   ],
   "triggered": [
    "AVGO",
@@ -630,7 +636,13 @@
    "MCD",
    "RTX",
    "SBUX",
-   "YUM"
+   "YUM",
+   "BMY",
+   "D",
+   "VZ",
+   "APO",
+   "MMM",
+   "UPS"
   ],
   "hits": [
    {
@@ -1496,6 +1508,54 @@
     "or_high": 161.6,
     "or_low": 159.02,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "BMY",
+    "at": "12:40",
+    "price": 62.17,
+    "or_high": 62.13,
+    "or_low": 61.42,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "D",
+    "at": "12:40",
+    "price": 68.35,
+    "or_high": 68.31,
+    "or_low": 67.45,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "VZ",
+    "at": "12:40",
+    "price": 46.31,
+    "or_high": 46.3,
+    "or_low": 45.86,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "12:45",
+    "price": 123.13,
+    "or_high": 123.0,
+    "or_low": 121.78,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "MMM",
+    "at": "12:45",
+    "price": 189.12,
+    "or_high": 189.06,
+    "or_low": 187.7,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "UPS",
+    "at": "12:45",
+    "price": 110.81,
+    "or_high": 110.8,
+    "or_low": 109.7,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1503,8 +1563,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 746.8900146484375,
-  "last_ts": 1794332100
+  "last": 745.719970703125,
+  "last_ts": 1794332700
  },
  "seen_trades": 0,
  "daily": [
