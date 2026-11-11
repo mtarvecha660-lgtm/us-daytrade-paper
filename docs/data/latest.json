@@ -1,21 +1,21 @@
 {
- "updated": 1794427879,
- "updated_et": "2026-11-11 15:11 ET",
+ "updated": 1794428195,
+ "updated_et": "2026-11-11 15:16 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9448.5,
-  "return": -0.05515000000000003,
+  "equity": 9449.36,
+  "return": -0.05506399999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 10005.74,
-  "return": 0.0005740000000000745,
+  "value": 10006.33,
+  "return": 0.0006329999999998837,
   "start_price": 759.47998046875,
-  "last": 760.2199096679688
+  "last": 760.2650146484375
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "GS",
-    "at": "11:00",
-    "price": 929.46,
-    "or_high": 928.38,
-    "or_low": 912.59,
-    "pct_over": 0.12
-   },
    {
     "symbol": "MARA",
     "at": "11:00",
@@ -516,9 +508,17 @@
     "or_high": 658.44,
     "or_low": 646.26,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "WFC",
+    "at": "15:15",
+    "price": 85.99,
+    "or_high": 85.96,
+    "or_low": 85.29,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 151,
+  "n_hits": 152,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794428100,
+   "et": "2026-11-11 15:15",
+   "kind": "busy",
+   "text": "1 more breakout (WFC) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "WFC"
+   ]
+  },
   {
    "ts": 1794427800,
    "et": "2026-11-11 15:10",
@@ -1819,13 +1828,6 @@
     "VLO",
     "WDC"
    ]
-  },
-  {
-   "ts": 1794322200,
-   "et": "2026-11-10 09:50",
-   "kind": "fill",
-   "text": "BUY 20 AVGO filled at $325.66 (next bar's open $325.59 + slippage). Stop $320.76, target $330.48",
-   "symbol": "AVGO"
   }
  ],
  "equity": [
@@ -4503,6 +4505,11 @@
    "ts": 1794427879,
    "equity": 9448.5,
    "spy": 10005.74
+  },
+  {
+   "ts": 1794428195,
+   "equity": 9449.36,
+   "spy": 10006.33
   }
  ],
  "daily": [
@@ -4550,6 +4557,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794428195,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.4,
+   "errors": [],
+   "run_id": "43094932488",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794427879,
    "phase": "open",
@@ -4939,25 +4956,15 @@
    "errors": [],
    "run_id": "43062514517",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794415618,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.4,
-   "errors": [],
-   "run_id": "43061659595",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794427879,
+  "tick_at": 1794428195,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794427887,
-  "candidates": 21,
-  "charts_fetched": 23,
+  "yahoo_time": 1794428203,
+  "candidates": 19,
+  "charts_fetched": 21,
   "ok": true,
   "errors": [],
   "stale_data": false,
