@@ -1,21 +1,21 @@
 {
- "updated": 1794409638,
- "updated_et": "2026-11-11 10:07 ET",
+ "updated": 1794409952,
+ "updated_et": "2026-11-11 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9420.01,
-  "return": -0.05799900000000002,
+  "equity": 9415.16,
+  "return": -0.05848399999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9955.2,
-  "return": -0.0044799999999999285,
+  "value": 9948.88,
+  "return": -0.0051120000000001165,
   "start_price": 759.47998046875,
-  "last": 756.3800048828125
+  "last": 755.89990234375
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "AEP",
-    "at": "09:50",
-    "price": 128.59,
-    "or_high": 128.48,
-    "or_low": 127.37,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "AFRM",
-    "at": "09:50",
-    "price": 67.57,
-    "or_high": 67.35,
-    "or_low": 65.82,
-    "pct_over": 0.33
-   },
    {
     "symbol": "BBY",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 546.91,
     "or_low": 533.14,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "ARM",
+    "at": "10:10",
+    "price": 193.4,
+    "or_high": 192.85,
+    "or_low": 188.96,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TWLO",
+    "at": "10:10",
+    "price": 221.9,
+    "or_high": 221.74,
+    "or_low": 218.32,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 62,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794409800,
+   "et": "2026-11-11 10:10",
+   "kind": "busy",
+   "text": "2 more breakouts (ARM, TWLO) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ARM",
+    "TWLO"
+   ]
+  },
   {
    "ts": 1794409500,
    "et": "2026-11-11 10:05",
@@ -1821,17 +1831,6 @@
    "symbols": [
     "AAPL",
     "DASH"
-   ]
-  },
-  {
-   "ts": 1794237600,
-   "et": "2026-11-09 10:20",
-   "kind": "busy",
-   "text": "3 more breakouts (NU, PEP, RIOT) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "NU",
-    "PEP",
-    "RIOT"
    ]
   }
  ],
@@ -4220,6 +4219,11 @@
    "ts": 1794409638,
    "equity": 9420.01,
    "spy": 9955.2
+  },
+  {
+   "ts": 1794409952,
+   "equity": 9415.16,
+   "spy": 9948.88
   }
  ],
  "daily": [
@@ -4267,6 +4271,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794409952,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.9,
+   "errors": [],
+   "run_id": "43045998007",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794409638,
    "phase": "open",
@@ -4656,25 +4670,15 @@
    "errors": [],
    "run_id": "42880711646",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794336861,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.6,
-   "errors": [],
-   "run_id": "42879851351",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794409638,
+  "tick_at": 1794409952,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794409658,
-  "candidates": 44,
-  "charts_fetched": 46,
+  "yahoo_time": 1794409969,
+  "candidates": 41,
+  "charts_fetched": 43,
   "ok": true,
   "errors": [],
   "stale_data": false,

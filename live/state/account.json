@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794409500,
+  "last_bar_end": 1794409800,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 62,
+  "triggers_seen": 64,
   "missed": [
    "AAL",
    "BA",
@@ -447,7 +447,9 @@
    "V",
    "GME",
    "INTC",
-   "STX"
+   "STX",
+   "ARM",
+   "TWLO"
   ],
   "triggered": [
    "AAPL",
@@ -511,7 +513,9 @@
    "V",
    "GME",
    "INTC",
-   "STX"
+   "STX",
+   "ARM",
+   "TWLO"
   ],
   "hits": [
    {
@@ -1009,6 +1013,22 @@
     "or_high": 546.91,
     "or_low": 533.14,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "ARM",
+    "at": "10:10",
+    "price": 193.4,
+    "or_high": 192.85,
+    "or_low": 188.96,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TWLO",
+    "at": "10:10",
+    "price": 221.9,
+    "or_high": 221.74,
+    "or_low": 218.32,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1016,8 +1036,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.3800048828125,
-  "last_ts": 1794409500
+  "last": 755.89990234375,
+  "last_ts": 1794409800
  },
  "seen_trades": 0,
  "daily": [
