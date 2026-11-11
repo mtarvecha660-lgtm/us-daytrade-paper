@@ -1,21 +1,21 @@
 {
- "updated": 1794410580,
- "updated_et": "2026-11-11 10:23 ET",
+ "updated": 1794410895,
+ "updated_et": "2026-11-11 10:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9424.95,
-  "return": -0.05750499999999992,
+  "equity": 9422.1,
+  "return": -0.05779000000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9951.65,
-  "return": -0.004835000000000034,
+  "value": 9947.99,
+  "return": -0.005201000000000011,
   "start_price": 759.47998046875,
-  "last": 756.1099243164062
+  "last": 755.83251953125
  },
  "position": {
   "symbol": "AAPL",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "CRM",
-    "at": "09:50",
-    "price": 215.54,
-    "or_high": 215.24,
-    "or_low": 213.63,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "DAL",
-    "at": "09:50",
-    "price": 91.92,
-    "or_high": 91.86,
-    "or_low": 91.06,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "DOCU",
-    "at": "09:50",
-    "price": 78.22,
-    "or_high": 78.13,
-    "or_low": 77.27,
-    "pct_over": 0.12
-   },
    {
     "symbol": "DXCM",
     "at": "09:50",
@@ -516,9 +492,33 @@
     "or_high": 29.8,
     "or_low": 29.17,
     "pct_over": 0.44
+   },
+   {
+    "symbol": "FANG",
+    "at": "10:25",
+    "price": 180.43,
+    "or_high": 180.35,
+    "or_low": 177.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "HAL",
+    "at": "10:25",
+    "price": 32.73,
+    "or_high": 32.67,
+    "or_low": 32.1,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:25",
+    "price": 361.01,
+    "or_high": 360.0,
+    "or_low": 352.54,
+    "pct_over": 0.28
    }
   ],
-  "n_hits": 68,
+  "n_hits": 71,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794410700,
+   "et": "2026-11-11 10:25",
+   "kind": "busy",
+   "text": "3 more breakouts (FANG, HAL, VLO) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "FANG",
+    "HAL",
+    "VLO"
+   ]
+  },
   {
    "ts": 1794410400,
    "et": "2026-11-11 10:20",
@@ -1822,15 +1833,6 @@
     "GD",
     "MCD",
     "PG"
-   ]
-  },
-  {
-   "ts": 1794238500,
-   "et": "2026-11-09 10:35",
-   "kind": "busy",
-   "text": "1 more breakout (UAL) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "UAL"
    ]
   }
  ],
@@ -4234,6 +4236,11 @@
    "ts": 1794410580,
    "equity": 9424.95,
    "spy": 9951.65
+  },
+  {
+   "ts": 1794410895,
+   "equity": 9422.1,
+   "spy": 9947.99
   }
  ],
  "daily": [
@@ -4281,6 +4288,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794410895,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.4,
+   "errors": [],
+   "run_id": "43048634482",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794410580,
    "phase": "open",
@@ -4670,25 +4687,15 @@
    "errors": [],
    "run_id": "42883374810",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794337804,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.8,
-   "errors": [],
-   "run_id": "42882488018",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794410580,
+  "tick_at": 1794410895,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794410592,
-  "candidates": 39,
-  "charts_fetched": 41,
+  "yahoo_time": 1794410905,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,

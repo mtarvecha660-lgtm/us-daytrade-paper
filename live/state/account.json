@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794410400,
+  "last_bar_end": 1794410700,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 68,
+  "triggers_seen": 71,
   "missed": [
    "AAL",
    "BA",
@@ -453,7 +453,10 @@
    "EOG",
    "TSLA",
    "DELL",
-   "SMCI"
+   "SMCI",
+   "FANG",
+   "HAL",
+   "VLO"
   ],
   "triggered": [
    "AAPL",
@@ -523,7 +526,10 @@
    "EOG",
    "TSLA",
    "DELL",
-   "SMCI"
+   "SMCI",
+   "FANG",
+   "HAL",
+   "VLO"
   ],
   "hits": [
    {
@@ -1069,6 +1075,30 @@
     "or_high": 29.8,
     "or_low": 29.17,
     "pct_over": 0.44
+   },
+   {
+    "symbol": "FANG",
+    "at": "10:25",
+    "price": 180.43,
+    "or_high": 180.35,
+    "or_low": 177.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "HAL",
+    "at": "10:25",
+    "price": 32.73,
+    "or_high": 32.67,
+    "or_low": 32.1,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:25",
+    "price": 361.01,
+    "or_high": 360.0,
+    "or_low": 352.54,
+    "pct_over": 0.28
    }
   ]
  },
@@ -1076,8 +1106,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.1099243164062,
-  "last_ts": 1794410400
+  "last": 755.83251953125,
+  "last_ts": 1794410700
  },
  "seen_trades": 0,
  "daily": [
