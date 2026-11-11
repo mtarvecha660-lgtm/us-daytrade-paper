@@ -1,21 +1,21 @@
 {
- "updated": 1794413729,
- "updated_et": "2026-11-11 11:15 ET",
+ "updated": 1794414041,
+ "updated_et": "2026-11-11 11:20 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9419.34,
-  "return": -0.05806599999999995,
+  "equity": 9424.38,
+  "return": -0.05756200000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9972.97,
-  "return": -0.002703000000000011,
+  "value": 9982.37,
+  "return": -0.001762999999999959,
   "start_price": 759.47998046875,
-  "last": 757.72998046875
+  "last": 758.4442138671875
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "AAL",
-    "at": "09:55",
-    "price": 14.02,
-    "or_high": 13.99,
-    "or_low": 13.88,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "BA",
-    "at": "09:55",
-    "price": 173.94,
-    "or_high": 173.36,
-    "or_low": 172.18,
-    "pct_over": 0.33
-   },
    {
     "symbol": "BX",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 291.84,
     "or_low": 289.56,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "ADI",
+    "at": "11:15",
+    "price": 408.37,
+    "or_high": 407.89,
+    "or_low": 399.35,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MDT",
+    "at": "11:15",
+    "price": 101.01,
+    "or_high": 101.0,
+    "or_low": 100.02,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 96,
+  "n_hits": 98,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794413700,
+   "et": "2026-11-11 11:15",
+   "kind": "busy",
+   "text": "2 more breakouts (ADI, MDT) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ADI",
+    "MDT"
+   ]
+  },
   {
    "ts": 1794413100,
    "et": "2026-11-11 11:05",
@@ -1832,15 +1842,6 @@
    "symbols": [
     "CVX",
     "GE"
-   ]
-  },
-  {
-   "ts": 1794241500,
-   "et": "2026-11-09 11:25",
-   "kind": "busy",
-   "text": "1 more breakout (EOG) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "EOG"
    ]
   }
  ],
@@ -4294,6 +4295,11 @@
    "ts": 1794413729,
    "equity": 9419.34,
    "spy": 9972.97
+  },
+  {
+   "ts": 1794414041,
+   "equity": 9424.38,
+   "spy": 9982.37
   }
  ],
  "daily": [
@@ -4341,6 +4347,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794414041,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.1,
+   "errors": [],
+   "run_id": "43057351380",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794413729,
    "phase": "open",
@@ -4730,25 +4746,15 @@
    "errors": [],
    "run_id": "42892149595",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794340956,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.7,
-   "errors": [],
-   "run_id": "42891262625",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794413729,
+  "tick_at": 1794414041,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794413739,
-  "candidates": 34,
-  "charts_fetched": 36,
+  "yahoo_time": 1794414056,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
