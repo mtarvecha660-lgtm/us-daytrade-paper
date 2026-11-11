@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794411000,
+  "last_bar_end": 1794411300,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 79,
+  "triggers_seen": 80,
   "missed": [
    "AAL",
    "BA",
@@ -464,7 +464,8 @@
    "MRVL",
    "ON",
    "OXY",
-   "WDC"
+   "WDC",
+   "PSX"
   ],
   "triggered": [
    "AAPL",
@@ -545,7 +546,8 @@
    "MRVL",
    "ON",
    "OXY",
-   "WDC"
+   "WDC",
+   "PSX"
   ],
   "hits": [
    {
@@ -1179,6 +1181,14 @@
     "or_high": 310.97,
     "or_low": 301.71,
     "pct_over": 0.36
+   },
+   {
+    "symbol": "PSX",
+    "at": "10:35",
+    "price": 256.59,
+    "or_high": 256.44,
+    "or_low": 252.54,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1186,8 +1196,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.7449951171875,
-  "last_ts": 1794411000
+  "last": 756.5599975585938,
+  "last_ts": 1794411300
  },
  "seen_trades": 0,
  "daily": [
