@@ -1,21 +1,21 @@
 {
- "updated": 1794409952,
- "updated_et": "2026-11-11 10:12 ET",
+ "updated": 1794410270,
+ "updated_et": "2026-11-11 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9415.16,
-  "return": -0.05848399999999998,
+  "equity": 9417.73,
+  "return": -0.05822700000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9948.88,
-  "return": -0.0051120000000001165,
+  "value": 9942.7,
+  "return": -0.005729999999999902,
   "start_price": 759.47998046875,
-  "last": 755.89990234375
+  "last": 755.4299926757812
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "BBY",
-    "at": "09:50",
-    "price": 105.61,
-    "or_high": 105.37,
-    "or_low": 102.65,
-    "pct_over": 0.23
-   },
-   {
-    "symbol": "BSX",
-    "at": "09:50",
-    "price": 44.96,
-    "or_high": 44.7,
-    "or_low": 43.87,
-    "pct_over": 0.58
-   },
    {
     "symbol": "CHTR",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 221.74,
     "or_low": 218.32,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "EOG",
+    "at": "10:15",
+    "price": 153.34,
+    "or_high": 153.22,
+    "or_low": 151.69,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:15",
+    "price": 393.08,
+    "or_high": 392.67,
+    "or_low": 386.35,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 64,
+  "n_hits": 66,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794410100,
+   "et": "2026-11-11 10:15",
+   "kind": "busy",
+   "text": "2 more breakouts (EOG, TSLA) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "EOG",
+    "TSLA"
+   ]
+  },
   {
    "ts": 1794409800,
    "et": "2026-11-11 10:10",
@@ -1821,16 +1831,6 @@
    "symbols": [
     "LULU",
     "OXY"
-   ]
-  },
-  {
-   "ts": 1794237900,
-   "et": "2026-11-09 10:25",
-   "kind": "busy",
-   "text": "2 more breakouts (AAPL, DASH) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "AAPL",
-    "DASH"
    ]
   }
  ],
@@ -4224,6 +4224,11 @@
    "ts": 1794409952,
    "equity": 9415.16,
    "spy": 9948.88
+  },
+  {
+   "ts": 1794410270,
+   "equity": 9417.73,
+   "spy": 9942.7
   }
  ],
  "daily": [
@@ -4271,6 +4276,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794410270,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.8,
+   "errors": [],
+   "run_id": "43046887579",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794409952,
    "phase": "open",
@@ -4660,29 +4675,19 @@
    "errors": [],
    "run_id": "42881605693",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794337175,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "42880711646",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794409952,
+  "tick_at": 1794410270,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794409969,
-  "candidates": 41,
-  "charts_fetched": 43,
+  "yahoo_time": 1794410282,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

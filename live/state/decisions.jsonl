@@ -238,3 +238,4 @@
 {"ts": 1794409200, "et": "2026-11-11 10:00", "kind": "busy", "text": "11 more breakouts (APO, BLK, C, COP, CVX, DE, NXPI, PNC ...) not taken: already in AAPL (one trade at a time)", "symbols": ["APO", "BLK", "C", "COP", "CVX", "DE", "NXPI", "PNC", "RDDT", "UPST", "V"]}
 {"ts": 1794409500, "et": "2026-11-11 10:05", "kind": "busy", "text": "3 more breakouts (GME, INTC, STX) not taken: already in AAPL (one trade at a time)", "symbols": ["GME", "INTC", "STX"]}
 {"ts": 1794409800, "et": "2026-11-11 10:10", "kind": "busy", "text": "2 more breakouts (ARM, TWLO) not taken: already in AAPL (one trade at a time)", "symbols": ["ARM", "TWLO"]}
+{"ts": 1794410100, "et": "2026-11-11 10:15", "kind": "busy", "text": "2 more breakouts (EOG, TSLA) not taken: already in AAPL (one trade at a time)", "symbols": ["EOG", "TSLA"]}
