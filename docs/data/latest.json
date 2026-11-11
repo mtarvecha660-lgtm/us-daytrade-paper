@@ -1,21 +1,21 @@
 {
- "updated": 1794418133,
- "updated_et": "2026-11-11 12:28 ET",
+ "updated": 1794418448,
+ "updated_et": "2026-11-11 12:34 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9443.19,
-  "return": -0.05568099999999998,
+  "equity": 9437.29,
+  "return": -0.05627099999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 10016.66,
-  "return": 0.0016659999999999453,
+  "value": 10012.02,
+  "return": 0.0012020000000001474,
   "start_price": 759.47998046875,
-  "last": 761.0499877929688
+  "last": 760.6973266601562
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "STX",
-    "at": "10:05",
-    "price": 547.76,
-    "or_high": 546.91,
-    "or_low": 533.14,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "ARM",
-    "at": "10:10",
-    "price": 193.4,
-    "or_high": 192.85,
-    "or_low": 188.96,
-    "pct_over": 0.29
-   },
    {
     "symbol": "TWLO",
     "at": "10:10",
@@ -516,9 +500,25 @@
     "or_high": 112.28,
     "or_low": 111.13,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "NCLH",
+    "at": "12:30",
+    "price": 18.67,
+    "or_high": 18.66,
+    "or_low": 18.33,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SEDG",
+    "at": "12:30",
+    "price": 27.08,
+    "or_high": 27.01,
+    "or_low": 25.83,
+    "pct_over": 0.23
    }
   ],
-  "n_hits": 121,
+  "n_hits": 123,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794418200,
+   "et": "2026-11-11 12:30",
+   "kind": "busy",
+   "text": "2 more breakouts (NCLH, SEDG) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "NCLH",
+    "SEDG"
+   ]
+  },
   {
    "ts": 1794417900,
    "et": "2026-11-11 12:25",
@@ -1838,15 +1848,6 @@
    "symbols": [
     "CRM",
     "WMT"
-   ]
-  },
-  {
-   "ts": 1794245700,
-   "et": "2026-11-09 12:35",
-   "kind": "busy",
-   "text": "1 more breakout (LOW) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "LOW"
    ]
   }
  ],
@@ -4370,6 +4371,11 @@
    "ts": 1794418133,
    "equity": 9443.19,
    "spy": 10016.66
+  },
+  {
+   "ts": 1794418448,
+   "equity": 9437.29,
+   "spy": 10012.02
   }
  ],
  "daily": [
@@ -4417,6 +4423,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794418448,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.4,
+   "errors": [],
+   "run_id": "43069386517",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794418133,
    "phase": "open",
@@ -4806,25 +4822,15 @@
    "errors": [],
    "run_id": "42933104687",
    "event": "schedule"
-  },
-  {
-   "ts": 1794345365,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "42903325259",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794418133,
+  "tick_at": 1794418448,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794418142,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794418457,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,

@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794417900,
+  "last_bar_end": 1794418200,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 121,
+  "triggers_seen": 123,
   "missed": [
    "AAL",
    "BA",
@@ -506,7 +506,9 @@
    "SHOP",
    "YUM",
    "CHWY",
-   "UPS"
+   "UPS",
+   "NCLH",
+   "SEDG"
   ],
   "triggered": [
    "AAPL",
@@ -629,7 +631,9 @@
    "SHOP",
    "YUM",
    "CHWY",
-   "UPS"
+   "UPS",
+   "NCLH",
+   "SEDG"
   ],
   "hits": [
    {
@@ -1599,6 +1603,22 @@
     "or_high": 112.28,
     "or_low": 111.13,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "NCLH",
+    "at": "12:30",
+    "price": 18.67,
+    "or_high": 18.66,
+    "or_low": 18.33,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SEDG",
+    "at": "12:30",
+    "price": 27.08,
+    "or_high": 27.01,
+    "or_low": 25.83,
+    "pct_over": 0.23
    }
   ]
  },
@@ -1606,8 +1626,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.0499877929688,
-  "last_ts": 1794417900
+  "last": 760.6973266601562,
+  "last_ts": 1794418200
  },
  "seen_trades": 0,
  "daily": [
