@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794421200,
+  "last_bar_end": 1794421500,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 136,
+  "triggers_seen": 137,
   "missed": [
    "AAL",
    "BA",
@@ -521,7 +521,8 @@
    "AMGN",
    "BMY",
    "JPM",
-   "LLY"
+   "LLY",
+   "MELI"
   ],
   "triggered": [
    "AAPL",
@@ -659,7 +660,8 @@
    "AMGN",
    "BMY",
    "JPM",
-   "LLY"
+   "LLY",
+   "MELI"
   ],
   "hits": [
    {
@@ -1749,6 +1751,14 @@
     "or_high": 1427.75,
     "or_low": 1414.37,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "MELI",
+    "at": "13:25",
+    "price": 1504.24,
+    "or_high": 1502.82,
+    "or_low": 1465.06,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1756,8 +1766,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.6199951171875,
-  "last_ts": 1794421200
+  "last": 761.9000244140625,
+  "last_ts": 1794421500
  },
  "seen_trades": 0,
  "daily": [
