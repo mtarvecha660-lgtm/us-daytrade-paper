@@ -1,21 +1,21 @@
 {
- "updated": 1794411525,
- "updated_et": "2026-11-11 10:38 ET",
+ "updated": 1794411842,
+ "updated_et": "2026-11-11 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9417.35,
-  "return": -0.05826500000000001,
+  "equity": 9419.25,
+  "return": -0.05807499999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9957.57,
-  "return": -0.004242999999999997,
+  "value": 9962.83,
+  "return": -0.0037169999999999703,
   "start_price": 759.47998046875,
-  "last": 756.5599975585938
+  "last": 756.9600219726562
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "LYFT",
-    "at": "09:50",
-    "price": 17.38,
-    "or_high": 17.26,
-    "or_low": 16.63,
-    "pct_over": 0.64
-   },
-   {
-    "symbol": "PATH",
-    "at": "09:50",
-    "price": 13.01,
-    "or_high": 12.98,
-    "or_low": 12.86,
-    "pct_over": 0.19
-   },
    {
     "symbol": "PDD",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 256.44,
     "or_low": 252.54,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "AI",
+    "at": "10:40",
+    "price": 12.18,
+    "or_high": 12.16,
+    "or_low": 11.9,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "COIN",
+    "at": "10:40",
+    "price": 136.73,
+    "or_high": 136.3,
+    "or_low": 132.87,
+    "pct_over": 0.32
    }
   ],
-  "n_hits": 80,
+  "n_hits": 82,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794411600,
+   "et": "2026-11-11 10:40",
+   "kind": "busy",
+   "text": "2 more breakouts (AI, COIN) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "AI",
+    "COIN"
+   ]
+  },
   {
    "ts": 1794411300,
    "et": "2026-11-11 10:35",
@@ -1822,17 +1832,6 @@
    "text": "1 more breakout (BSX) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "BSX"
-   ]
-  },
-  {
-   "ts": 1794239700,
-   "et": "2026-11-09 10:55",
-   "kind": "busy",
-   "text": "3 more breakouts (GME, ISRG, ROST) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "GME",
-    "ISRG",
-    "ROST"
    ]
   }
  ],
@@ -4251,6 +4250,11 @@
    "ts": 1794411525,
    "equity": 9417.35,
    "spy": 9957.57
+  },
+  {
+   "ts": 1794411842,
+   "equity": 9419.25,
+   "spy": 9962.83
   }
  ],
  "daily": [
@@ -4298,6 +4302,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794411842,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.0,
+   "errors": [],
+   "run_id": "43051251960",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794411525,
    "phase": "open",
@@ -4687,29 +4701,19 @@
    "errors": [],
    "run_id": "42886023243",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794338753,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.9,
-   "errors": [],
-   "run_id": "42885145893",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794411525,
+  "tick_at": 1794411842,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794411541,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794411857,
+  "candidates": 37,
+  "charts_fetched": 39,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -243,3 +243,4 @@
 {"ts": 1794410700, "et": "2026-11-11 10:25", "kind": "busy", "text": "3 more breakouts (FANG, HAL, VLO) not taken: already in AAPL (one trade at a time)", "symbols": ["FANG", "HAL", "VLO"]}
 {"ts": 1794411000, "et": "2026-11-11 10:30", "kind": "busy", "text": "8 more breakouts (AMAT, AMD, DDOG, MCHP, MRVL, ON, OXY, WDC) not taken: already in AAPL (one trade at a time)", "symbols": ["AMAT", "AMD", "DDOG", "MCHP", "MRVL", "ON", "OXY", "WDC"]}
 {"ts": 1794411300, "et": "2026-11-11 10:35", "kind": "busy", "text": "1 more breakout (PSX) not taken: already in AAPL (one trade at a time)", "symbols": ["PSX"]}
+{"ts": 1794411600, "et": "2026-11-11 10:40", "kind": "busy", "text": "2 more breakouts (AI, COIN) not taken: already in AAPL (one trade at a time)", "symbols": ["AI", "COIN"]}
