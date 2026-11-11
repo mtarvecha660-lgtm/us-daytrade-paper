@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794416700,
+  "last_bar_end": 1794417000,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 118,
+  "triggers_seen": 119,
   "missed": [
    "AAL",
    "BA",
@@ -503,7 +503,8 @@
    "EBAY",
    "HD",
    "IBM",
-   "SHOP"
+   "SHOP",
+   "YUM"
   ],
   "triggered": [
    "AAPL",
@@ -623,7 +624,8 @@
    "EBAY",
    "HD",
    "IBM",
-   "SHOP"
+   "SHOP",
+   "YUM"
   ],
   "hits": [
    {
@@ -1569,6 +1571,14 @@
     "or_high": 149.8,
     "or_low": 147.12,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "YUM",
+    "at": "12:10",
+    "price": 159.6,
+    "or_high": 159.5,
+    "or_low": 156.71,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1576,8 +1586,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.5,
-  "last_ts": 1794416700
+  "last": 759.9199829101562,
+  "last_ts": 1794417000
  },
  "seen_trades": 0,
  "daily": [
