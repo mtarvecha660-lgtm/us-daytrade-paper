@@ -1,5 +1,5 @@
 {
- "cash": 9427.6341,
+ "cash": 2706.3708,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -369,11 +369,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794408600,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794408900,
+  "position": {
    "symbol": "AAPL",
    "qty": 19,
+   "entry_fill": 353.7507,
+   "entry_ts": 1794408600,
    "plan": {
     "symbol": "AAPL",
     "side": "buy",
@@ -385,7 +386,8 @@
     "target": 355.98,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 353.67999267578125
    },
    "why": {
     "scanner": "AAPL: the 09:45 bar closed at $353.68, above the 15-min opening range high $353.43 (range 349.33-353.43)",
@@ -394,9 +396,9 @@
     "risk": "trader-risk PASS: entry 353.68 (the latest price), stop 351.38, target 355.98: risk 2.30 a share; max loss $43.70 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794408600,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -406,12 +408,33 @@
     "kind": "entry",
     "max_loss": 43.7,
     "at": "2026-11-11T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-11",
+    "symbol": "AAPL",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 19
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 36,
-  "missed": [],
+  "triggers_seen": 48,
+  "missed": [
+   "AAL",
+   "BA",
+   "BX",
+   "DUOL",
+   "DVN",
+   "GE",
+   "HPQ",
+   "KKR",
+   "MU",
+   "NOC",
+   "TTD",
+   "XOM"
+  ],
   "triggered": [
    "AAPL",
    "ABT",
@@ -448,7 +471,19 @@
    "TOST",
    "VZ",
    "ZM",
-   "ZTS"
+   "ZTS",
+   "AAL",
+   "BA",
+   "BX",
+   "DUOL",
+   "DVN",
+   "GE",
+   "HPQ",
+   "KKR",
+   "MU",
+   "NOC",
+   "TTD",
+   "XOM"
   ],
   "hits": [
    {
@@ -738,6 +773,102 @@
     "or_high": 81.58,
     "or_low": 80.93,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "AAL",
+    "at": "09:55",
+    "price": 14.02,
+    "or_high": 13.99,
+    "or_low": 13.88,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "BA",
+    "at": "09:55",
+    "price": 173.94,
+    "or_high": 173.36,
+    "or_low": 172.18,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "BX",
+    "at": "09:55",
+    "price": 123.42,
+    "or_high": 122.69,
+    "or_low": 121.63,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "DUOL",
+    "at": "09:55",
+    "price": 159.29,
+    "or_high": 158.76,
+    "or_low": 155.09,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:55",
+    "price": 44.13,
+    "or_high": 44.06,
+    "or_low": 43.51,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "GE",
+    "at": "09:55",
+    "price": 340.18,
+    "or_high": 339.99,
+    "or_low": 336.78,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HPQ",
+    "at": "09:55",
+    "price": 29.2,
+    "or_high": 29.19,
+    "or_low": 28.4,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "KKR",
+    "at": "09:55",
+    "price": 101.68,
+    "or_high": 101.0,
+    "or_low": 99.62,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "MU",
+    "at": "09:55",
+    "price": 779.98,
+    "or_high": 779.49,
+    "or_low": 763.05,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "NOC",
+    "at": "09:55",
+    "price": 546.47,
+    "or_high": 546.28,
+    "or_low": 543.65,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:55",
+    "price": 16.39,
+    "or_high": 16.18,
+    "or_low": 15.08,
+    "pct_over": 1.27
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:55",
+    "price": 165.71,
+    "or_high": 165.68,
+    "or_low": 164.46,
+    "pct_over": 0.02
    }
   ]
  },
@@ -745,8 +876,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.7100219726562,
-  "last_ts": 1794408600
+  "last": 755.8900146484375,
+  "last_ts": 1794408900
  },
  "seen_trades": 0,
  "daily": [
