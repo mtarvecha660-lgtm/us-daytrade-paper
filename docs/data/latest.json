@@ -1,21 +1,21 @@
 {
- "updated": 1794414353,
- "updated_et": "2026-11-11 11:25 ET",
+ "updated": 1794414667,
+ "updated_et": "2026-11-11 11:31 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9426.37,
-  "return": -0.05736299999999994,
+  "equity": 9433.12,
+  "return": -0.05668799999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9982.05,
-  "return": -0.001795000000000102,
+  "value": 9993.5,
+  "return": -0.0006500000000000394,
   "start_price": 759.47998046875,
-  "last": 758.4199829101562
+  "last": 759.2899780273438
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "DUOL",
-    "at": "09:55",
-    "price": 159.29,
-    "or_high": 158.76,
-    "or_low": 155.09,
-    "pct_over": 0.34
-   },
-   {
-    "symbol": "DVN",
-    "at": "09:55",
-    "price": 44.13,
-    "or_high": 44.06,
-    "or_low": 43.51,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "GE",
-    "at": "09:55",
-    "price": 340.18,
-    "or_high": 339.99,
-    "or_low": 336.78,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "HPQ",
-    "at": "09:55",
-    "price": 29.2,
-    "or_high": 29.19,
-    "or_low": 28.4,
-    "pct_over": 0.03
-   },
    {
     "symbol": "KKR",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 119.21,
     "or_low": 118.25,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:25",
+    "price": 238.26,
+    "or_high": 237.68,
+    "or_low": 234.84,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "MSTR",
+    "at": "11:25",
+    "price": 123.84,
+    "or_high": 123.63,
+    "or_low": 120.34,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "CAT",
+    "at": "11:30",
+    "price": 602.07,
+    "or_high": 601.28,
+    "or_low": 592.07,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "KLAC",
+    "at": "11:30",
+    "price": 162.62,
+    "or_high": 162.13,
+    "or_low": 157.52,
+    "pct_over": 0.31
    }
   ],
-  "n_hits": 99,
+  "n_hits": 103,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,26 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794414600,
+   "et": "2026-11-11 11:30",
+   "kind": "busy",
+   "text": "2 more breakouts (CAT, KLAC) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CAT",
+    "KLAC"
+   ]
+  },
+  {
+   "ts": 1794414300,
+   "et": "2026-11-11 11:25",
+   "kind": "busy",
+   "text": "2 more breakouts (ADBE, MSTR) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "MSTR"
+   ]
+  },
   {
    "ts": 1794414000,
    "et": "2026-11-11 11:20",
@@ -1821,26 +1841,6 @@
    "symbols": [
     "DG",
     "HD"
-   ]
-  },
-  {
-   "ts": 1794242400,
-   "et": "2026-11-09 11:40",
-   "kind": "busy",
-   "text": "2 more breakouts (COST, XOM) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "COST",
-    "XOM"
-   ]
-  },
-  {
-   "ts": 1794242100,
-   "et": "2026-11-09 11:35",
-   "kind": "busy",
-   "text": "2 more breakouts (DHR, JNJ) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "DHR",
-    "JNJ"
    ]
   }
  ],
@@ -4304,6 +4304,11 @@
    "ts": 1794414353,
    "equity": 9426.37,
    "spy": 9982.05
+  },
+  {
+   "ts": 1794414667,
+   "equity": 9433.12,
+   "spy": 9993.5
   }
  ],
  "daily": [
@@ -4351,6 +4356,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794414667,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 14.2,
+   "errors": [],
+   "run_id": "43059072113",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794414353,
    "phase": "open",
@@ -4740,25 +4755,15 @@
    "errors": [],
    "run_id": "42893936723",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794341590,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.4,
-   "errors": [],
-   "run_id": "42892859465",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1794414353,
+  "tick_at": 1794414667,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794414364,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794414680,
+  "candidates": 40,
+  "charts_fetched": 42,
   "ok": true,
   "errors": [],
   "stale_data": false,

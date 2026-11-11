@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794414000,
+  "last_bar_end": 1794414600,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 99,
+  "triggers_seen": 103,
   "missed": [
    "AAL",
    "BA",
@@ -484,7 +484,11 @@
    "GOOGL",
    "ADI",
    "MDT",
-   "DIS"
+   "DIS",
+   "ADBE",
+   "MSTR",
+   "CAT",
+   "KLAC"
   ],
   "triggered": [
    "AAPL",
@@ -585,7 +589,11 @@
    "GOOGL",
    "ADI",
    "MDT",
-   "DIS"
+   "DIS",
+   "ADBE",
+   "MSTR",
+   "CAT",
+   "KLAC"
   ],
   "hits": [
    {
@@ -1379,6 +1387,38 @@
     "or_high": 119.21,
     "or_low": 118.25,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:25",
+    "price": 238.26,
+    "or_high": 237.68,
+    "or_low": 234.84,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "MSTR",
+    "at": "11:25",
+    "price": 123.84,
+    "or_high": 123.63,
+    "or_low": 120.34,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "CAT",
+    "at": "11:30",
+    "price": 602.07,
+    "or_high": 601.28,
+    "or_low": 592.07,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "KLAC",
+    "at": "11:30",
+    "price": 162.62,
+    "or_high": 162.13,
+    "or_low": 157.52,
+    "pct_over": 0.31
    }
   ]
  },
@@ -1386,8 +1426,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 758.4199829101562,
-  "last_ts": 1794414000
+  "last": 759.2899780273438,
+  "last_ts": 1794414600
  },
  "seen_trades": 0,
  "daily": [
