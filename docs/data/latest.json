@@ -1,21 +1,21 @@
 {
- "updated": 1794416251,
- "updated_et": "2026-11-11 11:57 ET",
+ "updated": 1794416565,
+ "updated_et": "2026-11-11 12:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9435.87,
-  "return": -0.056412999999999935,
+  "equity": 9436.82,
+  "return": -0.05631799999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9999.16,
-  "return": -8.399999999997299e-05,
+  "value": 10004.1,
+  "return": 0.00041000000000002146,
   "start_price": 759.47998046875,
-  "last": 759.719970703125
+  "last": 760.094970703125
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "BLK",
-    "at": "10:00",
-    "price": 1236.12,
-    "or_high": 1234.93,
-    "or_low": 1220.95,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "C",
-    "at": "10:00",
-    "price": 123.65,
-    "or_high": 123.58,
-    "or_low": 122.44,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "COP",
-    "at": "10:00",
-    "price": 136.73,
-    "or_high": 136.71,
-    "or_low": 135.43,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "CVX",
-    "at": "10:00",
-    "price": 212.47,
-    "or_high": 212.32,
-    "or_low": 210.88,
-    "pct_over": 0.07
-   },
    {
     "symbol": "DE",
     "at": "10:00",
@@ -516,9 +484,41 @@
     "or_high": 415.25,
     "or_low": 409.63,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "AVGO",
+    "at": "12:00",
+    "price": 354.73,
+    "or_high": 354.5,
+    "or_low": 348.3,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "NFLX",
+    "at": "12:00",
+    "price": 63.79,
+    "or_high": 63.75,
+    "or_low": 62.75,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "QCOM",
+    "at": "12:00",
+    "price": 179.07,
+    "or_high": 178.99,
+    "or_low": 175.66,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TXN",
+    "at": "12:00",
+    "price": 313.08,
+    "or_high": 312.93,
+    "or_low": 306.33,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 109,
+  "n_hits": 113,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794416400,
+   "et": "2026-11-11 12:00",
+   "kind": "busy",
+   "text": "4 more breakouts (AVGO, NFLX, QCOM, TXN) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "NFLX",
+    "QCOM",
+    "TXN"
+   ]
+  },
   {
    "ts": 1794415800,
    "et": "2026-11-11 11:50",
@@ -1832,17 +1844,6 @@
    "text": "1 more breakout (DOCU) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "DOCU"
-   ]
-  },
-  {
-   "ts": 1794244200,
-   "et": "2026-11-09 12:10",
-   "kind": "busy",
-   "text": "3 more breakouts (ENPH, TJX, W) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "ENPH",
-    "TJX",
-    "W"
    ]
   }
  ],
@@ -4336,6 +4337,11 @@
    "ts": 1794416251,
    "equity": 9435.87,
    "spy": 9999.16
+  },
+  {
+   "ts": 1794416565,
+   "equity": 9436.82,
+   "spy": 10004.1
   }
  ],
  "daily": [
@@ -4383,6 +4389,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794416565,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.3,
+   "errors": [],
+   "run_id": "43064229069",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794416251,
    "phase": "open",
@@ -4772,25 +4788,15 @@
    "errors": [],
    "run_id": "42899059316",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794343479,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.7,
-   "errors": [],
-   "run_id": "42898225095",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794416251,
+  "tick_at": 1794416565,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794416263,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794416577,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,

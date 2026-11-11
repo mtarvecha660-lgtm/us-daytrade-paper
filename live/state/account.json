@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794416100,
+  "last_bar_end": 1794416400,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 109,
+  "triggers_seen": 113,
   "missed": [
    "AAL",
    "BA",
@@ -494,7 +494,11 @@
    "ROST",
    "SLB",
    "UBER",
-   "TSM"
+   "TSM",
+   "AVGO",
+   "NFLX",
+   "QCOM",
+   "TXN"
   ],
   "triggered": [
    "AAPL",
@@ -605,7 +609,11 @@
    "ROST",
    "SLB",
    "UBER",
-   "TSM"
+   "TSM",
+   "AVGO",
+   "NFLX",
+   "QCOM",
+   "TXN"
   ],
   "hits": [
    {
@@ -1479,6 +1487,38 @@
     "or_high": 415.25,
     "or_low": 409.63,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "AVGO",
+    "at": "12:00",
+    "price": 354.73,
+    "or_high": 354.5,
+    "or_low": 348.3,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "NFLX",
+    "at": "12:00",
+    "price": 63.79,
+    "or_high": 63.75,
+    "or_low": 62.75,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "QCOM",
+    "at": "12:00",
+    "price": 179.07,
+    "or_high": 178.99,
+    "or_low": 175.66,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TXN",
+    "at": "12:00",
+    "price": 313.08,
+    "or_high": 312.93,
+    "or_low": 306.33,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1486,8 +1526,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 759.719970703125,
-  "last_ts": 1794416100
+  "last": 760.094970703125,
+  "last_ts": 1794416400
  },
  "seen_trades": 0,
  "daily": [
