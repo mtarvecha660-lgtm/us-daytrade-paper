@@ -236,3 +236,4 @@
 {"ts": 1794408600, "et": "2026-11-11 09:50", "kind": "fill", "text": "BUY 19 AAPL filled at $353.75 (next bar's open $353.68 + slippage). Stop $351.38, target $355.98", "symbol": "AAPL"}
 {"ts": 1794408900, "et": "2026-11-11 09:55", "kind": "busy", "text": "12 more breakouts (AAL, BA, BX, DUOL, DVN, GE, HPQ, KKR ...) not taken: already in AAPL (one trade at a time)", "symbols": ["AAL", "BA", "BX", "DUOL", "DVN", "GE", "HPQ", "KKR", "MU", "NOC", "TTD", "XOM"]}
 {"ts": 1794409200, "et": "2026-11-11 10:00", "kind": "busy", "text": "11 more breakouts (APO, BLK, C, COP, CVX, DE, NXPI, PNC ...) not taken: already in AAPL (one trade at a time)", "symbols": ["APO", "BLK", "C", "COP", "CVX", "DE", "NXPI", "PNC", "RDDT", "UPST", "V"]}
+{"ts": 1794409500, "et": "2026-11-11 10:05", "kind": "busy", "text": "3 more breakouts (GME, INTC, STX) not taken: already in AAPL (one trade at a time)", "symbols": ["GME", "INTC", "STX"]}

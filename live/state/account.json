@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794409200,
+  "last_bar_end": 1794409500,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 59,
+  "triggers_seen": 62,
   "missed": [
    "AAL",
    "BA",
@@ -444,7 +444,10 @@
    "PNC",
    "RDDT",
    "UPST",
-   "V"
+   "V",
+   "GME",
+   "INTC",
+   "STX"
   ],
   "triggered": [
    "AAPL",
@@ -505,7 +508,10 @@
    "PNC",
    "RDDT",
    "UPST",
-   "V"
+   "V",
+   "GME",
+   "INTC",
+   "STX"
   ],
   "hits": [
    {
@@ -979,6 +985,30 @@
     "or_high": 421.66,
     "or_low": 416.43,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "GME",
+    "at": "10:05",
+    "price": 25.57,
+    "or_high": 25.55,
+    "or_low": 25.15,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "INTC",
+    "at": "10:05",
+    "price": 62.48,
+    "or_high": 62.24,
+    "or_low": 60.96,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "STX",
+    "at": "10:05",
+    "price": 547.76,
+    "or_high": 546.91,
+    "or_low": 533.14,
+    "pct_over": 0.15
    }
   ]
  },
@@ -986,8 +1016,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.3499755859375,
-  "last_ts": 1794409200
+  "last": 756.3800048828125,
+  "last_ts": 1794409500
  },
  "seen_trades": 0,
  "daily": [

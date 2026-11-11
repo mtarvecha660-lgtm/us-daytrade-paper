@@ -1,21 +1,21 @@
 {
- "updated": 1794409323,
- "updated_et": "2026-11-11 10:02 ET",
+ "updated": 1794409638,
+ "updated_et": "2026-11-11 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9423.33,
-  "return": -0.057667000000000024,
+  "equity": 9420.01,
+  "return": -0.05799900000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9954.8,
-  "return": -0.0045200000000000795,
+  "value": 9955.2,
+  "return": -0.0044799999999999285,
   "start_price": 759.47998046875,
-  "last": 756.3499755859375
+  "last": 756.3800048828125
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "AAPL",
-    "at": "09:50",
-    "price": 353.68,
-    "or_high": 353.43,
-    "or_low": 349.33,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "ABT",
-    "at": "09:50",
-    "price": 110.15,
-    "or_high": 110.1,
-    "or_low": 109.0,
-    "pct_over": 0.05
-   },
    {
     "symbol": "AEP",
     "at": "09:50",
@@ -508,9 +492,33 @@
     "or_high": 421.66,
     "or_low": 416.43,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "GME",
+    "at": "10:05",
+    "price": 25.57,
+    "or_high": 25.55,
+    "or_low": 25.15,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "INTC",
+    "at": "10:05",
+    "price": 62.48,
+    "or_high": 62.24,
+    "or_low": 60.96,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "STX",
+    "at": "10:05",
+    "price": 547.76,
+    "or_high": 546.91,
+    "or_low": 533.14,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 59,
+  "n_hits": 62,
   "entries": 1,
   "max_trades": 3
  },
@@ -911,6 +919,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794409500,
+   "et": "2026-11-11 10:05",
+   "kind": "busy",
+   "text": "3 more breakouts (GME, INTC, STX) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "GME",
+    "INTC",
+    "STX"
+   ]
+  },
   {
    "ts": 1794409200,
    "et": "2026-11-11 10:00",
@@ -1813,18 +1832,6 @@
     "NU",
     "PEP",
     "RIOT"
-   ]
-  },
-  {
-   "ts": 1794237300,
-   "et": "2026-11-09 10:15",
-   "kind": "busy",
-   "text": "4 more breakouts (BIIB, FANG, MELI, SBUX) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "BIIB",
-    "FANG",
-    "MELI",
-    "SBUX"
    ]
   }
  ],
@@ -4208,6 +4215,11 @@
    "ts": 1794409323,
    "equity": 9423.33,
    "spy": 9954.8
+  },
+  {
+   "ts": 1794409638,
+   "equity": 9420.01,
+   "spy": 9955.2
   }
  ],
  "daily": [
@@ -4255,6 +4267,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794409638,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 21.9,
+   "errors": [],
+   "run_id": "43045109963",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794409323,
    "phase": "open",
@@ -4644,25 +4666,15 @@
    "errors": [],
    "run_id": "42879851351",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794336544,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.2,
-   "errors": [],
-   "run_id": "42878977077",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794409323,
+  "tick_at": 1794409638,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794409340,
-  "candidates": 58,
-  "charts_fetched": 60,
+  "yahoo_time": 1794409658,
+  "candidates": 44,
+  "charts_fetched": 46,
   "ok": true,
   "errors": [],
   "stale_data": false,
