@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794420000,
+  "last_bar_end": 1794420300,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 127,
+  "triggers_seen": 129,
   "missed": [
    "AAL",
    "BA",
@@ -512,7 +512,9 @@
    "CHPT",
    "CVNA",
    "MMM",
-   "PANW"
+   "PANW",
+   "BKNG",
+   "CMG"
   ],
   "triggered": [
    "AAPL",
@@ -641,7 +643,9 @@
    "CHPT",
    "CVNA",
    "MMM",
-   "PANW"
+   "PANW",
+   "BKNG",
+   "CMG"
   ],
   "hits": [
    {
@@ -1659,6 +1663,22 @@
     "or_high": 341.16,
     "or_low": 334.32,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "BKNG",
+    "at": "13:05",
+    "price": 160.69,
+    "or_high": 159.33,
+    "or_low": 156.78,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "CMG",
+    "at": "13:05",
+    "price": 36.06,
+    "or_high": 36.05,
+    "or_low": 35.63,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1666,8 +1686,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.1699829101562,
-  "last_ts": 1794420000
+  "last": 760.8099975585938,
+  "last_ts": 1794420300
  },
  "seen_trades": 0,
  "daily": [

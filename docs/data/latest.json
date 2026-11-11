@@ -1,21 +1,21 @@
 {
- "updated": 1794420337,
- "updated_et": "2026-11-11 13:05 ET",
+ "updated": 1794420652,
+ "updated_et": "2026-11-11 13:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9442.68,
-  "return": -0.055732000000000004,
+  "equity": 9445.08,
+  "return": -0.055491999999999986,
   "started": 1793559735
  },
  "spy": {
-  "value": 10018.24,
-  "return": 0.0018240000000000478,
+  "value": 10013.51,
+  "return": 0.0013510000000001021,
   "start_price": 759.47998046875,
-  "last": 761.1699829101562
+  "last": 760.8099975585938
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "SMCI",
-    "at": "10:20",
-    "price": 29.93,
-    "or_high": 29.8,
-    "or_low": 29.17,
-    "pct_over": 0.44
-   },
-   {
-    "symbol": "FANG",
-    "at": "10:25",
-    "price": 180.43,
-    "or_high": 180.35,
-    "or_low": 177.82,
-    "pct_over": 0.04
-   },
    {
     "symbol": "HAL",
     "at": "10:25",
@@ -516,9 +500,25 @@
     "or_high": 341.16,
     "or_low": 334.32,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "BKNG",
+    "at": "13:05",
+    "price": 160.69,
+    "or_high": 159.33,
+    "or_low": 156.78,
+    "pct_over": 0.85
+   },
+   {
+    "symbol": "CMG",
+    "at": "13:05",
+    "price": 36.06,
+    "or_high": 36.05,
+    "or_low": 35.63,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 127,
+  "n_hits": 129,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794420300,
+   "et": "2026-11-11 13:05",
+   "kind": "busy",
+   "text": "2 more breakouts (BKNG, CMG) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "BKNG",
+    "CMG"
+   ]
+  },
   {
    "ts": 1794419100,
    "et": "2026-11-11 12:45",
@@ -1841,15 +1851,6 @@
    "symbols": [
     "MA",
     "Z"
-   ]
-  },
-  {
-   "ts": 1794246900,
-   "et": "2026-11-09 12:55",
-   "kind": "busy",
-   "text": "1 more breakout (REGN) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "REGN"
    ]
   }
  ],
@@ -4408,6 +4409,11 @@
    "ts": 1794420337,
    "equity": 9442.68,
    "spy": 10018.24
+  },
+  {
+   "ts": 1794420652,
+   "equity": 9445.08,
+   "spy": 10013.51
   }
  ],
  "daily": [
@@ -4455,6 +4461,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794420652,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.8,
+   "errors": [],
+   "run_id": "43075242558",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794420337,
    "phase": "open",
@@ -4844,25 +4860,15 @@
    "errors": [],
    "run_id": "43041652751",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794408062,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 6.8,
-   "errors": [],
-   "run_id": "43040781092",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794420337,
+  "tick_at": 1794420652,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794420348,
-  "candidates": 35,
-  "charts_fetched": 37,
+  "yahoo_time": 1794420665,
+  "candidates": 32,
+  "charts_fetched": 34,
   "ok": true,
   "errors": [],
   "stale_data": false,
