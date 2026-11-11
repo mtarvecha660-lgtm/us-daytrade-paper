@@ -1,21 +1,21 @@
 {
- "updated": 1794425361,
- "updated_et": "2026-11-11 14:29 ET",
+ "updated": 1794425673,
+ "updated_et": "2026-11-11 14:34 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9450.4,
-  "return": -0.05496000000000001,
+  "equity": 9446.41,
+  "return": -0.05535900000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 10003.17,
-  "return": 0.0003169999999999007,
+  "value": 10007.32,
+  "return": 0.0007319999999999549,
   "start_price": 759.47998046875,
-  "last": 760.0250244140625
+  "last": 760.3400268554688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "COIN",
-    "at": "10:40",
-    "price": 136.73,
-    "or_high": 136.3,
-    "or_low": 132.87,
-    "pct_over": 0.32
-   },
    {
     "symbol": "BIDU",
     "at": "10:45",
@@ -516,9 +508,17 @@
     "or_high": 142.28,
     "or_low": 140.53,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "COF",
+    "at": "14:30",
+    "price": 197.29,
+    "or_high": 196.99,
+    "or_low": 194.0,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 141,
+  "n_hits": 142,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794425400,
+   "et": "2026-11-11 14:30",
+   "kind": "busy",
+   "text": "1 more breakout (COF) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "COF"
+   ]
+  },
   {
    "ts": 1794424800,
    "et": "2026-11-11 14:20",
@@ -1838,19 +1847,6 @@
     "CCL",
     "DAL",
     "LUV"
-   ]
-  },
-  {
-   "ts": 1794253200,
-   "et": "2026-11-09 14:40",
-   "kind": "busy",
-   "text": "5 more breakouts (AAL, BIDU, META, NCLH, XPEV) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "AAL",
-    "BIDU",
-    "META",
-    "NCLH",
-    "XPEV"
    ]
   }
  ],
@@ -4489,6 +4485,11 @@
    "ts": 1794425361,
    "equity": 9450.4,
    "spy": 10003.17
+  },
+  {
+   "ts": 1794425673,
+   "equity": 9446.41,
+   "spy": 10007.32
   }
  ],
  "daily": [
@@ -4536,6 +4537,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794425673,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.4,
+   "errors": [],
+   "run_id": "43088450411",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794425361,
    "phase": "open",
@@ -4925,25 +4936,15 @@
    "errors": [],
    "run_id": "43055583889",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794413100,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.6,
-   "errors": [],
-   "run_id": "43054705838",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794425361,
+  "tick_at": 1794425673,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794425370,
-  "candidates": 23,
-  "charts_fetched": 25,
+  "yahoo_time": 1794425680,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
