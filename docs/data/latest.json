@@ -1,21 +1,21 @@
 {
- "updated": 1794413100,
- "updated_et": "2026-11-11 11:05 ET",
+ "updated": 1794413413,
+ "updated_et": "2026-11-11 11:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9424.57,
-  "return": -0.05754300000000001,
+  "equity": 9424.95,
+  "return": -0.05750499999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9985.74,
-  "return": -0.0014260000000000383,
+  "value": 9983.1,
+  "return": -0.0016899999999999693,
   "start_price": 759.47998046875,
-  "last": 758.7000122070312
+  "last": 758.5
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "ZTS",
-    "at": "09:50",
-    "price": 81.76,
-    "or_high": 81.58,
-    "or_low": 80.93,
-    "pct_over": 0.22
-   },
    {
     "symbol": "AAL",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 265.66,
     "or_low": 256.36,
     "pct_over": 0.39
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "11:05",
+    "price": 291.85,
+    "or_high": 291.84,
+    "or_low": 289.56,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 95,
+  "n_hits": 96,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794413100,
+   "et": "2026-11-11 11:05",
+   "kind": "busy",
+   "text": "1 more breakout (GOOGL) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "GOOGL"
+   ]
+  },
   {
    "ts": 1794412800,
    "et": "2026-11-11 11:00",
@@ -1832,15 +1841,6 @@
    "text": "1 more breakout (EOG) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "EOG"
-   ]
-  },
-  {
-   "ts": 1794241200,
-   "et": "2026-11-09 11:20",
-   "kind": "busy",
-   "text": "1 more breakout (AEP) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "AEP"
    ]
   }
  ],
@@ -4284,6 +4284,11 @@
    "ts": 1794413100,
    "equity": 9424.57,
    "spy": 9985.74
+  },
+  {
+   "ts": 1794413413,
+   "equity": 9424.95,
+   "spy": 9983.1
   }
  ],
  "daily": [
@@ -4331,6 +4336,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794413413,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.8,
+   "errors": [],
+   "run_id": "43055583889",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794413100,
    "phase": "open",
@@ -4720,23 +4735,13 @@
    "errors": [],
    "run_id": "42890378383",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794340325,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.4,
-   "errors": [],
-   "run_id": "42889514025",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794413100,
+  "tick_at": 1794413413,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794413112,
+  "yahoo_time": 1794413426,
   "candidates": 34,
   "charts_fetched": 36,
   "ok": true,
