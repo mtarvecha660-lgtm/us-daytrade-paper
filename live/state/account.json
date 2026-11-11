@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794418800,
+  "last_bar_end": 1794419100,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 123,
+  "triggers_seen": 127,
   "missed": [
    "AAL",
    "BA",
@@ -508,7 +508,11 @@
    "CHWY",
    "UPS",
    "NCLH",
-   "SEDG"
+   "SEDG",
+   "CHPT",
+   "CVNA",
+   "MMM",
+   "PANW"
   ],
   "triggered": [
    "AAPL",
@@ -633,7 +637,11 @@
    "CHWY",
    "UPS",
    "NCLH",
-   "SEDG"
+   "SEDG",
+   "CHPT",
+   "CVNA",
+   "MMM",
+   "PANW"
   ],
   "hits": [
    {
@@ -1619,6 +1627,38 @@
     "or_high": 27.01,
     "or_low": 25.83,
     "pct_over": 0.23
+   },
+   {
+    "symbol": "CHPT",
+    "at": "12:45",
+    "price": 12.85,
+    "or_high": 12.83,
+    "or_low": 12.48,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "CVNA",
+    "at": "12:45",
+    "price": 73.28,
+    "or_high": 73.11,
+    "or_low": 71.6,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "MMM",
+    "at": "12:45",
+    "price": 189.96,
+    "or_high": 189.9,
+    "or_low": 188.46,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "PANW",
+    "at": "12:45",
+    "price": 341.27,
+    "or_high": 341.16,
+    "or_low": 334.32,
+    "pct_over": 0.03
    }
   ]
  },
@@ -1626,8 +1666,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.1599731445312,
-  "last_ts": 1794418800
+  "last": 761.2100219726562,
+  "last_ts": 1794419100
  },
  "seen_trades": 0,
  "daily": [
