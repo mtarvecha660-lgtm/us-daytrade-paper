@@ -1,21 +1,21 @@
 {
- "updated": 1794420652,
- "updated_et": "2026-11-11 13:10 ET",
+ "updated": 1794420968,
+ "updated_et": "2026-11-11 13:16 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9445.08,
-  "return": -0.055491999999999986,
+  "equity": 9444.9,
+  "return": -0.05551000000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 10013.51,
-  "return": 0.0013510000000001021,
+  "value": 10019.95,
+  "return": 0.001994999999999969,
   "start_price": 759.47998046875,
-  "last": 760.8099975585938
+  "last": 761.2999877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "HAL",
-    "at": "10:25",
-    "price": 32.73,
-    "or_high": 32.67,
-    "or_low": 32.1,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "VLO",
-    "at": "10:25",
-    "price": 361.01,
-    "or_high": 360.0,
-    "or_low": 352.54,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "AMAT",
-    "at": "10:30",
-    "price": 393.37,
-    "or_high": 393.25,
-    "or_low": 385.71,
-    "pct_over": 0.03
-   },
    {
     "symbol": "AMD",
     "at": "10:30",
@@ -516,9 +492,33 @@
     "or_high": 36.05,
     "or_low": 35.63,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "ABBV",
+    "at": "13:15",
+    "price": 292.39,
+    "or_high": 292.2,
+    "or_low": 290.38,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "LULU",
+    "at": "13:15",
+    "price": 108.92,
+    "or_high": 108.53,
+    "or_low": 106.82,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "W",
+    "at": "13:15",
+    "price": 114.53,
+    "or_high": 114.43,
+    "or_low": 112.67,
+    "pct_over": 0.08
    }
   ],
-  "n_hits": 129,
+  "n_hits": 132,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794420900,
+   "et": "2026-11-11 13:15",
+   "kind": "busy",
+   "text": "3 more breakouts (ABBV, LULU, W) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ABBV",
+    "LULU",
+    "W"
+   ]
+  },
   {
    "ts": 1794420300,
    "et": "2026-11-11 13:05",
@@ -1841,16 +1852,6 @@
     "CMCSA",
     "DIS",
     "MMM"
-   ]
-  },
-  {
-   "ts": 1794247200,
-   "et": "2026-11-09 13:00",
-   "kind": "busy",
-   "text": "2 more breakouts (MA, Z) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "MA",
-    "Z"
    ]
   }
  ],
@@ -4414,6 +4415,11 @@
    "ts": 1794420652,
    "equity": 9445.08,
    "spy": 10013.51
+  },
+  {
+   "ts": 1794420968,
+   "equity": 9444.9,
+   "spy": 10019.95
   }
  ],
  "daily": [
@@ -4461,6 +4467,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794420968,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 16.4,
+   "errors": [],
+   "run_id": "43076099594",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794420652,
    "phase": "open",
@@ -4850,25 +4866,15 @@
    "errors": [],
    "run_id": "43042523608",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794408380,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.0,
-   "errors": [],
-   "run_id": "43041652751",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794420652,
+  "tick_at": 1794420968,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794420665,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794420979,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
