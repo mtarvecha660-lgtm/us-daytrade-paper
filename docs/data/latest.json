@@ -1,6 +1,6 @@
 {
- "updated": 1794408380,
- "updated_et": "2026-11-11 09:46 ET",
+ "updated": 1794408694,
+ "updated_et": "2026-11-11 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,335 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9951.65,
-  "return": -0.004835000000000034,
+  "value": 9946.38,
+  "return": -0.005362000000000089,
   "start_price": 759.47998046875,
-  "last": 756.1099853515625
+  "last": 755.7100219726562
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "AAPL",
+  "qty": 19,
+  "plan": {
+   "symbol": "AAPL",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-11",
+   "entry_time": "9:50 AM",
+   "entry": 353.68,
+   "stop": 351.38,
+   "target": 355.98,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "AAPL: the 09:45 bar closed at $353.68, above the 15-min opening range high $353.43 (range 349.33-353.43)",
+   "exit": "plan: entry $353.68, stop $351.38 (opening-range midpoint), target $355.98 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 2.30 = $43.70 at the stop) (limits: max loss 43; position cap 19; max order 22; cash 23)",
+   "risk": "trader-risk PASS: entry 353.68 (the latest price), stop 351.38, target 355.98: risk 2.30 a share; max loss $43.70 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1794408600,
+  "late": false
+ },
  "today": {
   "date": "2026-11-11",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "AAPL",
+    "at": "09:50",
+    "price": 353.68,
+    "or_high": 353.43,
+    "or_low": 349.33,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "ABT",
+    "at": "09:50",
+    "price": 110.15,
+    "or_high": 110.1,
+    "or_low": 109.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "AEP",
+    "at": "09:50",
+    "price": 128.59,
+    "or_high": 128.48,
+    "or_low": 127.37,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "AFRM",
+    "at": "09:50",
+    "price": 67.57,
+    "or_high": 67.35,
+    "or_low": 65.82,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "BBY",
+    "at": "09:50",
+    "price": 105.61,
+    "or_high": 105.37,
+    "or_low": 102.65,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "BSX",
+    "at": "09:50",
+    "price": 44.96,
+    "or_high": 44.7,
+    "or_low": 43.87,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:50",
+    "price": 134.89,
+    "or_high": 134.0,
+    "or_low": 130.25,
+    "pct_over": 0.66
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:50",
+    "price": 24.76,
+    "or_high": 24.72,
+    "or_low": 24.4,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "CRM",
+    "at": "09:50",
+    "price": 215.54,
+    "or_high": 215.24,
+    "or_low": 213.63,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "DAL",
+    "at": "09:50",
+    "price": 91.92,
+    "or_high": 91.86,
+    "or_low": 91.06,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DOCU",
+    "at": "09:50",
+    "price": 78.22,
+    "or_high": 78.13,
+    "or_low": 77.27,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "DXCM",
+    "at": "09:50",
+    "price": 80.15,
+    "or_high": 79.99,
+    "or_low": 78.93,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ETSY",
+    "at": "09:50",
+    "price": 87.03,
+    "or_high": 86.85,
+    "or_low": 85.36,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "GILD",
+    "at": "09:50",
+    "price": 170.17,
+    "or_high": 170.14,
+    "or_low": 168.37,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "IDXX",
+    "at": "09:50",
+    "price": 700.3,
+    "or_high": 699.28,
+    "or_low": 680.0,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "JNJ",
+    "at": "09:50",
+    "price": 278.46,
+    "or_high": 278.38,
+    "or_low": 276.67,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "KO",
+    "at": "09:50",
+    "price": 96.71,
+    "or_high": 96.61,
+    "or_low": 95.65,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "LMT",
+    "at": "09:50",
+    "price": 604.42,
+    "or_high": 603.97,
+    "or_low": 597.49,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "LOW",
+    "at": "09:50",
+    "price": 229.8,
+    "or_high": 229.79,
+    "or_low": 227.33,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "LUV",
+    "at": "09:50",
+    "price": 46.3,
+    "or_high": 46.24,
+    "or_low": 45.6,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 17.38,
+    "or_high": 17.26,
+    "or_low": 16.63,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "PATH",
+    "at": "09:50",
+    "price": 13.01,
+    "or_high": 12.98,
+    "or_low": 12.86,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "PDD",
+    "at": "09:50",
+    "price": 79.28,
+    "or_high": 79.16,
+    "or_low": 78.16,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "PFE",
+    "at": "09:50",
+    "price": 29.2,
+    "or_high": 29.18,
+    "or_low": 28.95,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:50",
+    "price": 19.09,
+    "or_high": 19.03,
+    "or_low": 18.69,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:50",
+    "price": 58.96,
+    "or_high": 58.86,
+    "or_low": 57.85,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "REGN",
+    "at": "09:50",
+    "price": 908.16,
+    "or_high": 907.7,
+    "or_low": 900.03,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:50",
+    "price": 5.19,
+    "or_high": 5.15,
+    "or_low": 5.0,
+    "pct_over": 0.78
+   },
+   {
+    "symbol": "SONY",
+    "at": "09:50",
+    "price": 26.42,
+    "or_high": 26.41,
+    "or_low": 26.25,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:50",
+    "price": 602.91,
+    "or_high": 602.69,
+    "or_low": 596.29,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:50",
+    "price": 85.15,
+    "or_high": 84.5,
+    "or_low": 83.15,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "T",
+    "at": "09:50",
+    "price": 22.05,
+    "or_high": 22.0,
+    "or_low": 21.84,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 34.22,
+    "or_high": 34.09,
+    "or_low": 33.45,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "VZ",
+    "at": "09:50",
+    "price": 46.36,
+    "or_high": 46.26,
+    "or_low": 45.95,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:50",
+    "price": 94.57,
+    "or_high": 94.5,
+    "or_low": 92.01,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "ZTS",
+    "at": "09:50",
+    "price": 81.76,
+    "or_high": 81.58,
+    "or_low": 80.93,
+    "pct_over": 0.22
+   }
+  ],
+  "n_hits": 36,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 19 AAPL at the next bar's open (signal at 09:50 ET). Then: stop $351.38, target $355.98.",
  "stats": {
   "trades": 15,
   "wins": 4,
@@ -423,6 +737,57 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794408600,
+   "et": "2026-11-11 09:50",
+   "kind": "order",
+   "text": "BUY 19 AAPL at market (decided on the 09:50 close). opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 2.30 = $43.70 at the stop) (limits: max loss 43; position cap 19; max order 22; cash 23)",
+   "symbol": "AAPL",
+   "why": {
+    "scanner": "AAPL: the 09:45 bar closed at $353.68, above the 15-min opening range high $353.43 (range 349.33-353.43)",
+    "exit": "plan: entry $353.68, stop $351.38 (opening-range midpoint), target $355.98 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 2.30 = $43.70 at the stop) (limits: max loss 43; position cap 19; max order 22; cash 23)",
+    "risk": "trader-risk PASS: entry 353.68 (the latest price), stop 351.38, target 355.98: risk 2.30 a share; max loss $43.70 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "VZ",
+    "KO",
+    "JNJ",
+    "PFE",
+    "CRM",
+    "REGN",
+    "T",
+    "GILD",
+    "SPOT",
+    "BSX",
+    "PDD",
+    "CMCSA",
+    "ZM",
+    "PYPL",
+    "ABT",
+    "LOW",
+    "DAL",
+    "AFRM",
+    "TOST",
+    "CHTR",
+    "LMT",
+    "AEP",
+    "SNAP",
+    "ZTS",
+    "BBY",
+    "SWKS",
+    "IDXX",
+    "LYFT",
+    "DXCM",
+    "ETSY",
+    "LUV",
+    "PINS",
+    "SONY",
+    "PATH",
+    "DOCU"
+   ]
+  },
   {
    "ts": 1794343200,
    "et": "2026-11-10 15:40",
@@ -1285,33 +1650,6 @@
     "GM",
     "NET",
     "RIVN"
-   ]
-  },
-  {
-   "ts": 1794236100,
-   "et": "2026-11-09 09:55",
-   "kind": "busy",
-   "text": "19 more breakouts (AVGO, CHPT, CPNG, DVN, HUM, IDXX, IONQ, KKR ...) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "AVGO",
-    "CHPT",
-    "CPNG",
-    "DVN",
-    "HUM",
-    "IDXX",
-    "IONQ",
-    "KKR",
-    "LLY",
-    "LYFT",
-    "MCHP",
-    "NXPI",
-    "PNC",
-    "PYPL",
-    "QBTS",
-    "RBLX",
-    "SWKS",
-    "TSLA",
-    "TXN"
    ]
   }
  ],
@@ -3680,6 +4018,11 @@
    "ts": 1794408380,
    "equity": 9427.63,
    "spy": 9951.65
+  },
+  {
+   "ts": 1794408694,
+   "equity": 9427.63,
+   "spy": 9946.38
   }
  ],
  "daily": [
@@ -3727,6 +4070,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794408694,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 26.6,
+   "errors": [],
+   "run_id": "43042523608",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794408380,
    "phase": "open",
@@ -4116,29 +4469,19 @@
    "errors": [],
    "run_id": "42877236013",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794335604,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.5,
-   "errors": [],
-   "run_id": "42876354066",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794408380,
+  "tick_at": 1794408694,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794408385,
-  "candidates": 2,
-  "charts_fetched": 3,
+  "yahoo_time": 1794408718,
+  "candidates": 92,
+  "charts_fetched": 93,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
