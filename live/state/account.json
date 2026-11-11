@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794422700,
+  "last_bar_end": 1794423000,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 139,
+  "triggers_seen": 140,
   "missed": [
    "AAL",
    "BA",
@@ -524,7 +524,8 @@
    "LLY",
    "MELI",
    "CCL",
-   "ENPH"
+   "ENPH",
+   "RTX"
   ],
   "triggered": [
    "AAPL",
@@ -665,7 +666,8 @@
    "LLY",
    "MELI",
    "CCL",
-   "ENPH"
+   "ENPH",
+   "RTX"
   ],
   "hits": [
    {
@@ -1779,6 +1781,14 @@
     "or_high": 28.48,
     "or_low": 27.75,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "RTX",
+    "at": "13:50",
+    "price": 200.56,
+    "or_high": 200.51,
+    "or_low": 198.35,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1786,8 +1796,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 762.364990234375,
-  "last_ts": 1794422700
+  "last": 762.239990234375,
+  "last_ts": 1794423000
  },
  "seen_trades": 0,
  "daily": [
