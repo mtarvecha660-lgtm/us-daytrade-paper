@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794408900,
+  "last_bar_end": 1794409200,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 48,
+  "triggers_seen": 59,
   "missed": [
    "AAL",
    "BA",
@@ -433,7 +433,18 @@
    "MU",
    "NOC",
    "TTD",
-   "XOM"
+   "XOM",
+   "APO",
+   "BLK",
+   "C",
+   "COP",
+   "CVX",
+   "DE",
+   "NXPI",
+   "PNC",
+   "RDDT",
+   "UPST",
+   "V"
   ],
   "triggered": [
    "AAPL",
@@ -483,7 +494,18 @@
    "MU",
    "NOC",
    "TTD",
-   "XOM"
+   "XOM",
+   "APO",
+   "BLK",
+   "C",
+   "COP",
+   "CVX",
+   "DE",
+   "NXPI",
+   "PNC",
+   "RDDT",
+   "UPST",
+   "V"
   ],
   "hits": [
    {
@@ -869,6 +891,94 @@
     "or_high": 165.68,
     "or_low": 164.46,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "APO",
+    "at": "10:00",
+    "price": 125.07,
+    "or_high": 125.0,
+    "or_low": 123.01,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:00",
+    "price": 1236.12,
+    "or_high": 1234.93,
+    "or_low": 1220.95,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "C",
+    "at": "10:00",
+    "price": 123.65,
+    "or_high": 123.58,
+    "or_low": 122.44,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "COP",
+    "at": "10:00",
+    "price": 136.73,
+    "or_high": 136.71,
+    "or_low": 135.43,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "CVX",
+    "at": "10:00",
+    "price": 212.47,
+    "or_high": 212.32,
+    "or_low": 210.88,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "DE",
+    "at": "10:00",
+    "price": 691.05,
+    "or_high": 689.5,
+    "or_low": 680.66,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:00",
+    "price": 267.34,
+    "or_high": 267.0,
+    "or_low": 263.04,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "PNC",
+    "at": "10:00",
+    "price": 232.5,
+    "or_high": 232.43,
+    "or_low": 230.35,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 101.95,
+    "or_high": 101.4,
+    "or_low": 99.65,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "UPST",
+    "at": "10:00",
+    "price": 21.08,
+    "or_high": 21.0,
+    "or_low": 20.42,
+    "pct_over": 0.38
+   },
+   {
+    "symbol": "V",
+    "at": "10:00",
+    "price": 421.88,
+    "or_high": 421.66,
+    "or_low": 416.43,
+    "pct_over": 0.05
    }
   ]
  },
@@ -876,8 +986,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.8900146484375,
-  "last_ts": 1794408900
+  "last": 756.3499755859375,
+  "last_ts": 1794409200
  },
  "seen_trades": 0,
  "daily": [
