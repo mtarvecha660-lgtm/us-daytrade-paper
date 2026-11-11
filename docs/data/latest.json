@@ -1,21 +1,21 @@
 {
- "updated": 1794427567,
- "updated_et": "2026-11-11 15:06 ET",
+ "updated": 1794427879,
+ "updated_et": "2026-11-11 15:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9442.9,
-  "return": -0.05571000000000004,
+  "equity": 9448.5,
+  "return": -0.05515000000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 10008.44,
-  "return": 0.0008440000000000669,
+  "value": 10005.74,
+  "return": 0.0005740000000000745,
   "start_price": 759.47998046875,
-  "last": 760.4249877929688
+  "last": 760.2199096679688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "EXPE",
-    "at": "11:00",
-    "price": 255.96,
-    "or_high": 255.75,
-    "or_low": 248.43,
-    "pct_over": 0.08
-   },
    {
     "symbol": "GS",
     "at": "11:00",
@@ -516,9 +508,17 @@
     "or_high": 167.49,
     "or_low": 165.88,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "MA",
+    "at": "15:10",
+    "price": 658.6,
+    "or_high": 658.44,
+    "or_low": 646.26,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 150,
+  "n_hits": 151,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794427800,
+   "et": "2026-11-11 15:10",
+   "kind": "busy",
+   "text": "1 more breakout (MA) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "MA"
+   ]
+  },
   {
    "ts": 1794427500,
    "et": "2026-11-11 15:05",
@@ -1817,41 +1826,6 @@
    "kind": "fill",
    "text": "BUY 20 AVGO filled at $325.66 (next bar's open $325.59 + slippage). Stop $320.76, target $330.48",
    "symbol": "AVGO"
-  },
-  {
-   "ts": 1794322200,
-   "et": "2026-11-10 09:50",
-   "kind": "order",
-   "text": "BUY 20 AVGO at market (decided on the 09:50 close). opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
-   "symbol": "AVGO",
-   "why": {
-    "scanner": "AVGO: the 09:45 bar closed at $325.62, above the 15-min opening range high $324.83 (range 316.69-324.83)",
-    "exit": "plan: entry $325.62, stop $320.76 (opening-range midpoint), target $330.48 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on AVGO: 20 shares, bound by your $100 max loss per trade (20 x 4.86 = $97.20 at the stop) (limits: max loss 20; position cap 21; max order 24; cash 25)",
-    "risk": "trader-risk PASS: entry 325.62 (the plan's entry), stop 320.76, target 330.48: risk 4.86 a share; max loss $97.20 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "TSM",
-    "XOM",
-    "CRWD",
-    "PANW",
-    "CVX",
-    "COP",
-    "WFC",
-    "NXPI",
-    "PSX",
-    "SLB",
-    "EBAY",
-    "EXPE",
-    "HAL",
-    "DVN",
-    "ZS",
-    "EOG",
-    "FANG",
-    "BB",
-    "ZM"
-   ]
   }
  ],
  "equity": [
@@ -4524,6 +4498,11 @@
    "ts": 1794427567,
    "equity": 9442.9,
    "spy": 10008.44
+  },
+  {
+   "ts": 1794427879,
+   "equity": 9448.5,
+   "spy": 10005.74
   }
  ],
  "daily": [
@@ -4571,6 +4550,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794427879,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.8,
+   "errors": [],
+   "run_id": "43094106141",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794427567,
    "phase": "open",
@@ -4960,25 +4949,15 @@
    "errors": [],
    "run_id": "43061659595",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794415303,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 17.3,
-   "errors": [],
-   "run_id": "43060811366",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794427567,
+  "tick_at": 1794427879,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794427575,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794427887,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,
