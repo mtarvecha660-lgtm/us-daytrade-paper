@@ -1,21 +1,21 @@
 {
- "updated": 1794410270,
- "updated_et": "2026-11-11 10:17 ET",
+ "updated": 1794410580,
+ "updated_et": "2026-11-11 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9417.73,
-  "return": -0.05822700000000003,
+  "equity": 9424.95,
+  "return": -0.05750499999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9942.7,
-  "return": -0.005729999999999902,
+  "value": 9951.65,
+  "return": -0.004835000000000034,
   "start_price": 759.47998046875,
-  "last": 755.4299926757812
+  "last": 756.1099243164062
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "CHTR",
-    "at": "09:50",
-    "price": 134.89,
-    "or_high": 134.0,
-    "or_low": 130.25,
-    "pct_over": 0.66
-   },
-   {
-    "symbol": "CMCSA",
-    "at": "09:50",
-    "price": 24.76,
-    "or_high": 24.72,
-    "or_low": 24.4,
-    "pct_over": 0.18
-   },
    {
     "symbol": "CRM",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 392.67,
     "or_low": 386.35,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "DELL",
+    "at": "10:20",
+    "price": 368.62,
+    "or_high": 368.35,
+    "or_low": 359.51,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:20",
+    "price": 29.93,
+    "or_high": 29.8,
+    "or_low": 29.17,
+    "pct_over": 0.44
    }
   ],
-  "n_hits": 66,
+  "n_hits": 68,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794410400,
+   "et": "2026-11-11 10:20",
+   "kind": "busy",
+   "text": "2 more breakouts (DELL, SMCI) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DELL",
+    "SMCI"
+   ]
+  },
   {
    "ts": 1794410100,
    "et": "2026-11-11 10:15",
@@ -1821,16 +1831,6 @@
    "text": "1 more breakout (UAL) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "UAL"
-   ]
-  },
-  {
-   "ts": 1794238200,
-   "et": "2026-11-09 10:30",
-   "kind": "busy",
-   "text": "2 more breakouts (LULU, OXY) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "LULU",
-    "OXY"
    ]
   }
  ],
@@ -4229,6 +4229,11 @@
    "ts": 1794410270,
    "equity": 9417.73,
    "spy": 9942.7
+  },
+  {
+   "ts": 1794410580,
+   "equity": 9424.95,
+   "spy": 9951.65
   }
  ],
  "daily": [
@@ -4276,6 +4281,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794410580,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.4,
+   "errors": [],
+   "run_id": "43047779551",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794410270,
    "phase": "open",
@@ -4665,25 +4680,15 @@
    "errors": [],
    "run_id": "42882488018",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794337491,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.2,
-   "errors": [],
-   "run_id": "42881605693",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794410270,
+  "tick_at": 1794410580,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794410282,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794410592,
+  "candidates": 39,
+  "charts_fetched": 41,
   "ok": true,
   "errors": [],
   "stale_data": false,
