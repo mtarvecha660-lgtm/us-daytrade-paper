@@ -1,21 +1,21 @@
 {
- "updated": 1794424108,
- "updated_et": "2026-11-11 14:08 ET",
+ "updated": 1794424423,
+ "updated_et": "2026-11-11 14:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9448.5,
-  "return": -0.05515000000000003,
+  "equity": 9444.13,
+  "return": -0.05558700000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 10022.32,
-  "return": 0.0022320000000000118,
+  "value": 10007.58,
+  "return": 0.0007580000000000364,
   "start_price": 759.47998046875,
-  "last": 761.47998046875
+  "last": 760.3599853515625
  },
  "position": {
   "symbol": "AAPL",
@@ -4470,6 +4470,11 @@
    "ts": 1794424108,
    "equity": 9448.5,
    "spy": 10022.32
+  },
+  {
+   "ts": 1794424423,
+   "equity": 9444.13,
+   "spy": 10007.58
   }
  ],
  "daily": [
@@ -4517,6 +4522,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794424423,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.0,
+   "errors": [],
+   "run_id": "43085192184",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794424108,
    "phase": "open",
@@ -4906,25 +4921,15 @@
    "errors": [],
    "run_id": "43052115524",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794411842,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 17.0,
-   "errors": [],
-   "run_id": "43051251960",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794424108,
+  "tick_at": 1794424423,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794424116,
-  "candidates": 26,
-  "charts_fetched": 28,
+  "yahoo_time": 1794424431,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
