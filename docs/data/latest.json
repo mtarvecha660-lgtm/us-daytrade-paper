@@ -1,21 +1,21 @@
 {
- "updated": 1794421596,
- "updated_et": "2026-11-11 13:26 ET",
+ "updated": 1794421914,
+ "updated_et": "2026-11-11 13:31 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9451.16,
-  "return": -0.054884000000000044,
+  "equity": 9450.97,
+  "return": -0.054903000000000035,
   "started": 1793559735
  },
  "spy": {
-  "value": 10027.85,
-  "return": 0.0027850000000000374,
+  "value": 10030.48,
+  "return": 0.0030479999999999396,
   "start_price": 759.47998046875,
-  "last": 761.9000244140625
+  "last": 762.0999755859375
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "OXY",
-    "at": "10:30",
-    "price": 57.42,
-    "or_high": 57.4,
-    "or_low": 56.67,
-    "pct_over": 0.03
-   },
    {
     "symbol": "WDC",
     "at": "10:30",
@@ -516,9 +508,17 @@
     "or_high": 1502.82,
     "or_low": 1465.06,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "CCL",
+    "at": "13:30",
+    "price": 31.06,
+    "or_high": 31.02,
+    "or_low": 30.59,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 137,
+  "n_hits": 138,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794421800,
+   "et": "2026-11-11 13:30",
+   "kind": "busy",
+   "text": "1 more breakout (CCL) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CCL"
+   ]
+  },
   {
    "ts": 1794421500,
    "et": "2026-11-11 13:25",
@@ -1844,15 +1853,6 @@
    "symbols": [
     "MRK",
     "TGT"
-   ]
-  },
-  {
-   "ts": 1794248700,
-   "et": "2026-11-09 13:25",
-   "kind": "busy",
-   "text": "1 more breakout (DUK) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "DUK"
    ]
   }
  ],
@@ -4431,6 +4431,11 @@
    "ts": 1794421596,
    "equity": 9451.16,
    "spy": 10027.85
+  },
+  {
+   "ts": 1794421914,
+   "equity": 9450.97,
+   "spy": 10030.48
   }
  ],
  "daily": [
@@ -4478,6 +4483,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794421914,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.2,
+   "errors": [],
+   "run_id": "43078608012",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794421596,
    "phase": "open",
@@ -4867,25 +4882,15 @@
    "errors": [],
    "run_id": "43045109963",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794409323,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 17.7,
-   "errors": [],
-   "run_id": "43044233143",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794421596,
+  "tick_at": 1794421914,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794421605,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794421923,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
