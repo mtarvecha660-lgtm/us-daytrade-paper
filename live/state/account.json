@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794411900,
+  "last_bar_end": 1794412200,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 84,
+  "triggers_seen": 87,
   "missed": [
    "AAL",
    "BA",
@@ -469,7 +469,10 @@
    "AI",
    "COIN",
    "BIDU",
-   "CSCO"
+   "CSCO",
+   "ASML",
+   "HOOD",
+   "LRCX"
   ],
   "triggered": [
    "AAPL",
@@ -555,7 +558,10 @@
    "AI",
    "COIN",
    "BIDU",
-   "CSCO"
+   "CSCO",
+   "ASML",
+   "HOOD",
+   "LRCX"
   ],
   "hits": [
    {
@@ -1229,6 +1235,30 @@
     "or_high": 101.4,
     "or_low": 99.9,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:50",
+    "price": 1545.63,
+    "or_high": 1544.67,
+    "or_low": 1523.76,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:50",
+    "price": 84.44,
+    "or_high": 84.43,
+    "or_low": 82.3,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:50",
+    "price": 236.8,
+    "or_high": 236.1,
+    "or_low": 231.46,
+    "pct_over": 0.3
    }
   ]
  },
@@ -1236,8 +1266,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.4550170898438,
-  "last_ts": 1794411900
+  "last": 757.5499877929688,
+  "last_ts": 1794412200
  },
  "seen_trades": 0,
  "daily": [

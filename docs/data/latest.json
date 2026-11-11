@@ -1,21 +1,21 @@
 {
- "updated": 1794412157,
- "updated_et": "2026-11-11 10:49 ET",
+ "updated": 1794412472,
+ "updated_et": "2026-11-11 10:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9427.26,
-  "return": -0.057273999999999936,
+  "equity": 9417.92,
+  "return": -0.05820800000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9969.35,
-  "return": -0.0030649999999999844,
+  "value": 9970.6,
+  "return": -0.0029399999999999427,
   "start_price": 759.47998046875,
-  "last": 757.4550170898438
+  "last": 757.5499877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "PINS",
-    "at": "09:50",
-    "price": 19.09,
-    "or_high": 19.03,
-    "or_low": 18.69,
-    "pct_over": 0.37
-   },
-   {
-    "symbol": "PYPL",
-    "at": "09:50",
-    "price": 58.96,
-    "or_high": 58.86,
-    "or_low": 57.85,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "REGN",
-    "at": "09:50",
-    "price": 908.16,
-    "or_high": 907.7,
-    "or_low": 900.03,
-    "pct_over": 0.05
-   },
    {
     "symbol": "SNAP",
     "at": "09:50",
@@ -516,9 +492,33 @@
     "or_high": 101.4,
     "or_low": 99.9,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:50",
+    "price": 1545.63,
+    "or_high": 1544.67,
+    "or_low": 1523.76,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:50",
+    "price": 84.44,
+    "or_high": 84.43,
+    "or_low": 82.3,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:50",
+    "price": 236.8,
+    "or_high": 236.1,
+    "or_low": 231.46,
+    "pct_over": 0.3
    }
   ],
-  "n_hits": 84,
+  "n_hits": 87,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794412200,
+   "et": "2026-11-11 10:50",
+   "kind": "busy",
+   "text": "3 more breakouts (ASML, HOOD, LRCX) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ASML",
+    "HOOD",
+    "LRCX"
+   ]
+  },
   {
    "ts": 1794411900,
    "et": "2026-11-11 10:45",
@@ -1824,15 +1835,6 @@
    "text": "1 more breakout (UBER) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "UBER"
-   ]
-  },
-  {
-   "ts": 1794240300,
-   "et": "2026-11-09 11:05",
-   "kind": "busy",
-   "text": "1 more breakout (HAL) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "HAL"
    ]
   }
  ],
@@ -4261,6 +4263,11 @@
    "ts": 1794412157,
    "equity": 9427.26,
    "spy": 9969.35
+  },
+  {
+   "ts": 1794412472,
+   "equity": 9417.92,
+   "spy": 9970.6
   }
  ],
  "daily": [
@@ -4308,6 +4315,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794412472,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.9,
+   "errors": [],
+   "run_id": "43052974105",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794412157,
    "phase": "open",
@@ -4697,29 +4714,19 @@
    "errors": [],
    "run_id": "42887765940",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794339381,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.9,
-   "errors": [],
-   "run_id": "42886907509",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794412157,
+  "tick_at": 1794412472,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794412173,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1794412483,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
