@@ -272,3 +272,4 @@
 {"ts": 1794425400, "et": "2026-11-11 14:30", "kind": "busy", "text": "1 more breakout (COF) not taken: already in AAPL (one trade at a time)", "symbols": ["COF"]}
 {"ts": 1794425700, "et": "2026-11-11 14:35", "kind": "busy", "text": "3 more breakouts (CVS, TMUS, VRTX) not taken: already in AAPL (one trade at a time)", "symbols": ["CVS", "TMUS", "VRTX"]}
 {"ts": 1794426000, "et": "2026-11-11 14:40", "kind": "busy", "text": "1 more breakout (NU) not taken: already in AAPL (one trade at a time)", "symbols": ["NU"]}
+{"ts": 1794426600, "et": "2026-11-11 14:50", "kind": "busy", "text": "2 more breakouts (DPZ, MPC) not taken: already in AAPL (one trade at a time)", "symbols": ["DPZ", "MPC"]}

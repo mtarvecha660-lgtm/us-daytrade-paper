@@ -1,21 +1,21 @@
 {
- "updated": 1794426626,
- "updated_et": "2026-11-11 14:50 ET",
+ "updated": 1794426944,
+ "updated_et": "2026-11-11 14:55 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9446.7,
-  "return": -0.05532999999999988,
+  "equity": 9446.03,
+  "return": -0.05539699999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 10010.35,
-  "return": 0.0010350000000001192,
+  "value": 10011.4,
+  "return": 0.0011399999999999189,
   "start_price": 759.47998046875,
-  "last": 760.5700073242188
+  "last": 760.6500244140625
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "LRCX",
-    "at": "10:50",
-    "price": 236.8,
-    "or_high": 236.1,
-    "or_low": 231.46,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "NVDA",
-    "at": "10:55",
-    "price": 175.61,
-    "or_high": 175.13,
-    "or_low": 171.82,
-    "pct_over": 0.27
-   },
    {
     "symbol": "ORCL",
     "at": "10:55",
@@ -516,9 +500,25 @@
     "or_high": 12.2,
     "or_low": 12.07,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "DPZ",
+    "at": "14:50",
+    "price": 326.55,
+    "or_high": 326.5,
+    "or_low": 320.6,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MPC",
+    "at": "14:50",
+    "price": 398.93,
+    "or_high": 398.61,
+    "or_low": 391.21,
+    "pct_over": 0.08
    }
   ],
-  "n_hits": 146,
+  "n_hits": 148,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794426600,
+   "et": "2026-11-11 14:50",
+   "kind": "busy",
+   "text": "2 more breakouts (DPZ, MPC) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DPZ",
+    "MPC"
+   ]
+  },
   {
    "ts": 1794426000,
    "et": "2026-11-11 14:40",
@@ -1839,15 +1849,6 @@
    "kind": "exit",
    "text": "SELL 24 NVDA at $177.96: flat by 15:55 ET (the skill's flat-by rule). P&L $+12.69 (+0.13R)",
    "symbol": "NVDA"
-  },
-  {
-   "ts": 1794256200,
-   "et": "2026-11-09 15:30",
-   "kind": "busy",
-   "text": "1 more breakout (LI) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "LI"
-   ]
   }
  ],
  "equity": [
@@ -4505,6 +4506,11 @@
    "ts": 1794426626,
    "equity": 9446.7,
    "spy": 10010.35
+  },
+  {
+   "ts": 1794426944,
+   "equity": 9446.03,
+   "spy": 10011.4
   }
  ],
  "daily": [
@@ -4552,6 +4558,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794426944,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.0,
+   "errors": [],
+   "run_id": "43091677101",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794426626,
    "phase": "open",
@@ -4941,25 +4957,15 @@
    "errors": [],
    "run_id": "43059072113",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794414353,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.9,
-   "errors": [],
-   "run_id": "43058225565",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794426626,
+  "tick_at": 1794426944,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794426635,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1794426952,
+  "candidates": 25,
+  "charts_fetched": 27,
   "ok": true,
   "errors": [],
   "stale_data": false,

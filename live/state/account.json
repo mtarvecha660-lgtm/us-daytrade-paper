@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794426300,
+  "last_bar_end": 1794426600,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 146,
+  "triggers_seen": 148,
   "missed": [
    "AAL",
    "BA",
@@ -531,7 +531,9 @@
    "CVS",
    "TMUS",
    "VRTX",
-   "NU"
+   "NU",
+   "DPZ",
+   "MPC"
   ],
   "triggered": [
    "AAPL",
@@ -679,7 +681,9 @@
    "CVS",
    "TMUS",
    "VRTX",
-   "NU"
+   "NU",
+   "DPZ",
+   "MPC"
   ],
   "hits": [
    {
@@ -1849,6 +1853,22 @@
     "or_high": 12.2,
     "or_low": 12.07,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "DPZ",
+    "at": "14:50",
+    "price": 326.55,
+    "or_high": 326.5,
+    "or_low": 320.6,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MPC",
+    "at": "14:50",
+    "price": 398.93,
+    "or_high": 398.61,
+    "or_low": 391.21,
+    "pct_over": 0.08
    }
   ]
  },
@@ -1856,8 +1876,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.5700073242188,
-  "last_ts": 1794426300
+  "last": 760.6500244140625,
+  "last_ts": 1794426600
  },
  "seen_trades": 0,
  "daily": [
