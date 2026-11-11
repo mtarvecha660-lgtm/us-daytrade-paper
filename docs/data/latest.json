@@ -1,21 +1,21 @@
 {
- "updated": 1794410895,
- "updated_et": "2026-11-11 10:28 ET",
+ "updated": 1794411211,
+ "updated_et": "2026-11-11 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9422.1,
-  "return": -0.05779000000000001,
+  "equity": 9422.29,
+  "return": -0.057770999999999906,
   "started": 1793559735
  },
  "spy": {
-  "value": 9947.99,
-  "return": -0.005201000000000011,
+  "value": 9960.0,
+  "return": -0.0040000000000000036,
   "start_price": 759.47998046875,
-  "last": 755.83251953125
+  "last": 756.7449951171875
  },
  "position": {
   "symbol": "AAPL",
@@ -37,70 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "DXCM",
-    "at": "09:50",
-    "price": 80.15,
-    "or_high": 79.99,
-    "or_low": 78.93,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "ETSY",
-    "at": "09:50",
-    "price": 87.03,
-    "or_high": 86.85,
-    "or_low": 85.36,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "GILD",
-    "at": "09:50",
-    "price": 170.17,
-    "or_high": 170.14,
-    "or_low": 168.37,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "IDXX",
-    "at": "09:50",
-    "price": 700.3,
-    "or_high": 699.28,
-    "or_low": 680.0,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "JNJ",
-    "at": "09:50",
-    "price": 278.46,
-    "or_high": 278.38,
-    "or_low": 276.67,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "KO",
-    "at": "09:50",
-    "price": 96.71,
-    "or_high": 96.61,
-    "or_low": 95.65,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "LMT",
-    "at": "09:50",
-    "price": 604.42,
-    "or_high": 603.97,
-    "or_low": 597.49,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "LOW",
-    "at": "09:50",
-    "price": 229.8,
-    "or_high": 229.79,
-    "or_low": 227.33,
-    "pct_over": 0.0
-   },
    {
     "symbol": "LUV",
     "at": "09:50",
@@ -516,9 +452,73 @@
     "or_high": 360.0,
     "or_low": 352.54,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:30",
+    "price": 393.37,
+    "or_high": 393.25,
+    "or_low": 385.71,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "AMD",
+    "at": "10:30",
+    "price": 543.72,
+    "or_high": 543.28,
+    "or_low": 522.98,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "DDOG",
+    "at": "10:30",
+    "price": 187.5,
+    "or_high": 186.75,
+    "or_low": 183.0,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:30",
+    "price": 62.42,
+    "or_high": 62.41,
+    "or_low": 61.44,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:30",
+    "price": 168.82,
+    "or_high": 168.22,
+    "or_low": 163.6,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "ON",
+    "at": "10:30",
+    "price": 72.71,
+    "or_high": 72.69,
+    "or_low": 70.58,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:30",
+    "price": 57.42,
+    "or_high": 57.4,
+    "or_low": 56.67,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:30",
+    "price": 312.08,
+    "or_high": 310.97,
+    "or_low": 301.71,
+    "pct_over": 0.36
    }
   ],
-  "n_hits": 71,
+  "n_hits": 79,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794411000,
+   "et": "2026-11-11 10:30",
+   "kind": "busy",
+   "text": "8 more breakouts (AMAT, AMD, DDOG, MCHP, MRVL, ON, OXY, WDC) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "AMAT",
+    "AMD",
+    "DDOG",
+    "MCHP",
+    "MRVL",
+    "ON",
+    "OXY",
+    "WDC"
+   ]
+  },
   {
    "ts": 1794410700,
    "et": "2026-11-11 10:25",
@@ -1821,18 +1837,6 @@
     "GILD",
     "JPM",
     "SO"
-   ]
-  },
-  {
-   "ts": 1794238800,
-   "et": "2026-11-09 10:40",
-   "kind": "busy",
-   "text": "4 more breakouts (BBY, GD, MCD, PG) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "BBY",
-    "GD",
-    "MCD",
-    "PG"
    ]
   }
  ],
@@ -4241,6 +4245,11 @@
    "ts": 1794410895,
    "equity": 9422.1,
    "spy": 9947.99
+  },
+  {
+   "ts": 1794411211,
+   "equity": 9422.29,
+   "spy": 9960.0
   }
  ],
  "daily": [
@@ -4288,6 +4297,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794411211,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 21.3,
+   "errors": [],
+   "run_id": "43049509922",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794410895,
    "phase": "open",
@@ -4677,29 +4696,19 @@
    "errors": [],
    "run_id": "42884258005",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794338122,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.3,
-   "errors": [],
-   "run_id": "42883374810",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794410895,
+  "tick_at": 1794411211,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794410905,
-  "candidates": 33,
-  "charts_fetched": 35,
+  "yahoo_time": 1794411232,
+  "candidates": 39,
+  "charts_fetched": 41,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -241,3 +241,4 @@
 {"ts": 1794410100, "et": "2026-11-11 10:15", "kind": "busy", "text": "2 more breakouts (EOG, TSLA) not taken: already in AAPL (one trade at a time)", "symbols": ["EOG", "TSLA"]}
 {"ts": 1794410400, "et": "2026-11-11 10:20", "kind": "busy", "text": "2 more breakouts (DELL, SMCI) not taken: already in AAPL (one trade at a time)", "symbols": ["DELL", "SMCI"]}
 {"ts": 1794410700, "et": "2026-11-11 10:25", "kind": "busy", "text": "3 more breakouts (FANG, HAL, VLO) not taken: already in AAPL (one trade at a time)", "symbols": ["FANG", "HAL", "VLO"]}
+{"ts": 1794411000, "et": "2026-11-11 10:30", "kind": "busy", "text": "8 more breakouts (AMAT, AMD, DDOG, MCHP, MRVL, ON, OXY, WDC) not taken: already in AAPL (one trade at a time)", "symbols": ["AMAT", "AMD", "DDOG", "MCHP", "MRVL", "ON", "OXY", "WDC"]}
