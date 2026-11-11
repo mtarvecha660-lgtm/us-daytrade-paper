@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794425400,
+  "last_bar_end": 1794425700,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 142,
+  "triggers_seen": 145,
   "missed": [
    "AAL",
    "BA",
@@ -527,7 +527,10 @@
    "ENPH",
    "RTX",
    "PEP",
-   "COF"
+   "COF",
+   "CVS",
+   "TMUS",
+   "VRTX"
   ],
   "triggered": [
    "AAPL",
@@ -671,7 +674,10 @@
    "ENPH",
    "RTX",
    "PEP",
-   "COF"
+   "COF",
+   "CVS",
+   "TMUS",
+   "VRTX"
   ],
   "hits": [
    {
@@ -1809,6 +1815,30 @@
     "or_high": 196.99,
     "or_low": 194.0,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "CVS",
+    "at": "14:35",
+    "price": 89.18,
+    "or_high": 89.14,
+    "or_low": 87.9,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TMUS",
+    "at": "14:35",
+    "price": 169.39,
+    "or_high": 169.14,
+    "or_low": 167.88,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "VRTX",
+    "at": "14:35",
+    "price": 545.45,
+    "or_high": 545.32,
+    "or_low": 539.79,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1816,8 +1846,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.3400268554688,
-  "last_ts": 1794425400
+  "last": 760.4550170898438,
+  "last_ts": 1794425700
  },
  "seen_trades": 0,
  "daily": [

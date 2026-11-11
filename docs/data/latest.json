@@ -1,21 +1,21 @@
 {
- "updated": 1794425673,
- "updated_et": "2026-11-11 14:34 ET",
+ "updated": 1794425987,
+ "updated_et": "2026-11-11 14:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9446.41,
-  "return": -0.05535900000000005,
+  "equity": 9450.59,
+  "return": -0.05494100000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 10007.32,
-  "return": 0.0007319999999999549,
+  "value": 10008.83,
+  "return": 0.0008829999999999671,
   "start_price": 759.47998046875,
-  "last": 760.3400268554688
+  "last": 760.4550170898438
  },
  "position": {
   "symbol": "AAPL",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "BIDU",
-    "at": "10:45",
-    "price": 80.4,
-    "or_high": 80.36,
-    "or_low": 79.33,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "CSCO",
-    "at": "10:45",
-    "price": 101.5,
-    "or_high": 101.4,
-    "or_low": 99.9,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "ASML",
-    "at": "10:50",
-    "price": 1545.63,
-    "or_high": 1544.67,
-    "or_low": 1523.76,
-    "pct_over": 0.06
-   },
    {
     "symbol": "HOOD",
     "at": "10:50",
@@ -516,9 +492,33 @@
     "or_high": 196.99,
     "or_low": 194.0,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "CVS",
+    "at": "14:35",
+    "price": 89.18,
+    "or_high": 89.14,
+    "or_low": 87.9,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TMUS",
+    "at": "14:35",
+    "price": 169.39,
+    "or_high": 169.14,
+    "or_low": 167.88,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "VRTX",
+    "at": "14:35",
+    "price": 545.45,
+    "or_high": 545.32,
+    "or_low": 539.79,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 142,
+  "n_hits": 145,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794425700,
+   "et": "2026-11-11 14:35",
+   "kind": "busy",
+   "text": "3 more breakouts (CVS, TMUS, VRTX) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CVS",
+    "TMUS",
+    "VRTX"
+   ]
+  },
   {
    "ts": 1794425400,
    "et": "2026-11-11 14:30",
@@ -1836,17 +1847,6 @@
    "text": "1 more breakout (MSFT) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "MSFT"
-   ]
-  },
-  {
-   "ts": 1794253500,
-   "et": "2026-11-09 14:45",
-   "kind": "busy",
-   "text": "3 more breakouts (CCL, DAL, LUV) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "CCL",
-    "DAL",
-    "LUV"
    ]
   }
  ],
@@ -4490,6 +4490,11 @@
    "ts": 1794425673,
    "equity": 9446.41,
    "spy": 10007.32
+  },
+  {
+   "ts": 1794425987,
+   "equity": 9450.59,
+   "spy": 10008.83
   }
  ],
  "daily": [
@@ -4537,6 +4542,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794425987,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.1,
+   "errors": [],
+   "run_id": "43089245643",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794425673,
    "phase": "open",
@@ -4926,25 +4941,15 @@
    "errors": [],
    "run_id": "43056473194",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794413413,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.8,
-   "errors": [],
-   "run_id": "43055583889",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794425673,
+  "tick_at": 1794425987,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794425680,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1794425996,
+  "candidates": 23,
+  "charts_fetched": 25,
   "ok": true,
   "errors": [],
   "stale_data": false,
