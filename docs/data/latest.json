@@ -1,6 +1,6 @@
 {
- "updated": 1794407431,
- "updated_et": "2026-11-11 09:30 ET",
+ "updated": 1794407747,
+ "updated_et": "2026-11-11 09:35 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -3665,6 +3665,11 @@
    "ts": 1794407431,
    "equity": 9427.63,
    "spy": 9870.97
+  },
+  {
+   "ts": 1794407747,
+   "equity": 9427.63,
+   "spy": 9870.97
   }
  ],
  "daily": [
@@ -3712,6 +3717,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794407747,
+   "phase": "open",
+   "status": "ok",
+   "bars": 0,
+   "secs": 5.5,
+   "errors": [],
+   "run_id": "43039952820",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794407431,
    "phase": "open",
@@ -4101,29 +4116,19 @@
    "errors": [],
    "run_id": "42874570542",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794334658,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.7,
-   "errors": [],
-   "run_id": "42873676572",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794407431,
+  "tick_at": 1794407747,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794407432,
+  "yahoo_time": 1794407752,
   "candidates": 0,
   "charts_fetched": 1,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.0,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
