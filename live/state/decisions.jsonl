@@ -258,3 +258,4 @@
 {"ts": 1794416400, "et": "2026-11-11 12:00", "kind": "busy", "text": "4 more breakouts (AVGO, NFLX, QCOM, TXN) not taken: already in AAPL (one trade at a time)", "symbols": ["AVGO", "NFLX", "QCOM", "TXN"]}
 {"ts": 1794416700, "et": "2026-11-11 12:05", "kind": "busy", "text": "5 more breakouts (BIIB, EBAY, HD, IBM, SHOP) not taken: already in AAPL (one trade at a time)", "symbols": ["BIIB", "EBAY", "HD", "IBM", "SHOP"]}
 {"ts": 1794417000, "et": "2026-11-11 12:10", "kind": "busy", "text": "1 more breakout (YUM) not taken: already in AAPL (one trade at a time)", "symbols": ["YUM"]}
+{"ts": 1794417900, "et": "2026-11-11 12:25", "kind": "busy", "text": "2 more breakouts (CHWY, UPS) not taken: already in AAPL (one trade at a time)", "symbols": ["CHWY", "UPS"]}

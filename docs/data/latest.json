@@ -1,21 +1,21 @@
 {
- "updated": 1794417817,
- "updated_et": "2026-11-11 12:23 ET",
+ "updated": 1794418133,
+ "updated_et": "2026-11-11 12:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9442.9,
-  "return": -0.05571000000000004,
+  "equity": 9443.19,
+  "return": -0.05568099999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 10009.56,
-  "return": 0.0009559999999999569,
+  "value": 10016.66,
+  "return": 0.0016659999999999453,
   "start_price": 759.47998046875,
-  "last": 760.510009765625
+  "last": 761.0499877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "GME",
-    "at": "10:05",
-    "price": 25.57,
-    "or_high": 25.55,
-    "or_low": 25.15,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "INTC",
-    "at": "10:05",
-    "price": 62.48,
-    "or_high": 62.24,
-    "or_low": 60.96,
-    "pct_over": 0.39
-   },
    {
     "symbol": "STX",
     "at": "10:05",
@@ -516,9 +500,25 @@
     "or_high": 159.5,
     "or_low": 156.71,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "CHWY",
+    "at": "12:25",
+    "price": 22.95,
+    "or_high": 22.93,
+    "or_low": 22.45,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "UPS",
+    "at": "12:25",
+    "price": 112.29,
+    "or_high": 112.28,
+    "or_low": 111.13,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 119,
+  "n_hits": 121,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794417900,
+   "et": "2026-11-11 12:25",
+   "kind": "busy",
+   "text": "2 more breakouts (CHWY, UPS) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CHWY",
+    "UPS"
+   ]
+  },
   {
    "ts": 1794417000,
    "et": "2026-11-11 12:10",
@@ -1837,17 +1847,6 @@
    "text": "1 more breakout (LOW) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "LOW"
-   ]
-  },
-  {
-   "ts": 1794245400,
-   "et": "2026-11-09 12:30",
-   "kind": "busy",
-   "text": "3 more breakouts (ADBE, C, SHOP) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "C",
-    "SHOP"
    ]
   }
  ],
@@ -4366,6 +4365,11 @@
    "ts": 1794417817,
    "equity": 9442.9,
    "spy": 10009.56
+  },
+  {
+   "ts": 1794418133,
+   "equity": 9443.19,
+   "spy": 10016.66
   }
  ],
  "daily": [
@@ -4413,6 +4417,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794418133,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.9,
+   "errors": [],
+   "run_id": "43068533747",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794417817,
    "phase": "open",
@@ -4802,25 +4816,15 @@
    "errors": [],
    "run_id": "42903325259",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794345054,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.6,
-   "errors": [],
-   "run_id": "42902456740",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794417817,
+  "tick_at": 1794418133,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794417826,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1794418142,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
