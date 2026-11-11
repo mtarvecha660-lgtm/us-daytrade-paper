@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794411600,
+  "last_bar_end": 1794411900,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 82,
+  "triggers_seen": 84,
   "missed": [
    "AAL",
    "BA",
@@ -467,7 +467,9 @@
    "WDC",
    "PSX",
    "AI",
-   "COIN"
+   "COIN",
+   "BIDU",
+   "CSCO"
   ],
   "triggered": [
    "AAPL",
@@ -551,7 +553,9 @@
    "WDC",
    "PSX",
    "AI",
-   "COIN"
+   "COIN",
+   "BIDU",
+   "CSCO"
   ],
   "hits": [
    {
@@ -1209,6 +1213,22 @@
     "or_high": 136.3,
     "or_low": 132.87,
     "pct_over": 0.32
+   },
+   {
+    "symbol": "BIDU",
+    "at": "10:45",
+    "price": 80.4,
+    "or_high": 80.36,
+    "or_low": 79.33,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "CSCO",
+    "at": "10:45",
+    "price": 101.5,
+    "or_high": 101.4,
+    "or_low": 99.9,
+    "pct_over": 0.1
    }
   ]
  },
@@ -1216,8 +1236,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.9600219726562,
-  "last_ts": 1794411600
+  "last": 757.4550170898438,
+  "last_ts": 1794411900
  },
  "seen_trades": 0,
  "daily": [
