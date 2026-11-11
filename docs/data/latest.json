@@ -1,21 +1,21 @@
 {
- "updated": 1794412786,
- "updated_et": "2026-11-11 10:59 ET",
+ "updated": 1794413100,
+ "updated_et": "2026-11-11 11:05 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9410.98,
-  "return": -0.05890200000000001,
+  "equity": 9424.57,
+  "return": -0.05754300000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9976.26,
-  "return": -0.0023739999999999872,
+  "value": 9985.74,
+  "return": -0.0014260000000000383,
   "start_price": 759.47998046875,
-  "last": 757.97998046875
+  "last": 758.7000122070312
  },
  "position": {
   "symbol": "AAPL",
@@ -37,54 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "SPOT",
-    "at": "09:50",
-    "price": 602.91,
-    "or_high": 602.69,
-    "or_low": 596.29,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "SWKS",
-    "at": "09:50",
-    "price": 85.15,
-    "or_high": 84.5,
-    "or_low": 83.15,
-    "pct_over": 0.77
-   },
-   {
-    "symbol": "T",
-    "at": "09:50",
-    "price": 22.05,
-    "or_high": 22.0,
-    "or_low": 21.84,
-    "pct_over": 0.23
-   },
-   {
-    "symbol": "TOST",
-    "at": "09:50",
-    "price": 34.22,
-    "or_high": 34.09,
-    "or_low": 33.45,
-    "pct_over": 0.4
-   },
-   {
-    "symbol": "VZ",
-    "at": "09:50",
-    "price": 46.36,
-    "or_high": 46.26,
-    "or_low": 45.95,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "ZM",
-    "at": "09:50",
-    "price": 94.57,
-    "or_high": 94.5,
-    "or_low": 92.01,
-    "pct_over": 0.08
-   },
    {
     "symbol": "ZTS",
     "at": "09:50",
@@ -516,9 +468,57 @@
     "or_high": 126.88,
     "or_low": 124.15,
     "pct_over": 0.47
+   },
+   {
+    "symbol": "CLSK",
+    "at": "11:00",
+    "price": 7.12,
+    "or_high": 7.12,
+    "or_low": 6.83,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "EXPE",
+    "at": "11:00",
+    "price": 255.96,
+    "or_high": 255.75,
+    "or_low": 248.43,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "GS",
+    "at": "11:00",
+    "price": 929.46,
+    "or_high": 928.38,
+    "or_low": 912.59,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MARA",
+    "at": "11:00",
+    "price": 7.88,
+    "or_high": 7.85,
+    "or_low": 7.51,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "NET",
+    "at": "11:00",
+    "price": 321.4,
+    "or_high": 321.03,
+    "or_low": 311.55,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "TER",
+    "at": "11:00",
+    "price": 266.69,
+    "or_high": 265.66,
+    "or_low": 256.36,
+    "pct_over": 0.39
    }
   ],
-  "n_hits": 89,
+  "n_hits": 95,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,20 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794412800,
+   "et": "2026-11-11 11:00",
+   "kind": "busy",
+   "text": "6 more breakouts (CLSK, EXPE, GS, MARA, NET, TER) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CLSK",
+    "EXPE",
+    "GS",
+    "MARA",
+    "NET",
+    "TER"
+   ]
+  },
   {
    "ts": 1794412500,
    "et": "2026-11-11 10:55",
@@ -1827,15 +1841,6 @@
    "text": "1 more breakout (AEP) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "AEP"
-   ]
-  },
-  {
-   "ts": 1794240900,
-   "et": "2026-11-09 11:15",
-   "kind": "busy",
-   "text": "1 more breakout (TMO) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "TMO"
    ]
   }
  ],
@@ -4274,6 +4279,11 @@
    "ts": 1794412786,
    "equity": 9410.98,
    "spy": 9976.26
+  },
+  {
+   "ts": 1794413100,
+   "equity": 9424.57,
+   "spy": 9985.74
   }
  ],
  "daily": [
@@ -4321,6 +4331,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794413100,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.6,
+   "errors": [],
+   "run_id": "43054705838",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794412786,
    "phase": "open",
@@ -4710,25 +4730,15 @@
    "errors": [],
    "run_id": "42889514025",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794340013,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.2,
-   "errors": [],
-   "run_id": "42888644887",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794412786,
+  "tick_at": 1794413100,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794412799,
-  "candidates": 32,
-  "charts_fetched": 34,
+  "yahoo_time": 1794413112,
+  "candidates": 34,
+  "charts_fetched": 36,
   "ok": true,
   "errors": [],
   "stale_data": false,
