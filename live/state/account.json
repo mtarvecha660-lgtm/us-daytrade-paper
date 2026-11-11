@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794415200,
+  "last_bar_end": 1794415500,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 103,
+  "triggers_seen": 108,
   "missed": [
    "AAL",
    "BA",
@@ -488,7 +488,12 @@
    "ADBE",
    "MSTR",
    "CAT",
-   "KLAC"
+   "KLAC",
+   "HUM",
+   "RBLX",
+   "ROST",
+   "SLB",
+   "UBER"
   ],
   "triggered": [
    "AAPL",
@@ -593,7 +598,12 @@
    "ADBE",
    "MSTR",
    "CAT",
-   "KLAC"
+   "KLAC",
+   "HUM",
+   "RBLX",
+   "ROST",
+   "SLB",
+   "UBER"
   ],
   "hits": [
    {
@@ -1419,6 +1429,46 @@
     "or_high": 162.13,
     "or_low": 157.52,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "HUM",
+    "at": "11:45",
+    "price": 447.4,
+    "or_high": 447.12,
+    "or_low": 439.23,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "RBLX",
+    "at": "11:45",
+    "price": 52.64,
+    "or_high": 52.6,
+    "or_low": 51.05,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "ROST",
+    "at": "11:45",
+    "price": 239.97,
+    "or_high": 239.91,
+    "or_low": 237.64,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SLB",
+    "at": "11:45",
+    "price": 51.22,
+    "or_high": 51.2,
+    "or_low": 49.9,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "UBER",
+    "at": "11:45",
+    "price": 69.92,
+    "or_high": 69.89,
+    "or_low": 69.01,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1426,8 +1476,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 759.0900268554688,
-  "last_ts": 1794415200
+  "last": 759.2899780273438,
+  "last_ts": 1794415500
  },
  "seen_trades": 0,
  "daily": [
