@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794415500,
+  "last_bar_end": 1794415800,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 108,
+  "triggers_seen": 109,
   "missed": [
    "AAL",
    "BA",
@@ -493,7 +493,8 @@
    "RBLX",
    "ROST",
    "SLB",
-   "UBER"
+   "UBER",
+   "TSM"
   ],
   "triggered": [
    "AAPL",
@@ -603,7 +604,8 @@
    "RBLX",
    "ROST",
    "SLB",
-   "UBER"
+   "UBER",
+   "TSM"
   ],
   "hits": [
    {
@@ -1469,6 +1471,14 @@
     "or_high": 69.89,
     "or_low": 69.01,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "TSM",
+    "at": "11:50",
+    "price": 415.49,
+    "or_high": 415.25,
+    "or_low": 409.63,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1476,8 +1486,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 759.2899780273438,
-  "last_ts": 1794415500
+  "last": 759.6099853515625,
+  "last_ts": 1794415800
  },
  "seen_trades": 0,
  "daily": [

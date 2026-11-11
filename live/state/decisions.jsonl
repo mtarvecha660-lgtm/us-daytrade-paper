@@ -254,3 +254,4 @@
 {"ts": 1794414300, "et": "2026-11-11 11:25", "kind": "busy", "text": "2 more breakouts (ADBE, MSTR) not taken: already in AAPL (one trade at a time)", "symbols": ["ADBE", "MSTR"]}
 {"ts": 1794414600, "et": "2026-11-11 11:30", "kind": "busy", "text": "2 more breakouts (CAT, KLAC) not taken: already in AAPL (one trade at a time)", "symbols": ["CAT", "KLAC"]}
 {"ts": 1794415500, "et": "2026-11-11 11:45", "kind": "busy", "text": "5 more breakouts (HUM, RBLX, ROST, SLB, UBER) not taken: already in AAPL (one trade at a time)", "symbols": ["HUM", "RBLX", "ROST", "SLB", "UBER"]}
+{"ts": 1794415800, "et": "2026-11-11 11:50", "kind": "busy", "text": "1 more breakout (TSM) not taken: already in AAPL (one trade at a time)", "symbols": ["TSM"]}
