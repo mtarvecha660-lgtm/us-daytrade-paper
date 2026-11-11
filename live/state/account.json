@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794416400,
+  "last_bar_end": 1794416700,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 113,
+  "triggers_seen": 118,
   "missed": [
    "AAL",
    "BA",
@@ -498,7 +498,12 @@
    "AVGO",
    "NFLX",
    "QCOM",
-   "TXN"
+   "TXN",
+   "BIIB",
+   "EBAY",
+   "HD",
+   "IBM",
+   "SHOP"
   ],
   "triggered": [
    "AAPL",
@@ -613,7 +618,12 @@
    "AVGO",
    "NFLX",
    "QCOM",
-   "TXN"
+   "TXN",
+   "BIIB",
+   "EBAY",
+   "HD",
+   "IBM",
+   "SHOP"
   ],
   "hits": [
    {
@@ -1519,6 +1529,46 @@
     "or_high": 312.93,
     "or_low": 306.33,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "BIIB",
+    "at": "12:05",
+    "price": 252.29,
+    "or_high": 252.27,
+    "or_low": 249.44,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "EBAY",
+    "at": "12:05",
+    "price": 123.99,
+    "or_high": 123.91,
+    "or_low": 121.94,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HD",
+    "at": "12:05",
+    "price": 348.52,
+    "or_high": 348.43,
+    "or_low": 344.31,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "IBM",
+    "at": "12:05",
+    "price": 245.52,
+    "or_high": 245.2,
+    "or_low": 242.88,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "SHOP",
+    "at": "12:05",
+    "price": 149.81,
+    "or_high": 149.8,
+    "or_low": 147.12,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1526,8 +1576,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.094970703125,
-  "last_ts": 1794416400
+  "last": 760.5,
+  "last_ts": 1794416700
  },
  "seen_trades": 0,
  "daily": [
