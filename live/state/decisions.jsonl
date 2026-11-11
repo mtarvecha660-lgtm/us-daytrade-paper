@@ -250,3 +250,4 @@
 {"ts": 1794412800, "et": "2026-11-11 11:00", "kind": "busy", "text": "6 more breakouts (CLSK, EXPE, GS, MARA, NET, TER) not taken: already in AAPL (one trade at a time)", "symbols": ["CLSK", "EXPE", "GS", "MARA", "NET", "TER"]}
 {"ts": 1794413100, "et": "2026-11-11 11:05", "kind": "busy", "text": "1 more breakout (GOOGL) not taken: already in AAPL (one trade at a time)", "symbols": ["GOOGL"]}
 {"ts": 1794413700, "et": "2026-11-11 11:15", "kind": "busy", "text": "2 more breakouts (ADI, MDT) not taken: already in AAPL (one trade at a time)", "symbols": ["ADI", "MDT"]}
+{"ts": 1794414000, "et": "2026-11-11 11:20", "kind": "busy", "text": "1 more breakout (DIS) not taken: already in AAPL (one trade at a time)", "symbols": ["DIS"]}

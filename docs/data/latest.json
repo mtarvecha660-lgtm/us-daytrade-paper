@@ -1,21 +1,21 @@
 {
- "updated": 1794414041,
- "updated_et": "2026-11-11 11:20 ET",
+ "updated": 1794414353,
+ "updated_et": "2026-11-11 11:25 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9424.38,
-  "return": -0.05756200000000011,
+  "equity": 9426.37,
+  "return": -0.05736299999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9982.37,
-  "return": -0.001762999999999959,
+  "value": 9982.05,
+  "return": -0.001795000000000102,
   "start_price": 759.47998046875,
-  "last": 758.4442138671875
+  "last": 758.4199829101562
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "BX",
-    "at": "09:55",
-    "price": 123.42,
-    "or_high": 122.69,
-    "or_low": 121.63,
-    "pct_over": 0.59
-   },
    {
     "symbol": "DUOL",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 101.0,
     "or_low": 100.02,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "DIS",
+    "at": "11:20",
+    "price": 119.26,
+    "or_high": 119.21,
+    "or_low": 118.25,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 98,
+  "n_hits": 99,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794414000,
+   "et": "2026-11-11 11:20",
+   "kind": "busy",
+   "text": "1 more breakout (DIS) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DIS"
+   ]
+  },
   {
    "ts": 1794413700,
    "et": "2026-11-11 11:15",
@@ -1832,16 +1841,6 @@
    "symbols": [
     "DHR",
     "JNJ"
-   ]
-  },
-  {
-   "ts": 1794241800,
-   "et": "2026-11-09 11:30",
-   "kind": "busy",
-   "text": "2 more breakouts (CVX, GE) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "CVX",
-    "GE"
    ]
   }
  ],
@@ -4300,6 +4299,11 @@
    "ts": 1794414041,
    "equity": 9424.38,
    "spy": 9982.37
+  },
+  {
+   "ts": 1794414353,
+   "equity": 9426.37,
+   "spy": 9982.05
   }
  ],
  "daily": [
@@ -4347,6 +4351,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794414353,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.9,
+   "errors": [],
+   "run_id": "43058225565",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794414041,
    "phase": "open",
@@ -4736,25 +4750,15 @@
    "errors": [],
    "run_id": "42892859465",
    "event": "schedule"
-  },
-  {
-   "ts": 1794341275,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.4,
-   "errors": [],
-   "run_id": "42892149595",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794414041,
+  "tick_at": 1794414353,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794414056,
-  "candidates": 35,
-  "charts_fetched": 37,
+  "yahoo_time": 1794414364,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
