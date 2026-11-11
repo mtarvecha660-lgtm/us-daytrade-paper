@@ -1,21 +1,21 @@
 {
- "updated": 1794427256,
- "updated_et": "2026-11-11 15:00 ET",
+ "updated": 1794427567,
+ "updated_et": "2026-11-11 15:06 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9446.03,
-  "return": -0.05539699999999992,
+  "equity": 9442.9,
+  "return": -0.05571000000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 10013.24,
-  "return": 0.0013239999999998808,
+  "value": 10008.44,
+  "return": 0.0008440000000000669,
   "start_price": 759.47998046875,
-  "last": 760.7899780273438
+  "last": 760.4249877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "ORCL",
-    "at": "10:55",
-    "price": 127.48,
-    "or_high": 126.88,
-    "or_low": 124.15,
-    "pct_over": 0.47
-   },
-   {
-    "symbol": "CLSK",
-    "at": "11:00",
-    "price": 7.12,
-    "or_high": 7.12,
-    "or_low": 6.83,
-    "pct_over": 0.07
-   },
    {
     "symbol": "EXPE",
     "at": "11:00",
@@ -516,9 +500,25 @@
     "or_high": 398.61,
     "or_low": 391.21,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "BAC",
+    "at": "15:05",
+    "price": 50.9,
+    "or_high": 50.87,
+    "or_low": 50.33,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "PG",
+    "at": "15:05",
+    "price": 167.53,
+    "or_high": 167.49,
+    "or_low": 165.88,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 148,
+  "n_hits": 150,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794427500,
+   "et": "2026-11-11 15:05",
+   "kind": "busy",
+   "text": "2 more breakouts (BAC, PG) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "BAC",
+    "PG"
+   ]
+  },
   {
    "ts": 1794426600,
    "et": "2026-11-11 14:50",
@@ -1842,13 +1852,6 @@
     "BB",
     "ZM"
    ]
-  },
-  {
-   "ts": 1794257700,
-   "et": "2026-11-09 15:55",
-   "kind": "exit",
-   "text": "SELL 24 NVDA at $177.96: flat by 15:55 ET (the skill's flat-by rule). P&L $+12.69 (+0.13R)",
-   "symbol": "NVDA"
   }
  ],
  "equity": [
@@ -4516,6 +4519,11 @@
    "ts": 1794427256,
    "equity": 9446.03,
    "spy": 10013.24
+  },
+  {
+   "ts": 1794427567,
+   "equity": 9442.9,
+   "spy": 10008.44
   }
  ],
  "daily": [
@@ -4563,6 +4571,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794427567,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 11.2,
+   "errors": [],
+   "run_id": "43093289528",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794427256,
    "phase": "open",
@@ -4952,25 +4970,15 @@
    "errors": [],
    "run_id": "43060811366",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794414990,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.4,
-   "errors": [],
-   "run_id": "43059945597",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794427256,
+  "tick_at": 1794427567,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794427264,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1794427575,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
