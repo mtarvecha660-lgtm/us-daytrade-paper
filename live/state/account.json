@@ -369,7 +369,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-11",
-  "last_bar_end": 1794420900,
+  "last_bar_end": 1794421200,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -420,7 +420,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 132,
+  "triggers_seen": 136,
   "missed": [
    "AAL",
    "BA",
@@ -517,7 +517,11 @@
    "CMG",
    "ABBV",
    "LULU",
-   "W"
+   "W",
+   "AMGN",
+   "BMY",
+   "JPM",
+   "LLY"
   ],
   "triggered": [
    "AAPL",
@@ -651,7 +655,11 @@
    "CMG",
    "ABBV",
    "LULU",
-   "W"
+   "W",
+   "AMGN",
+   "BMY",
+   "JPM",
+   "LLY"
   ],
   "hits": [
    {
@@ -1709,6 +1717,38 @@
     "or_high": 114.43,
     "or_low": 112.67,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "AMGN",
+    "at": "13:20",
+    "price": 463.71,
+    "or_high": 463.52,
+    "or_low": 459.14,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BMY",
+    "at": "13:20",
+    "price": 62.12,
+    "or_high": 62.11,
+    "or_low": 61.47,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "JPM",
+    "at": "13:20",
+    "price": 343.89,
+    "or_high": 343.84,
+    "or_low": 340.82,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LLY",
+    "at": "13:20",
+    "price": 1427.89,
+    "or_high": 1427.75,
+    "or_low": 1414.37,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1716,8 +1756,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.2999877929688,
-  "last_ts": 1794420900
+  "last": 761.6199951171875,
+  "last_ts": 1794421200
  },
  "seen_trades": 0,
  "daily": [

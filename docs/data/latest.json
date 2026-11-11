@@ -1,21 +1,21 @@
 {
- "updated": 1794420968,
- "updated_et": "2026-11-11 13:16 ET",
+ "updated": 1794421283,
+ "updated_et": "2026-11-11 13:21 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2706.37,
-  "equity": 9444.9,
-  "return": -0.05551000000000006,
+  "equity": 9447.55,
+  "return": -0.0552450000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 10019.95,
-  "return": 0.001994999999999969,
+  "value": 10024.17,
+  "return": 0.0024170000000001135,
   "start_price": 759.47998046875,
-  "last": 761.2999877929688
+  "last": 761.6199951171875
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-11",
   "hits": [
-   {
-    "symbol": "AMD",
-    "at": "10:30",
-    "price": 543.72,
-    "or_high": 543.28,
-    "or_low": 522.98,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "DDOG",
-    "at": "10:30",
-    "price": 187.5,
-    "or_high": 186.75,
-    "or_low": 183.0,
-    "pct_over": 0.4
-   },
-   {
-    "symbol": "MCHP",
-    "at": "10:30",
-    "price": 62.42,
-    "or_high": 62.41,
-    "or_low": 61.44,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "MRVL",
-    "at": "10:30",
-    "price": 168.82,
-    "or_high": 168.22,
-    "or_low": 163.6,
-    "pct_over": 0.36
-   },
    {
     "symbol": "ON",
     "at": "10:30",
@@ -516,9 +484,41 @@
     "or_high": 114.43,
     "or_low": 112.67,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "AMGN",
+    "at": "13:20",
+    "price": 463.71,
+    "or_high": 463.52,
+    "or_low": 459.14,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BMY",
+    "at": "13:20",
+    "price": 62.12,
+    "or_high": 62.11,
+    "or_low": 61.47,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "JPM",
+    "at": "13:20",
+    "price": 343.89,
+    "or_high": 343.84,
+    "or_low": 340.82,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LLY",
+    "at": "13:20",
+    "price": 1427.89,
+    "or_high": 1427.75,
+    "or_low": 1414.37,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 132,
+  "n_hits": 136,
   "entries": 1,
   "max_trades": 3
  },
@@ -919,6 +919,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794421200,
+   "et": "2026-11-11 13:20",
+   "kind": "busy",
+   "text": "4 more breakouts (AMGN, BMY, JPM, LLY) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "AMGN",
+    "BMY",
+    "JPM",
+    "LLY"
+   ]
+  },
   {
    "ts": 1794420900,
    "et": "2026-11-11 13:15",
@@ -1841,17 +1853,6 @@
    "text": "1 more breakout (ABBV) not taken: already in NVDA (one trade at a time)",
    "symbols": [
     "ABBV"
-   ]
-  },
-  {
-   "ts": 1794247500,
-   "et": "2026-11-09 13:05",
-   "kind": "busy",
-   "text": "3 more breakouts (CMCSA, DIS, MMM) not taken: already in NVDA (one trade at a time)",
-   "symbols": [
-    "CMCSA",
-    "DIS",
-    "MMM"
    ]
   }
  ],
@@ -4420,6 +4421,11 @@
    "ts": 1794420968,
    "equity": 9444.9,
    "spy": 10019.95
+  },
+  {
+   "ts": 1794421283,
+   "equity": 9447.55,
+   "spy": 10024.17
   }
  ],
  "daily": [
@@ -4467,6 +4473,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794421283,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.0,
+   "errors": [],
+   "run_id": "43076946219",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794420968,
    "phase": "open",
@@ -4856,25 +4872,15 @@
    "errors": [],
    "run_id": "43043370249",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794408694,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 26.6,
-   "errors": [],
-   "run_id": "43042523608",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794420968,
+  "tick_at": 1794421283,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794420979,
-  "candidates": 36,
-  "charts_fetched": 38,
+  "yahoo_time": 1794421294,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
