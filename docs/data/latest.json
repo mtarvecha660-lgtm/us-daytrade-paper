@@ -1,21 +1,21 @@
 {
- "updated": 1794498261,
- "updated_et": "2026-11-12 10:44 ET",
+ "updated": 1794498576,
+ "updated_et": "2026-11-12 10:49 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9440.01,
-  "return": -0.05599900000000002,
+  "equity": 9450.09,
+  "return": -0.05499100000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9974.15,
-  "return": -0.0025850000000000595,
+  "value": 9983.96,
+  "return": -0.0016040000000000498,
   "start_price": 759.47998046875,
-  "last": 757.8200073242188
+  "last": 758.5650024414062
  },
  "position": {
   "symbol": "DELL",
@@ -436,9 +436,41 @@
     "or_high": 126.1,
     "or_low": 123.05,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:45",
+    "price": 234.77,
+    "or_high": 234.62,
+    "or_low": 227.63,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "MSTR",
+    "at": "10:45",
+    "price": 115.13,
+    "or_high": 115.0,
+    "or_low": 112.32,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "TER",
+    "at": "10:45",
+    "price": 261.66,
+    "or_high": 258.99,
+    "or_low": 250.0,
+    "pct_over": 1.03
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:45",
+    "price": 313.14,
+    "or_high": 311.82,
+    "or_low": 305.77,
+    "pct_over": 0.42
    }
   ],
-  "n_hits": 50,
+  "n_hits": 54,
   "entries": 1,
   "max_trades": 3
  },
@@ -863,6 +895,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794498300,
+   "et": "2026-11-12 10:45",
+   "kind": "busy",
+   "text": "4 more breakouts (LRCX, MSTR, TER, TXN) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "LRCX",
+    "MSTR",
+    "TER",
+    "TXN"
+   ]
+  },
   {
    "ts": 1794498000,
    "et": "2026-11-12 10:40",
@@ -1749,15 +1793,6 @@
    "symbols": [
     "ELV",
     "KKR"
-   ]
-  },
-  {
-   "ts": 1794327900,
-   "et": "2026-11-10 11:25",
-   "kind": "busy",
-   "text": "1 more breakout (CMCSA) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "CMCSA"
    ]
   }
  ],
@@ -4521,6 +4556,11 @@
    "ts": 1794498261,
    "equity": 9440.01,
    "spy": 9974.15
+  },
+  {
+   "ts": 1794498576,
+   "equity": 9450.09,
+   "spy": 9983.96
   }
  ],
  "daily": [
@@ -4574,6 +4614,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794498576,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.5,
+   "errors": [],
+   "run_id": "43251930397",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794498261,
    "phase": "open",
@@ -4963,25 +5013,15 @@
    "errors": [],
    "run_id": "43079449573",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794421914,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.2,
-   "errors": [],
-   "run_id": "43078608012",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794498261,
+  "tick_at": 1794498576,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794498275,
-  "candidates": 40,
-  "charts_fetched": 42,
+  "yahoo_time": 1794498590,
+  "candidates": 39,
+  "charts_fetched": 41,
   "ok": true,
   "errors": [],
   "stale_data": false,

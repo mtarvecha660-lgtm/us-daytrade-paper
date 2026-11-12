@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794498000,
+  "last_bar_end": 1794498300,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 50,
+  "triggers_seen": 54,
   "missed": [
    "ABNB",
    "AMZN",
@@ -468,7 +468,11 @@
    "CDNS",
    "U",
    "YUM",
-   "ORCL"
+   "ORCL",
+   "LRCX",
+   "MSTR",
+   "TER",
+   "TXN"
   ],
   "triggered": [
    "BKNG",
@@ -520,7 +524,11 @@
    "CDNS",
    "U",
    "YUM",
-   "ORCL"
+   "ORCL",
+   "LRCX",
+   "MSTR",
+   "TER",
+   "TXN"
   ],
   "hits": [
    {
@@ -922,6 +930,38 @@
     "or_high": 126.1,
     "or_low": 123.05,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:45",
+    "price": 234.77,
+    "or_high": 234.62,
+    "or_low": 227.63,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "MSTR",
+    "at": "10:45",
+    "price": 115.13,
+    "or_high": 115.0,
+    "or_low": 112.32,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "TER",
+    "at": "10:45",
+    "price": 261.66,
+    "or_high": 258.99,
+    "or_low": 250.0,
+    "pct_over": 1.03
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:45",
+    "price": 313.14,
+    "or_high": 311.82,
+    "or_low": 305.77,
+    "pct_over": 0.42
    }
   ]
  },
@@ -929,8 +969,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.8200073242188,
-  "last_ts": 1794498000
+  "last": 758.5650024414062,
+  "last_ts": 1794498300
  },
  "seen_trades": 0,
  "daily": [
