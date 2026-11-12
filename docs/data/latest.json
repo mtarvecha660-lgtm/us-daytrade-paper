@@ -1,21 +1,21 @@
 {
- "updated": 1794500469,
- "updated_et": "2026-11-12 11:21 ET",
+ "updated": 1794500784,
+ "updated_et": "2026-11-12 11:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9511.51,
-  "return": -0.04884900000000003,
+  "equity": 9506.71,
+  "return": -0.04932900000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 10038.12,
-  "return": 0.0038120000000001486,
+  "value": 10034.83,
+  "return": 0.003482999999999903,
   "start_price": 759.47998046875,
-  "last": 762.6799926757812
+  "last": 762.4299926757812
  },
  "position": {
   "symbol": "DELL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "DDOG",
-    "at": "10:00",
-    "price": 181.88,
-    "or_high": 180.76,
-    "or_low": 176.42,
-    "pct_over": 0.62
-   },
-   {
-    "symbol": "DVN",
-    "at": "10:00",
-    "price": 45.46,
-    "or_high": 45.27,
-    "or_low": 44.9,
-    "pct_over": 0.41
-   },
    {
     "symbol": "MRVL",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 241.42,
     "or_low": 233.01,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "SPOT",
+    "at": "11:25",
+    "price": 609.35,
+    "or_high": 609.28,
+    "or_low": 601.34,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "ZS",
+    "at": "11:25",
+    "price": 191.51,
+    "or_high": 191.38,
+    "or_low": 184.63,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 91,
+  "n_hits": 93,
   "entries": 1,
   "max_trades": 3
  },
@@ -943,6 +943,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794500700,
+   "et": "2026-11-12 11:25",
+   "kind": "busy",
+   "text": "2 more breakouts (SPOT, ZS) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "SPOT",
+    "ZS"
+   ]
+  },
   {
    "ts": 1794500400,
    "et": "2026-11-12 11:20",
@@ -1854,15 +1864,6 @@
    "text": "1 more breakout (LOW) not taken: already in UNH (one trade at a time)",
    "symbols": [
     "LOW"
-   ]
-  },
-  {
-   "ts": 1794330300,
-   "et": "2026-11-10 12:05",
-   "kind": "busy",
-   "text": "1 more breakout (DE) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "DE"
    ]
   }
  ],
@@ -4661,6 +4662,11 @@
    "ts": 1794500469,
    "equity": 9511.51,
    "spy": 10038.12
+  },
+  {
+   "ts": 1794500784,
+   "equity": 9506.71,
+   "spy": 10034.83
   }
  ],
  "daily": [
@@ -4714,6 +4720,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794500784,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.1,
+   "errors": [],
+   "run_id": "43258630658",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794500469,
    "phase": "open",
@@ -5103,29 +5119,19 @@
    "errors": [],
    "run_id": "43085192184",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794424108,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.6,
-   "errors": [],
-   "run_id": "43084354676",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794500469,
+  "tick_at": 1794500784,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794500484,
-  "candidates": 46,
-  "charts_fetched": 48,
+  "yahoo_time": 1794500800,
+  "candidates": 42,
+  "charts_fetched": 44,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
