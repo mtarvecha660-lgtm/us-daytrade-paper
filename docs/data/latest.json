@@ -1,60 +1,42 @@
 {
- "updated": 1794501099,
- "updated_et": "2026-11-12 11:31 ET",
+ "updated": 1794501413,
+ "updated_et": "2026-11-12 11:36 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9559.78,
-  "equity": 9559.78,
-  "return": -0.044021999999999895,
+  "cash": 2482.41,
+  "equity": 9567.65,
+  "return": -0.04323500000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 10027.85,
-  "return": 0.0027850000000000374,
+  "value": 10013.9,
+  "return": 0.0013900000000000023,
   "start_price": 759.47998046875,
-  "last": 761.9000244140625
+  "last": 760.8400268554688
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "XOM",
   "qty": 42,
-  "plan": {
-   "symbol": "XOM",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-12",
-   "entry_time": "11:30 AM",
-   "entry": 168.49,
-   "stop": 167.9,
-   "target": 169.08,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 168.5087,
+  "entry_et": "11:30",
+  "stop": 167.9,
+  "target": 169.08,
+  "last": null,
   "why": {
    "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
    "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
    "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794501000,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "MSFT",
-    "at": "10:00",
-    "price": 525.88,
-    "or_high": 525.83,
-    "or_low": 520.51,
-    "pct_over": 0.01
-   },
    {
     "symbol": "NVDA",
     "at": "10:00",
@@ -526,13 +508,21 @@
     "or_high": 168.46,
     "or_low": 167.34,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "CVX",
+    "at": "11:35",
+    "price": 215.82,
+    "or_high": 215.71,
+    "or_low": 214.12,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 94,
+  "n_hits": 95,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 42 XOM at the next bar's open (signal at 11:30 ET). Then: stop $167.90, target $169.08.",
+ "next_move": "Holding 42 XOM bought at $168.51. It sells at the stop $167.90, the target $169.08, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 17,
   "wins": 6,
@@ -977,6 +967,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794501300,
+   "et": "2026-11-12 11:35",
+   "kind": "busy",
+   "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)",
+   "symbols": [
+    "CVX"
+   ]
+  },
+  {
+   "ts": 1794501000,
+   "et": "2026-11-12 11:30",
+   "kind": "fill",
+   "text": "BUY 42 XOM filled at $168.51 (next bar's open $168.48 + slippage). Stop $167.90, target $169.08",
+   "symbol": "XOM"
+  },
   {
    "ts": 1794501000,
    "et": "2026-11-12 11:30",
@@ -1883,25 +1889,6 @@
     "RTX",
     "SBUX",
     "YUM"
-   ]
-  },
-  {
-   "ts": 1794331500,
-   "et": "2026-11-10 12:25",
-   "kind": "busy",
-   "text": "1 more breakout (MCD) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "MCD"
-   ]
-  },
-  {
-   "ts": 1794331200,
-   "et": "2026-11-10 12:20",
-   "kind": "busy",
-   "text": "2 more breakouts (PG, ROST) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "PG",
-    "ROST"
    ]
   }
  ],
@@ -4710,6 +4697,11 @@
    "ts": 1794501099,
    "equity": 9559.78,
    "spy": 10027.85
+  },
+  {
+   "ts": 1794501413,
+   "equity": 9567.65,
+   "spy": 10013.9
   }
  ],
  "daily": [
@@ -4763,6 +4755,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794501413,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.0,
+   "errors": [],
+   "run_id": "43260550168",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794501099,
    "phase": "open",
@@ -5152,25 +5154,15 @@
    "errors": [],
    "run_id": "43086831156",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794424737,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.2,
-   "errors": [],
-   "run_id": "43086009408",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794501099,
+  "tick_at": 1794501413,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794501114,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1794501426,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,

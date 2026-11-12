@@ -1,5 +1,5 @@
 {
- "cash": 9559.7797,
+ "cash": 2482.4143,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -417,11 +417,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794501000,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794501300,
+  "position": {
    "symbol": "XOM",
    "qty": 42,
+   "entry_fill": 168.5087,
+   "entry_ts": 1794501000,
    "plan": {
     "symbol": "XOM",
     "side": "buy",
@@ -433,7 +434,8 @@
     "target": 169.08,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 168.47500610351562
    },
    "why": {
     "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
@@ -442,9 +444,9 @@
     "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794501000,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -479,11 +481,19 @@
     "kind": "entry",
     "max_loss": 24.78,
     "at": "2026-11-12T11:30:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-12",
+    "symbol": "XOM",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 42
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 94,
+  "triggers_seen": 95,
   "missed": [
    "ABNB",
    "AMZN",
@@ -550,7 +560,8 @@
    "AVGO",
    "MRNA",
    "SPOT",
-   "ZS"
+   "ZS",
+   "CVX"
   ],
   "triggered": [
    "BKNG",
@@ -646,7 +657,8 @@
    "MRNA",
    "SPOT",
    "ZS",
-   "XOM"
+   "XOM",
+   "CVX"
   ],
   "hits": [
    {
@@ -1400,6 +1412,14 @@
     "or_high": 168.46,
     "or_low": 167.34,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "CVX",
+    "at": "11:35",
+    "price": 215.82,
+    "or_high": 215.71,
+    "or_low": 214.12,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1407,8 +1427,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.9000244140625,
-  "last_ts": 1794501000
+  "last": 760.8400268554688,
+  "last_ts": 1794501300
  },
  "seen_trades": 0,
  "daily": [
