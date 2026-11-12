@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794499200,
+  "last_bar_end": 1794499500,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -1149,8 +1149,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.780029296875,
-  "last_ts": 1794499200
+  "last": 760.1599731445312,
+  "last_ts": 1794499500
  },
  "seen_trades": 0,
  "daily": [
