@@ -441,7 +441,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794503700,
+  "last_bar_end": 1794504000,
   "position": {
    "symbol": "GME",
    "qty": 282,
@@ -542,7 +542,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 98,
+  "triggers_seen": 99,
   "missed": [
    "ABNB",
    "AMZN",
@@ -612,7 +612,8 @@
    "ZS",
    "CVX",
    "DXCM",
-   "MRK"
+   "MRK",
+   "JNJ"
   ],
   "triggered": [
    "BKNG",
@@ -712,7 +713,8 @@
    "CVX",
    "GME",
    "DXCM",
-   "MRK"
+   "MRK",
+   "JNJ"
   ],
   "hits": [
    {
@@ -1498,6 +1500,14 @@
     "or_high": 148.8,
     "or_low": 147.1,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "JNJ",
+    "at": "12:20",
+    "price": 285.74,
+    "or_high": 285.48,
+    "or_low": 282.0,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1505,8 +1515,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.3499755859375,
-  "last_ts": 1794503700
+  "last": 760.7949829101562,
+  "last_ts": 1794504000
  },
  "seen_trades": 0,
  "daily": [
