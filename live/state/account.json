@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794499500,
+  "last_bar_end": 1794499800,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 72,
+  "triggers_seen": 84,
   "missed": [
    "ABNB",
    "AMZN",
@@ -490,7 +490,19 @@
    "HOOD",
    "NU",
    "TSM",
-   "TTD"
+   "TTD",
+   "C",
+   "GS",
+   "HPQ",
+   "MARA",
+   "NET",
+   "PATH",
+   "PINS",
+   "PLTR",
+   "QBTS",
+   "RDDT",
+   "RGTI",
+   "SNOW"
   ],
   "triggered": [
    "BKNG",
@@ -564,7 +576,19 @@
    "HOOD",
    "NU",
    "TSM",
-   "TTD"
+   "TTD",
+   "C",
+   "GS",
+   "HPQ",
+   "MARA",
+   "NET",
+   "PATH",
+   "PINS",
+   "PLTR",
+   "QBTS",
+   "RDDT",
+   "RGTI",
+   "SNOW"
   ],
   "hits": [
    {
@@ -1142,6 +1166,102 @@
     "or_high": 15.88,
     "or_low": 15.47,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "C",
+    "at": "11:10",
+    "price": 124.92,
+    "or_high": 124.72,
+    "or_low": 123.34,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "GS",
+    "at": "11:10",
+    "price": 928.39,
+    "or_high": 927.0,
+    "or_low": 916.76,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "HPQ",
+    "at": "11:10",
+    "price": 29.19,
+    "or_high": 29.19,
+    "or_low": 28.66,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MARA",
+    "at": "11:10",
+    "price": 7.62,
+    "or_high": 7.49,
+    "or_low": 7.19,
+    "pct_over": 1.67
+   },
+   {
+    "symbol": "NET",
+    "at": "11:10",
+    "price": 318.33,
+    "or_high": 318.29,
+    "or_low": 305.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PATH",
+    "at": "11:10",
+    "price": 13.07,
+    "or_high": 13.05,
+    "or_low": 12.72,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "PINS",
+    "at": "11:10",
+    "price": 19.23,
+    "or_high": 19.17,
+    "or_low": 18.85,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PLTR",
+    "at": "11:10",
+    "price": 172.14,
+    "or_high": 171.56,
+    "or_low": 168.25,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "QBTS",
+    "at": "11:10",
+    "price": 10.35,
+    "or_high": 10.28,
+    "or_low": 9.94,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "RDDT",
+    "at": "11:10",
+    "price": 102.75,
+    "or_high": 102.12,
+    "or_low": 98.51,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "RGTI",
+    "at": "11:10",
+    "price": 10.94,
+    "or_high": 10.83,
+    "or_low": 10.44,
+    "pct_over": 1.05
+   },
+   {
+    "symbol": "SNOW",
+    "at": "11:10",
+    "price": 298.37,
+    "or_high": 297.0,
+    "or_low": 288.75,
+    "pct_over": 0.46
    }
   ]
  },
@@ -1149,8 +1269,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.1599731445312,
-  "last_ts": 1794499500
+  "last": 762.0650024414062,
+  "last_ts": 1794499800
  },
  "seen_trades": 0,
  "daily": [

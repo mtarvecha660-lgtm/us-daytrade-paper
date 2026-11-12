@@ -1,21 +1,21 @@
 {
- "updated": 1794499836,
- "updated_et": "2026-11-12 11:10 ET",
+ "updated": 1794500154,
+ "updated_et": "2026-11-12 11:15 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9467.79,
-  "return": -0.05322099999999996,
+  "equity": 9516.58,
+  "return": -0.048341999999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 10004.95,
-  "return": 0.0004950000000001342,
+  "value": 10030.02,
+  "return": 0.003001999999999949,
   "start_price": 759.47998046875,
-  "last": 760.1599731445312
+  "last": 762.0650024414062
  },
  "position": {
   "symbol": "DELL",
@@ -37,102 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "LYFT",
-    "at": "09:50",
-    "price": 17.3,
-    "or_high": 17.27,
-    "or_low": 17.12,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "MDB",
-    "at": "09:50",
-    "price": 335.22,
-    "or_high": 334.07,
-    "or_low": 322.21,
-    "pct_over": 0.35
-   },
-   {
-    "symbol": "PSX",
-    "at": "09:50",
-    "price": 260.97,
-    "or_high": 260.82,
-    "or_low": 257.64,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "QCOM",
-    "at": "09:50",
-    "price": 179.58,
-    "or_high": 179.49,
-    "or_low": 175.0,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "RBLX",
-    "at": "09:50",
-    "price": 52.76,
-    "or_high": 52.33,
-    "or_low": 51.63,
-    "pct_over": 0.83
-   },
-   {
-    "symbol": "RCL",
-    "at": "09:50",
-    "price": 333.86,
-    "or_high": 333.12,
-    "or_low": 329.38,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "RIOT",
-    "at": "09:50",
-    "price": 18.58,
-    "or_high": 18.51,
-    "or_low": 17.25,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "RKT",
-    "at": "09:50",
-    "price": 14.38,
-    "or_high": 14.37,
-    "or_low": 14.16,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "SE",
-    "at": "09:50",
-    "price": 74.14,
-    "or_high": 73.99,
-    "or_low": 71.33,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "SHOP",
-    "at": "09:50",
-    "price": 148.52,
-    "or_high": 147.74,
-    "or_low": 144.43,
-    "pct_over": 0.53
-   },
-   {
-    "symbol": "SNAP",
-    "at": "09:50",
-    "price": 5.26,
-    "or_high": 5.25,
-    "or_low": 5.18,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "STX",
-    "at": "09:50",
-    "price": 536.97,
-    "or_high": 536.11,
-    "or_low": 516.78,
-    "pct_over": 0.16
-   },
    {
     "symbol": "TJX",
     "at": "09:50",
@@ -516,9 +420,105 @@
     "or_high": 15.88,
     "or_low": 15.47,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "C",
+    "at": "11:10",
+    "price": 124.92,
+    "or_high": 124.72,
+    "or_low": 123.34,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "GS",
+    "at": "11:10",
+    "price": 928.39,
+    "or_high": 927.0,
+    "or_low": 916.76,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "HPQ",
+    "at": "11:10",
+    "price": 29.19,
+    "or_high": 29.19,
+    "or_low": 28.66,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MARA",
+    "at": "11:10",
+    "price": 7.62,
+    "or_high": 7.49,
+    "or_low": 7.19,
+    "pct_over": 1.67
+   },
+   {
+    "symbol": "NET",
+    "at": "11:10",
+    "price": 318.33,
+    "or_high": 318.29,
+    "or_low": 305.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PATH",
+    "at": "11:10",
+    "price": 13.07,
+    "or_high": 13.05,
+    "or_low": 12.72,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "PINS",
+    "at": "11:10",
+    "price": 19.23,
+    "or_high": 19.17,
+    "or_low": 18.85,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PLTR",
+    "at": "11:10",
+    "price": 172.14,
+    "or_high": 171.56,
+    "or_low": 168.25,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "QBTS",
+    "at": "11:10",
+    "price": 10.35,
+    "or_high": 10.28,
+    "or_low": 9.94,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "RDDT",
+    "at": "11:10",
+    "price": 102.75,
+    "or_high": 102.12,
+    "or_low": 98.51,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "RGTI",
+    "at": "11:10",
+    "price": 10.94,
+    "or_high": 10.83,
+    "or_low": 10.44,
+    "pct_over": 1.05
+   },
+   {
+    "symbol": "SNOW",
+    "at": "11:10",
+    "price": 298.37,
+    "or_high": 297.0,
+    "or_low": 288.75,
+    "pct_over": 0.46
    }
   ],
-  "n_hits": 72,
+  "n_hits": 84,
   "entries": 1,
   "max_trades": 3
  },
@@ -943,6 +943,26 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794499800,
+   "et": "2026-11-12 11:10",
+   "kind": "busy",
+   "text": "12 more breakouts (C, GS, HPQ, MARA, NET, PATH, PINS, PLTR ...) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "C",
+    "GS",
+    "HPQ",
+    "MARA",
+    "NET",
+    "PATH",
+    "PINS",
+    "PLTR",
+    "QBTS",
+    "RDDT",
+    "RGTI",
+    "SNOW"
+   ]
+  },
   {
    "ts": 1794499200,
    "et": "2026-11-12 11:00",
@@ -1839,24 +1859,6 @@
    "kind": "fill",
    "text": "BUY 17 UNH filled at $401.79 (next bar's open $401.71 + slippage). Stop $399.69, target $404.03",
    "symbol": "UNH"
-  },
-  {
-   "ts": 1794329400,
-   "et": "2026-11-10 11:50",
-   "kind": "order",
-   "text": "BUY 17 UNH at market (decided on the 11:50 close). opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
-   "symbol": "UNH",
-   "why": {
-    "scanner": "UNH: the 11:45 bar closed at $401.86, above the 15-min opening range high $401.63 (range 397.75-401.63)",
-    "exit": "plan: entry $401.86, stop $399.69 (opening-range midpoint), target $404.03 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on UNH: 17 shares, bound by your position cap (17 x 2.17 = $36.89 at the stop) (limits: max loss 46; position cap 17; max order 19; cash 21)",
-    "risk": "trader-risk PASS: entry 401.86 (the plan's entry), stop 399.69, target 404.03: risk 2.17 a share; max loss $36.89 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $140.50 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "GD",
-    "NOC"
-   ]
   }
  ],
  "equity": [
@@ -4644,6 +4646,11 @@
    "ts": 1794499836,
    "equity": 9467.79,
    "spy": 10004.95
+  },
+  {
+   "ts": 1794500154,
+   "equity": 9516.58,
+   "spy": 10030.02
   }
  ],
  "daily": [
@@ -4697,6 +4704,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794500154,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.4,
+   "errors": [],
+   "run_id": "43256704119",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794499836,
    "phase": "open",
@@ -5086,25 +5103,15 @@
    "errors": [],
    "run_id": "43083515839",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794423478,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.0,
-   "errors": [],
-   "run_id": "43082690305",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794499836,
+  "tick_at": 1794500154,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794499851,
-  "candidates": 40,
-  "charts_fetched": 42,
+  "yahoo_time": 1794500169,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
