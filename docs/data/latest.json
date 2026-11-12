@@ -1,21 +1,21 @@
 {
- "updated": 1794497307,
- "updated_et": "2026-11-12 10:28 ET",
+ "updated": 1794497625,
+ "updated_et": "2026-11-12 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9446.05,
-  "return": -0.05539500000000008,
+  "equity": 9445.33,
+  "return": -0.055467000000000044,
   "started": 1793559735
  },
  "spy": {
-  "value": 9960.07,
-  "return": -0.003993000000000024,
+  "value": 9969.48,
+  "return": -0.0030520000000000547,
   "start_price": 759.47998046875,
-  "last": 756.75
+  "last": 757.4650268554688
  },
  "position": {
   "symbol": "DELL",
@@ -4491,6 +4491,11 @@
    "ts": 1794497307,
    "equity": 9446.05,
    "spy": 9960.07
+  },
+  {
+   "ts": 1794497625,
+   "equity": 9445.33,
+   "spy": 9969.48
   }
  ],
  "daily": [
@@ -4544,6 +4549,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794497625,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.2,
+   "errors": [],
+   "run_id": "43249085771",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794497307,
    "phase": "open",
@@ -4933,25 +4948,15 @@
    "errors": [],
    "run_id": "43076946219",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794420968,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 16.4,
-   "errors": [],
-   "run_id": "43076099594",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794497307,
+  "tick_at": 1794497625,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794497316,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1794497634,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,
