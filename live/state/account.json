@@ -1,5 +1,5 @@
 {
- "cash": 2706.3708,
+ "cash": 9457.7149,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -363,32 +363,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-11",
-  "last_bar_end": 1794428100,
-  "position": {
+  },
+  {
+   "date": "2026-11-11",
    "symbol": "AAPL",
    "qty": 19,
+   "entry_et": "09:50",
    "entry_fill": 353.7507,
-   "entry_ts": 1794408600,
-   "plan": {
-    "symbol": "AAPL",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-11",
-    "entry_time": "9:50 AM",
-    "entry": 353.68,
-    "stop": 351.38,
-    "target": 355.98,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 353.67999267578125
-   },
+   "exit_et": "15:55",
+   "exit_fill": 355.3339,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 351.38,
+   "target": 355.98,
+   "pnl": 30.08,
+   "r": 0.688,
+   "risk_usd": 43.7,
+   "cost_usd": 2.69,
    "why": {
     "scanner": "AAPL: the 09:45 bar closed at $353.68, above the 15-min opening range high $353.43 (range 349.33-353.43)",
     "exit": "plan: entry $353.68, stop $351.38 (opening-range midpoint), target $355.98 (1R (one times the risk)), flat by 15:55 ET",
@@ -397,7 +387,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-11",
+  "last_bar_end": 1794430800,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -416,11 +413,19 @@
     "side": "buy",
     "kind": "entry",
     "qty": 19
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-11",
+    "symbol": "AAPL",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 19
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 152,
+  "triggers_seen": 157,
   "missed": [
    "AAL",
    "BA",
@@ -537,7 +542,12 @@
    "BAC",
    "PG",
    "MA",
-   "WFC"
+   "WFC",
+   "DLTR",
+   "DUK",
+   "GM",
+   "TJX",
+   "SO"
   ],
   "triggered": [
    "AAPL",
@@ -691,7 +701,12 @@
    "BAC",
    "PG",
    "MA",
-   "WFC"
+   "WFC",
+   "DLTR",
+   "DUK",
+   "GM",
+   "TJX",
+   "SO"
   ],
   "hits": [
    {
@@ -1909,15 +1924,56 @@
     "or_high": 85.96,
     "or_low": 85.29,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "DLTR",
+    "at": "15:20",
+    "price": 143.0,
+    "or_high": 142.72,
+    "or_low": 139.88,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "DUK",
+    "at": "15:20",
+    "price": 128.7,
+    "or_high": 128.66,
+    "or_low": 127.92,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "GM",
+    "at": "15:20",
+    "price": 88.78,
+    "or_high": 88.77,
+    "or_low": 88.19,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "TJX",
+    "at": "15:20",
+    "price": 136.67,
+    "or_high": 136.58,
+    "or_low": 135.31,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "SO",
+    "at": "15:30",
+    "price": 93.71,
+    "or_high": 93.69,
+    "or_low": 92.8,
+    "pct_over": 0.03
    }
-  ]
+  ],
+  "finalised": true
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.2650146484375,
-  "last_ts": 1794428100
+  "last": 759.7899780273438,
+  "last_ts": 1794430800
  },
  "seen_trades": 0,
  "daily": [
@@ -1962,6 +2018,12 @@
    "equity": 9427.63,
    "spy": 9870.97,
    "trades": 3
+  },
+  {
+   "date": "2026-11-11",
+   "equity": 9457.71,
+   "spy": 10000.08,
+   "trades": 1
   }
  ]
 }
