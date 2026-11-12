@@ -292,3 +292,4 @@
 {"ts": 1794498300, "et": "2026-11-12 10:45", "kind": "busy", "text": "4 more breakouts (LRCX, MSTR, TER, TXN) not taken: already in DELL (one trade at a time)", "symbols": ["LRCX", "MSTR", "TER", "TXN"]}
 {"ts": 1794498600, "et": "2026-11-12 10:50", "kind": "busy", "text": "2 more breakouts (SNPS, ZM) not taken: already in DELL (one trade at a time)", "symbols": ["SNPS", "ZM"]}
 {"ts": 1794498900, "et": "2026-11-12 10:55", "kind": "busy", "text": "8 more breakouts (ADI, AMAT, ARM, CAT, INTC, KLAC, MCHP, ON) not taken: already in DELL (one trade at a time)", "symbols": ["ADI", "AMAT", "ARM", "CAT", "INTC", "KLAC", "MCHP", "ON"]}
+{"ts": 1794499200, "et": "2026-11-12 11:00", "kind": "busy", "text": "8 more breakouts (AMD, ASML, COIN, GOOGL, HOOD, NU, TSM, TTD) not taken: already in DELL (one trade at a time)", "symbols": ["AMD", "ASML", "COIN", "GOOGL", "HOOD", "NU", "TSM", "TTD"]}

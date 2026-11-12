@@ -1,21 +1,21 @@
 {
- "updated": 1794499207,
- "updated_et": "2026-11-12 11:00 ET",
+ "updated": 1794499520,
+ "updated_et": "2026-11-12 11:05 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9475.6,
-  "return": -0.05243999999999993,
+  "equity": 9493.44,
+  "return": -0.05065599999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9994.55,
-  "return": -0.0005450000000000177,
+  "value": 10013.11,
+  "return": 0.0013110000000000621,
   "start_price": 759.47998046875,
-  "last": 759.3699951171875
+  "last": 760.780029296875
  },
  "position": {
   "symbol": "DELL",
@@ -37,70 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "DELL",
-    "at": "09:50",
-    "price": 359.97,
-    "or_high": 359.89,
-    "or_low": 335.2,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "DIS",
-    "at": "09:50",
-    "price": 120.26,
-    "or_high": 120.13,
-    "or_low": 119.43,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "DPZ",
-    "at": "09:50",
-    "price": 333.97,
-    "or_high": 333.54,
-    "or_low": 331.02,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "ETSY",
-    "at": "09:50",
-    "price": 88.85,
-    "or_high": 88.83,
-    "or_low": 87.54,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "EXPE",
-    "at": "09:50",
-    "price": 264.85,
-    "or_high": 263.01,
-    "or_low": 260.52,
-    "pct_over": 0.7
-   },
-   {
-    "symbol": "HLT",
-    "at": "09:50",
-    "price": 378.67,
-    "or_high": 378.45,
-    "or_low": 376.31,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "ISRG",
-    "at": "09:50",
-    "price": 451.26,
-    "or_high": 450.71,
-    "or_low": 446.45,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "LUV",
-    "at": "09:50",
-    "price": 46.4,
-    "or_high": 46.35,
-    "or_low": 45.91,
-    "pct_over": 0.1
-   },
    {
     "symbol": "LYFT",
     "at": "09:50",
@@ -516,9 +452,73 @@
     "or_high": 73.43,
     "or_low": 71.01,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "AMD",
+    "at": "11:00",
+    "price": 583.99,
+    "or_high": 578.78,
+    "or_low": 554.9,
+    "pct_over": 0.9
+   },
+   {
+    "symbol": "ASML",
+    "at": "11:00",
+    "price": 1530.07,
+    "or_high": 1526.76,
+    "or_low": 1498.38,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "COIN",
+    "at": "11:00",
+    "price": 132.41,
+    "or_high": 132.05,
+    "or_low": 129.62,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "11:00",
+    "price": 297.29,
+    "or_high": 296.85,
+    "or_low": 293.8,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "HOOD",
+    "at": "11:00",
+    "price": 83.57,
+    "or_high": 83.11,
+    "or_low": 80.52,
+    "pct_over": 0.55
+   },
+   {
+    "symbol": "NU",
+    "at": "11:00",
+    "price": 12.12,
+    "or_high": 12.12,
+    "or_low": 11.99,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "TSM",
+    "at": "11:00",
+    "price": 410.55,
+    "or_high": 409.92,
+    "or_low": 393.91,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TTD",
+    "at": "11:00",
+    "price": 15.89,
+    "or_high": 15.88,
+    "or_low": 15.47,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 64,
+  "n_hits": 72,
   "entries": 1,
   "max_trades": 3
  },
@@ -943,6 +943,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794499200,
+   "et": "2026-11-12 11:00",
+   "kind": "busy",
+   "text": "8 more breakouts (AMD, ASML, COIN, GOOGL, HOOD, NU, TSM, TTD) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "AMD",
+    "ASML",
+    "COIN",
+    "GOOGL",
+    "HOOD",
+    "NU",
+    "TSM",
+    "TTD"
+   ]
+  },
   {
    "ts": 1794498900,
    "et": "2026-11-12 10:55",
@@ -1841,13 +1857,6 @@
     "GD",
     "NOC"
    ]
-  },
-  {
-   "ts": 1794329400,
-   "et": "2026-11-10 11:50",
-   "kind": "exit",
-   "text": "SELL 10 META at $639.17: stop $639.30 hit. P&L $-43.27 (-1.00R)",
-   "symbol": "META"
   }
  ],
  "equity": [
@@ -4625,6 +4634,11 @@
    "ts": 1794499207,
    "equity": 9475.6,
    "spy": 9994.55
+  },
+  {
+   "ts": 1794499520,
+   "equity": 9493.44,
+   "spy": 10013.11
   }
  ],
  "daily": [
@@ -4678,6 +4692,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794499520,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.6,
+   "errors": [],
+   "run_id": "43254787158",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794499207,
    "phase": "open",
@@ -5067,25 +5091,15 @@
    "errors": [],
    "run_id": "43081885960",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794422857,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.8,
-   "errors": [],
-   "run_id": "43081065125",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794499207,
+  "tick_at": 1794499520,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794499222,
-  "candidates": 51,
-  "charts_fetched": 53,
+  "yahoo_time": 1794499535,
+  "candidates": 47,
+  "charts_fetched": 49,
   "ok": true,
   "errors": [],
   "stale_data": false,
