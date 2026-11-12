@@ -1,38 +1,23 @@
 {
- "updated": 1794516869,
- "updated_et": "2026-11-12 15:54 ET",
+ "updated": 1794517183,
+ "updated_et": "2026-11-12 15:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2406.87,
-  "equity": 9631.71,
-  "return": -0.03682900000000011,
+  "cash": 9628.89,
+  "equity": 9628.89,
+  "return": -0.037111000000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 9963.36,
-  "return": -0.0036639999999998896,
+  "value": 9960.09,
+  "return": -0.003990999999999967,
   "start_price": 759.47998046875,
-  "last": 757.0
+  "last": 756.7514038085938
  },
- "position": {
-  "symbol": "GME",
-  "qty": 282,
-  "entry": 25.45,
-  "entry_et": "11:50",
-  "stop": 25.13,
-  "target": 25.71,
-  "last": null,
-  "why": {
-   "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
-   "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
-   "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-12",
@@ -522,23 +507,23 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 282 GME bought at $25.45. It sells at the stop $25.13, the target $25.71, or at 15:55 ET, whichever comes first.",
+ "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
  "stats": {
-  "trades": 18,
-  "wins": 7,
-  "win_rate": 0.3888888888888889,
-  "avg_r": -0.2365555555555556,
-  "t_stat_r": -1.089629126958102,
-  "net_pnl": -416.24,
-  "profit_factor": 0.4730739043471656,
-  "expectancy_usd": -23.12,
-  "avg_win": 53.39,
+  "trades": 19,
+  "wins": 8,
+  "win_rate": 0.42105263157894735,
+  "avg_r": -0.19505263157894742,
+  "t_stat_r": -0.931014394083251,
+  "net_pnl": -371.12,
+  "profit_factor": 0.5301921664936577,
+  "expectancy_usd": -19.53,
+  "avg_win": 52.35,
   "avg_loss": -71.81,
-  "costs_usd": 32.85,
+  "costs_usd": 38.49,
   "exits": {
    "stop": 9,
    "target": 5,
-   "flat-by": 4
+   "flat-by": 5
   }
  },
  "curve": {
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-12",
+   "symbol": "GME",
+   "qty": 282,
+   "entry_et": "11:50",
+   "entry_fill": 25.45,
+   "exit_et": "15:55",
+   "exit_fill": 25.61,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 25.13,
+   "target": 25.71,
+   "pnl": 45.12,
+   "r": 0.552,
+   "risk_usd": 81.78,
+   "cost_usd": 5.64,
+   "why": {
+    "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
+    "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
+    "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-12",
    "symbol": "XOM",
@@ -991,6 +1000,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794516900,
+   "et": "2026-11-12 15:55",
+   "kind": "exit",
+   "text": "SELL 282 GME at $25.61: flat by 15:55 ET (the skill's flat-by rule). P&L $+45.12 (+0.55R)",
+   "symbol": "GME"
+  },
   {
    "ts": 1794515100,
    "et": "2026-11-12 15:25",
@@ -1840,25 +1856,6 @@
     "GME",
     "INTC",
     "STX"
-   ]
-  },
-  {
-   "ts": 1794409200,
-   "et": "2026-11-11 10:00",
-   "kind": "busy",
-   "text": "11 more breakouts (APO, BLK, C, COP, CVX, DE, NXPI, PNC ...) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "APO",
-    "BLK",
-    "C",
-    "COP",
-    "CVX",
-    "DE",
-    "NXPI",
-    "PNC",
-    "RDDT",
-    "UPST",
-    "V"
    ]
   }
  ],
@@ -4917,6 +4914,11 @@
    "ts": 1794516869,
    "equity": 9631.71,
    "spy": 9963.36
+  },
+  {
+   "ts": 1794517183,
+   "equity": 9628.89,
+   "spy": 9960.09
   }
  ],
  "daily": [
@@ -4970,6 +4972,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794517183,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.6,
+   "errors": [],
+   "run_id": "43305736784",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794516869,
    "phase": "open",
@@ -5359,23 +5371,13 @@
    "errors": [],
    "run_id": "43270861541",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794504561,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 16.7,
-   "errors": [],
-   "run_id": "43269918825",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794516869,
+  "tick_at": 1794517183,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794516878,
+  "yahoo_time": 1794517189,
   "candidates": 11,
   "charts_fetched": 13,
   "ok": true,
