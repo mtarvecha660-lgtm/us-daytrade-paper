@@ -307,3 +307,4 @@
 {"ts": 1794502800, "et": "2026-11-12 12:00", "kind": "busy", "text": "1 more breakout (DXCM) not taken: already in GME (one trade at a time)", "symbols": ["DXCM"]}
 {"ts": 1794503400, "et": "2026-11-12 12:10", "kind": "busy", "text": "1 more breakout (MRK) not taken: already in GME (one trade at a time)", "symbols": ["MRK"]}
 {"ts": 1794504000, "et": "2026-11-12 12:20", "kind": "busy", "text": "1 more breakout (JNJ) not taken: already in GME (one trade at a time)", "symbols": ["JNJ"]}
+{"ts": 1794504300, "et": "2026-11-12 12:25", "kind": "busy", "text": "1 more breakout (KO) not taken: already in GME (one trade at a time)", "symbols": ["KO"]}
