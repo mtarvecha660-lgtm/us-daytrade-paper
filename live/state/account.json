@@ -1,5 +1,5 @@
 {
- "cash": 6580.5797,
+ "cash": 9559.7797,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -387,32 +387,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-12",
-  "last_bar_end": 1794500700,
-  "position": {
+  },
+  {
+   "date": "2026-11-12",
    "symbol": "DELL",
    "qty": 8,
+   "entry_et": "09:50",
    "entry_fill": 359.6419,
-   "entry_ts": 1794495000,
-   "plan": {
-    "symbol": "DELL",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-12",
-    "entry_time": "9:50 AM",
-    "entry": 359.97,
-    "stop": 347.54,
-    "target": 372.4,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 359.57000732421875
-   },
+   "exit_et": "11:30",
+   "exit_fill": 372.4,
+   "exit_reason": "target $372.40 hit (1R)",
+   "stop": 347.54,
+   "target": 372.4,
+   "pnl": 102.06,
+   "r": 1.026,
+   "risk_usd": 99.44,
+   "cost_usd": 0.58,
    "why": {
     "scanner": "DELL: the 09:45 bar closed at $359.97, above the 15-min opening range high $359.89 (range 335.20-359.89)",
     "exit": "plan: entry $359.97, stop $347.54 (opening-range midpoint), target $372.40 (1R (one times the risk)), flat by 15:55 ET",
@@ -421,8 +411,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-12",
+  "last_bar_end": 1794501000,
+  "position": null,
+  "pending": {
+   "symbol": "XOM",
+   "qty": 42,
+   "plan": {
+    "symbol": "XOM",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-12",
+    "entry_time": "11:30 AM",
+    "entry": 168.49,
+    "stop": 167.9,
+    "target": 169.08,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
+    "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
+    "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794501000,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -440,11 +462,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 8
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-12",
+    "symbol": "DELL",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 8
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-12",
+    "symbol": "XOM",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 24.78,
+    "at": "2026-11-12T11:30:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 93,
+  "triggers_seen": 94,
   "missed": [
    "ABNB",
    "AMZN",
@@ -606,7 +645,8 @@
    "AVGO",
    "MRNA",
    "SPOT",
-   "ZS"
+   "ZS",
+   "XOM"
   ],
   "hits": [
    {
@@ -1352,6 +1392,14 @@
     "or_high": 191.38,
     "or_low": 184.63,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "XOM",
+    "at": "11:30",
+    "price": 168.49,
+    "or_high": 168.46,
+    "or_low": 167.34,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1359,8 +1407,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 762.4299926757812,
-  "last_ts": 1794500700
+  "last": 761.9000244140625,
+  "last_ts": 1794501000
  },
  "seen_trades": 0,
  "daily": [
