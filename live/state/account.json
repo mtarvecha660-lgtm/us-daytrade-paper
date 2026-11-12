@@ -393,21 +393,303 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794494700,
+  "last_bar_end": 1794495000,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "DELL",
+   "qty": 8,
+   "plan": {
+    "symbol": "DELL",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-12",
+    "entry_time": "9:50 AM",
+    "entry": 359.97,
+    "stop": 347.54,
+    "target": 372.4,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "DELL: the 09:45 bar closed at $359.97, above the 15-min opening range high $359.89 (range 335.20-359.89)",
+    "exit": "plan: entry $359.97, stop $347.54 (opening-range midpoint), target $372.40 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on DELL: 8 shares, bound by your $100 max loss per trade (8 x 12.43 = $99.44 at the stop) (limits: max loss 8; position cap 19; max order 22; cash 23)",
+    "risk": "trader-risk PASS: entry 359.97 (the latest price), stop 347.54, target 372.40: risk 12.43 a share; max loss $99.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794495000,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-12",
+    "symbol": "DELL",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 99.44,
+    "at": "2026-11-12T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 27,
+  "missed": [],
+  "triggered": [
+   "BKNG",
+   "BLK",
+   "CLSK",
+   "CSCO",
+   "DELL",
+   "DIS",
+   "DPZ",
+   "ETSY",
+   "EXPE",
+   "HLT",
+   "ISRG",
+   "LUV",
+   "LYFT",
+   "MDB",
+   "PSX",
+   "QCOM",
+   "RBLX",
+   "RCL",
+   "RIOT",
+   "RKT",
+   "SE",
+   "SHOP",
+   "SNAP",
+   "STX",
+   "TJX",
+   "TOST",
+   "Z"
+  ],
+  "hits": [
+   {
+    "symbol": "BKNG",
+    "at": "09:50",
+    "price": 162.97,
+    "or_high": 162.46,
+    "or_low": 159.0,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "BLK",
+    "at": "09:50",
+    "price": 1232.62,
+    "or_high": 1232.54,
+    "or_low": 1221.1,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "CLSK",
+    "at": "09:50",
+    "price": 6.83,
+    "or_high": 6.82,
+    "or_low": 6.46,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:50",
+    "price": 100.72,
+    "or_high": 100.6,
+    "or_low": 99.41,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "DELL",
+    "at": "09:50",
+    "price": 359.97,
+    "or_high": 359.89,
+    "or_low": 335.2,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:50",
+    "price": 120.26,
+    "or_high": 120.13,
+    "or_low": 119.43,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "DPZ",
+    "at": "09:50",
+    "price": 333.97,
+    "or_high": 333.54,
+    "or_low": 331.02,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "ETSY",
+    "at": "09:50",
+    "price": 88.85,
+    "or_high": 88.83,
+    "or_low": 87.54,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 264.85,
+    "or_high": 263.01,
+    "or_low": 260.52,
+    "pct_over": 0.7
+   },
+   {
+    "symbol": "HLT",
+    "at": "09:50",
+    "price": 378.67,
+    "or_high": 378.45,
+    "or_low": 376.31,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "ISRG",
+    "at": "09:50",
+    "price": 451.26,
+    "or_high": 450.71,
+    "or_low": 446.45,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "LUV",
+    "at": "09:50",
+    "price": 46.4,
+    "or_high": 46.35,
+    "or_low": 45.91,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 17.3,
+    "or_high": 17.27,
+    "or_low": 17.12,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "MDB",
+    "at": "09:50",
+    "price": 335.22,
+    "or_high": 334.07,
+    "or_low": 322.21,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "PSX",
+    "at": "09:50",
+    "price": 260.97,
+    "or_high": 260.82,
+    "or_low": 257.64,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "QCOM",
+    "at": "09:50",
+    "price": 179.58,
+    "or_high": 179.49,
+    "or_low": 175.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:50",
+    "price": 52.76,
+    "or_high": 52.33,
+    "or_low": 51.63,
+    "pct_over": 0.83
+   },
+   {
+    "symbol": "RCL",
+    "at": "09:50",
+    "price": 333.86,
+    "or_high": 333.12,
+    "or_low": 329.38,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "RIOT",
+    "at": "09:50",
+    "price": 18.58,
+    "or_high": 18.51,
+    "or_low": 17.25,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "RKT",
+    "at": "09:50",
+    "price": 14.38,
+    "or_high": 14.37,
+    "or_low": 14.16,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SE",
+    "at": "09:50",
+    "price": 74.14,
+    "or_high": 73.99,
+    "or_low": 71.33,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "SHOP",
+    "at": "09:50",
+    "price": 148.52,
+    "or_high": 147.74,
+    "or_low": 144.43,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:50",
+    "price": 5.26,
+    "or_high": 5.25,
+    "or_low": 5.18,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "STX",
+    "at": "09:50",
+    "price": 536.97,
+    "or_high": 536.11,
+    "or_low": 516.78,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TJX",
+    "at": "09:50",
+    "price": 137.93,
+    "or_high": 137.73,
+    "or_low": 136.09,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 34.16,
+    "or_high": 34.13,
+    "or_low": 33.53,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "Z",
+    "at": "09:50",
+    "price": 29.82,
+    "or_high": 29.63,
+    "or_low": 29.17,
+    "pct_over": 0.64
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.4500122070312,
-  "last_ts": 1794494700
+  "last": 757.3300170898438,
+  "last_ts": 1794495000
  },
  "seen_trades": 0,
  "daily": [
