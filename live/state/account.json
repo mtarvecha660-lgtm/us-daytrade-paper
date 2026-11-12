@@ -441,7 +441,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794514500,
+  "last_bar_end": 1794514800,
   "position": {
    "symbol": "GME",
    "qty": 282,
@@ -1595,8 +1595,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.2899780273438,
-  "last_ts": 1794514500
+  "last": 757.5999755859375,
+  "last_ts": 1794514800
  },
  "seen_trades": 0,
  "daily": [
