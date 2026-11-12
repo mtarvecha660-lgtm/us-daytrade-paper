@@ -288,3 +288,4 @@
 {"ts": 1794496500, "et": "2026-11-12 10:15", "kind": "busy", "text": "1 more breakout (OXY) not taken: already in DELL (one trade at a time)", "symbols": ["OXY"]}
 {"ts": 1794496800, "et": "2026-11-12 10:20", "kind": "busy", "text": "4 more breakouts (APP, BB, CDNS, U) not taken: already in DELL (one trade at a time)", "symbols": ["APP", "BB", "CDNS", "U"]}
 {"ts": 1794497700, "et": "2026-11-12 10:35", "kind": "busy", "text": "1 more breakout (YUM) not taken: already in DELL (one trade at a time)", "symbols": ["YUM"]}
+{"ts": 1794498000, "et": "2026-11-12 10:40", "kind": "busy", "text": "1 more breakout (ORCL) not taken: already in DELL (one trade at a time)", "symbols": ["ORCL"]}

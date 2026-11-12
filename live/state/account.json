@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794497700,
+  "last_bar_end": 1794498000,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 49,
+  "triggers_seen": 50,
   "missed": [
    "ABNB",
    "AMZN",
@@ -467,7 +467,8 @@
    "BB",
    "CDNS",
    "U",
-   "YUM"
+   "YUM",
+   "ORCL"
   ],
   "triggered": [
    "BKNG",
@@ -518,7 +519,8 @@
    "BB",
    "CDNS",
    "U",
-   "YUM"
+   "YUM",
+   "ORCL"
   ],
   "hits": [
    {
@@ -912,6 +914,14 @@
     "or_high": 161.97,
     "or_low": 160.06,
     "pct_over": 0.23
+   },
+   {
+    "symbol": "ORCL",
+    "at": "10:40",
+    "price": 126.21,
+    "or_high": 126.1,
+    "or_low": 123.05,
+    "pct_over": 0.09
    }
   ]
  },
@@ -919,8 +929,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.0900268554688,
-  "last_ts": 1794497700
+  "last": 757.8200073242188,
+  "last_ts": 1794498000
  },
  "seen_trades": 0,
  "daily": [
