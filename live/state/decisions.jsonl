@@ -284,3 +284,4 @@
 {"ts": 1794495300, "et": "2026-11-12 09:55", "kind": "busy", "text": "3 more breakouts (ABNB, AMZN, SWKS) not taken: already in DELL (one trade at a time)", "symbols": ["ABNB", "AMZN", "SWKS"]}
 {"ts": 1794495600, "et": "2026-11-12 10:00", "kind": "busy", "text": "10 more breakouts (ANET, DDOG, DVN, MRVL, MSFT, NVDA, OKTA, SMCI ...) not taken: already in DELL (one trade at a time)", "symbols": ["ANET", "DDOG", "DVN", "MRVL", "MSFT", "NVDA", "OKTA", "SMCI", "VLO", "WDC"]}
 {"ts": 1794495900, "et": "2026-11-12 10:05", "kind": "busy", "text": "1 more breakout (MPC) not taken: already in DELL (one trade at a time)", "symbols": ["MPC"]}
+{"ts": 1794496200, "et": "2026-11-12 10:10", "kind": "busy", "text": "2 more breakouts (FANG, ZTS) not taken: already in DELL (one trade at a time)", "symbols": ["FANG", "ZTS"]}
