@@ -1,21 +1,21 @@
 {
- "updated": 1794496675,
- "updated_et": "2026-11-12 10:17 ET",
+ "updated": 1794496993,
+ "updated_et": "2026-11-12 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9413.21,
-  "return": -0.05867900000000004,
+  "equity": 9440.89,
+  "return": -0.055911000000000044,
   "started": 1793559735
  },
  "spy": {
-  "value": 9961.55,
-  "return": -0.0038450000000000983,
+  "value": 9964.28,
+  "return": -0.0035719999999999086,
   "start_price": 759.47998046875,
-  "last": 756.86279296875
+  "last": 757.0700073242188
  },
  "position": {
   "symbol": "DELL",
@@ -388,9 +388,41 @@
     "or_high": 57.95,
     "or_low": 57.4,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "APP",
+    "at": "10:20",
+    "price": 406.65,
+    "or_high": 406.5,
+    "or_low": 398.45,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BB",
+    "at": "10:20",
+    "price": 9.15,
+    "or_high": 9.14,
+    "or_low": 8.89,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:20",
+    "price": 330.04,
+    "or_high": 329.27,
+    "or_low": 324.35,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "U",
+    "at": "10:20",
+    "price": 49.26,
+    "or_high": 49.25,
+    "or_low": 48.09,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 44,
+  "n_hits": 48,
   "entries": 1,
   "max_trades": 3
  },
@@ -815,6 +847,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794496800,
+   "et": "2026-11-12 10:20",
+   "kind": "busy",
+   "text": "4 more breakouts (APP, BB, CDNS, U) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "APP",
+    "BB",
+    "CDNS",
+    "U"
+   ]
+  },
   {
    "ts": 1794496500,
    "et": "2026-11-12 10:15",
@@ -1699,17 +1743,6 @@
    "text": "1 more breakout (CDNS) not taken: already in META (one trade at a time)",
    "symbols": [
     "CDNS"
-   ]
-  },
-  {
-   "ts": 1794326400,
-   "et": "2026-11-10 11:00",
-   "kind": "busy",
-   "text": "3 more breakouts (AEP, DUK, TTD) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "AEP",
-    "DUK",
-    "TTD"
    ]
   }
  ],
@@ -4448,6 +4481,11 @@
    "ts": 1794496675,
    "equity": 9413.21,
    "spy": 9961.55
+  },
+  {
+   "ts": 1794496993,
+   "equity": 9440.89,
+   "spy": 9964.28
   }
  ],
  "daily": [
@@ -4501,6 +4539,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794496993,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.5,
+   "errors": [],
+   "run_id": "43247168923",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794496675,
    "phase": "open",
@@ -4890,25 +4938,15 @@
    "errors": [],
    "run_id": "43075242558",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794420337,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.1,
-   "errors": [],
-   "run_id": "43074398597",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794496675,
+  "tick_at": 1794496993,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794496685,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794497004,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,

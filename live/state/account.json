@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794496500,
+  "last_bar_end": 1794496800,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 44,
+  "triggers_seen": 48,
   "missed": [
    "ABNB",
    "AMZN",
@@ -462,7 +462,11 @@
    "MPC",
    "FANG",
    "ZTS",
-   "OXY"
+   "OXY",
+   "APP",
+   "BB",
+   "CDNS",
+   "U"
   ],
   "triggered": [
    "BKNG",
@@ -508,7 +512,11 @@
    "MPC",
    "FANG",
    "ZTS",
-   "OXY"
+   "OXY",
+   "APP",
+   "BB",
+   "CDNS",
+   "U"
   ],
   "hits": [
    {
@@ -862,6 +870,38 @@
     "or_high": 57.95,
     "or_low": 57.4,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "APP",
+    "at": "10:20",
+    "price": 406.65,
+    "or_high": 406.5,
+    "or_low": 398.45,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BB",
+    "at": "10:20",
+    "price": 9.15,
+    "or_high": 9.14,
+    "or_low": 8.89,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:20",
+    "price": 330.04,
+    "or_high": 329.27,
+    "or_low": 324.35,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "U",
+    "at": "10:20",
+    "price": 49.26,
+    "or_high": 49.25,
+    "or_low": 48.09,
+    "pct_over": 0.03
    }
   ]
  },
@@ -869,8 +909,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.86279296875,
-  "last_ts": 1794496500
+  "last": 757.0700073242188,
+  "last_ts": 1794496800
  },
  "seen_trades": 0,
  "daily": [
