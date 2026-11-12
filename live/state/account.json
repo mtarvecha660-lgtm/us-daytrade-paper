@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794495300,
+  "last_bar_end": 1794495600,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,11 +444,21 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 30,
+  "triggers_seen": 40,
   "missed": [
    "ABNB",
    "AMZN",
-   "SWKS"
+   "SWKS",
+   "ANET",
+   "DDOG",
+   "DVN",
+   "MRVL",
+   "MSFT",
+   "NVDA",
+   "OKTA",
+   "SMCI",
+   "VLO",
+   "WDC"
   ],
   "triggered": [
    "BKNG",
@@ -480,7 +490,17 @@
    "Z",
    "ABNB",
    "AMZN",
-   "SWKS"
+   "SWKS",
+   "ANET",
+   "DDOG",
+   "DVN",
+   "MRVL",
+   "MSFT",
+   "NVDA",
+   "OKTA",
+   "SMCI",
+   "VLO",
+   "WDC"
   ],
   "hits": [
    {
@@ -722,6 +742,86 @@
     "or_high": 90.04,
     "or_low": 86.25,
     "pct_over": 0.25
+   },
+   {
+    "symbol": "ANET",
+    "at": "10:00",
+    "price": 200.48,
+    "or_high": 200.47,
+    "or_low": 190.82,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "DDOG",
+    "at": "10:00",
+    "price": 181.88,
+    "or_high": 180.76,
+    "or_low": 176.42,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:00",
+    "price": 45.46,
+    "or_high": 45.27,
+    "or_low": 44.9,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:00",
+    "price": 164.13,
+    "or_high": 164.1,
+    "or_low": 155.97,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:00",
+    "price": 525.88,
+    "or_high": 525.83,
+    "or_low": 520.51,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "NVDA",
+    "at": "10:00",
+    "price": 162.66,
+    "or_high": 162.33,
+    "or_low": 148.8,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:00",
+    "price": 180.0,
+    "or_high": 178.62,
+    "or_low": 172.64,
+    "pct_over": 0.78
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 28.19,
+    "or_high": 28.0,
+    "or_low": 26.96,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:00",
+    "price": 368.84,
+    "or_high": 368.45,
+    "or_low": 361.91,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:00",
+    "price": 308.33,
+    "or_high": 304.85,
+    "or_low": 295.1,
+    "pct_over": 1.14
    }
   ]
  },
@@ -729,8 +829,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 758.030029296875,
-  "last_ts": 1794495300
+  "last": 757.719970703125,
+  "last_ts": 1794495600
  },
  "seen_trades": 0,
  "daily": [

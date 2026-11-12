@@ -1,21 +1,21 @@
 {
- "updated": 1794495410,
- "updated_et": "2026-11-12 09:56 ET",
+ "updated": 1794495725,
+ "updated_et": "2026-11-12 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9483.2,
-  "return": -0.05167999999999995,
+  "equity": 9486.72,
+  "return": -0.05132800000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9976.92,
-  "return": -0.0023079999999999767,
+  "value": 9972.84,
+  "return": -0.0027159999999999407,
   "start_price": 759.47998046875,
-  "last": 758.030029296875
+  "last": 757.719970703125
  },
  "position": {
   "symbol": "DELL",
@@ -276,9 +276,89 @@
     "or_high": 90.04,
     "or_low": 86.25,
     "pct_over": 0.25
+   },
+   {
+    "symbol": "ANET",
+    "at": "10:00",
+    "price": 200.48,
+    "or_high": 200.47,
+    "or_low": 190.82,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "DDOG",
+    "at": "10:00",
+    "price": 181.88,
+    "or_high": 180.76,
+    "or_low": 176.42,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:00",
+    "price": 45.46,
+    "or_high": 45.27,
+    "or_low": 44.9,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:00",
+    "price": 164.13,
+    "or_high": 164.1,
+    "or_low": 155.97,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "MSFT",
+    "at": "10:00",
+    "price": 525.88,
+    "or_high": 525.83,
+    "or_low": 520.51,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "NVDA",
+    "at": "10:00",
+    "price": 162.66,
+    "or_high": 162.33,
+    "or_low": 148.8,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:00",
+    "price": 180.0,
+    "or_high": 178.62,
+    "or_low": 172.64,
+    "pct_over": 0.78
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 28.19,
+    "or_high": 28.0,
+    "or_low": 26.96,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:00",
+    "price": 368.84,
+    "or_high": 368.45,
+    "or_low": 361.91,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:00",
+    "price": 308.33,
+    "or_high": 304.85,
+    "or_low": 295.1,
+    "pct_over": 1.14
    }
   ],
-  "n_hits": 30,
+  "n_hits": 40,
   "entries": 1,
   "max_trades": 3
  },
@@ -703,6 +783,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794495600,
+   "et": "2026-11-12 10:00",
+   "kind": "busy",
+   "text": "10 more breakouts (ANET, DDOG, DVN, MRVL, MSFT, NVDA, OKTA, SMCI ...) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "ANET",
+    "DDOG",
+    "DVN",
+    "MRVL",
+    "MSFT",
+    "NVDA",
+    "OKTA",
+    "SMCI",
+    "VLO",
+    "WDC"
+   ]
+  },
   {
    "ts": 1794495300,
    "et": "2026-11-12 09:55",
@@ -1582,15 +1680,6 @@
    "symbols": [
     "CHTR",
     "MELI"
-   ]
-  },
-  {
-   "ts": 1794323700,
-   "et": "2026-11-10 10:15",
-   "kind": "busy",
-   "text": "1 more breakout (ORCL) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "ORCL"
    ]
   }
  ],
@@ -4309,6 +4398,11 @@
    "ts": 1794495410,
    "equity": 9483.2,
    "spy": 9976.92
+  },
+  {
+   "ts": 1794495725,
+   "equity": 9486.72,
+   "spy": 9972.84
   }
  ],
  "daily": [
@@ -4362,6 +4456,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794495725,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.5,
+   "errors": [],
+   "run_id": "43243363713",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794495410,
    "phase": "open",
@@ -4751,29 +4855,19 @@
    "errors": [],
    "run_id": "43071881176",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794419078,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.4,
-   "errors": [],
-   "run_id": "43071054115",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794495410,
+  "tick_at": 1794495725,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794495434,
-  "candidates": 61,
-  "charts_fetched": 63,
+  "yahoo_time": 1794495742,
+  "candidates": 47,
+  "charts_fetched": 49,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
