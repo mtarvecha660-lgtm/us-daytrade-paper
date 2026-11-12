@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794497400,
+  "last_bar_end": 1794497700,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 48,
+  "triggers_seen": 49,
   "missed": [
    "ABNB",
    "AMZN",
@@ -466,7 +466,8 @@
    "APP",
    "BB",
    "CDNS",
-   "U"
+   "U",
+   "YUM"
   ],
   "triggered": [
    "BKNG",
@@ -516,7 +517,8 @@
    "APP",
    "BB",
    "CDNS",
-   "U"
+   "U",
+   "YUM"
   ],
   "hits": [
    {
@@ -902,6 +904,14 @@
     "or_high": 49.25,
     "or_low": 48.09,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:35",
+    "price": 162.35,
+    "or_high": 161.97,
+    "or_low": 160.06,
+    "pct_over": 0.23
    }
   ]
  },
@@ -909,8 +919,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.4650268554688,
-  "last_ts": 1794497400
+  "last": 757.0900268554688,
+  "last_ts": 1794497700
  },
  "seen_trades": 0,
  "daily": [
