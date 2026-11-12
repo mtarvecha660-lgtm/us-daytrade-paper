@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794499800,
+  "last_bar_end": 1794500400,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 84,
+  "triggers_seen": 91,
   "missed": [
    "ABNB",
    "AMZN",
@@ -502,7 +502,14 @@
    "QBTS",
    "RDDT",
    "RGTI",
-   "SNOW"
+   "SNOW",
+   "COP",
+   "CRWD",
+   "EOG",
+   "MS",
+   "SOFI",
+   "AVGO",
+   "MRNA"
   ],
   "triggered": [
    "BKNG",
@@ -588,7 +595,14 @@
    "QBTS",
    "RDDT",
    "RGTI",
-   "SNOW"
+   "SNOW",
+   "COP",
+   "CRWD",
+   "EOG",
+   "MS",
+   "SOFI",
+   "AVGO",
+   "MRNA"
   ],
   "hits": [
    {
@@ -1262,6 +1276,62 @@
     "or_high": 297.0,
     "or_low": 288.75,
     "pct_over": 0.46
+   },
+   {
+    "symbol": "COP",
+    "at": "11:15",
+    "price": 139.43,
+    "or_high": 139.4,
+    "or_low": 137.38,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CRWD",
+    "at": "11:15",
+    "price": 227.13,
+    "or_high": 226.97,
+    "or_low": 218.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "EOG",
+    "at": "11:15",
+    "price": 155.93,
+    "or_high": 155.47,
+    "or_low": 153.85,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MS",
+    "at": "11:15",
+    "price": 191.19,
+    "or_high": 191.15,
+    "or_low": 189.21,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SOFI",
+    "at": "11:15",
+    "price": 16.13,
+    "or_high": 16.13,
+    "or_low": 15.8,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "AVGO",
+    "at": "11:20",
+    "price": 368.66,
+    "or_high": 365.71,
+    "or_low": 354.72,
+    "pct_over": 0.81
+   },
+   {
+    "symbol": "MRNA",
+    "at": "11:20",
+    "price": 241.7,
+    "or_high": 241.42,
+    "or_low": 233.01,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1269,8 +1339,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 762.0650024414062,
-  "last_ts": 1794499800
+  "last": 762.6799926757812,
+  "last_ts": 1794500400
  },
  "seen_trades": 0,
  "daily": [

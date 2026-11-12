@@ -1,21 +1,21 @@
 {
- "updated": 1794500154,
- "updated_et": "2026-11-12 11:15 ET",
+ "updated": 1794500469,
+ "updated_et": "2026-11-12 11:21 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9516.58,
-  "return": -0.048341999999999996,
+  "equity": 9511.51,
+  "return": -0.04884900000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 10030.02,
-  "return": 0.003001999999999949,
+  "value": 10038.12,
+  "return": 0.0038120000000001486,
   "start_price": 759.47998046875,
-  "last": 762.0650024414062
+  "last": 762.6799926757812
  },
  "position": {
   "symbol": "DELL",
@@ -37,62 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "TJX",
-    "at": "09:50",
-    "price": 137.93,
-    "or_high": 137.73,
-    "or_low": 136.09,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "TOST",
-    "at": "09:50",
-    "price": 34.16,
-    "or_high": 34.13,
-    "or_low": 33.53,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "Z",
-    "at": "09:50",
-    "price": 29.82,
-    "or_high": 29.63,
-    "or_low": 29.17,
-    "pct_over": 0.64
-   },
-   {
-    "symbol": "ABNB",
-    "at": "09:55",
-    "price": 182.49,
-    "or_high": 181.98,
-    "or_low": 179.31,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "AMZN",
-    "at": "09:55",
-    "price": 273.26,
-    "or_high": 272.48,
-    "or_low": 267.83,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "SWKS",
-    "at": "09:55",
-    "price": 90.26,
-    "or_high": 90.04,
-    "or_low": 86.25,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "ANET",
-    "at": "10:00",
-    "price": 200.48,
-    "or_high": 200.47,
-    "or_low": 190.82,
-    "pct_over": 0.0
-   },
    {
     "symbol": "DDOG",
     "at": "10:00",
@@ -516,9 +460,65 @@
     "or_high": 297.0,
     "or_low": 288.75,
     "pct_over": 0.46
+   },
+   {
+    "symbol": "COP",
+    "at": "11:15",
+    "price": 139.43,
+    "or_high": 139.4,
+    "or_low": 137.38,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CRWD",
+    "at": "11:15",
+    "price": 227.13,
+    "or_high": 226.97,
+    "or_low": 218.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "EOG",
+    "at": "11:15",
+    "price": 155.93,
+    "or_high": 155.47,
+    "or_low": 153.85,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MS",
+    "at": "11:15",
+    "price": 191.19,
+    "or_high": 191.15,
+    "or_low": 189.21,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SOFI",
+    "at": "11:15",
+    "price": 16.13,
+    "or_high": 16.13,
+    "or_low": 15.8,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "AVGO",
+    "at": "11:20",
+    "price": 368.66,
+    "or_high": 365.71,
+    "or_low": 354.72,
+    "pct_over": 0.81
+   },
+   {
+    "symbol": "MRNA",
+    "at": "11:20",
+    "price": 241.7,
+    "or_high": 241.42,
+    "or_low": 233.01,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 84,
+  "n_hits": 91,
   "entries": 1,
   "max_trades": 3
  },
@@ -943,6 +943,29 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794500400,
+   "et": "2026-11-12 11:20",
+   "kind": "busy",
+   "text": "2 more breakouts (AVGO, MRNA) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "MRNA"
+   ]
+  },
+  {
+   "ts": 1794500100,
+   "et": "2026-11-12 11:15",
+   "kind": "busy",
+   "text": "5 more breakouts (COP, CRWD, EOG, MS, SOFI) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "COP",
+    "CRWD",
+    "EOG",
+    "MS",
+    "SOFI"
+   ]
+  },
   {
    "ts": 1794499800,
    "et": "2026-11-12 11:10",
@@ -1841,24 +1864,6 @@
    "symbols": [
     "DE"
    ]
-  },
-  {
-   "ts": 1794330000,
-   "et": "2026-11-10 12:00",
-   "kind": "busy",
-   "text": "3 more breakouts (CI, KO, MA) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "CI",
-    "KO",
-    "MA"
-   ]
-  },
-  {
-   "ts": 1794329400,
-   "et": "2026-11-10 11:50",
-   "kind": "fill",
-   "text": "BUY 17 UNH filled at $401.79 (next bar's open $401.71 + slippage). Stop $399.69, target $404.03",
-   "symbol": "UNH"
   }
  ],
  "equity": [
@@ -4651,6 +4656,11 @@
    "ts": 1794500154,
    "equity": 9516.58,
    "spy": 10030.02
+  },
+  {
+   "ts": 1794500469,
+   "equity": 9511.51,
+   "spy": 10038.12
   }
  ],
  "daily": [
@@ -4704,6 +4714,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794500469,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 17.7,
+   "errors": [],
+   "run_id": "43257664113",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794500154,
    "phase": "open",
@@ -5093,25 +5113,15 @@
    "errors": [],
    "run_id": "43084354676",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794423794,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.1,
-   "errors": [],
-   "run_id": "43083515839",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794500154,
+  "tick_at": 1794500469,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794500169,
-  "candidates": 54,
-  "charts_fetched": 56,
+  "yahoo_time": 1794500484,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
