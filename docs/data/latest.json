@@ -1,21 +1,21 @@
 {
- "updated": 1794495725,
- "updated_et": "2026-11-12 10:02 ET",
+ "updated": 1794496041,
+ "updated_et": "2026-11-12 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9486.72,
-  "return": -0.05132800000000004,
+  "equity": 9454.09,
+  "return": -0.054590999999999945,
   "started": 1793559735
  },
  "spy": {
-  "value": 9972.84,
-  "return": -0.0027159999999999407,
+  "value": 9959.02,
+  "return": -0.004097999999999935,
   "start_price": 759.47998046875,
-  "last": 757.719970703125
+  "last": 756.6699829101562
  },
  "position": {
   "symbol": "DELL",
@@ -356,9 +356,17 @@
     "or_high": 304.85,
     "or_low": 295.1,
     "pct_over": 1.14
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:05",
+    "price": 408.92,
+    "or_high": 408.34,
+    "or_low": 402.35,
+    "pct_over": 0.14
    }
   ],
-  "n_hits": 40,
+  "n_hits": 41,
   "entries": 1,
   "max_trades": 3
  },
@@ -783,6 +791,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794495900,
+   "et": "2026-11-12 10:05",
+   "kind": "busy",
+   "text": "1 more breakout (MPC) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "MPC"
+   ]
+  },
   {
    "ts": 1794495600,
    "et": "2026-11-12 10:00",
@@ -1670,16 +1687,6 @@
    "text": "1 more breakout (LLY) not taken: already in META (one trade at a time)",
    "symbols": [
     "LLY"
-   ]
-  },
-  {
-   "ts": 1794324000,
-   "et": "2026-11-10 10:20",
-   "kind": "busy",
-   "text": "2 more breakouts (CHTR, MELI) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "CHTR",
-    "MELI"
    ]
   }
  ],
@@ -4403,6 +4410,11 @@
    "ts": 1794495725,
    "equity": 9486.72,
    "spy": 9972.84
+  },
+  {
+   "ts": 1794496041,
+   "equity": 9454.09,
+   "spy": 9959.02
   }
  ],
  "daily": [
@@ -4456,6 +4468,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794496041,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.8,
+   "errors": [],
+   "run_id": "43244317690",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794495725,
    "phase": "open",
@@ -4845,29 +4867,19 @@
    "errors": [],
    "run_id": "43072713723",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794419393,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.8,
-   "errors": [],
-   "run_id": "43071881176",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794495725,
+  "tick_at": 1794496041,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794495742,
-  "candidates": 47,
-  "charts_fetched": 49,
+  "yahoo_time": 1794496051,
+  "candidates": 35,
+  "charts_fetched": 37,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
