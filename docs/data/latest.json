@@ -1,49 +1,39 @@
 {
- "updated": 1794495098,
- "updated_et": "2026-11-12 09:51 ET",
+ "updated": 1794495410,
+ "updated_et": "2026-11-12 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9457.71,
-  "equity": 9457.71,
-  "return": -0.05422900000000008,
+  "cash": 6580.58,
+  "equity": 9483.2,
+  "return": -0.05167999999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9967.7,
-  "return": -0.003229999999999955,
+  "value": 9976.92,
+  "return": -0.0023079999999999767,
   "start_price": 759.47998046875,
-  "last": 757.3300170898438
+  "last": 758.030029296875
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "DELL",
   "qty": 8,
-  "plan": {
-   "symbol": "DELL",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-12",
-   "entry_time": "9:50 AM",
-   "entry": 359.97,
-   "stop": 347.54,
-   "target": 372.4,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 359.6419,
+  "entry_et": "09:50",
+  "stop": 347.54,
+  "target": 372.4,
+  "last": null,
   "why": {
    "scanner": "DELL: the 09:45 bar closed at $359.97, above the 15-min opening range high $359.89 (range 335.20-359.89)",
    "exit": "plan: entry $359.97, stop $347.54 (opening-range midpoint), target $372.40 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on DELL: 8 shares, bound by your $100 max loss per trade (8 x 12.43 = $99.44 at the stop) (limits: max loss 8; position cap 19; max order 22; cash 23)",
    "risk": "trader-risk PASS: entry 359.97 (the latest price), stop 347.54, target 372.40: risk 12.43 a share; max loss $99.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794495000,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-12",
   "hits": [
@@ -262,13 +252,37 @@
     "or_high": 29.63,
     "or_low": 29.17,
     "pct_over": 0.64
+   },
+   {
+    "symbol": "ABNB",
+    "at": "09:55",
+    "price": 182.49,
+    "or_high": 181.98,
+    "or_low": 179.31,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "AMZN",
+    "at": "09:55",
+    "price": 273.26,
+    "or_high": 272.48,
+    "or_low": 267.83,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 90.26,
+    "or_high": 90.04,
+    "or_low": 86.25,
+    "pct_over": 0.25
    }
   ],
-  "n_hits": 27,
+  "n_hits": 30,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 8 DELL at the next bar's open (signal at 09:50 ET). Then: stop $347.54, target $372.40.",
+ "next_move": "Holding 8 DELL bought at $359.64. It sells at the stop $347.54, the target $372.40, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 16,
   "wins": 5,
@@ -689,6 +703,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794495300,
+   "et": "2026-11-12 09:55",
+   "kind": "busy",
+   "text": "3 more breakouts (ABNB, AMZN, SWKS) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "ABNB",
+    "AMZN",
+    "SWKS"
+   ]
+  },
+  {
+   "ts": 1794495000,
+   "et": "2026-11-12 09:50",
+   "kind": "fill",
+   "text": "BUY 8 DELL filled at $359.64 (next bar's open $359.57 + slippage). Stop $347.54, target $372.40",
+   "symbol": "DELL"
+  },
   {
    "ts": 1794495000,
    "et": "2026-11-12 09:50",
@@ -1559,32 +1591,6 @@
    "text": "1 more breakout (ORCL) not taken: already in META (one trade at a time)",
    "symbols": [
     "ORCL"
-   ]
-  },
-  {
-   "ts": 1794323400,
-   "et": "2026-11-10 10:10",
-   "kind": "busy",
-   "text": "1 more breakout (CPNG) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "CPNG"
-   ]
-  },
-  {
-   "ts": 1794323100,
-   "et": "2026-11-10 10:05",
-   "kind": "busy",
-   "text": "9 more breakouts (AFRM, AMZN, C, CVS, DLTR, F, GS, HUM ...) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "AFRM",
-    "AMZN",
-    "C",
-    "CVS",
-    "DLTR",
-    "F",
-    "GS",
-    "HUM",
-    "SNAP"
    ]
   }
  ],
@@ -4298,6 +4304,11 @@
    "ts": 1794495098,
    "equity": 9457.71,
    "spy": 9967.7
+  },
+  {
+   "ts": 1794495410,
+   "equity": 9483.2,
+   "spy": 9976.92
   }
  ],
  "daily": [
@@ -4351,6 +4362,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794495410,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 26.4,
+   "errors": [],
+   "run_id": "43242456065",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794495098,
    "phase": "open",
@@ -4740,29 +4761,19 @@
    "errors": [],
    "run_id": "43071054115",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794418763,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.9,
-   "errors": [],
-   "run_id": "43070220130",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794495098,
+  "tick_at": 1794495410,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794495129,
-  "candidates": 106,
-  "charts_fetched": 107,
+  "yahoo_time": 1794495434,
+  "candidates": 61,
+  "charts_fetched": 63,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.5,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -1,5 +1,5 @@
 {
- "cash": 9457.7149,
+ "cash": 6580.5797,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -393,11 +393,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794495000,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794495300,
+  "position": {
    "symbol": "DELL",
    "qty": 8,
+   "entry_fill": 359.6419,
+   "entry_ts": 1794495000,
    "plan": {
     "symbol": "DELL",
     "side": "buy",
@@ -409,7 +410,8 @@
     "target": 372.4,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 359.57000732421875
    },
    "why": {
     "scanner": "DELL: the 09:45 bar closed at $359.97, above the 15-min opening range high $359.89 (range 335.20-359.89)",
@@ -418,9 +420,9 @@
     "risk": "trader-risk PASS: entry 359.97 (the latest price), stop 347.54, target 372.40: risk 12.43 a share; max loss $99.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794495000,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -430,12 +432,24 @@
     "kind": "entry",
     "max_loss": 99.44,
     "at": "2026-11-12T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-12",
+    "symbol": "DELL",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 8
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 27,
-  "missed": [],
+  "triggers_seen": 30,
+  "missed": [
+   "ABNB",
+   "AMZN",
+   "SWKS"
+  ],
   "triggered": [
    "BKNG",
    "BLK",
@@ -463,7 +477,10 @@
    "STX",
    "TJX",
    "TOST",
-   "Z"
+   "Z",
+   "ABNB",
+   "AMZN",
+   "SWKS"
   ],
   "hits": [
    {
@@ -681,6 +698,30 @@
     "or_high": 29.63,
     "or_low": 29.17,
     "pct_over": 0.64
+   },
+   {
+    "symbol": "ABNB",
+    "at": "09:55",
+    "price": 182.49,
+    "or_high": 181.98,
+    "or_low": 179.31,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "AMZN",
+    "at": "09:55",
+    "price": 273.26,
+    "or_high": 272.48,
+    "or_low": 267.83,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 90.26,
+    "or_high": 90.04,
+    "or_low": 86.25,
+    "pct_over": 0.25
    }
   ]
  },
@@ -688,8 +729,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 757.3300170898438,
-  "last_ts": 1794495000
+  "last": 758.030029296875,
+  "last_ts": 1794495300
  },
  "seen_trades": 0,
  "daily": [
