@@ -1,50 +1,52 @@
 {
- "updated": 1794502045,
- "updated_et": "2026-11-12 11:47 ET",
+ "updated": 1794502359,
+ "updated_et": "2026-11-12 11:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2482.41,
-  "equity": 9581.93,
-  "return": -0.04180699999999993,
+  "cash": 9583.77,
+  "equity": 9583.77,
+  "return": -0.041622999999999966,
   "started": 1793559735
  },
  "spy": {
-  "value": 10004.16,
-  "return": 0.00041599999999997195,
+  "value": 10012.26,
+  "return": 0.0012259999999999494,
   "start_price": 759.47998046875,
-  "last": 760.0999755859375
+  "last": 760.7150268554688
  },
- "position": {
-  "symbol": "XOM",
-  "qty": 42,
-  "entry": 168.5087,
-  "entry_et": "11:30",
-  "stop": 167.9,
-  "target": 169.08,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "GME",
+  "qty": 282,
+  "plan": {
+   "symbol": "GME",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-12",
+   "entry_time": "11:50 AM",
+   "entry": 25.42,
+   "stop": 25.13,
+   "target": 25.71,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
-   "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
-   "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
+   "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
+   "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
+   "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1794502200,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "NVDA",
-    "at": "10:00",
-    "price": 162.66,
-    "or_high": 162.33,
-    "or_low": 148.8,
-    "pct_over": 0.2
-   },
    {
     "symbol": "OKTA",
     "at": "10:00",
@@ -516,28 +518,36 @@
     "or_high": 215.71,
     "or_low": 214.12,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "GME",
+    "at": "11:50",
+    "price": 25.42,
+    "or_high": 25.35,
+    "or_low": 24.92,
+    "pct_over": 0.28
    }
   ],
-  "n_hits": 95,
-  "entries": 2,
+  "n_hits": 96,
+  "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 42 XOM bought at $168.51. It sells at the stop $167.90, the target $169.08, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 282 GME at the next bar's open (signal at 11:50 ET). Then: stop $25.13, target $25.71.",
  "stats": {
-  "trades": 17,
-  "wins": 6,
-  "win_rate": 0.35294117647058826,
-  "avg_r": -0.3074117647058824,
-  "t_stat_r": -1.4123693917669111,
-  "net_pnl": -440.23,
-  "profit_factor": 0.4427045092032306,
-  "expectancy_usd": -25.9,
-  "avg_win": 58.28,
+  "trades": 18,
+  "wins": 7,
+  "win_rate": 0.3888888888888889,
+  "avg_r": -0.2365555555555556,
+  "t_stat_r": -1.089629126958102,
+  "net_pnl": -416.24,
+  "profit_factor": 0.4730739043471656,
+  "expectancy_usd": -23.12,
+  "avg_win": 53.39,
   "avg_loss": -71.81,
-  "costs_usd": 31.43,
+  "costs_usd": 32.85,
   "exits": {
    "stop": 9,
-   "target": 4,
+   "target": 5,
    "flat-by": 4
   }
  },
@@ -557,6 +567,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-12",
+   "symbol": "XOM",
+   "qty": 42,
+   "entry_et": "11:30",
+   "entry_fill": 168.5087,
+   "exit_et": "11:50",
+   "exit_fill": 169.08,
+   "exit_reason": "target $169.08 hit (1R)",
+   "stop": 167.9,
+   "target": 169.08,
+   "pnl": 23.99,
+   "r": 0.968,
+   "risk_usd": 24.78,
+   "cost_usd": 1.42,
+   "why": {
+    "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
+    "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
+    "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-12",
    "symbol": "DELL",
@@ -967,6 +1001,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794502200,
+   "et": "2026-11-12 11:50",
+   "kind": "order",
+   "text": "BUY 282 GME at market (decided on the 11:50 close). opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
+   "symbol": "GME",
+   "why": {
+    "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
+    "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
+    "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
+  {
+   "ts": 1794502200,
+   "et": "2026-11-12 11:50",
+   "kind": "exit",
+   "text": "SELL 42 XOM at $169.08: target $169.08 hit (1R). P&L $+23.99 (+0.97R)",
+   "symbol": "XOM"
+  },
   {
    "ts": 1794501300,
    "et": "2026-11-12 11:35",
@@ -1867,28 +1923,6 @@
     "APO",
     "MMM",
     "UPS"
-   ]
-  },
-  {
-   "ts": 1794332400,
-   "et": "2026-11-10 12:40",
-   "kind": "busy",
-   "text": "3 more breakouts (BMY, D, VZ) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "BMY",
-    "D",
-    "VZ"
-   ]
-  },
-  {
-   "ts": 1794331800,
-   "et": "2026-11-10 12:30",
-   "kind": "busy",
-   "text": "3 more breakouts (RTX, SBUX, YUM) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "RTX",
-    "SBUX",
-    "YUM"
    ]
   }
  ],
@@ -4712,6 +4746,11 @@
    "ts": 1794502045,
    "equity": 9581.93,
    "spy": 10004.16
+  },
+  {
+   "ts": 1794502359,
+   "equity": 9583.77,
+   "spy": 10012.26
   }
  ],
  "daily": [
@@ -4765,6 +4804,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794502359,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.2,
+   "errors": [],
+   "run_id": "43263376625",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794502045,
    "phase": "open",
@@ -5154,25 +5203,15 @@
    "errors": [],
    "run_id": "43089245643",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794425673,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.4,
-   "errors": [],
-   "run_id": "43088450411",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794502045,
+  "tick_at": 1794502359,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794502053,
-  "candidates": 30,
-  "charts_fetched": 32,
+  "yahoo_time": 1794502368,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,

@@ -1,5 +1,5 @@
 {
- "cash": 2482.4143,
+ "cash": 9583.7743,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -411,32 +411,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-12",
-  "last_bar_end": 1794501900,
-  "position": {
+  },
+  {
+   "date": "2026-11-12",
    "symbol": "XOM",
    "qty": 42,
+   "entry_et": "11:30",
    "entry_fill": 168.5087,
-   "entry_ts": 1794501000,
-   "plan": {
-    "symbol": "XOM",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-12",
-    "entry_time": "11:30 AM",
-    "entry": 168.49,
-    "stop": 167.9,
-    "target": 169.08,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 168.47500610351562
-   },
+   "exit_et": "11:50",
+   "exit_fill": 169.08,
+   "exit_reason": "target $169.08 hit (1R)",
+   "stop": 167.9,
+   "target": 169.08,
+   "pnl": 23.99,
+   "r": 0.968,
+   "risk_usd": 24.78,
+   "cost_usd": 1.42,
    "why": {
     "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
     "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
@@ -445,8 +435,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-12",
+  "last_bar_end": 1794502200,
+  "position": null,
+  "pending": {
+   "symbol": "GME",
+   "qty": 282,
+   "plan": {
+    "symbol": "GME",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-12",
+    "entry_time": "11:50 AM",
+    "entry": 25.42,
+    "stop": 25.13,
+    "target": 25.71,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
+    "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
+    "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794502200,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -489,11 +511,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 42
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-12",
+    "symbol": "XOM",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 42
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-12",
+    "symbol": "GME",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 81.78,
+    "at": "2026-11-12T11:50:00"
    }
   ],
-  "entries": 2,
+  "entries": 3,
   "skips": 0,
-  "triggers_seen": 95,
+  "triggers_seen": 96,
   "missed": [
    "ABNB",
    "AMZN",
@@ -658,7 +697,8 @@
    "SPOT",
    "ZS",
    "XOM",
-   "CVX"
+   "CVX",
+   "GME"
   ],
   "hits": [
    {
@@ -1420,6 +1460,14 @@
     "or_high": 215.71,
     "or_low": 214.12,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "GME",
+    "at": "11:50",
+    "price": 25.42,
+    "or_high": 25.35,
+    "or_low": 24.92,
+    "pct_over": 0.28
    }
   ]
  },
@@ -1427,8 +1475,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.0999755859375,
-  "last_ts": 1794501900
+  "last": 760.7150268554688,
+  "last_ts": 1794502200
  },
  "seen_trades": 0,
  "daily": [
