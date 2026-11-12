@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794496200,
+  "last_bar_end": 1794496500,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 43,
+  "triggers_seen": 44,
   "missed": [
    "ABNB",
    "AMZN",
@@ -461,7 +461,8 @@
    "WDC",
    "MPC",
    "FANG",
-   "ZTS"
+   "ZTS",
+   "OXY"
   ],
   "triggered": [
    "BKNG",
@@ -506,7 +507,8 @@
    "WDC",
    "MPC",
    "FANG",
-   "ZTS"
+   "ZTS",
+   "OXY"
   ],
   "hits": [
    {
@@ -852,6 +854,14 @@
     "or_high": 83.25,
     "or_low": 82.51,
     "pct_over": 0.38
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:15",
+    "price": 58.1,
+    "or_high": 57.95,
+    "or_low": 57.4,
+    "pct_over": 0.26
    }
   ]
  },
@@ -859,8 +869,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.9500122070312,
-  "last_ts": 1794496200
+  "last": 756.86279296875,
+  "last_ts": 1794496500
  },
  "seen_trades": 0,
  "daily": [
