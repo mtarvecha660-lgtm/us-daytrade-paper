@@ -1,21 +1,21 @@
 {
- "updated": 1794498891,
- "updated_et": "2026-11-12 10:54 ET",
+ "updated": 1794499207,
+ "updated_et": "2026-11-12 11:00 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 6580.58,
-  "equity": 9440.85,
-  "return": -0.05591499999999994,
+  "equity": 9475.6,
+  "return": -0.05243999999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9979.42,
-  "return": -0.0020580000000000043,
+  "value": 9994.55,
+  "return": -0.0005450000000000177,
   "start_price": 759.47998046875,
-  "last": 758.219970703125
+  "last": 759.3699951171875
  },
  "position": {
   "symbol": "DELL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "BKNG",
-    "at": "09:50",
-    "price": 162.97,
-    "or_high": 162.46,
-    "or_low": 159.0,
-    "pct_over": 0.31
-   },
-   {
-    "symbol": "BLK",
-    "at": "09:50",
-    "price": 1232.62,
-    "or_high": 1232.54,
-    "or_low": 1221.1,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "CLSK",
-    "at": "09:50",
-    "price": 6.83,
-    "or_high": 6.82,
-    "or_low": 6.46,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "CSCO",
-    "at": "09:50",
-    "price": 100.72,
-    "or_high": 100.6,
-    "or_low": 99.41,
-    "pct_over": 0.12
-   },
    {
     "symbol": "DELL",
     "at": "09:50",
@@ -484,9 +452,73 @@
     "or_high": 97.7,
     "or_low": 96.21,
     "pct_over": 0.37
+   },
+   {
+    "symbol": "ADI",
+    "at": "10:55",
+    "price": 412.11,
+    "or_high": 410.91,
+    "or_low": 402.0,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:55",
+    "price": 392.84,
+    "or_high": 389.82,
+    "or_low": 377.29,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "ARM",
+    "at": "10:55",
+    "price": 202.68,
+    "or_high": 201.99,
+    "or_low": 190.0,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "CAT",
+    "at": "10:55",
+    "price": 603.68,
+    "or_high": 600.59,
+    "or_low": 590.7,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "INTC",
+    "at": "10:55",
+    "price": 61.96,
+    "or_high": 61.2,
+    "or_low": 59.41,
+    "pct_over": 1.24
+   },
+   {
+    "symbol": "KLAC",
+    "at": "10:55",
+    "price": 160.51,
+    "or_high": 158.97,
+    "or_low": 155.36,
+    "pct_over": 0.97
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:55",
+    "price": 62.07,
+    "or_high": 61.89,
+    "or_low": 60.45,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "ON",
+    "at": "10:55",
+    "price": 73.57,
+    "or_high": 73.43,
+    "or_low": 71.01,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 56,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
@@ -911,6 +943,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794498900,
+   "et": "2026-11-12 10:55",
+   "kind": "busy",
+   "text": "8 more breakouts (ADI, AMAT, ARM, CAT, INTC, KLAC, MCHP, ON) not taken: already in DELL (one trade at a time)",
+   "symbols": [
+    "ADI",
+    "AMAT",
+    "ARM",
+    "CAT",
+    "INTC",
+    "KLAC",
+    "MCHP",
+    "ON"
+   ]
+  },
   {
    "ts": 1794498600,
    "et": "2026-11-12 10:50",
@@ -1800,16 +1848,6 @@
    "kind": "exit",
    "text": "SELL 10 META at $639.17: stop $639.30 hit. P&L $-43.27 (-1.00R)",
    "symbol": "META"
-  },
-  {
-   "ts": 1794328800,
-   "et": "2026-11-10 11:40",
-   "kind": "busy",
-   "text": "2 more breakouts (DG, PEP) not taken: already in META (one trade at a time)",
-   "symbols": [
-    "DG",
-    "PEP"
-   ]
   }
  ],
  "equity": [
@@ -4582,6 +4620,11 @@
    "ts": 1794498891,
    "equity": 9440.85,
    "spy": 9979.42
+  },
+  {
+   "ts": 1794499207,
+   "equity": 9475.6,
+   "spy": 9994.55
   }
  ],
  "daily": [
@@ -4635,6 +4678,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794499207,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.4,
+   "errors": [],
+   "run_id": "43253811992",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794498891,
    "phase": "open",
@@ -5024,25 +5077,15 @@
    "errors": [],
    "run_id": "43081065125",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794422538,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.5,
-   "errors": [],
-   "run_id": "43080252372",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794498891,
+  "tick_at": 1794499207,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794498902,
-  "candidates": 38,
-  "charts_fetched": 40,
+  "yahoo_time": 1794499222,
+  "candidates": 51,
+  "charts_fetched": 53,
   "ok": true,
   "errors": [],
   "stale_data": false,
