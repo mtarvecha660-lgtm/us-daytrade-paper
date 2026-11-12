@@ -393,7 +393,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794498300,
+  "last_bar_end": 1794498600,
   "position": {
    "symbol": "DELL",
    "qty": 8,
@@ -444,7 +444,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 54,
+  "triggers_seen": 56,
   "missed": [
    "ABNB",
    "AMZN",
@@ -472,7 +472,9 @@
    "LRCX",
    "MSTR",
    "TER",
-   "TXN"
+   "TXN",
+   "SNPS",
+   "ZM"
   ],
   "triggered": [
    "BKNG",
@@ -528,7 +530,9 @@
    "LRCX",
    "MSTR",
    "TER",
-   "TXN"
+   "TXN",
+   "SNPS",
+   "ZM"
   ],
   "hits": [
    {
@@ -962,6 +966,22 @@
     "or_high": 311.82,
     "or_low": 305.77,
     "pct_over": 0.42
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:50",
+    "price": 463.61,
+    "or_high": 463.01,
+    "or_low": 452.63,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "ZM",
+    "at": "10:50",
+    "price": 98.06,
+    "or_high": 97.7,
+    "or_low": 96.21,
+    "pct_over": 0.37
    }
   ]
  },
@@ -969,8 +989,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 758.5650024414062,
-  "last_ts": 1794498300
+  "last": 758.219970703125,
+  "last_ts": 1794498600
  },
  "seen_trades": 0,
  "daily": [
