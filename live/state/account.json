@@ -1,5 +1,5 @@
 {
- "cash": 9583.7743,
+ "cash": 2406.8743,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -441,11 +441,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794502200,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794502500,
+  "position": {
    "symbol": "GME",
    "qty": 282,
+   "entry_fill": 25.45,
+   "entry_ts": 1794502200,
    "plan": {
     "symbol": "GME",
     "side": "buy",
@@ -457,7 +458,8 @@
     "target": 25.71,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 25.440000534057617
    },
    "why": {
     "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
@@ -466,9 +468,9 @@
     "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794502200,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -528,6 +530,14 @@
     "kind": "entry",
     "max_loss": 81.78,
     "at": "2026-11-12T11:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-12",
+    "symbol": "GME",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 282
    }
   ],
   "entries": 3,
@@ -1475,8 +1485,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.7150268554688,
-  "last_ts": 1794502200
+  "last": 760.9299926757812,
+  "last_ts": 1794502500
  },
  "seen_trades": 0,
  "daily": [

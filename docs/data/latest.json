@@ -1,49 +1,39 @@
 {
- "updated": 1794502359,
- "updated_et": "2026-11-12 11:52 ET",
+ "updated": 1794502674,
+ "updated_et": "2026-11-12 11:57 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9583.77,
-  "equity": 9583.77,
-  "return": -0.041622999999999966,
+  "cash": 2406.87,
+  "equity": 9541.47,
+  "return": -0.04585300000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 10012.26,
-  "return": 0.0012259999999999494,
+  "value": 10015.08,
+  "return": 0.0015080000000000648,
   "start_price": 759.47998046875,
-  "last": 760.7150268554688
+  "last": 760.9299926757812
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "GME",
   "qty": 282,
-  "plan": {
-   "symbol": "GME",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-12",
-   "entry_time": "11:50 AM",
-   "entry": 25.42,
-   "stop": 25.13,
-   "target": 25.71,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 25.45,
+  "entry_et": "11:50",
+  "stop": 25.13,
+  "target": 25.71,
+  "last": null,
   "why": {
    "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
    "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
    "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794502200,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-12",
   "hits": [
@@ -532,7 +522,7 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 282 GME at the next bar's open (signal at 11:50 ET). Then: stop $25.13, target $25.71.",
+ "next_move": "Holding 282 GME bought at $25.45. It sells at the stop $25.13, the target $25.71, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 18,
   "wins": 7,
@@ -1001,6 +991,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794502200,
+   "et": "2026-11-12 11:50",
+   "kind": "fill",
+   "text": "BUY 282 GME filled at $25.45 (next bar's open $25.44 + slippage). Stop $25.13, target $25.71",
+   "symbol": "GME"
+  },
   {
    "ts": 1794502200,
    "et": "2026-11-12 11:50",
@@ -1912,17 +1909,6 @@
    "text": "1 more breakout (TGT) not taken: already in UNH (one trade at a time)",
    "symbols": [
     "TGT"
-   ]
-  },
-  {
-   "ts": 1794332700,
-   "et": "2026-11-10 12:45",
-   "kind": "busy",
-   "text": "3 more breakouts (APO, MMM, UPS) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "APO",
-    "MMM",
-    "UPS"
    ]
   }
  ],
@@ -4751,6 +4737,11 @@
    "ts": 1794502359,
    "equity": 9583.77,
    "spy": 10012.26
+  },
+  {
+   "ts": 1794502674,
+   "equity": 9541.47,
+   "spy": 10015.08
   }
  ],
  "daily": [
@@ -4804,6 +4795,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794502674,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.9,
+   "errors": [],
+   "run_id": "43264306762",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794502359,
    "phase": "open",
@@ -5193,25 +5194,15 @@
    "errors": [],
    "run_id": "43090059124",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794425987,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.1,
-   "errors": [],
-   "run_id": "43089245643",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794502359,
+  "tick_at": 1794502674,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794502368,
-  "candidates": 33,
-  "charts_fetched": 35,
+  "yahoo_time": 1794502683,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
