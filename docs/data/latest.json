@@ -1,6 +1,6 @@
 {
- "updated": 1794503303,
- "updated_et": "2026-11-12 12:08 ET",
+ "updated": 1794503620,
+ "updated_et": "2026-11-12 12:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 10015.41,
-  "return": 0.0015410000000000146,
+  "value": 10015.61,
+  "return": 0.0015610000000001456,
   "start_price": 759.47998046875,
-  "last": 760.9550170898438
+  "last": 760.969970703125
  },
  "position": {
   "symbol": "GME",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "SMCI",
-    "at": "10:00",
-    "price": 28.19,
-    "or_high": 28.0,
-    "or_low": 26.96,
-    "pct_over": 0.68
-   },
    {
     "symbol": "VLO",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 80.99,
     "or_low": 80.05,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "MRK",
+    "at": "12:10",
+    "price": 149.04,
+    "or_high": 148.8,
+    "or_low": 147.1,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 97,
+  "n_hits": 98,
   "entries": 3,
   "max_trades": 3
  },
@@ -991,6 +991,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794503400,
+   "et": "2026-11-12 12:10",
+   "kind": "busy",
+   "text": "1 more breakout (MRK) not taken: already in GME (one trade at a time)",
+   "symbols": [
+    "MRK"
+   ]
+  },
   {
    "ts": 1794502800,
    "et": "2026-11-12 12:00",
@@ -1900,15 +1909,6 @@
    "symbols": [
     "V",
     "ZTS"
-   ]
-  },
-  {
-   "ts": 1794333600,
-   "et": "2026-11-10 13:00",
-   "kind": "busy",
-   "text": "1 more breakout (SEDG) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "SEDG"
    ]
   }
  ],
@@ -4752,6 +4752,11 @@
    "ts": 1794503303,
    "equity": 9558.39,
    "spy": 10015.41
+  },
+  {
+   "ts": 1794503620,
+   "equity": 9558.39,
+   "spy": 10015.61
   }
  ],
  "daily": [
@@ -4805,6 +4810,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794503620,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.6,
+   "errors": [],
+   "run_id": "43267119025",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794503303,
    "phase": "open",
@@ -5194,23 +5209,13 @@
    "errors": [],
    "run_id": "43092216810",
    "event": "schedule"
-  },
-  {
-   "ts": 1794426944,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.0,
-   "errors": [],
-   "run_id": "43091677101",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794503303,
+  "tick_at": 1794503620,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794503318,
+  "yahoo_time": 1794503634,
   "candidates": 34,
   "charts_fetched": 36,
   "ok": true,
