@@ -441,7 +441,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794506100,
+  "last_bar_end": 1794506700,
   "position": {
    "symbol": "GME",
    "qty": 282,
@@ -542,7 +542,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 102,
+  "triggers_seen": 104,
   "missed": [
    "ABNB",
    "AMZN",
@@ -616,7 +616,9 @@
    "JNJ",
    "KO",
    "AI",
-   "NCLH"
+   "NCLH",
+   "HAL",
+   "SLB"
   ],
   "triggered": [
    "BKNG",
@@ -720,7 +722,9 @@
    "JNJ",
    "KO",
    "AI",
-   "NCLH"
+   "NCLH",
+   "HAL",
+   "SLB"
   ],
   "hits": [
    {
@@ -1538,6 +1542,22 @@
     "or_high": 18.63,
     "or_low": 18.4,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "HAL",
+    "at": "13:00",
+    "price": 33.03,
+    "or_high": 32.99,
+    "or_low": 32.39,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SLB",
+    "at": "13:00",
+    "price": 51.28,
+    "or_high": 51.25,
+    "or_low": 50.34,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1545,8 +1565,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 761.3099975585938,
-  "last_ts": 1794506100
+  "last": 760.77001953125,
+  "last_ts": 1794506700
  },
  "seen_trades": 0,
  "daily": [

@@ -310,3 +310,4 @@
 {"ts": 1794504300, "et": "2026-11-12 12:25", "kind": "busy", "text": "1 more breakout (KO) not taken: already in GME (one trade at a time)", "symbols": ["KO"]}
 {"ts": 1794504600, "et": "2026-11-12 12:30", "kind": "busy", "text": "1 more breakout (AI) not taken: already in GME (one trade at a time)", "symbols": ["AI"]}
 {"ts": 1794506100, "et": "2026-11-12 12:55", "kind": "busy", "text": "1 more breakout (NCLH) not taken: already in GME (one trade at a time)", "symbols": ["NCLH"]}
+{"ts": 1794506400, "et": "2026-11-12 13:00", "kind": "busy", "text": "2 more breakouts (HAL, SLB) not taken: already in GME (one trade at a time)", "symbols": ["HAL", "SLB"]}

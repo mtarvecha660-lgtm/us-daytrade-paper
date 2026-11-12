@@ -1,21 +1,21 @@
 {
- "updated": 1794506455,
- "updated_et": "2026-11-12 13:00 ET",
+ "updated": 1794506773,
+ "updated_et": "2026-11-12 13:06 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2406.87,
-  "equity": 9549.93,
-  "return": -0.04500700000000002,
+  "equity": 9547.11,
+  "return": -0.04528899999999991,
   "started": 1793559735
  },
  "spy": {
-  "value": 10020.09,
-  "return": 0.0020089999999999275,
+  "value": 10012.98,
+  "return": 0.0012980000000000214,
   "start_price": 759.47998046875,
-  "last": 761.3099975585938
+  "last": 760.77001953125
  },
  "position": {
   "symbol": "GME",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-12",
   "hits": [
-   {
-    "symbol": "ZTS",
-    "at": "10:10",
-    "price": 83.57,
-    "or_high": 83.25,
-    "or_low": 82.51,
-    "pct_over": 0.38
-   },
-   {
-    "symbol": "OXY",
-    "at": "10:15",
-    "price": 58.1,
-    "or_high": 57.95,
-    "or_low": 57.4,
-    "pct_over": 0.26
-   },
    {
     "symbol": "APP",
     "at": "10:20",
@@ -516,9 +500,25 @@
     "or_high": 18.63,
     "or_low": 18.4,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "HAL",
+    "at": "13:00",
+    "price": 33.03,
+    "or_high": 32.99,
+    "or_low": 32.39,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SLB",
+    "at": "13:00",
+    "price": 51.28,
+    "or_high": 51.25,
+    "or_low": 50.34,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 102,
+  "n_hits": 104,
   "entries": 3,
   "max_trades": 3
  },
@@ -991,6 +991,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794506400,
+   "et": "2026-11-12 13:00",
+   "kind": "busy",
+   "text": "2 more breakouts (HAL, SLB) not taken: already in GME (one trade at a time)",
+   "symbols": [
+    "HAL",
+    "SLB"
+   ]
+  },
   {
    "ts": 1794506100,
    "et": "2026-11-12 12:55",
@@ -1899,15 +1909,6 @@
    "kind": "exit",
    "text": "SELL 17 UNH at $404.03: target $404.03 hit (1R). P&L $+38.07 (+1.03R)",
    "symbol": "UNH"
-  },
-  {
-   "ts": 1794339900,
-   "et": "2026-11-10 14:45",
-   "kind": "busy",
-   "text": "1 more breakout (RCL) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "RCL"
-   ]
   }
  ],
  "equity": [
@@ -4800,6 +4801,11 @@
    "ts": 1794506455,
    "equity": 9549.93,
    "spy": 10020.09
+  },
+  {
+   "ts": 1794506773,
+   "equity": 9547.11,
+   "spy": 10012.98
   }
  ],
  "daily": [
@@ -4853,6 +4859,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794506773,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 12.0,
+   "errors": [],
+   "run_id": "43276277907",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794506455,
    "phase": "open",
@@ -5242,25 +5258,15 @@
    "errors": [],
    "run_id": "43239705703",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794494149,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 6.4,
-   "errors": [],
-   "run_id": "43238794521",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794506455,
+  "tick_at": 1794506773,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794506468,
-  "candidates": 31,
-  "charts_fetched": 33,
+  "yahoo_time": 1794506783,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
