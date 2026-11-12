@@ -417,7 +417,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-12",
-  "last_bar_end": 1794501300,
+  "last_bar_end": 1794501600,
   "position": {
    "symbol": "XOM",
    "qty": 42,
@@ -1427,8 +1427,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 760.8400268554688,
-  "last_ts": 1794501300
+  "last": 760.8200073242188,
+  "last_ts": 1794501600
  },
  "seen_trades": 0,
  "daily": [
