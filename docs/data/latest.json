@@ -1,21 +1,21 @@
 {
- "updated": 1794589378,
- "updated_et": "2026-11-13 12:02 ET",
+ "updated": 1794589690,
+ "updated_et": "2026-11-13 12:08 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9610.69,
-  "return": -0.03893099999999994,
+  "equity": 9611.21,
+  "return": -0.03887900000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9871.56,
-  "return": -0.012844000000000078,
+  "value": 9871.89,
+  "return": -0.012811000000000017,
   "start_price": 759.47998046875,
-  "last": 750.0250854492188
+  "last": 750.0499267578125
  },
  "position": {
   "symbol": "MSFT",
@@ -492,9 +492,17 @@
     "or_high": 82.27,
     "or_low": 81.39,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "ABNB",
+    "at": "12:05",
+    "price": 186.12,
+    "or_high": 186.0,
+    "or_low": 181.8,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 57,
+  "n_hits": 58,
   "entries": 1,
   "max_trades": 3
  },
@@ -991,6 +999,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794589500,
+   "et": "2026-11-13 12:05",
+   "kind": "busy",
+   "text": "1 more breakout (ABNB) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "ABNB"
+   ]
+  },
   {
    "ts": 1794589200,
    "et": "2026-11-13 12:00",
@@ -1860,16 +1877,6 @@
    "symbols": [
     "CAT",
     "KLAC"
-   ]
-  },
-  {
-   "ts": 1794414300,
-   "et": "2026-11-11 11:25",
-   "kind": "busy",
-   "text": "2 more breakouts (ADBE, MSTR) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "MSTR"
    ]
   }
  ],
@@ -5088,6 +5095,11 @@
    "ts": 1794589378,
    "equity": 9610.69,
    "spy": 9871.56
+  },
+  {
+   "ts": 1794589690,
+   "equity": 9611.21,
+   "spy": 9871.89
   }
  ],
  "daily": [
@@ -5147,6 +5159,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794589690,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.6,
+   "errors": [],
+   "run_id": "43469706932",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794589378,
    "phase": "open",
@@ -5536,25 +5558,15 @@
    "errors": [],
    "run_id": "43304890929",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794516557,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.6,
-   "errors": [],
-   "run_id": "43304028664",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794589378,
+  "tick_at": 1794589690,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794589385,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1794589696,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
