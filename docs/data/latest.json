@@ -1,38 +1,23 @@
 {
- "updated": 1794603240,
- "updated_et": "2026-11-13 15:54 ET",
+ "updated": 1794603555,
+ "updated_et": "2026-11-13 15:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2824.49,
-  "equity": 9639.16,
-  "return": -0.036084000000000005,
+  "cash": 9653.33,
+  "equity": 9653.33,
+  "return": -0.034667,
   "started": 1793559735
  },
  "spy": {
-  "value": 9916.5,
-  "return": -0.008349999999999969,
+  "value": 9931.51,
+  "return": -0.006848999999999994,
   "start_price": 759.47998046875,
-  "last": 753.4400024414062
+  "last": 754.5800170898438
  },
- "position": {
-  "symbol": "MSFT",
-  "qty": 13,
-  "entry": 523.4156,
-  "entry_et": "09:50",
-  "stop": 517.36,
-  "target": 529.22,
-  "last": null,
-  "why": {
-   "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
-   "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
-   "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-13",
@@ -522,23 +507,23 @@
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Holding 13 MSFT bought at $523.42. It sells at the stop $517.36, the target $529.22, or at 15:55 ET, whichever comes first.",
+ "next_move": "No new entries after 15:30 ET (the skill's rule). Flat, waiting for tomorrow.",
  "stats": {
-  "trades": 19,
-  "wins": 8,
-  "win_rate": 0.42105263157894735,
-  "avg_r": -0.19505263157894742,
-  "t_stat_r": -0.931014394083251,
-  "net_pnl": -371.12,
-  "profit_factor": 0.5301921664936577,
-  "expectancy_usd": -19.53,
-  "avg_win": 52.35,
+  "trades": 20,
+  "wins": 9,
+  "win_rate": 0.45,
+  "avg_r": -0.16945000000000005,
+  "t_stat_r": -0.8455732842742173,
+  "net_pnl": -346.69,
+  "profit_factor": 0.5611185659670355,
+  "expectancy_usd": -17.33,
+  "avg_win": 49.25,
   "avg_loss": -71.81,
-  "costs_usd": 38.49,
+  "costs_usd": 41.22,
   "exits": {
    "stop": 9,
    "target": 5,
-   "flat-by": 5
+   "flat-by": 6
   }
  },
  "curve": {
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-13",
+   "symbol": "MSFT",
+   "qty": 13,
+   "entry_et": "09:50",
+   "entry_fill": 523.4156,
+   "exit_et": "15:55",
+   "exit_fill": 525.2949,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 517.36,
+   "target": 529.22,
+   "pnl": 24.43,
+   "r": 0.317,
+   "risk_usd": 77.09,
+   "cost_usd": 2.73,
+   "why": {
+    "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
+    "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
+    "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-12",
    "symbol": "GME",
@@ -1015,6 +1024,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794603300,
+   "et": "2026-11-13 15:55",
+   "kind": "exit",
+   "text": "SELL 13 MSFT at $525.29: flat by 15:55 ET (the skill's flat-by rule). P&L $+24.43 (+0.32R)",
+   "symbol": "MSFT"
+  },
   {
    "ts": 1794601200,
    "et": "2026-11-13 15:20",
@@ -1867,15 +1883,6 @@
    "text": "1 more breakout (PEP) not taken: already in AAPL (one trade at a time)",
    "symbols": [
     "PEP"
-   ]
-  },
-  {
-   "ts": 1794423000,
-   "et": "2026-11-11 13:50",
-   "kind": "busy",
-   "text": "1 more breakout (RTX) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "RTX"
    ]
   }
  ],
@@ -5309,6 +5316,11 @@
    "ts": 1794603240,
    "equity": 9639.16,
    "spy": 9916.5
+  },
+  {
+   "ts": 1794603555,
+   "equity": 9653.33,
+   "spy": 9931.51
   }
  ],
  "daily": [
@@ -5368,6 +5380,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794603555,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.0,
+   "errors": [],
+   "run_id": "43506515343",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794603240,
    "phase": "open",
@@ -5757,25 +5779,15 @@
    "errors": [],
    "run_id": "43473208465",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794590633,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.5,
-   "errors": [],
-   "run_id": "43472357214",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794603240,
+  "tick_at": 1794603555,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794603251,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794603566,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
