@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794593700,
+  "last_bar_end": 1794594000,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 68,
+  "triggers_seen": 69,
   "missed": [
    "APP",
    "CHTR",
@@ -570,7 +570,8 @@
    "BIDU",
    "IBM",
    "ETSY",
-   "ZM"
+   "ZM",
+   "DOCU"
   ],
   "triggered": [
    "ABT",
@@ -640,7 +641,8 @@
    "BIDU",
    "IBM",
    "ETSY",
-   "ZM"
+   "ZM",
+   "DOCU"
   ],
   "hits": [
    {
@@ -1186,6 +1188,14 @@
     "or_high": 99.0,
     "or_low": 97.51,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "DOCU",
+    "at": "13:20",
+    "price": 81.09,
+    "or_high": 81.0,
+    "or_low": 79.5,
+    "pct_over": 0.11
    }
   ]
  },
@@ -1193,8 +1203,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 751.2349853515625,
-  "last_ts": 1794593700
+  "last": 751.5800170898438,
+  "last_ts": 1794594000
  },
  "seen_trades": 0,
  "daily": [
