@@ -743,4 +743,4 @@
 {"ts": 1794600091, "phase": "open", "status": "ok", "bars": 1, "secs": 9.9, "errors": [], "run_id": "43497629272", "event": "workflow_dispatch"}
 {"ts": 1794600415, "phase": "open", "status": "ok", "bars": 1, "secs": 10.2, "errors": [], "run_id": "43498459219", "event": "workflow_dispatch"}
 {"ts": 1794600725, "phase": "open", "status": "ok", "bars": 1, "secs": 13.1, "errors": [], "run_id": "43499292290", "event": "workflow_dispatch"}
-{"ts": 1794601039, "phase": "open", "status": "ok", "bars": 1, "secs": 11.0, "errors": [], "run_id": "43500130928", "event": "workflow_dispatch"}
+{"ts": 1794601350, "phase": "open", "status": "ok", "bars": 2, "secs": 25.7, "errors": [], "run_id": "43500180620", "event": "schedule"}
