@@ -1,21 +1,21 @@
 {
- "updated": 1794599447,
- "updated_et": "2026-11-13 14:50 ET",
+ "updated": 1794599775,
+ "updated_et": "2026-11-13 14:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9639.03,
-  "return": -0.036096999999999935,
+  "equity": 9644.1,
+  "return": -0.03559000000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9910.71,
-  "return": -0.008929000000000076,
+  "value": 9904.07,
+  "return": -0.009593000000000074,
   "start_price": 759.47998046875,
-  "last": 753.0
+  "last": 752.4949951171875
  },
  "position": {
   "symbol": "MSFT",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-13",
   "hits": [
-   {
-    "symbol": "U",
-    "at": "09:50",
-    "price": 51.1,
-    "or_high": 51.04,
-    "or_low": 49.75,
-    "pct_over": 0.12
-   },
    {
     "symbol": "WMT",
     "at": "09:50",
@@ -516,9 +508,17 @@
     "or_high": 446.99,
     "or_low": 441.02,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "BIIB",
+    "at": "14:50",
+    "price": 253.3,
+    "or_high": 253.0,
+    "or_low": 249.52,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 73,
+  "n_hits": 74,
   "entries": 1,
   "max_trades": 3
  },
@@ -1015,6 +1015,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794599400,
+   "et": "2026-11-13 14:50",
+   "kind": "busy",
+   "text": "1 more breakout (BIIB) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "BIIB"
+   ]
+  },
   {
    "ts": 1794598200,
    "et": "2026-11-13 14:30",
@@ -1869,17 +1878,6 @@
     "BMY",
     "JPM",
     "LLY"
-   ]
-  },
-  {
-   "ts": 1794420900,
-   "et": "2026-11-11 13:15",
-   "kind": "busy",
-   "text": "3 more breakouts (ABBV, LULU, W) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "ABBV",
-    "LULU",
-    "W"
    ]
   }
  ],
@@ -5258,6 +5256,11 @@
    "ts": 1794599447,
    "equity": 9639.03,
    "spy": 9910.71
+  },
+  {
+   "ts": 1794599775,
+   "equity": 9644.1,
+   "spy": 9904.07
   }
  ],
  "daily": [
@@ -5317,6 +5320,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794599775,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 11.5,
+   "errors": [],
+   "run_id": "43496783007",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794599447,
    "phase": "open",
@@ -5706,25 +5719,15 @@
    "errors": [],
    "run_id": "43463475325",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794587160,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 9.5,
-   "errors": [],
-   "run_id": "43462626451",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794599447,
+  "tick_at": 1794599775,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794599453,
-  "candidates": 15,
-  "charts_fetched": 17,
+  "yahoo_time": 1794599784,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
