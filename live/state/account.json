@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794600300,
+  "last_bar_end": 1794600600,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 76,
+  "triggers_seen": 77,
   "missed": [
    "APP",
    "CHTR",
@@ -578,7 +578,8 @@
    "HUM",
    "BIIB",
    "BBY",
-   "DHR"
+   "DHR",
+   "ZTS"
   ],
   "triggered": [
    "ABT",
@@ -656,7 +657,8 @@
    "HUM",
    "BIIB",
    "BBY",
-   "DHR"
+   "DHR",
+   "ZTS"
   ],
   "hits": [
    {
@@ -1266,6 +1268,14 @@
     "or_high": 233.04,
     "or_low": 230.95,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "ZTS",
+    "at": "15:10",
+    "price": 83.7,
+    "or_high": 83.66,
+    "or_low": 82.75,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1273,8 +1283,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 753.4099731445312,
-  "last_ts": 1794600300
+  "last": 753.469970703125,
+  "last_ts": 1794600600
  },
  "seen_trades": 0,
  "daily": [
