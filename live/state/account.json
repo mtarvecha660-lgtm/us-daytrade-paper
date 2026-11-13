@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794584100,
+  "last_bar_end": 1794584400,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 45,
+  "triggers_seen": 48,
   "missed": [
    "APP",
    "CHTR",
@@ -547,7 +547,10 @@
    "DPZ",
    "JNJ",
    "KO",
-   "YUM"
+   "YUM",
+   "GILD",
+   "HD",
+   "LLY"
   ],
   "triggered": [
    "ABT",
@@ -594,7 +597,10 @@
    "DPZ",
    "JNJ",
    "KO",
-   "YUM"
+   "YUM",
+   "GILD",
+   "HD",
+   "LLY"
   ],
   "hits": [
    {
@@ -956,6 +962,30 @@
     "or_high": 161.95,
     "or_low": 160.05,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "GILD",
+    "at": "10:40",
+    "price": 168.96,
+    "or_high": 168.58,
+    "or_low": 166.94,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "HD",
+    "at": "10:40",
+    "price": 347.47,
+    "or_high": 346.35,
+    "or_low": 343.26,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "LLY",
+    "at": "10:40",
+    "price": 1437.14,
+    "or_high": 1435.35,
+    "or_low": 1420.76,
+    "pct_over": 0.12
    }
   ]
  },
@@ -963,8 +993,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.489990234375,
-  "last_ts": 1794584100
+  "last": 749.8876953125,
+  "last_ts": 1794584400
  },
  "seen_trades": 0,
  "daily": [
