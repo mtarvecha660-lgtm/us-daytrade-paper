@@ -1,21 +1,21 @@
 {
- "updated": 1794587477,
- "updated_et": "2026-11-13 11:31 ET",
+ "updated": 1794587789,
+ "updated_et": "2026-11-13 11:36 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9622.98,
-  "return": -0.03770200000000001,
+  "equity": 9632.92,
+  "return": -0.03670799999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9883.34,
-  "return": -0.011665999999999954,
+  "value": 9881.43,
+  "return": -0.011857000000000006,
   "start_price": 759.47998046875,
-  "last": 750.9199829101562
+  "last": 750.7750244140625
  },
  "position": {
   "symbol": "MSFT",
@@ -468,9 +468,17 @@
     "or_high": 8.63,
     "or_low": 8.41,
     "pct_over": 0.46
+   },
+   {
+    "symbol": "PATH",
+    "at": "11:35",
+    "price": 13.21,
+    "or_high": 13.21,
+    "or_low": 12.95,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 54,
+  "n_hits": 55,
   "entries": 1,
   "max_trades": 3
  },
@@ -967,6 +975,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794587700,
+   "et": "2026-11-13 11:35",
+   "kind": "busy",
+   "text": "1 more breakout (PATH) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "PATH"
+   ]
+  },
   {
    "ts": 1794587400,
    "et": "2026-11-13 11:30",
@@ -1838,15 +1855,6 @@
    "symbols": [
     "ADI",
     "MDT"
-   ]
-  },
-  {
-   "ts": 1794413100,
-   "et": "2026-11-11 11:05",
-   "kind": "busy",
-   "text": "1 more breakout (GOOGL) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "GOOGL"
    ]
   }
  ],
@@ -5035,6 +5043,11 @@
    "ts": 1794587477,
    "equity": 9622.98,
    "spy": 9883.34
+  },
+  {
+   "ts": 1794587789,
+   "equity": 9632.92,
+   "spy": 9881.43
   }
  ],
  "daily": [
@@ -5094,6 +5107,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794587789,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.0,
+   "errors": [],
+   "run_id": "43464385075",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794587477,
    "phase": "open",
@@ -5483,25 +5506,15 @@
    "errors": [],
    "run_id": "43299740494",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794514676,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.9,
-   "errors": [],
-   "run_id": "43298865953",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794587477,
+  "tick_at": 1794587789,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794587484,
-  "candidates": 20,
-  "charts_fetched": 22,
+  "yahoo_time": 1794587796,
+  "candidates": 17,
+  "charts_fetched": 19,
   "ok": true,
   "errors": [],
   "stale_data": false,
