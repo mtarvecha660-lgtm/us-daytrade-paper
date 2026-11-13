@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794582300,
+  "last_bar_end": 1794582600,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 35,
+  "triggers_seen": 37,
   "missed": [
    "APP",
    "CHTR",
@@ -537,7 +537,9 @@
    "DUOL",
    "ISRG",
    "PDD",
-   "PEP"
+   "PEP",
+   "NU",
+   "SCHW"
   ],
   "triggered": [
    "ABT",
@@ -574,7 +576,9 @@
    "DUOL",
    "ISRG",
    "PDD",
-   "PEP"
+   "PEP",
+   "NU",
+   "SCHW"
   ],
   "hits": [
    {
@@ -856,6 +860,22 @@
     "or_high": 144.16,
     "or_low": 142.53,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "NU",
+    "at": "10:10",
+    "price": 12.73,
+    "or_high": 12.69,
+    "or_low": 12.1,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:10",
+    "price": 91.39,
+    "or_high": 91.08,
+    "or_low": 89.75,
+    "pct_over": 0.33
    }
   ]
  },
@@ -863,8 +883,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 752.2999877929688,
-  "last_ts": 1794582300
+  "last": 752.1099853515625,
+  "last_ts": 1794582600
  },
  "seen_trades": 0,
  "daily": [
