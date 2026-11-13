@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794590400,
+  "last_bar_end": 1794590700,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 63,
+  "triggers_seen": 64,
   "missed": [
    "APP",
    "CHTR",
@@ -565,7 +565,8 @@
    "RBLX",
    "SPOT",
    "TWLO",
-   "UPST"
+   "UPST",
+   "REGN"
   ],
   "triggered": [
    "ABT",
@@ -630,7 +631,8 @@
    "RBLX",
    "SPOT",
    "TWLO",
-   "UPST"
+   "UPST",
+   "REGN"
   ],
   "hits": [
    {
@@ -1136,6 +1138,14 @@
     "or_high": 19.68,
     "or_low": 19.14,
     "pct_over": 0.13
+   },
+   {
+    "symbol": "REGN",
+    "at": "12:25",
+    "price": 955.39,
+    "or_high": 955.04,
+    "or_low": 942.0,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1143,8 +1153,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 751.2000122070312,
-  "last_ts": 1794590400
+  "last": 751.010009765625,
+  "last_ts": 1794590700
  },
  "seen_trades": 0,
  "daily": [
