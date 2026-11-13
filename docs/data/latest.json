@@ -1,6 +1,6 @@
 {
- "updated": 1794581180,
- "updated_et": "2026-11-13 09:46 ET",
+ "updated": 1794581494,
+ "updated_et": "2026-11-13 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,167 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9950.2,
-  "return": -0.004979999999999873,
+  "value": 9942.3,
+  "return": -0.005770000000000053,
   "start_price": 759.47998046875,
-  "last": 756.0
+  "last": 755.4000244140625
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "MSFT",
+  "qty": 13,
+  "plan": {
+   "symbol": "MSFT",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-13",
+   "entry_time": "9:50 AM",
+   "entry": 523.29,
+   "stop": 517.36,
+   "target": 529.22,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
+   "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
+   "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1794581400,
+  "late": false
+ },
  "today": {
   "date": "2026-11-13",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "ABT",
+    "at": "09:50",
+    "price": 108.51,
+    "or_high": 108.3,
+    "or_low": 107.03,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ADBE",
+    "at": "09:50",
+    "price": 240.81,
+    "or_high": 240.47,
+    "or_low": 237.94,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "AEP",
+    "at": "09:50",
+    "price": 130.0,
+    "or_high": 129.86,
+    "or_low": 129.18,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "COST",
+    "at": "09:50",
+    "price": 1105.79,
+    "or_high": 1105.22,
+    "or_low": 1092.64,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DUK",
+    "at": "09:50",
+    "price": 128.79,
+    "or_high": 128.59,
+    "or_low": 127.94,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:50",
+    "price": 122.04,
+    "or_high": 122.01,
+    "or_low": 120.63,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GME",
+    "at": "09:50",
+    "price": 26.35,
+    "or_high": 26.31,
+    "or_low": 25.67,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 27.67,
+    "or_high": 27.67,
+    "or_low": 27.27,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LI",
+    "at": "09:50",
+    "price": 11.69,
+    "or_high": 11.67,
+    "or_low": 11.35,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "MSFT",
+    "at": "09:50",
+    "price": 523.29,
+    "or_high": 520.9,
+    "or_low": 513.82,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "SBUX",
+    "at": "09:50",
+    "price": 107.54,
+    "or_high": 107.52,
+    "or_low": 106.39,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SHOP",
+    "at": "09:50",
+    "price": 149.88,
+    "or_high": 149.77,
+    "or_low": 146.61,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 34.53,
+    "or_high": 34.28,
+    "or_low": 33.4,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "U",
+    "at": "09:50",
+    "price": 51.1,
+    "or_high": 51.04,
+    "or_low": 49.75,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:50",
+    "price": 128.14,
+    "or_high": 127.68,
+    "or_low": 126.24,
+    "pct_over": 0.36
+   }
+  ],
+  "n_hits": 15,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 13 MSFT at the next bar's open (signal at 09:50 ET). Then: stop $517.36, target $529.22.",
  "stats": {
   "trades": 19,
   "wins": 8,
@@ -519,6 +665,36 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794581400,
+   "et": "2026-11-13 09:50",
+   "kind": "order",
+   "text": "BUY 13 MSFT at market (decided on the 09:50 close). opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
+   "symbol": "MSFT",
+   "why": {
+    "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
+    "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
+    "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "COST",
+    "WMT",
+    "GME",
+    "SHOP",
+    "ADBE",
+    "ABT",
+    "U",
+    "SBUX",
+    "DUK",
+    "JD",
+    "EBAY",
+    "AEP",
+    "TOST",
+    "LI"
+   ]
+  },
   {
    "ts": 1794516900,
    "et": "2026-11-12 15:55",
@@ -1364,17 +1540,6 @@
    "symbols": [
     "ARM",
     "TWLO"
-   ]
-  },
-  {
-   "ts": 1794409500,
-   "et": "2026-11-11 10:05",
-   "kind": "busy",
-   "text": "3 more breakouts (GME, INTC, STX) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "GME",
-    "INTC",
-    "STX"
    ]
   }
  ],
@@ -4463,6 +4628,11 @@
    "ts": 1794581180,
    "equity": 9628.89,
    "spy": 9950.2
+  },
+  {
+   "ts": 1794581494,
+   "equity": 9628.89,
+   "spy": 9942.3
   }
  ],
  "daily": [
@@ -4522,6 +4692,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794581494,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.8,
+   "errors": [],
+   "run_id": "43446727334",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794581180,
    "phase": "open",
@@ -4911,29 +5091,19 @@
    "errors": [],
    "run_id": "43281764965",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794508344,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.4,
-   "errors": [],
-   "run_id": "43280838220",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794581180,
+  "tick_at": 1794581494,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794581182,
-  "candidates": 2,
-  "charts_fetched": 3,
+  "yahoo_time": 1794581512,
+  "candidates": 53,
+  "charts_fetched": 54,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.0,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

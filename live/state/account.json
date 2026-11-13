@@ -465,21 +465,195 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794581100,
+  "last_bar_end": 1794581400,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "MSFT",
+   "qty": 13,
+   "plan": {
+    "symbol": "MSFT",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-13",
+    "entry_time": "9:50 AM",
+    "entry": 523.29,
+    "stop": 517.36,
+    "target": 529.22,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
+    "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
+    "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794581400,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-13",
+    "symbol": "MSFT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 77.09,
+    "at": "2026-11-13T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 15,
+  "missed": [],
+  "triggered": [
+   "ABT",
+   "ADBE",
+   "AEP",
+   "COST",
+   "DUK",
+   "EBAY",
+   "GME",
+   "JD",
+   "LI",
+   "MSFT",
+   "SBUX",
+   "SHOP",
+   "TOST",
+   "U",
+   "WMT"
+  ],
+  "hits": [
+   {
+    "symbol": "ABT",
+    "at": "09:50",
+    "price": 108.51,
+    "or_high": 108.3,
+    "or_low": 107.03,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ADBE",
+    "at": "09:50",
+    "price": 240.81,
+    "or_high": 240.47,
+    "or_low": 237.94,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "AEP",
+    "at": "09:50",
+    "price": 130.0,
+    "or_high": 129.86,
+    "or_low": 129.18,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "COST",
+    "at": "09:50",
+    "price": 1105.79,
+    "or_high": 1105.22,
+    "or_low": 1092.64,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DUK",
+    "at": "09:50",
+    "price": 128.79,
+    "or_high": 128.59,
+    "or_low": 127.94,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:50",
+    "price": 122.04,
+    "or_high": 122.01,
+    "or_low": 120.63,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GME",
+    "at": "09:50",
+    "price": 26.35,
+    "or_high": 26.31,
+    "or_low": 25.67,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 27.67,
+    "or_high": 27.67,
+    "or_low": 27.27,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LI",
+    "at": "09:50",
+    "price": 11.69,
+    "or_high": 11.67,
+    "or_low": 11.35,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "MSFT",
+    "at": "09:50",
+    "price": 523.29,
+    "or_high": 520.9,
+    "or_low": 513.82,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "SBUX",
+    "at": "09:50",
+    "price": 107.54,
+    "or_high": 107.52,
+    "or_low": 106.39,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SHOP",
+    "at": "09:50",
+    "price": 149.88,
+    "or_high": 149.77,
+    "or_low": 146.61,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 34.53,
+    "or_high": 34.28,
+    "or_low": 33.4,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "U",
+    "at": "09:50",
+    "price": 51.1,
+    "or_high": 51.04,
+    "or_low": 49.75,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:50",
+    "price": 128.14,
+    "or_high": 127.68,
+    "or_low": 126.24,
+    "pct_over": 0.36
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 756.0,
-  "last_ts": 1794581100
+  "last": 755.4000244140625,
+  "last_ts": 1794581400
  },
  "seen_trades": 0,
  "daily": [
