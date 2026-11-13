@@ -1,21 +1,21 @@
 {
- "updated": 1794600091,
- "updated_et": "2026-11-13 15:01 ET",
+ "updated": 1794600415,
+ "updated_et": "2026-11-13 15:06 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9652.29,
-  "return": -0.034770999999999885,
+  "equity": 9646.96,
+  "return": -0.03530400000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9919.14,
-  "return": -0.008086000000000038,
+  "value": 9916.11,
+  "return": -0.00838899999999998,
   "start_price": 759.47998046875,
-  "last": 753.6400146484375
+  "last": 753.4099731445312
  },
  "position": {
   "symbol": "MSFT",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-13",
   "hits": [
-   {
-    "symbol": "WMT",
-    "at": "09:50",
-    "price": 128.14,
-    "or_high": 127.68,
-    "or_low": 126.24,
-    "pct_over": 0.36
-   },
-   {
-    "symbol": "APP",
-    "at": "09:55",
-    "price": 412.35,
-    "or_high": 408.7,
-    "or_low": 391.49,
-    "pct_over": 0.89
-   },
    {
     "symbol": "CHTR",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 253.0,
     "or_low": 249.52,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "BBY",
+    "at": "15:05",
+    "price": 104.1,
+    "or_high": 104.04,
+    "or_low": 103.25,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "DHR",
+    "at": "15:05",
+    "price": 233.29,
+    "or_high": 233.04,
+    "or_low": 230.95,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 74,
+  "n_hits": 76,
   "entries": 1,
   "max_trades": 3
  },
@@ -1015,6 +1015,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794600300,
+   "et": "2026-11-13 15:05",
+   "kind": "busy",
+   "text": "2 more breakouts (BBY, DHR) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "BBY",
+    "DHR"
+   ]
+  },
   {
    "ts": 1794599400,
    "et": "2026-11-13 14:50",
@@ -1866,18 +1876,6 @@
    "text": "1 more breakout (MELI) not taken: already in AAPL (one trade at a time)",
    "symbols": [
     "MELI"
-   ]
-  },
-  {
-   "ts": 1794421200,
-   "et": "2026-11-11 13:20",
-   "kind": "busy",
-   "text": "4 more breakouts (AMGN, BMY, JPM, LLY) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "AMGN",
-    "BMY",
-    "JPM",
-    "LLY"
    ]
   }
  ],
@@ -5266,6 +5264,11 @@
    "ts": 1794600091,
    "equity": 9652.29,
    "spy": 9919.14
+  },
+  {
+   "ts": 1794600415,
+   "equity": 9646.96,
+   "spy": 9916.11
   }
  ],
  "daily": [
@@ -5325,6 +5328,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794600415,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.2,
+   "errors": [],
+   "run_id": "43498459219",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794600091,
    "phase": "open",
@@ -5714,25 +5727,15 @@
    "errors": [],
    "run_id": "43465250592",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794587789,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.0,
-   "errors": [],
-   "run_id": "43464385075",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794600091,
+  "tick_at": 1794600415,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794600100,
-  "candidates": 21,
-  "charts_fetched": 23,
+  "yahoo_time": 1794600423,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
