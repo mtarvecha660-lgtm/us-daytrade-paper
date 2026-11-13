@@ -330,3 +330,4 @@
 {"ts": 1794587400, "et": "2026-11-13 11:30", "kind": "busy", "text": "2 more breakouts (HPQ, RUN) not taken: already in MSFT (one trade at a time)", "symbols": ["HPQ", "RUN"]}
 {"ts": 1794587700, "et": "2026-11-13 11:35", "kind": "busy", "text": "1 more breakout (PATH) not taken: already in MSFT (one trade at a time)", "symbols": ["PATH"]}
 {"ts": 1794588600, "et": "2026-11-13 11:50", "kind": "busy", "text": "1 more breakout (AAL) not taken: already in MSFT (one trade at a time)", "symbols": ["AAL"]}
+{"ts": 1794589200, "et": "2026-11-13 12:00", "kind": "busy", "text": "1 more breakout (DXCM) not taken: already in MSFT (one trade at a time)", "symbols": ["DXCM"]}

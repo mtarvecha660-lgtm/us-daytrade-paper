@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794588900,
+  "last_bar_end": 1794589200,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 56,
+  "triggers_seen": 57,
   "missed": [
    "APP",
    "CHTR",
@@ -558,7 +558,8 @@
    "HPQ",
    "RUN",
    "PATH",
-   "AAL"
+   "AAL",
+   "DXCM"
   ],
   "triggered": [
    "ABT",
@@ -616,7 +617,8 @@
    "HPQ",
    "RUN",
    "PATH",
-   "AAL"
+   "AAL",
+   "DXCM"
   ],
   "hits": [
    {
@@ -1066,6 +1068,14 @@
     "or_high": 13.54,
     "or_low": 13.29,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "DXCM",
+    "at": "12:00",
+    "price": 82.32,
+    "or_high": 82.27,
+    "or_low": 81.39,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1073,8 +1083,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.1199951171875,
-  "last_ts": 1794588900
+  "last": 750.0250854492188,
+  "last_ts": 1794589200
  },
  "seen_trades": 0,
  "daily": [

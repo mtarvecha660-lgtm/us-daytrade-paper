@@ -1,21 +1,21 @@
 {
- "updated": 1794589058,
- "updated_et": "2026-11-13 11:57 ET",
+ "updated": 1794589378,
+ "updated_et": "2026-11-13 12:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9617.19,
-  "return": -0.0382809999999999,
+  "equity": 9610.69,
+  "return": -0.03893099999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9872.81,
-  "return": -0.012719000000000036,
+  "value": 9871.56,
+  "return": -0.012844000000000078,
   "start_price": 759.47998046875,
-  "last": 750.1199951171875
+  "last": 750.0250854492188
  },
  "position": {
   "symbol": "MSFT",
@@ -484,9 +484,17 @@
     "or_high": 13.54,
     "or_low": 13.29,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "DXCM",
+    "at": "12:00",
+    "price": 82.32,
+    "or_high": 82.27,
+    "or_low": 81.39,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 56,
+  "n_hits": 57,
   "entries": 1,
   "max_trades": 3
  },
@@ -983,6 +991,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794589200,
+   "et": "2026-11-13 12:00",
+   "kind": "busy",
+   "text": "1 more breakout (DXCM) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "DXCM"
+   ]
+  },
   {
    "ts": 1794588600,
    "et": "2026-11-13 11:50",
@@ -1853,15 +1870,6 @@
    "symbols": [
     "ADBE",
     "MSTR"
-   ]
-  },
-  {
-   "ts": 1794414000,
-   "et": "2026-11-11 11:20",
-   "kind": "busy",
-   "text": "1 more breakout (DIS) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "DIS"
    ]
   }
  ],
@@ -5075,6 +5083,11 @@
    "ts": 1794589058,
    "equity": 9617.19,
    "spy": 9872.81
+  },
+  {
+   "ts": 1794589378,
+   "equity": 9610.69,
+   "spy": 9871.56
   }
  ],
  "daily": [
@@ -5134,6 +5147,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794589378,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.5,
+   "errors": [],
+   "run_id": "43468791493",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794589058,
    "phase": "open",
@@ -5523,25 +5546,15 @@
    "errors": [],
    "run_id": "43304028664",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794516239,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.5,
-   "errors": [],
-   "run_id": "43303178499",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794589058,
+  "tick_at": 1794589378,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794589063,
-  "candidates": 15,
-  "charts_fetched": 17,
+  "yahoo_time": 1794589385,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,
