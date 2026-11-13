@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794583800,
+  "last_bar_end": 1794584100,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 39,
+  "triggers_seen": 45,
   "missed": [
    "APP",
    "CHTR",
@@ -541,7 +541,13 @@
    "NU",
    "SCHW",
    "COP",
-   "UPS"
+   "UPS",
+   "APO",
+   "CVX",
+   "DPZ",
+   "JNJ",
+   "KO",
+   "YUM"
   ],
   "triggered": [
    "ABT",
@@ -582,7 +588,13 @@
    "NU",
    "SCHW",
    "COP",
-   "UPS"
+   "UPS",
+   "APO",
+   "CVX",
+   "DPZ",
+   "JNJ",
+   "KO",
+   "YUM"
   ],
   "hits": [
    {
@@ -896,6 +908,54 @@
     "or_high": 111.8,
     "or_low": 111.11,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "APO",
+    "at": "10:35",
+    "price": 123.38,
+    "or_high": 123.25,
+    "or_low": 121.47,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CVX",
+    "at": "10:35",
+    "price": 218.88,
+    "or_high": 218.62,
+    "or_low": 216.58,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:35",
+    "price": 345.09,
+    "or_high": 343.09,
+    "or_low": 338.28,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:35",
+    "price": 287.48,
+    "or_high": 286.34,
+    "or_low": 284.03,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "KO",
+    "at": "10:35",
+    "price": 99.03,
+    "or_high": 98.82,
+    "or_low": 97.96,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:35",
+    "price": 162.31,
+    "or_high": 161.95,
+    "or_low": 160.05,
+    "pct_over": 0.22
    }
   ]
  },
@@ -903,8 +963,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.0700073242188,
-  "last_ts": 1794583800
+  "last": 750.489990234375,
+  "last_ts": 1794584100
  },
  "seen_trades": 0,
  "daily": [

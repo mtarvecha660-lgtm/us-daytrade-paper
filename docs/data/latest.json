@@ -1,21 +1,21 @@
 {
- "updated": 1794584006,
- "updated_et": "2026-11-13 10:33 ET",
+ "updated": 1794584318,
+ "updated_et": "2026-11-13 10:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9605.82,
-  "return": -0.039418000000000064,
+  "equity": 9607.83,
+  "return": -0.03921700000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9872.15,
-  "return": -0.012785000000000046,
+  "value": 9877.68,
+  "return": -0.01223200000000002,
   "start_price": 759.47998046875,
-  "last": 750.0700073242188
+  "last": 750.489990234375
  },
  "position": {
   "symbol": "MSFT",
@@ -348,9 +348,57 @@
     "or_high": 111.8,
     "or_low": 111.11,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "APO",
+    "at": "10:35",
+    "price": 123.38,
+    "or_high": 123.25,
+    "or_low": 121.47,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CVX",
+    "at": "10:35",
+    "price": 218.88,
+    "or_high": 218.62,
+    "or_low": 216.58,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:35",
+    "price": 345.09,
+    "or_high": 343.09,
+    "or_low": 338.28,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:35",
+    "price": 287.48,
+    "or_high": 286.34,
+    "or_low": 284.03,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "KO",
+    "at": "10:35",
+    "price": 99.03,
+    "or_high": 98.82,
+    "or_low": 97.96,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:35",
+    "price": 162.31,
+    "or_high": 161.95,
+    "or_low": 160.05,
+    "pct_over": 0.22
    }
   ],
-  "n_hits": 39,
+  "n_hits": 45,
   "entries": 1,
   "max_trades": 3
  },
@@ -847,6 +895,20 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794584100,
+   "et": "2026-11-13 10:35",
+   "kind": "busy",
+   "text": "6 more breakouts (APO, CVX, DPZ, JNJ, KO, YUM) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "APO",
+    "CVX",
+    "DPZ",
+    "JNJ",
+    "KO",
+    "YUM"
+   ]
+  },
   {
    "ts": 1794583500,
    "et": "2026-11-13 10:25",
@@ -1717,16 +1779,6 @@
    "symbols": [
     "BIDU",
     "CSCO"
-   ]
-  },
-  {
-   "ts": 1794411600,
-   "et": "2026-11-11 10:40",
-   "kind": "busy",
-   "text": "2 more breakouts (AI, COIN) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "AI",
-    "COIN"
    ]
   }
  ],
@@ -4860,6 +4912,11 @@
    "ts": 1794584006,
    "equity": 9605.82,
    "spy": 9872.15
+  },
+  {
+   "ts": 1794584318,
+   "equity": 9607.83,
+   "spy": 9877.68
   }
  ],
  "daily": [
@@ -4919,6 +4976,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794584318,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.1,
+   "errors": [],
+   "run_id": "43454630376",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794584006,
    "phase": "open",
@@ -5308,25 +5375,15 @@
    "errors": [],
    "run_id": "43289979369",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794511215,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.3,
-   "errors": [],
-   "run_id": "43289058594",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794584006,
+  "tick_at": 1794584318,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794584012,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1794584327,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
