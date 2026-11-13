@@ -1,6 +1,6 @@
 {
- "updated": 1794580865,
- "updated_et": "2026-11-13 09:41 ET",
+ "updated": 1794581180,
+ "updated_et": "2026-11-13 09:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9962.31,
-  "return": -0.0037690000000000223,
+  "value": 9950.2,
+  "return": -0.004979999999999873,
   "start_price": 759.47998046875,
-  "last": 756.9199829101562
+  "last": 756.0
  },
  "position": null,
  "pending": null,
@@ -26,7 +26,7 @@
   "entries": 0,
   "max_trades": 3
  },
- "next_move": "The opening range is still forming (9:30-9:45 AM ET). Watching from the 9:50 bar close.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
  "stats": {
   "trades": 19,
   "wins": 8,
@@ -4458,6 +4458,11 @@
    "ts": 1794580865,
    "equity": 9628.89,
    "spy": 9962.31
+  },
+  {
+   "ts": 1794581180,
+   "equity": 9628.89,
+   "spy": 9950.2
   }
  ],
  "daily": [
@@ -4517,6 +4522,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794581180,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 4.8,
+   "errors": [],
+   "run_id": "43445882606",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794580865,
    "phase": "open",
@@ -4906,29 +4921,19 @@
    "errors": [],
    "run_id": "43280838220",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794508030,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.4,
-   "errors": [],
-   "run_id": "43279936712",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794580865,
+  "tick_at": 1794581180,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794580870,
+  "yahoo_time": 1794581182,
   "candidates": 2,
   "charts_fetched": 3,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.0,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
