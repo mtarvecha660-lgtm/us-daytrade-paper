@@ -1,21 +1,21 @@
 {
- "updated": 1794586210,
- "updated_et": "2026-11-13 11:10 ET",
+ "updated": 1794586525,
+ "updated_et": "2026-11-13 11:15 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9627.46,
-  "return": -0.03725400000000012,
+  "equity": 9632.4,
+  "return": -0.036760000000000015,
   "started": 1793559735
  },
  "spy": {
-  "value": 9861.88,
-  "return": -0.013812000000000046,
+  "value": 9879.52,
+  "return": -0.012047999999999948,
   "start_price": 759.47998046875,
-  "last": 749.2901000976562
+  "last": 750.6300048828125
  },
  "position": {
   "symbol": "MSFT",
@@ -444,9 +444,17 @@
     "or_high": 13.74,
     "or_low": 13.53,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "BMY",
+    "at": "11:10",
+    "price": 62.59,
+    "or_high": 62.58,
+    "or_low": 61.81,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 51,
+  "n_hits": 52,
   "entries": 1,
   "max_trades": 3
  },
@@ -943,6 +951,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794586200,
+   "et": "2026-11-13 11:10",
+   "kind": "busy",
+   "text": "1 more breakout (BMY) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "BMY"
+   ]
+  },
   {
    "ts": 1794585000,
    "et": "2026-11-13 10:50",
@@ -1818,16 +1835,6 @@
     "MARA",
     "NET",
     "TER"
-   ]
-  },
-  {
-   "ts": 1794412500,
-   "et": "2026-11-11 10:55",
-   "kind": "busy",
-   "text": "2 more breakouts (NVDA, ORCL) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "NVDA",
-    "ORCL"
    ]
   }
  ],
@@ -4996,6 +5003,11 @@
    "ts": 1794586210,
    "equity": 9627.46,
    "spy": 9861.88
+  },
+  {
+   "ts": 1794586525,
+   "equity": 9632.4,
+   "spy": 9879.52
   }
  ],
  "daily": [
@@ -5055,6 +5067,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794586525,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.6,
+   "errors": [],
+   "run_id": "43460828669",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794586210,
    "phase": "open",
@@ -5444,25 +5466,15 @@
    "errors": [],
    "run_id": "43296199770",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794513420,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.3,
-   "errors": [],
-   "run_id": "43295319229",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794586210,
+  "tick_at": 1794586525,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794586217,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1794586533,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,

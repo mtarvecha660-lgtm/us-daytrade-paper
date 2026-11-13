@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794585900,
+  "last_bar_end": 1794586200,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 51,
+  "triggers_seen": 52,
   "missed": [
    "APP",
    "CHTR",
@@ -553,7 +553,8 @@
    "LLY",
    "LOW",
    "LYFT",
-   "RKT"
+   "RKT",
+   "BMY"
   ],
   "triggered": [
    "ABT",
@@ -606,7 +607,8 @@
    "LLY",
    "LOW",
    "LYFT",
-   "RKT"
+   "RKT",
+   "BMY"
   ],
   "hits": [
    {
@@ -1016,6 +1018,14 @@
     "or_high": 13.74,
     "or_low": 13.53,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "BMY",
+    "at": "11:10",
+    "price": 62.59,
+    "or_high": 62.58,
+    "or_low": 61.81,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1023,8 +1033,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.2901000976562,
-  "last_ts": 1794585900
+  "last": 750.6300048828125,
+  "last_ts": 1794586200
  },
  "seen_trades": 0,
  "daily": [
