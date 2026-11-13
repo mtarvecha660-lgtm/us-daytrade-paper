@@ -1,5 +1,5 @@
 {
- "cash": 9628.8943,
+ "cash": 2824.4915,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -465,11 +465,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794581400,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794581700,
+  "position": {
    "symbol": "MSFT",
    "qty": 13,
+   "entry_fill": 523.4156,
+   "entry_ts": 1794581400,
    "plan": {
     "symbol": "MSFT",
     "side": "buy",
@@ -481,7 +482,8 @@
     "target": 529.22,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 523.3109741210938
    },
    "why": {
     "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
@@ -490,9 +492,9 @@
     "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794581400,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -502,12 +504,32 @@
     "kind": "entry",
     "max_loss": 77.09,
     "at": "2026-11-13T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-13",
+    "symbol": "MSFT",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 13
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 15,
-  "missed": [],
+  "triggers_seen": 26,
+  "missed": [
+   "APP",
+   "CHTR",
+   "CMCSA",
+   "EOG",
+   "FANG",
+   "META",
+   "MRNA",
+   "RDDT",
+   "SNAP",
+   "SO",
+   "TTD"
+  ],
   "triggered": [
    "ABT",
    "ADBE",
@@ -523,7 +545,18 @@
    "SHOP",
    "TOST",
    "U",
-   "WMT"
+   "WMT",
+   "APP",
+   "CHTR",
+   "CMCSA",
+   "EOG",
+   "FANG",
+   "META",
+   "MRNA",
+   "RDDT",
+   "SNAP",
+   "SO",
+   "TTD"
   ],
   "hits": [
    {
@@ -645,6 +678,94 @@
     "or_high": 127.68,
     "or_low": 126.24,
     "pct_over": 0.36
+   },
+   {
+    "symbol": "APP",
+    "at": "09:55",
+    "price": 412.35,
+    "or_high": 408.7,
+    "or_low": 391.49,
+    "pct_over": 0.89
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:55",
+    "price": 136.62,
+    "or_high": 135.75,
+    "or_low": 133.14,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.08,
+    "or_high": 25.04,
+    "or_low": 24.85,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:55",
+    "price": 157.59,
+    "or_high": 157.51,
+    "or_low": 156.55,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:55",
+    "price": 184.96,
+    "or_high": 184.59,
+    "or_low": 183.18,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "META",
+    "at": "09:55",
+    "price": 635.67,
+    "or_high": 634.94,
+    "or_low": 625.0,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MRNA",
+    "at": "09:55",
+    "price": 228.39,
+    "or_high": 227.9,
+    "or_low": 221.7,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "RDDT",
+    "at": "09:55",
+    "price": 100.44,
+    "or_high": 100.43,
+    "or_low": 97.98,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:55",
+    "price": 5.32,
+    "or_high": 5.32,
+    "or_low": 5.16,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SO",
+    "at": "09:55",
+    "price": 92.79,
+    "or_high": 92.57,
+    "or_low": 92.18,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:55",
+    "price": 15.97,
+    "or_high": 15.81,
+    "or_low": 15.45,
+    "pct_over": 1.02
    }
   ]
  },
@@ -652,8 +773,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.4000244140625,
-  "last_ts": 1794581400
+  "last": 755.5399780273438,
+  "last_ts": 1794581700
  },
  "seen_trades": 0,
  "daily": [

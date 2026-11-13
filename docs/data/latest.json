@@ -1,49 +1,39 @@
 {
- "updated": 1794581494,
- "updated_et": "2026-11-13 09:51 ET",
+ "updated": 1794581808,
+ "updated_et": "2026-11-13 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9628.89,
-  "equity": 9628.89,
-  "return": -0.037111000000000005,
+  "cash": 2824.49,
+  "equity": 9616.28,
+  "return": -0.03837199999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9942.3,
-  "return": -0.005770000000000053,
+  "value": 9944.14,
+  "return": -0.005586000000000091,
   "start_price": 759.47998046875,
-  "last": 755.4000244140625
+  "last": 755.5399780273438
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "MSFT",
   "qty": 13,
-  "plan": {
-   "symbol": "MSFT",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-13",
-   "entry_time": "9:50 AM",
-   "entry": 523.29,
-   "stop": 517.36,
-   "target": 529.22,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 523.4156,
+  "entry_et": "09:50",
+  "stop": 517.36,
+  "target": 529.22,
+  "last": null,
   "why": {
    "scanner": "MSFT: the 09:45 bar closed at $523.29, above the 15-min opening range high $520.90 (range 513.82-520.90)",
    "exit": "plan: entry $523.29, stop $517.36 (opening-range midpoint), target $529.22 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 5.93 = $77.09 at the stop) (limits: max loss 16; position cap 13; max order 15; cash 16)",
    "risk": "trader-risk PASS: entry 523.29 (the latest price), stop 517.36, target 529.22: risk 5.93 a share; max loss $77.09 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794581400,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-13",
   "hits": [
@@ -166,13 +156,101 @@
     "or_high": 127.68,
     "or_low": 126.24,
     "pct_over": 0.36
+   },
+   {
+    "symbol": "APP",
+    "at": "09:55",
+    "price": 412.35,
+    "or_high": 408.7,
+    "or_low": 391.49,
+    "pct_over": 0.89
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:55",
+    "price": 136.62,
+    "or_high": 135.75,
+    "or_low": 133.14,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.08,
+    "or_high": 25.04,
+    "or_low": 24.85,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:55",
+    "price": 157.59,
+    "or_high": 157.51,
+    "or_low": 156.55,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:55",
+    "price": 184.96,
+    "or_high": 184.59,
+    "or_low": 183.18,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "META",
+    "at": "09:55",
+    "price": 635.67,
+    "or_high": 634.94,
+    "or_low": 625.0,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MRNA",
+    "at": "09:55",
+    "price": 228.39,
+    "or_high": 227.9,
+    "or_low": 221.7,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "RDDT",
+    "at": "09:55",
+    "price": 100.44,
+    "or_high": 100.43,
+    "or_low": 97.98,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:55",
+    "price": 5.32,
+    "or_high": 5.32,
+    "or_low": 5.16,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SO",
+    "at": "09:55",
+    "price": 92.79,
+    "or_high": 92.57,
+    "or_low": 92.18,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "TTD",
+    "at": "09:55",
+    "price": 15.97,
+    "or_high": 15.81,
+    "or_low": 15.45,
+    "pct_over": 1.02
    }
   ],
-  "n_hits": 15,
+  "n_hits": 26,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 13 MSFT at the next bar's open (signal at 09:50 ET). Then: stop $517.36, target $529.22.",
+ "next_move": "Holding 13 MSFT bought at $523.42. It sells at the stop $517.36, the target $529.22, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 19,
   "wins": 8,
@@ -665,6 +743,32 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794581700,
+   "et": "2026-11-13 09:55",
+   "kind": "busy",
+   "text": "11 more breakouts (APP, CHTR, CMCSA, EOG, FANG, META, MRNA, RDDT ...) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "APP",
+    "CHTR",
+    "CMCSA",
+    "EOG",
+    "FANG",
+    "META",
+    "MRNA",
+    "RDDT",
+    "SNAP",
+    "SO",
+    "TTD"
+   ]
+  },
+  {
+   "ts": 1794581400,
+   "et": "2026-11-13 09:50",
+   "kind": "fill",
+   "text": "BUY 13 MSFT filled at $523.42 (next bar's open $523.31 + slippage). Stop $517.36, target $529.22",
+   "symbol": "MSFT"
+  },
   {
    "ts": 1794581400,
    "et": "2026-11-13 09:50",
@@ -1520,26 +1624,6 @@
    "symbols": [
     "DELL",
     "SMCI"
-   ]
-  },
-  {
-   "ts": 1794410100,
-   "et": "2026-11-11 10:15",
-   "kind": "busy",
-   "text": "2 more breakouts (EOG, TSLA) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "EOG",
-    "TSLA"
-   ]
-  },
-  {
-   "ts": 1794409800,
-   "et": "2026-11-11 10:10",
-   "kind": "busy",
-   "text": "2 more breakouts (ARM, TWLO) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "ARM",
-    "TWLO"
    ]
   }
  ],
@@ -4633,6 +4717,11 @@
    "ts": 1794581494,
    "equity": 9628.89,
    "spy": 9942.3
+  },
+  {
+   "ts": 1794581808,
+   "equity": 9616.28,
+   "spy": 9944.14
   }
  ],
  "daily": [
@@ -4692,6 +4781,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794581808,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.4,
+   "errors": [],
+   "run_id": "43447576531",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794581494,
    "phase": "open",
@@ -5081,29 +5180,19 @@
    "errors": [],
    "run_id": "43282665645",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794508658,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.7,
-   "errors": [],
-   "run_id": "43281764965",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794581494,
+  "tick_at": 1794581808,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794581512,
-  "candidates": 53,
-  "charts_fetched": 54,
+  "yahoo_time": 1794581819,
+  "candidates": 38,
+  "charts_fetched": 40,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
