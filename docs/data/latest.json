@@ -1,21 +1,21 @@
 {
- "updated": 1794582121,
- "updated_et": "2026-11-13 10:02 ET",
+ "updated": 1794582434,
+ "updated_et": "2026-11-13 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9602.51,
-  "return": -0.03974899999999992,
+  "equity": 9580.63,
+  "return": -0.04193700000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9929.07,
-  "return": -0.007093000000000016,
+  "value": 9901.5,
+  "return": -0.009850000000000025,
   "start_price": 759.47998046875,
-  "last": 754.39501953125
+  "last": 752.2999877929688
  },
  "position": {
   "symbol": "MSFT",
@@ -276,9 +276,49 @@
     "or_high": 425.43,
     "or_low": 422.59,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "COF",
+    "at": "10:05",
+    "price": 196.62,
+    "or_high": 196.61,
+    "or_low": 195.13,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:05",
+    "price": 159.01,
+    "or_high": 158.99,
+    "or_low": 156.74,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "ISRG",
+    "at": "10:05",
+    "price": 447.19,
+    "or_high": 446.86,
+    "or_low": 441.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "PDD",
+    "at": "10:05",
+    "price": 78.64,
+    "or_high": 78.5,
+    "or_low": 76.89,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:05",
+    "price": 144.32,
+    "or_high": 144.16,
+    "or_low": 142.53,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 30,
+  "n_hits": 35,
   "entries": 1,
   "max_trades": 3
  },
@@ -775,6 +815,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794582300,
+   "et": "2026-11-13 10:05",
+   "kind": "busy",
+   "text": "5 more breakouts (COF, DUOL, ISRG, PDD, PEP) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "COF",
+    "DUOL",
+    "ISRG",
+    "PDD",
+    "PEP"
+   ]
+  },
   {
    "ts": 1794582000,
    "et": "2026-11-13 10:00",
@@ -1647,17 +1700,6 @@
     "ON",
     "OXY",
     "WDC"
-   ]
-  },
-  {
-   "ts": 1794410700,
-   "et": "2026-11-11 10:25",
-   "kind": "busy",
-   "text": "3 more breakouts (FANG, HAL, VLO) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "FANG",
-    "HAL",
-    "VLO"
    ]
   }
  ],
@@ -4761,6 +4803,11 @@
    "ts": 1794582121,
    "equity": 9602.51,
    "spy": 9929.07
+  },
+  {
+   "ts": 1794582434,
+   "equity": 9580.63,
+   "spy": 9901.5
   }
  ],
  "daily": [
@@ -4820,6 +4867,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794582434,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.3,
+   "errors": [],
+   "run_id": "43449318657",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794582121,
    "phase": "open",
@@ -5209,25 +5266,15 @@
    "errors": [],
    "run_id": "43284445008",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794509287,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.6,
-   "errors": [],
-   "run_id": "43283554247",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794582121,
+  "tick_at": 1794582434,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794582135,
-  "candidates": 29,
-  "charts_fetched": 31,
+  "yahoo_time": 1794582448,
+  "candidates": 28,
+  "charts_fetched": 30,
   "ok": true,
   "errors": [],
   "stale_data": false,
