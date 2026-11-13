@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794581700,
+  "last_bar_end": 1794582000,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 26,
+  "triggers_seen": 30,
   "missed": [
    "APP",
    "CHTR",
@@ -528,7 +528,11 @@
    "RDDT",
    "SNAP",
    "SO",
-   "TTD"
+   "TTD",
+   "MA",
+   "MDT",
+   "PG",
+   "V"
   ],
   "triggered": [
    "ABT",
@@ -556,7 +560,11 @@
    "RDDT",
    "SNAP",
    "SO",
-   "TTD"
+   "TTD",
+   "MA",
+   "MDT",
+   "PG",
+   "V"
   ],
   "hits": [
    {
@@ -766,6 +774,38 @@
     "or_high": 15.81,
     "or_low": 15.45,
     "pct_over": 1.02
+   },
+   {
+    "symbol": "MA",
+    "at": "10:00",
+    "price": 660.57,
+    "or_high": 660.49,
+    "or_low": 655.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "MDT",
+    "at": "10:00",
+    "price": 102.54,
+    "or_high": 102.45,
+    "or_low": 101.41,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PG",
+    "at": "10:00",
+    "price": 169.62,
+    "or_high": 169.4,
+    "or_low": 168.5,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "V",
+    "at": "10:00",
+    "price": 425.5,
+    "or_high": 425.43,
+    "or_low": 422.59,
+    "pct_over": 0.02
    }
   ]
  },
@@ -773,8 +813,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 755.5399780273438,
-  "last_ts": 1794581700
+  "last": 754.39501953125,
+  "last_ts": 1794582000
  },
  "seen_trades": 0,
  "daily": [
