@@ -322,3 +322,4 @@
 {"ts": 1794582000, "et": "2026-11-13 10:00", "kind": "busy", "text": "4 more breakouts (MA, MDT, PG, V) not taken: already in MSFT (one trade at a time)", "symbols": ["MA", "MDT", "PG", "V"]}
 {"ts": 1794582300, "et": "2026-11-13 10:05", "kind": "busy", "text": "5 more breakouts (COF, DUOL, ISRG, PDD, PEP) not taken: already in MSFT (one trade at a time)", "symbols": ["COF", "DUOL", "ISRG", "PDD", "PEP"]}
 {"ts": 1794582600, "et": "2026-11-13 10:10", "kind": "busy", "text": "2 more breakouts (NU, SCHW) not taken: already in MSFT (one trade at a time)", "symbols": ["NU", "SCHW"]}
+{"ts": 1794583500, "et": "2026-11-13 10:25", "kind": "busy", "text": "2 more breakouts (COP, UPS) not taken: already in MSFT (one trade at a time)", "symbols": ["COP", "UPS"]}
