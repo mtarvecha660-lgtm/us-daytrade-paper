@@ -1,21 +1,21 @@
 {
- "updated": 1794589690,
- "updated_et": "2026-11-13 12:08 ET",
+ "updated": 1794590004,
+ "updated_et": "2026-11-13 12:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9611.21,
-  "return": -0.03887900000000011,
+  "equity": 9637.73,
+  "return": -0.03622700000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9871.89,
-  "return": -0.012811000000000017,
+  "value": 9897.95,
+  "return": -0.010204999999999909,
   "start_price": 759.47998046875,
-  "last": 750.0499267578125
+  "last": 752.030029296875
  },
  "position": {
   "symbol": "MSFT",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-13",
   "hits": [
-   {
-    "symbol": "ABT",
-    "at": "09:50",
-    "price": 108.51,
-    "or_high": 108.3,
-    "or_low": 107.03,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "ADBE",
-    "at": "09:50",
-    "price": 240.81,
-    "or_high": 240.47,
-    "or_low": 237.94,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "AEP",
-    "at": "09:50",
-    "price": 130.0,
-    "or_high": 129.86,
-    "or_low": 129.18,
-    "pct_over": 0.11
-   },
    {
     "symbol": "COST",
     "at": "09:50",
@@ -500,9 +476,49 @@
     "or_high": 186.0,
     "or_low": 181.8,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "MELI",
+    "at": "12:10",
+    "price": 1492.32,
+    "or_high": 1488.35,
+    "or_low": 1463.2,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "RBLX",
+    "at": "12:10",
+    "price": 50.82,
+    "or_high": 50.75,
+    "or_low": 49.6,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SPOT",
+    "at": "12:10",
+    "price": 613.38,
+    "or_high": 612.94,
+    "or_low": 598.34,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TWLO",
+    "at": "12:10",
+    "price": 213.69,
+    "or_high": 213.6,
+    "or_low": 209.0,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "UPST",
+    "at": "12:10",
+    "price": 19.7,
+    "or_high": 19.68,
+    "or_low": 19.14,
+    "pct_over": 0.13
    }
   ],
-  "n_hits": 58,
+  "n_hits": 63,
   "entries": 1,
   "max_trades": 3
  },
@@ -999,6 +1015,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794589800,
+   "et": "2026-11-13 12:10",
+   "kind": "busy",
+   "text": "5 more breakouts (MELI, RBLX, SPOT, TWLO, UPST) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "MELI",
+    "RBLX",
+    "SPOT",
+    "TWLO",
+    "UPST"
+   ]
+  },
   {
    "ts": 1794589500,
    "et": "2026-11-13 12:05",
@@ -1867,16 +1896,6 @@
     "ROST",
     "SLB",
     "UBER"
-   ]
-  },
-  {
-   "ts": 1794414600,
-   "et": "2026-11-11 11:30",
-   "kind": "busy",
-   "text": "2 more breakouts (CAT, KLAC) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "CAT",
-    "KLAC"
    ]
   }
  ],
@@ -5100,6 +5119,11 @@
    "ts": 1794589690,
    "equity": 9611.21,
    "spy": 9871.89
+  },
+  {
+   "ts": 1794590004,
+   "equity": 9637.73,
+   "spy": 9897.95
   }
  ],
  "daily": [
@@ -5159,6 +5183,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794590004,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.0,
+   "errors": [],
+   "run_id": "43470603545",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794589690,
    "phase": "open",
@@ -5548,29 +5582,19 @@
    "errors": [],
    "run_id": "43305736784",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794516869,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "43304890929",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794589690,
+  "tick_at": 1794590004,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794589696,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1794590017,
+  "candidates": 24,
+  "charts_fetched": 26,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

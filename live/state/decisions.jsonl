@@ -332,3 +332,4 @@
 {"ts": 1794588600, "et": "2026-11-13 11:50", "kind": "busy", "text": "1 more breakout (AAL) not taken: already in MSFT (one trade at a time)", "symbols": ["AAL"]}
 {"ts": 1794589200, "et": "2026-11-13 12:00", "kind": "busy", "text": "1 more breakout (DXCM) not taken: already in MSFT (one trade at a time)", "symbols": ["DXCM"]}
 {"ts": 1794589500, "et": "2026-11-13 12:05", "kind": "busy", "text": "1 more breakout (ABNB) not taken: already in MSFT (one trade at a time)", "symbols": ["ABNB"]}
+{"ts": 1794589800, "et": "2026-11-13 12:10", "kind": "busy", "text": "5 more breakouts (MELI, RBLX, SPOT, TWLO, UPST) not taken: already in MSFT (one trade at a time)", "symbols": ["MELI", "RBLX", "SPOT", "TWLO", "UPST"]}

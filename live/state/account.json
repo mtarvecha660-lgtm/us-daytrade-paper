@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794589500,
+  "last_bar_end": 1794589800,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 58,
+  "triggers_seen": 63,
   "missed": [
    "APP",
    "CHTR",
@@ -560,7 +560,12 @@
    "PATH",
    "AAL",
    "DXCM",
-   "ABNB"
+   "ABNB",
+   "MELI",
+   "RBLX",
+   "SPOT",
+   "TWLO",
+   "UPST"
   ],
   "triggered": [
    "ABT",
@@ -620,7 +625,12 @@
    "PATH",
    "AAL",
    "DXCM",
-   "ABNB"
+   "ABNB",
+   "MELI",
+   "RBLX",
+   "SPOT",
+   "TWLO",
+   "UPST"
   ],
   "hits": [
    {
@@ -1086,6 +1096,46 @@
     "or_high": 186.0,
     "or_low": 181.8,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "MELI",
+    "at": "12:10",
+    "price": 1492.32,
+    "or_high": 1488.35,
+    "or_low": 1463.2,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "RBLX",
+    "at": "12:10",
+    "price": 50.82,
+    "or_high": 50.75,
+    "or_low": 49.6,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SPOT",
+    "at": "12:10",
+    "price": 613.38,
+    "or_high": 612.94,
+    "or_low": 598.34,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TWLO",
+    "at": "12:10",
+    "price": 213.69,
+    "or_high": 213.6,
+    "or_low": 209.0,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "UPST",
+    "at": "12:10",
+    "price": 19.7,
+    "or_high": 19.68,
+    "or_low": 19.14,
+    "pct_over": 0.13
    }
   ]
  },
@@ -1093,8 +1143,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 750.0499267578125,
-  "last_ts": 1794589500
+  "last": 752.030029296875,
+  "last_ts": 1794589800
  },
  "seen_trades": 0,
  "daily": [
