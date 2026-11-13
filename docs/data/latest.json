@@ -1,21 +1,21 @@
 {
- "updated": 1794593169,
- "updated_et": "2026-11-13 13:06 ET",
+ "updated": 1794593478,
+ "updated_et": "2026-11-13 13:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2824.49,
-  "equity": 9633.31,
-  "return": -0.03666900000000006,
+  "equity": 9640.72,
+  "return": -0.03592800000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9884.92,
-  "return": -0.011507999999999963,
+  "value": 9888.4,
+  "return": -0.011160000000000059,
   "start_price": 759.47998046875,
-  "last": 751.0399780273438
+  "last": 751.3049926757812
  },
  "position": {
   "symbol": "MSFT",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-13",
   "hits": [
-   {
-    "symbol": "GME",
-    "at": "09:50",
-    "price": 26.35,
-    "or_high": 26.31,
-    "or_low": 25.67,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "JD",
-    "at": "09:50",
-    "price": 27.67,
-    "or_high": 27.67,
-    "or_low": 27.27,
-    "pct_over": 0.02
-   },
    {
     "symbol": "LI",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 247.17,
     "or_low": 245.2,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "ETSY",
+    "at": "13:10",
+    "price": 89.48,
+    "or_high": 89.42,
+    "or_low": 87.9,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "ZM",
+    "at": "13:10",
+    "price": 99.04,
+    "or_high": 99.0,
+    "or_low": 97.51,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 66,
+  "n_hits": 68,
   "entries": 1,
   "max_trades": 3
  },
@@ -1015,6 +1015,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794593400,
+   "et": "2026-11-13 13:10",
+   "kind": "busy",
+   "text": "2 more breakouts (ETSY, ZM) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "ETSY",
+    "ZM"
+   ]
+  },
   {
    "ts": 1794592800,
    "et": "2026-11-13 13:00",
@@ -1876,19 +1886,6 @@
    "text": "1 more breakout (YUM) not taken: already in AAPL (one trade at a time)",
    "symbols": [
     "YUM"
-   ]
-  },
-  {
-   "ts": 1794416700,
-   "et": "2026-11-11 12:05",
-   "kind": "busy",
-   "text": "5 more breakouts (BIIB, EBAY, HD, IBM, SHOP) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "BIIB",
-    "EBAY",
-    "HD",
-    "IBM",
-    "SHOP"
    ]
   }
  ],
@@ -5167,6 +5164,11 @@
    "ts": 1794593169,
    "equity": 9633.31,
    "spy": 9884.92
+  },
+  {
+   "ts": 1794593478,
+   "equity": 9640.72,
+   "spy": 9888.4
   }
  ],
  "daily": [
@@ -5226,6 +5228,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794593478,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.2,
+   "errors": [],
+   "run_id": "43480126257",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794593169,
    "phase": "open",
@@ -5615,25 +5627,15 @@
    "errors": [],
    "run_id": "43445882606",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794580865,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 6.1,
-   "errors": [],
-   "run_id": "43445029219",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794593169,
+  "tick_at": 1794593478,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794593177,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794593485,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,

@@ -336,3 +336,4 @@
 {"ts": 1794590700, "et": "2026-11-13 12:25", "kind": "busy", "text": "1 more breakout (REGN) not taken: already in MSFT (one trade at a time)", "symbols": ["REGN"]}
 {"ts": 1794591600, "et": "2026-11-13 12:40", "kind": "busy", "text": "1 more breakout (BIDU) not taken: already in MSFT (one trade at a time)", "symbols": ["BIDU"]}
 {"ts": 1794592800, "et": "2026-11-13 13:00", "kind": "busy", "text": "1 more breakout (IBM) not taken: already in MSFT (one trade at a time)", "symbols": ["IBM"]}
+{"ts": 1794593400, "et": "2026-11-13 13:10", "kind": "busy", "text": "2 more breakouts (ETSY, ZM) not taken: already in MSFT (one trade at a time)", "symbols": ["ETSY", "ZM"]}

@@ -465,7 +465,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-13",
-  "last_bar_end": 1794593100,
+  "last_bar_end": 1794593400,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -516,7 +516,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 66,
+  "triggers_seen": 68,
   "missed": [
    "APP",
    "CHTR",
@@ -568,7 +568,9 @@
    "UPST",
    "REGN",
    "BIDU",
-   "IBM"
+   "IBM",
+   "ETSY",
+   "ZM"
   ],
   "triggered": [
    "ABT",
@@ -636,7 +638,9 @@
    "UPST",
    "REGN",
    "BIDU",
-   "IBM"
+   "IBM",
+   "ETSY",
+   "ZM"
   ],
   "hits": [
    {
@@ -1166,6 +1170,22 @@
     "or_high": 247.17,
     "or_low": 245.2,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "ETSY",
+    "at": "13:10",
+    "price": 89.48,
+    "or_high": 89.42,
+    "or_low": 87.9,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "ZM",
+    "at": "13:10",
+    "price": 99.04,
+    "or_high": 99.0,
+    "or_low": 97.51,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1173,8 +1193,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 751.0399780273438,
-  "last_ts": 1794593100
+  "last": 751.3049926757812,
+  "last_ts": 1794593400
  },
  "seen_trades": 0,
  "daily": [
