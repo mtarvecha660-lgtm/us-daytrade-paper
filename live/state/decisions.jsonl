@@ -340,3 +340,4 @@
 {"ts": 1794594000, "et": "2026-11-13 13:20", "kind": "busy", "text": "1 more breakout (DOCU) not taken: already in MSFT (one trade at a time)", "symbols": ["DOCU"]}
 {"ts": 1794595500, "et": "2026-11-13 13:45", "kind": "busy", "text": "1 more breakout (XPEV) not taken: already in MSFT (one trade at a time)", "symbols": ["XPEV"]}
 {"ts": 1794597000, "et": "2026-11-13 14:10", "kind": "busy", "text": "1 more breakout (SWKS) not taken: already in MSFT (one trade at a time)", "symbols": ["SWKS"]}
+{"ts": 1794597600, "et": "2026-11-13 14:20", "kind": "busy", "text": "1 more breakout (MSTR) not taken: already in MSFT (one trade at a time)", "symbols": ["MSTR"]}
