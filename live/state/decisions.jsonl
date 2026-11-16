@@ -358,3 +358,4 @@
 {"ts": 1794842400, "et": "2026-11-16 10:20", "kind": "busy", "text": "2 more breakouts (ELV, PG) not taken: already in UBER (one trade at a time)", "symbols": ["ELV", "PG"]}
 {"ts": 1794842700, "et": "2026-11-16 10:25", "kind": "busy", "text": "2 more breakouts (D, HD) not taken: already in UBER (one trade at a time)", "symbols": ["D", "HD"]}
 {"ts": 1794843600, "et": "2026-11-16 10:40", "kind": "busy", "text": "2 more breakouts (PATH, T) not taken: already in UBER (one trade at a time)", "symbols": ["PATH", "T"]}
+{"ts": 1794843900, "et": "2026-11-16 10:45", "kind": "busy", "text": "1 more breakout (DUOL) not taken: already in UBER (one trade at a time)", "symbols": ["DUOL"]}
