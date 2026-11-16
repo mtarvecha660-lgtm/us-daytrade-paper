@@ -1,39 +1,49 @@
 {
- "updated": 1794845643,
- "updated_et": "2026-11-16 11:14 ET",
+ "updated": 1794845953,
+ "updated_et": "2026-11-16 11:19 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2545.18,
-  "equity": 9679.96,
-  "return": -0.03200400000000003,
+  "cash": 9666.28,
+  "equity": 9666.28,
+  "return": -0.03337199999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9823.98,
-  "return": -0.017602000000000007,
+  "value": 9805.95,
+  "return": -0.019404999999999895,
   "start_price": 759.47998046875,
-  "last": 746.4099731445312
+  "last": 745.0399780273438
  },
- "position": {
-  "symbol": "HLT",
-  "qty": 19,
-  "entry": 376.3953,
-  "entry_et": "10:55",
-  "stop": 374.87,
-  "target": 378.45,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "COP",
+  "qty": 51,
+  "plan": {
+   "symbol": "COP",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-16",
+   "entry_time": "11:15 AM",
+   "entry": 140.96,
+   "stop": 139.84,
+   "target": 142.08,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
-   "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
-   "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
+   "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
+   "exit": "plan: entry $140.96, stop $139.84 (opening-range midpoint), target $142.08 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
+   "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1794845700,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-16",
   "hits": [
@@ -348,27 +358,35 @@
     "or_high": 145.95,
     "or_low": 143.23,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "COP",
+    "at": "11:15",
+    "price": 140.96,
+    "or_high": 140.86,
+    "or_low": 138.83,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 39,
-  "entries": 2,
+  "n_hits": 40,
+  "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 19 HLT bought at $376.40. It sells at the stop $374.87, the target $378.45, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 51 COP at the next bar's open (signal at 11:15 ET). Then: stop $139.84, target $142.08.",
  "stats": {
-  "trades": 21,
+  "trades": 22,
   "wins": 10,
-  "win_rate": 0.47619047619047616,
-  "avg_r": -0.11476190476190479,
-  "t_stat_r": -0.5787136856092819,
-  "net_pnl": -303.33,
-  "profit_factor": 0.6160088107957568,
-  "expectancy_usd": -14.44,
+  "win_rate": 0.45454545454545453,
+  "avg_r": -0.15018181818181822,
+  "t_stat_r": -0.780710523321339,
+  "net_pnl": -333.74,
+  "profit_factor": 0.5931736453952582,
+  "expectancy_usd": -15.17,
   "avg_win": 48.66,
-  "avg_loss": -71.81,
-  "costs_usd": 42.66,
+  "avg_loss": -68.36,
+  "costs_usd": 45.52,
   "exits": {
-   "stop": 9,
+   "stop": 10,
    "target": 6,
    "flat-by": 6
   }
@@ -389,6 +407,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-16",
+   "symbol": "HLT",
+   "qty": 19,
+   "entry_et": "10:55",
+   "entry_fill": 376.3953,
+   "exit_et": "11:15",
+   "exit_fill": 374.795,
+   "exit_reason": "stop $374.87 hit",
+   "stop": 374.87,
+   "target": 378.45,
+   "pnl": -30.41,
+   "r": -0.894,
+   "risk_usd": 34.01,
+   "cost_usd": 2.86,
+   "why": {
+    "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
+    "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
+    "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-16",
    "symbol": "UBER",
@@ -895,6 +937,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794845700,
+   "et": "2026-11-16 11:15",
+   "kind": "order",
+   "text": "BUY 51 COP at market (decided on the 11:15 close). opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
+   "symbol": "COP",
+   "why": {
+    "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
+    "exit": "plan: entry $140.96, stop $139.84 (opening-range midpoint), target $142.08 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
+    "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
+  {
+   "ts": 1794845700,
+   "et": "2026-11-16 11:15",
+   "kind": "exit",
+   "text": "SELL 19 HLT at $374.80: stop $374.87 hit. P&L $-30.41 (-0.89R)",
+   "symbol": "HLT"
+  },
   {
    "ts": 1794845100,
    "et": "2026-11-16 11:05",
@@ -1717,27 +1781,6 @@
    "text": "1 more breakout (YUM) not taken: already in DELL (one trade at a time)",
    "symbols": [
     "YUM"
-   ]
-  },
-  {
-   "ts": 1794496800,
-   "et": "2026-11-12 10:20",
-   "kind": "busy",
-   "text": "4 more breakouts (APP, BB, CDNS, U) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "APP",
-    "BB",
-    "CDNS",
-    "U"
-   ]
-  },
-  {
-   "ts": 1794496500,
-   "et": "2026-11-12 10:15",
-   "kind": "busy",
-   "text": "1 more breakout (OXY) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "OXY"
    ]
   }
  ],
@@ -5236,6 +5279,11 @@
    "ts": 1794845643,
    "equity": 9679.96,
    "spy": 9823.98
+  },
+  {
+   "ts": 1794845953,
+   "equity": 9666.28,
+   "spy": 9805.95
   }
  ],
  "daily": [
@@ -5301,6 +5349,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794845953,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.7,
+   "errors": [],
+   "run_id": "43906126261",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794845643,
    "phase": "open",
@@ -5690,25 +5748,15 @@
    "errors": [],
    "run_id": "43495971043",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794599131,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.2,
-   "errors": [],
-   "run_id": "43495156302",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794845643,
+  "tick_at": 1794845953,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794845648,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1794845959,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,
