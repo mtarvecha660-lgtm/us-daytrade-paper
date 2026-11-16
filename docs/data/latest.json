@@ -1,49 +1,39 @@
 {
- "updated": 1794844687,
- "updated_et": "2026-11-16 10:58 ET",
+ "updated": 1794845001,
+ "updated_et": "2026-11-16 11:03 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9696.69,
-  "equity": 9696.69,
-  "return": -0.030330999999999997,
+  "cash": 2545.18,
+  "equity": 9683.76,
+  "return": -0.031623999999999985,
   "started": 1793559735
  },
  "spy": {
-  "value": 9832.27,
-  "return": -0.016772999999999927,
+  "value": 9828.32,
+  "return": -0.017168000000000072,
   "start_price": 759.47998046875,
-  "last": 747.0399780273438
+  "last": 746.739990234375
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "HLT",
   "qty": 19,
-  "plan": {
-   "symbol": "HLT",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-16",
-   "entry_time": "10:55 AM",
-   "entry": 376.66,
-   "stop": 374.87,
-   "target": 378.45,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 376.3953,
+  "entry_et": "10:55",
+  "stop": 374.87,
+  "target": 378.45,
+  "last": null,
   "why": {
    "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
    "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
    "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794844500,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-16",
   "hits": [
@@ -326,13 +316,29 @@
     "or_high": 376.49,
     "or_low": 373.26,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:00",
+    "price": 250.12,
+    "or_high": 249.5,
+    "or_low": 242.84,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "BB",
+    "at": "11:00",
+    "price": 8.84,
+    "or_high": 8.83,
+    "or_low": 8.55,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 35,
+  "n_hits": 37,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 19 HLT at the next bar's open (signal at 10:55 ET). Then: stop $374.87, target $378.45.",
+ "next_move": "Holding 19 HLT bought at $376.40. It sells at the stop $374.87, the target $378.45, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 21,
   "wins": 10,
@@ -873,6 +879,23 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794844800,
+   "et": "2026-11-16 11:00",
+   "kind": "busy",
+   "text": "2 more breakouts (ADBE, BB) not taken: already in HLT (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "BB"
+   ]
+  },
+  {
+   "ts": 1794844500,
+   "et": "2026-11-16 10:55",
+   "kind": "fill",
+   "text": "BUY 19 HLT filled at $376.40 (next bar's open $376.32 + slippage). Stop $374.87, target $378.45",
+   "symbol": "HLT"
+  },
   {
    "ts": 1794844500,
    "et": "2026-11-16 10:55",
@@ -1699,33 +1722,6 @@
    "symbols": [
     "FANG",
     "ZTS"
-   ]
-  },
-  {
-   "ts": 1794495900,
-   "et": "2026-11-12 10:05",
-   "kind": "busy",
-   "text": "1 more breakout (MPC) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "MPC"
-   ]
-  },
-  {
-   "ts": 1794495600,
-   "et": "2026-11-12 10:00",
-   "kind": "busy",
-   "text": "10 more breakouts (ANET, DDOG, DVN, MRVL, MSFT, NVDA, OKTA, SMCI ...) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "ANET",
-    "DDOG",
-    "DVN",
-    "MRVL",
-    "MSFT",
-    "NVDA",
-    "OKTA",
-    "SMCI",
-    "VLO",
-    "WDC"
    ]
   }
  ],
@@ -5209,6 +5205,11 @@
    "ts": 1794844687,
    "equity": 9696.69,
    "spy": 9832.27
+  },
+  {
+   "ts": 1794845001,
+   "equity": 9683.76,
+   "spy": 9828.32
   }
  ],
  "daily": [
@@ -5274,6 +5275,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794845001,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.9,
+   "errors": [],
+   "run_id": "43903161441",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794844687,
    "phase": "open",
@@ -5663,29 +5674,19 @@
    "errors": [],
    "run_id": "43493548670",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794598187,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 14.4,
-   "errors": [],
-   "run_id": "43492703397",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794844687,
+  "tick_at": 1794845001,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794844695,
-  "candidates": 29,
-  "charts_fetched": 31,
+  "yahoo_time": 1794845013,
+  "candidates": 31,
+  "charts_fetched": 33,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

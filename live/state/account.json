@@ -1,5 +1,5 @@
 {
- "cash": 9696.6882,
+ "cash": 2545.1775,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -513,11 +513,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794844500,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794844800,
+  "position": {
    "symbol": "HLT",
    "qty": 19,
+   "entry_fill": 376.3953,
+   "entry_ts": 1794844500,
    "plan": {
     "symbol": "HLT",
     "side": "buy",
@@ -529,7 +530,8 @@
     "target": 378.45,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 376.32000732421875
    },
    "why": {
     "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
@@ -538,9 +540,9 @@
     "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794844500,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -575,11 +577,19 @@
     "kind": "entry",
     "max_loss": 34.01,
     "at": "2026-11-16T10:55:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-16",
+    "symbol": "HLT",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 19
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 35,
+  "triggers_seen": 37,
   "missed": [
    "CMCSA",
    "COIN",
@@ -608,7 +618,9 @@
    "T",
    "DUOL",
    "OXY",
-   "WDC"
+   "WDC",
+   "ADBE",
+   "BB"
   ],
   "triggered": [
    "DPZ",
@@ -645,7 +657,9 @@
    "DUOL",
    "OXY",
    "WDC",
-   "HLT"
+   "HLT",
+   "ADBE",
+   "BB"
   ],
   "hits": [
    {
@@ -927,6 +941,22 @@
     "or_high": 376.49,
     "or_low": 373.26,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "ADBE",
+    "at": "11:00",
+    "price": 250.12,
+    "or_high": 249.5,
+    "or_low": 242.84,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "BB",
+    "at": "11:00",
+    "price": 8.84,
+    "or_high": 8.83,
+    "or_low": 8.55,
+    "pct_over": 0.06
    }
   ]
  },
@@ -934,8 +964,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 747.0399780273438,
-  "last_ts": 1794844500
+  "last": 746.739990234375,
+  "last_ts": 1794844800
  },
  "seen_trades": 0,
  "daily": [
