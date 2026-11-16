@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794846600,
+  "last_bar_end": 1794846900,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -638,7 +638,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 47,
+  "triggers_seen": 48,
   "missed": [
    "CMCSA",
    "COIN",
@@ -678,7 +678,8 @@
    "DOCU",
    "KLAC",
    "MU",
-   "TXN"
+   "TXN",
+   "Z"
   ],
   "triggered": [
    "DPZ",
@@ -727,7 +728,8 @@
    "DOCU",
    "KLAC",
    "MU",
-   "TXN"
+   "TXN",
+   "Z"
   ],
   "hits": [
    {
@@ -1105,6 +1107,14 @@
     "or_high": 296.01,
     "or_low": 289.59,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "Z",
+    "at": "11:35",
+    "price": 29.86,
+    "or_high": 29.81,
+    "or_low": 29.26,
+    "pct_over": 0.17
    }
   ]
  },
@@ -1112,8 +1122,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 746.6699829101562,
-  "last_ts": 1794846600
+  "last": 746.6900024414062,
+  "last_ts": 1794846900
  },
  "seen_trades": 0,
  "daily": [
