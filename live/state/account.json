@@ -1,5 +1,5 @@
 {
- "cash": 9666.2825,
+ "cash": 2473.3343,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -537,11 +537,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794845700,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794846000,
+  "position": {
    "symbol": "COP",
    "qty": 51,
+   "entry_fill": 141.0382,
+   "entry_ts": 1794845700,
    "plan": {
     "symbol": "COP",
     "side": "buy",
@@ -553,7 +554,8 @@
     "target": 142.08,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 141.00999450683594
    },
    "why": {
     "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
@@ -562,9 +564,9 @@
     "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794845700,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -624,11 +626,19 @@
     "kind": "entry",
     "max_loss": 57.12,
     "at": "2026-11-16T11:15:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-16",
+    "symbol": "COP",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 51
    }
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 40,
+  "triggers_seen": 43,
   "missed": [
    "CMCSA",
    "COIN",
@@ -661,7 +671,10 @@
    "ADBE",
    "BB",
    "GME",
-   "SHOP"
+   "SHOP",
+   "AVGO",
+   "EOG",
+   "U"
   ],
   "triggered": [
    "DPZ",
@@ -703,7 +716,10 @@
    "BB",
    "GME",
    "SHOP",
-   "COP"
+   "COP",
+   "AVGO",
+   "EOG",
+   "U"
   ],
   "hits": [
    {
@@ -1025,6 +1041,30 @@
     "or_high": 140.86,
     "or_low": 138.83,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "AVGO",
+    "at": "11:20",
+    "price": 334.8,
+    "or_high": 334.69,
+    "or_low": 328.88,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "EOG",
+    "at": "11:20",
+    "price": 157.72,
+    "or_high": 157.66,
+    "or_low": 155.68,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "U",
+    "at": "11:20",
+    "price": 53.58,
+    "or_high": 53.34,
+    "or_low": 52.09,
+    "pct_over": 0.45
    }
   ]
  },
@@ -1032,8 +1072,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 745.0399780273438,
-  "last_ts": 1794845700
+  "last": 746.1599731445312,
+  "last_ts": 1794846000
  },
  "seen_trades": 0,
  "daily": [

@@ -1,49 +1,39 @@
 {
- "updated": 1794845953,
- "updated_et": "2026-11-16 11:19 ET",
+ "updated": 1794846268,
+ "updated_et": "2026-11-16 11:24 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9666.28,
-  "equity": 9666.28,
-  "return": -0.03337199999999996,
+  "cash": 2473.33,
+  "equity": 9674.37,
+  "return": -0.0325629999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9805.95,
-  "return": -0.019404999999999895,
+  "value": 9820.69,
+  "return": -0.01793099999999992,
   "start_price": 759.47998046875,
-  "last": 745.0399780273438
+  "last": 746.1599731445312
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "COP",
   "qty": 51,
-  "plan": {
-   "symbol": "COP",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-16",
-   "entry_time": "11:15 AM",
-   "entry": 140.96,
-   "stop": 139.84,
-   "target": 142.08,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 141.0382,
+  "entry_et": "11:15",
+  "stop": 139.84,
+  "target": 142.08,
+  "last": null,
   "why": {
    "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
    "exit": "plan: entry $140.96, stop $139.84 (opening-range midpoint), target $142.08 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
    "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794845700,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-16",
   "hits": [
@@ -366,13 +356,37 @@
     "or_high": 140.86,
     "or_low": 138.83,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "AVGO",
+    "at": "11:20",
+    "price": 334.8,
+    "or_high": 334.69,
+    "or_low": 328.88,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "EOG",
+    "at": "11:20",
+    "price": 157.72,
+    "or_high": 157.66,
+    "or_low": 155.68,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "U",
+    "at": "11:20",
+    "price": 53.58,
+    "or_high": 53.34,
+    "or_low": 52.09,
+    "pct_over": 0.45
    }
   ],
-  "n_hits": 40,
+  "n_hits": 43,
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 51 COP at the next bar's open (signal at 11:15 ET). Then: stop $139.84, target $142.08.",
+ "next_move": "Holding 51 COP bought at $141.04. It sells at the stop $139.84, the target $142.08, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 22,
   "wins": 10,
@@ -937,6 +951,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794846000,
+   "et": "2026-11-16 11:20",
+   "kind": "busy",
+   "text": "3 more breakouts (AVGO, EOG, U) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "EOG",
+    "U"
+   ]
+  },
+  {
+   "ts": 1794845700,
+   "et": "2026-11-16 11:15",
+   "kind": "fill",
+   "text": "BUY 51 COP filled at $141.04 (next bar's open $141.01 + slippage). Stop $139.84, target $142.08",
+   "symbol": "COP"
+  },
   {
    "ts": 1794845700,
    "et": "2026-11-16 11:15",
@@ -1763,24 +1795,6 @@
     "MSTR",
     "TER",
     "TXN"
-   ]
-  },
-  {
-   "ts": 1794498000,
-   "et": "2026-11-12 10:40",
-   "kind": "busy",
-   "text": "1 more breakout (ORCL) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "ORCL"
-   ]
-  },
-  {
-   "ts": 1794497700,
-   "et": "2026-11-12 10:35",
-   "kind": "busy",
-   "text": "1 more breakout (YUM) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "YUM"
    ]
   }
  ],
@@ -5284,6 +5298,11 @@
    "ts": 1794845953,
    "equity": 9666.28,
    "spy": 9805.95
+  },
+  {
+   "ts": 1794846268,
+   "equity": 9674.37,
+   "spy": 9820.69
   }
  ],
  "daily": [
@@ -5349,6 +5368,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794846268,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.2,
+   "errors": [],
+   "run_id": "43907098584",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794845953,
    "phase": "open",
@@ -5738,29 +5767,19 @@
    "errors": [],
    "run_id": "43496783007",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794599447,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.5,
-   "errors": [],
-   "run_id": "43495971043",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794845953,
+  "tick_at": 1794846268,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794845959,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1794846278,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
