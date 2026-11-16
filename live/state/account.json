@@ -513,7 +513,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794844800,
+  "last_bar_end": 1794845100,
   "position": {
    "symbol": "HLT",
    "qty": 19,
@@ -589,7 +589,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 37,
+  "triggers_seen": 39,
   "missed": [
    "CMCSA",
    "COIN",
@@ -620,7 +620,9 @@
    "OXY",
    "WDC",
    "ADBE",
-   "BB"
+   "BB",
+   "GME",
+   "SHOP"
   ],
   "triggered": [
    "DPZ",
@@ -659,7 +661,9 @@
    "WDC",
    "HLT",
    "ADBE",
-   "BB"
+   "BB",
+   "GME",
+   "SHOP"
   ],
   "hits": [
    {
@@ -957,6 +961,22 @@
     "or_high": 8.83,
     "or_low": 8.55,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "GME",
+    "at": "11:05",
+    "price": 25.88,
+    "or_high": 25.83,
+    "or_low": 25.5,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "SHOP",
+    "at": "11:05",
+    "price": 146.2,
+    "or_high": 145.95,
+    "or_low": 143.23,
+    "pct_over": 0.17
    }
   ]
  },
@@ -964,8 +984,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 746.739990234375,
-  "last_ts": 1794844800
+  "last": 746.166015625,
+  "last_ts": 1794845100
  },
  "seen_trades": 0,
  "daily": [
