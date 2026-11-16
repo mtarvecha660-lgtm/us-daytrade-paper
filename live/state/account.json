@@ -1,5 +1,5 @@
 {
- "cash": 2421.7982,
+ "cash": 9696.6882,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -483,32 +483,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-16",
-  "last_bar_end": 1794844200,
-  "position": {
+  },
+  {
+   "date": "2026-11-16",
    "symbol": "UBER",
    "qty": 103,
+   "entry_et": "09:50",
    "entry_fill": 70.209,
-   "entry_ts": 1794840600,
-   "plan": {
-    "symbol": "UBER",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-16",
-    "entry_time": "9:50 AM",
-    "entry": 70.2,
-    "stop": 69.77,
-    "target": 70.63,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 70.19499969482422
-   },
+   "exit_et": "10:55",
+   "exit_fill": 70.63,
+   "exit_reason": "target $70.63 hit (1R)",
+   "stop": 69.77,
+   "target": 70.63,
+   "pnl": 43.36,
+   "r": 0.979,
+   "risk_usd": 44.29,
+   "cost_usd": 1.44,
    "why": {
     "scanner": "UBER: the 09:45 bar closed at $70.20, above the 15-min opening range high $70.10 (range 69.45-70.10)",
     "exit": "plan: entry $70.20, stop $69.77 (opening-range midpoint), target $70.63 (1R (one times the risk)), flat by 15:55 ET",
@@ -517,8 +507,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": true
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-16",
+  "last_bar_end": 1794844500,
+  "position": null,
+  "pending": {
+   "symbol": "HLT",
+   "qty": 19,
+   "plan": {
+    "symbol": "HLT",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-16",
+    "entry_time": "10:55 AM",
+    "entry": 376.66,
+    "stop": 374.87,
+    "target": 378.45,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
+    "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
+    "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794844500,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -536,11 +558,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 103
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-16",
+    "symbol": "UBER",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 103
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-16",
+    "symbol": "HLT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 34.01,
+    "at": "2026-11-16T10:55:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 34,
+  "triggers_seen": 35,
   "missed": [
    "CMCSA",
    "COIN",
@@ -605,7 +644,8 @@
    "T",
    "DUOL",
    "OXY",
-   "WDC"
+   "WDC",
+   "HLT"
   ],
   "hits": [
    {
@@ -879,6 +919,14 @@
     "or_high": 282.99,
     "or_low": 275.34,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "HLT",
+    "at": "10:55",
+    "price": 376.66,
+    "or_high": 376.49,
+    "or_low": 373.26,
+    "pct_over": 0.05
    }
   ]
  },
@@ -886,8 +934,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 745.8800048828125,
-  "last_ts": 1794844200
+  "last": 747.0399780273438,
+  "last_ts": 1794844500
  },
  "seen_trades": 0,
  "daily": [

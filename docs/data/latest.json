@@ -1,39 +1,49 @@
 {
- "updated": 1794844372,
- "updated_et": "2026-11-16 10:52 ET",
+ "updated": 1794844687,
+ "updated_et": "2026-11-16 10:58 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2421.8,
-  "equity": 9677.73,
-  "return": -0.032227000000000006,
+  "cash": 9696.69,
+  "equity": 9696.69,
+  "return": -0.030330999999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9817.0,
-  "return": -0.018299999999999983,
+  "value": 9832.27,
+  "return": -0.016772999999999927,
   "start_price": 759.47998046875,
-  "last": 745.8800048828125
+  "last": 747.0399780273438
  },
- "position": {
-  "symbol": "UBER",
-  "qty": 103,
-  "entry": 70.209,
-  "entry_et": "09:50",
-  "stop": 69.77,
-  "target": 70.63,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "HLT",
+  "qty": 19,
+  "plan": {
+   "symbol": "HLT",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-16",
+   "entry_time": "10:55 AM",
+   "entry": 376.66,
+   "stop": 374.87,
+   "target": 378.45,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "UBER: the 09:45 bar closed at $70.20, above the 15-min opening range high $70.10 (range 69.45-70.10)",
-   "exit": "plan: entry $70.20, stop $69.77 (opening-range midpoint), target $70.63 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on UBER: 103 shares, bound by your position cap (103 x 0.43 = $44.29 at the stop) (limits: max loss 232; position cap 103; max order 113; cash 123)",
-   "risk": "trader-risk PASS: entry 70.20 (the plan's entry), stop 69.77, target 70.63: risk 0.43 a share; max loss $44.29 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
+   "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
+   "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1794844500,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-16",
   "hits": [
@@ -308,28 +318,36 @@
     "or_high": 282.99,
     "or_low": 275.34,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "HLT",
+    "at": "10:55",
+    "price": 376.66,
+    "or_high": 376.49,
+    "or_low": 373.26,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 34,
-  "entries": 1,
+  "n_hits": 35,
+  "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 103 UBER bought at $70.21. It sells at the stop $69.77, the target $70.63, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 19 HLT at the next bar's open (signal at 10:55 ET). Then: stop $374.87, target $378.45.",
  "stats": {
-  "trades": 20,
-  "wins": 9,
-  "win_rate": 0.45,
-  "avg_r": -0.16945000000000005,
-  "t_stat_r": -0.8455732842742173,
-  "net_pnl": -346.69,
-  "profit_factor": 0.5611185659670355,
-  "expectancy_usd": -17.33,
-  "avg_win": 49.25,
+  "trades": 21,
+  "wins": 10,
+  "win_rate": 0.47619047619047616,
+  "avg_r": -0.11476190476190479,
+  "t_stat_r": -0.5787136856092819,
+  "net_pnl": -303.33,
+  "profit_factor": 0.6160088107957568,
+  "expectancy_usd": -14.44,
+  "avg_win": 48.66,
   "avg_loss": -71.81,
-  "costs_usd": 41.22,
+  "costs_usd": 42.66,
   "exits": {
    "stop": 9,
-   "target": 5,
+   "target": 6,
    "flat-by": 6
   }
  },
@@ -349,6 +367,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-16",
+   "symbol": "UBER",
+   "qty": 103,
+   "entry_et": "09:50",
+   "entry_fill": 70.209,
+   "exit_et": "10:55",
+   "exit_fill": 70.63,
+   "exit_reason": "target $70.63 hit (1R)",
+   "stop": 69.77,
+   "target": 70.63,
+   "pnl": 43.36,
+   "r": 0.979,
+   "risk_usd": 44.29,
+   "cost_usd": 1.44,
+   "why": {
+    "scanner": "UBER: the 09:45 bar closed at $70.20, above the 15-min opening range high $70.10 (range 69.45-70.10)",
+    "exit": "plan: entry $70.20, stop $69.77 (opening-range midpoint), target $70.63 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UBER: 103 shares, bound by your position cap (103 x 0.43 = $44.29 at the stop) (limits: max loss 232; position cap 103; max order 113; cash 123)",
+    "risk": "trader-risk PASS: entry 70.20 (the plan's entry), stop 69.77, target 70.63: risk 0.43 a share; max loss $44.29 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": true
+  },
   {
    "date": "2026-11-13",
    "symbol": "MSFT",
@@ -831,6 +873,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794844500,
+   "et": "2026-11-16 10:55",
+   "kind": "order",
+   "text": "BUY 19 HLT at market (decided on the 10:55 close). opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
+   "symbol": "HLT",
+   "why": {
+    "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
+    "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
+    "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
+  {
+   "ts": 1794844500,
+   "et": "2026-11-16 10:55",
+   "kind": "exit",
+   "text": "SELL 103 UBER at $70.63: target $70.63 hit (1R). P&L $+43.36 (+0.98R)",
+   "symbol": "UBER"
+  },
   {
    "ts": 1794844200,
    "et": "2026-11-16 10:50",
@@ -1663,24 +1727,6 @@
     "VLO",
     "WDC"
    ]
-  },
-  {
-   "ts": 1794495300,
-   "et": "2026-11-12 09:55",
-   "kind": "busy",
-   "text": "3 more breakouts (ABNB, AMZN, SWKS) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "ABNB",
-    "AMZN",
-    "SWKS"
-   ]
-  },
-  {
-   "ts": 1794495000,
-   "et": "2026-11-12 09:50",
-   "kind": "fill",
-   "text": "BUY 8 DELL filled at $359.64 (next bar's open $359.57 + slippage). Stop $347.54, target $372.40",
-   "symbol": "DELL"
   }
  ],
  "equity": [
@@ -5158,6 +5204,11 @@
    "ts": 1794844372,
    "equity": 9677.73,
    "spy": 9817.0
+  },
+  {
+   "ts": 1794844687,
+   "equity": 9696.69,
+   "spy": 9832.27
   }
  ],
  "daily": [
@@ -5223,6 +5274,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794844687,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.8,
+   "errors": [],
+   "run_id": "43902184327",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794844372,
    "phase": "open",
@@ -5612,25 +5673,15 @@
    "errors": [],
    "run_id": "43492703397",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794597874,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.1,
-   "errors": [],
-   "run_id": "43491890643",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794844372,
+  "tick_at": 1794844687,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794844381,
-  "candidates": 26,
-  "charts_fetched": 28,
+  "yahoo_time": 1794844695,
+  "candidates": 29,
+  "charts_fetched": 31,
   "ok": true,
   "errors": [],
   "stale_data": false,
