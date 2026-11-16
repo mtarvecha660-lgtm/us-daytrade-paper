@@ -1,5 +1,5 @@
 {
- "cash": 9653.3252,
+ "cash": 2421.7982,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -489,21 +489,355 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794840000,
-  "position": null,
+  "last_bar_end": 1794843300,
+  "position": {
+   "symbol": "UBER",
+   "qty": 103,
+   "entry_fill": 70.209,
+   "entry_ts": 1794840600,
+   "plan": {
+    "symbol": "UBER",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-16",
+    "entry_time": "9:50 AM",
+    "entry": 70.2,
+    "stop": 69.77,
+    "target": 70.63,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55",
+    "entry_ref": 70.19499969482422
+   },
+   "why": {
+    "scanner": "UBER: the 09:45 bar closed at $70.20, above the 15-min opening range high $70.10 (range 69.45-70.10)",
+    "exit": "plan: entry $70.20, stop $69.77 (opening-range midpoint), target $70.63 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UBER: 103 shares, bound by your position cap (103 x 0.43 = $44.29 at the stop) (limits: max loss 232; position cap 103; max order 113; cash 123)",
+    "risk": "trader-risk PASS: entry 70.20 (the plan's entry), stop 69.77, target 70.63: risk 0.43 a share; max loss $44.29 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": true
+  },
   "pending": null,
-  "orders": [],
-  "entries": 0,
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-16",
+    "symbol": "UBER",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 44.29,
+    "at": "2026-11-16T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-16",
+    "symbol": "UBER",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 103
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 29,
+  "missed": [
+   "CMCSA",
+   "COIN",
+   "SNPS",
+   "RIVN",
+   "SMCI",
+   "ABNB",
+   "LUV",
+   "NEE",
+   "NKE",
+   "PEP",
+   "SCHW",
+   "TOST",
+   "YUM",
+   "COF",
+   "MAR",
+   "RKT",
+   "DUK",
+   "HMC",
+   "SBUX",
+   "ELV",
+   "PG",
+   "D",
+   "HD"
+  ],
+  "triggered": [
+   "DPZ",
+   "JD",
+   "LYFT",
+   "SNAP",
+   "SO",
+   "UBER",
+   "CMCSA",
+   "COIN",
+   "SNPS",
+   "RIVN",
+   "SMCI",
+   "ABNB",
+   "LUV",
+   "NEE",
+   "NKE",
+   "PEP",
+   "SCHW",
+   "TOST",
+   "YUM",
+   "COF",
+   "MAR",
+   "RKT",
+   "DUK",
+   "HMC",
+   "SBUX",
+   "ELV",
+   "PG",
+   "D",
+   "HD"
+  ],
+  "hits": [
+   {
+    "symbol": "DPZ",
+    "at": "09:50",
+    "price": 348.27,
+    "or_high": 348.1,
+    "or_low": 345.34,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 27.79,
+    "or_high": 27.78,
+    "or_low": 27.57,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 17.44,
+    "or_high": 17.36,
+    "or_low": 17.01,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:50",
+    "price": 5.14,
+    "or_high": 5.13,
+    "or_low": 4.99,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "SO",
+    "at": "09:50",
+    "price": 94.47,
+    "or_high": 94.44,
+    "or_low": 93.15,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "UBER",
+    "at": "09:50",
+    "price": 70.2,
+    "or_high": 70.1,
+    "or_low": 69.45,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.58,
+    "or_high": 25.55,
+    "or_low": 25.33,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "COIN",
+    "at": "09:55",
+    "price": 121.97,
+    "or_high": 121.8,
+    "or_low": 118.72,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SNPS",
+    "at": "09:55",
+    "price": 449.69,
+    "or_high": 447.81,
+    "or_low": 437.37,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:00",
+    "price": 12.2,
+    "or_high": 12.2,
+    "or_low": 11.96,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 25.77,
+    "or_high": 25.68,
+    "or_low": 25.07,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "ABNB",
+    "at": "10:05",
+    "price": 185.09,
+    "or_high": 184.5,
+    "or_low": 180.56,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "LUV",
+    "at": "10:05",
+    "price": 46.48,
+    "or_high": 46.47,
+    "or_low": 44.95,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:05",
+    "price": 85.96,
+    "or_high": 85.91,
+    "or_low": 85.35,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:05",
+    "price": 38.65,
+    "or_high": 38.49,
+    "or_low": 37.91,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:05",
+    "price": 147.51,
+    "or_high": 147.43,
+    "or_low": 146.54,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "SCHW",
+    "at": "10:05",
+    "price": 93.88,
+    "or_high": 93.6,
+    "or_low": 92.21,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:05",
+    "price": 34.81,
+    "or_high": 34.78,
+    "or_low": 34.15,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:05",
+    "price": 164.01,
+    "or_high": 163.7,
+    "or_low": 162.74,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "COF",
+    "at": "10:10",
+    "price": 195.1,
+    "or_high": 195.1,
+    "or_low": 193.83,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:10",
+    "price": 428.88,
+    "or_high": 428.65,
+    "or_low": 425.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:10",
+    "price": 13.68,
+    "or_high": 13.66,
+    "or_low": 13.49,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:15",
+    "price": 131.06,
+    "or_high": 130.98,
+    "or_low": 130.01,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:15",
+    "price": 34.62,
+    "or_high": 34.58,
+    "or_low": 34.34,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "SBUX",
+    "at": "10:15",
+    "price": 109.68,
+    "or_high": 109.47,
+    "or_low": 107.69,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "ELV",
+    "at": "10:20",
+    "price": 444.63,
+    "or_high": 444.56,
+    "or_low": 438.27,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "PG",
+    "at": "10:20",
+    "price": 173.35,
+    "or_high": 173.33,
+    "or_low": 171.93,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "D",
+    "at": "10:25",
+    "price": 68.27,
+    "or_high": 68.26,
+    "or_low": 67.76,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "HD",
+    "at": "10:25",
+    "price": 349.39,
+    "or_high": 348.96,
+    "or_low": 346.21,
+    "pct_over": 0.12
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 749.125,
-  "last_ts": 1794840000
+  "last": 744.4299926757812,
+  "last_ts": 1794843300
  },
  "seen_trades": 0,
  "daily": [
