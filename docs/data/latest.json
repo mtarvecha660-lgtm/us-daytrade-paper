@@ -1,21 +1,21 @@
 {
- "updated": 1794849430,
- "updated_et": "2026-11-16 12:17 ET",
+ "updated": 1794849745,
+ "updated_et": "2026-11-16 12:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9652.19,
-  "return": -0.03478099999999995,
+  "equity": 9653.21,
+  "return": -0.034679000000000126,
   "started": 1793559735
  },
  "spy": {
-  "value": 9798.71,
-  "return": -0.020129000000000064,
+  "value": 9792.26,
+  "return": -0.02077399999999996,
   "start_price": 759.47998046875,
-  "last": 744.489990234375
+  "last": 744.0
  },
  "position": {
   "symbol": "COP",
@@ -436,9 +436,17 @@
     "or_high": 89.19,
     "or_low": 87.35,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "UPS",
+    "at": "12:20",
+    "price": 111.81,
+    "or_high": 111.77,
+    "or_low": 110.46,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 50,
+  "n_hits": 51,
   "entries": 3,
   "max_trades": 3
  },
@@ -1007,6 +1015,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794849600,
+   "et": "2026-11-16 12:20",
+   "kind": "busy",
+   "text": "1 more breakout (UPS) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "UPS"
+   ]
+  },
   {
    "ts": 1794849000,
    "et": "2026-11-16 12:10",
@@ -1816,26 +1833,6 @@
     "EOG",
     "MS",
     "SOFI"
-   ]
-  },
-  {
-   "ts": 1794499800,
-   "et": "2026-11-12 11:10",
-   "kind": "busy",
-   "text": "12 more breakouts (C, GS, HPQ, MARA, NET, PATH, PINS, PLTR ...) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "C",
-    "GS",
-    "HPQ",
-    "MARA",
-    "NET",
-    "PATH",
-    "PINS",
-    "PLTR",
-    "QBTS",
-    "RDDT",
-    "RGTI",
-    "SNOW"
    ]
   }
  ],
@@ -5394,6 +5391,11 @@
    "ts": 1794849430,
    "equity": 9652.19,
    "spy": 9798.71
+  },
+  {
+   "ts": 1794849745,
+   "equity": 9653.21,
+   "spy": 9792.26
   }
  ],
  "daily": [
@@ -5459,6 +5461,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794849745,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.6,
+   "errors": [],
+   "run_id": "43917643653",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794849430,
    "phase": "open",
@@ -5848,25 +5860,15 @@
    "errors": [],
    "run_id": "43506515343",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794603240,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.8,
-   "errors": [],
-   "run_id": "43505727632",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794849430,
+  "tick_at": 1794849745,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794849439,
-  "candidates": 24,
-  "charts_fetched": 26,
+  "yahoo_time": 1794849754,
+  "candidates": 21,
+  "charts_fetched": 23,
   "ok": true,
   "errors": [],
   "stale_data": false,

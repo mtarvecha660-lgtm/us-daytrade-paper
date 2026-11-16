@@ -373,3 +373,4 @@
 {"ts": 1794846900, "et": "2026-11-16 11:35", "kind": "busy", "text": "1 more breakout (Z) not taken: already in COP (one trade at a time)", "symbols": ["Z"]}
 {"ts": 1794848100, "et": "2026-11-16 11:55", "kind": "busy", "text": "1 more breakout (APP) not taken: already in COP (one trade at a time)", "symbols": ["APP"]}
 {"ts": 1794849000, "et": "2026-11-16 12:10", "kind": "busy", "text": "1 more breakout (SWKS) not taken: already in COP (one trade at a time)", "symbols": ["SWKS"]}
+{"ts": 1794849600, "et": "2026-11-16 12:20", "kind": "busy", "text": "1 more breakout (UPS) not taken: already in COP (one trade at a time)", "symbols": ["UPS"]}
