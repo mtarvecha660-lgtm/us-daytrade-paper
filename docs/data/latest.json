@@ -1,21 +1,21 @@
 {
- "updated": 1794859805,
- "updated_et": "2026-11-16 15:10 ET",
+ "updated": 1794860120,
+ "updated_et": "2026-11-16 15:15 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9646.58,
-  "return": -0.035341999999999985,
+  "equity": 9645.56,
+  "return": -0.03544400000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9741.85,
-  "return": -0.02581499999999992,
+  "value": 9742.11,
+  "return": -0.02578899999999995,
   "start_price": 759.47998046875,
-  "last": 740.1699829101562
+  "last": 740.1900024414062
  },
  "position": {
   "symbol": "COP",
@@ -468,9 +468,33 @@
     "or_high": 505.67,
     "or_low": 491.04,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "CRWD",
+    "at": "15:10",
+    "price": 223.85,
+    "or_high": 223.8,
+    "or_low": 218.59,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "HUM",
+    "at": "15:10",
+    "price": 461.14,
+    "or_high": 461.0,
+    "or_low": 449.08,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RIOT",
+    "at": "15:10",
+    "price": 17.25,
+    "or_high": 17.19,
+    "or_low": 16.63,
+    "pct_over": 0.35
    }
   ],
-  "n_hits": 54,
+  "n_hits": 57,
   "entries": 3,
   "max_trades": 3
  },
@@ -1039,6 +1063,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794859800,
+   "et": "2026-11-16 15:10",
+   "kind": "busy",
+   "text": "3 more breakouts (CRWD, HUM, RIOT) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "CRWD",
+    "HUM",
+    "RIOT"
+   ]
+  },
   {
    "ts": 1794859200,
    "et": "2026-11-16 15:00",
@@ -1845,13 +1880,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1794501000,
-   "et": "2026-11-12 11:30",
-   "kind": "exit",
-   "text": "SELL 8 DELL at $372.40: target $372.40 hit (1R). P&L $+102.06 (+1.03R)",
-   "symbol": "DELL"
   }
  ],
  "equity": [
@@ -5574,6 +5602,11 @@
    "ts": 1794859805,
    "equity": 9646.58,
    "spy": 9741.85
+  },
+  {
+   "ts": 1794860120,
+   "equity": 9645.56,
+   "spy": 9742.11
   }
  ],
  "daily": [
@@ -5639,6 +5672,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794860120,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.3,
+   "errors": [],
+   "run_id": "43947817562",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794859805,
    "phase": "open",
@@ -6028,25 +6071,15 @@
    "errors": [],
    "run_id": "43911939512",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794847535,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "43910984481",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794859805,
+  "tick_at": 1794860120,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794859812,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1794860126,
+  "candidates": 11,
+  "charts_fetched": 13,
   "ok": true,
   "errors": [],
   "stale_data": false,

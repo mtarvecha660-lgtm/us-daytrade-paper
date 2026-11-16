@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794859500,
+  "last_bar_end": 1794859800,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -638,7 +638,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 54,
+  "triggers_seen": 57,
   "missed": [
    "CMCSA",
    "COIN",
@@ -685,7 +685,10 @@
    "UPS",
    "CHTR",
    "SEDG",
-   "STX"
+   "STX",
+   "CRWD",
+   "HUM",
+   "RIOT"
   ],
   "triggered": [
    "DPZ",
@@ -741,7 +744,10 @@
    "UPS",
    "CHTR",
    "SEDG",
-   "STX"
+   "STX",
+   "CRWD",
+   "HUM",
+   "RIOT"
   ],
   "hits": [
    {
@@ -1175,6 +1181,30 @@
     "or_high": 505.67,
     "or_low": 491.04,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "CRWD",
+    "at": "15:10",
+    "price": 223.85,
+    "or_high": 223.8,
+    "or_low": 218.59,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "HUM",
+    "at": "15:10",
+    "price": 461.14,
+    "or_high": 461.0,
+    "or_low": 449.08,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RIOT",
+    "at": "15:10",
+    "price": 17.25,
+    "or_high": 17.19,
+    "or_low": 16.63,
+    "pct_over": 0.35
    }
   ]
  },
@@ -1182,8 +1212,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.1699829101562,
-  "last_ts": 1794859500
+  "last": 740.1900024414062,
+  "last_ts": 1794859800
  },
  "seen_trades": 0,
  "daily": [
