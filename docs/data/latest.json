@@ -1,21 +1,21 @@
 {
- "updated": 1794844058,
- "updated_et": "2026-11-16 10:47 ET",
+ "updated": 1794844372,
+ "updated_et": "2026-11-16 10:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2421.8,
-  "equity": 9655.07,
-  "return": -0.034492999999999996,
+  "equity": 9677.73,
+  "return": -0.032227000000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9802.68,
-  "return": -0.019731999999999972,
+  "value": 9817.0,
+  "return": -0.018299999999999983,
   "start_price": 759.47998046875,
-  "last": 744.7921752929688
+  "last": 745.8800048828125
  },
  "position": {
   "symbol": "UBER",
@@ -292,9 +292,25 @@
     "or_high": 165.54,
     "or_low": 162.0,
     "pct_over": 0.86
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:50",
+    "price": 58.1,
+    "or_high": 58.09,
+    "or_low": 57.38,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:50",
+    "price": 283.31,
+    "or_high": 282.99,
+    "or_low": 275.34,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 32,
+  "n_hits": 34,
   "entries": 1,
   "max_trades": 3
  },
@@ -815,6 +831,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794844200,
+   "et": "2026-11-16 10:50",
+   "kind": "busy",
+   "text": "2 more breakouts (OXY, WDC) not taken: already in UBER (one trade at a time)",
+   "symbols": [
+    "OXY",
+    "WDC"
+   ]
+  },
   {
    "ts": 1794843900,
    "et": "2026-11-16 10:45",
@@ -1655,48 +1681,6 @@
    "kind": "fill",
    "text": "BUY 8 DELL filled at $359.64 (next bar's open $359.57 + slippage). Stop $347.54, target $372.40",
    "symbol": "DELL"
-  },
-  {
-   "ts": 1794495000,
-   "et": "2026-11-12 09:50",
-   "kind": "order",
-   "text": "BUY 8 DELL at market (decided on the 09:50 close). opening-range breakout on DELL: 8 shares, bound by your $100 max loss per trade (8 x 12.43 = $99.44 at the stop) (limits: max loss 8; position cap 19; max order 22; cash 23)",
-   "symbol": "DELL",
-   "why": {
-    "scanner": "DELL: the 09:45 bar closed at $359.97, above the 15-min opening range high $359.89 (range 335.20-359.89)",
-    "exit": "plan: entry $359.97, stop $347.54 (opening-range midpoint), target $372.40 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on DELL: 8 shares, bound by your $100 max loss per trade (8 x 12.43 = $99.44 at the stop) (limits: max loss 8; position cap 19; max order 22; cash 23)",
-    "risk": "trader-risk PASS: entry 359.97 (the latest price), stop 347.54, target 372.40: risk 12.43 a share; max loss $99.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "STX",
-    "QCOM",
-    "CSCO",
-    "SHOP",
-    "DIS",
-    "SE",
-    "ISRG",
-    "RIOT",
-    "RCL",
-    "TJX",
-    "BKNG",
-    "BLK",
-    "PSX",
-    "MDB",
-    "EXPE",
-    "RBLX",
-    "CLSK",
-    "RKT",
-    "SNAP",
-    "ETSY",
-    "HLT",
-    "TOST",
-    "LUV",
-    "DPZ",
-    "LYFT",
-    "Z"
-   ]
   }
  ],
  "equity": [
@@ -5169,6 +5153,11 @@
    "ts": 1794844058,
    "equity": 9655.07,
    "spy": 9802.68
+  },
+  {
+   "ts": 1794844372,
+   "equity": 9677.73,
+   "spy": 9817.0
   }
  ],
  "daily": [
@@ -5234,6 +5223,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794844372,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.1,
+   "errors": [],
+   "run_id": "43901191344",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794844058,
    "phase": "open",
@@ -5623,25 +5622,15 @@
    "errors": [],
    "run_id": "43491890643",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794597561,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.8,
-   "errors": [],
-   "run_id": "43491055308",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794844058,
+  "tick_at": 1794844372,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794844067,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1794844381,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,

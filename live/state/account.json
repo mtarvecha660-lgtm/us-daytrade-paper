@@ -489,7 +489,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794843900,
+  "last_bar_end": 1794844200,
   "position": {
    "symbol": "UBER",
    "qty": 103,
@@ -540,7 +540,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 32,
+  "triggers_seen": 34,
   "missed": [
    "CMCSA",
    "COIN",
@@ -567,7 +567,9 @@
    "HD",
    "PATH",
    "T",
-   "DUOL"
+   "DUOL",
+   "OXY",
+   "WDC"
   ],
   "triggered": [
    "DPZ",
@@ -601,7 +603,9 @@
    "HD",
    "PATH",
    "T",
-   "DUOL"
+   "DUOL",
+   "OXY",
+   "WDC"
   ],
   "hits": [
    {
@@ -859,6 +863,22 @@
     "or_high": 165.54,
     "or_low": 162.0,
     "pct_over": 0.86
+   },
+   {
+    "symbol": "OXY",
+    "at": "10:50",
+    "price": 58.1,
+    "or_high": 58.09,
+    "or_low": 57.38,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:50",
+    "price": 283.31,
+    "or_high": 282.99,
+    "or_low": 275.34,
+    "pct_over": 0.11
    }
   ]
  },
@@ -866,8 +886,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 744.7921752929688,
-  "last_ts": 1794843900
+  "last": 745.8800048828125,
+  "last_ts": 1794844200
  },
  "seen_trades": 0,
  "daily": [
