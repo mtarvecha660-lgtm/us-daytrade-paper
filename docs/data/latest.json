@@ -1,7 +1,7 @@
 {
- "updated": 1794862629,
- "updated_et": "2026-11-16 15:57 ET",
- "phase": "open",
+ "updated": 1794862942,
+ "updated_et": "2026-11-16 16:02 ET",
+ "phase": "after-close",
  "paper": true,
  "version": "orb-v1",
  "account": {
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9736.39,
-  "return": -0.02636100000000008,
+  "value": 9740.4,
+  "return": -0.025959999999999983,
   "start_price": 759.47998046875,
-  "last": 739.7548217773438
+  "last": 740.0599975585938
  },
  "position": null,
  "pending": null,
@@ -483,7 +483,7 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
+ "next_move": "Market closed. Next open: Tue Nov 17, 9:30 AM ET (8:00 PM IST). At 9:45 AM ET each of the 234 stocks has its 15-minute opening range; from 9:50 the bot buys the first one whose 5-minute bar CLOSES above its range high (most traded first), stop at the range middle, target 1R, sold by 3:55 PM ET at the latest.",
  "stats": {
   "trades": 23,
   "wins": 10,
@@ -5648,6 +5648,11 @@
    "ts": 1794862629,
    "equity": 9636.38,
    "spy": 9736.39
+  },
+  {
+   "ts": 1794862942,
+   "equity": 9636.38,
+   "spy": 9740.4
   }
  ],
  "daily": [
@@ -5713,6 +5718,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794862942,
+   "phase": "after-close",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.2,
+   "errors": [],
+   "run_id": "43955896945",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794862629,
    "phase": "open",
@@ -6102,29 +6117,19 @@
    "errors": [],
    "run_id": "43920393869",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794850370,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.5,
-   "errors": [],
-   "run_id": "43919470968",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794862629,
+  "tick_at": 1794862942,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794862635,
-  "candidates": 11,
-  "charts_fetched": 13,
+  "yahoo_time": 1794862801,
+  "candidates": 10,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": null,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
