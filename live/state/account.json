@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794848700,
+  "last_bar_end": 1794849000,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -638,7 +638,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 49,
+  "triggers_seen": 50,
   "missed": [
    "CMCSA",
    "COIN",
@@ -680,7 +680,8 @@
    "MU",
    "TXN",
    "Z",
-   "APP"
+   "APP",
+   "SWKS"
   ],
   "triggered": [
    "DPZ",
@@ -731,7 +732,8 @@
    "MU",
    "TXN",
    "Z",
-   "APP"
+   "APP",
+   "SWKS"
   ],
   "hits": [
    {
@@ -1125,6 +1127,14 @@
     "or_high": 416.64,
     "or_low": 404.78,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "SWKS",
+    "at": "12:10",
+    "price": 89.2,
+    "or_high": 89.19,
+    "or_low": 87.35,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1132,8 +1142,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 744.5401000976562,
-  "last_ts": 1794848700
+  "last": 744.3355102539062,
+  "last_ts": 1794849000
  },
  "seen_trades": 0,
  "daily": [
