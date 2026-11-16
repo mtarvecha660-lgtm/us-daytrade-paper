@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794856500,
+  "last_bar_end": 1794856800,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -1162,8 +1162,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 740.6400146484375,
-  "last_ts": 1794856500
+  "last": 740.5499877929688,
+  "last_ts": 1794856800
  },
  "seen_trades": 0,
  "daily": [
