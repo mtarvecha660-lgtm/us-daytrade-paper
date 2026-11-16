@@ -1,21 +1,21 @@
 {
- "updated": 1794859178,
- "updated_et": "2026-11-16 14:59 ET",
+ "updated": 1794859490,
+ "updated_et": "2026-11-16 15:04 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9659.33,
-  "return": -0.03406699999999996,
+  "equity": 9657.8,
+  "return": -0.03422000000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9746.46,
-  "return": -0.0253540000000001,
+  "value": 9749.55,
+  "return": -0.025045000000000095,
   "start_price": 759.47998046875,
-  "last": 740.52001953125
+  "last": 740.7550048828125
  },
  "position": {
   "symbol": "COP",
@@ -460,9 +460,17 @@
     "or_high": 23.06,
     "or_low": 22.61,
     "pct_over": 1.08
+   },
+   {
+    "symbol": "STX",
+    "at": "15:00",
+    "price": 505.77,
+    "or_high": 505.67,
+    "or_low": 491.04,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 53,
+  "n_hits": 54,
   "entries": 3,
   "max_trades": 3
  },
@@ -1031,6 +1039,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794859200,
+   "et": "2026-11-16 15:00",
+   "kind": "busy",
+   "text": "1 more breakout (STX) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "STX"
+   ]
+  },
   {
    "ts": 1794858900,
    "et": "2026-11-16 14:55",
@@ -1835,16 +1852,6 @@
    "kind": "exit",
    "text": "SELL 8 DELL at $372.40: target $372.40 hit (1R). P&L $+102.06 (+1.03R)",
    "symbol": "DELL"
-  },
-  {
-   "ts": 1794500700,
-   "et": "2026-11-12 11:25",
-   "kind": "busy",
-   "text": "2 more breakouts (SPOT, ZS) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "SPOT",
-    "ZS"
-   ]
   }
  ],
  "equity": [
@@ -5557,6 +5564,11 @@
    "ts": 1794859178,
    "equity": 9659.33,
    "spy": 9746.46
+  },
+  {
+   "ts": 1794859490,
+   "equity": 9657.8,
+   "spy": 9749.55
   }
  ],
  "daily": [
@@ -5622,6 +5634,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794859490,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.7,
+   "errors": [],
+   "run_id": "43945975166",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794859178,
    "phase": "open",
@@ -6011,25 +6033,15 @@
    "errors": [],
    "run_id": "43910017230",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794846907,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.3,
-   "errors": [],
-   "run_id": "43909030715",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794859178,
+  "tick_at": 1794859490,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794859184,
-  "candidates": 12,
-  "charts_fetched": 14,
+  "yahoo_time": 1794859495,
+  "candidates": 13,
+  "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,
