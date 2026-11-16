@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794846000,
+  "last_bar_end": 1794846300,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -638,7 +638,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 43,
+  "triggers_seen": 47,
   "missed": [
    "CMCSA",
    "COIN",
@@ -674,7 +674,11 @@
    "SHOP",
    "AVGO",
    "EOG",
-   "U"
+   "U",
+   "DOCU",
+   "KLAC",
+   "MU",
+   "TXN"
   ],
   "triggered": [
    "DPZ",
@@ -719,7 +723,11 @@
    "COP",
    "AVGO",
    "EOG",
-   "U"
+   "U",
+   "DOCU",
+   "KLAC",
+   "MU",
+   "TXN"
   ],
   "hits": [
    {
@@ -1065,6 +1073,38 @@
     "or_high": 53.34,
     "or_low": 52.09,
     "pct_over": 0.45
+   },
+   {
+    "symbol": "DOCU",
+    "at": "11:25",
+    "price": 81.18,
+    "or_high": 81.1,
+    "or_low": 79.73,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "KLAC",
+    "at": "11:25",
+    "price": 147.37,
+    "or_high": 146.52,
+    "or_low": 142.33,
+    "pct_over": 0.57
+   },
+   {
+    "symbol": "MU",
+    "at": "11:25",
+    "price": 737.15,
+    "or_high": 737.0,
+    "or_low": 718.54,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TXN",
+    "at": "11:25",
+    "price": 296.45,
+    "or_high": 296.01,
+    "or_low": 289.59,
+    "pct_over": 0.15
    }
   ]
  },
@@ -1072,8 +1112,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 746.1599731445312,
-  "last_ts": 1794846000
+  "last": 746.6400146484375,
+  "last_ts": 1794846300
  },
  "seen_trades": 0,
  "daily": [

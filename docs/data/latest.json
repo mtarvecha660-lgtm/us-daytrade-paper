@@ -1,21 +1,21 @@
 {
- "updated": 1794846268,
- "updated_et": "2026-11-16 11:24 ET",
+ "updated": 1794846581,
+ "updated_et": "2026-11-16 11:29 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9674.37,
-  "return": -0.0325629999999999,
+  "equity": 9664.43,
+  "return": -0.03355699999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9820.69,
-  "return": -0.01793099999999992,
+  "value": 9827.01,
+  "return": -0.017298999999999953,
   "start_price": 759.47998046875,
-  "last": 746.1599731445312
+  "last": 746.6400146484375
  },
  "position": {
   "symbol": "COP",
@@ -380,9 +380,41 @@
     "or_high": 53.34,
     "or_low": 52.09,
     "pct_over": 0.45
+   },
+   {
+    "symbol": "DOCU",
+    "at": "11:25",
+    "price": 81.18,
+    "or_high": 81.1,
+    "or_low": 79.73,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "KLAC",
+    "at": "11:25",
+    "price": 147.37,
+    "or_high": 146.52,
+    "or_low": 142.33,
+    "pct_over": 0.57
+   },
+   {
+    "symbol": "MU",
+    "at": "11:25",
+    "price": 737.15,
+    "or_high": 737.0,
+    "or_low": 718.54,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TXN",
+    "at": "11:25",
+    "price": 296.45,
+    "or_high": 296.01,
+    "or_low": 289.59,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 43,
+  "n_hits": 47,
   "entries": 3,
   "max_trades": 3
  },
@@ -951,6 +983,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794846300,
+   "et": "2026-11-16 11:25",
+   "kind": "busy",
+   "text": "4 more breakouts (DOCU, KLAC, MU, TXN) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "DOCU",
+    "KLAC",
+    "MU",
+    "TXN"
+   ]
+  },
   {
    "ts": 1794846000,
    "et": "2026-11-16 11:20",
@@ -1783,18 +1827,6 @@
    "symbols": [
     "SNPS",
     "ZM"
-   ]
-  },
-  {
-   "ts": 1794498300,
-   "et": "2026-11-12 10:45",
-   "kind": "busy",
-   "text": "4 more breakouts (LRCX, MSTR, TER, TXN) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "LRCX",
-    "MSTR",
-    "TER",
-    "TXN"
    ]
   }
  ],
@@ -5303,6 +5335,11 @@
    "ts": 1794846268,
    "equity": 9674.37,
    "spy": 9820.69
+  },
+  {
+   "ts": 1794846581,
+   "equity": 9664.43,
+   "spy": 9827.01
   }
  ],
  "daily": [
@@ -5368,6 +5405,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794846581,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.1,
+   "errors": [],
+   "run_id": "43908063040",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794846268,
    "phase": "open",
@@ -5757,25 +5804,15 @@
    "errors": [],
    "run_id": "43497629272",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794599775,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 11.5,
-   "errors": [],
-   "run_id": "43496783007",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794846268,
+  "tick_at": 1794846581,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794846278,
-  "candidates": 20,
-  "charts_fetched": 22,
+  "yahoo_time": 1794846594,
+  "candidates": 27,
+  "charts_fetched": 29,
   "ok": true,
   "errors": [],
   "stale_data": false,
