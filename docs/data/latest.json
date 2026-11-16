@@ -1,21 +1,21 @@
 {
- "updated": 1794847854,
- "updated_et": "2026-11-16 11:50 ET",
+ "updated": 1794848164,
+ "updated_et": "2026-11-16 11:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9650.15,
-  "return": -0.034985000000000044,
+  "equity": 9637.4,
+  "return": -0.03626000000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9814.77,
-  "return": -0.018522999999999956,
+  "value": 9801.47,
+  "return": -0.01985300000000012,
   "start_price": 759.47998046875,
-  "last": 745.7100219726562
+  "last": 744.7000122070312
  },
  "position": {
   "symbol": "COP",
@@ -420,9 +420,17 @@
     "or_high": 29.81,
     "or_low": 29.26,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "APP",
+    "at": "11:55",
+    "price": 416.67,
+    "or_high": 416.64,
+    "or_low": 404.78,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 48,
+  "n_hits": 49,
   "entries": 3,
   "max_trades": 3
  },
@@ -991,6 +999,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794848100,
+   "et": "2026-11-16 11:55",
+   "kind": "busy",
+   "text": "1 more breakout (APP) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "APP"
+   ]
+  },
   {
    "ts": 1794846900,
    "et": "2026-11-16 11:35",
@@ -1818,22 +1835,6 @@
     "NU",
     "TSM",
     "TTD"
-   ]
-  },
-  {
-   "ts": 1794498900,
-   "et": "2026-11-12 10:55",
-   "kind": "busy",
-   "text": "8 more breakouts (ADI, AMAT, ARM, CAT, INTC, KLAC, MCHP, ON) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "ADI",
-    "AMAT",
-    "ARM",
-    "CAT",
-    "INTC",
-    "KLAC",
-    "MCHP",
-    "ON"
    ]
   }
  ],
@@ -5367,6 +5368,11 @@
    "ts": 1794847854,
    "equity": 9650.15,
    "spy": 9814.77
+  },
+  {
+   "ts": 1794848164,
+   "equity": 9637.4,
+   "spy": 9801.47
   }
  ],
  "daily": [
@@ -5432,6 +5438,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794848164,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 9.6,
+   "errors": [],
+   "run_id": "43912886947",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794847854,
    "phase": "open",
@@ -5821,25 +5837,15 @@
    "errors": [],
    "run_id": "43502536412",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794601663,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.9,
-   "errors": [],
-   "run_id": "43501735143",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794847854,
+  "tick_at": 1794848164,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794847861,
-  "candidates": 19,
-  "charts_fetched": 21,
+  "yahoo_time": 1794848171,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
