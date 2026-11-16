@@ -1,38 +1,23 @@
 {
- "updated": 1794862322,
- "updated_et": "2026-11-16 15:52 ET",
+ "updated": 1794862629,
+ "updated_et": "2026-11-16 15:57 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2473.33,
-  "equity": 9631.03,
-  "return": -0.03689699999999996,
+  "cash": 9636.38,
+  "equity": 9636.38,
+  "return": -0.036362000000000116,
   "started": 1793559735
  },
  "spy": {
-  "value": 9728.82,
-  "return": -0.027117999999999975,
+  "value": 9736.39,
+  "return": -0.02636100000000008,
   "start_price": 759.47998046875,
-  "last": 739.1799926757812
+  "last": 739.7548217773438
  },
- "position": {
-  "symbol": "COP",
-  "qty": 51,
-  "entry": 141.0382,
-  "entry_et": "11:15",
-  "stop": 139.84,
-  "target": 142.08,
-  "last": null,
-  "why": {
-   "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
-   "exit": "plan: entry $140.96, stop $139.84 (opening-range midpoint), target $142.08 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
-   "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-16",
@@ -498,23 +483,23 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 51 COP bought at $141.04. It sells at the stop $139.84, the target $142.08, or at 15:55 ET, whichever comes first.",
+ "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
  "stats": {
-  "trades": 22,
+  "trades": 23,
   "wins": 10,
-  "win_rate": 0.45454545454545453,
-  "avg_r": -0.15018181818181822,
-  "t_stat_r": -0.780710523321339,
-  "net_pnl": -333.74,
-  "profit_factor": 0.5931736453952582,
-  "expectancy_usd": -15.17,
+  "win_rate": 0.43478260869565216,
+  "avg_r": -0.16639130434782612,
+  "t_stat_r": -0.9017277338268229,
+  "net_pnl": -363.64,
+  "profit_factor": 0.5723140252866805,
+  "expectancy_usd": -15.81,
   "avg_win": 48.66,
-  "avg_loss": -68.36,
-  "costs_usd": 45.52,
+  "avg_loss": -65.4,
+  "costs_usd": 48.39,
   "exits": {
    "stop": 10,
    "target": 6,
-   "flat-by": 6
+   "flat-by": 7
   }
  },
  "curve": {
@@ -533,6 +518,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-16",
+   "symbol": "COP",
+   "qty": 51,
+   "entry_et": "11:15",
+   "entry_fill": 141.0382,
+   "exit_et": "15:55",
+   "exit_fill": 140.4519,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 139.84,
+   "target": 142.08,
+   "pnl": -29.9,
+   "r": -0.523,
+   "risk_usd": 57.12,
+   "cost_usd": 2.87,
+   "why": {
+    "scanner": "COP: the 11:10 bar closed at $140.96, above the 15-min opening range high $140.86 (range 138.83-140.86)",
+    "exit": "plan: entry $140.96, stop $139.84 (opening-range midpoint), target $142.08 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on COP: 51 shares, bound by your position cap (51 x 1.12 = $57.12 at the stop) (limits: max loss 89; position cap 51; max order 56; cash 61)",
+    "risk": "trader-risk PASS: entry 140.96 (the latest price), stop 139.84, target 142.08: risk 1.12 a share; max loss $57.12 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $78.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-16",
    "symbol": "HLT",
@@ -1063,6 +1072,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794862500,
+   "et": "2026-11-16 15:55",
+   "kind": "exit",
+   "text": "SELL 51 COP at $140.45: flat by 15:55 ET (the skill's flat-by rule). P&L $-29.90 (-0.52R)",
+   "symbol": "COP"
+  },
   {
    "ts": 1794859800,
    "et": "2026-11-16 15:10",
@@ -1865,21 +1881,6 @@
    "kind": "fill",
    "text": "BUY 42 XOM filled at $168.51 (next bar's open $168.48 + slippage). Stop $167.90, target $169.08",
    "symbol": "XOM"
-  },
-  {
-   "ts": 1794501000,
-   "et": "2026-11-12 11:30",
-   "kind": "order",
-   "text": "BUY 42 XOM at market (decided on the 11:30 close). opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
-   "symbol": "XOM",
-   "why": {
-    "scanner": "XOM: the 11:25 bar closed at $168.49, above the 15-min opening range high $168.46 (range 167.34-168.46)",
-    "exit": "plan: entry $168.49, stop $167.90 (opening-range midpoint), target $169.08 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on XOM: 42 shares, bound by your position cap (42 x 0.59 = $24.78 at the stop) (limits: max loss 169; position cap 42; max order 47; cash 51)",
-    "risk": "trader-risk PASS: entry 168.49 (the latest price), stop 167.90, target 169.08: risk 0.59 a share; max loss $24.78 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.44 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -5642,6 +5643,11 @@
    "ts": 1794862322,
    "equity": 9631.03,
    "spy": 9728.82
+  },
+  {
+   "ts": 1794862629,
+   "equity": 9636.38,
+   "spy": 9736.39
   }
  ],
  "daily": [
@@ -5707,6 +5713,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794862629,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.4,
+   "errors": [],
+   "run_id": "43955008617",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794862322,
    "phase": "open",
@@ -6096,25 +6112,15 @@
    "errors": [],
    "run_id": "43919470968",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794850061,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.2,
-   "errors": [],
-   "run_id": "43918568411",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794862322,
+  "tick_at": 1794862629,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794862328,
-  "candidates": 7,
-  "charts_fetched": 9,
+  "yahoo_time": 1794862635,
+  "candidates": 11,
+  "charts_fetched": 13,
   "ok": true,
   "errors": [],
   "stale_data": false,
