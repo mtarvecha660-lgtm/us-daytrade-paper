@@ -537,7 +537,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-16",
-  "last_bar_end": 1794858600,
+  "last_bar_end": 1794858900,
   "position": {
    "symbol": "COP",
    "qty": 51,
@@ -638,7 +638,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 52,
+  "triggers_seen": 53,
   "missed": [
    "CMCSA",
    "COIN",
@@ -683,7 +683,8 @@
    "APP",
    "SWKS",
    "UPS",
-   "CHTR"
+   "CHTR",
+   "SEDG"
   ],
   "triggered": [
    "DPZ",
@@ -737,7 +738,8 @@
    "APP",
    "SWKS",
    "UPS",
-   "CHTR"
+   "CHTR",
+   "SEDG"
   ],
   "hits": [
    {
@@ -1155,6 +1157,14 @@
     "or_high": 139.41,
     "or_low": 136.48,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "SEDG",
+    "at": "14:55",
+    "price": 23.31,
+    "or_high": 23.06,
+    "or_low": 22.61,
+    "pct_over": 1.08
    }
   ]
  },
@@ -1162,8 +1172,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 738.7899780273438,
-  "last_ts": 1794858600
+  "last": 740.52001953125,
+  "last_ts": 1794858900
  },
  "seen_trades": 0,
  "daily": [

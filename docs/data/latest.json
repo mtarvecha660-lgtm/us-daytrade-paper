@@ -1,21 +1,21 @@
 {
- "updated": 1794858865,
- "updated_et": "2026-11-16 14:54 ET",
+ "updated": 1794859178,
+ "updated_et": "2026-11-16 14:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2473.33,
-  "equity": 9652.19,
-  "return": -0.03478099999999995,
+  "equity": 9659.33,
+  "return": -0.03406699999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9723.69,
-  "return": -0.02763099999999996,
+  "value": 9746.46,
+  "return": -0.0253540000000001,
   "start_price": 759.47998046875,
-  "last": 738.7899780273438
+  "last": 740.52001953125
  },
  "position": {
   "symbol": "COP",
@@ -452,9 +452,17 @@
     "or_high": 139.41,
     "or_low": 136.48,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "SEDG",
+    "at": "14:55",
+    "price": 23.31,
+    "or_high": 23.06,
+    "or_low": 22.61,
+    "pct_over": 1.08
    }
   ],
-  "n_hits": 52,
+  "n_hits": 53,
   "entries": 3,
   "max_trades": 3
  },
@@ -1023,6 +1031,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794858900,
+   "et": "2026-11-16 14:55",
+   "kind": "busy",
+   "text": "1 more breakout (SEDG) not taken: already in COP (one trade at a time)",
+   "symbols": [
+    "SEDG"
+   ]
+  },
   {
    "ts": 1794850800,
    "et": "2026-11-16 12:40",
@@ -1827,16 +1844,6 @@
    "symbols": [
     "SPOT",
     "ZS"
-   ]
-  },
-  {
-   "ts": 1794500400,
-   "et": "2026-11-12 11:20",
-   "kind": "busy",
-   "text": "2 more breakouts (AVGO, MRNA) not taken: already in DELL (one trade at a time)",
-   "symbols": [
-    "AVGO",
-    "MRNA"
    ]
   }
  ],
@@ -5545,6 +5552,11 @@
    "ts": 1794858865,
    "equity": 9652.19,
    "spy": 9723.69
+  },
+  {
+   "ts": 1794859178,
+   "equity": 9659.33,
+   "spy": 9746.46
   }
  ],
  "daily": [
@@ -5610,6 +5622,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794859178,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.1,
+   "errors": [],
+   "run_id": "43945056465",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794858865,
    "phase": "open",
@@ -5999,25 +6021,15 @@
    "errors": [],
    "run_id": "43909030715",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794846581,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.1,
-   "errors": [],
-   "run_id": "43908063040",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794858865,
+  "tick_at": 1794859178,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794858870,
-  "candidates": 8,
-  "charts_fetched": 10,
+  "yahoo_time": 1794859184,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
