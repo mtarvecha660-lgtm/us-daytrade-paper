@@ -609,9 +609,34 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794943500,
+  "last_bar_end": 1794943800,
   "position": null,
-  "pending": null,
+  "pending": {
+   "symbol": "HPQ",
+   "qty": 250,
+   "plan": {
+    "symbol": "HPQ",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-17",
+    "entry_time": "2:30 PM",
+    "entry": 28.72,
+    "stop": 28.46,
+    "target": 28.98,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "HPQ: the 14:25 bar closed at $28.72, above the 15-min opening range high $28.71 (range 28.22-28.71)",
+    "exit": "plan: entry $28.72, stop $28.46 (opening-range midpoint), target $28.98 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HPQ: 250 shares, bound by your position cap (250 x 0.26 = $65 at the stop) (limits: max loss 384; position cap 250; max order 278; cash 300)",
+    "risk": "trader-risk PASS: entry 28.72 (the plan's entry), stop 28.46, target 28.98: risk 0.26 a share; max loss $65 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $135.39 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1794943800,
+   "late": false
+  },
   "orders": [
    {
     "status": "placed",
@@ -662,11 +687,20 @@
     "side": "sell",
     "kind": "exit",
     "qty": 13
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-17",
+    "symbol": "HPQ",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 65.0,
+    "at": "2026-11-17T14:30:00"
    }
   ],
-  "entries": 2,
+  "entries": 3,
   "skips": 0,
-  "triggers_seen": 88,
+  "triggers_seen": 89,
   "missed": [
    "AAPL",
    "ABT",
@@ -811,7 +845,8 @@
    "LMT",
    "CVS",
    "SWKS",
-   "VRTX"
+   "VRTX",
+   "HPQ"
   ],
   "hits": [
    {
@@ -1517,6 +1552,14 @@
     "or_high": 535.0,
     "or_low": 529.53,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "HPQ",
+    "at": "14:30",
+    "price": 28.72,
+    "or_high": 28.71,
+    "or_low": 28.22,
+    "pct_over": 0.03
    }
   ]
  },
@@ -1524,8 +1567,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.0700073242188,
-  "last_ts": 1794943500
+  "last": 731.094970703125,
+  "last_ts": 1794943800
  },
  "seen_trades": 0,
  "daily": [
