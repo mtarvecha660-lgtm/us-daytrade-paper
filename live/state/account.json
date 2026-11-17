@@ -1,5 +1,5 @@
 {
- "cash": 9580.3432,
+ "cash": 2396.5932,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -609,11 +609,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794943800,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794944100,
+  "position": {
    "symbol": "HPQ",
    "qty": 250,
+   "entry_fill": 28.735,
+   "entry_ts": 1794943800,
    "plan": {
     "symbol": "HPQ",
     "side": "buy",
@@ -625,7 +626,8 @@
     "target": 28.98,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 28.725000381469727
    },
    "why": {
     "scanner": "HPQ: the 14:25 bar closed at $28.72, above the 15-min opening range high $28.71 (range 28.22-28.71)",
@@ -634,9 +636,9 @@
     "risk": "trader-risk PASS: entry 28.72 (the plan's entry), stop 28.46, target 28.98: risk 0.26 a share; max loss $65 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $135.39 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794943800,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -696,6 +698,14 @@
     "kind": "entry",
     "max_loss": 65.0,
     "at": "2026-11-17T14:30:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-17",
+    "symbol": "HPQ",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 250
    }
   ],
   "entries": 3,
@@ -1567,8 +1577,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.094970703125,
-  "last_ts": 1794943800
+  "last": 730.8505249023438,
+  "last_ts": 1794944100
  },
  "seen_trades": 0,
  "daily": [
