@@ -1,84 +1,42 @@
 {
- "updated": 1794927089,
- "updated_et": "2026-11-17 09:51 ET",
+ "updated": 1794927406,
+ "updated_et": "2026-11-17 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9636.38,
-  "equity": 9636.38,
-  "return": -0.036362000000000116,
+  "cash": 3444.22,
+  "equity": 9669.63,
+  "return": -0.033037000000000094,
   "started": 1793559735
  },
  "spy": {
-  "value": 9726.58,
-  "return": -0.027341999999999977,
+  "value": 9729.02,
+  "return": -0.027097999999999955,
   "start_price": 759.47998046875,
-  "last": 739.010009765625
+  "last": 739.1950073242188
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "HD",
   "qty": 18,
-  "plan": {
-   "symbol": "HD",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-17",
-   "entry_time": "9:50 AM",
-   "entry": 343.94,
-   "stop": 338.65,
-   "target": 349.23,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 344.0088,
+  "entry_et": "09:50",
+  "stop": 338.65,
+  "target": 349.23,
+  "last": null,
   "why": {
    "scanner": "HD: the 09:45 bar closed at $343.94, above the 15-min opening range high $342.86 (range 334.44-342.86)",
    "exit": "plan: entry $343.94, stop $338.65 (opening-range midpoint), target $349.23 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on HD: 18 shares, bound by your $100 max loss per trade (18 x 5.29 = $95.22 at the stop) (limits: max loss 18; position cap 21; max order 23; cash 25)",
    "risk": "trader-risk PASS: entry 343.94 (the latest price), stop 338.65, target 349.23: risk 5.29 a share; max loss $95.22 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794927000,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-17",
   "hits": [
-   {
-    "symbol": "AAL",
-    "at": "09:50",
-    "price": 13.28,
-    "or_high": 13.24,
-    "or_low": 13.04,
-    "pct_over": 0.34
-   },
-   {
-    "symbol": "ADI",
-    "at": "09:50",
-    "price": 391.15,
-    "or_high": 390.54,
-    "or_low": 384.37,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "APO",
-    "at": "09:50",
-    "price": 120.57,
-    "or_high": 120.03,
-    "or_low": 118.24,
-    "pct_over": 0.45
-   },
-   {
-    "symbol": "BAC",
-    "at": "09:50",
-    "price": 49.97,
-    "or_high": 49.92,
-    "or_low": 49.63,
-    "pct_over": 0.11
-   },
    {
     "symbol": "BIIB",
     "at": "09:50",
@@ -310,13 +268,261 @@
     "or_high": 84.6,
     "or_low": 83.45,
     "pct_over": 0.39
+   },
+   {
+    "symbol": "AAPL",
+    "at": "09:55",
+    "price": 354.68,
+    "or_high": 353.55,
+    "or_low": 351.81,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "ABT",
+    "at": "09:55",
+    "price": 108.18,
+    "or_high": 107.88,
+    "or_low": 106.5,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "AXP",
+    "at": "09:55",
+    "price": 319.19,
+    "or_high": 318.79,
+    "or_low": 316.97,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "BX",
+    "at": "09:55",
+    "price": 117.84,
+    "or_high": 117.12,
+    "or_low": 116.3,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:55",
+    "price": 25.65,
+    "or_high": 25.59,
+    "or_low": 25.39,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 143.55,
+    "or_high": 143.36,
+    "or_low": 140.96,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "COST",
+    "at": "09:55",
+    "price": 1122.97,
+    "or_high": 1122.48,
+    "or_low": 1110.0,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:55",
+    "price": 219.48,
+    "or_high": 219.45,
+    "or_low": 217.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "D",
+    "at": "09:55",
+    "price": 67.39,
+    "or_high": 67.36,
+    "or_low": 67.01,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "DG",
+    "at": "09:55",
+    "price": 136.57,
+    "or_high": 136.41,
+    "or_low": 134.03,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:55",
+    "price": 122.46,
+    "or_high": 120.83,
+    "or_low": 118.25,
+    "pct_over": 1.35
+   },
+   {
+    "symbol": "DUK",
+    "at": "09:55",
+    "price": 130.21,
+    "or_high": 130.07,
+    "or_low": 129.19,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:55",
+    "price": 254.06,
+    "or_high": 252.94,
+    "or_low": 250.2,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "GS",
+    "at": "09:55",
+    "price": 891.79,
+    "or_high": 890.68,
+    "or_low": 882.51,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "HLT",
+    "at": "09:55",
+    "price": 376.22,
+    "or_high": 375.81,
+    "or_low": 370.85,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "HMC",
+    "at": "09:55",
+    "price": 33.92,
+    "or_high": 33.89,
+    "or_low": 33.74,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "IDXX",
+    "at": "09:55",
+    "price": 704.28,
+    "or_high": 703.99,
+    "or_low": 698.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "JNJ",
+    "at": "09:55",
+    "price": 280.37,
+    "or_high": 280.33,
+    "or_low": 277.56,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "KKR",
+    "at": "09:55",
+    "price": 97.1,
+    "or_high": 96.49,
+    "or_low": 94.92,
+    "pct_over": 0.64
+   },
+   {
+    "symbol": "KO",
+    "at": "09:55",
+    "price": 99.44,
+    "or_high": 99.36,
+    "or_low": 98.53,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NCLH",
+    "at": "09:55",
+    "price": 17.99,
+    "or_high": 17.96,
+    "or_low": 17.68,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PG",
+    "at": "09:55",
+    "price": 172.7,
+    "or_high": 172.6,
+    "or_low": 171.24,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "PNC",
+    "at": "09:55",
+    "price": 229.9,
+    "or_high": 229.38,
+    "or_low": 227.47,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "RKT",
+    "at": "09:55",
+    "price": 13.71,
+    "or_high": 13.71,
+    "or_low": 13.53,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SYK",
+    "at": "09:55",
+    "price": 315.64,
+    "or_high": 311.65,
+    "or_low": 308.0,
+    "pct_over": 1.28
+   },
+   {
+    "symbol": "TMUS",
+    "at": "09:55",
+    "price": 171.4,
+    "or_high": 171.22,
+    "or_low": 169.33,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "UPS",
+    "at": "09:55",
+    "price": 112.08,
+    "or_high": 111.69,
+    "or_low": 111.0,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "V",
+    "at": "09:55",
+    "price": 425.02,
+    "or_high": 425.0,
+    "or_low": 422.52,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "VZ",
+    "at": "09:55",
+    "price": 46.44,
+    "or_high": 46.34,
+    "or_low": 46.01,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "WFC",
+    "at": "09:55",
+    "price": 84.67,
+    "or_high": 84.63,
+    "or_low": 83.95,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "WMT",
+    "at": "09:55",
+    "price": 128.95,
+    "or_high": 128.93,
+    "or_low": 127.43,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 33,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 18 HD at the next bar's open (signal at 09:50 ET). Then: stop $338.65, target $349.23.",
+ "next_move": "Holding 18 HD bought at $344.01. It sells at the stop $338.65, the target $349.23, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 23,
   "wins": 10,
@@ -905,6 +1111,52 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794927300,
+   "et": "2026-11-17 09:55",
+   "kind": "busy",
+   "text": "31 more breakouts (AAPL, ABT, AXP, BX, CMCSA, COP, COST, CVX ...) not taken: already in HD (one trade at a time)",
+   "symbols": [
+    "AAPL",
+    "ABT",
+    "AXP",
+    "BX",
+    "CMCSA",
+    "COP",
+    "COST",
+    "CVX",
+    "D",
+    "DG",
+    "DIS",
+    "DUK",
+    "EXPE",
+    "GS",
+    "HLT",
+    "HMC",
+    "IDXX",
+    "JNJ",
+    "KKR",
+    "KO",
+    "NCLH",
+    "PG",
+    "PNC",
+    "RKT",
+    "SYK",
+    "TMUS",
+    "UPS",
+    "V",
+    "VZ",
+    "WFC",
+    "WMT"
+   ]
+  },
+  {
+   "ts": 1794927000,
+   "et": "2026-11-17 09:50",
+   "kind": "fill",
+   "text": "BUY 18 HD filled at $344.01 (next bar's open $343.94 + slippage). Stop $338.65, target $349.23",
+   "symbol": "HD"
+  },
   {
    "ts": 1794927000,
    "et": "2026-11-17 09:50",
@@ -1739,22 +1991,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1794502200,
-   "et": "2026-11-12 11:50",
-   "kind": "exit",
-   "text": "SELL 42 XOM at $169.08: target $169.08 hit (1R). P&L $+23.99 (+0.97R)",
-   "symbol": "XOM"
-  },
-  {
-   "ts": 1794501300,
-   "et": "2026-11-12 11:35",
-   "kind": "busy",
-   "text": "1 more breakout (CVX) not taken: already in XOM (one trade at a time)",
-   "symbols": [
-    "CVX"
-   ]
   }
  ],
  "equity": [
@@ -5552,6 +5788,11 @@
    "ts": 1794927089,
    "equity": 9636.38,
    "spy": 9726.58
+  },
+  {
+   "ts": 1794927406,
+   "equity": 9669.63,
+   "spy": 9729.02
   }
  ],
  "daily": [
@@ -5623,6 +5864,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794927406,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.4,
+   "errors": [],
+   "run_id": "44108642996",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794927089,
    "phase": "open",
@@ -6012,29 +6263,19 @@
    "errors": [],
    "run_id": "43932242488",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794854448,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.2,
-   "errors": [],
-   "run_id": "43931322071",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794927089,
+  "tick_at": 1794927406,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794927119,
-  "candidates": 97,
-  "charts_fetched": 98,
+  "yahoo_time": 1794927424,
+  "candidates": 69,
+  "charts_fetched": 71,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.5,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
