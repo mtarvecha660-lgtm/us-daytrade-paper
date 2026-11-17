@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794935700,
+  "last_bar_end": 1794936000,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 86,
+  "triggers_seen": 87,
   "missed": [
    "AAPL",
    "ABT",
@@ -666,7 +666,8 @@
    "ABBV",
    "ELV",
    "LMT",
-   "CVS"
+   "CVS",
+   "SWKS"
   ],
   "triggered": [
    "AAL",
@@ -754,7 +755,8 @@
    "ABBV",
    "ELV",
    "LMT",
-   "CVS"
+   "CVS",
+   "SWKS"
   ],
   "hits": [
    {
@@ -1444,6 +1446,14 @@
     "or_high": 86.42,
     "or_low": 84.67,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "SWKS",
+    "at": "12:20",
+    "price": 87.65,
+    "or_high": 87.43,
+    "or_low": 85.8,
+    "pct_over": 0.25
    }
   ]
  },
@@ -1451,8 +1461,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.760009765625,
-  "last_ts": 1794935700
+  "last": 734.219970703125,
+  "last_ts": 1794936000
  },
  "seen_trades": 0,
  "daily": [
