@@ -1,21 +1,21 @@
 {
- "updated": 1794928991,
- "updated_et": "2026-11-17 10:23 ET",
+ "updated": 1794929301,
+ "updated_et": "2026-11-17 10:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3444.22,
-  "equity": 9622.84,
-  "return": -0.03771599999999997,
+  "equity": 9593.28,
+  "return": -0.04067199999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9694.6,
-  "return": -0.03054000000000001,
+  "value": 9697.23,
+  "return": -0.030277,
   "start_price": 759.47998046875,
-  "last": 736.5800170898438
+  "last": 736.780029296875
  },
  "position": {
   "symbol": "HD",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-17",
   "hits": [
-   {
-    "symbol": "LUV",
-    "at": "09:50",
-    "price": 46.67,
-    "or_high": 46.48,
-    "or_low": 45.92,
-    "pct_over": 0.4
-   },
-   {
-    "symbol": "MAR",
-    "at": "09:50",
-    "price": 428.85,
-    "or_high": 427.99,
-    "or_low": 422.42,
-    "pct_over": 0.2
-   },
    {
     "symbol": "MCD",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 58.88,
     "or_low": 58.37,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:25",
+    "price": 144.36,
+    "or_high": 144.34,
+    "or_low": 142.57,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "RTX",
+    "at": "10:25",
+    "price": 196.94,
+    "or_high": 196.93,
+    "or_low": 193.0,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 77,
+  "n_hits": 79,
   "entries": 1,
   "max_trades": 3
  },
@@ -1111,6 +1111,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794929100,
+   "et": "2026-11-17 10:25",
+   "kind": "busy",
+   "text": "2 more breakouts (MRK, RTX) not taken: already in HD (one trade at a time)",
+   "symbols": [
+    "MRK",
+    "RTX"
+   ]
+  },
   {
    "ts": 1794928500,
    "et": "2026-11-17 10:15",
@@ -1986,15 +1996,6 @@
    "text": "1 more breakout (KO) not taken: already in GME (one trade at a time)",
    "symbols": [
     "KO"
-   ]
-  },
-  {
-   "ts": 1794504000,
-   "et": "2026-11-12 12:20",
-   "kind": "busy",
-   "text": "1 more breakout (JNJ) not taken: already in GME (one trade at a time)",
-   "symbols": [
-    "JNJ"
    ]
   }
  ],
@@ -5823,6 +5824,11 @@
    "ts": 1794928991,
    "equity": 9622.84,
    "spy": 9694.6
+  },
+  {
+   "ts": 1794929301,
+   "equity": 9593.28,
+   "spy": 9697.23
   }
  ],
  "daily": [
@@ -5894,6 +5900,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794929301,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.8,
+   "errors": [],
+   "run_id": "44114666181",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794928991,
    "phase": "open",
@@ -6283,25 +6299,15 @@
    "errors": [],
    "run_id": "43937774323",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794856345,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "43936849053",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794928991,
+  "tick_at": 1794929301,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794928998,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1794929309,
+  "candidates": 22,
+  "charts_fetched": 24,
   "ok": true,
   "errors": [],
   "stale_data": false,
