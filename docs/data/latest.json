@@ -1,21 +1,21 @@
 {
- "updated": 1794929934,
- "updated_et": "2026-11-17 10:38 ET",
+ "updated": 1794930251,
+ "updated_et": "2026-11-17 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3444.22,
-  "equity": 9592.33,
-  "return": -0.040767,
+  "equity": 9587.92,
+  "return": -0.04120800000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9665.25,
-  "return": -0.03347500000000003,
+  "value": 9660.12,
+  "return": -0.03398799999999991,
   "start_price": 759.47998046875,
-  "last": 734.3499145507812
+  "last": 733.9600219726562
  },
  "position": {
   "symbol": "HD",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-17",
   "hits": [
-   {
-    "symbol": "REGN",
-    "at": "09:50",
-    "price": 958.79,
-    "or_high": 954.89,
-    "or_low": 946.94,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "ROST",
-    "at": "09:50",
-    "price": 225.51,
-    "or_high": 225.18,
-    "or_low": 222.86,
-    "pct_over": 0.15
-   },
    {
     "symbol": "SNAP",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 293.73,
     "or_low": 291.08,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "ELV",
+    "at": "10:40",
+    "price": 439.67,
+    "or_high": 439.43,
+    "or_low": 431.62,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "LMT",
+    "at": "10:40",
+    "price": 590.38,
+    "or_high": 589.4,
+    "or_low": 583.5,
+    "pct_over": 0.17
    }
   ],
-  "n_hits": 83,
+  "n_hits": 85,
   "entries": 1,
   "max_trades": 3
  },
@@ -1111,6 +1111,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794930000,
+   "et": "2026-11-17 10:40",
+   "kind": "busy",
+   "text": "2 more breakouts (ELV, LMT) not taken: already in HD (one trade at a time)",
+   "symbols": [
+    "ELV",
+    "LMT"
+   ]
+  },
   {
    "ts": 1794929700,
    "et": "2026-11-17 10:35",
@@ -1989,15 +1999,6 @@
    "symbols": [
     "HAL",
     "SLB"
-   ]
-  },
-  {
-   "ts": 1794506100,
-   "et": "2026-11-12 12:55",
-   "kind": "busy",
-   "text": "1 more breakout (NCLH) not taken: already in GME (one trade at a time)",
-   "symbols": [
-    "NCLH"
    ]
   }
  ],
@@ -5841,6 +5842,11 @@
    "ts": 1794929934,
    "equity": 9592.33,
    "spy": 9665.25
+  },
+  {
+   "ts": 1794930251,
+   "equity": 9587.92,
+   "spy": 9660.12
   }
  ],
  "daily": [
@@ -5912,6 +5918,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794930251,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.3,
+   "errors": [],
+   "run_id": "44117682080",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794929934,
    "phase": "open",
@@ -6301,25 +6317,15 @@
    "errors": [],
    "run_id": "43940512779",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794857288,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.4,
-   "errors": [],
-   "run_id": "43939602858",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794929934,
+  "tick_at": 1794930251,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794929942,
-  "candidates": 21,
-  "charts_fetched": 23,
+  "yahoo_time": 1794930258,
+  "candidates": 17,
+  "charts_fetched": 19,
   "ok": true,
   "errors": [],
   "stale_data": false,
