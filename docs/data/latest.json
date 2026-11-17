@@ -1,49 +1,39 @@
 {
- "updated": 1794936864,
- "updated_et": "2026-11-17 12:34 ET",
+ "updated": 1794937189,
+ "updated_et": "2026-11-17 12:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9538.7,
-  "equity": 9538.7,
-  "return": -0.04612999999999989,
+  "cash": 2580.62,
+  "equity": 9534.3,
+  "return": -0.04657000000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9652.22,
-  "return": -0.03477800000000009,
+  "value": 9641.69,
+  "return": -0.035830999999999946,
   "start_price": 759.47998046875,
-  "last": 733.3599853515625
+  "last": 732.5599975585938
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "VRTX",
   "qty": 13,
-  "plan": {
-   "symbol": "VRTX",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-17",
-   "entry_time": "12:30 PM",
-   "entry": 535.35,
-   "stop": 532.26,
-   "target": 538.44,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 535.237,
+  "entry_et": "12:30",
+  "stop": 532.26,
+  "target": 538.44,
+  "last": null,
   "why": {
    "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
    "exit": "plan: entry $535.35, stop $532.26 (opening-range midpoint), target $538.44 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on VRTX: 13 shares, bound by your position cap (13 x 3.09 = $40.17 at the stop) (limits: max loss 32; position cap 13; max order 14; cash 16)",
    "risk": "trader-risk PASS: entry 535.35 (the latest price), stop 532.26, target 538.44: risk 3.09 a share; max loss $40.17 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $95.22 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1794936600,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-17",
   "hits": [
@@ -532,7 +522,7 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 13 VRTX at the next bar's open (signal at 12:30 ET). Then: stop $532.26, target $538.44.",
+ "next_move": "Holding 13 VRTX bought at $535.24. It sells at the stop $532.26, the target $538.44, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 24,
   "wins": 10,
@@ -1145,6 +1135,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794936600,
+   "et": "2026-11-17 12:30",
+   "kind": "fill",
+   "text": "BUY 13 VRTX filled at $535.24 (next bar's open $535.13 + slippage). Stop $532.26, target $538.44",
+   "symbol": "VRTX"
+  },
   {
    "ts": 1794936600,
    "et": "2026-11-17 12:30",
@@ -2028,15 +2025,6 @@
    "kind": "exit",
    "text": "SELL 282 GME at $25.61: flat by 15:55 ET (the skill's flat-by rule). P&L $+45.12 (+0.55R)",
    "symbol": "GME"
-  },
-  {
-   "ts": 1794515100,
-   "et": "2026-11-12 15:25",
-   "kind": "busy",
-   "text": "1 more breakout (TSLA) not taken: already in GME (one trade at a time)",
-   "symbols": [
-    "TSLA"
-   ]
   }
  ],
  "equity": [
@@ -5989,6 +5977,11 @@
    "ts": 1794936864,
    "equity": 9538.7,
    "spy": 9652.22
+  },
+  {
+   "ts": 1794937189,
+   "equity": 9534.3,
+   "spy": 9641.69
   }
  ],
  "daily": [
@@ -6060,6 +6053,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794937189,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 6.5,
+   "errors": [],
+   "run_id": "44139380104",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794936864,
    "phase": "open",
@@ -6449,25 +6452,15 @@
    "errors": [],
    "run_id": "44045626859",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794883718,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "43972666167",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1794936864,
+  "tick_at": 1794937189,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794936870,
-  "candidates": 13,
-  "charts_fetched": 15,
+  "yahoo_time": 1794937193,
+  "candidates": 7,
+  "charts_fetched": 9,
   "ok": true,
   "errors": [],
   "stale_data": false,

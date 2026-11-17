@@ -1,5 +1,5 @@
 {
- "cash": 9538.7042,
+ "cash": 2580.6232,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -585,11 +585,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794936600,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1794936900,
+  "position": {
    "symbol": "VRTX",
    "qty": 13,
+   "entry_fill": 535.237,
+   "entry_ts": 1794936600,
    "plan": {
     "symbol": "VRTX",
     "side": "buy",
@@ -601,7 +602,8 @@
     "target": 538.44,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 535.1300048828125
    },
    "why": {
     "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
@@ -610,9 +612,9 @@
     "risk": "trader-risk PASS: entry 535.35 (the latest price), stop 532.26, target 538.44: risk 3.09 a share; max loss $40.17 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $95.22 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1794936600,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -647,6 +649,14 @@
     "kind": "entry",
     "max_loss": 40.17,
     "at": "2026-11-17T12:30:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-17",
+    "symbol": "VRTX",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 13
    }
   ],
   "entries": 2,
@@ -1509,8 +1519,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 733.3599853515625,
-  "last_ts": 1794936600
+  "last": 732.5599975585938,
+  "last_ts": 1794936900
  },
  "seen_trades": 0,
  "daily": [
