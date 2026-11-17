@@ -1,21 +1,21 @@
 {
- "updated": 1794939701,
- "updated_et": "2026-11-17 13:21 ET",
+ "updated": 1794940028,
+ "updated_et": "2026-11-17 13:27 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2580.62,
-  "equity": 9569.98,
-  "return": -0.043002000000000096,
+  "equity": 9565.56,
+  "return": -0.04344400000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9629.38,
-  "return": -0.03706200000000004,
+  "value": 9638.27,
+  "return": -0.03617300000000001,
   "start_price": 759.47998046875,
-  "last": 731.625
+  "last": 732.3001098632812
  },
  "position": {
   "symbol": "VRTX",
@@ -6022,6 +6022,11 @@
    "ts": 1794939701,
    "equity": 9569.98,
    "spy": 9629.38
+  },
+  {
+   "ts": 1794940028,
+   "equity": 9565.56,
+   "spy": 9638.27
   }
  ],
  "daily": [
@@ -6093,6 +6098,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794940028,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.3,
+   "errors": [],
+   "run_id": "44147899139",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794939701,
    "phase": "open",
@@ -6482,25 +6497,15 @@
    "errors": [],
    "run_id": "44109622041",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794927406,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 20.4,
-   "errors": [],
-   "run_id": "44108642996",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794939701,
+  "tick_at": 1794940028,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794939708,
-  "candidates": 8,
-  "charts_fetched": 10,
+  "yahoo_time": 1794940031,
+  "candidates": 11,
+  "charts_fetched": 13,
   "ok": true,
   "errors": [],
   "stale_data": false,
