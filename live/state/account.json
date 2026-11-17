@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794933900,
+  "last_bar_end": 1794934200,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 85,
+  "triggers_seen": 86,
   "missed": [
    "AAPL",
    "ABT",
@@ -665,7 +665,8 @@
    "SONY",
    "ABBV",
    "ELV",
-   "LMT"
+   "LMT",
+   "CVS"
   ],
   "triggered": [
    "AAL",
@@ -752,7 +753,8 @@
    "SONY",
    "ABBV",
    "ELV",
-   "LMT"
+   "LMT",
+   "CVS"
   ],
   "hits": [
    {
@@ -1434,6 +1436,14 @@
     "or_high": 589.4,
     "or_low": 583.5,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "CVS",
+    "at": "11:50",
+    "price": 86.48,
+    "or_high": 86.42,
+    "or_low": 84.67,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1441,8 +1451,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 730.260009765625,
-  "last_ts": 1794933900
+  "last": 729.39501953125,
+  "last_ts": 1794934200
  },
  "seen_trades": 0,
  "daily": [
