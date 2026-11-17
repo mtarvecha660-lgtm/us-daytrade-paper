@@ -1,5 +1,5 @@
 {
- "cash": 2580.6232,
+ "cash": 9580.3432,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -579,32 +579,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-17",
-  "last_bar_end": 1794939900,
-  "position": {
+  },
+  {
+   "date": "2026-11-17",
    "symbol": "VRTX",
    "qty": 13,
+   "entry_et": "12:30",
    "entry_fill": 535.237,
-   "entry_ts": 1794936600,
-   "plan": {
-    "symbol": "VRTX",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-17",
-    "entry_time": "12:30 PM",
-    "entry": 535.35,
-    "stop": 532.26,
-    "target": 538.44,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 535.1300048828125
-   },
+   "exit_et": "13:30",
+   "exit_fill": 538.44,
+   "exit_reason": "target $538.44 hit (1R)",
+   "stop": 532.26,
+   "target": 538.44,
+   "pnl": 41.64,
+   "r": 1.037,
+   "risk_usd": 40.17,
+   "cost_usd": 1.39,
    "why": {
     "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
     "exit": "plan: entry $535.35, stop $532.26 (opening-range midpoint), target $538.44 (1R (one times the risk)), flat by 15:55 ET",
@@ -613,7 +603,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-17",
+  "last_bar_end": 1794940200,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -656,6 +653,14 @@
     "symbol": "VRTX",
     "side": "buy",
     "kind": "entry",
+    "qty": 13
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-17",
+    "symbol": "VRTX",
+    "side": "sell",
+    "kind": "exit",
     "qty": 13
    }
   ],
@@ -1519,8 +1524,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 732.3001098632812,
-  "last_ts": 1794939900
+  "last": 733.3300170898438,
+  "last_ts": 1794940200
  },
  "seen_trades": 0,
  "daily": [

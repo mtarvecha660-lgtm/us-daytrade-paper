@@ -1,38 +1,23 @@
 {
- "updated": 1794940028,
- "updated_et": "2026-11-17 13:27 ET",
+ "updated": 1794940344,
+ "updated_et": "2026-11-17 13:32 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2580.62,
-  "equity": 9565.56,
-  "return": -0.04344400000000004,
+  "cash": 9580.34,
+  "equity": 9580.34,
+  "return": -0.04196599999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9638.27,
-  "return": -0.03617300000000001,
+  "value": 9651.82,
+  "return": -0.034818000000000016,
   "start_price": 759.47998046875,
-  "last": 732.3001098632812
+  "last": 733.3300170898438
  },
- "position": {
-  "symbol": "VRTX",
-  "qty": 13,
-  "entry": 535.237,
-  "entry_et": "12:30",
-  "stop": 532.26,
-  "target": 538.44,
-  "last": null,
-  "why": {
-   "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
-   "exit": "plan: entry $535.35, stop $532.26 (opening-range midpoint), target $538.44 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on VRTX: 13 shares, bound by your position cap (13 x 3.09 = $40.17 at the stop) (limits: max loss 32; position cap 13; max order 14; cash 16)",
-   "risk": "trader-risk PASS: entry 535.35 (the latest price), stop 532.26, target 538.44: risk 3.09 a share; max loss $40.17 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $95.22 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-17",
@@ -522,22 +507,22 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 13 VRTX bought at $535.24. It sells at the stop $532.26, the target $538.44, or at 15:55 ET, whichever comes first.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 2 of 3 trades used today.",
  "stats": {
-  "trades": 24,
-  "wins": 10,
-  "win_rate": 0.4166666666666667,
-  "avg_r": -0.20220833333333335,
-  "t_stat_r": -1.121738440069101,
-  "net_pnl": -461.32,
-  "profit_factor": 0.5133395925859505,
-  "expectancy_usd": -19.22,
-  "avg_win": 48.66,
+  "trades": 25,
+  "wins": 11,
+  "win_rate": 0.44,
+  "avg_r": -0.15264000000000003,
+  "t_stat_r": -0.8486248301246314,
+  "net_pnl": -419.68,
+  "profit_factor": 0.5572668867954386,
+  "expectancy_usd": -16.79,
+  "avg_win": 48.02,
   "avg_loss": -67.71,
-  "costs_usd": 50.85,
+  "costs_usd": 52.24,
   "exits": {
    "stop": 11,
-   "target": 6,
+   "target": 7,
    "flat-by": 7
   }
  },
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-17",
+   "symbol": "VRTX",
+   "qty": 13,
+   "entry_et": "12:30",
+   "entry_fill": 535.237,
+   "exit_et": "13:30",
+   "exit_fill": 538.44,
+   "exit_reason": "target $538.44 hit (1R)",
+   "stop": 532.26,
+   "target": 538.44,
+   "pnl": 41.64,
+   "r": 1.037,
+   "risk_usd": 40.17,
+   "cost_usd": 1.39,
+   "why": {
+    "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
+    "exit": "plan: entry $535.35, stop $532.26 (opening-range midpoint), target $538.44 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on VRTX: 13 shares, bound by your position cap (13 x 3.09 = $40.17 at the stop) (limits: max loss 32; position cap 13; max order 14; cash 16)",
+    "risk": "trader-risk PASS: entry 535.35 (the latest price), stop 532.26, target 538.44: risk 3.09 a share; max loss $40.17 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $95.22 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-17",
    "symbol": "HD",
@@ -1135,6 +1144,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794940200,
+   "et": "2026-11-17 13:30",
+   "kind": "exit",
+   "text": "SELL 13 VRTX at $538.44: target $538.44 hit (1R). P&L $+41.64 (+1.04R)",
+   "symbol": "VRTX"
+  },
   {
    "ts": 1794936600,
    "et": "2026-11-17 12:30",
@@ -2018,13 +2034,6 @@
     "TOST",
     "LI"
    ]
-  },
-  {
-   "ts": 1794516900,
-   "et": "2026-11-12 15:55",
-   "kind": "exit",
-   "text": "SELL 282 GME at $25.61: flat by 15:55 ET (the skill's flat-by rule). P&L $+45.12 (+0.55R)",
-   "symbol": "GME"
   }
  ],
  "equity": [
@@ -6027,6 +6036,11 @@
    "ts": 1794940028,
    "equity": 9565.56,
    "spy": 9638.27
+  },
+  {
+   "ts": 1794940344,
+   "equity": 9580.34,
+   "spy": 9651.82
   }
  ],
  "daily": [
@@ -6098,6 +6112,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794940344,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.7,
+   "errors": [],
+   "run_id": "44148880864",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794940028,
    "phase": "open",
@@ -6487,25 +6511,15 @@
    "errors": [],
    "run_id": "44110628678",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794927722,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 21.3,
-   "errors": [],
-   "run_id": "44109622041",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794940028,
+  "tick_at": 1794940344,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794940031,
-  "candidates": 11,
-  "charts_fetched": 13,
+  "yahoo_time": 1794940350,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
