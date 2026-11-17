@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794927300,
+  "last_bar_end": 1794927600,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 64,
+  "triggers_seen": 71,
   "missed": [
    "AAPL",
    "ABT",
@@ -644,7 +644,14 @@
    "V",
    "VZ",
    "WFC",
-   "WMT"
+   "WMT",
+   "AMAT",
+   "AMZN",
+   "ASML",
+   "MPC",
+   "NOC",
+   "RDDT",
+   "TTD"
   ],
   "triggered": [
    "AAL",
@@ -710,7 +717,14 @@
    "V",
    "VZ",
    "WFC",
-   "WMT"
+   "WMT",
+   "AMAT",
+   "AMZN",
+   "ASML",
+   "MPC",
+   "NOC",
+   "RDDT",
+   "TTD"
   ],
   "hits": [
    {
@@ -1224,6 +1238,62 @@
     "or_high": 128.93,
     "or_low": 127.43,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:00",
+    "price": 355.0,
+    "or_high": 354.29,
+    "or_low": 348.84,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 259.26,
+    "or_high": 258.98,
+    "or_low": 257.35,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:00",
+    "price": 1407.1,
+    "or_high": 1406.49,
+    "or_low": 1391.29,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 408.95,
+    "or_high": 408.76,
+    "or_low": 396.73,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:00",
+    "price": 550.04,
+    "or_high": 550.0,
+    "or_low": 541.51,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 95.78,
+    "or_high": 95.38,
+    "or_low": 93.25,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:00",
+    "price": 14.94,
+    "or_high": 14.86,
+    "or_low": 14.54,
+    "pct_over": 0.5
    }
   ]
  },
@@ -1231,8 +1301,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.1950073242188,
-  "last_ts": 1794927300
+  "last": 739.3300170898438,
+  "last_ts": 1794927600
  },
  "seen_trades": 0,
  "daily": [

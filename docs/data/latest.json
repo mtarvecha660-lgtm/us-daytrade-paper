@@ -1,21 +1,21 @@
 {
- "updated": 1794927406,
- "updated_et": "2026-11-17 09:56 ET",
+ "updated": 1794927722,
+ "updated_et": "2026-11-17 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3444.22,
-  "equity": 9669.63,
-  "return": -0.033037000000000094,
+  "equity": 9605.92,
+  "return": -0.039408,
   "started": 1793559735
  },
  "spy": {
-  "value": 9729.02,
-  "return": -0.027097999999999955,
+  "value": 9730.79,
+  "return": -0.02692099999999986,
   "start_price": 759.47998046875,
-  "last": 739.1950073242188
+  "last": 739.3300170898438
  },
  "position": {
   "symbol": "HD",
@@ -37,62 +37,6 @@
  "today": {
   "date": "2026-11-17",
   "hits": [
-   {
-    "symbol": "BIIB",
-    "at": "09:50",
-    "price": 251.74,
-    "or_high": 251.28,
-    "or_low": 248.27,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "BLK",
-    "at": "09:50",
-    "price": 1203.45,
-    "or_high": 1199.17,
-    "or_low": 1189.99,
-    "pct_over": 0.36
-   },
-   {
-    "symbol": "C",
-    "at": "09:50",
-    "price": 121.5,
-    "or_high": 121.31,
-    "or_low": 120.2,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "CHTR",
-    "at": "09:50",
-    "price": 138.91,
-    "or_high": 138.71,
-    "or_low": 136.51,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "DLTR",
-    "at": "09:50",
-    "price": 140.91,
-    "or_high": 139.92,
-    "or_low": 138.33,
-    "pct_over": 0.71
-   },
-   {
-    "symbol": "DPZ",
-    "at": "09:50",
-    "price": 351.26,
-    "or_high": 350.85,
-    "or_low": 345.22,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "DXCM",
-    "at": "09:50",
-    "price": 83.88,
-    "or_high": 83.24,
-    "or_low": 81.56,
-    "pct_over": 0.77
-   },
    {
     "symbol": "GILD",
     "at": "09:50",
@@ -516,9 +460,65 @@
     "or_high": 128.93,
     "or_low": 127.43,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:00",
+    "price": 355.0,
+    "or_high": 354.29,
+    "or_low": 348.84,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 259.26,
+    "or_high": 258.98,
+    "or_low": 257.35,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "ASML",
+    "at": "10:00",
+    "price": 1407.1,
+    "or_high": 1406.49,
+    "or_low": 1391.29,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 408.95,
+    "or_high": 408.76,
+    "or_low": 396.73,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:00",
+    "price": 550.04,
+    "or_high": 550.0,
+    "or_low": 541.51,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 95.78,
+    "or_high": 95.38,
+    "or_low": 93.25,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:00",
+    "price": 14.94,
+    "or_high": 14.86,
+    "or_low": 14.54,
+    "pct_over": 0.5
    }
   ],
-  "n_hits": 64,
+  "n_hits": 71,
   "entries": 1,
   "max_trades": 3
  },
@@ -1111,6 +1111,21 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794927600,
+   "et": "2026-11-17 10:00",
+   "kind": "busy",
+   "text": "7 more breakouts (AMAT, AMZN, ASML, MPC, NOC, RDDT, TTD) not taken: already in HD (one trade at a time)",
+   "symbols": [
+    "AMAT",
+    "AMZN",
+    "ASML",
+    "MPC",
+    "NOC",
+    "RDDT",
+    "TTD"
+   ]
+  },
   {
    "ts": 1794927300,
    "et": "2026-11-17 09:55",
@@ -1976,21 +1991,6 @@
    "kind": "fill",
    "text": "BUY 282 GME filled at $25.45 (next bar's open $25.44 + slippage). Stop $25.13, target $25.71",
    "symbol": "GME"
-  },
-  {
-   "ts": 1794502200,
-   "et": "2026-11-12 11:50",
-   "kind": "order",
-   "text": "BUY 282 GME at market (decided on the 11:50 close). opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
-   "symbol": "GME",
-   "why": {
-    "scanner": "GME: the 11:45 bar closed at $25.42, above the 15-min opening range high $25.35 (range 24.92-25.35)",
-    "exit": "plan: entry $25.42, stop $25.13 (opening-range midpoint), target $25.71 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on GME: 282 shares, bound by your position cap (282 x 0.29 = $81.78 at the stop) (limits: max loss 344; position cap 282; max order 314; cash 339)",
-    "risk": "trader-risk PASS: entry 25.42 (the latest price), stop 25.13, target 25.71: risk 0.29 a share; max loss $81.78 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $124.22 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -5793,6 +5793,11 @@
    "ts": 1794927406,
    "equity": 9669.63,
    "spy": 9729.02
+  },
+  {
+   "ts": 1794927722,
+   "equity": 9605.92,
+   "spy": 9730.79
   }
  ],
  "daily": [
@@ -5864,6 +5869,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794927722,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 21.3,
+   "errors": [],
+   "run_id": "44109622041",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794927406,
    "phase": "open",
@@ -6253,25 +6268,15 @@
    "errors": [],
    "run_id": "43933177622",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794854777,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 7.6,
-   "errors": [],
-   "run_id": "43932242488",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794927406,
+  "tick_at": 1794927722,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794927424,
-  "candidates": 69,
-  "charts_fetched": 71,
+  "yahoo_time": 1794927742,
+  "candidates": 42,
+  "charts_fetched": 44,
   "ok": true,
   "errors": [],
   "stale_data": false,
