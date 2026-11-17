@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794929100,
+  "last_bar_end": 1794929400,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 79,
+  "triggers_seen": 82,
   "missed": [
    "AAPL",
    "ABT",
@@ -659,7 +659,10 @@
    "RIVN",
    "PYPL",
    "MRK",
-   "RTX"
+   "RTX",
+   "CI",
+   "MDT",
+   "SONY"
   ],
   "triggered": [
    "AAL",
@@ -740,7 +743,10 @@
    "RIVN",
    "PYPL",
    "MRK",
-   "RTX"
+   "RTX",
+   "CI",
+   "MDT",
+   "SONY"
   ],
   "hits": [
    {
@@ -1374,6 +1380,30 @@
     "or_high": 196.93,
     "or_low": 193.0,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "CI",
+    "at": "10:30",
+    "price": 297.76,
+    "or_high": 297.68,
+    "or_low": 294.15,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MDT",
+    "at": "10:30",
+    "price": 103.7,
+    "or_high": 103.69,
+    "or_low": 102.27,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:30",
+    "price": 26.97,
+    "or_high": 26.95,
+    "or_low": 26.79,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1381,8 +1411,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.780029296875,
-  "last_ts": 1794929100
+  "last": 736.6300048828125,
+  "last_ts": 1794929400
  },
  "seen_trades": 0,
  "daily": [
