@@ -609,7 +609,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794944100,
+  "last_bar_end": 1794944400,
   "position": {
    "symbol": "HPQ",
    "qty": 250,
@@ -1577,8 +1577,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 730.8505249023438,
-  "last_ts": 1794944100
+  "last": 730.6900024414062,
+  "last_ts": 1794944400
  },
  "seen_trades": 0,
  "daily": [
