@@ -1,21 +1,21 @@
 {
- "updated": 1794927722,
- "updated_et": "2026-11-17 10:02 ET",
+ "updated": 1794928038,
+ "updated_et": "2026-11-17 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 3444.22,
-  "equity": 9605.92,
-  "return": -0.039408,
+  "equity": 9615.41,
+  "return": -0.03845900000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9730.79,
-  "return": -0.02692099999999986,
+  "value": 9713.82,
+  "return": -0.028618000000000032,
   "start_price": 759.47998046875,
-  "last": 739.3300170898438
+  "last": 738.0399780273438
  },
  "position": {
   "symbol": "HD",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-17",
   "hits": [
-   {
-    "symbol": "GILD",
-    "at": "09:50",
-    "price": 169.58,
-    "or_high": 168.92,
-    "or_low": 165.72,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "GM",
-    "at": "09:50",
-    "price": 84.74,
-    "or_high": 84.71,
-    "or_low": 83.39,
-    "pct_over": 0.04
-   },
    {
     "symbol": "HD",
     "at": "09:50",
@@ -516,9 +500,25 @@
     "or_high": 14.86,
     "or_low": 14.54,
     "pct_over": 0.5
+   },
+   {
+    "symbol": "GE",
+    "at": "10:05",
+    "price": 329.99,
+    "or_high": 329.64,
+    "or_low": 323.28,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "XPEV",
+    "at": "10:05",
+    "price": 9.91,
+    "or_high": 9.89,
+    "or_low": 9.7,
+    "pct_over": 0.25
    }
   ],
-  "n_hits": 71,
+  "n_hits": 73,
   "entries": 1,
   "max_trades": 3
  },
@@ -1111,6 +1111,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794927900,
+   "et": "2026-11-17 10:05",
+   "kind": "busy",
+   "text": "2 more breakouts (GE, XPEV) not taken: already in HD (one trade at a time)",
+   "symbols": [
+    "GE",
+    "XPEV"
+   ]
+  },
   {
    "ts": 1794927600,
    "et": "2026-11-17 10:00",
@@ -1984,13 +1994,6 @@
    "symbols": [
     "DXCM"
    ]
-  },
-  {
-   "ts": 1794502200,
-   "et": "2026-11-12 11:50",
-   "kind": "fill",
-   "text": "BUY 282 GME filled at $25.45 (next bar's open $25.44 + slippage). Stop $25.13, target $25.71",
-   "symbol": "GME"
   }
  ],
  "equity": [
@@ -5798,6 +5801,11 @@
    "ts": 1794927722,
    "equity": 9605.92,
    "spy": 9730.79
+  },
+  {
+   "ts": 1794928038,
+   "equity": 9615.41,
+   "spy": 9713.82
   }
  ],
  "daily": [
@@ -5869,6 +5877,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794928038,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.4,
+   "errors": [],
+   "run_id": "44110628678",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794927722,
    "phase": "open",
@@ -6258,29 +6276,19 @@
    "errors": [],
    "run_id": "43934089003",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794855088,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.3,
-   "errors": [],
-   "run_id": "43933177622",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794927722,
+  "tick_at": 1794928038,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794927742,
-  "candidates": 42,
-  "charts_fetched": 44,
+  "yahoo_time": 1794928048,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

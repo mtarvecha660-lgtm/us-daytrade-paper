@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794927600,
+  "last_bar_end": 1794927900,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 71,
+  "triggers_seen": 73,
   "missed": [
    "AAPL",
    "ABT",
@@ -651,7 +651,9 @@
    "MPC",
    "NOC",
    "RDDT",
-   "TTD"
+   "TTD",
+   "GE",
+   "XPEV"
   ],
   "triggered": [
    "AAL",
@@ -724,7 +726,9 @@
    "MPC",
    "NOC",
    "RDDT",
-   "TTD"
+   "TTD",
+   "GE",
+   "XPEV"
   ],
   "hits": [
    {
@@ -1294,6 +1298,22 @@
     "or_high": 14.86,
     "or_low": 14.54,
     "pct_over": 0.5
+   },
+   {
+    "symbol": "GE",
+    "at": "10:05",
+    "price": 329.99,
+    "or_high": 329.64,
+    "or_low": 323.28,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "XPEV",
+    "at": "10:05",
+    "price": 9.91,
+    "or_high": 9.89,
+    "or_low": 9.7,
+    "pct_over": 0.25
    }
   ]
  },
@@ -1301,8 +1321,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.3300170898438,
-  "last_ts": 1794927600
+  "last": 738.0399780273438,
+  "last_ts": 1794927900
  },
  "seen_trades": 0,
  "daily": [
