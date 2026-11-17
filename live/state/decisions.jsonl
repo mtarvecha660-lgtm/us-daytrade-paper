@@ -385,3 +385,4 @@
 {"ts": 1794927600, "et": "2026-11-17 10:00", "kind": "busy", "text": "7 more breakouts (AMAT, AMZN, ASML, MPC, NOC, RDDT, TTD) not taken: already in HD (one trade at a time)", "symbols": ["AMAT", "AMZN", "ASML", "MPC", "NOC", "RDDT", "TTD"]}
 {"ts": 1794927900, "et": "2026-11-17 10:05", "kind": "busy", "text": "2 more breakouts (GE, XPEV) not taken: already in HD (one trade at a time)", "symbols": ["GE", "XPEV"]}
 {"ts": 1794928200, "et": "2026-11-17 10:10", "kind": "busy", "text": "3 more breakouts (LI, NEE, RIVN) not taken: already in HD (one trade at a time)", "symbols": ["LI", "NEE", "RIVN"]}
+{"ts": 1794928500, "et": "2026-11-17 10:15", "kind": "busy", "text": "1 more breakout (PYPL) not taken: already in HD (one trade at a time)", "symbols": ["PYPL"]}

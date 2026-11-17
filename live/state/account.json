@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794928200,
+  "last_bar_end": 1794928500,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -612,7 +612,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 76,
+  "triggers_seen": 77,
   "missed": [
    "AAPL",
    "ABT",
@@ -656,7 +656,8 @@
    "XPEV",
    "LI",
    "NEE",
-   "RIVN"
+   "RIVN",
+   "PYPL"
   ],
   "triggered": [
    "AAL",
@@ -734,7 +735,8 @@
    "XPEV",
    "LI",
    "NEE",
-   "RIVN"
+   "RIVN",
+   "PYPL"
   ],
   "hits": [
    {
@@ -1344,6 +1346,14 @@
     "or_high": 12.18,
     "or_low": 12.04,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "PYPL",
+    "at": "10:15",
+    "price": 58.96,
+    "or_high": 58.88,
+    "or_low": 58.37,
+    "pct_over": 0.14
    }
   ]
  },
@@ -1351,8 +1361,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.8599853515625,
-  "last_ts": 1794928200
+  "last": 737.3300170898438,
+  "last_ts": 1794928500
  },
  "seen_trades": 0,
  "daily": [
