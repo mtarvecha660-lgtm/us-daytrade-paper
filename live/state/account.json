@@ -561,7 +561,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-17",
-  "last_bar_end": 1794936000,
+  "last_bar_end": 1794936300,
   "position": {
    "symbol": "HD",
    "qty": 18,
@@ -1461,8 +1461,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 734.219970703125,
-  "last_ts": 1794936000
+  "last": 733.60498046875,
+  "last_ts": 1794936300
  },
  "seen_trades": 0,
  "daily": [
