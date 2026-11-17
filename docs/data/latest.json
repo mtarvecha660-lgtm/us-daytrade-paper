@@ -1,38 +1,23 @@
 {
- "updated": 1794948844,
- "updated_et": "2026-11-17 15:54 ET",
+ "updated": 1794949157,
+ "updated_et": "2026-11-17 15:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2396.59,
-  "equity": 9552.84,
-  "return": -0.04471599999999998,
+  "cash": 9560.34,
+  "equity": 9560.34,
+  "return": -0.04396599999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9616.42,
-  "return": -0.038358,
+  "value": 9608.65,
+  "return": -0.03913500000000003,
   "start_price": 759.47998046875,
-  "last": 730.6400146484375
+  "last": 730.0499877929688
  },
- "position": {
-  "symbol": "HPQ",
-  "qty": 250,
-  "entry": 28.735,
-  "entry_et": "14:30",
-  "stop": 28.46,
-  "target": 28.98,
-  "last": null,
-  "why": {
-   "scanner": "HPQ: the 14:25 bar closed at $28.72, above the 15-min opening range high $28.71 (range 28.22-28.71)",
-   "exit": "plan: entry $28.72, stop $28.46 (opening-range midpoint), target $28.98 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on HPQ: 250 shares, bound by your position cap (250 x 0.26 = $65 at the stop) (limits: max loss 384; position cap 250; max order 278; cash 300)",
-   "risk": "trader-risk PASS: entry 28.72 (the plan's entry), stop 28.46, target 28.98: risk 0.26 a share; max loss $65 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $135.39 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-17",
@@ -522,23 +507,23 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 250 HPQ bought at $28.73. It sells at the stop $28.46, the target $28.98, or at 15:55 ET, whichever comes first.",
+ "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
  "stats": {
-  "trades": 25,
+  "trades": 26,
   "wins": 11,
-  "win_rate": 0.44,
-  "avg_r": -0.15264000000000003,
-  "t_stat_r": -0.8486248301246314,
-  "net_pnl": -419.68,
-  "profit_factor": 0.5572668867954386,
-  "expectancy_usd": -16.79,
+  "win_rate": 0.4230769230769231,
+  "avg_r": -0.15861538461538463,
+  "t_stat_r": -0.9173060785741958,
+  "net_pnl": -439.68,
+  "profit_factor": 0.5457522754744663,
+  "expectancy_usd": -16.91,
   "avg_win": 48.02,
-  "avg_loss": -67.71,
-  "costs_usd": 52.24,
+  "avg_loss": -64.53,
+  "costs_usd": 57.24,
   "exits": {
    "stop": 11,
    "target": 7,
-   "flat-by": 7
+   "flat-by": 8
   }
  },
  "curve": {
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-17",
+   "symbol": "HPQ",
+   "qty": 250,
+   "entry_et": "14:30",
+   "entry_fill": 28.735,
+   "exit_et": "15:55",
+   "exit_fill": 28.655,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 28.46,
+   "target": 28.98,
+   "pnl": -20.0,
+   "r": -0.308,
+   "risk_usd": 65.0,
+   "cost_usd": 5.0,
+   "why": {
+    "scanner": "HPQ: the 14:25 bar closed at $28.72, above the 15-min opening range high $28.71 (range 28.22-28.71)",
+    "exit": "plan: entry $28.72, stop $28.46 (opening-range midpoint), target $28.98 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on HPQ: 250 shares, bound by your position cap (250 x 0.26 = $65 at the stop) (limits: max loss 384; position cap 250; max order 278; cash 300)",
+    "risk": "trader-risk PASS: entry 28.72 (the plan's entry), stop 28.46, target 28.98: risk 0.26 a share; max loss $65 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $135.39 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-17",
    "symbol": "VRTX",
@@ -1159,6 +1168,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1794948900,
+   "et": "2026-11-17 15:55",
+   "kind": "exit",
+   "text": "SELL 250 HPQ at $28.66: flat by 15:55 ET (the skill's flat-by rule). P&L $-20.00 (-0.31R)",
+   "symbol": "HPQ"
+  },
   {
    "ts": 1794943800,
    "et": "2026-11-17 14:30",
@@ -2014,25 +2030,6 @@
     "MDT",
     "PG",
     "V"
-   ]
-  },
-  {
-   "ts": 1794581700,
-   "et": "2026-11-13 09:55",
-   "kind": "busy",
-   "text": "11 more breakouts (APP, CHTR, CMCSA, EOG, FANG, META, MRNA, RDDT ...) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "APP",
-    "CHTR",
-    "CMCSA",
-    "EOG",
-    "FANG",
-    "META",
-    "MRNA",
-    "RDDT",
-    "SNAP",
-    "SO",
-    "TTD"
    ]
   }
  ],
@@ -6176,6 +6173,11 @@
    "ts": 1794948844,
    "equity": 9552.84,
    "spy": 9616.42
+  },
+  {
+   "ts": 1794949157,
+   "equity": 9560.34,
+   "spy": 9608.65
   }
  ],
  "daily": [
@@ -6247,6 +6249,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1794949157,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.9,
+   "errors": [],
+   "run_id": "44174994768",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1794948844,
    "phase": "open",
@@ -6636,25 +6648,15 @@
    "errors": [],
    "run_id": "44138430613",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794936551,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.1,
-   "errors": [],
-   "run_id": "44137455866",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1794948844,
+  "tick_at": 1794949157,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1794948850,
-  "candidates": 7,
-  "charts_fetched": 9,
+  "yahoo_time": 1794949163,
+  "candidates": 6,
+  "charts_fetched": 8,
   "ok": true,
   "errors": [],
   "stale_data": false,
