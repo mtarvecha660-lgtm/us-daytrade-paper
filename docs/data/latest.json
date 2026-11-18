@@ -1,6 +1,6 @@
 {
- "updated": 1795013170,
- "updated_et": "2026-11-18 09:46 ET",
+ "updated": 1795013484,
+ "updated_et": "2026-11-18 09:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,21 +12,103 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9615.63,
-  "return": -0.038437000000000054,
+  "value": 9604.57,
+  "return": -0.039542999999999995,
   "start_price": 759.47998046875,
-  "last": 730.5800170898438
+  "last": 729.7399291992188
  },
  "position": null,
- "pending": null,
+ "pending": {
+  "symbol": "TJX",
+  "qty": 28,
+  "plan": {
+   "symbol": "TJX",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-18",
+   "entry_time": "9:50 AM",
+   "entry": 140.93,
+   "stop": 137.42,
+   "target": 144.44,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
+  "why": {
+   "scanner": "TJX: the 09:45 bar closed at $140.93, above the 15-min opening range high $140.80 (range 134.05-140.80)",
+   "exit": "plan: entry $140.93, stop $137.42 (opening-range midpoint), target $144.44 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on TJX: 28 shares, bound by your $100 max loss per trade (28 x 3.51 = $98.28 at the stop) (limits: max loss 28; position cap 50; max order 56; cash 61)",
+   "risk": "trader-risk PASS: entry 140.93 (the plan's entry), stop 137.42, target 144.44: risk 3.51 a share; max loss $98.28 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+  },
+  "decided_ts": 1795013400,
+  "late": false
+ },
  "today": {
   "date": "2026-11-18",
-  "hits": [],
-  "n_hits": 0,
-  "entries": 0,
+  "hits": [
+   {
+    "symbol": "CMG",
+    "at": "09:50",
+    "price": 36.53,
+    "or_high": 36.47,
+    "or_low": 35.08,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:50",
+    "price": 168.62,
+    "or_high": 168.36,
+    "or_low": 164.4,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:50",
+    "price": 119.1,
+    "or_high": 118.98,
+    "or_low": 116.65,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 247.68,
+    "or_high": 245.99,
+    "or_low": 241.52,
+    "pct_over": 0.69
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 25.39,
+    "or_high": 25.38,
+    "or_low": 24.94,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 17.75,
+    "or_high": 17.66,
+    "or_low": 16.65,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "TJX",
+    "at": "09:50",
+    "price": 140.93,
+    "or_high": 140.8,
+    "or_low": 134.05,
+    "pct_over": 0.09
+   }
+  ],
+  "n_hits": 7,
+  "entries": 1,
   "max_trades": 3
  },
- "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 0 of 3 trades used today.",
+ "next_move": "Buying 28 TJX at the next bar's open (signal at 09:50 ET). Then: stop $137.42, target $144.44.",
  "stats": {
   "trades": 26,
   "wins": 11,
@@ -687,6 +769,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795013400,
+   "et": "2026-11-18 09:50",
+   "kind": "order",
+   "text": "BUY 28 TJX at market (decided on the 09:50 close). opening-range breakout on TJX: 28 shares, bound by your $100 max loss per trade (28 x 3.51 = $98.28 at the stop) (limits: max loss 28; position cap 50; max order 56; cash 61)",
+   "symbol": "TJX",
+   "why": {
+    "scanner": "TJX: the 09:45 bar closed at $140.93, above the 15-min opening range high $140.80 (range 134.05-140.80)",
+    "exit": "plan: entry $140.93, stop $137.42 (opening-range midpoint), target $144.44 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on TJX: 28 shares, bound by your $100 max loss per trade (28 x 3.51 = $98.28 at the stop) (limits: max loss 28; position cap 50; max order 56; cash 61)",
+    "risk": "trader-risk PASS: entry 140.93 (the plan's entry), stop 137.42, target 144.44: risk 3.51 a share; max loss $98.28 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": [
+    "DIS",
+    "DASH",
+    "CMG",
+    "JD",
+    "LYFT",
+    "EXPE"
+   ]
+  },
   {
    "ts": 1794948900,
    "et": "2026-11-17 15:55",
@@ -1537,18 +1641,6 @@
     "ISRG",
     "PDD",
     "PEP"
-   ]
-  },
-  {
-   "ts": 1794582000,
-   "et": "2026-11-13 10:00",
-   "kind": "busy",
-   "text": "4 more breakouts (MA, MDT, PG, V) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "MA",
-    "MDT",
-    "PG",
-    "V"
    ]
   }
  ],
@@ -5722,6 +5814,11 @@
    "ts": 1795013170,
    "equity": 9560.34,
    "spy": 9615.63
+  },
+  {
+   "ts": 1795013484,
+   "equity": 9560.34,
+   "spy": 9604.57
   }
  ],
  "daily": [
@@ -5799,6 +5896,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795013484,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.1,
+   "errors": [],
+   "run_id": "44328848832",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795013170,
    "phase": "open",
@@ -6188,29 +6295,19 @@
    "errors": [],
    "run_id": "44149837825",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794940344,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.7,
-   "errors": [],
-   "run_id": "44148880864",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795013170,
+  "tick_at": 1795013484,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795013174,
-  "candidates": 2,
-  "charts_fetched": 3,
+  "yahoo_time": 1795013497,
+  "candidates": 28,
+  "charts_fetched": 29,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

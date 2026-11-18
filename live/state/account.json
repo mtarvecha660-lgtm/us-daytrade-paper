@@ -633,21 +633,123 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795013100,
+  "last_bar_end": 1795013400,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "TJX",
+   "qty": 28,
+   "plan": {
+    "symbol": "TJX",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-18",
+    "entry_time": "9:50 AM",
+    "entry": 140.93,
+    "stop": 137.42,
+    "target": 144.44,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "TJX: the 09:45 bar closed at $140.93, above the 15-min opening range high $140.80 (range 134.05-140.80)",
+    "exit": "plan: entry $140.93, stop $137.42 (opening-range midpoint), target $144.44 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on TJX: 28 shares, bound by your $100 max loss per trade (28 x 3.51 = $98.28 at the stop) (limits: max loss 28; position cap 50; max order 56; cash 61)",
+    "risk": "trader-risk PASS: entry 140.93 (the plan's entry), stop 137.42, target 144.44: risk 3.51 a share; max loss $98.28 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795013400,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-18",
+    "symbol": "TJX",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 98.28,
+    "at": "2026-11-18T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 7,
+  "missed": [],
+  "triggered": [
+   "CMG",
+   "DASH",
+   "DIS",
+   "EXPE",
+   "JD",
+   "LYFT",
+   "TJX"
+  ],
+  "hits": [
+   {
+    "symbol": "CMG",
+    "at": "09:50",
+    "price": 36.53,
+    "or_high": 36.47,
+    "or_low": 35.08,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:50",
+    "price": 168.62,
+    "or_high": 168.36,
+    "or_low": 164.4,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:50",
+    "price": 119.1,
+    "or_high": 118.98,
+    "or_low": 116.65,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "EXPE",
+    "at": "09:50",
+    "price": 247.68,
+    "or_high": 245.99,
+    "or_low": 241.52,
+    "pct_over": 0.69
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 25.39,
+    "or_high": 25.38,
+    "or_low": 24.94,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "LYFT",
+    "at": "09:50",
+    "price": 17.75,
+    "or_high": 17.66,
+    "or_low": 16.65,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "TJX",
+    "at": "09:50",
+    "price": 140.93,
+    "or_high": 140.8,
+    "or_low": 134.05,
+    "pct_over": 0.09
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 730.5800170898438,
-  "last_ts": 1795013100
+  "last": 729.7399291992188,
+  "last_ts": 1795013400
  },
  "seen_trades": 0,
  "daily": [
