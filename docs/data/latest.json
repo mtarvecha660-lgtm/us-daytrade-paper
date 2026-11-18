@@ -1,21 +1,21 @@
 {
- "updated": 1795022623,
- "updated_et": "2026-11-18 12:23 ET",
+ "updated": 1795022936,
+ "updated_et": "2026-11-18 12:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9636.87,
-  "return": -0.03631299999999993,
+  "equity": 9641.91,
+  "return": -0.03580899999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9621.68,
-  "return": -0.03783199999999998,
+  "value": 9641.56,
+  "return": -0.0358440000000001,
   "start_price": 759.47998046875,
-  "last": 731.0399780273438
+  "last": 732.5499877929688
  },
  "position": {
   "symbol": "TJX",
@@ -37,54 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "CRWD",
-    "at": "10:00",
-    "price": 225.4,
-    "or_high": 225.0,
-    "or_low": 218.51,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "ENPH",
-    "at": "10:00",
-    "price": 23.53,
-    "or_high": 23.25,
-    "or_low": 22.76,
-    "pct_over": 1.2
-   },
-   {
-    "symbol": "ETSY",
-    "at": "10:00",
-    "price": 84.86,
-    "or_high": 84.51,
-    "or_low": 82.38,
-    "pct_over": 0.41
-   },
-   {
-    "symbol": "F",
-    "at": "10:00",
-    "price": 11.39,
-    "or_high": 11.38,
-    "or_low": 11.25,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "FSLR",
-    "at": "10:00",
-    "price": 155.43,
-    "or_high": 155.22,
-    "or_low": 152.59,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "HON",
-    "at": "10:00",
-    "price": 220.4,
-    "or_high": 219.37,
-    "or_low": 217.3,
-    "pct_over": 0.47
-   },
    {
     "symbol": "LI",
     "at": "10:00",
@@ -516,9 +468,57 @@
     "or_high": 96.2,
     "or_low": 94.22,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "ANET",
+    "at": "12:25",
+    "price": 190.18,
+    "or_high": 190.0,
+    "or_low": 183.12,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "BIIB",
+    "at": "12:25",
+    "price": 252.24,
+    "or_high": 251.83,
+    "or_low": 247.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "COST",
+    "at": "12:25",
+    "price": 1110.59,
+    "or_high": 1110.45,
+    "or_low": 1097.5,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DAL",
+    "at": "12:25",
+    "price": 86.27,
+    "or_high": 86.15,
+    "or_low": 84.29,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "HOOD",
+    "at": "12:25",
+    "price": 69.35,
+    "or_high": 69.29,
+    "or_low": 67.8,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "TTD",
+    "at": "12:25",
+    "price": 15.22,
+    "or_high": 15.21,
+    "or_low": 14.78,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 87,
+  "n_hits": 93,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,20 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795022700,
+   "et": "2026-11-18 12:25",
+   "kind": "busy",
+   "text": "6 more breakouts (ANET, BIIB, COST, DAL, HOOD, TTD) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "ANET",
+    "BIIB",
+    "COST",
+    "DAL",
+    "HOOD",
+    "TTD"
+   ]
+  },
   {
    "ts": 1795022400,
    "et": "2026-11-18 12:20",
@@ -2083,15 +2097,6 @@
    "text": "1 more breakout (BIIB) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "BIIB"
-   ]
-  },
-  {
-   "ts": 1794598200,
-   "et": "2026-11-13 14:30",
-   "kind": "busy",
-   "text": "1 more breakout (HUM) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "HUM"
    ]
   }
  ],
@@ -6415,6 +6420,11 @@
    "ts": 1795022623,
    "equity": 9636.87,
    "spy": 9621.68
+  },
+  {
+   "ts": 1795022936,
+   "equity": 9641.91,
+   "spy": 9641.56
   }
  ],
  "daily": [
@@ -6492,6 +6502,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795022936,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.4,
+   "errors": [],
+   "run_id": "44359114094",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795022623,
    "phase": "open",
@@ -6881,29 +6901,19 @@
    "errors": [],
    "run_id": "44177784216",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794949790,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.2,
-   "errors": [],
-   "run_id": "44176853637",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795022623,
+  "tick_at": 1795022936,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795022630,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1795022949,
+  "candidates": 28,
+  "charts_fetched": 30,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795022400,
+  "last_bar_end": 1795022700,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 87,
+  "triggers_seen": 93,
   "missed": [
    "BKNG",
    "CHTR",
@@ -765,7 +765,13 @@
    "ABNB",
    "BA",
    "BX",
-   "CSCO"
+   "CSCO",
+   "ANET",
+   "BIIB",
+   "COST",
+   "DAL",
+   "HOOD",
+   "TTD"
   ],
   "triggered": [
    "CMG",
@@ -854,7 +860,13 @@
    "ABNB",
    "BA",
    "BX",
-   "CSCO"
+   "CSCO",
+   "ANET",
+   "BIIB",
+   "COST",
+   "DAL",
+   "HOOD",
+   "TTD"
   ],
   "hits": [
    {
@@ -1552,6 +1564,54 @@
     "or_high": 96.2,
     "or_low": 94.22,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "ANET",
+    "at": "12:25",
+    "price": 190.18,
+    "or_high": 190.0,
+    "or_low": 183.12,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "BIIB",
+    "at": "12:25",
+    "price": 252.24,
+    "or_high": 251.83,
+    "or_low": 247.0,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "COST",
+    "at": "12:25",
+    "price": 1110.59,
+    "or_high": 1110.45,
+    "or_low": 1097.5,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DAL",
+    "at": "12:25",
+    "price": 86.27,
+    "or_high": 86.15,
+    "or_low": 84.29,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "HOOD",
+    "at": "12:25",
+    "price": 69.35,
+    "or_high": 69.29,
+    "or_low": 67.8,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "TTD",
+    "at": "12:25",
+    "price": 15.22,
+    "or_high": 15.21,
+    "or_low": 14.78,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1559,8 +1619,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.0399780273438,
-  "last_ts": 1795022400
+  "last": 732.5499877929688,
+  "last_ts": 1795022700
  },
  "seen_trades": 0,
  "daily": [
