@@ -1,21 +1,21 @@
 {
- "updated": 1795014430,
- "updated_et": "2026-11-18 10:07 ET",
+ "updated": 1795014750,
+ "updated_et": "2026-11-18 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9604.96,
-  "return": -0.039504000000000095,
+  "equity": 9589.0,
+  "return": -0.041100000000000025,
   "started": 1793559735
  },
  "spy": {
-  "value": 9641.41,
-  "return": -0.035858999999999974,
+  "value": 9625.96,
+  "return": -0.037404000000000104,
   "start_price": 759.47998046875,
-  "last": 732.5385131835938
+  "last": 731.364990234375
  },
  "position": {
   "symbol": "TJX",
@@ -468,9 +468,17 @@
     "or_high": 188.47,
     "or_low": 185.65,
     "pct_over": 0.44
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:10",
+    "price": 306.19,
+    "or_high": 305.3,
+    "or_low": 299.37,
+    "pct_over": 0.29
    }
   ],
-  "n_hits": 54,
+  "n_hits": 55,
   "entries": 1,
   "max_trades": 3
  },
@@ -1135,6 +1143,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795014600,
+   "et": "2026-11-18 10:10",
+   "kind": "busy",
+   "text": "1 more breakout (MDB) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "MDB"
+   ]
+  },
   {
    "ts": 1795014300,
    "et": "2026-11-18 10:05",
@@ -2027,17 +2044,6 @@
     "LOW",
     "LYFT",
     "RKT"
-   ]
-  },
-  {
-   "ts": 1794584400,
-   "et": "2026-11-13 10:40",
-   "kind": "busy",
-   "text": "3 more breakouts (GILD, HD, LLY) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "GILD",
-    "HD",
-    "LLY"
    ]
   }
  ],
@@ -6231,6 +6237,11 @@
    "ts": 1795014430,
    "equity": 9604.96,
    "spy": 9641.41
+  },
+  {
+   "ts": 1795014750,
+   "equity": 9589.0,
+   "spy": 9625.96
   }
  ],
  "daily": [
@@ -6308,6 +6319,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795014750,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.2,
+   "errors": [],
+   "run_id": "44332870405",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795014430,
    "phase": "open",
@@ -6697,25 +6718,15 @@
    "errors": [],
    "run_id": "44153533030",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794941598,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.7,
-   "errors": [],
-   "run_id": "44152610956",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795014430,
+  "tick_at": 1795014750,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795014443,
-  "candidates": 42,
-  "charts_fetched": 44,
+  "yahoo_time": 1795014761,
+  "candidates": 30,
+  "charts_fetched": 32,
   "ok": true,
   "errors": [],
   "stale_data": false,
