@@ -1,49 +1,39 @@
 {
- "updated": 1795013484,
- "updated_et": "2026-11-18 09:51 ET",
+ "updated": 1795013802,
+ "updated_et": "2026-11-18 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9560.34,
-  "equity": 9560.34,
-  "return": -0.04396599999999995,
+  "cash": 5611.55,
+  "equity": 9562.12,
+  "return": -0.04378799999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9604.57,
-  "return": -0.039542999999999995,
+  "value": 9624.71,
+  "return": -0.037529000000000035,
   "start_price": 759.47998046875,
-  "last": 729.7399291992188
+  "last": 731.27001953125
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "TJX",
   "qty": 28,
-  "plan": {
-   "symbol": "TJX",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-18",
-   "entry_time": "9:50 AM",
-   "entry": 140.93,
-   "stop": 137.42,
-   "target": 144.44,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 141.0282,
+  "entry_et": "09:50",
+  "stop": 137.42,
+  "target": 144.44,
+  "last": null,
   "why": {
    "scanner": "TJX: the 09:45 bar closed at $140.93, above the 15-min opening range high $140.80 (range 134.05-140.80)",
    "exit": "plan: entry $140.93, stop $137.42 (opening-range midpoint), target $144.44 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on TJX: 28 shares, bound by your $100 max loss per trade (28 x 3.51 = $98.28 at the stop) (limits: max loss 28; position cap 50; max order 56; cash 61)",
    "risk": "trader-risk PASS: entry 140.93 (the plan's entry), stop 137.42, target 144.44: risk 3.51 a share; max loss $98.28 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795013400,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-18",
   "hits": [
@@ -102,13 +92,133 @@
     "or_high": 140.8,
     "or_low": 134.05,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "BKNG",
+    "at": "09:55",
+    "price": 155.22,
+    "or_high": 155.01,
+    "or_low": 152.39,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:55",
+    "price": 138.88,
+    "or_high": 138.5,
+    "or_low": 135.5,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "CVNA",
+    "at": "09:55",
+    "price": 72.9,
+    "or_high": 72.81,
+    "or_low": 70.77,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:55",
+    "price": 177.49,
+    "or_high": 177.05,
+    "or_low": 173.92,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "GE",
+    "at": "09:55",
+    "price": 329.54,
+    "or_high": 327.91,
+    "or_low": 325.31,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "GME",
+    "at": "09:55",
+    "price": 25.86,
+    "or_high": 25.79,
+    "or_low": 25.25,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "LULU",
+    "at": "09:55",
+    "price": 106.22,
+    "or_high": 105.81,
+    "or_low": 103.25,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "NCLH",
+    "at": "09:55",
+    "price": 18.15,
+    "or_high": 18.12,
+    "or_low": 17.56,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "OKTA",
+    "at": "09:55",
+    "price": 178.61,
+    "or_high": 178.47,
+    "or_low": 174.91,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:55",
+    "price": 320.21,
+    "or_high": 316.0,
+    "or_low": 311.63,
+    "pct_over": 1.33
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:55",
+    "price": 46.31,
+    "or_high": 45.93,
+    "or_low": 43.43,
+    "pct_over": 0.83
+   },
+   {
+    "symbol": "RIVN",
+    "at": "09:55",
+    "price": 12.03,
+    "or_high": 11.93,
+    "or_low": 11.62,
+    "pct_over": 0.91
+   },
+   {
+    "symbol": "ROST",
+    "at": "09:55",
+    "price": 226.88,
+    "or_high": 226.68,
+    "or_low": 221.13,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "RTX",
+    "at": "09:55",
+    "price": 198.43,
+    "or_high": 198.0,
+    "or_low": 195.89,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "XPEV",
+    "at": "09:55",
+    "price": 10.14,
+    "or_high": 10.12,
+    "or_low": 9.98,
+    "pct_over": 0.15
    }
   ],
-  "n_hits": 7,
+  "n_hits": 22,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 28 TJX at the next bar's open (signal at 09:50 ET). Then: stop $137.42, target $144.44.",
+ "next_move": "Holding 28 TJX bought at $141.03. It sells at the stop $137.42, the target $144.44, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 26,
   "wins": 11,
@@ -769,6 +879,36 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795013700,
+   "et": "2026-11-18 09:55",
+   "kind": "busy",
+   "text": "15 more breakouts (BKNG, CHTR, CVNA, FANG, GE, GME, LULU, NCLH ...) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "BKNG",
+    "CHTR",
+    "CVNA",
+    "FANG",
+    "GE",
+    "GME",
+    "LULU",
+    "NCLH",
+    "OKTA",
+    "PANW",
+    "RBLX",
+    "RIVN",
+    "ROST",
+    "RTX",
+    "XPEV"
+   ]
+  },
+  {
+   "ts": 1795013400,
+   "et": "2026-11-18 09:50",
+   "kind": "fill",
+   "text": "BUY 28 TJX filled at $141.03 (next bar's open $141.00 + slippage). Stop $137.42, target $144.44",
+   "symbol": "TJX"
+  },
   {
    "ts": 1795013400,
    "et": "2026-11-18 09:50",
@@ -1618,29 +1758,6 @@
    "symbols": [
     "COP",
     "UPS"
-   ]
-  },
-  {
-   "ts": 1794582600,
-   "et": "2026-11-13 10:10",
-   "kind": "busy",
-   "text": "2 more breakouts (NU, SCHW) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "NU",
-    "SCHW"
-   ]
-  },
-  {
-   "ts": 1794582300,
-   "et": "2026-11-13 10:05",
-   "kind": "busy",
-   "text": "5 more breakouts (COF, DUOL, ISRG, PDD, PEP) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "COF",
-    "DUOL",
-    "ISRG",
-    "PDD",
-    "PEP"
    ]
   }
  ],
@@ -5819,6 +5936,11 @@
    "ts": 1795013484,
    "equity": 9560.34,
    "spy": 9604.57
+  },
+  {
+   "ts": 1795013802,
+   "equity": 9562.12,
+   "spy": 9624.71
   }
  ],
  "daily": [
@@ -5896,6 +6018,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795013802,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.9,
+   "errors": [],
+   "run_id": "44329832835",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795013484,
    "phase": "open",
@@ -6285,29 +6417,19 @@
    "errors": [],
    "run_id": "44150756938",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794940653,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "44149837825",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795013484,
+  "tick_at": 1795013802,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795013497,
-  "candidates": 28,
-  "charts_fetched": 29,
+  "yahoo_time": 1795013818,
+  "candidates": 63,
+  "charts_fetched": 65,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
