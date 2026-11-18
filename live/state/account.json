@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795026000,
+  "last_bar_end": 1795026300,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 101,
+  "triggers_seen": 102,
   "missed": [
    "BKNG",
    "CHTR",
@@ -779,7 +779,8 @@
    "TWLO",
    "SO",
    "DPZ",
-   "SPOT"
+   "SPOT",
+   "AEP"
   ],
   "triggered": [
    "CMG",
@@ -882,7 +883,8 @@
    "TWLO",
    "SO",
    "DPZ",
-   "SPOT"
+   "SPOT",
+   "AEP"
   ],
   "hits": [
    {
@@ -1692,6 +1694,14 @@
     "or_high": 610.0,
     "or_low": 595.0,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "AEP",
+    "at": "13:25",
+    "price": 126.74,
+    "or_high": 126.74,
+    "or_low": 125.42,
+    "pct_over": 0.0
    }
   ]
  },
@@ -1699,8 +1709,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.1099853515625,
-  "last_ts": 1795026000
+  "last": 731.8499755859375,
+  "last_ts": 1795026300
  },
  "seen_trades": 0,
  "daily": [
