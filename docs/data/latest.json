@@ -1,21 +1,21 @@
 {
- "updated": 1795026400,
- "updated_et": "2026-11-18 13:26 ET",
+ "updated": 1795026718,
+ "updated_et": "2026-11-18 13:31 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9630.85,
-  "return": -0.03691499999999992,
+  "equity": 9625.39,
+  "return": -0.03746100000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 9632.34,
-  "return": -0.036765999999999965,
+  "value": 9634.71,
+  "return": -0.036529000000000034,
   "start_price": 759.47998046875,
-  "last": 731.8499755859375
+  "last": 732.030029296875
  },
  "position": {
   "symbol": "TJX",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "SMCI",
-    "at": "10:00",
-    "price": 24.72,
-    "or_high": 24.65,
-    "or_low": 23.76,
-    "pct_over": 0.28
-   },
    {
     "symbol": "TGT",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 126.74,
     "or_low": 125.42,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "NFLX",
+    "at": "13:30",
+    "price": 60.38,
+    "or_high": 60.37,
+    "or_low": 59.66,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 102,
+  "n_hits": 103,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795026600,
+   "et": "2026-11-18 13:30",
+   "kind": "busy",
+   "text": "1 more breakout (NFLX) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "NFLX"
+   ]
+  },
   {
    "ts": 1795026300,
    "et": "2026-11-18 13:25",
@@ -2094,13 +2103,6 @@
     "LYFT",
     "DPZ"
    ]
-  },
-  {
-   "ts": 1794603300,
-   "et": "2026-11-13 15:55",
-   "kind": "exit",
-   "text": "SELL 13 MSFT at $525.29: flat by 15:55 ET (the skill's flat-by rule). P&L $+24.43 (+0.32R)",
-   "symbol": "MSFT"
   }
  ],
  "equity": [
@@ -6483,6 +6485,11 @@
    "ts": 1795026400,
    "equity": 9630.85,
    "spy": 9632.34
+  },
+  {
+   "ts": 1795026718,
+   "equity": 9625.39,
+   "spy": 9634.71
   }
  ],
  "daily": [
@@ -6560,6 +6567,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795026718,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.9,
+   "errors": [],
+   "run_id": "44370687484",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795026400,
    "phase": "open",
@@ -6949,29 +6966,19 @@
    "errors": [],
    "run_id": "44331850965",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795014119,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 26.6,
-   "errors": [],
-   "run_id": "44330834117",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795026400,
+  "tick_at": 1795026718,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795026413,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795026724,
+  "candidates": 15,
+  "charts_fetched": 17,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
