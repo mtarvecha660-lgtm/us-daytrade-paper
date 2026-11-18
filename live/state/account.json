@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795017300,
+  "last_bar_end": 1795017600,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 70,
+  "triggers_seen": 71,
   "missed": [
    "BKNG",
    "CHTR",
@@ -748,7 +748,8 @@
    "IDXX",
    "D",
    "BB",
-   "DOCU"
+   "DOCU",
+   "DDOG"
   ],
   "triggered": [
    "CMG",
@@ -820,7 +821,8 @@
    "IDXX",
    "D",
    "BB",
-   "DOCU"
+   "DOCU",
+   "DDOG"
   ],
   "hits": [
    {
@@ -1382,6 +1384,14 @@
     "or_high": 76.73,
     "or_low": 75.78,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "DDOG",
+    "at": "11:00",
+    "price": 168.07,
+    "or_high": 167.76,
+    "or_low": 162.74,
+    "pct_over": 0.18
    }
   ]
  },
@@ -1389,8 +1399,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 729.2999877929688,
-  "last_ts": 1795017300
+  "last": 730.6199951171875,
+  "last_ts": 1795017600
  },
  "seen_trades": 0,
  "daily": [
