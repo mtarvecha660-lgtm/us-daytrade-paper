@@ -1,21 +1,21 @@
 {
- "updated": 1795021363,
- "updated_et": "2026-11-18 12:02 ET",
+ "updated": 1795021680,
+ "updated_et": "2026-11-18 12:08 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9618.39,
-  "return": -0.03816100000000011,
+  "equity": 9629.17,
+  "return": -0.03708299999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9600.23,
-  "return": -0.03997700000000004,
+  "value": 9612.08,
+  "return": -0.03879200000000005,
   "start_price": 759.47998046875,
-  "last": 729.4099731445312
+  "last": 730.3099975585938
  },
  "position": {
   "symbol": "TJX",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "ROST",
-    "at": "09:55",
-    "price": 226.88,
-    "or_high": 226.68,
-    "or_low": 221.13,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "RTX",
-    "at": "09:55",
-    "price": 198.43,
-    "or_high": 198.0,
-    "or_low": 195.89,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "XPEV",
-    "at": "09:55",
-    "price": 10.14,
-    "or_high": 10.12,
-    "or_low": 9.98,
-    "pct_over": 0.15
-   },
    {
     "symbol": "AMZN",
     "at": "10:00",
@@ -516,9 +492,33 @@
     "or_high": 84.4,
     "or_low": 82.15,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "HMC",
+    "at": "12:05",
+    "price": 33.97,
+    "or_high": 33.94,
+    "or_low": 33.74,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "PYPL",
+    "at": "12:05",
+    "price": 58.39,
+    "or_high": 58.33,
+    "or_low": 57.27,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SBUX",
+    "at": "12:05",
+    "price": 109.16,
+    "or_high": 108.97,
+    "or_low": 107.05,
+    "pct_over": 0.17
    }
   ],
-  "n_hits": 79,
+  "n_hits": 82,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795021500,
+   "et": "2026-11-18 12:05",
+   "kind": "busy",
+   "text": "3 more breakouts (HMC, PYPL, SBUX) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "HMC",
+    "PYPL",
+    "SBUX"
+   ]
+  },
   {
    "ts": 1795021200,
    "et": "2026-11-18 12:00",
@@ -2078,15 +2089,6 @@
    "text": "1 more breakout (SWKS) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "SWKS"
-   ]
-  },
-  {
-   "ts": 1794595500,
-   "et": "2026-11-13 13:45",
-   "kind": "busy",
-   "text": "1 more breakout (XPEV) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "XPEV"
    ]
   }
  ],
@@ -6390,6 +6392,11 @@
    "ts": 1795021363,
    "equity": 9618.39,
    "spy": 9600.23
+  },
+  {
+   "ts": 1795021680,
+   "equity": 9629.17,
+   "spy": 9612.08
   }
  ],
  "daily": [
@@ -6467,6 +6474,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795021680,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.4,
+   "errors": [],
+   "run_id": "44355128883",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795021363,
    "phase": "open",
@@ -6856,29 +6873,19 @@
    "errors": [],
    "run_id": "44174101439",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794948529,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.3,
-   "errors": [],
-   "run_id": "44173199084",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795021363,
+  "tick_at": 1795021680,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795021371,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795021692,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

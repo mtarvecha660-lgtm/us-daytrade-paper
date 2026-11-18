@@ -418,3 +418,4 @@
 {"ts": 1795019700, "et": "2026-11-18 11:35", "kind": "busy", "text": "1 more breakout (MMM) not taken: already in TJX (one trade at a time)", "symbols": ["MMM"]}
 {"ts": 1795020600, "et": "2026-11-18 11:50", "kind": "busy", "text": "2 more breakouts (DG, PEP) not taken: already in TJX (one trade at a time)", "symbols": ["DG", "PEP"]}
 {"ts": 1795021200, "et": "2026-11-18 12:00", "kind": "busy", "text": "1 more breakout (ZTS) not taken: already in TJX (one trade at a time)", "symbols": ["ZTS"]}
+{"ts": 1795021500, "et": "2026-11-18 12:05", "kind": "busy", "text": "3 more breakouts (HMC, PYPL, SBUX) not taken: already in TJX (one trade at a time)", "symbols": ["HMC", "PYPL", "SBUX"]}
