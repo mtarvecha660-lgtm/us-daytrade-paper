@@ -1,21 +1,21 @@
 {
- "updated": 1795033351,
- "updated_et": "2026-11-18 15:22 ET",
+ "updated": 1795033665,
+ "updated_et": "2026-11-18 15:27 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9569.97,
-  "return": -0.04300300000000001,
+  "equity": 9571.36,
+  "return": -0.0428639999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9613.13,
-  "return": -0.03868700000000003,
+  "value": 9608.0,
+  "return": -0.03920000000000001,
   "start_price": 759.47998046875,
-  "last": 730.3900146484375
+  "last": 730.0
  },
  "position": {
   "symbol": "TJX",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "VRTX",
-    "at": "10:00",
-    "price": 539.36,
-    "or_high": 538.6,
-    "or_low": 531.43,
-    "pct_over": 0.14
-   },
    {
     "symbol": "W",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 5.61,
     "or_low": 5.45,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "DUK",
+    "at": "15:25",
+    "price": 130.35,
+    "or_high": 130.24,
+    "or_low": 128.51,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 107,
+  "n_hits": 108,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795033500,
+   "et": "2026-11-18 15:25",
+   "kind": "busy",
+   "text": "1 more breakout (DUK) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "DUK"
+   ]
+  },
   {
    "ts": 1795027200,
    "et": "2026-11-18 13:40",
@@ -2083,17 +2092,6 @@
    "symbols": [
     "RIVN",
     "SMCI"
-   ]
-  },
-  {
-   "ts": 1794840900,
-   "et": "2026-11-16 09:55",
-   "kind": "busy",
-   "text": "3 more breakouts (CMCSA, COIN, SNPS) not taken: already in UBER (one trade at a time)",
-   "symbols": [
-    "CMCSA",
-    "COIN",
-    "SNPS"
    ]
   }
  ],
@@ -6587,6 +6585,11 @@
    "ts": 1795033351,
    "equity": 9569.97,
    "spy": 9613.13
+  },
+  {
+   "ts": 1795033665,
+   "equity": 9571.36,
+   "spy": 9608.0
   }
  ],
  "daily": [
@@ -6664,6 +6667,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795033665,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.8,
+   "errors": [],
+   "run_id": "44391236781",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795033351,
    "phase": "open",
@@ -7053,23 +7066,13 @@
    "errors": [],
    "run_id": "44354134836",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795021050,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "44353156602",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795033351,
+  "tick_at": 1795033665,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795033357,
+  "yahoo_time": 1795033672,
   "candidates": 6,
   "charts_fetched": 8,
   "ok": true,
