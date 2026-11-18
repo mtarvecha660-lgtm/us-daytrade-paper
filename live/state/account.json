@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795016400,
+  "last_bar_end": 1795016700,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 67,
+  "triggers_seen": 68,
   "missed": [
    "BKNG",
    "CHTR",
@@ -745,7 +745,8 @@
    "NKE",
    "LUV",
    "HD",
-   "IDXX"
+   "IDXX",
+   "D"
   ],
   "triggered": [
    "CMG",
@@ -814,7 +815,8 @@
    "NKE",
    "LUV",
    "HD",
-   "IDXX"
+   "IDXX",
+   "D"
   ],
   "hits": [
    {
@@ -1352,6 +1354,14 @@
     "or_high": 696.75,
     "or_low": 683.72,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "D",
+    "at": "10:45",
+    "price": 67.33,
+    "or_high": 67.28,
+    "or_low": 66.77,
+    "pct_over": 0.08
    }
   ]
  },
@@ -1359,8 +1369,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 730.0800170898438,
-  "last_ts": 1795016400
+  "last": 729.6699829101562,
+  "last_ts": 1795016700
  },
  "seen_trades": 0,
  "daily": [
