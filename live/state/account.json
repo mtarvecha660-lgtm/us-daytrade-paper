@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795014000,
+  "last_bar_end": 1795014300,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 49,
+  "triggers_seen": 54,
   "missed": [
    "BKNG",
    "CHTR",
@@ -727,7 +727,12 @@
    "UBER",
    "UPS",
    "VRTX",
-   "W"
+   "W",
+   "CHPT",
+   "EBAY",
+   "NET",
+   "WMT",
+   "ZS"
   ],
   "triggered": [
    "CMG",
@@ -778,7 +783,12 @@
    "UBER",
    "UPS",
    "VRTX",
-   "W"
+   "W",
+   "CHPT",
+   "EBAY",
+   "NET",
+   "WMT",
+   "ZS"
   ],
   "hits": [
    {
@@ -1172,6 +1182,46 @@
     "or_high": 107.82,
     "or_low": 105.58,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "CHPT",
+    "at": "10:05",
+    "price": 9.94,
+    "or_high": 9.86,
+    "or_low": 9.51,
+    "pct_over": 0.86
+   },
+   {
+    "symbol": "EBAY",
+    "at": "10:05",
+    "price": 120.1,
+    "or_high": 119.88,
+    "or_low": 117.94,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "NET",
+    "at": "10:05",
+    "price": 293.7,
+    "or_high": 292.39,
+    "or_low": 283.21,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:05",
+    "price": 127.11,
+    "or_high": 127.08,
+    "or_low": 125.07,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "ZS",
+    "at": "10:05",
+    "price": 189.3,
+    "or_high": 188.47,
+    "or_low": 185.65,
+    "pct_over": 0.44
    }
   ]
  },
@@ -1179,8 +1229,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 733.6500244140625,
-  "last_ts": 1795014000
+  "last": 732.5385131835938,
+  "last_ts": 1795014300
  },
  "seen_trades": 0,
  "daily": [

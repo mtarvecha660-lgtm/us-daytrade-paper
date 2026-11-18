@@ -1,21 +1,21 @@
 {
- "updated": 1795014119,
- "updated_et": "2026-11-18 10:01 ET",
+ "updated": 1795014430,
+ "updated_et": "2026-11-18 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9587.32,
-  "return": -0.04126800000000008,
+  "equity": 9604.96,
+  "return": -0.039504000000000095,
   "started": 1793559735
  },
  "spy": {
-  "value": 9656.04,
-  "return": -0.03439599999999987,
+  "value": 9641.41,
+  "return": -0.035858999999999974,
   "start_price": 759.47998046875,
-  "last": 733.6500244140625
+  "last": 732.5385131835938
  },
  "position": {
   "symbol": "TJX",
@@ -428,9 +428,49 @@
     "or_high": 107.82,
     "or_low": 105.58,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "CHPT",
+    "at": "10:05",
+    "price": 9.94,
+    "or_high": 9.86,
+    "or_low": 9.51,
+    "pct_over": 0.86
+   },
+   {
+    "symbol": "EBAY",
+    "at": "10:05",
+    "price": 120.1,
+    "or_high": 119.88,
+    "or_low": 117.94,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "NET",
+    "at": "10:05",
+    "price": 293.7,
+    "or_high": 292.39,
+    "or_low": 283.21,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:05",
+    "price": 127.11,
+    "or_high": 127.08,
+    "or_low": 125.07,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "ZS",
+    "at": "10:05",
+    "price": 189.3,
+    "or_high": 188.47,
+    "or_low": 185.65,
+    "pct_over": 0.44
    }
   ],
-  "n_hits": 49,
+  "n_hits": 54,
   "entries": 1,
   "max_trades": 3
  },
@@ -1095,6 +1135,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795014300,
+   "et": "2026-11-18 10:05",
+   "kind": "busy",
+   "text": "5 more breakouts (CHPT, EBAY, NET, WMT, ZS) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "CHPT",
+    "EBAY",
+    "NET",
+    "WMT",
+    "ZS"
+   ]
+  },
   {
    "ts": 1795014000,
    "et": "2026-11-18 10:00",
@@ -1985,20 +2038,6 @@
     "GILD",
     "HD",
     "LLY"
-   ]
-  },
-  {
-   "ts": 1794584100,
-   "et": "2026-11-13 10:35",
-   "kind": "busy",
-   "text": "6 more breakouts (APO, CVX, DPZ, JNJ, KO, YUM) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "APO",
-    "CVX",
-    "DPZ",
-    "JNJ",
-    "KO",
-    "YUM"
    ]
   }
  ],
@@ -6187,6 +6226,11 @@
    "ts": 1795014119,
    "equity": 9587.32,
    "spy": 9656.04
+  },
+  {
+   "ts": 1795014430,
+   "equity": 9604.96,
+   "spy": 9641.41
   }
  ],
  "daily": [
@@ -6264,6 +6308,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795014430,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.2,
+   "errors": [],
+   "run_id": "44331850965",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795014119,
    "phase": "open",
@@ -6653,29 +6707,19 @@
    "errors": [],
    "run_id": "44152610956",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794941284,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.6,
-   "errors": [],
-   "run_id": "44151688397",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795014119,
+  "tick_at": 1795014430,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795014145,
-  "candidates": 96,
-  "charts_fetched": 98,
+  "yahoo_time": 1795014443,
+  "candidates": 42,
+  "charts_fetched": 44,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
