@@ -1,21 +1,21 @@
 {
- "updated": 1795021050,
- "updated_et": "2026-11-18 11:57 ET",
+ "updated": 1795021363,
+ "updated_et": "2026-11-18 12:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9616.29,
-  "return": -0.03837099999999993,
+  "equity": 9618.39,
+  "return": -0.03816100000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9574.24,
-  "return": -0.04257600000000006,
+  "value": 9600.23,
+  "return": -0.03997700000000004,
   "start_price": 759.47998046875,
-  "last": 727.4349975585938
+  "last": 729.4099731445312
  },
  "position": {
   "symbol": "TJX",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "RIVN",
-    "at": "09:55",
-    "price": 12.03,
-    "or_high": 11.93,
-    "or_low": 11.62,
-    "pct_over": 0.91
-   },
    {
     "symbol": "ROST",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 142.33,
     "or_low": 140.11,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "ZTS",
+    "at": "12:00",
+    "price": 84.47,
+    "or_high": 84.4,
+    "or_low": 82.15,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 78,
+  "n_hits": 79,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795021200,
+   "et": "2026-11-18 12:00",
+   "kind": "busy",
+   "text": "1 more breakout (ZTS) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "ZTS"
+   ]
+  },
   {
    "ts": 1795020600,
    "et": "2026-11-18 11:50",
@@ -2078,15 +2087,6 @@
    "text": "1 more breakout (XPEV) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "XPEV"
-   ]
-  },
-  {
-   "ts": 1794594000,
-   "et": "2026-11-13 13:20",
-   "kind": "busy",
-   "text": "1 more breakout (DOCU) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "DOCU"
    ]
   }
  ],
@@ -6385,6 +6385,11 @@
    "ts": 1795021050,
    "equity": 9616.29,
    "spy": 9574.24
+  },
+  {
+   "ts": 1795021363,
+   "equity": 9618.39,
+   "spy": 9600.23
   }
  ],
  "daily": [
@@ -6462,6 +6467,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795021363,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.3,
+   "errors": [],
+   "run_id": "44354134836",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795021050,
    "phase": "open",
@@ -6851,25 +6866,15 @@
    "errors": [],
    "run_id": "44173199084",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794948215,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.5,
-   "errors": [],
-   "run_id": "44172274781",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795021050,
+  "tick_at": 1795021363,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795021057,
-  "candidates": 9,
-  "charts_fetched": 11,
+  "yahoo_time": 1795021371,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,
