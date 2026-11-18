@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795017600,
+  "last_bar_end": 1795017900,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -1399,8 +1399,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 730.6199951171875,
-  "last_ts": 1795017600
+  "last": 729.9299926757812,
+  "last_ts": 1795017900
  },
  "seen_trades": 0,
  "daily": [

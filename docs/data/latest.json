@@ -1,21 +1,21 @@
 {
- "updated": 1795017894,
- "updated_et": "2026-11-18 11:04 ET",
+ "updated": 1795018209,
+ "updated_et": "2026-11-18 11:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9622.03,
-  "return": -0.03779699999999997,
+  "equity": 9615.03,
+  "return": -0.03849699999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 9616.16,
-  "return": -0.038383999999999974,
+  "value": 9607.07,
+  "return": -0.03929300000000002,
   "start_price": 759.47998046875,
-  "last": 730.6199951171875
+  "last": 729.9299926757812
  },
  "position": {
   "symbol": "TJX",
@@ -6333,6 +6333,11 @@
    "ts": 1795017894,
    "equity": 9622.03,
    "spy": 9616.16
+  },
+  {
+   "ts": 1795018209,
+   "equity": 9615.03,
+   "spy": 9607.07
   }
  ],
  "daily": [
@@ -6410,6 +6415,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795018209,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.7,
+   "errors": [],
+   "run_id": "44343997385",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795017894,
    "phase": "open",
@@ -6799,25 +6814,15 @@
    "errors": [],
    "run_id": "44163878819",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794945064,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 6.4,
-   "errors": [],
-   "run_id": "44162947736",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795017894,
+  "tick_at": 1795018209,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795017908,
-  "candidates": 22,
-  "charts_fetched": 24,
+  "yahoo_time": 1795018220,
+  "candidates": 19,
+  "charts_fetched": 21,
   "ok": true,
   "errors": [],
   "stale_data": false,
