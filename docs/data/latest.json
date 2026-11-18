@@ -1,6 +1,6 @@
 {
- "updated": 1795036188,
- "updated_et": "2026-11-18 16:09 ET",
+ "updated": 1795036497,
+ "updated_et": "2026-11-18 16:14 ET",
  "phase": "after-close",
  "paper": true,
  "version": "orb-v1",
@@ -527,18 +527,18 @@
   }
  },
  "curve": {
-  "return": -0.04396599999999995,
+  "return": -0.04504699999999995,
   "max_drawdown": -0.06763700000000006,
-  "sharpe": -5.158564837713976,
-  "sortino": -6.0154732784133085,
-  "days": 13
+  "sharpe": -5.089988559698368,
+  "sortino": -5.924082489013175,
+  "days": 14
  },
  "spy_curve": {
-  "return": -0.03605499999999995,
-  "max_drawdown": -0.04479985730636016,
-  "sharpe": -2.6251776194754775,
-  "sortino": -3.1959582746124418,
-  "days": 13
+  "return": -0.038772999999999946,
+  "max_drawdown": -0.04749319975623156,
+  "sharpe": -2.7352420205748285,
+  "sortino": -3.3131315440907065,
+  "days": 14
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
@@ -6705,9 +6705,25 @@
    "equity": 9560.34,
    "spy": 9639.45,
    "trades": 3
+  },
+  {
+   "date": "2026-11-18",
+   "equity": 9549.53,
+   "spy": 9612.27,
+   "trades": 1
   }
  ],
  "runs": [
+  {
+   "ts": 1795036497,
+   "phase": "after-close",
+   "status": "ok",
+   "bars": 0,
+   "secs": 5.5,
+   "errors": [],
+   "run_id": "44399440830",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795036188,
    "phase": "after-close",
@@ -7097,25 +7113,15 @@
    "errors": [],
    "run_id": "44361998470",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795023566,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.8,
-   "errors": [],
-   "run_id": "44361044042",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795036188,
+  "tick_at": 1795036497,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795035601,
-  "candidates": 16,
-  "charts_fetched": 17,
+  "yahoo_time": 1795035600,
+  "candidates": 2,
+  "charts_fetched": 3,
   "ok": true,
   "errors": [],
   "stale_data": false,
