@@ -1,21 +1,21 @@
 {
- "updated": 1795013802,
- "updated_et": "2026-11-18 09:56 ET",
+ "updated": 1795014119,
+ "updated_et": "2026-11-18 10:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9562.12,
-  "return": -0.04378799999999994,
+  "equity": 9587.32,
+  "return": -0.04126800000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 9624.71,
-  "return": -0.037529000000000035,
+  "value": 9656.04,
+  "return": -0.03439599999999987,
   "start_price": 759.47998046875,
-  "last": 731.27001953125
+  "last": 733.6500244140625
  },
  "position": {
   "symbol": "TJX",
@@ -212,9 +212,225 @@
     "or_high": 10.12,
     "or_low": 9.98,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 263.28,
+    "or_high": 263.1,
+    "or_low": 259.63,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:00",
+    "price": 99.13,
+    "or_high": 98.94,
+    "or_low": 96.68,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:00",
+    "price": 312.49,
+    "or_high": 311.9,
+    "or_low": 308.51,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CHWY",
+    "at": "10:00",
+    "price": 20.86,
+    "or_high": 20.8,
+    "or_low": 20.25,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "CPNG",
+    "at": "10:00",
+    "price": 14.06,
+    "or_high": 14.05,
+    "or_low": 13.91,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CRWD",
+    "at": "10:00",
+    "price": 225.4,
+    "or_high": 225.0,
+    "or_low": 218.51,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:00",
+    "price": 23.53,
+    "or_high": 23.25,
+    "or_low": 22.76,
+    "pct_over": 1.2
+   },
+   {
+    "symbol": "ETSY",
+    "at": "10:00",
+    "price": 84.86,
+    "or_high": 84.51,
+    "or_low": 82.38,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "F",
+    "at": "10:00",
+    "price": 11.39,
+    "or_high": 11.38,
+    "or_low": 11.25,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:00",
+    "price": 155.43,
+    "or_high": 155.22,
+    "or_low": 152.59,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "HON",
+    "at": "10:00",
+    "price": 220.4,
+    "or_high": 219.37,
+    "or_low": 217.3,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "LI",
+    "at": "10:00",
+    "price": 11.64,
+    "or_high": 11.63,
+    "or_low": 11.49,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:00",
+    "price": 219.68,
+    "or_high": 219.4,
+    "or_low": 211.0,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:00",
+    "price": 6.58,
+    "or_high": 6.56,
+    "or_low": 6.3,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:00",
+    "price": 1447.45,
+    "or_high": 1447.0,
+    "or_low": 1431.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 96.32,
+    "or_high": 96.31,
+    "or_low": 94.83,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:00",
+    "price": 8.75,
+    "or_high": 8.65,
+    "or_low": 8.31,
+    "pct_over": 1.1
+   },
+   {
+    "symbol": "RIOT",
+    "at": "10:00",
+    "price": 17.97,
+    "or_high": 17.88,
+    "or_low": 17.25,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:00",
+    "price": 13.46,
+    "or_high": 13.44,
+    "or_low": 13.12,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:00",
+    "price": 21.99,
+    "or_high": 21.75,
+    "or_low": 21.07,
+    "pct_over": 1.1
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 24.72,
+    "or_high": 24.65,
+    "or_low": 23.76,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:00",
+    "price": 168.18,
+    "or_high": 167.93,
+    "or_low": 159.95,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:00",
+    "price": 109.18,
+    "or_high": 108.72,
+    "or_low": 106.26,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "UBER",
+    "at": "10:00",
+    "price": 69.95,
+    "or_high": 69.75,
+    "or_low": 68.02,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:00",
+    "price": 110.58,
+    "or_high": 110.34,
+    "or_low": 108.8,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VRTX",
+    "at": "10:00",
+    "price": 539.36,
+    "or_high": 538.6,
+    "or_low": 531.43,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "W",
+    "at": "10:00",
+    "price": 108.15,
+    "or_high": 107.82,
+    "or_low": 105.58,
+    "pct_over": 0.31
    }
   ],
-  "n_hits": 22,
+  "n_hits": 49,
   "entries": 1,
   "max_trades": 3
  },
@@ -879,6 +1095,41 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795014000,
+   "et": "2026-11-18 10:00",
+   "kind": "busy",
+   "text": "27 more breakouts (AMZN, BBY, CDNS, CHWY, CPNG, CRWD, ENPH, ETSY ...) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "AMZN",
+    "BBY",
+    "CDNS",
+    "CHWY",
+    "CPNG",
+    "CRWD",
+    "ENPH",
+    "ETSY",
+    "F",
+    "FSLR",
+    "HON",
+    "LI",
+    "LOW",
+    "MARA",
+    "MELI",
+    "RDDT",
+    "RGTI",
+    "RIOT",
+    "RKT",
+    "SEDG",
+    "SMCI",
+    "TGT",
+    "UAL",
+    "UBER",
+    "UPS",
+    "VRTX",
+    "W"
+   ]
+  },
   {
    "ts": 1795013700,
    "et": "2026-11-18 09:55",
@@ -1748,16 +1999,6 @@
     "JNJ",
     "KO",
     "YUM"
-   ]
-  },
-  {
-   "ts": 1794583500,
-   "et": "2026-11-13 10:25",
-   "kind": "busy",
-   "text": "2 more breakouts (COP, UPS) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "COP",
-    "UPS"
    ]
   }
  ],
@@ -5941,6 +6182,11 @@
    "ts": 1795013802,
    "equity": 9562.12,
    "spy": 9624.71
+  },
+  {
+   "ts": 1795014119,
+   "equity": 9587.32,
+   "spy": 9656.04
   }
  ],
  "daily": [
@@ -6018,6 +6264,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795014119,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 26.6,
+   "errors": [],
+   "run_id": "44330834117",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795013802,
    "phase": "open",
@@ -6407,29 +6663,19 @@
    "errors": [],
    "run_id": "44151688397",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794940968,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.7,
-   "errors": [],
-   "run_id": "44150756938",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795013802,
+  "tick_at": 1795014119,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795013818,
-  "candidates": 63,
-  "charts_fetched": 65,
+  "yahoo_time": 1795014145,
+  "candidates": 96,
+  "charts_fetched": 98,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

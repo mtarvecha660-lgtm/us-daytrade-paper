@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795013700,
+  "last_bar_end": 1795014000,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 22,
+  "triggers_seen": 49,
   "missed": [
    "BKNG",
    "CHTR",
@@ -700,7 +700,34 @@
    "RIVN",
    "ROST",
    "RTX",
-   "XPEV"
+   "XPEV",
+   "AMZN",
+   "BBY",
+   "CDNS",
+   "CHWY",
+   "CPNG",
+   "CRWD",
+   "ENPH",
+   "ETSY",
+   "F",
+   "FSLR",
+   "HON",
+   "LI",
+   "LOW",
+   "MARA",
+   "MELI",
+   "RDDT",
+   "RGTI",
+   "RIOT",
+   "RKT",
+   "SEDG",
+   "SMCI",
+   "TGT",
+   "UAL",
+   "UBER",
+   "UPS",
+   "VRTX",
+   "W"
   ],
   "triggered": [
    "CMG",
@@ -724,7 +751,34 @@
    "RIVN",
    "ROST",
    "RTX",
-   "XPEV"
+   "XPEV",
+   "AMZN",
+   "BBY",
+   "CDNS",
+   "CHWY",
+   "CPNG",
+   "CRWD",
+   "ENPH",
+   "ETSY",
+   "F",
+   "FSLR",
+   "HON",
+   "LI",
+   "LOW",
+   "MARA",
+   "MELI",
+   "RDDT",
+   "RGTI",
+   "RIOT",
+   "RKT",
+   "SEDG",
+   "SMCI",
+   "TGT",
+   "UAL",
+   "UBER",
+   "UPS",
+   "VRTX",
+   "W"
   ],
   "hits": [
    {
@@ -902,6 +956,222 @@
     "or_high": 10.12,
     "or_low": 9.98,
     "pct_over": 0.15
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:00",
+    "price": 263.28,
+    "or_high": 263.1,
+    "or_low": 259.63,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:00",
+    "price": 99.13,
+    "or_high": 98.94,
+    "or_low": 96.68,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:00",
+    "price": 312.49,
+    "or_high": 311.9,
+    "or_low": 308.51,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "CHWY",
+    "at": "10:00",
+    "price": 20.86,
+    "or_high": 20.8,
+    "or_low": 20.25,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "CPNG",
+    "at": "10:00",
+    "price": 14.06,
+    "or_high": 14.05,
+    "or_low": 13.91,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "CRWD",
+    "at": "10:00",
+    "price": 225.4,
+    "or_high": 225.0,
+    "or_low": 218.51,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:00",
+    "price": 23.53,
+    "or_high": 23.25,
+    "or_low": 22.76,
+    "pct_over": 1.2
+   },
+   {
+    "symbol": "ETSY",
+    "at": "10:00",
+    "price": 84.86,
+    "or_high": 84.51,
+    "or_low": 82.38,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "F",
+    "at": "10:00",
+    "price": 11.39,
+    "or_high": 11.38,
+    "or_low": 11.25,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:00",
+    "price": 155.43,
+    "or_high": 155.22,
+    "or_low": 152.59,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "HON",
+    "at": "10:00",
+    "price": 220.4,
+    "or_high": 219.37,
+    "or_low": 217.3,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "LI",
+    "at": "10:00",
+    "price": 11.64,
+    "or_high": 11.63,
+    "or_low": 11.49,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:00",
+    "price": 219.68,
+    "or_high": 219.4,
+    "or_low": 211.0,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:00",
+    "price": 6.58,
+    "or_high": 6.56,
+    "or_low": 6.3,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:00",
+    "price": 1447.45,
+    "or_high": 1447.0,
+    "or_low": 1431.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 96.32,
+    "or_high": 96.31,
+    "or_low": 94.83,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:00",
+    "price": 8.75,
+    "or_high": 8.65,
+    "or_low": 8.31,
+    "pct_over": 1.1
+   },
+   {
+    "symbol": "RIOT",
+    "at": "10:00",
+    "price": 17.97,
+    "or_high": 17.88,
+    "or_low": 17.25,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:00",
+    "price": 13.46,
+    "or_high": 13.44,
+    "or_low": 13.12,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:00",
+    "price": 21.99,
+    "or_high": 21.75,
+    "or_low": 21.07,
+    "pct_over": 1.1
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 24.72,
+    "or_high": 24.65,
+    "or_low": 23.76,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:00",
+    "price": 168.18,
+    "or_high": 167.93,
+    "or_low": 159.95,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:00",
+    "price": 109.18,
+    "or_high": 108.72,
+    "or_low": 106.26,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "UBER",
+    "at": "10:00",
+    "price": 69.95,
+    "or_high": 69.75,
+    "or_low": 68.02,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "UPS",
+    "at": "10:00",
+    "price": 110.58,
+    "or_high": 110.34,
+    "or_low": 108.8,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VRTX",
+    "at": "10:00",
+    "price": 539.36,
+    "or_high": 538.6,
+    "or_low": 531.43,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "W",
+    "at": "10:00",
+    "price": 108.15,
+    "or_high": 107.82,
+    "or_low": 105.58,
+    "pct_over": 0.31
    }
   ]
  },
@@ -909,8 +1179,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.27001953125,
-  "last_ts": 1795013700
+  "last": 733.6500244140625,
+  "last_ts": 1795014000
  },
  "seen_trades": 0,
  "daily": [
