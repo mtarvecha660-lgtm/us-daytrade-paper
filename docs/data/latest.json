@@ -1,21 +1,21 @@
 {
- "updated": 1795020423,
- "updated_et": "2026-11-18 11:47 ET",
+ "updated": 1795020743,
+ "updated_et": "2026-11-18 11:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9613.21,
-  "return": -0.03867900000000013,
+  "equity": 9613.63,
+  "return": -0.03863700000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9579.7,
-  "return": -0.0420299999999999,
+  "value": 9585.1,
+  "return": -0.041489999999999916,
   "start_price": 759.47998046875,
-  "last": 727.8499755859375
+  "last": 728.260009765625
  },
  "position": {
   "symbol": "TJX",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "PANW",
-    "at": "09:55",
-    "price": 320.21,
-    "or_high": 316.0,
-    "or_low": 311.63,
-    "pct_over": 1.33
-   },
-   {
-    "symbol": "RBLX",
-    "at": "09:55",
-    "price": 46.31,
-    "or_high": 45.93,
-    "or_low": 43.43,
-    "pct_over": 0.83
-   },
    {
     "symbol": "RIVN",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 179.65,
     "or_low": 178.13,
     "pct_over": 0.22
+   },
+   {
+    "symbol": "DG",
+    "at": "11:50",
+    "price": 134.25,
+    "or_high": 134.18,
+    "or_low": 131.61,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "PEP",
+    "at": "11:50",
+    "price": 142.34,
+    "or_high": 142.33,
+    "or_low": 140.11,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 76,
+  "n_hits": 78,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795020600,
+   "et": "2026-11-18 11:50",
+   "kind": "busy",
+   "text": "2 more breakouts (DG, PEP) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "DG",
+    "PEP"
+   ]
+  },
   {
    "ts": 1795019700,
    "et": "2026-11-18 11:35",
@@ -2077,16 +2087,6 @@
    "text": "1 more breakout (DOCU) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "DOCU"
-   ]
-  },
-  {
-   "ts": 1794593400,
-   "et": "2026-11-13 13:10",
-   "kind": "busy",
-   "text": "2 more breakouts (ETSY, ZM) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "ETSY",
-    "ZM"
    ]
   }
  ],
@@ -6375,6 +6375,11 @@
    "ts": 1795020423,
    "equity": 9613.21,
    "spy": 9579.7
+  },
+  {
+   "ts": 1795020743,
+   "equity": 9613.63,
+   "spy": 9585.1
   }
  ],
  "daily": [
@@ -6452,6 +6457,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795020743,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.6,
+   "errors": [],
+   "run_id": "44352168117",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795020423,
    "phase": "open",
@@ -6841,25 +6856,15 @@
    "errors": [],
    "run_id": "44171363824",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794947587,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.3,
-   "errors": [],
-   "run_id": "44170436927",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795020423,
+  "tick_at": 1795020743,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795020429,
-  "candidates": 9,
-  "charts_fetched": 11,
+  "yahoo_time": 1795020750,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
