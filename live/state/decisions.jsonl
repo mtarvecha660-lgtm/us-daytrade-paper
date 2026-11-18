@@ -428,3 +428,4 @@
 {"ts": 1795025100, "et": "2026-11-18 13:05", "kind": "busy", "text": "2 more breakouts (DPZ, SPOT) not taken: already in TJX (one trade at a time)", "symbols": ["DPZ", "SPOT"]}
 {"ts": 1795026300, "et": "2026-11-18 13:25", "kind": "busy", "text": "1 more breakout (AEP) not taken: already in TJX (one trade at a time)", "symbols": ["AEP"]}
 {"ts": 1795026600, "et": "2026-11-18 13:30", "kind": "busy", "text": "1 more breakout (NFLX) not taken: already in TJX (one trade at a time)", "symbols": ["NFLX"]}
+{"ts": 1795026900, "et": "2026-11-18 13:35", "kind": "busy", "text": "1 more breakout (CMCSA) not taken: already in TJX (one trade at a time)", "symbols": ["CMCSA"]}
