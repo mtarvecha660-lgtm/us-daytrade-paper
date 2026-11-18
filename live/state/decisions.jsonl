@@ -413,3 +413,4 @@
 {"ts": 1795016700, "et": "2026-11-18 10:45", "kind": "busy", "text": "1 more breakout (D) not taken: already in TJX (one trade at a time)", "symbols": ["D"]}
 {"ts": 1795017300, "et": "2026-11-18 10:55", "kind": "busy", "text": "2 more breakouts (BB, DOCU) not taken: already in TJX (one trade at a time)", "symbols": ["BB", "DOCU"]}
 {"ts": 1795017600, "et": "2026-11-18 11:00", "kind": "busy", "text": "1 more breakout (DDOG) not taken: already in TJX (one trade at a time)", "symbols": ["DDOG"]}
+{"ts": 1795019100, "et": "2026-11-18 11:25", "kind": "busy", "text": "3 more breakouts (RCL, SCHW, VZ) not taken: already in TJX (one trade at a time)", "symbols": ["RCL", "SCHW", "VZ"]}

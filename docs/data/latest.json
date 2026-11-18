@@ -1,21 +1,21 @@
 {
- "updated": 1795018854,
- "updated_et": "2026-11-18 11:20 ET",
+ "updated": 1795019162,
+ "updated_et": "2026-11-18 11:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9616.43,
-  "return": -0.038356999999999974,
+  "equity": 9632.39,
+  "return": -0.036761000000000044,
   "started": 1793559735
  },
  "spy": {
-  "value": 9593.66,
-  "return": -0.04063400000000006,
+  "value": 9604.76,
+  "return": -0.039524000000000004,
   "start_price": 759.47998046875,
-  "last": 728.9108276367188
+  "last": 729.7542724609375
  },
  "position": {
   "symbol": "TJX",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "GE",
-    "at": "09:55",
-    "price": 329.54,
-    "or_high": 327.91,
-    "or_low": 325.31,
-    "pct_over": 0.5
-   },
-   {
-    "symbol": "GME",
-    "at": "09:55",
-    "price": 25.86,
-    "or_high": 25.79,
-    "or_low": 25.25,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "LULU",
-    "at": "09:55",
-    "price": 106.22,
-    "or_high": 105.81,
-    "or_low": 103.25,
-    "pct_over": 0.39
-   },
    {
     "symbol": "NCLH",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 167.76,
     "or_low": 162.74,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "RCL",
+    "at": "11:25",
+    "price": 318.08,
+    "or_high": 318.0,
+    "or_low": 306.66,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SCHW",
+    "at": "11:25",
+    "price": 92.6,
+    "or_high": 92.59,
+    "or_low": 92.02,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "VZ",
+    "at": "11:25",
+    "price": 45.92,
+    "or_high": 45.87,
+    "or_low": 45.16,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 71,
+  "n_hits": 74,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795019100,
+   "et": "2026-11-18 11:25",
+   "kind": "busy",
+   "text": "3 more breakouts (RCL, SCHW, VZ) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "RCL",
+    "SCHW",
+    "VZ"
+   ]
+  },
   {
    "ts": 1795017600,
    "et": "2026-11-18 11:00",
@@ -2076,15 +2087,6 @@
    "text": "1 more breakout (BIDU) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "BIDU"
-   ]
-  },
-  {
-   "ts": 1794590700,
-   "et": "2026-11-13 12:25",
-   "kind": "busy",
-   "text": "1 more breakout (REGN) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "REGN"
    ]
   }
  ],
@@ -6348,6 +6350,11 @@
    "ts": 1795018854,
    "equity": 9616.43,
    "spy": 9593.66
+  },
+  {
+   "ts": 1795019162,
+   "equity": 9632.39,
+   "spy": 9604.76
   }
  ],
  "daily": [
@@ -6425,6 +6432,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795019162,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 11.8,
+   "errors": [],
+   "run_id": "44347137582",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795018854,
    "phase": "open",
@@ -6814,25 +6831,15 @@
    "errors": [],
    "run_id": "44166686979",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794946001,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.3,
-   "errors": [],
-   "run_id": "44165753262",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795018854,
+  "tick_at": 1795019162,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795018859,
-  "candidates": 11,
-  "charts_fetched": 13,
+  "yahoo_time": 1795019171,
+  "candidates": 19,
+  "charts_fetched": 21,
   "ok": true,
   "errors": [],
   "stale_data": false,
