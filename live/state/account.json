@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795014900,
+  "last_bar_end": 1795015200,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 59,
+  "triggers_seen": 64,
   "missed": [
    "BKNG",
    "CHTR",
@@ -737,7 +737,12 @@
    "AI",
    "CLSK",
    "HPQ",
-   "SNOW"
+   "SNOW",
+   "AVGO",
+   "CCL",
+   "DE",
+   "NEE",
+   "NKE"
   ],
   "triggered": [
    "CMG",
@@ -798,7 +803,12 @@
    "AI",
    "CLSK",
    "HPQ",
-   "SNOW"
+   "SNOW",
+   "AVGO",
+   "CCL",
+   "DE",
+   "NEE",
+   "NKE"
   ],
   "hits": [
    {
@@ -1272,6 +1282,46 @@
     "or_high": 277.43,
     "or_low": 270.52,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:20",
+    "price": 352.72,
+    "or_high": 351.88,
+    "or_low": 342.04,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "CCL",
+    "at": "10:20",
+    "price": 28.85,
+    "or_high": 28.85,
+    "or_low": 28.03,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DE",
+    "at": "10:20",
+    "price": 646.68,
+    "or_high": 645.6,
+    "or_low": 640.54,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:20",
+    "price": 84.53,
+    "or_high": 84.46,
+    "or_low": 83.8,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:20",
+    "price": 36.35,
+    "or_high": 36.23,
+    "or_low": 34.96,
+    "pct_over": 0.33
    }
   ]
  },
@@ -1279,8 +1329,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 732.3690185546875,
-  "last_ts": 1795014900
+  "last": 732.2000122070312,
+  "last_ts": 1795015200
  },
  "seen_trades": 0,
  "daily": [

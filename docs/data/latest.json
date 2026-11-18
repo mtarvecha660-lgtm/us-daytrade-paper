@@ -1,21 +1,21 @@
 {
- "updated": 1795015061,
- "updated_et": "2026-11-18 10:17 ET",
+ "updated": 1795015373,
+ "updated_et": "2026-11-18 10:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9595.72,
-  "return": -0.04042800000000002,
+  "equity": 9597.4,
+  "return": -0.040260000000000074,
   "started": 1793559735
  },
  "spy": {
-  "value": 9639.18,
-  "return": -0.03608199999999995,
+  "value": 9636.95,
+  "return": -0.03630499999999992,
   "start_price": 759.47998046875,
-  "last": 732.3690185546875
+  "last": 732.2000122070312
  },
  "position": {
   "symbol": "TJX",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "CMG",
-    "at": "09:50",
-    "price": 36.53,
-    "or_high": 36.47,
-    "or_low": 35.08,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "DASH",
-    "at": "09:50",
-    "price": 168.62,
-    "or_high": 168.36,
-    "or_low": 164.4,
-    "pct_over": 0.15
-   },
-   {
-    "symbol": "DIS",
-    "at": "09:50",
-    "price": 119.1,
-    "or_high": 118.98,
-    "or_low": 116.65,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "EXPE",
-    "at": "09:50",
-    "price": 247.68,
-    "or_high": 245.99,
-    "or_low": 241.52,
-    "pct_over": 0.69
-   },
    {
     "symbol": "JD",
     "at": "09:50",
@@ -508,9 +476,49 @@
     "or_high": 277.43,
     "or_low": 270.52,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:20",
+    "price": 352.72,
+    "or_high": 351.88,
+    "or_low": 342.04,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "CCL",
+    "at": "10:20",
+    "price": 28.85,
+    "or_high": 28.85,
+    "or_low": 28.03,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DE",
+    "at": "10:20",
+    "price": 646.68,
+    "or_high": 645.6,
+    "or_low": 640.54,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:20",
+    "price": 84.53,
+    "or_high": 84.46,
+    "or_low": 83.8,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:20",
+    "price": 36.35,
+    "or_high": 36.23,
+    "or_low": 34.96,
+    "pct_over": 0.33
    }
   ],
-  "n_hits": 59,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
@@ -1175,6 +1183,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795015200,
+   "et": "2026-11-18 10:20",
+   "kind": "busy",
+   "text": "5 more breakouts (AVGO, CCL, DE, NEE, NKE) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "CCL",
+    "DE",
+    "NEE",
+    "NKE"
+   ]
+  },
   {
    "ts": 1795014900,
    "et": "2026-11-18 10:15",
@@ -2068,15 +2089,6 @@
    "symbols": [
     "HPQ",
     "RUN"
-   ]
-  },
-  {
-   "ts": 1794586200,
-   "et": "2026-11-13 11:10",
-   "kind": "busy",
-   "text": "1 more breakout (BMY) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "BMY"
    ]
   }
  ],
@@ -6280,6 +6292,11 @@
    "ts": 1795015061,
    "equity": 9595.72,
    "spy": 9639.18
+  },
+  {
+   "ts": 1795015373,
+   "equity": 9597.4,
+   "spy": 9636.95
   }
  ],
  "daily": [
@@ -6357,6 +6374,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795015373,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.3,
+   "errors": [],
+   "run_id": "44334933043",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795015061,
    "phase": "open",
@@ -6746,25 +6773,15 @@
    "errors": [],
    "run_id": "44155406280",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1794942226,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.6,
-   "errors": [],
-   "run_id": "44154462324",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795015061,
+  "tick_at": 1795015373,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795015073,
-  "candidates": 41,
-  "charts_fetched": 43,
+  "yahoo_time": 1795015388,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
