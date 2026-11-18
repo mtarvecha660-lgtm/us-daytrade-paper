@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795026900,
+  "last_bar_end": 1795027200,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 104,
+  "triggers_seen": 107,
   "missed": [
    "BKNG",
    "CHTR",
@@ -782,7 +782,10 @@
    "SPOT",
    "AEP",
    "NFLX",
-   "CMCSA"
+   "CMCSA",
+   "MSFT",
+   "PDD",
+   "SNAP"
   ],
   "triggered": [
    "CMG",
@@ -888,7 +891,10 @@
    "SPOT",
    "AEP",
    "NFLX",
-   "CMCSA"
+   "CMCSA",
+   "MSFT",
+   "PDD",
+   "SNAP"
   ],
   "hits": [
    {
@@ -1722,6 +1728,30 @@
     "or_high": 25.5,
     "or_low": 24.99,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "MSFT",
+    "at": "13:40",
+    "price": 509.67,
+    "or_high": 508.5,
+    "or_low": 502.07,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "PDD",
+    "at": "13:40",
+    "price": 77.84,
+    "or_high": 77.77,
+    "or_low": 76.89,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SNAP",
+    "at": "13:40",
+    "price": 5.61,
+    "or_high": 5.61,
+    "or_low": 5.45,
+    "pct_over": 0.09
    }
   ]
  },
@@ -1729,8 +1759,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 732.6199951171875,
-  "last_ts": 1795026900
+  "last": 733.1572265625,
+  "last_ts": 1795027200
  },
  "seen_trades": 0,
  "daily": [

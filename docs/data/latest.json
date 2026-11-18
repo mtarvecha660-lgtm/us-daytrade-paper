@@ -1,21 +1,21 @@
 {
- "updated": 1795027034,
- "updated_et": "2026-11-18 13:37 ET",
+ "updated": 1795027349,
+ "updated_et": "2026-11-18 13:42 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9633.79,
-  "return": -0.036620999999999904,
+  "equity": 9636.59,
+  "return": -0.03634099999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9642.48,
-  "return": -0.035752000000000006,
+  "value": 9649.55,
+  "return": -0.035045000000000104,
   "start_price": 759.47998046875,
-  "last": 732.6199951171875
+  "last": 733.1572265625
  },
  "position": {
   "symbol": "TJX",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "UAL",
-    "at": "10:00",
-    "price": 109.18,
-    "or_high": 108.72,
-    "or_low": 106.26,
-    "pct_over": 0.42
-   },
-   {
-    "symbol": "UBER",
-    "at": "10:00",
-    "price": 69.95,
-    "or_high": 69.75,
-    "or_low": 68.02,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "UPS",
-    "at": "10:00",
-    "price": 110.58,
-    "or_high": 110.34,
-    "or_low": 108.8,
-    "pct_over": 0.22
-   },
    {
     "symbol": "VRTX",
     "at": "10:00",
@@ -516,9 +492,33 @@
     "or_high": 25.5,
     "or_low": 24.99,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "MSFT",
+    "at": "13:40",
+    "price": 509.67,
+    "or_high": 508.5,
+    "or_low": 502.07,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "PDD",
+    "at": "13:40",
+    "price": 77.84,
+    "or_high": 77.77,
+    "or_low": 76.89,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SNAP",
+    "at": "13:40",
+    "price": 5.61,
+    "or_high": 5.61,
+    "or_low": 5.45,
+    "pct_over": 0.09
    }
   ],
-  "n_hits": 104,
+  "n_hits": 107,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795027200,
+   "et": "2026-11-18 13:40",
+   "kind": "busy",
+   "text": "3 more breakouts (MSFT, PDD, SNAP) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "MSFT",
+    "PDD",
+    "SNAP"
+   ]
+  },
   {
    "ts": 1795026900,
    "et": "2026-11-18 13:35",
@@ -2084,13 +2095,6 @@
     "COIN",
     "SNPS"
    ]
-  },
-  {
-   "ts": 1794840600,
-   "et": "2026-11-16 09:50",
-   "kind": "fill",
-   "text": "BUY 103 UBER filled at $70.21 (next bar's open $70.19 + slippage). Stop $69.77, target $70.63",
-   "symbol": "UBER"
   }
  ],
  "equity": [
@@ -6483,6 +6487,11 @@
    "ts": 1795027034,
    "equity": 9633.79,
    "spy": 9642.48
+  },
+  {
+   "ts": 1795027349,
+   "equity": 9636.59,
+   "spy": 9649.55
   }
  ],
  "daily": [
@@ -6560,6 +6569,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795027349,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.5,
+   "errors": [],
+   "run_id": "44372580939",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795027034,
    "phase": "open",
@@ -6949,25 +6968,15 @@
    "errors": [],
    "run_id": "44333913452",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795014750,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.2,
-   "errors": [],
-   "run_id": "44332870405",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795027034,
+  "tick_at": 1795027349,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795027043,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1795027358,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
