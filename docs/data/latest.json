@@ -1,21 +1,21 @@
 {
- "updated": 1795023253,
- "updated_et": "2026-11-18 12:34 ET",
+ "updated": 1795023566,
+ "updated_et": "2026-11-18 12:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9651.84,
-  "return": -0.03481599999999996,
+  "equity": 9648.63,
+  "return": -0.035137000000000085,
   "started": 1793559735
  },
  "spy": {
-  "value": 9649.46,
-  "return": -0.03505400000000014,
+  "value": 9652.77,
+  "return": -0.03472299999999995,
   "start_price": 759.47998046875,
-  "last": 733.1500244140625
+  "last": 733.4019775390625
  },
  "position": {
   "symbol": "TJX",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "MELI",
-    "at": "10:00",
-    "price": 1447.45,
-    "or_high": 1447.0,
-    "or_low": 1431.0,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "RDDT",
-    "at": "10:00",
-    "price": 96.32,
-    "or_high": 96.31,
-    "or_low": 94.83,
-    "pct_over": 0.01
-   },
    {
     "symbol": "RGTI",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 92.88,
     "or_low": 91.81,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "MCHP",
+    "at": "12:35",
+    "price": 60.3,
+    "or_high": 60.25,
+    "or_low": 58.69,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "TWLO",
+    "at": "12:35",
+    "price": 198.09,
+    "or_high": 197.97,
+    "or_low": 192.51,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 96,
+  "n_hits": 98,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795023300,
+   "et": "2026-11-18 12:35",
+   "kind": "busy",
+   "text": "2 more breakouts (MCHP, TWLO) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "MCHP",
+    "TWLO"
+   ]
+  },
   {
    "ts": 1795023000,
    "et": "2026-11-18 12:30",
@@ -2089,16 +2099,6 @@
    "text": "1 more breakout (ZTS) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "ZTS"
-   ]
-  },
-  {
-   "ts": 1794600300,
-   "et": "2026-11-13 15:05",
-   "kind": "busy",
-   "text": "2 more breakouts (BBY, DHR) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "BBY",
-    "DHR"
    ]
   }
  ],
@@ -6432,6 +6432,11 @@
    "ts": 1795023253,
    "equity": 9651.84,
    "spy": 9649.46
+  },
+  {
+   "ts": 1795023566,
+   "equity": 9648.63,
+   "spy": 9652.77
   }
  ],
  "daily": [
@@ -6509,6 +6514,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795023566,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.8,
+   "errors": [],
+   "run_id": "44361044042",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795023253,
    "phase": "open",
@@ -6898,25 +6913,15 @@
    "errors": [],
    "run_id": "44227731099",
    "event": "schedule"
-  },
-  {
-   "ts": 1794969913,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "44180272730",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1795023253,
+  "tick_at": 1795023566,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795023266,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1795023577,
+  "candidates": 32,
+  "charts_fetched": 34,
   "ok": true,
   "errors": [],
   "stale_data": false,
