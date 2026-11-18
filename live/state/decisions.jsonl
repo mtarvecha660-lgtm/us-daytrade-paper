@@ -431,3 +431,4 @@
 {"ts": 1795026900, "et": "2026-11-18 13:35", "kind": "busy", "text": "1 more breakout (CMCSA) not taken: already in TJX (one trade at a time)", "symbols": ["CMCSA"]}
 {"ts": 1795027200, "et": "2026-11-18 13:40", "kind": "busy", "text": "3 more breakouts (MSFT, PDD, SNAP) not taken: already in TJX (one trade at a time)", "symbols": ["MSFT", "PDD", "SNAP"]}
 {"ts": 1795033500, "et": "2026-11-18 15:25", "kind": "busy", "text": "1 more breakout (DUK) not taken: already in TJX (one trade at a time)", "symbols": ["DUK"]}
+{"ts": 1795035300, "et": "2026-11-18 15:55", "kind": "exit", "text": "SELL 28 TJX at $140.64: flat by 15:55 ET (the skill's flat-by rule). P&L $-10.82 (-0.11R)", "symbol": "TJX"}
