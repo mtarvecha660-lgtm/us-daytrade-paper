@@ -1,21 +1,21 @@
 {
- "updated": 1795025138,
- "updated_et": "2026-11-18 13:05 ET",
+ "updated": 1795025452,
+ "updated_et": "2026-11-18 13:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5611.55,
-  "equity": 9642.75,
-  "return": -0.03572500000000001,
+  "equity": 9635.92,
+  "return": -0.036407999999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9626.16,
-  "return": -0.03738399999999997,
+  "value": 9623.0,
+  "return": -0.037699999999999956,
   "start_price": 759.47998046875,
-  "last": 731.3800048828125
+  "last": 731.1400146484375
  },
  "position": {
   "symbol": "TJX",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-18",
   "hits": [
-   {
-    "symbol": "RIOT",
-    "at": "10:00",
-    "price": 17.97,
-    "or_high": 17.88,
-    "or_low": 17.25,
-    "pct_over": 0.5
-   },
-   {
-    "symbol": "RKT",
-    "at": "10:00",
-    "price": 13.46,
-    "or_high": 13.44,
-    "or_low": 13.12,
-    "pct_over": 0.19
-   },
    {
     "symbol": "SEDG",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 94.22,
     "or_low": 93.13,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "DPZ",
+    "at": "13:05",
+    "price": 353.0,
+    "or_high": 352.9,
+    "or_low": 346.62,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SPOT",
+    "at": "13:05",
+    "price": 610.37,
+    "or_high": 610.0,
+    "or_low": 595.0,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 99,
+  "n_hits": 101,
   "entries": 1,
   "max_trades": 3
  },
@@ -1183,6 +1183,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795025100,
+   "et": "2026-11-18 13:05",
+   "kind": "busy",
+   "text": "2 more breakouts (DPZ, SPOT) not taken: already in TJX (one trade at a time)",
+   "symbols": [
+    "DPZ",
+    "SPOT"
+   ]
+  },
   {
    "ts": 1795024800,
    "et": "2026-11-18 13:00",
@@ -2090,15 +2100,6 @@
    "text": "1 more breakout (UNH) not taken: already in MSFT (one trade at a time)",
    "symbols": [
     "UNH"
-   ]
-  },
-  {
-   "ts": 1794600900,
-   "et": "2026-11-13 15:15",
-   "kind": "busy",
-   "text": "1 more breakout (MRK) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "MRK"
    ]
   }
  ],
@@ -6462,6 +6463,11 @@
    "ts": 1795025138,
    "equity": 9642.75,
    "spy": 9626.16
+  },
+  {
+   "ts": 1795025452,
+   "equity": 9635.92,
+   "spy": 9623.0
   }
  ],
  "daily": [
@@ -6539,6 +6545,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795025452,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.5,
+   "errors": [],
+   "run_id": "44366814132",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795025138,
    "phase": "open",
@@ -6928,25 +6944,15 @@
    "errors": [],
    "run_id": "44327872265",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795012857,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.3,
-   "errors": [],
-   "run_id": "44326885406",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795025138,
+  "tick_at": 1795025452,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795025146,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795025459,
+  "candidates": 11,
+  "charts_fetched": 13,
   "ok": true,
   "errors": [],
   "stale_data": false,
