@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795014600,
+  "last_bar_end": 1795014900,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 55,
+  "triggers_seen": 59,
   "missed": [
    "BKNG",
    "CHTR",
@@ -733,7 +733,11 @@
    "NET",
    "WMT",
    "ZS",
-   "MDB"
+   "MDB",
+   "AI",
+   "CLSK",
+   "HPQ",
+   "SNOW"
   ],
   "triggered": [
    "CMG",
@@ -790,7 +794,11 @@
    "NET",
    "WMT",
    "ZS",
-   "MDB"
+   "MDB",
+   "AI",
+   "CLSK",
+   "HPQ",
+   "SNOW"
   ],
   "hits": [
    {
@@ -1232,6 +1240,38 @@
     "or_high": 305.3,
     "or_low": 299.37,
     "pct_over": 0.29
+   },
+   {
+    "symbol": "AI",
+    "at": "10:15",
+    "price": 10.02,
+    "or_high": 9.97,
+    "or_low": 9.78,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "CLSK",
+    "at": "10:15",
+    "price": 6.28,
+    "or_high": 6.27,
+    "or_low": 5.95,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HPQ",
+    "at": "10:15",
+    "price": 29.08,
+    "or_high": 29.01,
+    "or_low": 28.74,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "SNOW",
+    "at": "10:15",
+    "price": 277.76,
+    "or_high": 277.43,
+    "or_low": 270.52,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1239,8 +1279,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 731.364990234375,
-  "last_ts": 1795014600
+  "last": 732.3690185546875,
+  "last_ts": 1795014900
  },
  "seen_trades": 0,
  "daily": [
