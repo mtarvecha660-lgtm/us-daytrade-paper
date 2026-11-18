@@ -633,7 +633,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-18",
-  "last_bar_end": 1795022700,
+  "last_bar_end": 1795023000,
   "position": {
    "symbol": "TJX",
    "qty": 28,
@@ -684,7 +684,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 93,
+  "triggers_seen": 96,
   "missed": [
    "BKNG",
    "CHTR",
@@ -771,7 +771,10 @@
    "COST",
    "DAL",
    "HOOD",
-   "TTD"
+   "TTD",
+   "AMD",
+   "TMO",
+   "ZM"
   ],
   "triggered": [
    "CMG",
@@ -866,7 +869,10 @@
    "COST",
    "DAL",
    "HOOD",
-   "TTD"
+   "TTD",
+   "AMD",
+   "TMO",
+   "ZM"
   ],
   "hits": [
    {
@@ -1612,6 +1618,30 @@
     "or_high": 15.21,
     "or_low": 14.78,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "AMD",
+    "at": "12:30",
+    "price": 521.2,
+    "or_high": 519.8,
+    "or_low": 496.0,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "TMO",
+    "at": "12:30",
+    "price": 691.77,
+    "or_high": 691.62,
+    "or_low": 680.29,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "ZM",
+    "at": "12:30",
+    "price": 92.93,
+    "or_high": 92.88,
+    "or_low": 91.81,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1619,8 +1649,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 732.5499877929688,
-  "last_ts": 1795022700
+  "last": 733.1500244140625,
+  "last_ts": 1795023000
  },
  "seen_trades": 0,
  "daily": [

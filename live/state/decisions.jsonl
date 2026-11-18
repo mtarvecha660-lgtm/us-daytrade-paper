@@ -422,3 +422,4 @@
 {"ts": 1795021800, "et": "2026-11-18 12:10", "kind": "busy", "text": "1 more breakout (DUOL) not taken: already in TJX (one trade at a time)", "symbols": ["DUOL"]}
 {"ts": 1795022400, "et": "2026-11-18 12:20", "kind": "busy", "text": "4 more breakouts (ABNB, BA, BX, CSCO) not taken: already in TJX (one trade at a time)", "symbols": ["ABNB", "BA", "BX", "CSCO"]}
 {"ts": 1795022700, "et": "2026-11-18 12:25", "kind": "busy", "text": "6 more breakouts (ANET, BIIB, COST, DAL, HOOD, TTD) not taken: already in TJX (one trade at a time)", "symbols": ["ANET", "BIIB", "COST", "DAL", "HOOD", "TTD"]}
+{"ts": 1795023000, "et": "2026-11-18 12:30", "kind": "busy", "text": "3 more breakouts (AMD, TMO, ZM) not taken: already in TJX (one trade at a time)", "symbols": ["AMD", "TMO", "ZM"]}
