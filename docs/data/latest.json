@@ -1,6 +1,6 @@
 {
- "updated": 1795035867,
- "updated_et": "2026-11-18 16:04 ET",
+ "updated": 1795036188,
+ "updated_et": "2026-11-18 16:09 ET",
  "phase": "after-close",
  "paper": true,
  "version": "orb-v1",
@@ -6628,7 +6628,7 @@
    "spy": 9622.74
   },
   {
-   "ts": 1795035867,
+   "ts": 1795036188,
    "equity": 9549.53,
    "spy": 9612.27
   }
@@ -6709,14 +6709,14 @@
  ],
  "runs": [
   {
-   "ts": 1795035867,
+   "ts": 1795036188,
    "phase": "after-close",
    "status": "ok",
    "bars": 1,
-   "secs": 8.2,
+   "secs": 8.7,
    "errors": [],
-   "run_id": "44397598998",
-   "event": "workflow_dispatch"
+   "run_id": "44397621270",
+   "event": "schedule"
   },
   {
    "ts": 1795035552,
@@ -7110,7 +7110,7 @@
   }
  ],
  "health": {
-  "tick_at": 1795035867,
+  "tick_at": 1795036188,
   "data_ok": 233,
   "data_failed": 1,
   "yahoo_time": 1795035601,
