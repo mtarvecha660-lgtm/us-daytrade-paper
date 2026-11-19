@@ -681,7 +681,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795100700,
+  "last_bar_end": 1795101000,
   "position": {
    "symbol": "WMT",
    "qty": 56,
@@ -757,7 +757,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 46,
+  "triggers_seen": 47,
   "missed": [
    "HD",
    "MCD",
@@ -767,7 +767,8 @@
    "MRVL",
    "MU",
    "STX",
-   "TGT"
+   "TGT",
+   "HAL"
   ],
   "triggered": [
    "ADI",
@@ -815,7 +816,8 @@
    "MRVL",
    "MU",
    "STX",
-   "TGT"
+   "TGT",
+   "HAL"
   ],
   "hits": [
    {
@@ -1185,6 +1187,14 @@
     "or_high": 167.77,
     "or_low": 165.2,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "HAL",
+    "at": "10:10",
+    "price": 32.13,
+    "or_high": 32.03,
+    "or_low": 31.65,
+    "pct_over": 0.3
    }
   ]
  },
@@ -1192,8 +1202,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 737.2100219726562,
-  "last_ts": 1795100700
+  "last": 736.1500244140625,
+  "last_ts": 1795101000
  },
  "seen_trades": 0,
  "daily": [
