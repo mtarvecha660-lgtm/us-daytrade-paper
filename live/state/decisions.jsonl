@@ -448,3 +448,4 @@
 {"ts": 1795105800, "et": "2026-11-19 11:30", "kind": "fill", "text": "BUY 65 UAL filled at $107.64 (next bar's open $107.62 + slippage). Stop $106.32, target $108.88", "symbol": "UAL"}
 {"ts": 1795106400, "et": "2026-11-19 11:40", "kind": "busy", "text": "1 more breakout (RKT) not taken: already in UAL (one trade at a time)", "symbols": ["RKT"]}
 {"ts": 1795107000, "et": "2026-11-19 11:50", "kind": "busy", "text": "1 more breakout (DIS) not taken: already in UAL (one trade at a time)", "symbols": ["DIS"]}
+{"ts": 1795107900, "et": "2026-11-19 12:05", "kind": "exit", "text": "SELL 65 UAL at $106.30: stop $106.32 hit. P&L $-87.28 (-1.05R)", "symbol": "UAL"}

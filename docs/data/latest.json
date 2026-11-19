@@ -1,38 +1,23 @@
 {
- "updated": 1795107785,
- "updated_et": "2026-11-19 12:03 ET",
+ "updated": 1795108095,
+ "updated_et": "2026-11-19 12:08 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2378.79,
-  "equity": 9311.61,
-  "return": -0.06883899999999998,
+  "cash": 9288.21,
+  "equity": 9288.21,
+  "return": -0.0711790000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9526.26,
-  "return": -0.04737400000000003,
+  "value": 9476.64,
+  "return": -0.05233600000000005,
   "start_price": 759.47998046875,
-  "last": 723.7899780273438
+  "last": 720.02001953125
  },
- "position": {
-  "symbol": "UAL",
-  "qty": 65,
-  "entry": 107.6415,
-  "entry_et": "11:30",
-  "stop": 106.32,
-  "target": 108.88,
-  "last": null,
-  "why": {
-   "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
-   "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
-   "risk": "trader-risk PASS: entry 107.60 (the plan's entry), stop 106.32, target 108.88: risk 1.28 a share; max loss $83.20 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $168.74 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-19",
@@ -474,21 +459,21 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Holding 65 UAL bought at $107.64. It sells at the stop $106.32, the target $108.88, or at 15:55 ET, whichever comes first.",
+ "next_move": "Done for today: 3 of 3 trades used (the skill's daily limit). Flat until tomorrow.",
  "stats": {
-  "trades": 29,
+  "trades": 30,
   "wins": 11,
-  "win_rate": 0.3793103448275862,
-  "avg_r": -0.21720689655172415,
-  "t_stat_r": -1.355014303608821,
-  "net_pnl": -624.54,
-  "profit_factor": 0.45823610544852056,
-  "expectancy_usd": -21.54,
+  "win_rate": 0.36666666666666664,
+  "avg_r": -0.24493333333333336,
+  "t_stat_r": -1.5568558871172615,
+  "net_pnl": -711.82,
+  "profit_factor": 0.4259840170312966,
+  "expectancy_usd": -23.73,
   "avg_win": 48.02,
-  "avg_loss": -64.04,
-  "costs_usd": 63.82,
+  "avg_loss": -65.27,
+  "costs_usd": 66.6,
   "exits": {
-   "stop": 13,
+   "stop": 14,
    "target": 7,
    "flat-by": 9
   }
@@ -509,6 +494,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-19",
+   "symbol": "UAL",
+   "qty": 65,
+   "entry_et": "11:30",
+   "entry_fill": 107.6415,
+   "exit_et": "12:05",
+   "exit_fill": 106.2987,
+   "exit_reason": "stop $106.32 hit",
+   "stop": 106.32,
+   "target": 108.88,
+   "pnl": -87.28,
+   "r": -1.049,
+   "risk_usd": 83.2,
+   "cost_usd": 2.78,
+   "why": {
+    "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
+    "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
+    "risk": "trader-risk PASS: entry 107.60 (the plan's entry), stop 106.32, target 108.88: risk 1.28 a share; max loss $83.20 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $168.74 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-19",
    "symbol": "WMT",
@@ -1207,6 +1216,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795107900,
+   "et": "2026-11-19 12:05",
+   "kind": "exit",
+   "text": "SELL 65 UAL at $106.30: stop $106.32 hit. P&L $-87.28 (-1.05R)",
+   "symbol": "UAL"
+  },
   {
    "ts": 1795107000,
    "et": "2026-11-19 11:50",
@@ -2133,17 +2149,6 @@
     "KLAC",
     "MU",
     "TXN"
-   ]
-  },
-  {
-   "ts": 1794846000,
-   "et": "2026-11-16 11:20",
-   "kind": "busy",
-   "text": "3 more breakouts (AVGO, EOG, U) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "AVGO",
-    "EOG",
-    "U"
    ]
   }
  ],
@@ -6827,6 +6832,11 @@
    "ts": 1795107785,
    "equity": 9311.61,
    "spy": 9526.26
+  },
+  {
+   "ts": 1795108095,
+   "equity": 9288.21,
+   "spy": 9476.64
   }
  ],
  "daily": [
@@ -6910,6 +6920,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795108095,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.5,
+   "errors": [],
+   "run_id": "44573826012",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795107785,
    "phase": "open",
@@ -7299,23 +7319,13 @@
    "errors": [],
    "run_id": "44394875695",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795034608,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 12.9,
-   "errors": [],
-   "run_id": "44393967884",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795107785,
+  "tick_at": 1795108095,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795107789,
+  "yahoo_time": 1795108102,
   "candidates": 5,
   "charts_fetched": 7,
   "ok": true,

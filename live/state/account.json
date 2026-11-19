@@ -1,5 +1,5 @@
 {
- "cash": 2378.7913,
+ "cash": 9288.2068,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -699,32 +699,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-19",
-  "last_bar_end": 1795107600,
-  "position": {
+  },
+  {
+   "date": "2026-11-19",
    "symbol": "UAL",
    "qty": 65,
+   "entry_et": "11:30",
    "entry_fill": 107.6415,
-   "entry_ts": 1795105800,
-   "plan": {
-    "symbol": "UAL",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-19",
-    "entry_time": "11:30 AM",
-    "entry": 107.6,
-    "stop": 106.32,
-    "target": 108.88,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 107.62000274658203
-   },
+   "exit_et": "12:05",
+   "exit_fill": 106.2987,
+   "exit_reason": "stop $106.32 hit",
+   "stop": 106.32,
+   "target": 108.88,
+   "pnl": -87.28,
+   "r": -1.049,
+   "risk_usd": 83.2,
+   "cost_usd": 2.78,
    "why": {
     "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
     "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
@@ -733,7 +723,14 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  },
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-19",
+  "last_bar_end": 1795107900,
+  "position": null,
   "pending": null,
   "orders": [
    {
@@ -801,6 +798,14 @@
     "symbol": "UAL",
     "side": "buy",
     "kind": "entry",
+    "qty": 65
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-19",
+    "symbol": "UAL",
+    "side": "sell",
+    "kind": "exit",
     "qty": 65
    }
   ],
@@ -1320,8 +1325,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.7899780273438,
-  "last_ts": 1795107600
+  "last": 720.02001953125,
+  "last_ts": 1795107900
  },
  "seen_trades": 0,
  "daily": [
