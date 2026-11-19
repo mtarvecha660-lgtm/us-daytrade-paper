@@ -1,21 +1,21 @@
 {
- "updated": 1795101460,
- "updated_et": "2026-11-19 10:17 ET",
+ "updated": 1795101775,
+ "updated_et": "2026-11-19 10:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2415.52,
-  "equity": 9473.47,
-  "return": -0.05265300000000006,
+  "equity": 9469.83,
+  "return": -0.05301699999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9662.49,
-  "return": -0.033750999999999975,
+  "value": 9642.35,
+  "return": -0.035764999999999936,
   "start_price": 759.47998046875,
-  "last": 734.1400146484375
+  "last": 732.6099853515625
  },
  "position": {
   "symbol": "WMT",
@@ -412,9 +412,17 @@
     "or_high": 32.03,
     "or_low": 31.65,
     "pct_over": 0.3
+   },
+   {
+    "symbol": "DHR",
+    "at": "10:20",
+    "price": 230.49,
+    "or_high": 230.26,
+    "or_low": 228.28,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 47,
+  "n_hits": 48,
   "entries": 2,
   "max_trades": 3
  },
@@ -1127,6 +1135,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795101600,
+   "et": "2026-11-19 10:20",
+   "kind": "busy",
+   "text": "1 more breakout (DHR) not taken: already in WMT (one trade at a time)",
+   "symbols": [
+    "DHR"
+   ]
+  },
   {
    "ts": 1795101000,
    "et": "2026-11-19 10:10",
@@ -2061,13 +2078,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1794844500,
-   "et": "2026-11-16 10:55",
-   "kind": "exit",
-   "text": "SELL 103 UBER at $70.63: target $70.63 hit (1R). P&L $+43.36 (+0.98R)",
-   "symbol": "UBER"
   }
  ],
  "equity": [
@@ -6650,6 +6660,11 @@
    "ts": 1795101460,
    "equity": 9473.47,
    "spy": 9662.49
+  },
+  {
+   "ts": 1795101775,
+   "equity": 9469.83,
+   "spy": 9642.35
   }
  ],
  "daily": [
@@ -6733,6 +6748,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795101775,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.9,
+   "errors": [],
+   "run_id": "44554097951",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795101460,
    "phase": "open",
@@ -7122,29 +7147,19 @@
    "errors": [],
    "run_id": "44376328721",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795028289,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "44375377111",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795101460,
+  "tick_at": 1795101775,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795101471,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795101783,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
