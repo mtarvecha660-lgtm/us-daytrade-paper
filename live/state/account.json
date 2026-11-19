@@ -705,9 +705,34 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795105500,
+  "last_bar_end": 1795105800,
   "position": null,
-  "pending": null,
+  "pending": {
+   "symbol": "UAL",
+   "qty": 65,
+   "plan": {
+    "symbol": "UAL",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-19",
+    "entry_time": "11:30 AM",
+    "entry": 107.6,
+    "stop": 106.32,
+    "target": 108.88,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
+    "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
+    "risk": "trader-risk PASS: entry 107.60 (the plan's entry), stop 106.32, target 108.88: risk 1.28 a share; max loss $83.20 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $168.74 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795105800,
+   "late": false
+  },
   "orders": [
    {
     "status": "placed",
@@ -758,11 +783,20 @@
     "side": "sell",
     "kind": "exit",
     "qty": 56
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-19",
+    "symbol": "UAL",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 83.2,
+    "at": "2026-11-19T11:30:00"
    }
   ],
-  "entries": 2,
+  "entries": 3,
   "skips": 0,
-  "triggers_seen": 51,
+  "triggers_seen": 52,
   "missed": [
    "HD",
    "MCD",
@@ -830,7 +864,8 @@
    "DHR",
    "MDT",
    "PG",
-   "SONY"
+   "SONY",
+   "UAL"
   ],
   "hits": [
    {
@@ -1240,6 +1275,14 @@
     "or_high": 27.41,
     "or_low": 27.05,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "UAL",
+    "at": "11:30",
+    "price": 107.6,
+    "or_high": 107.55,
+    "or_low": 105.1,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1247,8 +1290,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 728.9550170898438,
-  "last_ts": 1795105500
+  "last": 729.489990234375,
+  "last_ts": 1795105800
  },
  "seen_trades": 0,
  "daily": [
