@@ -1,5 +1,5 @@
 {
- "cash": 4003.4178,
+ "cash": 9447.7288,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -651,32 +651,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-19",
-  "last_bar_end": 1795100100,
-  "position": {
+  },
+  {
+   "date": "2026-11-19",
    "symbol": "AMD",
    "qty": 10,
+   "entry_et": "09:50",
    "entry_fill": 554.6109,
-   "entry_ts": 1795099800,
-   "plan": {
-    "symbol": "AMD",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-19",
-    "entry_time": "9:50 AM",
-    "entry": 554.47,
-    "stop": 544.54,
-    "target": 564.4,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 554.5
-   },
+   "exit_et": "10:00",
+   "exit_fill": 544.4311,
+   "exit_reason": "stop $544.54 hit",
+   "stop": 544.54,
+   "target": 564.4,
+   "pnl": -101.8,
+   "r": -1.025,
+   "risk_usd": 99.3,
+   "cost_usd": 2.2,
    "why": {
     "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
     "exit": "plan: entry $554.47, stop $544.54 (opening-range midpoint), target $564.40 (1R (one times the risk)), flat by 15:55 ET",
@@ -685,8 +675,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-19",
+  "last_bar_end": 1795100400,
+  "position": null,
+  "pending": {
+   "symbol": "WMT",
+   "qty": 56,
+   "plan": {
+    "symbol": "WMT",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-19",
+    "entry_time": "10:00 AM",
+    "entry": 125.55,
+    "stop": 124.31,
+    "target": 126.79,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
+    "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
+    "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795100400,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -704,11 +726,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 10
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-19",
+    "symbol": "AMD",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 10
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-19",
+    "symbol": "WMT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 69.44,
+    "at": "2026-11-19T10:00:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 38,
+  "triggers_seen": 39,
   "missed": [
    "HD",
    "MCD"
@@ -751,7 +790,8 @@
    "WDC",
    "WFC",
    "HD",
-   "MCD"
+   "MCD",
+   "WMT"
   ],
   "hits": [
    {
@@ -1057,6 +1097,14 @@
     "or_high": 269.42,
     "or_low": 267.47,
     "pct_over": 0.66
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:00",
+    "price": 125.55,
+    "or_high": 125.33,
+    "or_low": 123.29,
+    "pct_over": 0.18
    }
   ]
  },
@@ -1064,8 +1112,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.2901000976562,
-  "last_ts": 1795100100
+  "last": 736.25,
+  "last_ts": 1795100400
  },
  "seen_trades": 0,
  "daily": [

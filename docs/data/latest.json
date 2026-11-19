@@ -1,39 +1,49 @@
 {
- "updated": 1795100204,
- "updated_et": "2026-11-19 09:56 ET",
+ "updated": 1795100526,
+ "updated_et": "2026-11-19 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 4003.42,
-  "equity": 9483.32,
-  "return": -0.05166800000000005,
+  "cash": 9447.73,
+  "equity": 9447.73,
+  "return": -0.055227000000000026,
   "started": 1793559735
  },
  "spy": {
-  "value": 9690.78,
-  "return": -0.030921999999999894,
+  "value": 9690.26,
+  "return": -0.030973999999999946,
   "start_price": 759.47998046875,
-  "last": 736.2901000976562
+  "last": 736.25
  },
- "position": {
-  "symbol": "AMD",
-  "qty": 10,
-  "entry": 554.6109,
-  "entry_et": "09:50",
-  "stop": 544.54,
-  "target": 564.4,
-  "last": null,
+ "position": null,
+ "pending": {
+  "symbol": "WMT",
+  "qty": 56,
+  "plan": {
+   "symbol": "WMT",
+   "side": "buy",
+   "setup": "orb",
+   "date": "2026-11-19",
+   "entry_time": "10:00 AM",
+   "entry": 125.55,
+   "stop": 124.31,
+   "target": 126.79,
+   "stop_label": "opening-range midpoint",
+   "target_label": "1R (one times the risk)",
+   "flat_by": "15:55"
+  },
   "why": {
-   "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
-   "exit": "plan: entry $554.47, stop $544.54 (opening-range midpoint), target $564.40 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on AMD: 10 shares, bound by your $100 max loss per trade (10 x 9.93 = $99.30 at the stop) (limits: max loss 10; position cap 12; max order 14; cash 15)",
-   "risk": "trader-risk PASS: entry 554.47 (the latest price), stop 544.54, target 564.40: risk 9.93 a share; max loss $99.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+   "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
+   "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
+   "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
+   "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
+  },
+  "decided_ts": 1795100400,
+  "late": false
  },
- "pending": null,
  "today": {
   "date": "2026-11-19",
   "hits": [
@@ -340,27 +350,35 @@
     "or_high": 269.42,
     "or_low": 267.47,
     "pct_over": 0.66
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:00",
+    "price": 125.55,
+    "or_high": 125.33,
+    "or_low": 123.29,
+    "pct_over": 0.18
    }
   ],
-  "n_hits": 38,
-  "entries": 1,
+  "n_hits": 39,
+  "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 10 AMD bought at $554.61. It sells at the stop $544.54, the target $564.40, or at 15:55 ET, whichever comes first.",
+ "next_move": "Buying 56 WMT at the next bar's open (signal at 10:00 ET). Then: stop $124.31, target $126.79.",
  "stats": {
-  "trades": 27,
+  "trades": 28,
   "wins": 11,
-  "win_rate": 0.4074074074074074,
-  "avg_r": -0.15681481481481485,
-  "t_stat_r": -0.9424156773595035,
-  "net_pnl": -450.5,
-  "profit_factor": 0.5397190293742018,
-  "expectancy_usd": -16.69,
+  "win_rate": 0.39285714285714285,
+  "avg_r": -0.18782142857142858,
+  "t_stat_r": -1.1500612934333458,
+  "net_pnl": -552.3,
+  "profit_factor": 0.4888714080792189,
+  "expectancy_usd": -19.72,
   "avg_win": 48.02,
-  "avg_loss": -61.17,
-  "costs_usd": 58.82,
+  "avg_loss": -63.56,
+  "costs_usd": 61.02,
   "exits": {
-   "stop": 11,
+   "stop": 12,
    "target": 7,
    "flat-by": 9
   }
@@ -381,6 +399,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-19",
+   "symbol": "AMD",
+   "qty": 10,
+   "entry_et": "09:50",
+   "entry_fill": 554.6109,
+   "exit_et": "10:00",
+   "exit_fill": 544.4311,
+   "exit_reason": "stop $544.54 hit",
+   "stop": 544.54,
+   "target": 564.4,
+   "pnl": -101.8,
+   "r": -1.025,
+   "risk_usd": 99.3,
+   "cost_usd": 2.2,
+   "why": {
+    "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
+    "exit": "plan: entry $554.47, stop $544.54 (opening-range midpoint), target $564.40 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AMD: 10 shares, bound by your $100 max loss per trade (10 x 9.93 = $99.30 at the stop) (limits: max loss 10; position cap 12; max order 14; cash 15)",
+    "risk": "trader-risk PASS: entry 554.47 (the latest price), stop 544.54, target 564.40: risk 9.93 a share; max loss $99.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-18",
    "symbol": "TJX",
@@ -1031,6 +1073,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795100400,
+   "et": "2026-11-19 10:00",
+   "kind": "order",
+   "text": "BUY 56 WMT at market (decided on the 10:00 close). opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
+   "symbol": "WMT",
+   "why": {
+    "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
+    "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
+    "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "others": []
+  },
+  {
+   "ts": 1795100400,
+   "et": "2026-11-19 10:00",
+   "kind": "exit",
+   "text": "SELL 10 AMD at $544.43: stop $544.54 hit. P&L $-101.80 (-1.02R)",
+   "symbol": "AMD"
+  },
   {
    "ts": 1795100100,
    "et": "2026-11-19 09:55",
@@ -1947,26 +2011,6 @@
    "symbols": [
     "PATH",
     "T"
-   ]
-  },
-  {
-   "ts": 1794842700,
-   "et": "2026-11-16 10:25",
-   "kind": "busy",
-   "text": "2 more breakouts (D, HD) not taken: already in UBER (one trade at a time)",
-   "symbols": [
-    "D",
-    "HD"
-   ]
-  },
-  {
-   "ts": 1794842400,
-   "et": "2026-11-16 10:20",
-   "kind": "busy",
-   "text": "2 more breakouts (ELV, PG) not taken: already in UBER (one trade at a time)",
-   "symbols": [
-    "ELV",
-    "PG"
    ]
   }
  ],
@@ -6530,6 +6574,11 @@
    "ts": 1795100204,
    "equity": 9483.32,
    "spy": 9690.78
+  },
+  {
+   "ts": 1795100526,
+   "equity": 9447.73,
+   "spy": 9690.26
   }
  ],
  "daily": [
@@ -6613,6 +6662,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795100526,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.5,
+   "errors": [],
+   "run_id": "44550168483",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795100204,
    "phase": "open",
@@ -7002,25 +7061,15 @@
    "errors": [],
    "run_id": "44372580939",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795027034,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "44371649417",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795100204,
+  "tick_at": 1795100526,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795100211,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795100533,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
