@@ -1,21 +1,21 @@
 {
- "updated": 1795102099,
- "updated_et": "2026-11-19 10:28 ET",
+ "updated": 1795102413,
+ "updated_et": "2026-11-19 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2415.52,
-  "equity": 9451.64,
-  "return": -0.05483600000000011,
+  "equity": 9452.2,
+  "return": -0.05477999999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9630.9,
-  "return": -0.03691,
+  "value": 9617.21,
+  "return": -0.03827900000000006,
   "start_price": 759.47998046875,
-  "last": 731.739990234375
+  "last": 730.7000122070312
  },
  "position": {
   "symbol": "WMT",
@@ -420,9 +420,25 @@
     "or_high": 230.26,
     "or_low": 228.28,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "MDT",
+    "at": "10:30",
+    "price": 101.31,
+    "or_high": 101.27,
+    "or_low": 100.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "PG",
+    "at": "10:30",
+    "price": 168.38,
+    "or_high": 168.29,
+    "or_low": 166.95,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 48,
+  "n_hits": 50,
   "entries": 2,
   "max_trades": 3
  },
@@ -1135,6 +1151,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795102200,
+   "et": "2026-11-19 10:30",
+   "kind": "busy",
+   "text": "2 more breakouts (MDT, PG) not taken: already in WMT (one trade at a time)",
+   "symbols": [
+    "MDT",
+    "PG"
+   ]
+  },
   {
    "ts": 1795101600,
    "et": "2026-11-19 10:20",
@@ -2063,21 +2089,6 @@
    "kind": "fill",
    "text": "BUY 19 HLT filled at $376.40 (next bar's open $376.32 + slippage). Stop $374.87, target $378.45",
    "symbol": "HLT"
-  },
-  {
-   "ts": 1794844500,
-   "et": "2026-11-16 10:55",
-   "kind": "order",
-   "text": "BUY 19 HLT at market (decided on the 10:55 close). opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
-   "symbol": "HLT",
-   "why": {
-    "scanner": "HLT: the 10:50 bar closed at $376.66, above the 15-min opening range high $376.49 (range 373.26-376.49)",
-    "exit": "plan: entry $376.66, stop $374.87 (opening-range midpoint), target $378.45 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on HLT: 19 shares, bound by your position cap (19 x 1.79 = $34.01 at the stop) (limits: max loss 55; position cap 19; max order 21; cash 23)",
-    "risk": "trader-risk PASS: entry 376.66 (the latest price), stop 374.87, target 378.45: risk 1.79 a share; max loss $34.01 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $44.29 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -6670,6 +6681,11 @@
    "ts": 1795102099,
    "equity": 9451.64,
    "spy": 9630.9
+  },
+  {
+   "ts": 1795102413,
+   "equity": 9452.2,
+   "spy": 9617.21
   }
  ],
  "daily": [
@@ -6753,6 +6769,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795102413,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.4,
+   "errors": [],
+   "run_id": "44556100324",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795102099,
    "phase": "open",
@@ -7142,25 +7168,15 @@
    "errors": [],
    "run_id": "44378252201",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795028924,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "44377296536",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795102099,
+  "tick_at": 1795102413,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795102106,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795102420,
+  "candidates": 10,
+  "charts_fetched": 12,
   "ok": true,
   "errors": [],
   "stale_data": false,
