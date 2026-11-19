@@ -705,7 +705,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795106100,
+  "last_bar_end": 1795106400,
   "position": {
    "symbol": "UAL",
    "qty": 65,
@@ -806,7 +806,7 @@
   ],
   "entries": 3,
   "skips": 0,
-  "triggers_seen": 52,
+  "triggers_seen": 53,
   "missed": [
    "HD",
    "MCD",
@@ -821,7 +821,8 @@
    "DHR",
    "MDT",
    "PG",
-   "SONY"
+   "SONY",
+   "RKT"
   ],
   "triggered": [
    "ADI",
@@ -875,7 +876,8 @@
    "MDT",
    "PG",
    "SONY",
-   "UAL"
+   "UAL",
+   "RKT"
   ],
   "hits": [
    {
@@ -1293,6 +1295,14 @@
     "or_high": 107.55,
     "or_low": 105.1,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "RKT",
+    "at": "11:40",
+    "price": 13.51,
+    "or_high": 13.48,
+    "or_low": 13.29,
+    "pct_over": 0.19
    }
   ]
  },
@@ -1300,8 +1310,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 728.780029296875,
-  "last_ts": 1795106100
+  "last": 730.739990234375,
+  "last_ts": 1795106400
  },
  "seen_trades": 0,
  "daily": [
