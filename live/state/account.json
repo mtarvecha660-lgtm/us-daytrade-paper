@@ -729,7 +729,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795110000,
+  "last_bar_end": 1795110300,
   "position": null,
   "pending": null,
   "orders": [
@@ -810,8 +810,8 @@
    }
   ],
   "entries": 3,
-  "skips": 0,
-  "triggers_seen": 54,
+  "skips": 1,
+  "triggers_seen": 55,
   "missed": [
    "HD",
    "MCD",
@@ -884,7 +884,8 @@
    "SONY",
    "UAL",
    "RKT",
-   "DIS"
+   "DIS",
+   "NOC"
   ],
   "hits": [
    {
@@ -1318,6 +1319,14 @@
     "or_high": 122.22,
     "or_low": 120.68,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "NOC",
+    "at": "12:45",
+    "price": 544.05,
+    "or_high": 543.98,
+    "or_low": 538.06,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1325,8 +1334,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.6400146484375,
-  "last_ts": 1795110000
+  "last": 722.469970703125,
+  "last_ts": 1795110300
  },
  "seen_trades": 0,
  "daily": [

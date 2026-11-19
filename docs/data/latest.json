@@ -1,6 +1,6 @@
 {
- "updated": 1795110302,
- "updated_et": "2026-11-19 12:45 ET",
+ "updated": 1795110612,
+ "updated_et": "2026-11-19 12:50 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9524.29,
-  "return": -0.04757099999999992,
+  "value": 9508.89,
+  "return": -0.049111000000000016,
   "start_price": 759.47998046875,
-  "last": 723.6400146484375
+  "last": 722.469970703125
  },
  "position": null,
  "pending": null,
@@ -453,9 +453,17 @@
     "or_high": 122.22,
     "or_low": 120.68,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "NOC",
+    "at": "12:45",
+    "price": 544.05,
+    "or_high": 543.98,
+    "or_low": 538.06,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 54,
+  "n_hits": 55,
   "entries": 3,
   "max_trades": 3
  },
@@ -1216,6 +1224,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795110300,
+   "et": "2026-11-19 12:45",
+   "kind": "skip",
+   "text": "NOC triggered but skipped. trader-risk BLOCK: trades: 3 entries placed today plus 0 passed earlier in this batch, your limit is 3 a day",
+   "symbol": "NOC",
+   "why": {
+    "scanner": "NOC: the 12:40 bar closed at $544.05, above the 15-min opening range high $543.98 (range 538.06-543.98)",
+    "exit": "plan: entry $544.05, stop $541.02 (opening-range midpoint), target $547.08 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on NOC: 12 shares, bound by your position cap (12 x 3.03 = $36.36 at the stop) (limits: max loss 33; position cap 12; max order 14; cash 15)"
+   }
+  },
   {
    "ts": 1795107900,
    "et": "2026-11-19 12:05",
@@ -2137,18 +2157,6 @@
    "text": "1 more breakout (Z) not taken: already in COP (one trade at a time)",
    "symbols": [
     "Z"
-   ]
-  },
-  {
-   "ts": 1794846300,
-   "et": "2026-11-16 11:25",
-   "kind": "busy",
-   "text": "4 more breakouts (DOCU, KLAC, MU, TXN) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "DOCU",
-    "KLAC",
-    "MU",
-    "TXN"
    ]
   }
  ],
@@ -6872,6 +6880,11 @@
    "ts": 1795110302,
    "equity": 9288.21,
    "spy": 9524.29
+  },
+  {
+   "ts": 1795110612,
+   "equity": 9288.21,
+   "spy": 9508.89
   }
  ],
  "daily": [
@@ -6955,6 +6968,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795110612,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.0,
+   "errors": [],
+   "run_id": "44581375467",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795110302,
    "phase": "open",
@@ -7344,23 +7367,13 @@
    "errors": [],
    "run_id": "44543506962",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795095938,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "44536620802",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795110302,
+  "tick_at": 1795110612,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795110307,
+  "yahoo_time": 1795110617,
   "candidates": 9,
   "charts_fetched": 10,
   "ok": true,
