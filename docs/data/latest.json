@@ -1,49 +1,39 @@
 {
- "updated": 1795105893,
- "updated_et": "2026-11-19 11:31 ET",
+ "updated": 1795106205,
+ "updated_et": "2026-11-19 11:36 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9375.49,
-  "equity": 9375.49,
-  "return": -0.062451000000000034,
+  "cash": 2378.79,
+  "equity": 9379.2,
+  "return": -0.06207999999999991,
   "started": 1793559735
  },
  "spy": {
-  "value": 9601.28,
-  "return": -0.03987199999999991,
+  "value": 9591.94,
+  "return": -0.0408059999999999,
   "start_price": 759.47998046875,
-  "last": 729.489990234375
+  "last": 728.780029296875
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "UAL",
   "qty": 65,
-  "plan": {
-   "symbol": "UAL",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-19",
-   "entry_time": "11:30 AM",
-   "entry": 107.6,
-   "stop": 106.32,
-   "target": 108.88,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 107.6415,
+  "entry_et": "11:30",
+  "stop": 106.32,
+  "target": 108.88,
+  "last": null,
   "why": {
    "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
    "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
    "risk": "trader-risk PASS: entry 107.60 (the plan's entry), stop 106.32, target 108.88: risk 1.28 a share; max loss $83.20 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $168.74 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795105800,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-19",
   "hits": [
@@ -468,7 +458,7 @@
   "entries": 3,
   "max_trades": 3
  },
- "next_move": "Buying 65 UAL at the next bar's open (signal at 11:30 ET). Then: stop $106.32, target $108.88.",
+ "next_move": "Holding 65 UAL bought at $107.64. It sells at the stop $106.32, the target $108.88, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 29,
   "wins": 11,
@@ -1201,6 +1191,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795105800,
+   "et": "2026-11-19 11:30",
+   "kind": "fill",
+   "text": "BUY 65 UAL filled at $107.64 (next bar's open $107.62 + slippage). Stop $106.32, target $108.88",
+   "symbol": "UAL"
+  },
   {
    "ts": 1795105800,
    "et": "2026-11-19 11:30",
@@ -2136,13 +2133,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1794845700,
-   "et": "2026-11-16 11:15",
-   "kind": "exit",
-   "text": "SELL 19 HLT at $374.80: stop $374.87 hit. P&L $-30.41 (-0.89R)",
-   "symbol": "HLT"
   }
  ],
  "equity": [
@@ -6795,6 +6785,11 @@
    "ts": 1795105893,
    "equity": 9375.49,
    "spy": 9601.28
+  },
+  {
+   "ts": 1795106205,
+   "equity": 9379.2,
+   "spy": 9591.94
   }
  ],
  "daily": [
@@ -6878,6 +6873,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795106205,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.1,
+   "errors": [],
+   "run_id": "44568021381",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795105893,
    "phase": "open",
@@ -7267,25 +7272,15 @@
    "errors": [],
    "run_id": "44389390381",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795032728,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.7,
-   "errors": [],
-   "run_id": "44388434790",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795105893,
+  "tick_at": 1795106205,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795105898,
-  "candidates": 15,
-  "charts_fetched": 16,
+  "yahoo_time": 1795106212,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
