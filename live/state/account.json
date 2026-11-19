@@ -1,5 +1,5 @@
 {
- "cash": 9447.7288,
+ "cash": 2415.5232,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -681,11 +681,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795100400,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795100700,
+  "position": {
    "symbol": "WMT",
    "qty": 56,
+   "entry_fill": 125.5751,
+   "entry_ts": 1795100400,
    "plan": {
     "symbol": "WMT",
     "side": "buy",
@@ -697,7 +698,8 @@
     "target": 126.79,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 125.55000305175781
    },
    "why": {
     "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
@@ -706,9 +708,9 @@
     "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795100400,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -743,14 +745,29 @@
     "kind": "entry",
     "max_loss": 69.44,
     "at": "2026-11-19T10:00:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-19",
+    "symbol": "WMT",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 56
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 39,
+  "triggers_seen": 46,
   "missed": [
    "HD",
-   "MCD"
+   "MCD",
+   "DELL",
+   "LRCX",
+   "MCHP",
+   "MRVL",
+   "MU",
+   "STX",
+   "TGT"
   ],
   "triggered": [
    "ADI",
@@ -791,7 +808,14 @@
    "WFC",
    "HD",
    "MCD",
-   "WMT"
+   "WMT",
+   "DELL",
+   "LRCX",
+   "MCHP",
+   "MRVL",
+   "MU",
+   "STX",
+   "TGT"
   ],
   "hits": [
    {
@@ -1105,6 +1129,62 @@
     "or_high": 125.33,
     "or_low": 123.29,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "DELL",
+    "at": "10:05",
+    "price": 335.33,
+    "or_high": 334.5,
+    "or_low": 325.47,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:05",
+    "price": 221.6,
+    "or_high": 221.53,
+    "or_low": 216.53,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:05",
+    "price": 62.21,
+    "or_high": 61.76,
+    "or_low": 60.87,
+    "pct_over": 0.72
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:05",
+    "price": 153.45,
+    "or_high": 153.4,
+    "or_low": 149.88,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MU",
+    "at": "10:05",
+    "price": 756.6,
+    "or_high": 753.5,
+    "or_low": 731.25,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "STX",
+    "at": "10:05",
+    "price": 565.51,
+    "or_high": 559.76,
+    "or_low": 536.54,
+    "pct_over": 1.03
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:05",
+    "price": 168.24,
+    "or_high": 167.77,
+    "or_low": 165.2,
+    "pct_over": 0.28
    }
   ]
  },
@@ -1112,8 +1192,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 736.25,
-  "last_ts": 1795100400
+  "last": 737.2100219726562,
+  "last_ts": 1795100700
  },
  "seen_trades": 0,
  "daily": [

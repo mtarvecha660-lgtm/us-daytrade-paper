@@ -1,49 +1,39 @@
 {
- "updated": 1795100526,
- "updated_et": "2026-11-19 10:02 ET",
+ "updated": 1795100834,
+ "updated_et": "2026-11-19 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9447.73,
-  "equity": 9447.73,
-  "return": -0.055227000000000026,
+  "cash": 2415.52,
+  "equity": 9449.96,
+  "return": -0.05500400000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 9690.26,
-  "return": -0.030973999999999946,
+  "value": 9702.89,
+  "return": -0.029711000000000043,
   "start_price": 759.47998046875,
-  "last": 736.25
+  "last": 737.2100219726562
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "WMT",
   "qty": 56,
-  "plan": {
-   "symbol": "WMT",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-19",
-   "entry_time": "10:00 AM",
-   "entry": 125.55,
-   "stop": 124.31,
-   "target": 126.79,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 125.5751,
+  "entry_et": "10:00",
+  "stop": 124.31,
+  "target": 126.79,
+  "last": null,
   "why": {
    "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
    "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
    "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795100400,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-19",
   "hits": [
@@ -358,13 +348,69 @@
     "or_high": 125.33,
     "or_low": 123.29,
     "pct_over": 0.18
+   },
+   {
+    "symbol": "DELL",
+    "at": "10:05",
+    "price": 335.33,
+    "or_high": 334.5,
+    "or_low": 325.47,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "LRCX",
+    "at": "10:05",
+    "price": 221.6,
+    "or_high": 221.53,
+    "or_low": 216.53,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:05",
+    "price": 62.21,
+    "or_high": 61.76,
+    "or_low": 60.87,
+    "pct_over": 0.72
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:05",
+    "price": 153.45,
+    "or_high": 153.4,
+    "or_low": 149.88,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MU",
+    "at": "10:05",
+    "price": 756.6,
+    "or_high": 753.5,
+    "or_low": 731.25,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "STX",
+    "at": "10:05",
+    "price": 565.51,
+    "or_high": 559.76,
+    "or_low": 536.54,
+    "pct_over": 1.03
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:05",
+    "price": 168.24,
+    "or_high": 167.77,
+    "or_low": 165.2,
+    "pct_over": 0.28
    }
   ],
-  "n_hits": 39,
+  "n_hits": 46,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 56 WMT at the next bar's open (signal at 10:00 ET). Then: stop $124.31, target $126.79.",
+ "next_move": "Holding 56 WMT bought at $125.58. It sells at the stop $124.31, the target $126.79, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 28,
   "wins": 11,
@@ -1073,6 +1119,28 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795100700,
+   "et": "2026-11-19 10:05",
+   "kind": "busy",
+   "text": "7 more breakouts (DELL, LRCX, MCHP, MRVL, MU, STX, TGT) not taken: already in WMT (one trade at a time)",
+   "symbols": [
+    "DELL",
+    "LRCX",
+    "MCHP",
+    "MRVL",
+    "MU",
+    "STX",
+    "TGT"
+   ]
+  },
+  {
+   "ts": 1795100400,
+   "et": "2026-11-19 10:00",
+   "kind": "fill",
+   "text": "BUY 56 WMT filled at $125.58 (next bar's open $125.55 + slippage). Stop $124.31, target $126.79",
+   "symbol": "WMT"
+  },
   {
    "ts": 1795100400,
    "et": "2026-11-19 10:00",
@@ -1992,25 +2060,6 @@
    "symbols": [
     "OXY",
     "WDC"
-   ]
-  },
-  {
-   "ts": 1794843900,
-   "et": "2026-11-16 10:45",
-   "kind": "busy",
-   "text": "1 more breakout (DUOL) not taken: already in UBER (one trade at a time)",
-   "symbols": [
-    "DUOL"
-   ]
-  },
-  {
-   "ts": 1794843600,
-   "et": "2026-11-16 10:40",
-   "kind": "busy",
-   "text": "2 more breakouts (PATH, T) not taken: already in UBER (one trade at a time)",
-   "symbols": [
-    "PATH",
-    "T"
    ]
   }
  ],
@@ -6579,6 +6628,11 @@
    "ts": 1795100526,
    "equity": 9447.73,
    "spy": 9690.26
+  },
+  {
+   "ts": 1795100834,
+   "equity": 9449.96,
+   "spy": 9702.89
   }
  ],
  "daily": [
@@ -6662,6 +6716,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795100834,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.0,
+   "errors": [],
+   "run_id": "44551159202",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795100526,
    "phase": "open",
@@ -7051,29 +7115,19 @@
    "errors": [],
    "run_id": "44373518281",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795027349,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.5,
-   "errors": [],
-   "run_id": "44372580939",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795100526,
+  "tick_at": 1795100834,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795100533,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1795100846,
+  "candidates": 36,
+  "charts_fetched": 38,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
