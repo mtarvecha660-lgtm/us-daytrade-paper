@@ -1,21 +1,21 @@
 {
- "updated": 1795106831,
- "updated_et": "2026-11-19 11:47 ET",
+ "updated": 1795107144,
+ "updated_et": "2026-11-19 11:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2378.79,
-  "equity": 9381.14,
-  "return": -0.06188600000000011,
+  "equity": 9390.56,
+  "return": -0.060944,
   "started": 1793559735
  },
  "spy": {
-  "value": 9605.36,
-  "return": -0.039463999999999944,
+  "value": 9603.52,
+  "return": -0.039647999999999906,
   "start_price": 759.47998046875,
-  "last": 729.7999877929688
+  "last": 729.6599731445312
  },
  "position": {
   "symbol": "UAL",
@@ -460,9 +460,17 @@
     "or_high": 13.48,
     "or_low": 13.29,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "DIS",
+    "at": "11:50",
+    "price": 122.23,
+    "or_high": 122.22,
+    "or_low": 120.68,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 53,
+  "n_hits": 54,
   "entries": 3,
   "max_trades": 3
  },
@@ -1199,6 +1207,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795107000,
+   "et": "2026-11-19 11:50",
+   "kind": "busy",
+   "text": "1 more breakout (DIS) not taken: already in UAL (one trade at a time)",
+   "symbols": [
+    "DIS"
+   ]
+  },
   {
    "ts": 1795106400,
    "et": "2026-11-19 11:40",
@@ -2128,13 +2145,6 @@
     "EOG",
     "U"
    ]
-  },
-  {
-   "ts": 1794845700,
-   "et": "2026-11-16 11:15",
-   "kind": "fill",
-   "text": "BUY 51 COP filled at $141.04 (next bar's open $141.01 + slippage). Stop $139.84, target $142.08",
-   "symbol": "COP"
   }
  ],
  "equity": [
@@ -6802,6 +6812,11 @@
    "ts": 1795106831,
    "equity": 9381.14,
    "spy": 9605.36
+  },
+  {
+   "ts": 1795107144,
+   "equity": 9390.56,
+   "spy": 9603.52
   }
  ],
  "daily": [
@@ -6885,6 +6900,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795107144,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.2,
+   "errors": [],
+   "run_id": "44570925595",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795106831,
    "phase": "open",
@@ -7274,25 +7299,15 @@
    "errors": [],
    "run_id": "44392154120",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795033665,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.8,
-   "errors": [],
-   "run_id": "44391236781",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795106831,
+  "tick_at": 1795107144,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795106838,
-  "candidates": 15,
-  "charts_fetched": 17,
+  "yahoo_time": 1795107153,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
