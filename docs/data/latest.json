@@ -1,21 +1,21 @@
 {
- "updated": 1795102727,
- "updated_et": "2026-11-19 10:38 ET",
+ "updated": 1795103042,
+ "updated_et": "2026-11-19 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2415.52,
-  "equity": 9450.8,
-  "return": -0.05492000000000008,
+  "equity": 9434.0,
+  "return": -0.056599999999999984,
   "started": 1793559735
  },
  "spy": {
-  "value": 9589.44,
-  "return": -0.04105599999999998,
+  "value": 9566.14,
+  "return": -0.043386000000000036,
   "start_price": 759.47998046875,
-  "last": 728.5900268554688
+  "last": 726.8200073242188
  },
  "position": {
   "symbol": "WMT",
@@ -436,9 +436,17 @@
     "or_high": 168.29,
     "or_low": 166.95,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:40",
+    "price": 27.42,
+    "or_high": 27.41,
+    "or_low": 27.05,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 50,
+  "n_hits": 51,
   "entries": 2,
   "max_trades": 3
  },
@@ -1151,6 +1159,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795102800,
+   "et": "2026-11-19 10:40",
+   "kind": "busy",
+   "text": "1 more breakout (SONY) not taken: already in WMT (one trade at a time)",
+   "symbols": [
+    "SONY"
+   ]
+  },
   {
    "ts": 1795102200,
    "et": "2026-11-19 10:30",
@@ -2082,13 +2099,6 @@
     "ADBE",
     "BB"
    ]
-  },
-  {
-   "ts": 1794844500,
-   "et": "2026-11-16 10:55",
-   "kind": "fill",
-   "text": "BUY 19 HLT filled at $376.40 (next bar's open $376.32 + slippage). Stop $374.87, target $378.45",
-   "symbol": "HLT"
   }
  ],
  "equity": [
@@ -6691,6 +6701,11 @@
    "ts": 1795102727,
    "equity": 9450.8,
    "spy": 9589.44
+  },
+  {
+   "ts": 1795103042,
+   "equity": 9434.0,
+   "spy": 9566.14
   }
  ],
  "daily": [
@@ -6774,6 +6789,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795103042,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.2,
+   "errors": [],
+   "run_id": "44558083537",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795102727,
    "phase": "open",
@@ -7163,25 +7188,15 @@
    "errors": [],
    "run_id": "44380129145",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795029544,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.3,
-   "errors": [],
-   "run_id": "44379185513",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795102727,
+  "tick_at": 1795103042,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795102732,
-  "candidates": 5,
-  "charts_fetched": 7,
+  "yahoo_time": 1795103048,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,

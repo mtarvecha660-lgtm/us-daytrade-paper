@@ -681,7 +681,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795102500,
+  "last_bar_end": 1795102800,
   "position": {
    "symbol": "WMT",
    "qty": 56,
@@ -757,7 +757,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 50,
+  "triggers_seen": 51,
   "missed": [
    "HD",
    "MCD",
@@ -771,7 +771,8 @@
    "HAL",
    "DHR",
    "MDT",
-   "PG"
+   "PG",
+   "SONY"
   ],
   "triggered": [
    "ADI",
@@ -823,7 +824,8 @@
    "HAL",
    "DHR",
    "MDT",
-   "PG"
+   "PG",
+   "SONY"
   ],
   "hits": [
    {
@@ -1225,6 +1227,14 @@
     "or_high": 168.29,
     "or_low": 166.95,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:40",
+    "price": 27.42,
+    "or_high": 27.41,
+    "or_low": 27.05,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1232,8 +1242,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 728.5900268554688,
-  "last_ts": 1795102500
+  "last": 726.8200073242188,
+  "last_ts": 1795102800
  },
  "seen_trades": 0,
  "daily": [
