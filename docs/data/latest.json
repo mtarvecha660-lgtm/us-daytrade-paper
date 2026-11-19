@@ -1,38 +1,23 @@
 {
- "updated": 1795104948,
- "updated_et": "2026-11-19 11:15 ET",
+ "updated": 1795105262,
+ "updated_et": "2026-11-19 11:21 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2415.52,
-  "equity": 9431.48,
-  "return": -0.056852000000000014,
+  "cash": 9375.49,
+  "equity": 9375.49,
+  "return": -0.062451000000000034,
   "started": 1793559735
  },
  "spy": {
-  "value": 9580.82,
-  "return": -0.04191800000000001,
+  "value": 9593.52,
+  "return": -0.040647999999999906,
   "start_price": 759.47998046875,
-  "last": 727.9349975585938
+  "last": 728.9000244140625
  },
- "position": {
-  "symbol": "WMT",
-  "qty": 56,
-  "entry": 125.5751,
-  "entry_et": "10:00",
-  "stop": 124.31,
-  "target": 126.79,
-  "last": null,
-  "why": {
-   "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
-   "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
-   "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-19",
@@ -450,21 +435,21 @@
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Holding 56 WMT bought at $125.58. It sells at the stop $124.31, the target $126.79, or at 15:55 ET, whichever comes first.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 2 of 3 trades used today.",
  "stats": {
-  "trades": 28,
+  "trades": 29,
   "wins": 11,
-  "win_rate": 0.39285714285714285,
-  "avg_r": -0.18782142857142858,
-  "t_stat_r": -1.1500612934333458,
-  "net_pnl": -552.3,
-  "profit_factor": 0.4888714080792189,
-  "expectancy_usd": -19.72,
+  "win_rate": 0.3793103448275862,
+  "avg_r": -0.21720689655172415,
+  "t_stat_r": -1.355014303608821,
+  "net_pnl": -624.54,
+  "profit_factor": 0.45823610544852056,
+  "expectancy_usd": -21.54,
   "avg_win": 48.02,
-  "avg_loss": -63.56,
-  "costs_usd": 61.02,
+  "avg_loss": -64.04,
+  "costs_usd": 63.82,
   "exits": {
-   "stop": 12,
+   "stop": 13,
    "target": 7,
    "flat-by": 9
   }
@@ -485,6 +470,30 @@
  },
  "intraday_max_drawdown": -0.08063316689684474,
  "trades": [
+  {
+   "date": "2026-11-19",
+   "symbol": "WMT",
+   "qty": 56,
+   "entry_et": "10:00",
+   "entry_fill": 125.5751,
+   "exit_et": "11:20",
+   "exit_fill": 124.2851,
+   "exit_reason": "stop $124.31 hit",
+   "stop": 124.31,
+   "target": 126.79,
+   "pnl": -72.24,
+   "r": -1.04,
+   "risk_usd": 69.44,
+   "cost_usd": 2.8,
+   "why": {
+    "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
+    "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
+    "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-19",
    "symbol": "AMD",
@@ -1159,6 +1168,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795105200,
+   "et": "2026-11-19 11:20",
+   "kind": "exit",
+   "text": "SELL 56 WMT at $124.29: stop $124.31 hit. P&L $-72.24 (-1.04R)",
+   "symbol": "WMT"
+  },
   {
    "ts": 1795102800,
    "et": "2026-11-19 10:40",
@@ -2088,16 +2104,6 @@
    "symbols": [
     "GME",
     "SHOP"
-   ]
-  },
-  {
-   "ts": 1794844800,
-   "et": "2026-11-16 11:00",
-   "kind": "busy",
-   "text": "2 more breakouts (ADBE, BB) not taken: already in HLT (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "BB"
    ]
   }
  ],
@@ -6736,6 +6742,11 @@
    "ts": 1795104948,
    "equity": 9431.48,
    "spy": 9580.82
+  },
+  {
+   "ts": 1795105262,
+   "equity": 9375.49,
+   "spy": 9593.52
   }
  ],
  "daily": [
@@ -6819,6 +6830,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795105262,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 10.6,
+   "errors": [],
+   "run_id": "44565047696",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795104948,
    "phase": "open",
@@ -7208,25 +7229,15 @@
    "errors": [],
    "run_id": "44386542960",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795031773,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "44385624160",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795104948,
+  "tick_at": 1795105262,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795104954,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1795105271,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,

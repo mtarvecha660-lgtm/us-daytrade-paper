@@ -443,3 +443,4 @@
 {"ts": 1795101600, "et": "2026-11-19 10:20", "kind": "busy", "text": "1 more breakout (DHR) not taken: already in WMT (one trade at a time)", "symbols": ["DHR"]}
 {"ts": 1795102200, "et": "2026-11-19 10:30", "kind": "busy", "text": "2 more breakouts (MDT, PG) not taken: already in WMT (one trade at a time)", "symbols": ["MDT", "PG"]}
 {"ts": 1795102800, "et": "2026-11-19 10:40", "kind": "busy", "text": "1 more breakout (SONY) not taken: already in WMT (one trade at a time)", "symbols": ["SONY"]}
+{"ts": 1795105200, "et": "2026-11-19 11:20", "kind": "exit", "text": "SELL 56 WMT at $124.29: stop $124.31 hit. P&L $-72.24 (-1.04R)", "symbol": "WMT"}
