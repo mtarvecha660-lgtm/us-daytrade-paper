@@ -657,21 +657,384 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795099500,
+  "last_bar_end": 1795099800,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "AMD",
+   "qty": 10,
+   "plan": {
+    "symbol": "AMD",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-19",
+    "entry_time": "9:50 AM",
+    "entry": 554.47,
+    "stop": 544.54,
+    "target": 564.4,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
+    "exit": "plan: entry $554.47, stop $544.54 (opening-range midpoint), target $564.40 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AMD: 10 shares, bound by your $100 max loss per trade (10 x 9.93 = $99.30 at the stop) (limits: max loss 10; position cap 12; max order 14; cash 15)",
+    "risk": "trader-risk PASS: entry 554.47 (the latest price), stop 544.54, target 564.40: risk 9.93 a share; max loss $99.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795099800,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-19",
+    "symbol": "AMD",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 99.3,
+    "at": "2026-11-19T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 36,
+  "missed": [],
+  "triggered": [
+   "ADI",
+   "AI",
+   "AMD",
+   "APO",
+   "BABA",
+   "BBY",
+   "BLK",
+   "BX",
+   "C",
+   "COF",
+   "DG",
+   "DLTR",
+   "DPZ",
+   "FSLR",
+   "GME",
+   "GS",
+   "INTC",
+   "JD",
+   "JPM",
+   "KKR",
+   "LULU",
+   "MSFT",
+   "NXPI",
+   "ON",
+   "PDD",
+   "PYPL",
+   "QCOM",
+   "RUN",
+   "SMCI",
+   "SPOT",
+   "TJX",
+   "TSM",
+   "UPST",
+   "USB",
+   "WDC",
+   "WFC"
+  ],
+  "hits": [
+   {
+    "symbol": "ADI",
+    "at": "09:50",
+    "price": 394.04,
+    "or_high": 392.89,
+    "or_low": 388.53,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "AI",
+    "at": "09:50",
+    "price": 10.78,
+    "or_high": 10.65,
+    "or_low": 10.15,
+    "pct_over": 1.27
+   },
+   {
+    "symbol": "AMD",
+    "at": "09:50",
+    "price": 554.47,
+    "or_high": 552.0,
+    "or_low": 537.09,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "APO",
+    "at": "09:50",
+    "price": 120.07,
+    "or_high": 119.44,
+    "or_low": 117.46,
+    "pct_over": 0.52
+   },
+   {
+    "symbol": "BABA",
+    "at": "09:50",
+    "price": 87.76,
+    "or_high": 87.62,
+    "or_low": 83.25,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "BBY",
+    "at": "09:50",
+    "price": 100.47,
+    "or_high": 100.0,
+    "or_low": 99.27,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "BLK",
+    "at": "09:50",
+    "price": 1186.0,
+    "or_high": 1182.96,
+    "or_low": 1175.48,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "BX",
+    "at": "09:50",
+    "price": 118.11,
+    "or_high": 117.48,
+    "or_low": 114.9,
+    "pct_over": 0.54
+   },
+   {
+    "symbol": "C",
+    "at": "09:50",
+    "price": 119.22,
+    "or_high": 119.04,
+    "or_low": 117.88,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "COF",
+    "at": "09:50",
+    "price": 187.73,
+    "or_high": 187.02,
+    "or_low": 184.95,
+    "pct_over": 0.38
+   },
+   {
+    "symbol": "DG",
+    "at": "09:50",
+    "price": 133.32,
+    "or_high": 133.09,
+    "or_low": 131.67,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "DLTR",
+    "at": "09:50",
+    "price": 141.2,
+    "or_high": 141.18,
+    "or_low": 139.89,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DPZ",
+    "at": "09:50",
+    "price": 353.6,
+    "or_high": 351.93,
+    "or_low": 347.67,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "FSLR",
+    "at": "09:50",
+    "price": 157.69,
+    "or_high": 156.88,
+    "or_low": 151.81,
+    "pct_over": 0.52
+   },
+   {
+    "symbol": "GME",
+    "at": "09:50",
+    "price": 26.67,
+    "or_high": 26.66,
+    "or_low": 26.31,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GS",
+    "at": "09:50",
+    "price": 889.97,
+    "or_high": 886.7,
+    "or_low": 880.05,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "INTC",
+    "at": "09:50",
+    "price": 59.15,
+    "or_high": 59.0,
+    "or_low": 57.28,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 25.67,
+    "or_high": 25.61,
+    "or_low": 25.04,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "JPM",
+    "at": "09:50",
+    "price": 328.14,
+    "or_high": 327.42,
+    "or_low": 325.92,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "KKR",
+    "at": "09:50",
+    "price": 94.98,
+    "or_high": 94.58,
+    "or_low": 93.7,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "LULU",
+    "at": "09:50",
+    "price": 109.5,
+    "or_high": 109.45,
+    "or_low": 108.26,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "MSFT",
+    "at": "09:50",
+    "price": 525.35,
+    "or_high": 524.78,
+    "or_low": 518.42,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "NXPI",
+    "at": "09:50",
+    "price": 261.33,
+    "or_high": 259.25,
+    "or_low": 255.29,
+    "pct_over": 0.8
+   },
+   {
+    "symbol": "ON",
+    "at": "09:50",
+    "price": 69.82,
+    "or_high": 69.63,
+    "or_low": 68.64,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "PDD",
+    "at": "09:50",
+    "price": 87.09,
+    "or_high": 86.15,
+    "or_low": 82.02,
+    "pct_over": 1.09
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:50",
+    "price": 57.99,
+    "or_high": 57.93,
+    "or_low": 57.5,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "QCOM",
+    "at": "09:50",
+    "price": 170.7,
+    "or_high": 169.5,
+    "or_low": 163.28,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "RUN",
+    "at": "09:50",
+    "price": 7.39,
+    "or_high": 7.38,
+    "or_low": 7.2,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "SMCI",
+    "at": "09:50",
+    "price": 25.8,
+    "or_high": 25.59,
+    "or_low": 25.1,
+    "pct_over": 0.8
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:50",
+    "price": 602.7,
+    "or_high": 600.88,
+    "or_low": 581.83,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TJX",
+    "at": "09:50",
+    "price": 139.58,
+    "or_high": 139.37,
+    "or_low": 136.98,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "TSM",
+    "at": "09:50",
+    "price": 374.33,
+    "or_high": 373.88,
+    "or_low": 365.71,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "UPST",
+    "at": "09:50",
+    "price": 18.22,
+    "or_high": 18.19,
+    "or_low": 17.99,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "USB",
+    "at": "09:50",
+    "price": 58.6,
+    "or_high": 58.5,
+    "or_low": 58.08,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "WDC",
+    "at": "09:50",
+    "price": 311.9,
+    "or_high": 311.8,
+    "or_low": 300.82,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "WFC",
+    "at": "09:50",
+    "price": 81.83,
+    "or_high": 81.67,
+    "or_low": 81.12,
+    "pct_over": 0.2
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 738.2100219726562,
-  "last_ts": 1795099500
+  "last": 739.010009765625,
+  "last_ts": 1795099800
  },
  "seen_trades": 0,
  "daily": [
