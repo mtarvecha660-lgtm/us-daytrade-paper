@@ -681,7 +681,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795103700,
+  "last_bar_end": 1795104000,
   "position": {
    "symbol": "WMT",
    "qty": 56,
@@ -1242,8 +1242,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 727.1400146484375,
-  "last_ts": 1795103700
+  "last": 729.1199951171875,
+  "last_ts": 1795104000
  },
  "seen_trades": 0,
  "daily": [
