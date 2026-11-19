@@ -1,5 +1,5 @@
 {
- "cash": 9549.5268,
+ "cash": 4003.4178,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -657,11 +657,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-19",
-  "last_bar_end": 1795099800,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795100100,
+  "position": {
    "symbol": "AMD",
    "qty": 10,
+   "entry_fill": 554.6109,
+   "entry_ts": 1795099800,
    "plan": {
     "symbol": "AMD",
     "side": "buy",
@@ -673,7 +674,8 @@
     "target": 564.4,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 554.5
    },
    "why": {
     "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
@@ -682,9 +684,9 @@
     "risk": "trader-risk PASS: entry 554.47 (the latest price), stop 544.54, target 564.40: risk 9.93 a share; max loss $99.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795099800,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -694,12 +696,23 @@
     "kind": "entry",
     "max_loss": 99.3,
     "at": "2026-11-19T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-19",
+    "symbol": "AMD",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 10
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 36,
-  "missed": [],
+  "triggers_seen": 38,
+  "missed": [
+   "HD",
+   "MCD"
+  ],
   "triggered": [
    "ADI",
    "AI",
@@ -736,7 +749,9 @@
    "UPST",
    "USB",
    "WDC",
-   "WFC"
+   "WFC",
+   "HD",
+   "MCD"
   ],
   "hits": [
    {
@@ -1026,6 +1041,22 @@
     "or_high": 81.67,
     "or_low": 81.12,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "HD",
+    "at": "09:55",
+    "price": 336.04,
+    "or_high": 335.76,
+    "or_low": 332.36,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "MCD",
+    "at": "09:55",
+    "price": 271.21,
+    "or_high": 269.42,
+    "or_low": 267.47,
+    "pct_over": 0.66
    }
   ]
  },
@@ -1033,8 +1064,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 739.010009765625,
-  "last_ts": 1795099800
+  "last": 736.2901000976562,
+  "last_ts": 1795100100
  },
  "seen_trades": 0,
  "daily": [
