@@ -1,21 +1,21 @@
 {
- "updated": 1795188498,
- "updated_et": "2026-11-20 10:28 ET",
+ "updated": 1795188806,
+ "updated_et": "2026-11-20 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2442.38,
-  "equity": 9345.0,
-  "return": -0.0655,
+  "equity": 9316.21,
+  "return": -0.06837900000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 9340.29,
-  "return": -0.06597099999999989,
+  "value": 9351.34,
+  "return": -0.06486599999999998,
   "start_price": 759.47998046875,
-  "last": 709.6599731445312
+  "last": 710.5
  },
  "position": {
   "symbol": "UNH",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "CVNA",
-    "at": "10:00",
-    "price": 69.55,
-    "or_high": 69.46,
-    "or_low": 67.39,
-    "pct_over": 0.13
-   },
    {
     "symbol": "DXCM",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 271.93,
     "or_low": 269.47,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:30",
+    "price": 46.75,
+    "or_high": 46.71,
+    "or_low": 46.39,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 108,
+  "n_hits": 109,
   "entries": 2,
   "max_trades": 3
  },
@@ -1303,6 +1303,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795188600,
+   "et": "2026-11-20 10:30",
+   "kind": "busy",
+   "text": "1 more breakout (VZ) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "VZ"
+   ]
+  },
   {
    "ts": 1795188000,
    "et": "2026-11-20 10:20",
@@ -2300,13 +2309,6 @@
     "WFC",
     "WMT"
    ]
-  },
-  {
-   "ts": 1794927000,
-   "et": "2026-11-17 09:50",
-   "kind": "fill",
-   "text": "BUY 18 HD filled at $344.01 (next bar's open $343.94 + slippage). Stop $338.65, target $349.23",
-   "symbol": "HD"
   }
  ],
  "equity": [
@@ -7279,6 +7281,11 @@
    "ts": 1795188498,
    "equity": 9345.0,
    "spy": 9340.29
+  },
+  {
+   "ts": 1795188806,
+   "equity": 9316.21,
+   "spy": 9351.34
   }
  ],
  "daily": [
@@ -7368,6 +7375,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795188806,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.8,
+   "errors": [],
+   "run_id": "44764415871",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795188498,
    "phase": "open",
@@ -7757,25 +7774,15 @@
    "errors": [],
    "run_id": "44597103462",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795115662,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.7,
-   "errors": [],
-   "run_id": "44596191083",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795188498,
+  "tick_at": 1795188806,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795188503,
-  "candidates": 6,
-  "charts_fetched": 8,
+  "yahoo_time": 1795188815,
+  "candidates": 8,
+  "charts_fetched": 10,
   "ok": true,
   "errors": [],
   "stale_data": false,

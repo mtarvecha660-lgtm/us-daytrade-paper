@@ -460,3 +460,4 @@
 {"ts": 1795187400, "et": "2026-11-20 10:10", "kind": "busy", "text": "12 more breakouts (BBY, COF, D, DUOL, GME, LLY, PEP, RKT ...) not taken: already in UNH (one trade at a time)", "symbols": ["BBY", "COF", "D", "DUOL", "GME", "LLY", "PEP", "RKT", "T", "TMUS", "USB", "W"]}
 {"ts": 1795187700, "et": "2026-11-20 10:15", "kind": "busy", "text": "5 more breakouts (AMGN, GILD, HD, NEE, WMT) not taken: already in UNH (one trade at a time)", "symbols": ["AMGN", "GILD", "HD", "NEE", "WMT"]}
 {"ts": 1795188000, "et": "2026-11-20 10:20", "kind": "busy", "text": "2 more breakouts (DUK, JNJ) not taken: already in UNH (one trade at a time)", "symbols": ["DUK", "JNJ"]}
+{"ts": 1795188600, "et": "2026-11-20 10:30", "kind": "busy", "text": "1 more breakout (VZ) not taken: already in UNH (one trade at a time)", "symbols": ["VZ"]}
