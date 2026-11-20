@@ -1,49 +1,39 @@
 {
- "updated": 1795186287,
- "updated_et": "2026-11-20 09:51 ET",
+ "updated": 1795186600,
+ "updated_et": "2026-11-20 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9288.21,
-  "equity": 9288.21,
-  "return": -0.0711790000000001,
+  "cash": 2799.52,
+  "equity": 9319.93,
+  "return": -0.06800699999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9392.41,
-  "return": -0.06075900000000001,
+  "value": 9414.72,
+  "return": -0.058528000000000024,
   "start_price": 759.47998046875,
-  "last": 713.6199951171875
+  "last": 715.3150024414062
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "MSFT",
   "qty": 13,
-  "plan": {
-   "symbol": "MSFT",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-20",
-   "entry_time": "9:50 AM",
-   "entry": 499.2,
-   "stop": 494.62,
-   "target": 503.78,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 499.1298,
+  "entry_et": "09:50",
+  "stop": 494.62,
+  "target": 503.78,
+  "last": null,
   "why": {
    "scanner": "MSFT: the 09:45 bar closed at $499.20, above the 15-min opening range high $498.36 (range 490.88-498.36)",
    "exit": "plan: entry $499.20, stop $494.62 (opening-range midpoint), target $503.78 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 4.58 = $59.54 at the stop) (limits: max loss 21; position cap 13; max order 16; cash 16)",
    "risk": "trader-risk PASS: entry 499.20 (the latest price), stop 494.62, target 503.78: risk 4.58 a share; max loss $59.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795186200,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-20",
   "hits": [
@@ -222,13 +212,165 @@
     "or_high": 594.39,
     "or_low": 580.0,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AMZN",
+    "at": "09:55",
+    "price": 257.69,
+    "or_high": 256.51,
+    "or_low": 251.12,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 136.11,
+    "or_high": 135.9,
+    "or_low": 134.4,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "CPNG",
+    "at": "09:55",
+    "price": 14.67,
+    "or_high": 14.66,
+    "or_low": 13.8,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:55",
+    "price": 207.87,
+    "or_high": 207.35,
+    "or_low": 205.94,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "EBAY",
+    "at": "09:55",
+    "price": 119.42,
+    "or_high": 119.19,
+    "or_low": 117.71,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:55",
+    "price": 150.92,
+    "or_high": 150.66,
+    "or_low": 149.08,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "09:55",
+    "price": 280.36,
+    "or_high": 279.52,
+    "or_low": 272.83,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "HPQ",
+    "at": "09:55",
+    "price": 28.29,
+    "or_high": 28.27,
+    "or_low": 27.85,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "MRK",
+    "at": "09:55",
+    "price": 136.15,
+    "or_high": 135.53,
+    "or_low": 133.79,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:55",
+    "price": 54.0,
+    "or_high": 53.89,
+    "or_low": 53.35,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:55",
+    "price": 17.53,
+    "or_high": 17.5,
+    "or_low": 16.81,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "RGTI",
+    "at": "09:55",
+    "price": 7.96,
+    "or_high": 7.9,
+    "or_low": 7.61,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:55",
+    "price": 5.16,
+    "or_high": 5.16,
+    "or_low": 4.98,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "TSLA",
+    "at": "09:55",
+    "price": 371.37,
+    "or_high": 370.34,
+    "or_low": 365.14,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "TSM",
+    "at": "09:55",
+    "price": 341.71,
+    "or_high": 339.56,
+    "or_low": 335.23,
+    "pct_over": 0.63
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:55",
+    "price": 178.49,
+    "or_high": 178.03,
+    "or_low": 173.66,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "U",
+    "at": "09:55",
+    "price": 46.81,
+    "or_high": 46.5,
+    "or_low": 45.26,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:55",
+    "price": 159.87,
+    "or_high": 159.51,
+    "or_low": 158.6,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:55",
+    "price": 83.78,
+    "or_high": 83.39,
+    "or_low": 81.81,
+    "pct_over": 0.47
    }
   ],
-  "n_hits": 22,
+  "n_hits": 41,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 13 MSFT at the next bar's open (signal at 09:50 ET). Then: stop $494.62, target $503.78.",
+ "next_move": "Holding 13 MSFT bought at $499.13. It sells at the stop $494.62, the target $503.78, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 30,
   "wins": 11,
@@ -985,6 +1127,40 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795186500,
+   "et": "2026-11-20 09:55",
+   "kind": "busy",
+   "text": "19 more breakouts (AMZN, COP, CPNG, CVX, EBAY, EOG, GOOGL, HPQ ...) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "AMZN",
+    "COP",
+    "CPNG",
+    "CVX",
+    "EBAY",
+    "EOG",
+    "GOOGL",
+    "HPQ",
+    "MRK",
+    "OXY",
+    "PINS",
+    "RGTI",
+    "SNAP",
+    "TSLA",
+    "TSM",
+    "TWLO",
+    "U",
+    "XOM",
+    "ZM"
+   ]
+  },
+  {
+   "ts": 1795186200,
+   "et": "2026-11-20 09:50",
+   "kind": "fill",
+   "text": "BUY 13 MSFT filled at $499.13 (next bar's open $499.03 + slippage). Stop $494.62, target $503.78",
+   "symbol": "MSFT"
+  },
   {
    "ts": 1795186200,
    "et": "2026-11-20 09:50",
@@ -1928,24 +2104,6 @@
    "text": "1 more breakout (UPS) not taken: already in COP (one trade at a time)",
    "symbols": [
     "UPS"
-   ]
-  },
-  {
-   "ts": 1794849000,
-   "et": "2026-11-16 12:10",
-   "kind": "busy",
-   "text": "1 more breakout (SWKS) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "SWKS"
-   ]
-  },
-  {
-   "ts": 1794848100,
-   "et": "2026-11-16 11:55",
-   "kind": "busy",
-   "text": "1 more breakout (APP) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "APP"
    ]
   }
  ],
@@ -6884,6 +7042,11 @@
    "ts": 1795186287,
    "equity": 9288.21,
    "spy": 9392.41
+  },
+  {
+   "ts": 1795186600,
+   "equity": 9319.93,
+   "spy": 9414.72
   }
  ],
  "daily": [
@@ -6973,6 +7136,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795186600,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 26.1,
+   "errors": [],
+   "run_id": "44758289462",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795186287,
    "phase": "open",
@@ -7362,25 +7535,15 @@
    "errors": [],
    "run_id": "44590659599",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795113452,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.3,
-   "errors": [],
-   "run_id": "44589756099",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795186287,
+  "tick_at": 1795186600,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795186309,
-  "candidates": 74,
-  "charts_fetched": 75,
+  "yahoo_time": 1795186624,
+  "candidates": 76,
+  "charts_fetched": 78,
   "ok": true,
   "errors": [],
   "stale_data": false,
