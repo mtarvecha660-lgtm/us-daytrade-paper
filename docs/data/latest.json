@@ -1,6 +1,6 @@
 {
- "updated": 1795182365,
- "updated_et": "2026-11-20 08:46 ET",
+ "updated": 1795184718,
+ "updated_et": "2026-11-20 09:25 ET",
  "phase": "pre-open",
  "paper": true,
  "version": "orb-v1",
@@ -6719,6 +6719,16 @@
  ],
  "runs": [
   {
+   "ts": 1795184718,
+   "phase": "pre-open",
+   "status": "ok",
+   "bars": 0,
+   "secs": 0.0,
+   "errors": [],
+   "run_id": "44753246741",
+   "event": "workflow_dispatch"
+  },
+  {
    "ts": 1795182365,
    "phase": "pre-open",
    "status": "ok",
@@ -7107,20 +7117,10 @@
    "errors": [],
    "run_id": "44585073995",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795111562,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 8.7,
-   "errors": [],
-   "run_id": "44584140112",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795182365,
+  "tick_at": 1795184718,
   "data_ok": null,
   "data_failed": 0,
   "yahoo_time": null,
