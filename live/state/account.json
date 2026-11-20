@@ -753,7 +753,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-20",
-  "last_bar_end": 1795190400,
+  "last_bar_end": 1795190700,
   "position": {
    "symbol": "UNH",
    "qty": 20,
@@ -829,7 +829,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 111,
+  "triggers_seen": 112,
   "missed": [
    "AMZN",
    "COP",
@@ -901,7 +901,8 @@
    "JNJ",
    "VZ",
    "CVS",
-   "LMT"
+   "LMT",
+   "CI"
   ],
   "triggered": [
    "BABA",
@@ -1014,7 +1015,8 @@
    "JNJ",
    "VZ",
    "CVS",
-   "LMT"
+   "LMT",
+   "CI"
   ],
   "hits": [
    {
@@ -1904,6 +1906,14 @@
     "or_high": 577.0,
     "or_low": 571.0,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "CI",
+    "at": "11:05",
+    "price": 279.31,
+    "or_high": 278.9,
+    "or_low": 275.64,
+    "pct_over": 0.15
    }
   ]
  },
@@ -1911,8 +1921,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 707.739990234375,
-  "last_ts": 1795190400
+  "last": 705.5700073242188,
+  "last_ts": 1795190700
  },
  "seen_trades": 0,
  "daily": [
