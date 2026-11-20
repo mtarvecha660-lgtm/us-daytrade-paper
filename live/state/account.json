@@ -729,21 +729,258 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-20",
-  "last_bar_end": 1795185900,
+  "last_bar_end": 1795186200,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "MSFT",
+   "qty": 13,
+   "plan": {
+    "symbol": "MSFT",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-20",
+    "entry_time": "9:50 AM",
+    "entry": 499.2,
+    "stop": 494.62,
+    "target": 503.78,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "MSFT: the 09:45 bar closed at $499.20, above the 15-min opening range high $498.36 (range 490.88-498.36)",
+    "exit": "plan: entry $499.20, stop $494.62 (opening-range midpoint), target $503.78 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 4.58 = $59.54 at the stop) (limits: max loss 21; position cap 13; max order 16; cash 16)",
+    "risk": "trader-risk PASS: entry 499.20 (the latest price), stop 494.62, target 503.78: risk 4.58 a share; max loss $59.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795186200,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-20",
+    "symbol": "MSFT",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 59.54,
+    "at": "2026-11-20T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 22,
+  "missed": [],
+  "triggered": [
+   "BABA",
+   "BIIB",
+   "CAT",
+   "CDNS",
+   "DOCU",
+   "DVN",
+   "F",
+   "FANG",
+   "GD",
+   "HAL",
+   "HON",
+   "IBM",
+   "INTC",
+   "JD",
+   "MDB",
+   "MSFT",
+   "NOC",
+   "PYPL",
+   "RBLX",
+   "SLB",
+   "SNPS",
+   "SPOT"
+  ],
+  "hits": [
+   {
+    "symbol": "BABA",
+    "at": "09:50",
+    "price": 84.11,
+    "or_high": 84.07,
+    "or_low": 82.98,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BIIB",
+    "at": "09:50",
+    "price": 250.02,
+    "or_high": 250.0,
+    "or_low": 248.04,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "CAT",
+    "at": "09:50",
+    "price": 533.66,
+    "or_high": 529.63,
+    "or_low": 524.5,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "CDNS",
+    "at": "09:50",
+    "price": 301.91,
+    "or_high": 301.27,
+    "or_low": 295.12,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "DOCU",
+    "at": "09:50",
+    "price": 76.1,
+    "or_high": 76.05,
+    "or_low": 74.55,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:50",
+    "price": 42.11,
+    "or_high": 42.03,
+    "or_low": 41.6,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "F",
+    "at": "09:50",
+    "price": 11.57,
+    "or_high": 11.55,
+    "or_low": 11.21,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 177.12,
+    "or_high": 177.11,
+    "or_low": 175.53,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "GD",
+    "at": "09:50",
+    "price": 351.49,
+    "or_high": 351.14,
+    "or_low": 347.42,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:50",
+    "price": 31.43,
+    "or_high": 31.41,
+    "or_low": 30.93,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "HON",
+    "at": "09:50",
+    "price": 220.12,
+    "or_high": 219.26,
+    "or_low": 215.91,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "IBM",
+    "at": "09:50",
+    "price": 229.59,
+    "or_high": 228.52,
+    "or_low": 223.77,
+    "pct_over": 0.47
+   },
+   {
+    "symbol": "INTC",
+    "at": "09:50",
+    "price": 54.78,
+    "or_high": 54.48,
+    "or_low": 53.48,
+    "pct_over": 0.55
+   },
+   {
+    "symbol": "JD",
+    "at": "09:50",
+    "price": 25.18,
+    "or_high": 25.14,
+    "or_low": 24.91,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "MDB",
+    "at": "09:50",
+    "price": 296.31,
+    "or_high": 293.36,
+    "or_low": 287.22,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "MSFT",
+    "at": "09:50",
+    "price": 499.2,
+    "or_high": 498.36,
+    "or_low": 490.88,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "NOC",
+    "at": "09:50",
+    "price": 550.81,
+    "or_high": 549.89,
+    "or_low": 542.64,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:50",
+    "price": 54.67,
+    "or_high": 54.49,
+    "or_low": 53.31,
+    "pct_over": 0.33
+   },
+   {
+    "symbol": "RBLX",
+    "at": "09:50",
+    "price": 47.27,
+    "or_high": 47.1,
+    "or_low": 45.25,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:50",
+    "price": 47.6,
+    "or_high": 47.5,
+    "or_low": 46.96,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "SNPS",
+    "at": "09:50",
+    "price": 426.89,
+    "or_high": 424.94,
+    "or_low": 418.38,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "SPOT",
+    "at": "09:50",
+    "price": 594.96,
+    "or_high": 594.39,
+    "or_low": 580.0,
+    "pct_over": 0.1
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 712.6300048828125,
-  "last_ts": 1795185900
+  "last": 713.6199951171875,
+  "last_ts": 1795186200
  },
  "seen_trades": 0,
  "daily": [
