@@ -1,21 +1,21 @@
 {
- "updated": 1795187854,
- "updated_et": "2026-11-20 10:17 ET",
+ "updated": 1795188177,
+ "updated_et": "2026-11-20 10:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2442.38,
-  "equity": 9365.99,
-  "return": -0.06340100000000004,
+  "equity": 9339.3,
+  "return": -0.06607000000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9394.91,
-  "return": -0.060509000000000035,
+  "value": 9361.08,
+  "return": -0.06389200000000006,
   "start_price": 759.47998046875,
-  "last": 713.8099975585938
+  "last": 711.239990234375
  },
  "position": {
   "symbol": "UNH",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "CRM",
-    "at": "10:00",
-    "price": 187.33,
-    "or_high": 186.74,
-    "or_low": 183.26,
-    "pct_over": 0.32
-   },
-   {
-    "symbol": "CSCO",
-    "at": "10:00",
-    "price": 94.87,
-    "or_high": 94.63,
-    "or_low": 93.68,
-    "pct_over": 0.25
-   },
    {
     "symbol": "CVNA",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 129.8,
     "or_low": 127.22,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:20",
+    "price": 130.85,
+    "or_high": 130.63,
+    "or_low": 129.6,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:20",
+    "price": 272.11,
+    "or_high": 271.93,
+    "or_low": 269.47,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 106,
+  "n_hits": 108,
   "entries": 2,
   "max_trades": 3
  },
@@ -1303,6 +1303,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795188000,
+   "et": "2026-11-20 10:20",
+   "kind": "busy",
+   "text": "2 more breakouts (DUK, JNJ) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "DUK",
+    "JNJ"
+   ]
+  },
   {
    "ts": 1795187700,
    "et": "2026-11-20 10:15",
@@ -2297,54 +2307,6 @@
    "kind": "fill",
    "text": "BUY 18 HD filled at $344.01 (next bar's open $343.94 + slippage). Stop $338.65, target $349.23",
    "symbol": "HD"
-  },
-  {
-   "ts": 1794927000,
-   "et": "2026-11-17 09:50",
-   "kind": "order",
-   "text": "BUY 18 HD at market (decided on the 09:50 close). opening-range breakout on HD: 18 shares, bound by your $100 max loss per trade (18 x 5.29 = $95.22 at the stop) (limits: max loss 18; position cap 21; max order 23; cash 25)",
-   "symbol": "HD",
-   "why": {
-    "scanner": "HD: the 09:45 bar closed at $343.94, above the 15-min opening range high $342.86 (range 334.44-342.86)",
-    "exit": "plan: entry $343.94, stop $338.65 (opening-range midpoint), target $349.23 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on HD: 18 shares, bound by your $100 max loss per trade (18 x 5.29 = $95.22 at the stop) (limits: max loss 18; position cap 21; max order 23; cash 25)",
-    "risk": "trader-risk PASS: entry 343.94 (the latest price), stop 338.65, target 349.23: risk 5.29 a share; max loss $95.22 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "JPM",
-    "XOM",
-    "ADI",
-    "BAC",
-    "TJX",
-    "MCD",
-    "LOW",
-    "GILD",
-    "MMM",
-    "TMO",
-    "REGN",
-    "MCHP",
-    "C",
-    "T",
-    "MS",
-    "ROST",
-    "TGT",
-    "SNAP",
-    "AAL",
-    "BLK",
-    "ZTS",
-    "MAR",
-    "GM",
-    "HON",
-    "DXCM",
-    "BIIB",
-    "DLTR",
-    "USB",
-    "DPZ",
-    "CHTR",
-    "LUV",
-    "APO"
-   ]
   }
  ],
  "equity": [
@@ -7307,6 +7269,11 @@
    "ts": 1795187854,
    "equity": 9365.99,
    "spy": 9394.91
+  },
+  {
+   "ts": 1795188177,
+   "equity": 9339.3,
+   "spy": 9361.08
   }
  ],
  "daily": [
@@ -7396,6 +7363,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795188177,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.6,
+   "errors": [],
+   "run_id": "44762646218",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795187854,
    "phase": "open",
@@ -7785,25 +7762,15 @@
    "errors": [],
    "run_id": "44595254179",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795115031,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.8,
-   "errors": [],
-   "run_id": "44594313372",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795187854,
+  "tick_at": 1795188177,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795187863,
-  "candidates": 28,
-  "charts_fetched": 30,
+  "yahoo_time": 1795188183,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,
