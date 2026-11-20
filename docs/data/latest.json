@@ -1,148 +1,42 @@
 {
- "updated": 1795187225,
- "updated_et": "2026-11-20 10:07 ET",
+ "updated": 1795187538,
+ "updated_et": "2026-11-20 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9348.66,
-  "equity": 9348.66,
-  "return": -0.06513400000000003,
+  "cash": 2442.38,
+  "equity": 9370.99,
+  "return": -0.06290099999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9433.21,
-  "return": -0.056679000000000035,
+  "value": 9413.34,
+  "return": -0.058665999999999996,
   "start_price": 759.47998046875,
-  "last": 716.719970703125
+  "last": 715.2100830078125
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "UNH",
   "qty": 20,
-  "plan": {
-   "symbol": "UNH",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-20",
-   "entry_time": "10:05 AM",
-   "entry": 345.38,
-   "stop": 341.73,
-   "target": 349.03,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 345.314,
+  "entry_et": "10:05",
+  "stop": 341.73,
+  "target": 349.03,
+  "last": null,
   "why": {
    "scanner": "UNH: the 10:00 bar closed at $345.38, above the 15-min opening range high $345.22 (range 338.24-345.22)",
    "exit": "plan: entry $345.38, stop $341.73 (opening-range midpoint), target $349.03 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on UNH: 20 shares, bound by your position cap (20 x 3.65 = $73 at the stop) (limits: max loss 27; position cap 20; max order 23; cash 24)",
    "risk": "trader-risk PASS: entry 345.38 (the latest price), stop 341.73, target 349.03: risk 3.65 a share; max loss $73 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $59.54 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795187100,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "HPQ",
-    "at": "09:55",
-    "price": 28.29,
-    "or_high": 28.27,
-    "or_low": 27.85,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "MRK",
-    "at": "09:55",
-    "price": 136.15,
-    "or_high": 135.53,
-    "or_low": 133.79,
-    "pct_over": 0.46
-   },
-   {
-    "symbol": "OXY",
-    "at": "09:55",
-    "price": 54.0,
-    "or_high": 53.89,
-    "or_low": 53.35,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "PINS",
-    "at": "09:55",
-    "price": 17.53,
-    "or_high": 17.5,
-    "or_low": 16.81,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "RGTI",
-    "at": "09:55",
-    "price": 7.96,
-    "or_high": 7.9,
-    "or_low": 7.61,
-    "pct_over": 0.76
-   },
-   {
-    "symbol": "SNAP",
-    "at": "09:55",
-    "price": 5.16,
-    "or_high": 5.16,
-    "or_low": 4.98,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "TSLA",
-    "at": "09:55",
-    "price": 371.37,
-    "or_high": 370.34,
-    "or_low": 365.14,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "TSM",
-    "at": "09:55",
-    "price": 341.71,
-    "or_high": 339.56,
-    "or_low": 335.23,
-    "pct_over": 0.63
-   },
-   {
-    "symbol": "TWLO",
-    "at": "09:55",
-    "price": 178.49,
-    "or_high": 178.03,
-    "or_low": 173.66,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "U",
-    "at": "09:55",
-    "price": 46.81,
-    "or_high": 46.5,
-    "or_low": 45.26,
-    "pct_over": 0.67
-   },
-   {
-    "symbol": "XOM",
-    "at": "09:55",
-    "price": 159.87,
-    "or_high": 159.51,
-    "or_low": 158.6,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "ZM",
-    "at": "09:55",
-    "price": 83.78,
-    "or_high": 83.39,
-    "or_low": 81.81,
-    "pct_over": 0.47
-   },
    {
     "symbol": "ADBE",
     "at": "10:00",
@@ -526,13 +420,109 @@
     "or_high": 16.93,
     "or_low": 16.59,
     "pct_over": 0.41
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:10",
+    "price": 100.74,
+    "or_high": 100.63,
+    "or_low": 99.17,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "COF",
+    "at": "10:10",
+    "price": 183.89,
+    "or_high": 183.85,
+    "or_low": 180.54,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "D",
+    "at": "10:10",
+    "price": 67.46,
+    "or_high": 67.42,
+    "or_low": 66.92,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:10",
+    "price": 148.65,
+    "or_high": 148.51,
+    "or_low": 143.41,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "GME",
+    "at": "10:10",
+    "price": 27.51,
+    "or_high": 27.49,
+    "or_low": 26.74,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "LLY",
+    "at": "10:10",
+    "price": 1368.38,
+    "or_high": 1366.51,
+    "or_low": 1354.23,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:10",
+    "price": 142.66,
+    "or_high": 142.49,
+    "or_low": 140.5,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:10",
+    "price": 13.84,
+    "or_high": 13.75,
+    "or_low": 13.12,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "T",
+    "at": "10:10",
+    "price": 22.44,
+    "or_high": 22.38,
+    "or_low": 22.08,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:10",
+    "price": 166.85,
+    "or_high": 166.67,
+    "or_low": 164.27,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "USB",
+    "at": "10:10",
+    "price": 58.03,
+    "or_high": 58.03,
+    "or_low": 57.28,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "W",
+    "at": "10:10",
+    "price": 101.58,
+    "or_high": 101.46,
+    "or_low": 99.5,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 89,
+  "n_hits": 101,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 20 UNH at the next bar's open (signal at 10:05 ET). Then: stop $341.73, target $349.03.",
+ "next_move": "Holding 20 UNH bought at $345.31. It sells at the stop $341.73, the target $349.03, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 31,
   "wins": 12,
@@ -1313,6 +1303,33 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795187400,
+   "et": "2026-11-20 10:10",
+   "kind": "busy",
+   "text": "12 more breakouts (BBY, COF, D, DUOL, GME, LLY, PEP, RKT ...) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "BBY",
+    "COF",
+    "D",
+    "DUOL",
+    "GME",
+    "LLY",
+    "PEP",
+    "RKT",
+    "T",
+    "TMUS",
+    "USB",
+    "W"
+   ]
+  },
+  {
+   "ts": 1795187100,
+   "et": "2026-11-20 10:05",
+   "kind": "fill",
+   "text": "BUY 20 UNH filled at $345.31 (next bar's open $345.24 + slippage). Stop $341.73, target $349.03",
+   "symbol": "UNH"
+  },
   {
    "ts": 1795187100,
    "et": "2026-11-20 10:05",
@@ -2322,26 +2339,6 @@
    "kind": "exit",
    "text": "SELL 51 COP at $140.45: flat by 15:55 ET (the skill's flat-by rule). P&L $-29.90 (-0.52R)",
    "symbol": "COP"
-  },
-  {
-   "ts": 1794859800,
-   "et": "2026-11-16 15:10",
-   "kind": "busy",
-   "text": "3 more breakouts (CRWD, HUM, RIOT) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "CRWD",
-    "HUM",
-    "RIOT"
-   ]
-  },
-  {
-   "ts": 1794859200,
-   "et": "2026-11-16 15:00",
-   "kind": "busy",
-   "text": "1 more breakout (STX) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "STX"
-   ]
   }
  ],
  "equity": [
@@ -7294,6 +7291,11 @@
    "ts": 1795187225,
    "equity": 9348.66,
    "spy": 9433.21
+  },
+  {
+   "ts": 1795187538,
+   "equity": 9370.99,
+   "spy": 9413.34
   }
  ],
  "daily": [
@@ -7383,6 +7385,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795187538,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.0,
+   "errors": [],
+   "run_id": "44760880796",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795187225,
    "phase": "open",
@@ -7772,29 +7784,19 @@
    "errors": [],
    "run_id": "44593367085",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795114392,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.7,
-   "errors": [],
-   "run_id": "44592471850",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795187225,
+  "tick_at": 1795187538,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795187249,
-  "candidates": 71,
-  "charts_fetched": 73,
+  "yahoo_time": 1795187554,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

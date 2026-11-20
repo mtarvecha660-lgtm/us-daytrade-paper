@@ -1,5 +1,5 @@
 {
- "cash": 9348.6594,
+ "cash": 2442.3794,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -753,11 +753,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-20",
-  "last_bar_end": 1795187100,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795187400,
+  "position": {
    "symbol": "UNH",
    "qty": 20,
+   "entry_fill": 345.314,
+   "entry_ts": 1795187100,
    "plan": {
     "symbol": "UNH",
     "side": "buy",
@@ -769,7 +770,8 @@
     "target": 349.03,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 345.2449951171875
    },
    "why": {
     "scanner": "UNH: the 10:00 bar closed at $345.38, above the 15-min opening range high $345.22 (range 338.24-345.22)",
@@ -778,9 +780,9 @@
     "risk": "trader-risk PASS: entry 345.38 (the latest price), stop 341.73, target 349.03: risk 3.65 a share; max loss $73 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $59.54 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795187100,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -815,11 +817,19 @@
     "kind": "entry",
     "max_loss": 73.0,
     "at": "2026-11-20T10:05:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-20",
+    "symbol": "UNH",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 20
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 89,
+  "triggers_seen": 101,
   "missed": [
    "AMZN",
    "COP",
@@ -869,7 +879,19 @@
    "SOFI",
    "UAL",
    "VLO",
-   "Z"
+   "Z",
+   "BBY",
+   "COF",
+   "D",
+   "DUOL",
+   "GME",
+   "LLY",
+   "PEP",
+   "RKT",
+   "T",
+   "TMUS",
+   "USB",
+   "W"
   ],
   "triggered": [
    "BABA",
@@ -960,7 +982,19 @@
    "SWKS",
    "TOST",
    "UNH",
-   "UPST"
+   "UPST",
+   "BBY",
+   "COF",
+   "D",
+   "DUOL",
+   "GME",
+   "LLY",
+   "PEP",
+   "RKT",
+   "T",
+   "TMUS",
+   "USB",
+   "W"
   ],
   "hits": [
    {
@@ -1674,6 +1708,102 @@
     "or_high": 16.93,
     "or_low": 16.59,
     "pct_over": 0.41
+   },
+   {
+    "symbol": "BBY",
+    "at": "10:10",
+    "price": 100.74,
+    "or_high": 100.63,
+    "or_low": 99.17,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "COF",
+    "at": "10:10",
+    "price": 183.89,
+    "or_high": 183.85,
+    "or_low": 180.54,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "D",
+    "at": "10:10",
+    "price": 67.46,
+    "or_high": 67.42,
+    "or_low": 66.92,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:10",
+    "price": 148.65,
+    "or_high": 148.51,
+    "or_low": 143.41,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "GME",
+    "at": "10:10",
+    "price": 27.51,
+    "or_high": 27.49,
+    "or_low": 26.74,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "LLY",
+    "at": "10:10",
+    "price": 1368.38,
+    "or_high": 1366.51,
+    "or_low": 1354.23,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:10",
+    "price": 142.66,
+    "or_high": 142.49,
+    "or_low": 140.5,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:10",
+    "price": 13.84,
+    "or_high": 13.75,
+    "or_low": 13.12,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "T",
+    "at": "10:10",
+    "price": 22.44,
+    "or_high": 22.38,
+    "or_low": 22.08,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:10",
+    "price": 166.85,
+    "or_high": 166.67,
+    "or_low": 164.27,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "USB",
+    "at": "10:10",
+    "price": 58.03,
+    "or_high": 58.03,
+    "or_low": 57.28,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "W",
+    "at": "10:10",
+    "price": 101.58,
+    "or_high": 101.46,
+    "or_low": 99.5,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1681,8 +1811,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 716.719970703125,
-  "last_ts": 1795187100
+  "last": 715.2100830078125,
+  "last_ts": 1795187400
  },
  "seen_trades": 0,
  "daily": [
