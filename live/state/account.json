@@ -1,5 +1,5 @@
 {
- "cash": 2799.5194,
+ "cash": 9348.6594,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -723,32 +723,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-20",
-  "last_bar_end": 1795186800,
-  "position": {
+  },
+  {
+   "date": "2026-11-20",
    "symbol": "MSFT",
    "qty": 13,
+   "entry_et": "09:50",
    "entry_fill": 499.1298,
-   "entry_ts": 1795186200,
-   "plan": {
-    "symbol": "MSFT",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-20",
-    "entry_time": "9:50 AM",
-    "entry": 499.2,
-    "stop": 494.62,
-    "target": 503.78,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 499.0299987792969
-   },
+   "exit_et": "10:05",
+   "exit_fill": 503.78,
+   "exit_reason": "target $503.78 hit (1R)",
+   "stop": 494.62,
+   "target": 503.78,
+   "pnl": 60.45,
+   "r": 1.015,
+   "risk_usd": 59.54,
+   "cost_usd": 1.3,
    "why": {
     "scanner": "MSFT: the 09:45 bar closed at $499.20, above the 15-min opening range high $498.36 (range 490.88-498.36)",
     "exit": "plan: entry $499.20, stop $494.62 (opening-range midpoint), target $503.78 (1R (one times the risk)), flat by 15:55 ET",
@@ -757,8 +747,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-20",
+  "last_bar_end": 1795187100,
+  "position": null,
+  "pending": {
+   "symbol": "UNH",
+   "qty": 20,
+   "plan": {
+    "symbol": "UNH",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-20",
+    "entry_time": "10:05 AM",
+    "entry": 345.38,
+    "stop": 341.73,
+    "target": 349.03,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "UNH: the 10:00 bar closed at $345.38, above the 15-min opening range high $345.22 (range 338.24-345.22)",
+    "exit": "plan: entry $345.38, stop $341.73 (opening-range midpoint), target $349.03 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on UNH: 20 shares, bound by your position cap (20 x 3.65 = $73 at the stop) (limits: max loss 27; position cap 20; max order 23; cash 24)",
+    "risk": "trader-risk PASS: entry 345.38 (the latest price), stop 341.73, target 349.03: risk 3.65 a share; max loss $73 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $59.54 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795187100,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -776,11 +798,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 13
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-20",
+    "symbol": "MSFT",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 13
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-20",
+    "symbol": "UNH",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 73.0,
+    "at": "2026-11-20T10:05:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 71,
+  "triggers_seen": 89,
   "missed": [
    "AMZN",
    "COP",
@@ -903,7 +942,25 @@
    "SOFI",
    "UAL",
    "VLO",
-   "Z"
+   "Z",
+   "ABBV",
+   "AFRM",
+   "BB",
+   "BMY",
+   "COST",
+   "DG",
+   "ETSY",
+   "EXPE",
+   "HMC",
+   "LOW",
+   "PATH",
+   "PFE",
+   "RIVN",
+   "SONY",
+   "SWKS",
+   "TOST",
+   "UNH",
+   "UPST"
   ],
   "hits": [
    {
@@ -1473,6 +1530,150 @@
     "or_high": 28.33,
     "or_low": 27.26,
     "pct_over": 0.53
+   },
+   {
+    "symbol": "ABBV",
+    "at": "10:05",
+    "price": 288.5,
+    "or_high": 288.07,
+    "or_low": 286.39,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "AFRM",
+    "at": "10:05",
+    "price": 57.4,
+    "or_high": 57.25,
+    "or_low": 55.7,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "BB",
+    "at": "10:05",
+    "price": 8.19,
+    "or_high": 8.18,
+    "or_low": 7.99,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "BMY",
+    "at": "10:05",
+    "price": 59.53,
+    "or_high": 59.28,
+    "or_low": 58.73,
+    "pct_over": 0.42
+   },
+   {
+    "symbol": "COST",
+    "at": "10:05",
+    "price": 1110.44,
+    "or_high": 1109.49,
+    "or_low": 1099.3,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "DG",
+    "at": "10:05",
+    "price": 136.44,
+    "or_high": 135.86,
+    "or_low": 133.96,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "ETSY",
+    "at": "10:05",
+    "price": 81.06,
+    "or_high": 80.73,
+    "or_low": 78.45,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "EXPE",
+    "at": "10:05",
+    "price": 243.87,
+    "or_high": 243.56,
+    "or_low": 239.19,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:05",
+    "price": 33.17,
+    "or_high": 33.13,
+    "or_low": 32.94,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:05",
+    "price": 226.19,
+    "or_high": 225.95,
+    "or_low": 221.23,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:05",
+    "price": 11.43,
+    "or_high": 11.38,
+    "or_low": 11.12,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "PFE",
+    "at": "10:05",
+    "price": 28.01,
+    "or_high": 28.0,
+    "or_low": 27.71,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:05",
+    "price": 11.15,
+    "or_high": 11.08,
+    "or_low": 10.82,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:05",
+    "price": 27.58,
+    "or_high": 27.55,
+    "or_low": 26.95,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "SWKS",
+    "at": "10:05",
+    "price": 79.0,
+    "or_high": 78.83,
+    "or_low": 77.51,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:05",
+    "price": 32.46,
+    "or_high": 32.14,
+    "or_low": 31.63,
+    "pct_over": 0.98
+   },
+   {
+    "symbol": "UNH",
+    "at": "10:05",
+    "price": 345.38,
+    "or_high": 345.22,
+    "or_low": 338.24,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "UPST",
+    "at": "10:05",
+    "price": 17.0,
+    "or_high": 16.93,
+    "or_low": 16.59,
+    "pct_over": 0.41
    }
   ]
  },
@@ -1480,8 +1681,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 717.1400146484375,
-  "last_ts": 1795186800
+  "last": 716.719970703125,
+  "last_ts": 1795187100
  },
  "seen_trades": 0,
  "daily": [
