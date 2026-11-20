@@ -1,21 +1,21 @@
 {
- "updated": 1795194799,
- "updated_et": "2026-11-20 12:13 ET",
+ "updated": 1795195113,
+ "updated_et": "2026-11-20 12:18 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2442.38,
-  "equity": 9359.5,
-  "return": -0.06405000000000005,
+  "equity": 9347.0,
+  "return": -0.06530000000000002,
   "started": 1793559735
  },
  "spy": {
-  "value": 9254.08,
-  "return": -0.07459199999999999,
+  "value": 9234.73,
+  "return": -0.07652700000000001,
   "start_price": 759.47998046875,
-  "last": 703.1099853515625
+  "last": 701.6400146484375
  },
  "position": {
   "symbol": "UNH",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "MPC",
-    "at": "10:00",
-    "price": 371.05,
-    "or_high": 368.43,
-    "or_low": 363.9,
-    "pct_over": 0.71
-   },
-   {
-    "symbol": "MRNA",
-    "at": "10:00",
-    "price": 208.0,
-    "or_high": 207.37,
-    "or_low": 196.5,
-    "pct_over": 0.3
-   },
    {
     "symbol": "NU",
     "at": "10:00",
@@ -516,9 +500,25 @@
     "or_high": 401.4,
     "or_low": 391.5,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "KO",
+    "at": "12:15",
+    "price": 97.76,
+    "or_high": 97.74,
+    "or_low": 96.76,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SO",
+    "at": "12:15",
+    "price": 94.44,
+    "or_high": 94.43,
+    "or_low": 93.9,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 115,
+  "n_hits": 117,
   "entries": 2,
   "max_trades": 3
  },
@@ -1303,6 +1303,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795194900,
+   "et": "2026-11-20 12:15",
+   "kind": "busy",
+   "text": "2 more breakouts (KO, SO) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "KO",
+    "SO"
+   ]
+  },
   {
    "ts": 1795194000,
    "et": "2026-11-20 12:00",
@@ -2257,17 +2267,6 @@
    "text": "1 more breakout (ABBV) not taken: already in HD (one trade at a time)",
    "symbols": [
     "ABBV"
-   ]
-  },
-  {
-   "ts": 1794929400,
-   "et": "2026-11-17 10:30",
-   "kind": "busy",
-   "text": "3 more breakouts (CI, MDT, SONY) not taken: already in HD (one trade at a time)",
-   "symbols": [
-    "CI",
-    "MDT",
-    "SONY"
    ]
   }
  ],
@@ -7341,6 +7340,11 @@
    "ts": 1795194799,
    "equity": 9359.5,
    "spy": 9254.08
+  },
+  {
+   "ts": 1795195113,
+   "equity": 9347.0,
+   "spy": 9234.73
   }
  ],
  "daily": [
@@ -7430,6 +7434,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795195113,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.9,
+   "errors": [],
+   "run_id": "44781987351",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795194799,
    "phase": "open",
@@ -7819,23 +7833,13 @@
    "errors": [],
    "run_id": "44615068122",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795121971,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.6,
-   "errors": [],
-   "run_id": "44614162198",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795194799,
+  "tick_at": 1795195113,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795194804,
+  "yahoo_time": 1795195120,
   "candidates": 7,
   "charts_fetched": 9,
   "ok": true,

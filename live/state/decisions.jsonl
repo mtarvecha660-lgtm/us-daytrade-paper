@@ -467,3 +467,4 @@
 {"ts": 1795191900, "et": "2026-11-20 11:25", "kind": "busy", "text": "1 more breakout (CHWY) not taken: already in UNH (one trade at a time)", "symbols": ["CHWY"]}
 {"ts": 1795192200, "et": "2026-11-20 11:30", "kind": "busy", "text": "1 more breakout (ELV) not taken: already in UNH (one trade at a time)", "symbols": ["ELV"]}
 {"ts": 1795194000, "et": "2026-11-20 12:00", "kind": "busy", "text": "1 more breakout (HUM) not taken: already in UNH (one trade at a time)", "symbols": ["HUM"]}
+{"ts": 1795194900, "et": "2026-11-20 12:15", "kind": "busy", "text": "2 more breakouts (KO, SO) not taken: already in UNH (one trade at a time)", "symbols": ["KO", "SO"]}
