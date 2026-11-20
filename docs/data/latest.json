@@ -1,21 +1,21 @@
 {
- "updated": 1795189120,
- "updated_et": "2026-11-20 10:38 ET",
+ "updated": 1795189440,
+ "updated_et": "2026-11-20 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2442.38,
-  "equity": 9305.21,
-  "return": -0.06947900000000007,
+  "equity": 9329.03,
+  "return": -0.06709699999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9337.13,
-  "return": -0.0662870000000001,
+  "value": 9343.97,
+  "return": -0.06560300000000008,
   "start_price": 759.47998046875,
-  "last": 709.4199829101562
+  "last": 709.9400024414062
  },
  "position": {
   "symbol": "UNH",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "DXCM",
-    "at": "10:00",
-    "price": 81.49,
-    "or_high": 81.35,
-    "or_low": 80.3,
-    "pct_over": 0.17
-   },
    {
     "symbol": "ENPH",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 46.71,
     "or_low": 46.39,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:40",
+    "price": 82.21,
+    "or_high": 81.95,
+    "or_low": 80.95,
+    "pct_over": 0.32
    }
   ],
-  "n_hits": 109,
+  "n_hits": 110,
   "entries": 2,
   "max_trades": 3
  },
@@ -1303,6 +1303,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795189200,
+   "et": "2026-11-20 10:40",
+   "kind": "busy",
+   "text": "1 more breakout (CVS) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "CVS"
+   ]
+  },
   {
    "ts": 1795188600,
    "et": "2026-11-20 10:30",
@@ -2269,45 +2278,6 @@
     "NOC",
     "RDDT",
     "TTD"
-   ]
-  },
-  {
-   "ts": 1794927300,
-   "et": "2026-11-17 09:55",
-   "kind": "busy",
-   "text": "31 more breakouts (AAPL, ABT, AXP, BX, CMCSA, COP, COST, CVX ...) not taken: already in HD (one trade at a time)",
-   "symbols": [
-    "AAPL",
-    "ABT",
-    "AXP",
-    "BX",
-    "CMCSA",
-    "COP",
-    "COST",
-    "CVX",
-    "D",
-    "DG",
-    "DIS",
-    "DUK",
-    "EXPE",
-    "GS",
-    "HLT",
-    "HMC",
-    "IDXX",
-    "JNJ",
-    "KKR",
-    "KO",
-    "NCLH",
-    "PG",
-    "PNC",
-    "RKT",
-    "SYK",
-    "TMUS",
-    "UPS",
-    "V",
-    "VZ",
-    "WFC",
-    "WMT"
    ]
   }
  ],
@@ -7291,6 +7261,11 @@
    "ts": 1795189120,
    "equity": 9305.21,
    "spy": 9337.13
+  },
+  {
+   "ts": 1795189440,
+   "equity": 9329.03,
+   "spy": 9343.97
   }
  ],
  "daily": [
@@ -7380,6 +7355,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795189440,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.1,
+   "errors": [],
+   "run_id": "44766168297",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795189120,
    "phase": "open",
@@ -7769,25 +7754,15 @@
    "errors": [],
    "run_id": "44598906245",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795116293,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.2,
-   "errors": [],
-   "run_id": "44598018868",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795189120,
+  "tick_at": 1795189440,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795189128,
-  "candidates": 9,
-  "charts_fetched": 11,
+  "yahoo_time": 1795189447,
+  "candidates": 15,
+  "charts_fetched": 17,
   "ok": true,
   "errors": [],
   "stale_data": false,
