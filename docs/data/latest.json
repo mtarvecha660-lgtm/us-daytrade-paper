@@ -1,21 +1,21 @@
 {
- "updated": 1795186600,
- "updated_et": "2026-11-20 09:56 ET",
+ "updated": 1795186913,
+ "updated_et": "2026-11-20 10:01 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2799.52,
-  "equity": 9319.93,
-  "return": -0.06800699999999993,
+  "equity": 9326.94,
+  "return": -0.06730599999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9414.72,
-  "return": -0.058528000000000024,
+  "value": 9438.74,
+  "return": -0.05612600000000001,
   "start_price": 759.47998046875,
-  "last": 715.3150024414062
+  "last": 717.1400146484375
  },
  "position": {
   "symbol": "MSFT",
@@ -37,94 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "BABA",
-    "at": "09:50",
-    "price": 84.11,
-    "or_high": 84.07,
-    "or_low": 82.98,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "BIIB",
-    "at": "09:50",
-    "price": 250.02,
-    "or_high": 250.0,
-    "or_low": 248.04,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "CAT",
-    "at": "09:50",
-    "price": 533.66,
-    "or_high": 529.63,
-    "or_low": 524.5,
-    "pct_over": 0.76
-   },
-   {
-    "symbol": "CDNS",
-    "at": "09:50",
-    "price": 301.91,
-    "or_high": 301.27,
-    "or_low": 295.12,
-    "pct_over": 0.21
-   },
-   {
-    "symbol": "DOCU",
-    "at": "09:50",
-    "price": 76.1,
-    "or_high": 76.05,
-    "or_low": 74.55,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "DVN",
-    "at": "09:50",
-    "price": 42.11,
-    "or_high": 42.03,
-    "or_low": 41.6,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "F",
-    "at": "09:50",
-    "price": 11.57,
-    "or_high": 11.55,
-    "or_low": 11.21,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "FANG",
-    "at": "09:50",
-    "price": 177.12,
-    "or_high": 177.11,
-    "or_low": 175.53,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "GD",
-    "at": "09:50",
-    "price": 351.49,
-    "or_high": 351.14,
-    "or_low": 347.42,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "HAL",
-    "at": "09:50",
-    "price": 31.43,
-    "or_high": 31.41,
-    "or_low": 30.93,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "HON",
-    "at": "09:50",
-    "price": 220.12,
-    "or_high": 219.26,
-    "or_low": 215.91,
-    "pct_over": 0.39
-   },
    {
     "symbol": "IBM",
     "at": "09:50",
@@ -364,9 +276,249 @@
     "or_high": 83.39,
     "or_low": 81.81,
     "pct_over": 0.47
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:00",
+    "price": 228.3,
+    "or_high": 228.0,
+    "or_low": 221.27,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:00",
+    "price": 126.21,
+    "or_high": 126.19,
+    "or_low": 125.26,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "BA",
+    "at": "10:00",
+    "price": 163.8,
+    "or_high": 163.41,
+    "or_low": 160.15,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "10:00",
+    "price": 25.33,
+    "or_high": 25.29,
+    "or_low": 25.07,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "COIN",
+    "at": "10:00",
+    "price": 110.64,
+    "or_high": 110.46,
+    "or_low": 106.87,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:00",
+    "price": 187.33,
+    "or_high": 186.74,
+    "or_low": 183.26,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "CSCO",
+    "at": "10:00",
+    "price": 94.87,
+    "or_high": 94.63,
+    "or_low": 93.68,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 69.55,
+    "or_high": 69.46,
+    "or_low": 67.39,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:00",
+    "price": 81.49,
+    "or_high": 81.35,
+    "or_low": 80.3,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:00",
+    "price": 22.05,
+    "or_high": 22.0,
+    "or_low": 21.47,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:00",
+    "price": 152.41,
+    "or_high": 152.02,
+    "or_low": 148.88,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "IONQ",
+    "at": "10:00",
+    "price": 22.55,
+    "or_high": 22.32,
+    "or_low": 21.45,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "LYFT",
+    "at": "10:00",
+    "price": 17.42,
+    "or_high": 17.4,
+    "or_low": 16.71,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "META",
+    "at": "10:00",
+    "price": 587.09,
+    "or_high": 585.31,
+    "or_low": 573.48,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 371.05,
+    "or_high": 368.43,
+    "or_low": 363.9,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "MRNA",
+    "at": "10:00",
+    "price": 208.0,
+    "or_high": 207.37,
+    "or_low": 196.5,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "NU",
+    "at": "10:00",
+    "price": 11.87,
+    "or_high": 11.84,
+    "or_low": 11.62,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:00",
+    "price": 252.76,
+    "or_high": 252.32,
+    "or_low": 248.0,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:00",
+    "price": 151.59,
+    "or_high": 151.15,
+    "or_low": 147.55,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PSX",
+    "at": "10:00",
+    "price": 244.12,
+    "or_high": 242.64,
+    "or_low": 240.02,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:00",
+    "price": 7.23,
+    "or_high": 7.17,
+    "or_low": 6.95,
+    "pct_over": 0.84
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 91.11,
+    "or_high": 90.93,
+    "or_low": 88.24,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "RUN",
+    "at": "10:00",
+    "price": 7.41,
+    "or_high": 7.3,
+    "or_low": 7.05,
+    "pct_over": 1.64
+   },
+   {
+    "symbol": "SE",
+    "at": "10:00",
+    "price": 66.07,
+    "or_high": 65.88,
+    "or_low": 64.61,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:00",
+    "price": 20.33,
+    "or_high": 20.17,
+    "or_low": 19.78,
+    "pct_over": 0.79
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 23.37,
+    "or_high": 23.29,
+    "or_low": 22.74,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "SOFI",
+    "at": "10:00",
+    "price": 13.53,
+    "or_high": 13.44,
+    "or_low": 13.16,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:00",
+    "price": 107.53,
+    "or_high": 107.29,
+    "or_low": 105.3,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:00",
+    "price": 341.32,
+    "or_high": 337.92,
+    "or_low": 334.0,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "Z",
+    "at": "10:00",
+    "price": 28.48,
+    "or_high": 28.33,
+    "or_low": 27.26,
+    "pct_over": 0.53
    }
   ],
-  "n_hits": 41,
+  "n_hits": 71,
   "entries": 1,
   "max_trades": 3
  },
@@ -1127,6 +1279,44 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795186800,
+   "et": "2026-11-20 10:00",
+   "kind": "busy",
+   "text": "30 more breakouts (ADBE, AEP, BA, CMCSA, COIN, CRM, CSCO, CVNA ...) not taken: already in MSFT (one trade at a time)",
+   "symbols": [
+    "ADBE",
+    "AEP",
+    "BA",
+    "CMCSA",
+    "COIN",
+    "CRM",
+    "CSCO",
+    "CVNA",
+    "DXCM",
+    "ENPH",
+    "FSLR",
+    "IONQ",
+    "LYFT",
+    "META",
+    "MPC",
+    "MRNA",
+    "NU",
+    "NXPI",
+    "PLTR",
+    "PSX",
+    "QBTS",
+    "RDDT",
+    "RUN",
+    "SE",
+    "SEDG",
+    "SMCI",
+    "SOFI",
+    "UAL",
+    "VLO",
+    "Z"
+   ]
+  },
   {
    "ts": 1795186500,
    "et": "2026-11-20 09:55",
@@ -2095,15 +2285,6 @@
    "text": "1 more breakout (CHTR) not taken: already in COP (one trade at a time)",
    "symbols": [
     "CHTR"
-   ]
-  },
-  {
-   "ts": 1794849600,
-   "et": "2026-11-16 12:20",
-   "kind": "busy",
-   "text": "1 more breakout (UPS) not taken: already in COP (one trade at a time)",
-   "symbols": [
-    "UPS"
    ]
   }
  ],
@@ -7047,6 +7228,11 @@
    "ts": 1795186600,
    "equity": 9319.93,
    "spy": 9414.72
+  },
+  {
+   "ts": 1795186913,
+   "equity": 9326.94,
+   "spy": 9438.74
   }
  ],
  "daily": [
@@ -7136,6 +7322,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795186913,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 25.8,
+   "errors": [],
+   "run_id": "44759137630",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795186600,
    "phase": "open",
@@ -7525,25 +7721,15 @@
    "errors": [],
    "run_id": "44591563907",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795113764,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.8,
-   "errors": [],
-   "run_id": "44590659599",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795186600,
+  "tick_at": 1795186913,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795186624,
-  "candidates": 76,
-  "charts_fetched": 78,
+  "yahoo_time": 1795186938,
+  "candidates": 85,
+  "charts_fetched": 87,
   "ok": true,
   "errors": [],
   "stale_data": false,

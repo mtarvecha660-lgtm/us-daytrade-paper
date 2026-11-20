@@ -729,7 +729,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-20",
-  "last_bar_end": 1795186500,
+  "last_bar_end": 1795186800,
   "position": {
    "symbol": "MSFT",
    "qty": 13,
@@ -780,7 +780,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 41,
+  "triggers_seen": 71,
   "missed": [
    "AMZN",
    "COP",
@@ -800,7 +800,37 @@
    "TWLO",
    "U",
    "XOM",
-   "ZM"
+   "ZM",
+   "ADBE",
+   "AEP",
+   "BA",
+   "CMCSA",
+   "COIN",
+   "CRM",
+   "CSCO",
+   "CVNA",
+   "DXCM",
+   "ENPH",
+   "FSLR",
+   "IONQ",
+   "LYFT",
+   "META",
+   "MPC",
+   "MRNA",
+   "NU",
+   "NXPI",
+   "PLTR",
+   "PSX",
+   "QBTS",
+   "RDDT",
+   "RUN",
+   "SE",
+   "SEDG",
+   "SMCI",
+   "SOFI",
+   "UAL",
+   "VLO",
+   "Z"
   ],
   "triggered": [
    "BABA",
@@ -843,7 +873,37 @@
    "TWLO",
    "U",
    "XOM",
-   "ZM"
+   "ZM",
+   "ADBE",
+   "AEP",
+   "BA",
+   "CMCSA",
+   "COIN",
+   "CRM",
+   "CSCO",
+   "CVNA",
+   "DXCM",
+   "ENPH",
+   "FSLR",
+   "IONQ",
+   "LYFT",
+   "META",
+   "MPC",
+   "MRNA",
+   "NU",
+   "NXPI",
+   "PLTR",
+   "PSX",
+   "QBTS",
+   "RDDT",
+   "RUN",
+   "SE",
+   "SEDG",
+   "SMCI",
+   "SOFI",
+   "UAL",
+   "VLO",
+   "Z"
   ],
   "hits": [
    {
@@ -1173,6 +1233,246 @@
     "or_high": 83.39,
     "or_low": 81.81,
     "pct_over": 0.47
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:00",
+    "price": 228.3,
+    "or_high": 228.0,
+    "or_low": 221.27,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "AEP",
+    "at": "10:00",
+    "price": 126.21,
+    "or_high": 126.19,
+    "or_low": 125.26,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "BA",
+    "at": "10:00",
+    "price": 163.8,
+    "or_high": 163.41,
+    "or_low": 160.15,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "10:00",
+    "price": 25.33,
+    "or_high": 25.29,
+    "or_low": 25.07,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "COIN",
+    "at": "10:00",
+    "price": 110.64,
+    "or_high": 110.46,
+    "or_low": 106.87,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:00",
+    "price": 187.33,
+    "or_high": 186.74,
+    "or_low": 183.26,
+    "pct_over": 0.32
+   },
+   {
+    "symbol": "CSCO",
+    "at": "10:00",
+    "price": 94.87,
+    "or_high": 94.63,
+    "or_low": 93.68,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:00",
+    "price": 69.55,
+    "or_high": 69.46,
+    "or_low": 67.39,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:00",
+    "price": 81.49,
+    "or_high": 81.35,
+    "or_low": 80.3,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "ENPH",
+    "at": "10:00",
+    "price": 22.05,
+    "or_high": 22.0,
+    "or_low": 21.47,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:00",
+    "price": 152.41,
+    "or_high": 152.02,
+    "or_low": 148.88,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "IONQ",
+    "at": "10:00",
+    "price": 22.55,
+    "or_high": 22.32,
+    "or_low": 21.45,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "LYFT",
+    "at": "10:00",
+    "price": 17.42,
+    "or_high": 17.4,
+    "or_low": 16.71,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "META",
+    "at": "10:00",
+    "price": 587.09,
+    "or_high": 585.31,
+    "or_low": 573.48,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 371.05,
+    "or_high": 368.43,
+    "or_low": 363.9,
+    "pct_over": 0.71
+   },
+   {
+    "symbol": "MRNA",
+    "at": "10:00",
+    "price": 208.0,
+    "or_high": 207.37,
+    "or_low": 196.5,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "NU",
+    "at": "10:00",
+    "price": 11.87,
+    "or_high": 11.84,
+    "or_low": 11.62,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:00",
+    "price": 252.76,
+    "or_high": 252.32,
+    "or_low": 248.0,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:00",
+    "price": 151.59,
+    "or_high": 151.15,
+    "or_low": 147.55,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "PSX",
+    "at": "10:00",
+    "price": 244.12,
+    "or_high": 242.64,
+    "or_low": 240.02,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:00",
+    "price": 7.23,
+    "or_high": 7.17,
+    "or_low": 6.95,
+    "pct_over": 0.84
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:00",
+    "price": 91.11,
+    "or_high": 90.93,
+    "or_low": 88.24,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "RUN",
+    "at": "10:00",
+    "price": 7.41,
+    "or_high": 7.3,
+    "or_low": 7.05,
+    "pct_over": 1.64
+   },
+   {
+    "symbol": "SE",
+    "at": "10:00",
+    "price": 66.07,
+    "or_high": 65.88,
+    "or_low": 64.61,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:00",
+    "price": 20.33,
+    "or_high": 20.17,
+    "or_low": 19.78,
+    "pct_over": 0.79
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 23.37,
+    "or_high": 23.29,
+    "or_low": 22.74,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "SOFI",
+    "at": "10:00",
+    "price": 13.53,
+    "or_high": 13.44,
+    "or_low": 13.16,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:00",
+    "price": 107.53,
+    "or_high": 107.29,
+    "or_low": 105.3,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "VLO",
+    "at": "10:00",
+    "price": 341.32,
+    "or_high": 337.92,
+    "or_low": 334.0,
+    "pct_over": 1.01
+   },
+   {
+    "symbol": "Z",
+    "at": "10:00",
+    "price": 28.48,
+    "or_high": 28.33,
+    "or_low": 27.26,
+    "pct_over": 0.53
    }
   ]
  },
@@ -1180,8 +1480,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 715.3150024414062,
-  "last_ts": 1795186500
+  "last": 717.1400146484375,
+  "last_ts": 1795186800
  },
  "seen_trades": 0,
  "daily": [
