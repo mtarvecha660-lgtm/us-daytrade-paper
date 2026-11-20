@@ -1,21 +1,21 @@
 {
- "updated": 1795187538,
- "updated_et": "2026-11-20 10:12 ET",
+ "updated": 1795187854,
+ "updated_et": "2026-11-20 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2442.38,
-  "equity": 9370.99,
-  "return": -0.06290099999999998,
+  "equity": 9365.99,
+  "return": -0.06340100000000004,
   "started": 1793559735
  },
  "spy": {
-  "value": 9413.34,
-  "return": -0.058665999999999996,
+  "value": 9394.91,
+  "return": -0.060509000000000035,
   "start_price": 759.47998046875,
-  "last": 715.2100830078125
+  "last": 713.8099975585938
  },
  "position": {
   "symbol": "UNH",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-20",
   "hits": [
-   {
-    "symbol": "ADBE",
-    "at": "10:00",
-    "price": 228.3,
-    "or_high": 228.0,
-    "or_low": 221.27,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "AEP",
-    "at": "10:00",
-    "price": 126.21,
-    "or_high": 126.19,
-    "or_low": 125.26,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "BA",
-    "at": "10:00",
-    "price": 163.8,
-    "or_high": 163.41,
-    "or_low": 160.15,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "CMCSA",
-    "at": "10:00",
-    "price": 25.33,
-    "or_high": 25.29,
-    "or_low": 25.07,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "COIN",
-    "at": "10:00",
-    "price": 110.64,
-    "or_high": 110.46,
-    "or_low": 106.87,
-    "pct_over": 0.16
-   },
    {
     "symbol": "CRM",
     "at": "10:00",
@@ -516,9 +476,49 @@
     "or_high": 101.46,
     "or_low": 99.5,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "AMGN",
+    "at": "10:15",
+    "price": 443.97,
+    "or_high": 443.76,
+    "or_low": 440.2,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "GILD",
+    "at": "10:15",
+    "price": 170.04,
+    "or_high": 169.66,
+    "or_low": 168.0,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "HD",
+    "at": "10:15",
+    "price": 347.02,
+    "or_high": 346.9,
+    "or_low": 339.26,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:15",
+    "price": 84.94,
+    "or_high": 84.81,
+    "or_low": 84.14,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:15",
+    "price": 129.94,
+    "or_high": 129.8,
+    "or_low": 127.22,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 101,
+  "n_hits": 106,
   "entries": 2,
   "max_trades": 3
  },
@@ -1303,6 +1303,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795187700,
+   "et": "2026-11-20 10:15",
+   "kind": "busy",
+   "text": "5 more breakouts (AMGN, GILD, HD, NEE, WMT) not taken: already in UNH (one trade at a time)",
+   "symbols": [
+    "AMGN",
+    "GILD",
+    "HD",
+    "NEE",
+    "WMT"
+   ]
+  },
   {
    "ts": 1795187400,
    "et": "2026-11-20 10:10",
@@ -2332,13 +2345,6 @@
     "LUV",
     "APO"
    ]
-  },
-  {
-   "ts": 1794862500,
-   "et": "2026-11-16 15:55",
-   "kind": "exit",
-   "text": "SELL 51 COP at $140.45: flat by 15:55 ET (the skill's flat-by rule). P&L $-29.90 (-0.52R)",
-   "symbol": "COP"
   }
  ],
  "equity": [
@@ -7296,6 +7302,11 @@
    "ts": 1795187538,
    "equity": 9370.99,
    "spy": 9413.34
+  },
+  {
+   "ts": 1795187854,
+   "equity": 9365.99,
+   "spy": 9394.91
   }
  ],
  "daily": [
@@ -7385,6 +7396,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795187854,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.1,
+   "errors": [],
+   "run_id": "44761760856",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795187538,
    "phase": "open",
@@ -7774,29 +7795,19 @@
    "errors": [],
    "run_id": "44594313372",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795114713,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.7,
-   "errors": [],
-   "run_id": "44593367085",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795187538,
+  "tick_at": 1795187854,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795187554,
-  "candidates": 54,
-  "charts_fetched": 56,
+  "yahoo_time": 1795187863,
+  "candidates": 28,
+  "charts_fetched": 30,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
