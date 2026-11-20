@@ -753,7 +753,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-20",
-  "last_bar_end": 1795189500,
+  "last_bar_end": 1795189800,
   "position": {
    "symbol": "UNH",
    "qty": 20,
@@ -1901,8 +1901,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 708.1300048828125,
-  "last_ts": 1795189500
+  "last": 709.625,
+  "last_ts": 1795189800
  },
  "seen_trades": 0,
  "daily": [
