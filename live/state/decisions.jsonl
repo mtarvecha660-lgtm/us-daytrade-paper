@@ -469,3 +469,4 @@
 {"ts": 1795194000, "et": "2026-11-20 12:00", "kind": "busy", "text": "1 more breakout (HUM) not taken: already in UNH (one trade at a time)", "symbols": ["HUM"]}
 {"ts": 1795194900, "et": "2026-11-20 12:15", "kind": "busy", "text": "2 more breakouts (KO, SO) not taken: already in UNH (one trade at a time)", "symbols": ["KO", "SO"]}
 {"ts": 1795195500, "et": "2026-11-20 12:25", "kind": "busy", "text": "1 more breakout (ROST) not taken: already in UNH (one trade at a time)", "symbols": ["ROST"]}
+{"ts": 1795203300, "et": "2026-11-20 14:35", "kind": "exit", "text": "SELL 20 UNH at $341.66: stop $341.73 hit. P&L $-73.05 (-1.00R)", "symbol": "UNH"}
