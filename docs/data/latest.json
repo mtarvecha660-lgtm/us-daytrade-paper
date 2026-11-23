@@ -1,21 +1,21 @@
 {
- "updated": 1795446121,
- "updated_et": "2026-11-23 10:02 ET",
+ "updated": 1795446434,
+ "updated_et": "2026-11-23 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9250.02,
-  "return": -0.07499800000000001,
+  "equity": 9270.02,
+  "return": -0.07299800000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9489.41,
-  "return": -0.051058999999999966,
+  "value": 9499.74,
+  "return": -0.050026000000000015,
   "start_price": 759.47998046875,
-  "last": 720.989990234375
+  "last": 721.7750244140625
  },
  "position": {
   "symbol": "TXN",
@@ -324,9 +324,73 @@
     "or_high": 207.15,
     "or_low": 203.5,
     "pct_over": 1.25
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:05",
+    "price": 304.44,
+    "or_high": 303.99,
+    "or_low": 297.24,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DOCU",
+    "at": "10:05",
+    "price": 75.99,
+    "or_high": 75.71,
+    "or_low": 74.57,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "FANG",
+    "at": "10:05",
+    "price": 176.53,
+    "or_high": 176.39,
+    "or_low": 174.8,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 388.35,
+    "or_high": 386.1,
+    "or_low": 374.62,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:05",
+    "price": 223.33,
+    "or_high": 223.01,
+    "or_low": 220.91,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "NET",
+    "at": "10:05",
+    "price": 301.23,
+    "or_high": 300.33,
+    "or_low": 291.76,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:05",
+    "price": 11.49,
+    "or_high": 11.48,
+    "or_low": 11.3,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "UNH",
+    "at": "10:05",
+    "price": 333.12,
+    "or_high": 330.5,
+    "or_low": 319.13,
+    "pct_over": 0.79
    }
   ],
-  "n_hits": 36,
+  "n_hits": 44,
   "entries": 1,
   "max_trades": 3
  },
@@ -1135,6 +1199,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795446300,
+   "et": "2026-11-23 10:05",
+   "kind": "busy",
+   "text": "8 more breakouts (CDNS, DOCU, FANG, HUM, LOW, NET, PATH, UNH) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "CDNS",
+    "DOCU",
+    "FANG",
+    "HUM",
+    "LOW",
+    "NET",
+    "PATH",
+    "UNH"
+   ]
+  },
   {
    "ts": 1795446000,
    "et": "2026-11-23 10:00",
@@ -2123,13 +2203,6 @@
    "et": "2026-11-17 13:30",
    "kind": "exit",
    "text": "SELL 13 VRTX at $538.44: target $538.44 hit (1R). P&L $+41.64 (+1.04R)",
-   "symbol": "VRTX"
-  },
-  {
-   "ts": 1794936600,
-   "et": "2026-11-17 12:30",
-   "kind": "fill",
-   "text": "BUY 13 VRTX filled at $535.24 (next bar's open $535.13 + slippage). Stop $532.26, target $538.44",
    "symbol": "VRTX"
   }
  ],
@@ -7458,6 +7531,11 @@
    "ts": 1795446121,
    "equity": 9250.02,
    "spy": 9489.41
+  },
+  {
+   "ts": 1795446434,
+   "equity": 9270.02,
+   "spy": 9499.74
   }
  ],
  "daily": [
@@ -7553,6 +7631,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795446434,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 30.7,
+   "errors": [],
+   "run_id": "45201567418",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795446121,
    "phase": "open",
@@ -7942,29 +8030,19 @@
    "errors": [],
    "run_id": "44804225829",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795203285,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.3,
-   "errors": [],
-   "run_id": "44803409684",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795446121,
+  "tick_at": 1795446434,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795446140,
-  "candidates": 68,
-  "charts_fetched": 70,
+  "yahoo_time": 1795446462,
+  "candidates": 89,
+  "charts_fetched": 91,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.5,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

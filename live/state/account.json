@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795446000,
+  "last_bar_end": 1795446300,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 36,
+  "triggers_seen": 44,
   "missed": [
    "ABBV",
    "AMGN",
@@ -851,7 +851,15 @@
    "IBM",
    "MU",
    "NVDA",
-   "OKTA"
+   "OKTA",
+   "CDNS",
+   "DOCU",
+   "FANG",
+   "HUM",
+   "LOW",
+   "NET",
+   "PATH",
+   "UNH"
   ],
   "triggered": [
    "ADBE",
@@ -889,7 +897,15 @@
    "IBM",
    "MU",
    "NVDA",
-   "OKTA"
+   "OKTA",
+   "CDNS",
+   "DOCU",
+   "FANG",
+   "HUM",
+   "LOW",
+   "NET",
+   "PATH",
+   "UNH"
   ],
   "hits": [
    {
@@ -1179,6 +1195,70 @@
     "or_high": 207.15,
     "or_low": 203.5,
     "pct_over": 1.25
+   },
+   {
+    "symbol": "CDNS",
+    "at": "10:05",
+    "price": 304.44,
+    "or_high": 303.99,
+    "or_low": 297.24,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "DOCU",
+    "at": "10:05",
+    "price": 75.99,
+    "or_high": 75.71,
+    "or_low": 74.57,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "FANG",
+    "at": "10:05",
+    "price": 176.53,
+    "or_high": 176.39,
+    "or_low": 174.8,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 388.35,
+    "or_high": 386.1,
+    "or_low": 374.62,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:05",
+    "price": 223.33,
+    "or_high": 223.01,
+    "or_low": 220.91,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "NET",
+    "at": "10:05",
+    "price": 301.23,
+    "or_high": 300.33,
+    "or_low": 291.76,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:05",
+    "price": 11.49,
+    "or_high": 11.48,
+    "or_low": 11.3,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "UNH",
+    "at": "10:05",
+    "price": 333.12,
+    "or_high": 330.5,
+    "or_low": 319.13,
+    "pct_over": 0.79
    }
   ]
  },
@@ -1186,8 +1266,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 720.989990234375,
-  "last_ts": 1795446000
+  "last": 721.7750244140625,
+  "last_ts": 1795446300
  },
  "seen_trades": 0,
  "daily": [
