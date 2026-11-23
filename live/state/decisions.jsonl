@@ -499,3 +499,4 @@
 {"ts": 1795457400, "et": "2026-11-23 13:10", "kind": "busy", "text": "1 more breakout (CMG) not taken: already in MRNA (one trade at a time)", "symbols": ["CMG"]}
 {"ts": 1795457700, "et": "2026-11-23 13:15", "kind": "busy", "text": "3 more breakouts (COST, SYK, TTD) not taken: already in MRNA (one trade at a time)", "symbols": ["COST", "SYK", "TTD"]}
 {"ts": 1795458000, "et": "2026-11-23 13:20", "kind": "busy", "text": "2 more breakouts (BSX, GOOGL) not taken: already in MRNA (one trade at a time)", "symbols": ["BSX", "GOOGL"]}
+{"ts": 1795458300, "et": "2026-11-23 13:25", "kind": "busy", "text": "2 more breakouts (C, T) not taken: already in MRNA (one trade at a time)", "symbols": ["C", "T"]}
