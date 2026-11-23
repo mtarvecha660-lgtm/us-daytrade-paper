@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795446300,
+  "last_bar_end": 1795446600,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 44,
+  "triggers_seen": 46,
   "missed": [
    "ABBV",
    "AMGN",
@@ -859,7 +859,9 @@
    "LOW",
    "NET",
    "PATH",
-   "UNH"
+   "UNH",
+   "DUOL",
+   "DXCM"
   ],
   "triggered": [
    "ADBE",
@@ -905,7 +907,9 @@
    "LOW",
    "NET",
    "PATH",
-   "UNH"
+   "UNH",
+   "DUOL",
+   "DXCM"
   ],
   "hits": [
    {
@@ -1259,6 +1263,22 @@
     "or_high": 330.5,
     "or_low": 319.13,
     "pct_over": 0.79
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:10",
+    "price": 150.79,
+    "or_high": 150.64,
+    "or_low": 145.5,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:10",
+    "price": 81.41,
+    "or_high": 81.38,
+    "or_low": 80.04,
+    "pct_over": 0.04
    }
   ]
  },
@@ -1266,8 +1286,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 721.7750244140625,
-  "last_ts": 1795446300
+  "last": 720.3099975585938,
+  "last_ts": 1795446600
  },
  "seen_trades": 0,
  "daily": [

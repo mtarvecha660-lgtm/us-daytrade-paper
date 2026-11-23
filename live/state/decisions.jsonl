@@ -475,3 +475,4 @@
 {"ts": 1795445700, "et": "2026-11-23 09:55", "kind": "busy", "text": "15 more breakouts (ABBV, AMGN, BIIB, BMY, CVX, F, GILD, HD ...) not taken: already in TXN (one trade at a time)", "symbols": ["ABBV", "AMGN", "BIIB", "BMY", "CVX", "F", "GILD", "HD", "LLY", "MMM", "OXY", "REGN", "ROST", "TM", "XOM"]}
 {"ts": 1795446000, "et": "2026-11-23 10:00", "kind": "busy", "text": "7 more breakouts (BA, CVS, DVN, IBM, MU, NVDA, OKTA) not taken: already in TXN (one trade at a time)", "symbols": ["BA", "CVS", "DVN", "IBM", "MU", "NVDA", "OKTA"]}
 {"ts": 1795446300, "et": "2026-11-23 10:05", "kind": "busy", "text": "8 more breakouts (CDNS, DOCU, FANG, HUM, LOW, NET, PATH, UNH) not taken: already in TXN (one trade at a time)", "symbols": ["CDNS", "DOCU", "FANG", "HUM", "LOW", "NET", "PATH", "UNH"]}
+{"ts": 1795446600, "et": "2026-11-23 10:10", "kind": "busy", "text": "2 more breakouts (DUOL, DXCM) not taken: already in TXN (one trade at a time)", "symbols": ["DUOL", "DXCM"]}

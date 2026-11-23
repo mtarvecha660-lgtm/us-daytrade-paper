@@ -1,21 +1,21 @@
 {
- "updated": 1795446434,
- "updated_et": "2026-11-23 10:07 ET",
+ "updated": 1795446754,
+ "updated_et": "2026-11-23 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9270.02,
-  "return": -0.07299800000000001,
+  "equity": 9242.66,
+  "return": -0.07573399999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9499.74,
-  "return": -0.050026000000000015,
+  "value": 9480.46,
+  "return": -0.051954000000000056,
   "start_price": 759.47998046875,
-  "last": 721.7750244140625
+  "last": 720.3099975585938
  },
  "position": {
   "symbol": "TXN",
@@ -388,9 +388,25 @@
     "or_high": 330.5,
     "or_low": 319.13,
     "pct_over": 0.79
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:10",
+    "price": 150.79,
+    "or_high": 150.64,
+    "or_low": 145.5,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "DXCM",
+    "at": "10:10",
+    "price": 81.41,
+    "or_high": 81.38,
+    "or_low": 80.04,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 44,
+  "n_hits": 46,
   "entries": 1,
   "max_trades": 3
  },
@@ -427,7 +443,7 @@
   "sortino": -5.899530100192258,
   "days": 16
  },
- "intraday_max_drawdown": -0.08160219858993967,
+ "intraday_max_drawdown": -0.0823329438011261,
  "trades": [
   {
    "date": "2026-11-20",
@@ -1199,6 +1215,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795446600,
+   "et": "2026-11-23 10:10",
+   "kind": "busy",
+   "text": "2 more breakouts (DUOL, DXCM) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "DUOL",
+    "DXCM"
+   ]
+  },
   {
    "ts": 1795446300,
    "et": "2026-11-23 10:05",
@@ -2197,13 +2223,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1794940200,
-   "et": "2026-11-17 13:30",
-   "kind": "exit",
-   "text": "SELL 13 VRTX at $538.44: target $538.44 hit (1R). P&L $+41.64 (+1.04R)",
-   "symbol": "VRTX"
   }
  ],
  "equity": [
@@ -7536,6 +7555,11 @@
    "ts": 1795446434,
    "equity": 9270.02,
    "spy": 9499.74
+  },
+  {
+   "ts": 1795446754,
+   "equity": 9242.66,
+   "spy": 9480.46
   }
  ],
  "daily": [
@@ -7631,6 +7655,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795446754,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.2,
+   "errors": [],
+   "run_id": "45202569623",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795446434,
    "phase": "open",
@@ -8020,29 +8054,19 @@
    "errors": [],
    "run_id": "44805029554",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795203601,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.2,
-   "errors": [],
-   "run_id": "44804225829",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795446434,
+  "tick_at": 1795446754,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795446462,
-  "candidates": 89,
-  "charts_fetched": 91,
+  "yahoo_time": 1795446769,
+  "candidates": 57,
+  "charts_fetched": 59,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.5,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
