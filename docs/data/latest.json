@@ -1,21 +1,21 @@
 {
- "updated": 1795450871,
- "updated_et": "2026-11-23 11:21 ET",
+ "updated": 1795451188,
+ "updated_et": "2026-11-23 11:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9179.93,
-  "return": -0.08200699999999994,
+  "equity": 9177.13,
+  "return": -0.08228700000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9537.58,
-  "return": -0.046242000000000005,
+  "value": 9537.98,
+  "return": -0.046202000000000076,
   "start_price": 759.47998046875,
-  "last": 724.6500244140625
+  "last": 724.6799926757812
  },
  "position": {
   "symbol": "MRNA",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "APP",
-    "at": "10:15",
-    "price": 377.89,
-    "or_high": 376.77,
-    "or_low": 367.94,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "BB",
-    "at": "10:15",
-    "price": 8.47,
-    "or_high": 8.36,
-    "or_low": 8.2,
-    "pct_over": 1.32
-   },
-   {
-    "symbol": "EBAY",
-    "at": "10:15",
-    "price": 117.71,
-    "or_high": 117.44,
-    "or_low": 114.5,
-    "pct_over": 0.23
-   },
-   {
-    "symbol": "MCHP",
-    "at": "10:15",
-    "price": 61.4,
-    "or_high": 60.99,
-    "or_low": 59.35,
-    "pct_over": 0.67
-   },
    {
     "symbol": "MDB",
     "at": "10:15",
@@ -516,9 +484,41 @@
     "or_high": 57.66,
     "or_low": 56.8,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "11:25",
+    "price": 118.04,
+    "or_high": 118.0,
+    "or_low": 114.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BX",
+    "at": "11:25",
+    "price": 117.52,
+    "or_high": 117.46,
+    "or_low": 114.26,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "11:25",
+    "price": 24.72,
+    "or_high": 24.71,
+    "or_low": 24.45,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "COIN",
+    "at": "11:25",
+    "price": 111.21,
+    "or_high": 111.21,
+    "or_low": 108.12,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 106,
+  "n_hits": 110,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795451100,
+   "et": "2026-11-23 11:25",
+   "kind": "busy",
+   "text": "4 more breakouts (APO, BX, CMCSA, COIN) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "APO",
+    "BX",
+    "CMCSA",
+    "COIN"
+   ]
+  },
   {
    "ts": 1795450800,
    "et": "2026-11-23 11:20",
@@ -2336,15 +2348,6 @@
    "symbols": [
     "BB",
     "DOCU"
-   ]
-  },
-  {
-   "ts": 1795016700,
-   "et": "2026-11-18 10:45",
-   "kind": "busy",
-   "text": "1 more breakout (D) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "D"
    ]
   }
  ],
@@ -7748,6 +7751,11 @@
    "ts": 1795450871,
    "equity": 9179.93,
    "spy": 9537.58
+  },
+  {
+   "ts": 1795451188,
+   "equity": 9177.13,
+   "spy": 9537.98
   }
  ],
  "daily": [
@@ -7843,6 +7851,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795451188,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 27.4,
+   "errors": [],
+   "run_id": "45216483038",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795450871,
    "phase": "open",
@@ -8232,25 +8250,15 @@
    "errors": [],
    "run_id": "44815579759",
    "event": "schedule"
-  },
-  {
-   "ts": 1795207997,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.5,
-   "errors": [],
-   "run_id": "44815346895",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795450871,
+  "tick_at": 1795451188,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795450894,
-  "candidates": 78,
-  "charts_fetched": 80,
+  "yahoo_time": 1795451212,
+  "candidates": 65,
+  "charts_fetched": 67,
   "ok": true,
   "errors": [],
   "stale_data": false,

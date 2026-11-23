@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795450800,
+  "last_bar_end": 1795451100,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -877,7 +877,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 106,
+  "triggers_seen": 110,
   "missed": [
    "ABBV",
    "AMGN",
@@ -967,7 +967,11 @@
    "DG",
    "SE",
    "UPS",
-   "USB"
+   "USB",
+   "APO",
+   "BX",
+   "CMCSA",
+   "COIN"
   ],
   "triggered": [
    "ADBE",
@@ -1075,7 +1079,11 @@
    "DG",
    "SE",
    "UPS",
-   "USB"
+   "USB",
+   "APO",
+   "BX",
+   "CMCSA",
+   "COIN"
   ],
   "hits": [
    {
@@ -1925,6 +1933,38 @@
     "or_high": 57.66,
     "or_low": 56.8,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "APO",
+    "at": "11:25",
+    "price": 118.04,
+    "or_high": 118.0,
+    "or_low": 114.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "BX",
+    "at": "11:25",
+    "price": 117.52,
+    "or_high": 117.46,
+    "or_low": 114.26,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "11:25",
+    "price": 24.72,
+    "or_high": 24.71,
+    "or_low": 24.45,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "COIN",
+    "at": "11:25",
+    "price": 111.21,
+    "or_high": 111.21,
+    "or_low": 108.12,
+    "pct_over": 0.0
    }
   ]
  },
@@ -1932,8 +1972,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.6500244140625,
-  "last_ts": 1795450800
+  "last": 724.6799926757812,
+  "last_ts": 1795451100
  },
  "seen_trades": 0,
  "daily": [
