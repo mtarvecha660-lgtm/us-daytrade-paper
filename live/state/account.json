@@ -1,5 +1,5 @@
 {
- "cash": 9275.6134,
+ "cash": 2483.3891,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -777,11 +777,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795445400,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795445700,
+  "position": {
    "symbol": "TXN",
    "qty": 23,
+   "entry_fill": 295.3141,
+   "entry_ts": 1795445400,
    "plan": {
     "symbol": "TXN",
     "side": "buy",
@@ -793,7 +794,8 @@
     "target": 299.45,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 295.2550048828125
    },
    "why": {
     "scanner": "TXN: the 09:45 bar closed at $295.25, above the 15-min opening range high $295.10 (range 287.00-295.10)",
@@ -802,9 +804,9 @@
     "risk": "trader-risk PASS: entry 295.25 (the plan's entry), stop 291.05, target 299.45: risk 4.20 a share; max loss $96.60 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795445400,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -814,12 +816,36 @@
     "kind": "entry",
     "max_loss": 96.6,
     "at": "2026-11-23T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-23",
+    "symbol": "TXN",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 23
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 14,
-  "missed": [],
+  "triggers_seen": 29,
+  "missed": [
+   "ABBV",
+   "AMGN",
+   "BIIB",
+   "BMY",
+   "CVX",
+   "F",
+   "GILD",
+   "HD",
+   "LLY",
+   "MMM",
+   "OXY",
+   "REGN",
+   "ROST",
+   "TM",
+   "XOM"
+  ],
   "triggered": [
    "ADBE",
    "DASH",
@@ -834,7 +860,22 @@
    "TXN",
    "V",
    "VRTX",
-   "YUM"
+   "YUM",
+   "ABBV",
+   "AMGN",
+   "BIIB",
+   "BMY",
+   "CVX",
+   "F",
+   "GILD",
+   "HD",
+   "LLY",
+   "MMM",
+   "OXY",
+   "REGN",
+   "ROST",
+   "TM",
+   "XOM"
   ],
   "hits": [
    {
@@ -948,6 +989,126 @@
     "or_high": 161.71,
     "or_low": 160.27,
     "pct_over": 0.27
+   },
+   {
+    "symbol": "ABBV",
+    "at": "09:55",
+    "price": 289.07,
+    "or_high": 288.0,
+    "or_low": 284.45,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "AMGN",
+    "at": "09:55",
+    "price": 447.7,
+    "or_high": 446.5,
+    "or_low": 440.0,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "BIIB",
+    "at": "09:55",
+    "price": 255.81,
+    "or_high": 255.41,
+    "or_low": 250.5,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "BMY",
+    "at": "09:55",
+    "price": 59.2,
+    "or_high": 59.0,
+    "or_low": 58.53,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:55",
+    "price": 208.29,
+    "or_high": 208.1,
+    "or_low": 205.34,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "F",
+    "at": "09:55",
+    "price": 11.47,
+    "or_high": 11.47,
+    "or_low": 11.38,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "GILD",
+    "at": "09:55",
+    "price": 170.48,
+    "or_high": 169.48,
+    "or_low": 166.98,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "HD",
+    "at": "09:55",
+    "price": 342.68,
+    "or_high": 342.48,
+    "or_low": 339.25,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "LLY",
+    "at": "09:55",
+    "price": 1371.52,
+    "or_high": 1363.15,
+    "or_low": 1344.0,
+    "pct_over": 0.61
+   },
+   {
+    "symbol": "MMM",
+    "at": "09:55",
+    "price": 182.97,
+    "or_high": 182.32,
+    "or_low": 180.35,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:55",
+    "price": 54.03,
+    "or_high": 53.99,
+    "or_low": 53.44,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "REGN",
+    "at": "09:55",
+    "price": 932.22,
+    "or_high": 931.98,
+    "or_low": 916.33,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ROST",
+    "at": "09:55",
+    "price": 218.29,
+    "or_high": 217.34,
+    "or_low": 211.99,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TM",
+    "at": "09:55",
+    "price": 210.6,
+    "or_high": 210.56,
+    "or_low": 208.8,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:55",
+    "price": 159.04,
+    "or_high": 158.9,
+    "or_low": 157.15,
+    "pct_over": 0.09
    }
   ]
  },
@@ -955,8 +1116,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 718.9149780273438,
-  "last_ts": 1795445400
+  "last": 719.3800048828125,
+  "last_ts": 1795445700
  },
  "seen_trades": 0,
  "daily": [
