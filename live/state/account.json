@@ -777,21 +777,186 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795445100,
+  "last_bar_end": 1795445400,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "TXN",
+   "qty": 23,
+   "plan": {
+    "symbol": "TXN",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-23",
+    "entry_time": "9:50 AM",
+    "entry": 295.25,
+    "stop": 291.05,
+    "target": 299.45,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "TXN: the 09:45 bar closed at $295.25, above the 15-min opening range high $295.10 (range 287.00-295.10)",
+    "exit": "plan: entry $295.25, stop $291.05 (opening-range midpoint), target $299.45 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on TXN: 23 shares, bound by your $100 max loss per trade (23 x 4.20 = $96.60 at the stop) (limits: max loss 23; position cap 23; max order 27; cash 28)",
+    "risk": "trader-risk PASS: entry 295.25 (the plan's entry), stop 291.05, target 299.45: risk 4.20 a share; max loss $96.60 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795445400,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-23",
+    "symbol": "TXN",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 96.6,
+    "at": "2026-11-23T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 14,
+  "missed": [],
+  "triggered": [
+   "ADBE",
+   "DASH",
+   "DPZ",
+   "ISRG",
+   "JNJ",
+   "MCD",
+   "PG",
+   "SONY",
+   "TOST",
+   "TWLO",
+   "TXN",
+   "V",
+   "VRTX",
+   "YUM"
+  ],
+  "hits": [
+   {
+    "symbol": "ADBE",
+    "at": "09:50",
+    "price": 220.73,
+    "or_high": 220.57,
+    "or_low": 218.0,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "DASH",
+    "at": "09:50",
+    "price": 162.52,
+    "or_high": 161.75,
+    "or_low": 158.52,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "DPZ",
+    "at": "09:50",
+    "price": 350.23,
+    "or_high": 348.67,
+    "or_low": 346.52,
+    "pct_over": 0.45
+   },
+   {
+    "symbol": "ISRG",
+    "at": "09:50",
+    "price": 413.7,
+    "or_high": 413.57,
+    "or_low": 407.34,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "JNJ",
+    "at": "09:50",
+    "price": 270.42,
+    "or_high": 270.29,
+    "or_low": 267.36,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "MCD",
+    "at": "09:50",
+    "price": 273.02,
+    "or_high": 272.73,
+    "or_low": 271.0,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "PG",
+    "at": "09:50",
+    "price": 169.48,
+    "or_high": 169.07,
+    "or_low": 167.49,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "SONY",
+    "at": "09:50",
+    "price": 27.66,
+    "or_high": 27.58,
+    "or_low": 27.35,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TOST",
+    "at": "09:50",
+    "price": 32.53,
+    "or_high": 32.22,
+    "or_low": 31.75,
+    "pct_over": 0.95
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:50",
+    "price": 182.54,
+    "or_high": 182.0,
+    "or_low": 178.85,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "TXN",
+    "at": "09:50",
+    "price": 295.25,
+    "or_high": 295.1,
+    "or_low": 287.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "V",
+    "at": "09:50",
+    "price": 410.11,
+    "or_high": 410.02,
+    "or_low": 404.01,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "VRTX",
+    "at": "09:50",
+    "price": 528.95,
+    "or_high": 528.2,
+    "or_low": 517.7,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "YUM",
+    "at": "09:50",
+    "price": 162.14,
+    "or_high": 161.71,
+    "or_low": 160.27,
+    "pct_over": 0.27
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 717.1199951171875,
-  "last_ts": 1795445100
+  "last": 718.9149780273438,
+  "last_ts": 1795445400
  },
  "seen_trades": 0,
  "daily": [
