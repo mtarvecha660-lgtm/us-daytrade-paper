@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795449000,
+  "last_bar_end": 1795449300,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 91,
+  "triggers_seen": 93,
   "missed": [
    "ABBV",
    "AMGN",
@@ -906,7 +906,9 @@
    "DHR",
    "GE",
    "HON",
-   "MAR"
+   "MAR",
+   "NKE",
+   "PYPL"
   ],
   "triggered": [
    "ADBE",
@@ -999,7 +1001,9 @@
    "DHR",
    "GE",
    "HON",
-   "MAR"
+   "MAR",
+   "NKE",
+   "PYPL"
   ],
   "hits": [
    {
@@ -1729,6 +1733,22 @@
     "or_high": 415.98,
     "or_low": 410.74,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:55",
+    "price": 33.6,
+    "or_high": 33.49,
+    "or_low": 33.04,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "PYPL",
+    "at": "10:55",
+    "price": 54.54,
+    "or_high": 54.48,
+    "or_low": 53.68,
+    "pct_over": 0.11
    }
   ]
  },
@@ -1736,8 +1756,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.780029296875,
-  "last_ts": 1795449000
+  "last": 723.530029296875,
+  "last_ts": 1795449300
  },
  "seen_trades": 0,
  "daily": [
