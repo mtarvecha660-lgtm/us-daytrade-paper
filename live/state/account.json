@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795457700,
+  "last_bar_end": 1795458000,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -877,7 +877,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 122,
+  "triggers_seen": 124,
   "missed": [
    "ABBV",
    "AMGN",
@@ -983,7 +983,9 @@
    "CMG",
    "COST",
    "SYK",
-   "TTD"
+   "TTD",
+   "BSX",
+   "GOOGL"
   ],
   "triggered": [
    "ADBE",
@@ -1107,7 +1109,9 @@
    "CMG",
    "COST",
    "SYK",
-   "TTD"
+   "TTD",
+   "BSX",
+   "GOOGL"
   ],
   "hits": [
    {
@@ -2085,6 +2089,22 @@
     "or_high": 14.09,
     "or_low": 13.6,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "BSX",
+    "at": "13:20",
+    "price": 42.54,
+    "or_high": 42.5,
+    "or_low": 42.01,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "13:20",
+    "price": 284.77,
+    "or_high": 284.6,
+    "or_low": 275.36,
+    "pct_over": 0.06
    }
   ]
  },
@@ -2092,8 +2112,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.5999755859375,
-  "last_ts": 1795457700
+  "last": 724.2999877929688,
+  "last_ts": 1795458000
  },
  "seen_trades": 0,
  "daily": [

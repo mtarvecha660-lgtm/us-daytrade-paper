@@ -1,21 +1,21 @@
 {
- "updated": 1795457804,
- "updated_et": "2026-11-23 13:16 ET",
+ "updated": 1795458114,
+ "updated_et": "2026-11-23 13:21 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9167.83,
-  "return": -0.08321699999999999,
+  "equity": 9166.23,
+  "return": -0.08337700000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9523.76,
-  "return": -0.047624,
+  "value": 9532.97,
+  "return": -0.04670300000000005,
   "start_price": 759.47998046875,
-  "last": 723.5999755859375
+  "last": 724.2999877929688
  },
  "position": {
   "symbol": "MRNA",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "AFRM",
-    "at": "10:25",
-    "price": 59.33,
-    "or_high": 59.26,
-    "or_low": 57.46,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "CVNA",
-    "at": "10:25",
-    "price": 68.1,
-    "or_high": 68.05,
-    "or_low": 65.73,
-    "pct_over": 0.07
-   },
    {
     "symbol": "HMC",
     "at": "10:25",
@@ -516,9 +500,25 @@
     "or_high": 14.09,
     "or_low": 13.6,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "BSX",
+    "at": "13:20",
+    "price": 42.54,
+    "or_high": 42.5,
+    "or_low": 42.01,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "13:20",
+    "price": 284.77,
+    "or_high": 284.6,
+    "or_low": 275.36,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 122,
+  "n_hits": 124,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795458000,
+   "et": "2026-11-23 13:20",
+   "kind": "busy",
+   "text": "2 more breakouts (BSX, GOOGL) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "BSX",
+    "GOOGL"
+   ]
+  },
   {
    "ts": 1795457700,
    "et": "2026-11-23 13:15",
@@ -2338,17 +2348,6 @@
    "text": "1 more breakout (DUOL) not taken: already in TJX (one trade at a time)",
    "symbols": [
     "DUOL"
-   ]
-  },
-  {
-   "ts": 1795021500,
-   "et": "2026-11-18 12:05",
-   "kind": "busy",
-   "text": "3 more breakouts (HMC, PYPL, SBUX) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "HMC",
-    "PYPL",
-    "SBUX"
    ]
   }
  ],
@@ -7862,6 +7861,11 @@
    "ts": 1795457804,
    "equity": 9167.83,
    "spy": 9523.76
+  },
+  {
+   "ts": 1795458114,
+   "equity": 9166.23,
+   "spy": 9532.97
   }
  ],
  "daily": [
@@ -7957,6 +7961,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795458114,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.5,
+   "errors": [],
+   "run_id": "45237550250",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795457804,
    "phase": "open",
@@ -8346,29 +8360,19 @@
    "errors": [],
    "run_id": "45199630979",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795445491,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 26.6,
-   "errors": [],
-   "run_id": "45198683431",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795457804,
+  "tick_at": 1795458114,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795457817,
+  "yahoo_time": 1795458133,
   "candidates": 51,
   "charts_fetched": 53,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
