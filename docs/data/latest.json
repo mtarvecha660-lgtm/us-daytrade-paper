@@ -1,21 +1,21 @@
 {
- "updated": 1795457481,
- "updated_et": "2026-11-23 13:11 ET",
+ "updated": 1795457804,
+ "updated_et": "2026-11-23 13:16 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9145.94,
-  "return": -0.08540599999999998,
+  "equity": 9167.83,
+  "return": -0.08321699999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9516.79,
-  "return": -0.04832099999999995,
+  "value": 9523.76,
+  "return": -0.047624,
   "start_price": 759.47998046875,
-  "last": 723.0700073242188
+  "last": 723.5999755859375
  },
  "position": {
   "symbol": "MRNA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "UBER",
-    "at": "10:20",
-    "price": 65.44,
-    "or_high": 65.27,
-    "or_low": 63.84,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "ZM",
-    "at": "10:20",
-    "price": 85.24,
-    "or_high": 85.07,
-    "or_low": 83.42,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "AAPL",
-    "at": "10:25",
-    "price": 351.01,
-    "or_high": 349.76,
-    "or_low": 345.44,
-    "pct_over": 0.36
-   },
    {
     "symbol": "AFRM",
     "at": "10:25",
@@ -516,9 +492,33 @@
     "or_high": 36.0,
     "or_low": 35.5,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "COST",
+    "at": "13:15",
+    "price": 1098.19,
+    "or_high": 1097.99,
+    "or_low": 1088.64,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SYK",
+    "at": "13:15",
+    "price": 314.08,
+    "or_high": 313.55,
+    "or_low": 308.26,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "TTD",
+    "at": "13:15",
+    "price": 14.1,
+    "or_high": 14.09,
+    "or_low": 13.6,
+    "pct_over": 0.08
    }
   ],
-  "n_hits": 119,
+  "n_hits": 122,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795457700,
+   "et": "2026-11-23 13:15",
+   "kind": "busy",
+   "text": "3 more breakouts (COST, SYK, TTD) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "COST",
+    "SYK",
+    "TTD"
+   ]
+  },
   {
    "ts": 1795457400,
    "et": "2026-11-23 13:10",
@@ -2338,15 +2349,6 @@
     "HMC",
     "PYPL",
     "SBUX"
-   ]
-  },
-  {
-   "ts": 1795021200,
-   "et": "2026-11-18 12:00",
-   "kind": "busy",
-   "text": "1 more breakout (ZTS) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "ZTS"
    ]
   }
  ],
@@ -7855,6 +7857,11 @@
    "ts": 1795457481,
    "equity": 9145.94,
    "spy": 9516.79
+  },
+  {
+   "ts": 1795457804,
+   "equity": 9167.83,
+   "spy": 9523.76
   }
  ],
  "daily": [
@@ -7950,6 +7957,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795457804,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.0,
+   "errors": [],
+   "run_id": "45236596814",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795457481,
    "phase": "open",
@@ -8339,25 +8356,15 @@
    "errors": [],
    "run_id": "45198683431",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795445178,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.2,
-   "errors": [],
-   "run_id": "45197731850",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795457481,
+  "tick_at": 1795457804,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795457496,
-  "candidates": 50,
-  "charts_fetched": 52,
+  "yahoo_time": 1795457817,
+  "candidates": 51,
+  "charts_fetched": 53,
   "ok": true,
   "errors": [],
   "stale_data": false,
