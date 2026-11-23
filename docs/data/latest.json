@@ -1,21 +1,21 @@
 {
- "updated": 1795446754,
- "updated_et": "2026-11-23 10:12 ET",
+ "updated": 1795447066,
+ "updated_et": "2026-11-23 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9242.66,
-  "return": -0.07573399999999997,
+  "equity": 9285.89,
+  "return": -0.07141100000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9480.46,
-  "return": -0.051954000000000056,
+  "value": 9509.94,
+  "return": -0.049005999999999994,
   "start_price": 759.47998046875,
-  "last": 720.3099975585938
+  "last": 722.5499877929688
  },
  "position": {
   "symbol": "TXN",
@@ -404,9 +404,65 @@
     "or_high": 81.38,
     "or_low": 80.04,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "APP",
+    "at": "10:15",
+    "price": 377.89,
+    "or_high": 376.77,
+    "or_low": 367.94,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "BB",
+    "at": "10:15",
+    "price": 8.47,
+    "or_high": 8.36,
+    "or_low": 8.2,
+    "pct_over": 1.32
+   },
+   {
+    "symbol": "EBAY",
+    "at": "10:15",
+    "price": 117.71,
+    "or_high": 117.44,
+    "or_low": 114.5,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:15",
+    "price": 61.4,
+    "or_high": 60.99,
+    "or_low": 59.35,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:15",
+    "price": 311.84,
+    "or_high": 310.89,
+    "or_low": 301.88,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:15",
+    "price": 147.24,
+    "or_high": 146.43,
+    "or_low": 140.32,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:15",
+    "price": 390.11,
+    "or_high": 389.39,
+    "or_low": 372.5,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 46,
+  "n_hits": 53,
   "entries": 1,
   "max_trades": 3
  },
@@ -1215,6 +1271,21 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795446900,
+   "et": "2026-11-23 10:15",
+   "kind": "busy",
+   "text": "7 more breakouts (APP, BB, EBAY, MCHP, MDB, MRVL, TSLA) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "APP",
+    "BB",
+    "EBAY",
+    "MCHP",
+    "MDB",
+    "MRVL",
+    "TSLA"
+   ]
+  },
   {
    "ts": 1795446600,
    "et": "2026-11-23 10:10",
@@ -2208,21 +2279,6 @@
    "kind": "fill",
    "text": "BUY 250 HPQ filled at $28.73 (next bar's open $28.73 + slippage). Stop $28.46, target $28.98",
    "symbol": "HPQ"
-  },
-  {
-   "ts": 1794943800,
-   "et": "2026-11-17 14:30",
-   "kind": "order",
-   "text": "BUY 250 HPQ at market (decided on the 14:30 close). opening-range breakout on HPQ: 250 shares, bound by your position cap (250 x 0.26 = $65 at the stop) (limits: max loss 384; position cap 250; max order 278; cash 300)",
-   "symbol": "HPQ",
-   "why": {
-    "scanner": "HPQ: the 14:25 bar closed at $28.72, above the 15-min opening range high $28.71 (range 28.22-28.71)",
-    "exit": "plan: entry $28.72, stop $28.46 (opening-range midpoint), target $28.98 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on HPQ: 250 shares, bound by your position cap (250 x 0.26 = $65 at the stop) (limits: max loss 384; position cap 250; max order 278; cash 300)",
-    "risk": "trader-risk PASS: entry 28.72 (the plan's entry), stop 28.46, target 28.98: risk 0.26 a share; max loss $65 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $135.39 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -7560,6 +7616,11 @@
    "ts": 1795446754,
    "equity": 9242.66,
    "spy": 9480.46
+  },
+  {
+   "ts": 1795447066,
+   "equity": 9285.89,
+   "spy": 9509.94
   }
  ],
  "daily": [
@@ -7655,6 +7716,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795447066,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 34.6,
+   "errors": [],
+   "run_id": "45203578933",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795446754,
    "phase": "open",
@@ -8044,29 +8115,19 @@
    "errors": [],
    "run_id": "44805834933",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795203914,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.4,
-   "errors": [],
-   "run_id": "44805029554",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795446754,
+  "tick_at": 1795447066,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795446769,
-  "candidates": 57,
-  "charts_fetched": 59,
+  "yahoo_time": 1795447099,
+  "candidates": 92,
+  "charts_fetched": 94,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.6,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

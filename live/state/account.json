@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795446600,
+  "last_bar_end": 1795446900,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 46,
+  "triggers_seen": 53,
   "missed": [
    "ABBV",
    "AMGN",
@@ -861,7 +861,14 @@
    "PATH",
    "UNH",
    "DUOL",
-   "DXCM"
+   "DXCM",
+   "APP",
+   "BB",
+   "EBAY",
+   "MCHP",
+   "MDB",
+   "MRVL",
+   "TSLA"
   ],
   "triggered": [
    "ADBE",
@@ -909,7 +916,14 @@
    "PATH",
    "UNH",
    "DUOL",
-   "DXCM"
+   "DXCM",
+   "APP",
+   "BB",
+   "EBAY",
+   "MCHP",
+   "MDB",
+   "MRVL",
+   "TSLA"
   ],
   "hits": [
    {
@@ -1279,6 +1293,62 @@
     "or_high": 81.38,
     "or_low": 80.04,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "APP",
+    "at": "10:15",
+    "price": 377.89,
+    "or_high": 376.77,
+    "or_low": 367.94,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "BB",
+    "at": "10:15",
+    "price": 8.47,
+    "or_high": 8.36,
+    "or_low": 8.2,
+    "pct_over": 1.32
+   },
+   {
+    "symbol": "EBAY",
+    "at": "10:15",
+    "price": 117.71,
+    "or_high": 117.44,
+    "or_low": 114.5,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:15",
+    "price": 61.4,
+    "or_high": 60.99,
+    "or_low": 59.35,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:15",
+    "price": 311.84,
+    "or_high": 310.89,
+    "or_low": 301.88,
+    "pct_over": 0.3
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:15",
+    "price": 147.24,
+    "or_high": 146.43,
+    "or_low": 140.32,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:15",
+    "price": 390.11,
+    "or_high": 389.39,
+    "or_low": 372.5,
+    "pct_over": 0.19
    }
   ]
  },
@@ -1286,8 +1356,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 720.3099975585938,
-  "last_ts": 1795446600
+  "last": 722.5499877929688,
+  "last_ts": 1795446900
  },
  "seen_trades": 0,
  "daily": [
