@@ -491,3 +491,4 @@
 {"ts": 1795450500, "et": "2026-11-23 11:15", "kind": "busy", "text": "4 more breakouts (AEP, BAC, RTX, SCHW) not taken: already in MRNA (one trade at a time)", "symbols": ["AEP", "BAC", "RTX", "SCHW"]}
 {"ts": 1795450800, "et": "2026-11-23 11:20", "kind": "busy", "text": "4 more breakouts (DG, SE, UPS, USB) not taken: already in MRNA (one trade at a time)", "symbols": ["DG", "SE", "UPS", "USB"]}
 {"ts": 1795451100, "et": "2026-11-23 11:25", "kind": "busy", "text": "4 more breakouts (APO, BX, CMCSA, COIN) not taken: already in MRNA (one trade at a time)", "symbols": ["APO", "BX", "CMCSA", "COIN"]}
+{"ts": 1795451400, "et": "2026-11-23 11:30", "kind": "busy", "text": "1 more breakout (JD) not taken: already in MRNA (one trade at a time)", "symbols": ["JD"]}

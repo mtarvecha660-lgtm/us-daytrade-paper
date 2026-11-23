@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795451100,
+  "last_bar_end": 1795451400,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -877,7 +877,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 110,
+  "triggers_seen": 111,
   "missed": [
    "ABBV",
    "AMGN",
@@ -971,7 +971,8 @@
    "APO",
    "BX",
    "CMCSA",
-   "COIN"
+   "COIN",
+   "JD"
   ],
   "triggered": [
    "ADBE",
@@ -1083,7 +1084,8 @@
    "APO",
    "BX",
    "CMCSA",
-   "COIN"
+   "COIN",
+   "JD"
   ],
   "hits": [
    {
@@ -1965,6 +1967,14 @@
     "or_high": 111.21,
     "or_low": 108.12,
     "pct_over": 0.0
+   },
+   {
+    "symbol": "JD",
+    "at": "11:30",
+    "price": 25.3,
+    "or_high": 25.3,
+    "or_low": 24.88,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1972,8 +1982,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.6799926757812,
-  "last_ts": 1795451100
+  "last": 724.0700073242188,
+  "last_ts": 1795451400
  },
  "seen_trades": 0,
  "daily": [
