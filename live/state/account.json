@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795445700,
+  "last_bar_end": 1795446000,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 29,
+  "triggers_seen": 36,
   "missed": [
    "ABBV",
    "AMGN",
@@ -844,7 +844,14 @@
    "REGN",
    "ROST",
    "TM",
-   "XOM"
+   "XOM",
+   "BA",
+   "CVS",
+   "DVN",
+   "IBM",
+   "MU",
+   "NVDA",
+   "OKTA"
   ],
   "triggered": [
    "ADBE",
@@ -875,7 +882,14 @@
    "REGN",
    "ROST",
    "TM",
-   "XOM"
+   "XOM",
+   "BA",
+   "CVS",
+   "DVN",
+   "IBM",
+   "MU",
+   "NVDA",
+   "OKTA"
   ],
   "hits": [
    {
@@ -1109,6 +1123,62 @@
     "or_high": 158.9,
     "or_low": 157.15,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "BA",
+    "at": "10:00",
+    "price": 160.83,
+    "or_high": 160.7,
+    "or_low": 159.1,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:00",
+    "price": 80.11,
+    "or_high": 79.97,
+    "or_low": 77.71,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:00",
+    "price": 41.76,
+    "or_high": 41.76,
+    "or_low": 41.4,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:00",
+    "price": 231.6,
+    "or_high": 231.16,
+    "or_low": 228.6,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "MU",
+    "at": "10:00",
+    "price": 694.85,
+    "or_high": 693.92,
+    "or_low": 672.31,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "NVDA",
+    "at": "10:00",
+    "price": 168.55,
+    "or_high": 167.17,
+    "or_low": 156.93,
+    "pct_over": 0.83
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:00",
+    "price": 209.73,
+    "or_high": 207.15,
+    "or_low": 203.5,
+    "pct_over": 1.25
    }
   ]
  },
@@ -1116,8 +1186,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 719.3800048828125,
-  "last_ts": 1795445700
+  "last": 720.989990234375,
+  "last_ts": 1795446000
  },
  "seen_trades": 0,
  "daily": [

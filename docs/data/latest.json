@@ -1,21 +1,21 @@
 {
- "updated": 1795445810,
- "updated_et": "2026-11-23 09:56 ET",
+ "updated": 1795446121,
+ "updated_et": "2026-11-23 10:02 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9258.18,
-  "return": -0.07418199999999997,
+  "equity": 9250.02,
+  "return": -0.07499800000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9468.22,
-  "return": -0.05317800000000006,
+  "value": 9489.41,
+  "return": -0.051058999999999966,
   "start_price": 759.47998046875,
-  "last": 719.3800048828125
+  "last": 720.989990234375
  },
  "position": {
   "symbol": "TXN",
@@ -268,9 +268,65 @@
     "or_high": 158.9,
     "or_low": 157.15,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "BA",
+    "at": "10:00",
+    "price": 160.83,
+    "or_high": 160.7,
+    "or_low": 159.1,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:00",
+    "price": 80.11,
+    "or_high": 79.97,
+    "or_low": 77.71,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "DVN",
+    "at": "10:00",
+    "price": 41.76,
+    "or_high": 41.76,
+    "or_low": 41.4,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:00",
+    "price": 231.6,
+    "or_high": 231.16,
+    "or_low": 228.6,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "MU",
+    "at": "10:00",
+    "price": 694.85,
+    "or_high": 693.92,
+    "or_low": 672.31,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "NVDA",
+    "at": "10:00",
+    "price": 168.55,
+    "or_high": 167.17,
+    "or_low": 156.93,
+    "pct_over": 0.83
+   },
+   {
+    "symbol": "OKTA",
+    "at": "10:00",
+    "price": 209.73,
+    "or_high": 207.15,
+    "or_low": 203.5,
+    "pct_over": 1.25
    }
   ],
-  "n_hits": 29,
+  "n_hits": 36,
   "entries": 1,
   "max_trades": 3
  },
@@ -307,7 +363,7 @@
   "sortino": -5.899530100192258,
   "days": 16
  },
- "intraday_max_drawdown": -0.08079202455145051,
+ "intraday_max_drawdown": -0.08160219858993967,
  "trades": [
   {
    "date": "2026-11-20",
@@ -1079,6 +1135,21 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795446000,
+   "et": "2026-11-23 10:00",
+   "kind": "busy",
+   "text": "7 more breakouts (BA, CVS, DVN, IBM, MU, NVDA, OKTA) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "BA",
+    "CVS",
+    "DVN",
+    "IBM",
+    "MU",
+    "NVDA",
+    "OKTA"
+   ]
+  },
   {
    "ts": 1795445700,
    "et": "2026-11-23 09:55",
@@ -2060,21 +2131,6 @@
    "kind": "fill",
    "text": "BUY 13 VRTX filled at $535.24 (next bar's open $535.13 + slippage). Stop $532.26, target $538.44",
    "symbol": "VRTX"
-  },
-  {
-   "ts": 1794936600,
-   "et": "2026-11-17 12:30",
-   "kind": "order",
-   "text": "BUY 13 VRTX at market (decided on the 12:30 close). opening-range breakout on VRTX: 13 shares, bound by your position cap (13 x 3.09 = $40.17 at the stop) (limits: max loss 32; position cap 13; max order 14; cash 16)",
-   "symbol": "VRTX",
-   "why": {
-    "scanner": "VRTX: the 12:25 bar closed at $535.35, above the 15-min opening range high $535.00 (range 529.53-535.00)",
-    "exit": "plan: entry $535.35, stop $532.26 (opening-range midpoint), target $538.44 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on VRTX: 13 shares, bound by your position cap (13 x 3.09 = $40.17 at the stop) (limits: max loss 32; position cap 13; max order 14; cash 16)",
-    "risk": "trader-risk PASS: entry 535.35 (the latest price), stop 532.26, target 538.44: risk 3.09 a share; max loss $40.17 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $95.22 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -7397,6 +7453,11 @@
    "ts": 1795445810,
    "equity": 9258.18,
    "spy": 9468.22
+  },
+  {
+   "ts": 1795446121,
+   "equity": 9250.02,
+   "spy": 9489.41
   }
  ],
  "daily": [
@@ -7492,6 +7553,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795446121,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 21.1,
+   "errors": [],
+   "run_id": "45200602633",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795445810,
    "phase": "open",
@@ -7881,29 +7952,19 @@
    "errors": [],
    "run_id": "44803409684",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795202974,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.6,
-   "errors": [],
-   "run_id": "44802574538",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795445810,
+  "tick_at": 1795446121,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795445832,
-  "candidates": 71,
-  "charts_fetched": 73,
+  "yahoo_time": 1795446140,
+  "candidates": 68,
+  "charts_fetched": 70,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
