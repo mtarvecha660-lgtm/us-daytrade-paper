@@ -1,21 +1,21 @@
 {
- "updated": 1795450557,
- "updated_et": "2026-11-23 11:15 ET",
+ "updated": 1795450871,
+ "updated_et": "2026-11-23 11:21 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9176.03,
-  "return": -0.08239699999999994,
+  "equity": 9179.93,
+  "return": -0.08200699999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9530.21,
-  "return": -0.046979000000000104,
+  "value": 9537.58,
+  "return": -0.046242000000000005,
   "start_price": 759.47998046875,
-  "last": 724.0900268554688
+  "last": 724.6500244140625
  },
  "position": {
   "symbol": "MRNA",
@@ -37,70 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "FANG",
-    "at": "10:05",
-    "price": 176.53,
-    "or_high": 176.39,
-    "or_low": 174.8,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "HUM",
-    "at": "10:05",
-    "price": 388.35,
-    "or_high": 386.1,
-    "or_low": 374.62,
-    "pct_over": 0.58
-   },
-   {
-    "symbol": "LOW",
-    "at": "10:05",
-    "price": 223.33,
-    "or_high": 223.01,
-    "or_low": 220.91,
-    "pct_over": 0.14
-   },
-   {
-    "symbol": "NET",
-    "at": "10:05",
-    "price": 301.23,
-    "or_high": 300.33,
-    "or_low": 291.76,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "PATH",
-    "at": "10:05",
-    "price": 11.49,
-    "or_high": 11.48,
-    "or_low": 11.3,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "UNH",
-    "at": "10:05",
-    "price": 333.12,
-    "or_high": 330.5,
-    "or_low": 319.13,
-    "pct_over": 0.79
-   },
-   {
-    "symbol": "DUOL",
-    "at": "10:10",
-    "price": 150.79,
-    "or_high": 150.64,
-    "or_low": 145.5,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "DXCM",
-    "at": "10:10",
-    "price": 81.41,
-    "or_high": 81.38,
-    "or_low": 80.04,
-    "pct_over": 0.04
-   },
    {
     "symbol": "APP",
     "at": "10:15",
@@ -516,9 +452,73 @@
     "or_high": 103.57,
     "or_low": 102.63,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AEP",
+    "at": "11:15",
+    "price": 126.73,
+    "or_high": 126.65,
+    "or_low": 125.96,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "BAC",
+    "at": "11:15",
+    "price": 48.51,
+    "or_high": 48.49,
+    "or_low": 47.69,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RTX",
+    "at": "11:15",
+    "price": 194.37,
+    "or_high": 194.18,
+    "or_low": 192.02,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "SCHW",
+    "at": "11:15",
+    "price": 92.3,
+    "or_high": 92.28,
+    "or_low": 91.1,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "DG",
+    "at": "11:20",
+    "price": 134.32,
+    "or_high": 134.21,
+    "or_low": 132.39,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "SE",
+    "at": "11:20",
+    "price": 66.51,
+    "or_high": 66.5,
+    "or_low": 64.31,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "UPS",
+    "at": "11:20",
+    "price": 108.63,
+    "or_high": 108.6,
+    "or_low": 106.45,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "USB",
+    "at": "11:20",
+    "price": 57.68,
+    "or_high": 57.66,
+    "or_low": 56.8,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 98,
+  "n_hits": 106,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,30 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795450800,
+   "et": "2026-11-23 11:20",
+   "kind": "busy",
+   "text": "4 more breakouts (DG, SE, UPS, USB) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "DG",
+    "SE",
+    "UPS",
+    "USB"
+   ]
+  },
+  {
+   "ts": 1795450500,
+   "et": "2026-11-23 11:15",
+   "kind": "busy",
+   "text": "4 more breakouts (AEP, BAC, RTX, SCHW) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "AEP",
+    "BAC",
+    "RTX",
+    "SCHW"
+   ]
+  },
   {
    "ts": 1795450200,
    "et": "2026-11-23 11:10",
@@ -2321,24 +2345,6 @@
    "text": "1 more breakout (D) not taken: already in TJX (one trade at a time)",
    "symbols": [
     "D"
-   ]
-  },
-  {
-   "ts": 1795016100,
-   "et": "2026-11-18 10:35",
-   "kind": "busy",
-   "text": "1 more breakout (IDXX) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "IDXX"
-   ]
-  },
-  {
-   "ts": 1795015800,
-   "et": "2026-11-18 10:30",
-   "kind": "busy",
-   "text": "1 more breakout (HD) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "HD"
    ]
   }
  ],
@@ -7737,6 +7743,11 @@
    "ts": 1795450557,
    "equity": 9176.03,
    "spy": 9530.21
+  },
+  {
+   "ts": 1795450871,
+   "equity": 9179.93,
+   "spy": 9537.58
   }
  ],
  "daily": [
@@ -7832,6 +7843,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795450871,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 23.4,
+   "errors": [],
+   "run_id": "45215485429",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795450557,
    "phase": "open",
@@ -8221,29 +8242,19 @@
    "errors": [],
    "run_id": "44815346895",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795207683,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.9,
-   "errors": [],
-   "run_id": "44814562506",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795450557,
+  "tick_at": 1795450871,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795450587,
-  "candidates": 69,
-  "charts_fetched": 71,
+  "yahoo_time": 1795450894,
+  "candidates": 78,
+  "charts_fetched": 80,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.5,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

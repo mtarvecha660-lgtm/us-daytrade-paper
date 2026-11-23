@@ -488,3 +488,5 @@
 {"ts": 1795449600, "et": "2026-11-23 11:00", "kind": "fill", "text": "BUY 20 MRNA filled at $211.72 (next bar's open $211.67 + slippage). Stop $207.05, target $216.65", "symbol": "MRNA"}
 {"ts": 1795449900, "et": "2026-11-23 11:05", "kind": "busy", "text": "1 more breakout (NOC) not taken: already in MRNA (one trade at a time)", "symbols": ["NOC"]}
 {"ts": 1795450200, "et": "2026-11-23 11:10", "kind": "busy", "text": "1 more breakout (ABT) not taken: already in MRNA (one trade at a time)", "symbols": ["ABT"]}
+{"ts": 1795450500, "et": "2026-11-23 11:15", "kind": "busy", "text": "4 more breakouts (AEP, BAC, RTX, SCHW) not taken: already in MRNA (one trade at a time)", "symbols": ["AEP", "BAC", "RTX", "SCHW"]}
+{"ts": 1795450800, "et": "2026-11-23 11:20", "kind": "busy", "text": "4 more breakouts (DG, SE, UPS, USB) not taken: already in MRNA (one trade at a time)", "symbols": ["DG", "SE", "UPS", "USB"]}
