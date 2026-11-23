@@ -1,21 +1,21 @@
 {
- "updated": 1795455912,
- "updated_et": "2026-11-23 12:45 ET",
+ "updated": 1795456225,
+ "updated_et": "2026-11-23 12:50 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9143.04,
-  "return": -0.08569599999999988,
+  "equity": 9119.64,
+  "return": -0.088036,
   "started": 1793559735
  },
  "spy": {
-  "value": 9518.0,
-  "return": -0.04820000000000002,
+  "value": 9490.33,
+  "return": -0.050966999999999985,
   "start_price": 759.47998046875,
-  "last": 723.1619873046875
+  "last": 721.0599975585938
  },
  "position": {
   "symbol": "MRNA",
@@ -555,7 +555,7 @@
   "sortino": -5.899530100192258,
   "days": 16
  },
- "intraday_max_drawdown": -0.09222381852101524,
+ "intraday_max_drawdown": -0.09454711171962427,
  "trades": [
   {
    "date": "2026-11-23",
@@ -7831,6 +7831,11 @@
    "ts": 1795455912,
    "equity": 9143.04,
    "spy": 9518.0
+  },
+  {
+   "ts": 1795456225,
+   "equity": 9119.64,
+   "spy": 9490.33
   }
  ],
  "daily": [
@@ -7926,6 +7931,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795456225,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.7,
+   "errors": [],
+   "run_id": "45231926209",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795455912,
    "phase": "open",
@@ -8315,29 +8330,19 @@
    "errors": [],
    "run_id": "45193971446",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795427509,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45150811944",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795455912,
+  "tick_at": 1795456225,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795455930,
-  "candidates": 48,
-  "charts_fetched": 50,
+  "yahoo_time": 1795456237,
+  "candidates": 42,
+  "charts_fetched": 44,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
