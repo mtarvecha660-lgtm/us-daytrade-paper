@@ -1,21 +1,21 @@
 {
- "updated": 1795448330,
- "updated_et": "2026-11-23 10:38 ET",
+ "updated": 1795448653,
+ "updated_et": "2026-11-23 10:44 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9239.44,
-  "return": -0.0760559999999999,
+  "equity": 9257.6,
+  "return": -0.07423999999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9556.01,
-  "return": -0.044398999999999966,
+  "value": 9569.3,
+  "return": -0.04307000000000005,
   "start_price": 759.47998046875,
-  "last": 726.0499877929688
+  "last": 727.0599975585938
  },
  "position": {
   "symbol": "TXN",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "TM",
-    "at": "09:55",
-    "price": 210.6,
-    "or_high": 210.56,
-    "or_low": 208.8,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "XOM",
-    "at": "09:55",
-    "price": 159.04,
-    "or_high": 158.9,
-    "or_low": 157.15,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "BA",
-    "at": "10:00",
-    "price": 160.83,
-    "or_high": 160.7,
-    "or_low": 159.1,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "CVS",
-    "at": "10:00",
-    "price": 80.11,
-    "or_high": 79.97,
-    "or_low": 77.71,
-    "pct_over": 0.18
-   },
    {
     "symbol": "DVN",
     "at": "10:00",
@@ -516,9 +484,41 @@
     "or_high": 127.75,
     "or_low": 125.84,
     "pct_over": 0.36
+   },
+   {
+    "symbol": "DHR",
+    "at": "10:40",
+    "price": 226.57,
+    "or_high": 226.35,
+    "or_low": 223.3,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "GE",
+    "at": "10:40",
+    "price": 322.23,
+    "or_high": 321.53,
+    "or_low": 315.18,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "HON",
+    "at": "10:40",
+    "price": 220.39,
+    "or_high": 220.3,
+    "or_low": 219.01,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:40",
+    "price": 416.17,
+    "or_high": 415.98,
+    "or_low": 410.74,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 87,
+  "n_hits": 91,
   "entries": 1,
   "max_trades": 3
  },
@@ -1327,6 +1327,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795448400,
+   "et": "2026-11-23 10:40",
+   "kind": "busy",
+   "text": "4 more breakouts (DHR, GE, HON, MAR) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "DHR",
+    "GE",
+    "HON",
+    "MAR"
+   ]
+  },
   {
    "ts": 1795448100,
    "et": "2026-11-23 10:35",
@@ -2334,29 +2346,6 @@
     "UPS",
     "VRTX",
     "W"
-   ]
-  },
-  {
-   "ts": 1795013700,
-   "et": "2026-11-18 09:55",
-   "kind": "busy",
-   "text": "15 more breakouts (BKNG, CHTR, CVNA, FANG, GE, GME, LULU, NCLH ...) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "BKNG",
-    "CHTR",
-    "CVNA",
-    "FANG",
-    "GE",
-    "GME",
-    "LULU",
-    "NCLH",
-    "OKTA",
-    "PANW",
-    "RBLX",
-    "RIVN",
-    "ROST",
-    "RTX",
-    "XPEV"
    ]
   }
  ],
@@ -7720,6 +7709,11 @@
    "ts": 1795448330,
    "equity": 9239.44,
    "spy": 9556.01
+  },
+  {
+   "ts": 1795448653,
+   "equity": 9257.6,
+   "spy": 9569.3
   }
  ],
  "daily": [
@@ -7815,6 +7809,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795448653,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 25.0,
+   "errors": [],
+   "run_id": "45208475451",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795448330,
    "phase": "open",
@@ -8204,25 +8208,15 @@
    "errors": [],
    "run_id": "44809852264",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795205487,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.5,
-   "errors": [],
-   "run_id": "44809053721",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795448330,
+  "tick_at": 1795448653,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795448352,
-  "candidates": 94,
-  "charts_fetched": 96,
+  "yahoo_time": 1795448676,
+  "candidates": 91,
+  "charts_fetched": 93,
   "ok": true,
   "errors": [],
   "stale_data": false,
