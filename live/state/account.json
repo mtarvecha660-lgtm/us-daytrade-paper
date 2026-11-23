@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795459800,
+  "last_bar_end": 1795460100,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -2152,8 +2152,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 722.094970703125,
-  "last_ts": 1795459800
+  "last": 721.8455810546875,
+  "last_ts": 1795460100
  },
  "seen_trades": 0,
  "daily": [
