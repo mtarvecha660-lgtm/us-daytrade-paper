@@ -1,5 +1,5 @@
 {
- "cash": 9176.2005,
+ "cash": 4941.8805,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -801,11 +801,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795449600,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795449900,
+  "position": {
    "symbol": "MRNA",
    "qty": 20,
+   "entry_fill": 211.716,
+   "entry_ts": 1795449600,
    "plan": {
     "symbol": "MRNA",
     "side": "buy",
@@ -817,7 +818,8 @@
     "target": 216.65,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 211.6737060546875
    },
    "why": {
     "scanner": "MRNA: the 10:55 bar closed at $211.85, above the 15-min opening range high $211.81 (range 202.29-211.81)",
@@ -826,9 +828,9 @@
     "risk": "trader-risk PASS: entry 211.85 (the latest price), stop 207.05, target 216.65: risk 4.80 a share; max loss $96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.60 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795449600,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -863,11 +865,19 @@
     "kind": "entry",
     "max_loss": 96.0,
     "at": "2026-11-23T11:00:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-23",
+    "symbol": "MRNA",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 20
    }
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 96,
+  "triggers_seen": 97,
   "missed": [
    "ABBV",
    "AMGN",
@@ -947,7 +957,8 @@
    "HON",
    "MAR",
    "NKE",
-   "PYPL"
+   "PYPL",
+   "NOC"
   ],
   "triggered": [
    "ADBE",
@@ -1045,7 +1056,8 @@
    "PYPL",
    "D",
    "GD",
-   "MRNA"
+   "MRNA",
+   "NOC"
   ],
   "hits": [
    {
@@ -1815,6 +1827,14 @@
     "or_high": 211.81,
     "or_low": 202.29,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "NOC",
+    "at": "11:05",
+    "price": 537.88,
+    "or_high": 537.87,
+    "or_low": 532.83,
+    "pct_over": 0.0
    }
   ]
  },
@@ -1822,8 +1842,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.3200073242188,
-  "last_ts": 1795449600
+  "last": 722.7785034179688,
+  "last_ts": 1795449900
  },
  "seen_trades": 0,
  "daily": [

@@ -1,60 +1,42 @@
 {
- "updated": 1795449921,
- "updated_et": "2026-11-23 11:05 ET",
+ "updated": 1795450246,
+ "updated_et": "2026-11-23 11:10 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9176.2,
-  "equity": 9176.2,
-  "return": -0.0823799999999999,
+  "cash": 4941.88,
+  "equity": 9152.64,
+  "return": -0.08473600000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9533.24,
-  "return": -0.04667600000000005,
+  "value": 9512.95,
+  "return": -0.04870499999999989,
   "start_price": 759.47998046875,
-  "last": 724.3200073242188
+  "last": 722.7785034179688
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "MRNA",
   "qty": 20,
-  "plan": {
-   "symbol": "MRNA",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-23",
-   "entry_time": "11:00 AM",
-   "entry": 211.85,
-   "stop": 207.05,
-   "target": 216.65,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 211.716,
+  "entry_et": "11:00",
+  "stop": 207.05,
+  "target": 216.65,
+  "last": null,
   "why": {
    "scanner": "MRNA: the 10:55 bar closed at $211.85, above the 15-min opening range high $211.81 (range 202.29-211.81)",
    "exit": "plan: entry $211.85, stop $207.05 (opening-range midpoint), target $216.65 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on MRNA: 20 shares, bound by your $100 max loss per trade (20 x 4.80 = $96 at the stop) (limits: max loss 20; position cap 32; max order 37; cash 38)",
    "risk": "trader-risk PASS: entry 211.85 (the latest price), stop 207.05, target 216.65: risk 4.80 a share; max loss $96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.60 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795449600,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "CDNS",
-    "at": "10:05",
-    "price": 304.44,
-    "or_high": 303.99,
-    "or_low": 297.24,
-    "pct_over": 0.15
-   },
    {
     "symbol": "DOCU",
     "at": "10:05",
@@ -526,13 +508,21 @@
     "or_high": 211.81,
     "or_low": 202.29,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "NOC",
+    "at": "11:05",
+    "price": 537.88,
+    "or_high": 537.87,
+    "or_low": 532.83,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 96,
+  "n_hits": 97,
   "entries": 2,
   "max_trades": 3
  },
- "next_move": "Buying 20 MRNA at the next bar's open (signal at 11:00 ET). Then: stop $207.05, target $216.65.",
+ "next_move": "Holding 20 MRNA bought at $211.72. It sells at the stop $207.05, the target $216.65, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 33,
   "wins": 12,
@@ -565,7 +555,7 @@
   "sortino": -5.899530100192258,
   "days": 16
  },
- "intraday_max_drawdown": -0.08893149362931152,
+ "intraday_max_drawdown": -0.09127067259338106,
  "trades": [
   {
    "date": "2026-11-23",
@@ -1361,6 +1351,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795449900,
+   "et": "2026-11-23 11:05",
+   "kind": "busy",
+   "text": "1 more breakout (NOC) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "NOC"
+   ]
+  },
+  {
+   "ts": 1795449600,
+   "et": "2026-11-23 11:00",
+   "kind": "fill",
+   "text": "BUY 20 MRNA filled at $211.72 (next bar's open $211.67 + slippage). Stop $207.05, target $216.65",
+   "symbol": "MRNA"
+  },
   {
    "ts": 1795449600,
    "et": "2026-11-23 11:00",
@@ -2333,31 +2339,6 @@
    "text": "1 more breakout (LUV) not taken: already in TJX (one trade at a time)",
    "symbols": [
     "LUV"
-   ]
-  },
-  {
-   "ts": 1795015200,
-   "et": "2026-11-18 10:20",
-   "kind": "busy",
-   "text": "5 more breakouts (AVGO, CCL, DE, NEE, NKE) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "AVGO",
-    "CCL",
-    "DE",
-    "NEE",
-    "NKE"
-   ]
-  },
-  {
-   "ts": 1795014900,
-   "et": "2026-11-18 10:15",
-   "kind": "busy",
-   "text": "4 more breakouts (AI, CLSK, HPQ, SNOW) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "AI",
-    "CLSK",
-    "HPQ",
-    "SNOW"
    ]
   }
  ],
@@ -7746,6 +7727,11 @@
    "ts": 1795449921,
    "equity": 9176.2,
    "spy": 9533.24
+  },
+  {
+   "ts": 1795450246,
+   "equity": 9152.64,
+   "spy": 9512.95
   }
  ],
  "daily": [
@@ -7841,6 +7827,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795450246,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.0,
+   "errors": [],
+   "run_id": "45213474078",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795449921,
    "phase": "open",
@@ -8230,29 +8226,19 @@
    "errors": [],
    "run_id": "44813793679",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795207053,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "44813024834",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795449921,
+  "tick_at": 1795450246,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795449944,
-  "candidates": 68,
-  "charts_fetched": 70,
+  "yahoo_time": 1795450260,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
