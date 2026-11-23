@@ -506,3 +506,4 @@
 {"ts": 1795464300, "et": "2026-11-23 15:05", "kind": "busy", "text": "1 more breakout (Z) not taken: already in MRNA (one trade at a time)", "symbols": ["Z"]}
 {"ts": 1795464600, "et": "2026-11-23 15:10", "kind": "busy", "text": "1 more breakout (TMUS) not taken: already in MRNA (one trade at a time)", "symbols": ["TMUS"]}
 {"ts": 1795465500, "et": "2026-11-23 15:25", "kind": "busy", "text": "1 more breakout (CSCO) not taken: already in MRNA (one trade at a time)", "symbols": ["CSCO"]}
+{"ts": 1795467300, "et": "2026-11-23 15:55", "kind": "exit", "text": "SELL 20 MRNA at $212.16: flat by 15:55 ET (the skill's flat-by rule). P&L $+8.83 (+0.09R)", "symbol": "MRNA"}
