@@ -1,5 +1,5 @@
 {
- "cash": 2483.3891,
+ "cash": 9176.2005,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -771,32 +771,22 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
-  }
- ],
- "decisions": [],
- "equity": [],
- "day_state": {
-  "date": "2026-11-23",
-  "last_bar_end": 1795449300,
-  "position": {
+  },
+  {
+   "date": "2026-11-23",
    "symbol": "TXN",
    "qty": 23,
+   "entry_et": "09:50",
    "entry_fill": 295.3141,
-   "entry_ts": 1795445400,
-   "plan": {
-    "symbol": "TXN",
-    "side": "buy",
-    "setup": "orb",
-    "date": "2026-11-23",
-    "entry_time": "9:50 AM",
-    "entry": 295.25,
-    "stop": 291.05,
-    "target": 299.45,
-    "stop_label": "opening-range midpoint",
-    "target_label": "1R (one times the risk)",
-    "flat_by": "15:55",
-    "entry_ref": 295.2550048828125
-   },
+   "exit_et": "11:00",
+   "exit_fill": 290.9918,
+   "exit_reason": "stop $291.05 hit",
+   "stop": 291.05,
+   "target": 299.45,
+   "pnl": -99.41,
+   "r": -1.029,
+   "risk_usd": 96.6,
+   "cost_usd": 2.7,
    "why": {
     "scanner": "TXN: the 09:45 bar closed at $295.25, above the 15-min opening range high $295.10 (range 287.00-295.10)",
     "exit": "plan: entry $295.25, stop $291.05 (opening-range midpoint), target $299.45 (1R (one times the risk)), flat by 15:55 ET",
@@ -805,8 +795,40 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "late": false
+  }
+ ],
+ "decisions": [],
+ "equity": [],
+ "day_state": {
+  "date": "2026-11-23",
+  "last_bar_end": 1795449600,
+  "position": null,
+  "pending": {
+   "symbol": "MRNA",
+   "qty": 20,
+   "plan": {
+    "symbol": "MRNA",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-23",
+    "entry_time": "11:00 AM",
+    "entry": 211.85,
+    "stop": 207.05,
+    "target": 216.65,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "MRNA: the 10:55 bar closed at $211.85, above the 15-min opening range high $211.81 (range 202.29-211.81)",
+    "exit": "plan: entry $211.85, stop $207.05 (opening-range midpoint), target $216.65 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on MRNA: 20 shares, bound by your $100 max loss per trade (20 x 4.80 = $96 at the stop) (limits: max loss 20; position cap 32; max order 37; cash 38)",
+    "risk": "trader-risk PASS: entry 211.85 (the latest price), stop 207.05, target 216.65: risk 4.80 a share; max loss $96 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $96.60 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795449600,
+   "late": false
   },
-  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -824,11 +846,28 @@
     "side": "buy",
     "kind": "entry",
     "qty": 23
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-23",
+    "symbol": "TXN",
+    "side": "sell",
+    "kind": "exit",
+    "qty": 23
+   },
+   {
+    "status": "placed",
+    "date": "2026-11-23",
+    "symbol": "MRNA",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 96.0,
+    "at": "2026-11-23T11:00:00"
    }
   ],
-  "entries": 1,
+  "entries": 2,
   "skips": 0,
-  "triggers_seen": 93,
+  "triggers_seen": 96,
   "missed": [
    "ABBV",
    "AMGN",
@@ -1003,7 +1042,10 @@
    "HON",
    "MAR",
    "NKE",
-   "PYPL"
+   "PYPL",
+   "D",
+   "GD",
+   "MRNA"
   ],
   "hits": [
    {
@@ -1749,6 +1791,30 @@
     "or_high": 54.48,
     "or_low": 53.68,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "D",
+    "at": "11:00",
+    "price": 66.64,
+    "or_high": 66.6,
+    "or_low": 66.0,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "GD",
+    "at": "11:00",
+    "price": 347.6,
+    "or_high": 347.23,
+    "or_low": 343.06,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "MRNA",
+    "at": "11:00",
+    "price": 211.85,
+    "or_high": 211.81,
+    "or_low": 202.29,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1756,8 +1822,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.530029296875,
-  "last_ts": 1795449300
+  "last": 724.3200073242188,
+  "last_ts": 1795449600
  },
  "seen_trades": 0,
  "daily": [
