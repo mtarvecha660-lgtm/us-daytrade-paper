@@ -502,3 +502,4 @@
 {"ts": 1795458300, "et": "2026-11-23 13:25", "kind": "busy", "text": "2 more breakouts (C, T) not taken: already in MRNA (one trade at a time)", "symbols": ["C", "T"]}
 {"ts": 1795458600, "et": "2026-11-23 13:30", "kind": "busy", "text": "1 more breakout (SBUX) not taken: already in MRNA (one trade at a time)", "symbols": ["SBUX"]}
 {"ts": 1795459500, "et": "2026-11-23 13:45", "kind": "busy", "text": "1 more breakout (VZ) not taken: already in MRNA (one trade at a time)", "symbols": ["VZ"]}
+{"ts": 1795461900, "et": "2026-11-23 14:25", "kind": "busy", "text": "1 more breakout (SO) not taken: already in MRNA (one trade at a time)", "symbols": ["SO"]}
