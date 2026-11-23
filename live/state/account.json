@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795453800,
+  "last_bar_end": 1795454100,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -877,7 +877,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 115,
+  "triggers_seen": 116,
   "missed": [
    "ABBV",
    "AMGN",
@@ -976,7 +976,8 @@
    "LMT",
    "META",
    "NEE",
-   "CHTR"
+   "CHTR",
+   "MDT"
   ],
   "triggered": [
    "ADBE",
@@ -1093,7 +1094,8 @@
    "LMT",
    "META",
    "NEE",
-   "CHTR"
+   "CHTR",
+   "MDT"
   ],
   "hits": [
    {
@@ -2015,6 +2017,14 @@
     "or_high": 128.51,
     "or_low": 127.13,
     "pct_over": 0.08
+   },
+   {
+    "symbol": "MDT",
+    "at": "12:15",
+    "price": 100.86,
+    "or_high": 100.73,
+    "or_low": 99.44,
+    "pct_over": 0.13
    }
   ]
  },
@@ -2022,8 +2032,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 722.625,
-  "last_ts": 1795453800
+  "last": 723.9600219726562,
+  "last_ts": 1795454100
  },
  "seen_trades": 0,
  "daily": [
