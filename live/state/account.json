@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795446900,
+  "last_bar_end": 1795447200,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 53,
+  "triggers_seen": 61,
   "missed": [
    "ABBV",
    "AMGN",
@@ -868,7 +868,15 @@
    "MCHP",
    "MDB",
    "MRVL",
-   "TSLA"
+   "TSLA",
+   "AI",
+   "DIS",
+   "NCLH",
+   "RKT",
+   "SHOP",
+   "UAL",
+   "UBER",
+   "ZM"
   ],
   "triggered": [
    "ADBE",
@@ -923,7 +931,15 @@
    "MCHP",
    "MDB",
    "MRVL",
-   "TSLA"
+   "TSLA",
+   "AI",
+   "DIS",
+   "NCLH",
+   "RKT",
+   "SHOP",
+   "UAL",
+   "UBER",
+   "ZM"
   ],
   "hits": [
    {
@@ -1349,6 +1365,70 @@
     "or_high": 389.39,
     "or_low": 372.5,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "AI",
+    "at": "10:20",
+    "price": 10.01,
+    "or_high": 9.99,
+    "or_low": 9.7,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:20",
+    "price": 119.17,
+    "or_high": 119.0,
+    "or_low": 117.46,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "NCLH",
+    "at": "10:20",
+    "price": 16.85,
+    "or_high": 16.84,
+    "or_low": 16.58,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:20",
+    "price": 13.99,
+    "or_high": 13.97,
+    "or_low": 13.5,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:20",
+    "price": 135.91,
+    "or_high": 135.45,
+    "or_low": 131.31,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:20",
+    "price": 106.79,
+    "or_high": 106.79,
+    "or_low": 104.39,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "UBER",
+    "at": "10:20",
+    "price": 65.44,
+    "or_high": 65.27,
+    "or_low": 63.84,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "ZM",
+    "at": "10:20",
+    "price": 85.24,
+    "or_high": 85.07,
+    "or_low": 83.42,
+    "pct_over": 0.2
    }
   ]
  },
@@ -1356,8 +1436,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 722.5499877929688,
-  "last_ts": 1795446900
+  "last": 724.219970703125,
+  "last_ts": 1795447200
  },
  "seen_trades": 0,
  "daily": [

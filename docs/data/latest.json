@@ -1,21 +1,21 @@
 {
- "updated": 1795447066,
- "updated_et": "2026-11-23 10:17 ET",
+ "updated": 1795447383,
+ "updated_et": "2026-11-23 10:23 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9285.89,
-  "return": -0.07141100000000011,
+  "equity": 9313.02,
+  "return": -0.06869799999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9509.94,
-  "return": -0.049005999999999994,
+  "value": 9531.92,
+  "return": -0.04680799999999996,
   "start_price": 759.47998046875,
-  "last": 722.5499877929688
+  "last": 724.219970703125
  },
  "position": {
   "symbol": "TXN",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "ADBE",
-    "at": "09:50",
-    "price": 220.73,
-    "or_high": 220.57,
-    "or_low": 218.0,
-    "pct_over": 0.07
-   },
    {
     "symbol": "DASH",
     "at": "09:50",
@@ -460,9 +452,73 @@
     "or_high": 389.39,
     "or_low": 372.5,
     "pct_over": 0.19
+   },
+   {
+    "symbol": "AI",
+    "at": "10:20",
+    "price": 10.01,
+    "or_high": 9.99,
+    "or_low": 9.7,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "DIS",
+    "at": "10:20",
+    "price": 119.17,
+    "or_high": 119.0,
+    "or_low": 117.46,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "NCLH",
+    "at": "10:20",
+    "price": 16.85,
+    "or_high": 16.84,
+    "or_low": 16.58,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "RKT",
+    "at": "10:20",
+    "price": 13.99,
+    "or_high": 13.97,
+    "or_low": 13.5,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:20",
+    "price": 135.91,
+    "or_high": 135.45,
+    "or_low": 131.31,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:20",
+    "price": 106.79,
+    "or_high": 106.79,
+    "or_low": 104.39,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "UBER",
+    "at": "10:20",
+    "price": 65.44,
+    "or_high": 65.27,
+    "or_low": 63.84,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "ZM",
+    "at": "10:20",
+    "price": 85.24,
+    "or_high": 85.07,
+    "or_low": 83.42,
+    "pct_over": 0.2
    }
   ],
-  "n_hits": 53,
+  "n_hits": 61,
   "entries": 1,
   "max_trades": 3
  },
@@ -1271,6 +1327,22 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795447200,
+   "et": "2026-11-23 10:20",
+   "kind": "busy",
+   "text": "8 more breakouts (AI, DIS, NCLH, RKT, SHOP, UAL, UBER, ZM) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "AI",
+    "DIS",
+    "NCLH",
+    "RKT",
+    "SHOP",
+    "UAL",
+    "UBER",
+    "ZM"
+   ]
+  },
   {
    "ts": 1795446900,
    "et": "2026-11-23 10:15",
@@ -2271,13 +2343,6 @@
    "et": "2026-11-17 15:55",
    "kind": "exit",
    "text": "SELL 250 HPQ at $28.66: flat by 15:55 ET (the skill's flat-by rule). P&L $-20.00 (-0.31R)",
-   "symbol": "HPQ"
-  },
-  {
-   "ts": 1794943800,
-   "et": "2026-11-17 14:30",
-   "kind": "fill",
-   "text": "BUY 250 HPQ filled at $28.73 (next bar's open $28.73 + slippage). Stop $28.46, target $28.98",
    "symbol": "HPQ"
   }
  ],
@@ -7621,6 +7686,11 @@
    "ts": 1795447066,
    "equity": 9285.89,
    "spy": 9509.94
+  },
+  {
+   "ts": 1795447383,
+   "equity": 9313.02,
+   "spy": 9531.92
   }
  ],
  "daily": [
@@ -7716,6 +7786,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795447383,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 29.1,
+   "errors": [],
+   "run_id": "45204553297",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795447066,
    "phase": "open",
@@ -8105,29 +8185,19 @@
    "errors": [],
    "run_id": "44806645831",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795204236,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.3,
-   "errors": [],
-   "run_id": "44805834933",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795447066,
+  "tick_at": 1795447383,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795447099,
-  "candidates": 92,
-  "charts_fetched": 94,
+  "yahoo_time": 1795447408,
+  "candidates": 99,
+  "charts_fetched": 101,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.6,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
