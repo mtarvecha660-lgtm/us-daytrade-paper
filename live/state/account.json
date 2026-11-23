@@ -801,7 +801,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795451400,
+  "last_bar_end": 1795451700,
   "position": {
    "symbol": "MRNA",
    "qty": 20,
@@ -877,7 +877,7 @@
   ],
   "entries": 2,
   "skips": 0,
-  "triggers_seen": 111,
+  "triggers_seen": 114,
   "missed": [
    "ABBV",
    "AMGN",
@@ -972,7 +972,10 @@
    "BX",
    "CMCSA",
    "COIN",
-   "JD"
+   "JD",
+   "LMT",
+   "META",
+   "NEE"
   ],
   "triggered": [
    "ADBE",
@@ -1085,7 +1088,10 @@
    "BX",
    "CMCSA",
    "COIN",
-   "JD"
+   "JD",
+   "LMT",
+   "META",
+   "NEE"
   ],
   "hits": [
    {
@@ -1975,6 +1981,30 @@
     "or_high": 25.3,
     "or_low": 24.88,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "LMT",
+    "at": "11:35",
+    "price": 571.45,
+    "or_high": 571.09,
+    "or_low": 565.71,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "META",
+    "at": "11:35",
+    "price": 595.7,
+    "or_high": 595.0,
+    "or_low": 579.78,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NEE",
+    "at": "11:35",
+    "price": 84.05,
+    "or_high": 83.96,
+    "or_low": 83.36,
+    "pct_over": 0.11
    }
   ]
  },
@@ -1982,8 +2012,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.0700073242188,
-  "last_ts": 1795451400
+  "last": 723.989990234375,
+  "last_ts": 1795451700
  },
  "seen_trades": 0,
  "daily": [

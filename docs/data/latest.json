@@ -1,21 +1,21 @@
 {
- "updated": 1795451505,
- "updated_et": "2026-11-23 11:31 ET",
+ "updated": 1795451821,
+ "updated_et": "2026-11-23 11:37 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9169.63,
-  "return": -0.08303700000000003,
+  "equity": 9168.33,
+  "return": -0.08316699999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9529.95,
-  "return": -0.047004999999999963,
+  "value": 9528.89,
+  "return": -0.047111000000000014,
   "start_price": 759.47998046875,
-  "last": 724.0700073242188
+  "last": 723.989990234375
  },
  "position": {
   "symbol": "MRNA",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "MRVL",
-    "at": "10:15",
-    "price": 147.24,
-    "or_high": 146.43,
-    "or_low": 140.32,
-    "pct_over": 0.56
-   },
-   {
-    "symbol": "TSLA",
-    "at": "10:15",
-    "price": 390.11,
-    "or_high": 389.39,
-    "or_low": 372.5,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "AI",
-    "at": "10:20",
-    "price": 10.01,
-    "or_high": 9.99,
-    "or_low": 9.7,
-    "pct_over": 0.2
-   },
    {
     "symbol": "DIS",
     "at": "10:20",
@@ -516,9 +492,33 @@
     "or_high": 25.3,
     "or_low": 24.88,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "LMT",
+    "at": "11:35",
+    "price": 571.45,
+    "or_high": 571.09,
+    "or_low": 565.71,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "META",
+    "at": "11:35",
+    "price": 595.7,
+    "or_high": 595.0,
+    "or_low": 579.78,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NEE",
+    "at": "11:35",
+    "price": 84.05,
+    "or_high": 83.96,
+    "or_low": 83.36,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 111,
+  "n_hits": 114,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795451700,
+   "et": "2026-11-23 11:35",
+   "kind": "busy",
+   "text": "3 more breakouts (LMT, META, NEE) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "LMT",
+    "META",
+    "NEE"
+   ]
+  },
   {
    "ts": 1795451400,
    "et": "2026-11-23 11:30",
@@ -2338,15 +2349,6 @@
     "RCL",
     "SCHW",
     "VZ"
-   ]
-  },
-  {
-   "ts": 1795017600,
-   "et": "2026-11-18 11:00",
-   "kind": "busy",
-   "text": "1 more breakout (DDOG) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "DDOG"
    ]
   }
  ],
@@ -7760,6 +7762,11 @@
    "ts": 1795451505,
    "equity": 9169.63,
    "spy": 9529.95
+  },
+  {
+   "ts": 1795451821,
+   "equity": 9168.33,
+   "spy": 9528.89
   }
  ],
  "daily": [
@@ -7855,6 +7862,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795451821,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.3,
+   "errors": [],
+   "run_id": "45218470687",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795451505,
    "phase": "open",
@@ -8244,25 +8261,15 @@
    "errors": [],
    "run_id": "44817672738",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795208621,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 1,
-   "secs": 5.7,
-   "errors": [],
-   "run_id": "44816885718",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795451505,
+  "tick_at": 1795451821,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795451526,
-  "candidates": 56,
-  "charts_fetched": 58,
+  "yahoo_time": 1795451837,
+  "candidates": 58,
+  "charts_fetched": 60,
   "ok": true,
   "errors": [],
   "stale_data": false,
