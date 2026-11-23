@@ -1,21 +1,21 @@
 {
- "updated": 1795460629,
- "updated_et": "2026-11-23 14:03 ET",
+ "updated": 1795460944,
+ "updated_et": "2026-11-23 14:09 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9159.44,
-  "return": -0.08405599999999991,
+  "equity": 9180.03,
+  "return": -0.08199699999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9492.31,
-  "return": -0.050769000000000064,
+  "value": 9530.31,
+  "return": -0.04696900000000004,
   "start_price": 759.47998046875,
-  "last": 721.2100219726562
+  "last": 724.097412109375
  },
  "position": {
   "symbol": "MRNA",
@@ -7899,6 +7899,11 @@
    "ts": 1795460629,
    "equity": 9159.44,
    "spy": 9492.31
+  },
+  {
+   "ts": 1795460944,
+   "equity": 9180.03,
+   "spy": 9530.31
   }
  ],
  "daily": [
@@ -7994,6 +7999,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795460944,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 20.8,
+   "errors": [],
+   "run_id": "45245835302",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795460629,
    "phase": "open",
@@ -8383,29 +8398,19 @@
    "errors": [],
    "run_id": "45208475451",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795448330,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 24.9,
-   "errors": [],
-   "run_id": "45207521694",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795460629,
+  "tick_at": 1795460944,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795460638,
-  "candidates": 29,
-  "charts_fetched": 31,
+  "yahoo_time": 1795460961,
+  "candidates": 43,
+  "charts_fetched": 45,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.1,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
