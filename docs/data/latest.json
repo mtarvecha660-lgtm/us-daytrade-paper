@@ -1,21 +1,21 @@
 {
- "updated": 1795448016,
- "updated_et": "2026-11-23 10:33 ET",
+ "updated": 1795448330,
+ "updated_et": "2026-11-23 10:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9263.35,
-  "return": -0.07366499999999998,
+  "equity": 9239.44,
+  "return": -0.0760559999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9557.32,
-  "return": -0.044267999999999974,
+  "value": 9556.01,
+  "return": -0.044398999999999966,
   "start_price": 759.47998046875,
-  "last": 726.1500244140625
+  "last": 726.0499877929688
  },
  "position": {
   "symbol": "TXN",
@@ -37,86 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "BMY",
-    "at": "09:55",
-    "price": 59.2,
-    "or_high": 59.0,
-    "or_low": 58.53,
-    "pct_over": 0.34
-   },
-   {
-    "symbol": "CVX",
-    "at": "09:55",
-    "price": 208.29,
-    "or_high": 208.1,
-    "or_low": 205.34,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "F",
-    "at": "09:55",
-    "price": 11.47,
-    "or_high": 11.47,
-    "or_low": 11.38,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "GILD",
-    "at": "09:55",
-    "price": 170.48,
-    "or_high": 169.48,
-    "or_low": 166.98,
-    "pct_over": 0.59
-   },
-   {
-    "symbol": "HD",
-    "at": "09:55",
-    "price": 342.68,
-    "or_high": 342.48,
-    "or_low": 339.25,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "LLY",
-    "at": "09:55",
-    "price": 1371.52,
-    "or_high": 1363.15,
-    "or_low": 1344.0,
-    "pct_over": 0.61
-   },
-   {
-    "symbol": "MMM",
-    "at": "09:55",
-    "price": 182.97,
-    "or_high": 182.32,
-    "or_low": 180.35,
-    "pct_over": 0.35
-   },
-   {
-    "symbol": "OXY",
-    "at": "09:55",
-    "price": 54.03,
-    "or_high": 53.99,
-    "or_low": 53.44,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "REGN",
-    "at": "09:55",
-    "price": 932.22,
-    "or_high": 931.98,
-    "or_low": 916.33,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "ROST",
-    "at": "09:55",
-    "price": 218.29,
-    "or_high": 217.34,
-    "or_low": 211.99,
-    "pct_over": 0.44
-   },
    {
     "symbol": "TM",
     "at": "09:55",
@@ -516,9 +436,89 @@
     "or_high": 311.27,
     "or_low": 306.79,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:35",
+    "price": 1155.0,
+    "or_high": 1154.98,
+    "or_low": 1135.51,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:35",
+    "price": 184.72,
+    "or_high": 184.49,
+    "or_low": 181.68,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:35",
+    "price": 104.19,
+    "or_high": 104.1,
+    "or_low": 101.59,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "MA",
+    "at": "10:35",
+    "price": 636.26,
+    "or_high": 636.09,
+    "or_low": 629.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:35",
+    "price": 1419.77,
+    "or_high": 1419.23,
+    "or_low": 1387.01,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:35",
+    "price": 135.91,
+    "or_high": 135.69,
+    "or_low": 133.94,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:35",
+    "price": 139.96,
+    "or_high": 139.75,
+    "or_low": 138.15,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "PFE",
+    "at": "10:35",
+    "price": 27.64,
+    "or_high": 27.6,
+    "or_low": 27.31,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "TMO",
+    "at": "10:35",
+    "price": 693.91,
+    "or_high": 691.99,
+    "or_low": 681.0,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:35",
+    "price": 128.21,
+    "or_high": 127.75,
+    "or_low": 125.84,
+    "pct_over": 0.36
    }
   ],
-  "n_hits": 77,
+  "n_hits": 87,
   "entries": 1,
   "max_trades": 3
  },
@@ -555,7 +555,7 @@
   "sortino": -5.899530100192258,
   "days": 16
  },
- "intraday_max_drawdown": -0.0823329438011261,
+ "intraday_max_drawdown": -0.08265264483102008,
  "trades": [
   {
    "date": "2026-11-20",
@@ -1327,6 +1327,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795448100,
+   "et": "2026-11-23 10:35",
+   "kind": "busy",
+   "text": "10 more breakouts (BLK, CRM, LULU, MA, MELI, MRK, PEP, PFE ...) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "BLK",
+    "CRM",
+    "LULU",
+    "MA",
+    "MELI",
+    "MRK",
+    "PEP",
+    "PFE",
+    "TMO",
+    "WMT"
+   ]
+  },
   {
    "ts": 1795447800,
    "et": "2026-11-23 10:30",
@@ -2340,13 +2358,6 @@
     "RTX",
     "XPEV"
    ]
-  },
-  {
-   "ts": 1795013400,
-   "et": "2026-11-18 09:50",
-   "kind": "fill",
-   "text": "BUY 28 TJX filled at $141.03 (next bar's open $141.00 + slippage). Stop $137.42, target $144.44",
-   "symbol": "TJX"
   }
  ],
  "equity": [
@@ -7704,6 +7715,11 @@
    "ts": 1795448016,
    "equity": 9263.35,
    "spy": 9557.32
+  },
+  {
+   "ts": 1795448330,
+   "equity": 9239.44,
+   "spy": 9556.01
   }
  ],
  "daily": [
@@ -7799,6 +7815,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795448330,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 24.9,
+   "errors": [],
+   "run_id": "45207521694",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795448016,
    "phase": "open",
@@ -8188,29 +8214,19 @@
    "errors": [],
    "run_id": "44809053721",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795205175,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.1,
-   "errors": [],
-   "run_id": "44808256831",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795448016,
+  "tick_at": 1795448330,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795448047,
-  "candidates": 92,
-  "charts_fetched": 94,
+  "yahoo_time": 1795448352,
+  "candidates": 94,
+  "charts_fetched": 96,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.5,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795447800,
+  "last_bar_end": 1795448100,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 77,
+  "triggers_seen": 87,
   "missed": [
    "ABBV",
    "AMGN",
@@ -892,7 +892,17 @@
    "CCL",
    "DAL",
    "PDD",
-   "RCL"
+   "RCL",
+   "BLK",
+   "CRM",
+   "LULU",
+   "MA",
+   "MELI",
+   "MRK",
+   "PEP",
+   "PFE",
+   "TMO",
+   "WMT"
   ],
   "triggered": [
    "ADBE",
@@ -971,7 +981,17 @@
    "CCL",
    "DAL",
    "PDD",
-   "RCL"
+   "RCL",
+   "BLK",
+   "CRM",
+   "LULU",
+   "MA",
+   "MELI",
+   "MRK",
+   "PEP",
+   "PFE",
+   "TMO",
+   "WMT"
   ],
   "hits": [
    {
@@ -1589,6 +1609,86 @@
     "or_high": 311.27,
     "or_low": 306.79,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "BLK",
+    "at": "10:35",
+    "price": 1155.0,
+    "or_high": 1154.98,
+    "or_low": 1135.51,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:35",
+    "price": 184.72,
+    "or_high": 184.49,
+    "or_low": 181.68,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:35",
+    "price": 104.19,
+    "or_high": 104.1,
+    "or_low": 101.59,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "MA",
+    "at": "10:35",
+    "price": 636.26,
+    "or_high": 636.09,
+    "or_low": 629.0,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:35",
+    "price": 1419.77,
+    "or_high": 1419.23,
+    "or_low": 1387.01,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:35",
+    "price": 135.91,
+    "or_high": 135.69,
+    "or_low": 133.94,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:35",
+    "price": 139.96,
+    "or_high": 139.75,
+    "or_low": 138.15,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "PFE",
+    "at": "10:35",
+    "price": 27.64,
+    "or_high": 27.6,
+    "or_low": 27.31,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "TMO",
+    "at": "10:35",
+    "price": 693.91,
+    "or_high": 691.99,
+    "or_low": 681.0,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "WMT",
+    "at": "10:35",
+    "price": 128.21,
+    "or_high": 127.75,
+    "or_low": 125.84,
+    "pct_over": 0.36
    }
   ]
  },
@@ -1596,8 +1696,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 726.1500244140625,
-  "last_ts": 1795447800
+  "last": 726.0499877929688,
+  "last_ts": 1795448100
  },
  "seen_trades": 0,
  "daily": [
