@@ -1,21 +1,21 @@
 {
- "updated": 1795447383,
- "updated_et": "2026-11-23 10:23 ET",
+ "updated": 1795447697,
+ "updated_et": "2026-11-23 10:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2483.39,
-  "equity": 9313.02,
-  "return": -0.06869799999999993,
+  "equity": 9296.24,
+  "return": -0.070376,
   "started": 1793559735
  },
  "spy": {
-  "value": 9531.92,
-  "return": -0.04680799999999996,
+  "value": 9560.09,
+  "return": -0.043991,
   "start_price": 759.47998046875,
-  "last": 724.219970703125
+  "last": 726.3599853515625
  },
  "position": {
   "symbol": "TXN",
@@ -37,94 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "DASH",
-    "at": "09:50",
-    "price": 162.52,
-    "or_high": 161.75,
-    "or_low": 158.52,
-    "pct_over": 0.48
-   },
-   {
-    "symbol": "DPZ",
-    "at": "09:50",
-    "price": 350.23,
-    "or_high": 348.67,
-    "or_low": 346.52,
-    "pct_over": 0.45
-   },
-   {
-    "symbol": "ISRG",
-    "at": "09:50",
-    "price": 413.7,
-    "or_high": 413.57,
-    "or_low": 407.34,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "JNJ",
-    "at": "09:50",
-    "price": 270.42,
-    "or_high": 270.29,
-    "or_low": 267.36,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "MCD",
-    "at": "09:50",
-    "price": 273.02,
-    "or_high": 272.73,
-    "or_low": 271.0,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "PG",
-    "at": "09:50",
-    "price": 169.48,
-    "or_high": 169.07,
-    "or_low": 167.49,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "SONY",
-    "at": "09:50",
-    "price": 27.66,
-    "or_high": 27.58,
-    "or_low": 27.35,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "TOST",
-    "at": "09:50",
-    "price": 32.53,
-    "or_high": 32.22,
-    "or_low": 31.75,
-    "pct_over": 0.95
-   },
-   {
-    "symbol": "TWLO",
-    "at": "09:50",
-    "price": 182.54,
-    "or_high": 182.0,
-    "or_low": 178.85,
-    "pct_over": 0.3
-   },
-   {
-    "symbol": "TXN",
-    "at": "09:50",
-    "price": 295.25,
-    "or_high": 295.1,
-    "or_low": 287.0,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "V",
-    "at": "09:50",
-    "price": 410.11,
-    "or_high": 410.02,
-    "or_low": 404.01,
-    "pct_over": 0.02
-   },
    {
     "symbol": "VRTX",
     "at": "09:50",
@@ -516,9 +428,97 @@
     "or_high": 85.07,
     "or_low": 83.42,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "AAPL",
+    "at": "10:25",
+    "price": 351.01,
+    "or_high": 349.76,
+    "or_low": 345.44,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "AFRM",
+    "at": "10:25",
+    "price": 59.33,
+    "or_high": 59.26,
+    "or_low": 57.46,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:25",
+    "price": 68.1,
+    "or_high": 68.05,
+    "or_low": 65.73,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:25",
+    "price": 33.18,
+    "or_high": 33.16,
+    "or_low": 32.83,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "INTC",
+    "at": "10:25",
+    "price": 59.19,
+    "or_high": 59.14,
+    "or_low": 57.42,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:25",
+    "price": 259.63,
+    "or_high": 259.08,
+    "or_low": 253.11,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:25",
+    "price": 160.53,
+    "or_high": 160.11,
+    "or_low": 155.82,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:25",
+    "price": 165.03,
+    "or_high": 164.87,
+    "or_low": 160.49,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:25",
+    "price": 433.91,
+    "or_high": 432.0,
+    "or_low": 424.93,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TER",
+    "at": "10:25",
+    "price": 240.91,
+    "or_high": 240.53,
+    "or_low": 232.64,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:25",
+    "price": 165.79,
+    "or_high": 165.6,
+    "or_low": 163.87,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 61,
+  "n_hits": 72,
   "entries": 1,
   "max_trades": 3
  },
@@ -1327,6 +1327,25 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795447500,
+   "et": "2026-11-23 10:25",
+   "kind": "busy",
+   "text": "11 more breakouts (AAPL, AFRM, CVNA, HMC, INTC, NXPI, PLTR, QCOM ...) not taken: already in TXN (one trade at a time)",
+   "symbols": [
+    "AAPL",
+    "AFRM",
+    "CVNA",
+    "HMC",
+    "INTC",
+    "NXPI",
+    "PLTR",
+    "QCOM",
+    "SNPS",
+    "TER",
+    "TGT"
+   ]
+  },
   {
    "ts": 1795447200,
    "et": "2026-11-23 10:20",
@@ -2337,13 +2356,6 @@
     "LYFT",
     "EXPE"
    ]
-  },
-  {
-   "ts": 1794948900,
-   "et": "2026-11-17 15:55",
-   "kind": "exit",
-   "text": "SELL 250 HPQ at $28.66: flat by 15:55 ET (the skill's flat-by rule). P&L $-20.00 (-0.31R)",
-   "symbol": "HPQ"
   }
  ],
  "equity": [
@@ -7691,6 +7703,11 @@
    "ts": 1795447383,
    "equity": 9313.02,
    "spy": 9531.92
+  },
+  {
+   "ts": 1795447697,
+   "equity": 9296.24,
+   "spy": 9560.09
   }
  ],
  "daily": [
@@ -7786,6 +7803,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795447697,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 34.4,
+   "errors": [],
+   "run_id": "45205549007",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795447383,
    "phase": "open",
@@ -8175,29 +8202,19 @@
    "errors": [],
    "run_id": "44807434992",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795204548,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.2,
-   "errors": [],
-   "run_id": "44806645831",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795447383,
+  "tick_at": 1795447697,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795447408,
-  "candidates": 99,
-  "charts_fetched": 101,
+  "yahoo_time": 1795447730,
+  "candidates": 101,
+  "charts_fetched": 103,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.4,
+  "yahoo_lag_min": -0.6,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

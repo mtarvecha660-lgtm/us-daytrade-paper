@@ -777,7 +777,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-23",
-  "last_bar_end": 1795447200,
+  "last_bar_end": 1795447500,
   "position": {
    "symbol": "TXN",
    "qty": 23,
@@ -828,7 +828,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 61,
+  "triggers_seen": 72,
   "missed": [
    "ABBV",
    "AMGN",
@@ -876,7 +876,18 @@
    "SHOP",
    "UAL",
    "UBER",
-   "ZM"
+   "ZM",
+   "AAPL",
+   "AFRM",
+   "CVNA",
+   "HMC",
+   "INTC",
+   "NXPI",
+   "PLTR",
+   "QCOM",
+   "SNPS",
+   "TER",
+   "TGT"
   ],
   "triggered": [
    "ADBE",
@@ -939,7 +950,18 @@
    "SHOP",
    "UAL",
    "UBER",
-   "ZM"
+   "ZM",
+   "AAPL",
+   "AFRM",
+   "CVNA",
+   "HMC",
+   "INTC",
+   "NXPI",
+   "PLTR",
+   "QCOM",
+   "SNPS",
+   "TER",
+   "TGT"
   ],
   "hits": [
    {
@@ -1429,6 +1451,94 @@
     "or_high": 85.07,
     "or_low": 83.42,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "AAPL",
+    "at": "10:25",
+    "price": 351.01,
+    "or_high": 349.76,
+    "or_low": 345.44,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "AFRM",
+    "at": "10:25",
+    "price": 59.33,
+    "or_high": 59.26,
+    "or_low": 57.46,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:25",
+    "price": 68.1,
+    "or_high": 68.05,
+    "or_low": 65.73,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:25",
+    "price": 33.18,
+    "or_high": 33.16,
+    "or_low": 32.83,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "INTC",
+    "at": "10:25",
+    "price": 59.19,
+    "or_high": 59.14,
+    "or_low": 57.42,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:25",
+    "price": 259.63,
+    "or_high": 259.08,
+    "or_low": 253.11,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:25",
+    "price": 160.53,
+    "or_high": 160.11,
+    "or_low": 155.82,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:25",
+    "price": 165.03,
+    "or_high": 164.87,
+    "or_low": 160.49,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:25",
+    "price": 433.91,
+    "or_high": 432.0,
+    "or_low": 424.93,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "TER",
+    "at": "10:25",
+    "price": 240.91,
+    "or_high": 240.53,
+    "or_low": 232.64,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:25",
+    "price": 165.79,
+    "or_high": 165.6,
+    "or_low": 163.87,
+    "pct_over": 0.11
    }
   ]
  },
@@ -1436,8 +1546,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.219970703125,
-  "last_ts": 1795447200
+  "last": 726.3599853515625,
+  "last_ts": 1795447500
  },
  "seen_trades": 0,
  "daily": [
