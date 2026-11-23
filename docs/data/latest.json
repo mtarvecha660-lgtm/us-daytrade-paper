@@ -1,21 +1,21 @@
 {
- "updated": 1795465359,
- "updated_et": "2026-11-23 15:22 ET",
+ "updated": 1795465671,
+ "updated_et": "2026-11-23 15:27 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 4941.88,
-  "equity": 9153.64,
-  "return": -0.08463600000000004,
+  "equity": 9161.54,
+  "return": -0.08384599999999987,
   "started": 1793559735
  },
  "spy": {
-  "value": 9522.18,
-  "return": -0.04778199999999999,
+  "value": 9534.82,
+  "return": -0.04651800000000006,
   "start_price": 759.47998046875,
-  "last": 723.47998046875
+  "last": 724.4400024414062
  },
  "position": {
   "symbol": "MRNA",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-23",
   "hits": [
-   {
-    "symbol": "TGT",
-    "at": "10:25",
-    "price": 165.79,
-    "or_high": 165.6,
-    "or_low": 163.87,
-    "pct_over": 0.11
-   },
    {
     "symbol": "AAL",
     "at": "10:30",
@@ -516,9 +508,17 @@
     "or_high": 165.51,
     "or_low": 163.37,
     "pct_over": 0.09
+   },
+   {
+    "symbol": "CSCO",
+    "at": "15:25",
+    "price": 96.9,
+    "or_high": 96.71,
+    "or_low": 94.65,
+    "pct_over": 0.19
    }
   ],
-  "n_hits": 131,
+  "n_hits": 132,
   "entries": 2,
   "max_trades": 3
  },
@@ -1351,6 +1351,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795465500,
+   "et": "2026-11-23 15:25",
+   "kind": "busy",
+   "text": "1 more breakout (CSCO) not taken: already in MRNA (one trade at a time)",
+   "symbols": [
+    "CSCO"
+   ]
+  },
   {
    "ts": 1795464600,
    "et": "2026-11-23 15:10",
@@ -2328,16 +2337,6 @@
    "text": "1 more breakout (AEP) not taken: already in TJX (one trade at a time)",
    "symbols": [
     "AEP"
-   ]
-  },
-  {
-   "ts": 1795025100,
-   "et": "2026-11-18 13:05",
-   "kind": "busy",
-   "text": "2 more breakouts (DPZ, SPOT) not taken: already in TJX (one trade at a time)",
-   "symbols": [
-    "DPZ",
-    "SPOT"
    ]
   }
  ],
@@ -7971,6 +7970,11 @@
    "ts": 1795465359,
    "equity": 9153.64,
    "spy": 9522.18
+  },
+  {
+   "ts": 1795465671,
+   "equity": 9161.54,
+   "spy": 9534.82
   }
  ],
  "daily": [
@@ -8066,6 +8070,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795465671,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 23.0,
+   "errors": [],
+   "run_id": "45259588760",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795465359,
    "phase": "open",
@@ -8455,29 +8469,19 @@
    "errors": [],
    "run_id": "45223330419",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795453086,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.0,
-   "errors": [],
-   "run_id": "45222340986",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795465359,
+  "tick_at": 1795465671,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795465371,
-  "candidates": 40,
-  "charts_fetched": 42,
+  "yahoo_time": 1795465693,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
