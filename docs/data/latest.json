@@ -1,21 +1,21 @@
 {
- "updated": 1795541692,
- "updated_et": "2026-11-24 12:34 ET",
+ "updated": 1795542008,
+ "updated_et": "2026-11-24 12:40 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9182.54,
-  "return": -0.08174599999999987,
+  "equity": 9189.28,
+  "return": -0.08107199999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9459.79,
-  "return": -0.054020999999999875,
+  "value": 9472.82,
+  "return": -0.05271800000000004,
   "start_price": 759.47998046875,
-  "last": 718.739990234375
+  "last": 719.72998046875
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "SEDG",
-    "at": "09:55",
-    "price": 17.88,
-    "or_high": 17.84,
-    "or_low": 17.37,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "SO",
-    "at": "09:55",
-    "price": 93.94,
-    "or_high": 93.76,
-    "or_low": 92.49,
-    "pct_over": 0.19
-   },
    {
     "symbol": "SYK",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 267.7,
     "or_low": 257.86,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "MDB",
+    "at": "12:35",
+    "price": 314.37,
+    "or_high": 313.63,
+    "or_low": 306.29,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "QCOM",
+    "at": "12:35",
+    "price": 165.38,
+    "or_high": 165.28,
+    "or_low": 160.56,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 151,
+  "n_hits": 153,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795541700,
+   "et": "2026-11-24 12:35",
+   "kind": "busy",
+   "text": "2 more breakouts (MDB, QCOM) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "MDB",
+    "QCOM"
+   ]
+  },
   {
    "ts": 1795540500,
    "et": "2026-11-24 12:15",
@@ -2443,16 +2453,6 @@
    "text": "1 more breakout (SONY) not taken: already in WMT (one trade at a time)",
    "symbols": [
     "SONY"
-   ]
-  },
-  {
-   "ts": 1795102200,
-   "et": "2026-11-19 10:30",
-   "kind": "busy",
-   "text": "2 more breakouts (MDT, PG) not taken: already in WMT (one trade at a time)",
-   "symbols": [
-    "MDT",
-    "PG"
    ]
   }
  ],
@@ -8306,6 +8306,11 @@
    "ts": 1795541692,
    "equity": 9182.54,
    "spy": 9459.79
+  },
+  {
+   "ts": 1795542008,
+   "equity": 9189.28,
+   "spy": 9472.82
   }
  ],
  "daily": [
@@ -8407,6 +8412,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795542008,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.1,
+   "errors": [],
+   "run_id": "45451053081",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795541692,
    "phase": "open",
@@ -8796,25 +8811,15 @@
    "errors": [],
    "run_id": "45354524410",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795488327,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45298188893",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1795541692,
+  "tick_at": 1795542008,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795541698,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1795542015,
+  "candidates": 18,
+  "charts_fetched": 20,
   "ok": true,
   "errors": [],
   "stale_data": false,

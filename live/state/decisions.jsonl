@@ -521,3 +521,4 @@
 {"ts": 1795539000, "et": "2026-11-24 11:50", "kind": "busy", "text": "4 more breakouts (HMC, RCL, RKT, SNOW) not taken: already in AAPL (one trade at a time)", "symbols": ["HMC", "RCL", "RKT", "SNOW"]}
 {"ts": 1795540200, "et": "2026-11-24 12:10", "kind": "busy", "text": "2 more breakouts (CCL, W) not taken: already in AAPL (one trade at a time)", "symbols": ["CCL", "W"]}
 {"ts": 1795540500, "et": "2026-11-24 12:15", "kind": "busy", "text": "1 more breakout (BIIB) not taken: already in AAPL (one trade at a time)", "symbols": ["BIIB"]}
+{"ts": 1795541700, "et": "2026-11-24 12:35", "kind": "busy", "text": "2 more breakouts (MDB, QCOM) not taken: already in AAPL (one trade at a time)", "symbols": ["MDB", "QCOM"]}
