@@ -1,21 +1,21 @@
 {
- "updated": 1795542008,
- "updated_et": "2026-11-24 12:40 ET",
+ "updated": 1795542321,
+ "updated_et": "2026-11-24 12:45 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9189.28,
-  "return": -0.08107199999999992,
+  "equity": 9182.73,
+  "return": -0.081727,
   "started": 1793559735
  },
  "spy": {
-  "value": 9472.82,
-  "return": -0.05271800000000004,
+  "value": 9464.27,
+  "return": -0.05357299999999998,
   "start_price": 759.47998046875,
-  "last": 719.72998046875
+  "last": 719.0800170898438
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "SYK",
-    "at": "09:55",
-    "price": 321.72,
-    "or_high": 320.46,
-    "or_low": 311.0,
-    "pct_over": 0.39
-   },
-   {
-    "symbol": "TJX",
-    "at": "09:55",
-    "price": 141.05,
-    "or_high": 141.0,
-    "or_low": 139.2,
-    "pct_over": 0.04
-   },
    {
     "symbol": "VLO",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 165.28,
     "or_low": 160.56,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "ENPH",
+    "at": "12:40",
+    "price": 20.72,
+    "or_high": 20.65,
+    "or_low": 20.11,
+    "pct_over": 0.31
+   },
+   {
+    "symbol": "NCLH",
+    "at": "12:40",
+    "price": 16.93,
+    "or_high": 16.92,
+    "or_low": 16.68,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 153,
+  "n_hits": 155,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795542000,
+   "et": "2026-11-24 12:40",
+   "kind": "busy",
+   "text": "2 more breakouts (ENPH, NCLH) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "ENPH",
+    "NCLH"
+   ]
+  },
   {
    "ts": 1795541700,
    "et": "2026-11-24 12:35",
@@ -2445,15 +2455,6 @@
    "kind": "exit",
    "text": "SELL 56 WMT at $124.29: stop $124.31 hit. P&L $-72.24 (-1.04R)",
    "symbol": "WMT"
-  },
-  {
-   "ts": 1795102800,
-   "et": "2026-11-19 10:40",
-   "kind": "busy",
-   "text": "1 more breakout (SONY) not taken: already in WMT (one trade at a time)",
-   "symbols": [
-    "SONY"
-   ]
   }
  ],
  "equity": [
@@ -8311,6 +8312,11 @@
    "ts": 1795542008,
    "equity": 9189.28,
    "spy": 9472.82
+  },
+  {
+   "ts": 1795542321,
+   "equity": 9182.73,
+   "spy": 9464.27
   }
  ],
  "daily": [
@@ -8412,6 +8418,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795542321,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.8,
+   "errors": [],
+   "run_id": "45452014135",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795542008,
    "phase": "open",
@@ -8801,25 +8817,15 @@
    "errors": [],
    "run_id": "45406765599",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795508137,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45354524410",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795542008,
+  "tick_at": 1795542321,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795542015,
-  "candidates": 18,
-  "charts_fetched": 20,
+  "yahoo_time": 1795542328,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,
