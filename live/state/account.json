@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795532700,
+  "last_bar_end": 1795533000,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 125,
+  "triggers_seen": 129,
   "missed": [
    "ABBV",
    "ABT",
@@ -934,7 +934,11 @@
    "ORCL",
    "PG",
    "PLTR",
-   "UAL"
+   "UAL",
+   "DLTR",
+   "RTX",
+   "TGT",
+   "VZ"
   ],
   "triggered": [
    "AAPL",
@@ -1061,7 +1065,11 @@
    "ORCL",
    "PG",
    "PLTR",
-   "UAL"
+   "UAL",
+   "DLTR",
+   "RTX",
+   "TGT",
+   "VZ"
   ],
   "hits": [
    {
@@ -2063,6 +2071,38 @@
     "or_high": 107.59,
     "or_low": 106.3,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:10",
+    "price": 155.22,
+    "or_high": 155.07,
+    "or_low": 147.83,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "RTX",
+    "at": "10:10",
+    "price": 197.14,
+    "or_high": 196.99,
+    "or_low": 194.62,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:10",
+    "price": 175.42,
+    "or_high": 175.19,
+    "or_low": 170.54,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:10",
+    "price": 47.03,
+    "or_high": 47.01,
+    "or_low": 46.44,
+    "pct_over": 0.06
    }
   ]
  },
@@ -2070,8 +2110,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 720.3599853515625,
-  "last_ts": 1795532700
+  "last": 718.7999877929688,
+  "last_ts": 1795533000
  },
  "seen_trades": 0,
  "daily": [

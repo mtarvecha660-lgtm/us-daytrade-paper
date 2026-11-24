@@ -1,21 +1,21 @@
 {
- "updated": 1795532853,
- "updated_et": "2026-11-24 10:07 ET",
+ "updated": 1795533167,
+ "updated_et": "2026-11-24 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9197.36,
-  "return": -0.08026399999999989,
+  "equity": 9180.26,
+  "return": -0.08197399999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9481.12,
-  "return": -0.051887999999999934,
+  "value": 9460.58,
+  "return": -0.053942000000000045,
   "start_price": 759.47998046875,
-  "last": 720.3599853515625
+  "last": 718.7999877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "USB",
-    "at": "09:50",
-    "price": 57.67,
-    "or_high": 57.67,
-    "or_low": 56.97,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "V",
-    "at": "09:50",
-    "price": 412.71,
-    "or_high": 412.0,
-    "or_low": 407.4,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "Z",
-    "at": "09:50",
-    "price": 28.99,
-    "or_high": 28.92,
-    "or_low": 27.97,
-    "pct_over": 0.22
-   },
-   {
-    "symbol": "ABBV",
-    "at": "09:55",
-    "price": 295.03,
-    "or_high": 294.82,
-    "or_low": 288.7,
-    "pct_over": 0.07
-   },
    {
     "symbol": "ABT",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 107.59,
     "or_low": 106.3,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "DLTR",
+    "at": "10:10",
+    "price": 155.22,
+    "or_high": 155.07,
+    "or_low": 147.83,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "RTX",
+    "at": "10:10",
+    "price": 197.14,
+    "or_high": 196.99,
+    "or_low": 194.62,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "TGT",
+    "at": "10:10",
+    "price": 175.42,
+    "or_high": 175.19,
+    "or_low": 170.54,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "VZ",
+    "at": "10:10",
+    "price": 47.03,
+    "or_high": 47.01,
+    "or_low": 46.44,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 125,
+  "n_hits": 129,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795533000,
+   "et": "2026-11-24 10:10",
+   "kind": "busy",
+   "text": "4 more breakouts (DLTR, RTX, TGT, VZ) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "DLTR",
+    "RTX",
+    "TGT",
+    "VZ"
+   ]
+  },
   {
    "ts": 1795532700,
    "et": "2026-11-24 10:05",
@@ -2435,57 +2447,6 @@
    "kind": "fill",
    "text": "BUY 10 AMD filled at $554.61 (next bar's open $554.50 + slippage). Stop $544.54, target $564.40",
    "symbol": "AMD"
-  },
-  {
-   "ts": 1795099800,
-   "et": "2026-11-19 09:50",
-   "kind": "order",
-   "text": "BUY 10 AMD at market (decided on the 09:50 close). opening-range breakout on AMD: 10 shares, bound by your $100 max loss per trade (10 x 9.93 = $99.30 at the stop) (limits: max loss 10; position cap 12; max order 14; cash 15)",
-   "symbol": "AMD",
-   "why": {
-    "scanner": "AMD: the 09:45 bar closed at $554.47, above the 15-min opening range high $552.00 (range 537.09-552.00)",
-    "exit": "plan: entry $554.47, stop $544.54 (opening-range midpoint), target $564.40 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on AMD: 10 shares, bound by your $100 max loss per trade (10 x 9.93 = $99.30 at the stop) (limits: max loss 10; position cap 12; max order 14; cash 15)",
-    "risk": "trader-risk PASS: entry 554.47 (the latest price), stop 544.54, target 564.40: risk 9.93 a share; max loss $99.30 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "MSFT",
-    "TSM",
-    "INTC",
-    "BABA",
-    "PDD",
-    "WDC",
-    "SPOT",
-    "QCOM",
-    "GS",
-    "SMCI",
-    "TJX",
-    "JPM",
-    "ADI",
-    "C",
-    "NXPI",
-    "FSLR",
-    "JD",
-    "COF",
-    "BLK",
-    "PYPL",
-    "WFC",
-    "ON",
-    "LULU",
-    "BX",
-    "APO",
-    "USB",
-    "BBY",
-    "GME",
-    "DG",
-    "DLTR",
-    "DPZ",
-    "KKR",
-    "UPST",
-    "RUN",
-    "AI"
-   ]
   }
  ],
  "equity": [
@@ -8198,6 +8159,11 @@
    "ts": 1795532853,
    "equity": 9197.36,
    "spy": 9481.12
+  },
+  {
+   "ts": 1795533167,
+   "equity": 9180.26,
+   "spy": 9460.58
   }
  ],
  "daily": [
@@ -8299,6 +8265,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795533167,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.4,
+   "errors": [],
+   "run_id": "45422821159",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795532853,
    "phase": "open",
@@ -8688,25 +8664,15 @@
    "errors": [],
    "run_id": "45243980699",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795460002,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.5,
-   "errors": [],
-   "run_id": "45243086459",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795532853,
+  "tick_at": 1795533167,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795532868,
-  "candidates": 40,
-  "charts_fetched": 42,
+  "yahoo_time": 1795533178,
+  "candidates": 20,
+  "charts_fetched": 22,
   "ok": true,
   "errors": [],
   "stale_data": false,
