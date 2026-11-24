@@ -1,21 +1,21 @@
 {
- "updated": 1795542635,
- "updated_et": "2026-11-24 12:50 ET",
+ "updated": 1795542953,
+ "updated_et": "2026-11-24 12:55 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9190.9,
-  "return": -0.08091000000000004,
+  "equity": 9187.86,
+  "return": -0.0812139999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9476.58,
-  "return": -0.052342,
+  "value": 9463.09,
+  "return": -0.05369099999999993,
   "start_price": 759.47998046875,
-  "last": 720.0150146484375
+  "last": 718.989990234375
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "VLO",
-    "at": "09:55",
-    "price": 329.83,
-    "or_high": 329.46,
-    "or_low": 321.33,
-    "pct_over": 0.11
-   },
    {
     "symbol": "VRTX",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 16.92,
     "or_low": 16.68,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "BBY",
+    "at": "12:50",
+    "price": 100.99,
+    "or_high": 100.73,
+    "or_low": 96.81,
+    "pct_over": 0.26
    }
   ],
-  "n_hits": 155,
+  "n_hits": 156,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795542600,
+   "et": "2026-11-24 12:50",
+   "kind": "busy",
+   "text": "1 more breakout (BBY) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "BBY"
+   ]
+  },
   {
    "ts": 1795542000,
    "et": "2026-11-24 12:40",
@@ -2448,13 +2457,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1795105200,
-   "et": "2026-11-19 11:20",
-   "kind": "exit",
-   "text": "SELL 56 WMT at $124.29: stop $124.31 hit. P&L $-72.24 (-1.04R)",
-   "symbol": "WMT"
   }
  ],
  "equity": [
@@ -8322,6 +8324,11 @@
    "ts": 1795542635,
    "equity": 9190.9,
    "spy": 9476.58
+  },
+  {
+   "ts": 1795542953,
+   "equity": 9187.86,
+   "spy": 9463.09
   }
  ],
  "daily": [
@@ -8423,6 +8430,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795542953,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 12.4,
+   "errors": [],
+   "run_id": "45453904486",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795542635,
    "phase": "open",
@@ -8812,25 +8829,15 @@
    "errors": [],
    "run_id": "45414828059",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795530317,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45413851219",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795542635,
+  "tick_at": 1795542953,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795542644,
-  "candidates": 16,
-  "charts_fetched": 18,
+  "yahoo_time": 1795542962,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
