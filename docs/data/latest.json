@@ -1,21 +1,21 @@
 {
- "updated": 1795532538,
- "updated_et": "2026-11-24 10:02 ET",
+ "updated": 1795532853,
+ "updated_et": "2026-11-24 10:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9177.22,
-  "return": -0.08227800000000007,
+  "equity": 9197.36,
+  "return": -0.08026399999999989,
   "started": 1793559735
  },
  "spy": {
-  "value": 9473.75,
-  "return": -0.05262500000000003,
+  "value": 9481.12,
+  "return": -0.051887999999999934,
   "start_price": 759.47998046875,
-  "last": 719.7999877929688
+  "last": 720.3599853515625
  },
  "position": {
   "symbol": "AAPL",
@@ -37,110 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "RIVN",
-    "at": "09:50",
-    "price": 11.43,
-    "or_high": 11.36,
-    "or_low": 11.05,
-    "pct_over": 0.63
-   },
-   {
-    "symbol": "SCHW",
-    "at": "09:50",
-    "price": 93.7,
-    "or_high": 93.58,
-    "or_low": 91.92,
-    "pct_over": 0.13
-   },
-   {
-    "symbol": "SHOP",
-    "at": "09:50",
-    "price": 136.77,
-    "or_high": 136.54,
-    "or_low": 132.26,
-    "pct_over": 0.16
-   },
-   {
-    "symbol": "SONY",
-    "at": "09:50",
-    "price": 27.42,
-    "or_high": 27.39,
-    "or_low": 27.04,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "SPOT",
-    "at": "09:50",
-    "price": 600.58,
-    "or_high": 595.56,
-    "or_low": 583.16,
-    "pct_over": 0.84
-   },
-   {
-    "symbol": "TMUS",
-    "at": "09:50",
-    "price": 170.19,
-    "or_high": 170.16,
-    "or_low": 166.5,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "TOST",
-    "at": "09:50",
-    "price": 33.68,
-    "or_high": 33.38,
-    "or_low": 32.42,
-    "pct_over": 0.89
-   },
-   {
-    "symbol": "TTD",
-    "at": "09:50",
-    "price": 14.63,
-    "or_high": 14.48,
-    "or_low": 14.06,
-    "pct_over": 1.06
-   },
-   {
-    "symbol": "TWLO",
-    "at": "09:50",
-    "price": 185.47,
-    "or_high": 184.43,
-    "or_low": 180.67,
-    "pct_over": 0.56
-   },
-   {
-    "symbol": "U",
-    "at": "09:50",
-    "price": 49.42,
-    "or_high": 49.08,
-    "or_low": 47.08,
-    "pct_over": 0.7
-   },
-   {
-    "symbol": "UBER",
-    "at": "09:50",
-    "price": 64.81,
-    "or_high": 64.8,
-    "or_low": 63.43,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "UNH",
-    "at": "09:50",
-    "price": 336.66,
-    "or_high": 335.5,
-    "or_low": 329.55,
-    "pct_over": 0.35
-   },
-   {
-    "symbol": "UPST",
-    "at": "09:50",
-    "price": 17.05,
-    "or_high": 17.03,
-    "or_low": 16.67,
-    "pct_over": 0.12
-   },
    {
     "symbol": "USB",
     "at": "09:50",
@@ -516,9 +412,113 @@
     "or_high": 22.69,
     "or_low": 22.33,
     "pct_over": 0.2
+   },
+   {
+    "symbol": "AI",
+    "at": "10:05",
+    "price": 9.94,
+    "or_high": 9.87,
+    "or_low": 9.69,
+    "pct_over": 0.66
+   },
+   {
+    "symbol": "CMG",
+    "at": "10:05",
+    "price": 36.81,
+    "or_high": 36.73,
+    "or_low": 36.2,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:05",
+    "price": 81.18,
+    "or_high": 80.72,
+    "or_low": 79.36,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "DAL",
+    "at": "10:05",
+    "price": 84.19,
+    "or_high": 84.16,
+    "or_low": 83.17,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "GS",
+    "at": "10:05",
+    "price": 819.88,
+    "or_high": 818.46,
+    "or_low": 810.7,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "HD",
+    "at": "10:05",
+    "price": 349.17,
+    "or_high": 348.83,
+    "or_low": 343.2,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "LLY",
+    "at": "10:05",
+    "price": 1409.6,
+    "or_high": 1407.42,
+    "or_low": 1369.84,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "LOW",
+    "at": "10:05",
+    "price": 228.81,
+    "or_high": 228.7,
+    "or_low": 224.34,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "MRK",
+    "at": "10:05",
+    "price": 138.03,
+    "or_high": 137.48,
+    "or_low": 134.01,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "ORCL",
+    "at": "10:05",
+    "price": 111.82,
+    "or_high": 111.8,
+    "or_low": 109.47,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "PG",
+    "at": "10:05",
+    "price": 171.94,
+    "or_high": 171.82,
+    "or_low": 169.83,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:05",
+    "price": 161.99,
+    "or_high": 161.88,
+    "or_low": 157.8,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:05",
+    "price": 107.62,
+    "or_high": 107.59,
+    "or_low": 106.3,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 112,
+  "n_hits": 125,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,27 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795532700,
+   "et": "2026-11-24 10:05",
+   "kind": "busy",
+   "text": "13 more breakouts (AI, CMG, CVS, DAL, GS, HD, LLY, LOW ...) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "AI",
+    "CMG",
+    "CVS",
+    "DAL",
+    "GS",
+    "HD",
+    "LLY",
+    "LOW",
+    "MRK",
+    "ORCL",
+    "PG",
+    "PLTR",
+    "UAL"
+   ]
+  },
   {
    "ts": 1795532400,
    "et": "2026-11-24 10:00",
@@ -2465,13 +2486,6 @@
     "RUN",
     "AI"
    ]
-  },
-  {
-   "ts": 1795035300,
-   "et": "2026-11-18 15:55",
-   "kind": "exit",
-   "text": "SELL 28 TJX at $140.64: flat by 15:55 ET (the skill's flat-by rule). P&L $-10.82 (-0.11R)",
-   "symbol": "TJX"
   }
  ],
  "equity": [
@@ -8179,6 +8193,11 @@
    "ts": 1795532538,
    "equity": 9177.22,
    "spy": 9473.75
+  },
+  {
+   "ts": 1795532853,
+   "equity": 9197.36,
+   "spy": 9481.12
   }
  ],
  "daily": [
@@ -8280,6 +8299,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795532853,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.8,
+   "errors": [],
+   "run_id": "45421793909",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795532538,
    "phase": "open",
@@ -8669,25 +8698,15 @@
    "errors": [],
    "run_id": "45243086459",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795459691,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 13.4,
-   "errors": [],
-   "run_id": "45242180098",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795532538,
+  "tick_at": 1795532853,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795532552,
-  "candidates": 46,
-  "charts_fetched": 48,
+  "yahoo_time": 1795532868,
+  "candidates": 40,
+  "charts_fetched": 42,
   "ok": true,
   "errors": [],
   "stale_data": false,
