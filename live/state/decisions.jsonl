@@ -517,3 +517,4 @@
 {"ts": 1795534500, "et": "2026-11-24 10:35", "kind": "busy", "text": "2 more breakouts (MELI, SWKS) not taken: already in AAPL (one trade at a time)", "symbols": ["MELI", "SWKS"]}
 {"ts": 1795535700, "et": "2026-11-24 10:55", "kind": "busy", "text": "1 more breakout (YUM) not taken: already in AAPL (one trade at a time)", "symbols": ["YUM"]}
 {"ts": 1795537500, "et": "2026-11-24 11:25", "kind": "busy", "text": "1 more breakout (UPS) not taken: already in AAPL (one trade at a time)", "symbols": ["UPS"]}
+{"ts": 1795538700, "et": "2026-11-24 11:45", "kind": "busy", "text": "1 more breakout (OKTA) not taken: already in AAPL (one trade at a time)", "symbols": ["OKTA"]}
