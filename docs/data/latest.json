@@ -1,21 +1,21 @@
 {
- "updated": 1795533167,
- "updated_et": "2026-11-24 10:12 ET",
+ "updated": 1795533486,
+ "updated_et": "2026-11-24 10:18 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9180.26,
-  "return": -0.08197399999999999,
+  "equity": 9177.03,
+  "return": -0.08229699999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9460.58,
-  "return": -0.053942000000000045,
+  "value": 9470.85,
+  "return": -0.052914999999999934,
   "start_price": 759.47998046875,
-  "last": 718.7999877929688
+  "last": 719.5800170898438
  },
  "position": {
   "symbol": "AAPL",
@@ -37,86 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "ABT",
-    "at": "09:55",
-    "price": 104.86,
-    "or_high": 104.42,
-    "or_low": 102.0,
-    "pct_over": 0.43
-   },
-   {
-    "symbol": "AEP",
-    "at": "09:55",
-    "price": 127.48,
-    "or_high": 127.44,
-    "or_low": 126.05,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "CI",
-    "at": "09:55",
-    "price": 273.51,
-    "or_high": 273.4,
-    "or_low": 268.88,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "COF",
-    "at": "09:55",
-    "price": 181.9,
-    "or_high": 181.73,
-    "or_low": 178.4,
-    "pct_over": 0.1
-   },
-   {
-    "symbol": "COST",
-    "at": "09:55",
-    "price": 1080.99,
-    "or_high": 1079.16,
-    "or_low": 1068.0,
-    "pct_over": 0.17
-   },
-   {
-    "symbol": "D",
-    "at": "09:55",
-    "price": 67.33,
-    "or_high": 67.02,
-    "or_low": 66.24,
-    "pct_over": 0.46
-   },
-   {
-    "symbol": "DUK",
-    "at": "09:55",
-    "price": 130.96,
-    "or_high": 130.63,
-    "or_low": 128.95,
-    "pct_over": 0.25
-   },
-   {
-    "symbol": "DXCM",
-    "at": "09:55",
-    "price": 83.43,
-    "or_high": 83.33,
-    "or_low": 80.26,
-    "pct_over": 0.11
-   },
-   {
-    "symbol": "F",
-    "at": "09:55",
-    "price": 11.79,
-    "or_high": 11.68,
-    "or_low": 11.54,
-    "pct_over": 0.94
-   },
-   {
-    "symbol": "GM",
-    "at": "09:55",
-    "price": 81.84,
-    "or_high": 81.83,
-    "or_low": 81.02,
-    "pct_over": 0.01
-   },
    {
     "symbol": "HON",
     "at": "09:55",
@@ -516,9 +436,89 @@
     "or_high": 47.01,
     "or_low": 46.44,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "CHWY",
+    "at": "10:15",
+    "price": 19.95,
+    "or_high": 19.85,
+    "or_low": 19.56,
+    "pct_over": 0.53
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "10:15",
+    "price": 25.28,
+    "or_high": 25.24,
+    "or_low": 24.68,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:15",
+    "price": 353.93,
+    "or_high": 353.86,
+    "or_low": 350.82,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "GILD",
+    "at": "10:15",
+    "price": 176.25,
+    "or_high": 175.76,
+    "or_low": 171.14,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "HPQ",
+    "at": "10:15",
+    "price": 28.86,
+    "or_high": 28.82,
+    "or_low": 28.26,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "LULU",
+    "at": "10:15",
+    "price": 108.35,
+    "or_high": 108.12,
+    "or_low": 104.0,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:15",
+    "price": 415.92,
+    "or_high": 415.69,
+    "or_low": 413.18,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:15",
+    "price": 279.6,
+    "or_high": 279.37,
+    "or_low": 276.25,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:15",
+    "price": 35.33,
+    "or_high": 35.24,
+    "or_low": 33.93,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "REGN",
+    "at": "10:15",
+    "price": 977.86,
+    "or_high": 976.18,
+    "or_low": 948.42,
+    "pct_over": 0.17
    }
   ],
-  "n_hits": 129,
+  "n_hits": 139,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,24 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795533300,
+   "et": "2026-11-24 10:15",
+   "kind": "busy",
+   "text": "10 more breakouts (CHWY, CMCSA, DPZ, GILD, HPQ, LULU, MAR, MCD ...) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CHWY",
+    "CMCSA",
+    "DPZ",
+    "GILD",
+    "HPQ",
+    "LULU",
+    "MAR",
+    "MCD",
+    "NKE",
+    "REGN"
+   ]
+  },
   {
    "ts": 1795533000,
    "et": "2026-11-24 10:10",
@@ -2440,13 +2458,6 @@
     "HD",
     "MCD"
    ]
-  },
-  {
-   "ts": 1795099800,
-   "et": "2026-11-19 09:50",
-   "kind": "fill",
-   "text": "BUY 10 AMD filled at $554.61 (next bar's open $554.50 + slippage). Stop $544.54, target $564.40",
-   "symbol": "AMD"
   }
  ],
  "equity": [
@@ -8164,6 +8175,11 @@
    "ts": 1795533167,
    "equity": 9180.26,
    "spy": 9460.58
+  },
+  {
+   "ts": 1795533486,
+   "equity": 9177.03,
+   "spy": 9470.85
   }
  ],
  "daily": [
@@ -8265,6 +8281,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795533486,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.0,
+   "errors": [],
+   "run_id": "45423852106",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795533167,
    "phase": "open",
@@ -8654,25 +8680,15 @@
    "errors": [],
    "run_id": "45244903624",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795460314,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 19.9,
-   "errors": [],
-   "run_id": "45243980699",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795533167,
+  "tick_at": 1795533486,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795533178,
-  "candidates": 20,
-  "charts_fetched": 22,
+  "yahoo_time": 1795533497,
+  "candidates": 26,
+  "charts_fetched": 28,
   "ok": true,
   "errors": [],
   "stale_data": false,
