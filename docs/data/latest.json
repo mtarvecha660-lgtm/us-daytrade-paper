@@ -1,21 +1,21 @@
 {
- "updated": 1795537279,
- "updated_et": "2026-11-24 11:21 ET",
+ "updated": 1795537592,
+ "updated_et": "2026-11-24 11:26 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9142.08,
-  "return": -0.08579199999999998,
+  "equity": 9172.85,
+  "return": -0.08271499999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9393.86,
-  "return": -0.060613999999999946,
+  "value": 9424.92,
+  "return": -0.057508000000000004,
   "start_price": 759.47998046875,
-  "last": 713.72998046875
+  "last": 716.0905151367188
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "JNJ",
-    "at": "09:55",
-    "price": 273.35,
-    "or_high": 273.11,
-    "or_low": 268.08,
-    "pct_over": 0.09
-   },
    {
     "symbol": "KO",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 166.62,
     "or_low": 164.74,
     "pct_over": 0.12
+   },
+   {
+    "symbol": "UPS",
+    "at": "11:25",
+    "price": 108.94,
+    "or_high": 108.82,
+    "or_low": 107.95,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 142,
+  "n_hits": 143,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795537500,
+   "et": "2026-11-24 11:25",
+   "kind": "busy",
+   "text": "1 more breakout (UPS) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "UPS"
+   ]
+  },
   {
    "ts": 1795535700,
    "et": "2026-11-24 10:55",
@@ -2445,21 +2454,6 @@
    "kind": "fill",
    "text": "BUY 56 WMT filled at $125.58 (next bar's open $125.55 + slippage). Stop $124.31, target $126.79",
    "symbol": "WMT"
-  },
-  {
-   "ts": 1795100400,
-   "et": "2026-11-19 10:00",
-   "kind": "order",
-   "text": "BUY 56 WMT at market (decided on the 10:00 close). opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
-   "symbol": "WMT",
-   "why": {
-    "scanner": "WMT: the 09:55 bar closed at $125.55, above the 15-min opening range high $125.33 (range 123.29-125.33)",
-    "exit": "plan: entry $125.55, stop $124.31 (opening-range midpoint), target $126.79 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on WMT: 56 shares, bound by your position cap (56 x 1.24 = $69.44 at the stop) (limits: max loss 80; position cap 56; max order 63; cash 67)",
-    "risk": "trader-risk PASS: entry 125.55 (the latest price), stop 124.31, target 126.79: risk 1.24 a share; max loss $69.44 (limit $100), reward:risk 1.00 (min 1); today before this: 1 of 3 trades, $99.30 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -8242,6 +8236,11 @@
    "ts": 1795537279,
    "equity": 9142.08,
    "spy": 9393.86
+  },
+  {
+   "ts": 1795537592,
+   "equity": 9172.85,
+   "spy": 9424.92
   }
  ],
  "daily": [
@@ -8343,6 +8342,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795537592,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.2,
+   "errors": [],
+   "run_id": "45437116073",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795537279,
    "phase": "open",
@@ -8732,25 +8741,15 @@
    "errors": [],
    "run_id": "45256828094",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795464405,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 20.3,
-   "errors": [],
-   "run_id": "45255884053",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795537279,
+  "tick_at": 1795537592,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795537285,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1795537601,
+  "candidates": 13,
+  "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,
