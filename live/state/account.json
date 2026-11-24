@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795552800,
+  "last_bar_end": 1795553100,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -2440,8 +2440,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 716.3800048828125,
-  "last_ts": 1795552800
+  "last": 716.5549926757812,
+  "last_ts": 1795553100
  },
  "seen_trades": 0,
  "daily": [
