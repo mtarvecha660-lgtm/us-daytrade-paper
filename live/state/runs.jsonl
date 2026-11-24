@@ -1254,3 +1254,4 @@
 {"ts": 1795468192, "phase": "after-close", "status": "ok", "bars": 0, "secs": 5.4, "errors": [], "run_id": "45266791539", "event": "workflow_dispatch"}
 {"ts": 1795468506, "phase": "after-close", "status": "ok", "bars": 0, "secs": 5.2, "errors": [], "run_id": "45267700061", "event": "workflow_dispatch"}
 {"ts": 1795488327, "phase": "after-close", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "45298188893", "event": "schedule"}
+{"ts": 1795508137, "phase": "pre-open", "status": "ok", "bars": 0, "secs": 0.0, "errors": [], "run_id": "45354524410", "event": "workflow_dispatch"}
