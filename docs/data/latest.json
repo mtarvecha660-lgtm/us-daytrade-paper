@@ -1,21 +1,21 @@
 {
- "updated": 1795538863,
- "updated_et": "2026-11-24 11:47 ET",
+ "updated": 1795539175,
+ "updated_et": "2026-11-24 11:52 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9155.09,
-  "return": -0.08449099999999998,
+  "equity": 9162.4,
+  "return": -0.08376000000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9410.51,
-  "return": -0.05894900000000003,
+  "value": 9427.68,
+  "return": -0.05723199999999995,
   "start_price": 759.47998046875,
-  "last": 714.9949951171875
+  "last": 716.2999877929688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "LI",
-    "at": "09:55",
-    "price": 10.72,
-    "or_high": 10.69,
-    "or_low": 10.45,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "MRNA",
-    "at": "09:55",
-    "price": 223.18,
-    "or_high": 221.18,
-    "or_low": 212.2,
-    "pct_over": 0.9
-   },
-   {
-    "symbol": "MS",
-    "at": "09:55",
-    "price": 173.53,
-    "or_high": 172.87,
-    "or_low": 170.6,
-    "pct_over": 0.38
-   },
-   {
-    "symbol": "NEE",
-    "at": "09:55",
-    "price": 84.71,
-    "or_high": 84.28,
-    "or_low": 83.27,
-    "pct_over": 0.51
-   },
    {
     "symbol": "NOC",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 207.46,
     "or_low": 202.06,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "HMC",
+    "at": "11:50",
+    "price": 33.01,
+    "or_high": 32.98,
+    "or_low": 32.5,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "RCL",
+    "at": "11:50",
+    "price": 309.47,
+    "or_high": 309.26,
+    "or_low": 304.95,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "RKT",
+    "at": "11:50",
+    "price": 14.21,
+    "or_high": 14.2,
+    "or_low": 13.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SNOW",
+    "at": "11:50",
+    "price": 275.69,
+    "or_high": 274.86,
+    "or_low": 268.51,
+    "pct_over": 0.3
    }
   ],
-  "n_hits": 144,
+  "n_hits": 148,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795539000,
+   "et": "2026-11-24 11:50",
+   "kind": "busy",
+   "text": "4 more breakouts (HMC, RCL, RKT, SNOW) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "HMC",
+    "RCL",
+    "RKT",
+    "SNOW"
+   ]
+  },
   {
    "ts": 1795538700,
    "et": "2026-11-24 11:45",
@@ -2440,21 +2452,6 @@
    "text": "1 more breakout (HAL) not taken: already in WMT (one trade at a time)",
    "symbols": [
     "HAL"
-   ]
-  },
-  {
-   "ts": 1795100700,
-   "et": "2026-11-19 10:05",
-   "kind": "busy",
-   "text": "7 more breakouts (DELL, LRCX, MCHP, MRVL, MU, STX, TGT) not taken: already in WMT (one trade at a time)",
-   "symbols": [
-    "DELL",
-    "LRCX",
-    "MCHP",
-    "MRVL",
-    "MU",
-    "STX",
-    "TGT"
    ]
   }
  ],
@@ -8263,6 +8260,11 @@
    "ts": 1795538863,
    "equity": 9155.09,
    "spy": 9410.51
+  },
+  {
+   "ts": 1795539175,
+   "equity": 9162.4,
+   "spy": 9427.68
   }
  ],
  "daily": [
@@ -8364,6 +8366,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795539175,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.9,
+   "errors": [],
+   "run_id": "45442200586",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795538863,
    "phase": "open",
@@ -8753,25 +8765,15 @@
    "errors": [],
    "run_id": "45261405701",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795465985,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 17.4,
-   "errors": [],
-   "run_id": "45260494665",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795538863,
+  "tick_at": 1795539175,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795538870,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1795539184,
+  "candidates": 16,
+  "charts_fetched": 18,
   "ok": true,
   "errors": [],
   "stale_data": false,

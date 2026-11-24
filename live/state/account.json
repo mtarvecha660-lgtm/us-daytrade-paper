@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795538700,
+  "last_bar_end": 1795539000,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 144,
+  "triggers_seen": 148,
   "missed": [
    "ABBV",
    "ABT",
@@ -953,7 +953,11 @@
    "SWKS",
    "YUM",
    "UPS",
-   "OKTA"
+   "OKTA",
+   "HMC",
+   "RCL",
+   "RKT",
+   "SNOW"
   ],
   "triggered": [
    "AAPL",
@@ -1099,7 +1103,11 @@
    "SWKS",
    "YUM",
    "UPS",
-   "OKTA"
+   "OKTA",
+   "HMC",
+   "RCL",
+   "RKT",
+   "SNOW"
   ],
   "hits": [
    {
@@ -2253,6 +2261,38 @@
     "or_high": 207.46,
     "or_low": 202.06,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "HMC",
+    "at": "11:50",
+    "price": 33.01,
+    "or_high": 32.98,
+    "or_low": 32.5,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "RCL",
+    "at": "11:50",
+    "price": 309.47,
+    "or_high": 309.26,
+    "or_low": 304.95,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "RKT",
+    "at": "11:50",
+    "price": 14.21,
+    "or_high": 14.2,
+    "or_low": 13.82,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SNOW",
+    "at": "11:50",
+    "price": 275.69,
+    "or_high": 274.86,
+    "or_low": 268.51,
+    "pct_over": 0.3
    }
   ]
  },
@@ -2260,8 +2300,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 714.9949951171875,
-  "last_ts": 1795538700
+  "last": 716.2999877929688,
+  "last_ts": 1795539000
  },
  "seen_trades": 0,
  "daily": [
