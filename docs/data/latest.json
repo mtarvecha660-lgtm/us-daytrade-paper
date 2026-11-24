@@ -1,21 +1,21 @@
 {
- "updated": 1795534445,
- "updated_et": "2026-11-24 10:34 ET",
+ "updated": 1795534760,
+ "updated_et": "2026-11-24 10:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9154.62,
-  "return": -0.08453799999999989,
+  "equity": 9172.0,
+  "return": -0.08279999999999998,
   "started": 1793559735
  },
  "spy": {
-  "value": 9407.71,
-  "return": -0.05922900000000009,
+  "value": 9430.64,
+  "return": -0.0569360000000001,
   "start_price": 759.47998046875,
-  "last": 714.782470703125
+  "last": 716.5250244140625
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "HON",
-    "at": "09:55",
-    "price": 221.84,
-    "or_high": 221.31,
-    "or_low": 218.0,
-    "pct_over": 0.24
-   },
-   {
-    "symbol": "IDXX",
-    "at": "09:55",
-    "price": 700.0,
-    "or_high": 699.24,
-    "or_low": 680.55,
-    "pct_over": 0.11
-   },
    {
     "symbol": "ISRG",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 976.18,
     "or_low": 948.42,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "MELI",
+    "at": "10:35",
+    "price": 1439.72,
+    "or_high": 1437.92,
+    "or_low": 1405.87,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "SWKS",
+    "at": "10:35",
+    "price": 78.21,
+    "or_high": 78.0,
+    "or_low": 74.98,
+    "pct_over": 0.28
    }
   ],
-  "n_hits": 139,
+  "n_hits": 141,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795534500,
+   "et": "2026-11-24 10:35",
+   "kind": "busy",
+   "text": "2 more breakouts (MELI, SWKS) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "MELI",
+    "SWKS"
+   ]
+  },
   {
    "ts": 1795533300,
    "et": "2026-11-24 10:15",
@@ -2448,16 +2458,6 @@
    "kind": "exit",
    "text": "SELL 10 AMD at $544.43: stop $544.54 hit. P&L $-101.80 (-1.02R)",
    "symbol": "AMD"
-  },
-  {
-   "ts": 1795100100,
-   "et": "2026-11-19 09:55",
-   "kind": "busy",
-   "text": "2 more breakouts (HD, MCD) not taken: already in AMD (one trade at a time)",
-   "symbols": [
-    "HD",
-    "MCD"
-   ]
   }
  ],
  "equity": [
@@ -8195,6 +8195,11 @@
    "ts": 1795534445,
    "equity": 9154.62,
    "spy": 9407.71
+  },
+  {
+   "ts": 1795534760,
+   "equity": 9172.0,
+   "spy": 9430.64
   }
  ],
  "daily": [
@@ -8296,6 +8301,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795534760,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.8,
+   "errors": [],
+   "run_id": "45427987228",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795534445,
    "phase": "open",
@@ -8685,25 +8700,15 @@
    "errors": [],
    "run_id": "45248636783",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795461577,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 15.6,
-   "errors": [],
-   "run_id": "45247704664",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795534445,
+  "tick_at": 1795534760,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795534450,
-  "candidates": 6,
-  "charts_fetched": 8,
+  "yahoo_time": 1795534766,
+  "candidates": 11,
+  "charts_fetched": 13,
   "ok": true,
   "errors": [],
   "stale_data": false,
