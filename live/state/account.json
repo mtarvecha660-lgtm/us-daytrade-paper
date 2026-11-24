@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795539900,
+  "last_bar_end": 1795540200,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 148,
+  "triggers_seen": 150,
   "missed": [
    "ABBV",
    "ABT",
@@ -957,7 +957,9 @@
    "HMC",
    "RCL",
    "RKT",
-   "SNOW"
+   "SNOW",
+   "CCL",
+   "W"
   ],
   "triggered": [
    "AAPL",
@@ -1107,7 +1109,9 @@
    "HMC",
    "RCL",
    "RKT",
-   "SNOW"
+   "SNOW",
+   "CCL",
+   "W"
   ],
   "hits": [
    {
@@ -2293,6 +2297,22 @@
     "or_high": 274.86,
     "or_low": 268.51,
     "pct_over": 0.3
+   },
+   {
+    "symbol": "CCL",
+    "at": "12:10",
+    "price": 28.0,
+    "or_high": 27.94,
+    "or_low": 27.5,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "W",
+    "at": "12:10",
+    "price": 95.9,
+    "or_high": 95.71,
+    "or_low": 94.0,
+    "pct_over": 0.2
    }
   ]
  },
@@ -2300,8 +2320,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 714.6400146484375,
-  "last_ts": 1795539900
+  "last": 717.7000122070312,
+  "last_ts": 1795540200
  },
  "seen_trades": 0,
  "daily": [

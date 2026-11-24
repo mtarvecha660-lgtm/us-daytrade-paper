@@ -1,21 +1,21 @@
 {
- "updated": 1795540121,
- "updated_et": "2026-11-24 12:08 ET",
+ "updated": 1795540437,
+ "updated_et": "2026-11-24 12:13 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9153.29,
-  "return": -0.08467099999999994,
+  "equity": 9164.3,
+  "return": -0.08357000000000003,
   "started": 1793559735
  },
  "spy": {
-  "value": 9405.83,
-  "return": -0.05941700000000005,
+  "value": 9446.11,
+  "return": -0.05538899999999991,
   "start_price": 759.47998046875,
-  "last": 714.6400146484375
+  "last": 717.7000122070312
  },
  "position": {
   "symbol": "AAPL",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "NOC",
-    "at": "09:55",
-    "price": 554.68,
-    "or_high": 554.17,
-    "or_low": 539.0,
-    "pct_over": 0.09
-   },
-   {
-    "symbol": "ROST",
-    "at": "09:55",
-    "price": 220.02,
-    "or_high": 219.35,
-    "or_low": 215.8,
-    "pct_over": 0.31
-   },
    {
     "symbol": "SE",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 274.86,
     "or_low": 268.51,
     "pct_over": 0.3
+   },
+   {
+    "symbol": "CCL",
+    "at": "12:10",
+    "price": 28.0,
+    "or_high": 27.94,
+    "or_low": 27.5,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "W",
+    "at": "12:10",
+    "price": 95.9,
+    "or_high": 95.71,
+    "or_low": 94.0,
+    "pct_over": 0.2
    }
   ],
-  "n_hits": 148,
+  "n_hits": 150,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795540200,
+   "et": "2026-11-24 12:10",
+   "kind": "busy",
+   "text": "2 more breakouts (CCL, W) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "CCL",
+    "W"
+   ]
+  },
   {
    "ts": 1795539000,
    "et": "2026-11-24 11:50",
@@ -2443,15 +2453,6 @@
    "text": "1 more breakout (DHR) not taken: already in WMT (one trade at a time)",
    "symbols": [
     "DHR"
-   ]
-  },
-  {
-   "ts": 1795101000,
-   "et": "2026-11-19 10:10",
-   "kind": "busy",
-   "text": "1 more breakout (HAL) not taken: already in WMT (one trade at a time)",
-   "symbols": [
-    "HAL"
    ]
   }
  ],
@@ -8280,6 +8281,11 @@
    "ts": 1795540121,
    "equity": 9153.29,
    "spy": 9405.83
+  },
+  {
+   "ts": 1795540437,
+   "equity": 9164.3,
+   "spy": 9446.11
   }
  ],
  "daily": [
@@ -8381,6 +8387,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795540437,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 9.8,
+   "errors": [],
+   "run_id": "45446191961",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795540121,
    "phase": "open",
@@ -8770,25 +8786,15 @@
    "errors": [],
    "run_id": "45264944005",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795467245,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 17.5,
-   "errors": [],
-   "run_id": "45264074374",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795540121,
+  "tick_at": 1795540437,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795540128,
-  "candidates": 8,
-  "charts_fetched": 10,
+  "yahoo_time": 1795540445,
+  "candidates": 12,
+  "charts_fetched": 14,
   "ok": true,
   "errors": [],
   "stale_data": false,

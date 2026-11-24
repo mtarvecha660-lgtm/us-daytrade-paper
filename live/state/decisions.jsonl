@@ -519,3 +519,4 @@
 {"ts": 1795537500, "et": "2026-11-24 11:25", "kind": "busy", "text": "1 more breakout (UPS) not taken: already in AAPL (one trade at a time)", "symbols": ["UPS"]}
 {"ts": 1795538700, "et": "2026-11-24 11:45", "kind": "busy", "text": "1 more breakout (OKTA) not taken: already in AAPL (one trade at a time)", "symbols": ["OKTA"]}
 {"ts": 1795539000, "et": "2026-11-24 11:50", "kind": "busy", "text": "4 more breakouts (HMC, RCL, RKT, SNOW) not taken: already in AAPL (one trade at a time)", "symbols": ["HMC", "RCL", "RKT", "SNOW"]}
+{"ts": 1795540200, "et": "2026-11-24 12:10", "kind": "busy", "text": "2 more breakouts (CCL, W) not taken: already in AAPL (one trade at a time)", "symbols": ["CCL", "W"]}
