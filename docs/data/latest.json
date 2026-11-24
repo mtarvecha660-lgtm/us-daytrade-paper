@@ -1,6 +1,6 @@
 {
- "updated": 1795543912,
- "updated_et": "2026-11-24 13:11 ET",
+ "updated": 1795544223,
+ "updated_et": "2026-11-24 13:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9454.53,
-  "return": -0.0545469999999999,
+  "value": 9456.83,
+  "return": -0.05431700000000006,
   "start_price": 759.47998046875,
-  "last": 718.3400268554688
+  "last": 718.5150146484375
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "WFC",
-    "at": "09:55",
-    "price": 80.61,
-    "or_high": 80.3,
-    "or_low": 79.14,
-    "pct_over": 0.39
-   },
    {
     "symbol": "WMT",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 86.3,
     "or_low": 84.12,
     "pct_over": 0.14
+   },
+   {
+    "symbol": "BA",
+    "at": "13:15",
+    "price": 164.67,
+    "or_high": 164.33,
+    "or_low": 161.07,
+    "pct_over": 0.21
    }
   ],
-  "n_hits": 157,
+  "n_hits": 158,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795544100,
+   "et": "2026-11-24 13:15",
+   "kind": "busy",
+   "text": "1 more breakout (BA) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "BA"
+   ]
+  },
   {
    "ts": 1795543800,
    "et": "2026-11-24 13:10",
@@ -2444,13 +2453,6 @@
    "symbols": [
     "RKT"
    ]
-  },
-  {
-   "ts": 1795105800,
-   "et": "2026-11-19 11:30",
-   "kind": "fill",
-   "text": "BUY 65 UAL filled at $107.64 (next bar's open $107.62 + slippage). Stop $106.32, target $108.88",
-   "symbol": "UAL"
   }
  ],
  "equity": [
@@ -8338,6 +8340,11 @@
    "ts": 1795543912,
    "equity": 9189.95,
    "spy": 9454.53
+  },
+  {
+   "ts": 1795544223,
+   "equity": 9189.95,
+   "spy": 9456.83
   }
  ],
  "daily": [
@@ -8439,6 +8446,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795544223,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 10.1,
+   "errors": [],
+   "run_id": "45457785604",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795543912,
    "phase": "open",
@@ -8828,25 +8845,15 @@
    "errors": [],
    "run_id": "45418767638",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795531583,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "45417795321",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795543912,
+  "tick_at": 1795544223,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795543918,
-  "candidates": 15,
-  "charts_fetched": 17,
+  "yahoo_time": 1795544232,
+  "candidates": 14,
+  "charts_fetched": 16,
   "ok": true,
   "errors": [],
   "stale_data": false,
