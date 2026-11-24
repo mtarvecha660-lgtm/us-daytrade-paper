@@ -1,21 +1,21 @@
 {
- "updated": 1795535698,
- "updated_et": "2026-11-24 10:54 ET",
+ "updated": 1795536013,
+ "updated_et": "2026-11-24 11:00 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9146.26,
-  "return": -0.08537399999999995,
+  "equity": 9150.44,
+  "return": -0.08495599999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9397.15,
-  "return": -0.06028500000000003,
+  "value": 9416.49,
+  "return": -0.05835100000000004,
   "start_price": 759.47998046875,
-  "last": 713.97998046875
+  "last": 715.4500122070312
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "ISRG",
-    "at": "09:55",
-    "price": 428.0,
-    "or_high": 424.54,
-    "or_low": 410.5,
-    "pct_over": 0.82
-   },
    {
     "symbol": "JNJ",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 78.0,
     "or_low": 74.98,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:55",
+    "price": 166.82,
+    "or_high": 166.62,
+    "or_low": 164.74,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 141,
+  "n_hits": 142,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795535700,
+   "et": "2026-11-24 10:55",
+   "kind": "busy",
+   "text": "1 more breakout (YUM) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "YUM"
+   ]
+  },
   {
    "ts": 1795534500,
    "et": "2026-11-24 10:35",
@@ -2451,13 +2460,6 @@
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
    "others": []
-  },
-  {
-   "ts": 1795100400,
-   "et": "2026-11-19 10:00",
-   "kind": "exit",
-   "text": "SELL 10 AMD at $544.43: stop $544.54 hit. P&L $-101.80 (-1.02R)",
-   "symbol": "AMD"
   }
  ],
  "equity": [
@@ -8215,6 +8217,11 @@
    "ts": 1795535698,
    "equity": 9146.26,
    "spy": 9397.15
+  },
+  {
+   "ts": 1795536013,
+   "equity": 9150.44,
+   "spy": 9416.49
   }
  ],
  "daily": [
@@ -8316,6 +8323,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795536013,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 6.9,
+   "errors": [],
+   "run_id": "45431958600",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795535698,
    "phase": "open",
@@ -8705,25 +8722,15 @@
    "errors": [],
    "run_id": "45252245744",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795462833,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 21.0,
-   "errors": [],
-   "run_id": "45251353792",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795535698,
+  "tick_at": 1795536013,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795535702,
-  "candidates": 7,
-  "charts_fetched": 9,
+  "yahoo_time": 1795536018,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,

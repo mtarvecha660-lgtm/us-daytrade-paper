@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795535400,
+  "last_bar_end": 1795535700,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 141,
+  "triggers_seen": 142,
   "missed": [
    "ABBV",
    "ABT",
@@ -950,7 +950,8 @@
    "NKE",
    "REGN",
    "MELI",
-   "SWKS"
+   "SWKS",
+   "YUM"
   ],
   "triggered": [
    "AAPL",
@@ -1093,7 +1094,8 @@
    "NKE",
    "REGN",
    "MELI",
-   "SWKS"
+   "SWKS",
+   "YUM"
   ],
   "hits": [
    {
@@ -2223,6 +2225,14 @@
     "or_high": 78.0,
     "or_low": 74.98,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "YUM",
+    "at": "10:55",
+    "price": 166.82,
+    "or_high": 166.62,
+    "or_low": 164.74,
+    "pct_over": 0.12
    }
   ]
  },
@@ -2230,8 +2240,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 713.97998046875,
-  "last_ts": 1795535400
+  "last": 715.4500122070312,
+  "last_ts": 1795535700
  },
  "seen_trades": 0,
  "daily": [
