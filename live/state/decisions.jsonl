@@ -528,3 +528,4 @@
 {"ts": 1795544100, "et": "2026-11-24 13:15", "kind": "busy", "text": "1 more breakout (BA) not taken: already in AAPL (one trade at a time)", "symbols": ["BA"]}
 {"ts": 1795547400, "et": "2026-11-24 14:10", "kind": "busy", "text": "1 more breakout (BB) not taken: already in AAPL (one trade at a time)", "symbols": ["BB"]}
 {"ts": 1795548300, "et": "2026-11-24 14:25", "kind": "busy", "text": "1 more breakout (AAL) not taken: already in AAPL (one trade at a time)", "symbols": ["AAL"]}
+{"ts": 1795549500, "et": "2026-11-24 14:45", "kind": "busy", "text": "1 more breakout (XPEV) not taken: already in AAPL (one trade at a time)", "symbols": ["XPEV"]}

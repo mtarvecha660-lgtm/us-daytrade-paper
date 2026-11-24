@@ -1,21 +1,21 @@
 {
- "updated": 1795549254,
- "updated_et": "2026-11-24 14:40 ET",
+ "updated": 1795549566,
+ "updated_et": "2026-11-24 14:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9176.46,
-  "return": -0.08235400000000004,
+  "equity": 9186.53,
+  "return": -0.08134699999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9447.82,
-  "return": -0.05521799999999999,
+  "value": 9447.23,
+  "return": -0.05527700000000002,
   "start_price": 759.47998046875,
-  "last": 717.8300170898438
+  "last": 717.7849731445312
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "APO",
-    "at": "10:00",
-    "price": 119.52,
-    "or_high": 119.12,
-    "or_low": 115.64,
-    "pct_over": 0.34
-   },
    {
     "symbol": "APP",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 12.63,
     "or_low": 12.51,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "XPEV",
+    "at": "14:45",
+    "price": 9.06,
+    "or_high": 9.05,
+    "or_low": 8.72,
+    "pct_over": 0.11
    }
   ],
-  "n_hits": 160,
+  "n_hits": 161,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795549500,
+   "et": "2026-11-24 14:45",
+   "kind": "busy",
+   "text": "1 more breakout (XPEV) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "XPEV"
+   ]
+  },
   {
    "ts": 1795548300,
    "et": "2026-11-24 14:25",
@@ -2446,13 +2455,6 @@
     "exit": "plan: entry $544.05, stop $541.02 (opening-range midpoint), target $547.08 (1R (one times the risk)), flat by 15:55 ET",
     "budget": "opening-range breakout on NOC: 12 shares, bound by your position cap (12 x 3.03 = $36.36 at the stop) (limits: max loss 33; position cap 12; max order 14; cash 15)"
    }
-  },
-  {
-   "ts": 1795107900,
-   "et": "2026-11-19 12:05",
-   "kind": "exit",
-   "text": "SELL 65 UAL at $106.30: stop $106.32 hit. P&L $-87.28 (-1.05R)",
-   "symbol": "UAL"
   }
  ],
  "equity": [
@@ -8425,6 +8427,11 @@
    "ts": 1795549254,
    "equity": 9176.46,
    "spy": 9447.82
+  },
+  {
+   "ts": 1795549566,
+   "equity": 9186.53,
+   "spy": 9447.23
   }
  ],
  "daily": [
@@ -8526,6 +8533,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795549566,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 8.2,
+   "errors": [],
+   "run_id": "45473654503",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795549254,
    "phase": "open",
@@ -8915,25 +8932,15 @@
    "errors": [],
    "run_id": "45436110527",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795536964,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 10.3,
-   "errors": [],
-   "run_id": "45435066660",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795549254,
+  "tick_at": 1795549566,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795549260,
-  "candidates": 14,
-  "charts_fetched": 16,
+  "yahoo_time": 1795549571,
+  "candidates": 13,
+  "charts_fetched": 15,
   "ok": true,
   "errors": [],
   "stale_data": false,
