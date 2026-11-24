@@ -1,6 +1,6 @@
 {
- "updated": 1795550928,
- "updated_et": "2026-11-24 15:08 ET",
+ "updated": 1795551249,
+ "updated_et": "2026-11-24 15:14 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
@@ -12,10 +12,10 @@
   "started": 1793559735
  },
  "spy": {
-  "value": 9420.44,
-  "return": -0.057955999999999896,
+  "value": 9421.36,
+  "return": -0.057863999999999916,
   "start_price": 759.47998046875,
-  "last": 715.75
+  "last": 715.8200073242188
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "APP",
-    "at": "10:00",
-    "price": 384.15,
-    "or_high": 380.24,
-    "or_low": 373.09,
-    "pct_over": 1.03
-   },
    {
     "symbol": "AVGO",
     "at": "10:00",
@@ -516,9 +508,17 @@
     "or_high": 9.05,
     "or_low": 8.72,
     "pct_over": 0.11
+   },
+   {
+    "symbol": "MARA",
+    "at": "15:10",
+    "price": 5.5,
+    "or_high": 5.47,
+    "or_low": 5.24,
+    "pct_over": 0.52
    }
   ],
-  "n_hits": 161,
+  "n_hits": 162,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795551000,
+   "et": "2026-11-24 15:10",
+   "kind": "busy",
+   "text": "1 more breakout (MARA) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "MARA"
+   ]
+  },
   {
    "ts": 1795549500,
    "et": "2026-11-24 14:45",
@@ -2443,18 +2452,6 @@
     "BIIB",
     "DOCU"
    ]
-  },
-  {
-   "ts": 1795110300,
-   "et": "2026-11-19 12:45",
-   "kind": "skip",
-   "text": "NOC triggered but skipped. trader-risk BLOCK: trades: 3 entries placed today plus 0 passed earlier in this batch, your limit is 3 a day",
-   "symbol": "NOC",
-   "why": {
-    "scanner": "NOC: the 12:40 bar closed at $544.05, above the 15-min opening range high $543.98 (range 538.06-543.98)",
-    "exit": "plan: entry $544.05, stop $541.02 (opening-range midpoint), target $547.08 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on NOC: 12 shares, bound by your position cap (12 x 3.03 = $36.36 at the stop) (limits: max loss 33; position cap 12; max order 14; cash 15)"
-   }
   }
  ],
  "equity": [
@@ -8452,6 +8449,11 @@
    "ts": 1795550928,
    "equity": 9163.54,
    "spy": 9420.44
+  },
+  {
+   "ts": 1795551249,
+   "equity": 9163.54,
+   "spy": 9421.36
   }
  ],
  "daily": [
@@ -8553,6 +8555,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795551249,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 7.2,
+   "errors": [],
+   "run_id": "45478584249",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795550928,
    "phase": "open",
@@ -8942,25 +8954,15 @@
    "errors": [],
    "run_id": "45441180646",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795538538,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 10.2,
-   "errors": [],
-   "run_id": "45440173652",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795550928,
+  "tick_at": 1795551249,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795550935,
-  "candidates": 10,
-  "charts_fetched": 12,
+  "yahoo_time": 1795551254,
+  "candidates": 9,
+  "charts_fetched": 11,
   "ok": true,
   "errors": [],
   "stale_data": false,
