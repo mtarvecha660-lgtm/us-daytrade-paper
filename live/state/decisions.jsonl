@@ -530,3 +530,4 @@
 {"ts": 1795548300, "et": "2026-11-24 14:25", "kind": "busy", "text": "1 more breakout (AAL) not taken: already in AAPL (one trade at a time)", "symbols": ["AAL"]}
 {"ts": 1795549500, "et": "2026-11-24 14:45", "kind": "busy", "text": "1 more breakout (XPEV) not taken: already in AAPL (one trade at a time)", "symbols": ["XPEV"]}
 {"ts": 1795551000, "et": "2026-11-24 15:10", "kind": "busy", "text": "1 more breakout (MARA) not taken: already in AAPL (one trade at a time)", "symbols": ["MARA"]}
+{"ts": 1795553700, "et": "2026-11-24 15:55", "kind": "exit", "text": "SELL 19 AAPL at $353.48: flat by 15:55 ET (the skill's flat-by rule). P&L $+9.95 (+0.14R)", "symbol": "AAPL"}

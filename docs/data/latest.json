@@ -1,38 +1,23 @@
 {
- "updated": 1795553448,
- "updated_et": "2026-11-24 15:50 ET",
+ "updated": 1795553762,
+ "updated_et": "2026-11-24 15:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2478.78,
-  "equity": 9171.33,
-  "return": -0.08286700000000002,
+  "cash": 9194.98,
+  "equity": 9194.98,
+  "return": -0.08050200000000007,
   "started": 1793559735
  },
  "spy": {
-  "value": 9431.04,
-  "return": -0.05689599999999995,
+  "value": 9453.87,
+  "return": -0.05461299999999991,
   "start_price": 759.47998046875,
-  "last": 716.5549926757812
+  "last": 718.2899780273438
  },
- "position": {
-  "symbol": "AAPL",
-  "qty": 19,
-  "entry": 352.9606,
-  "entry_et": "09:50",
-  "stop": 349.19,
-  "target": 356.71,
-  "last": null,
-  "why": {
-   "scanner": "AAPL: the 09:45 bar closed at $352.95, above the 15-min opening range high $352.50 (range 345.88-352.50)",
-   "exit": "plan: entry $352.95, stop $349.19 (opening-range midpoint), target $356.71 (1R (one times the risk)), flat by 15:55 ET",
-   "budget": "opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 3.76 = $71.44 at the stop) (limits: max loss 26; position cap 19; max order 22; cash 23)",
-   "risk": "trader-risk PASS: entry 352.95 (the latest price), stop 349.19, target 356.71: risk 3.76 a share; max loss $71.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-24",
@@ -522,23 +507,23 @@
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Holding 19 AAPL bought at $352.96. It sells at the stop $349.19, the target $356.71, or at 15:55 ET, whichever comes first.",
+ "next_move": "No new entries after 15:30 ET (the skill's rule). Flat, waiting for tomorrow.",
  "stats": {
-  "trades": 34,
-  "wins": 13,
-  "win_rate": 0.38235294117647056,
-  "avg_r": -0.24326470588235297,
-  "t_stat_r": -1.648900212660496,
-  "net_pnl": -815.0,
-  "profit_factor": 0.4230211039765528,
-  "expectancy_usd": -23.97,
-  "avg_win": 45.96,
+  "trades": 35,
+  "wins": 14,
+  "win_rate": 0.4,
+  "avg_r": -0.23234285714285718,
+  "t_stat_r": -1.617197619321951,
+  "net_pnl": -805.05,
+  "profit_factor": 0.4300652021549986,
+  "expectancy_usd": -23.0,
+  "avg_win": 43.39,
   "avg_loss": -67.26,
-  "costs_usd": 75.04,
+  "costs_usd": 77.72,
   "exits": {
    "stop": 16,
    "target": 8,
-   "flat-by": 10
+   "flat-by": 11
   }
  },
  "curve": {
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.09675026881693727,
  "trades": [
+  {
+   "date": "2026-11-24",
+   "symbol": "AAPL",
+   "qty": 19,
+   "entry_et": "09:50",
+   "entry_fill": 352.9606,
+   "exit_et": "15:55",
+   "exit_fill": 353.4843,
+   "exit_reason": "flat by 15:55 ET (the skill's flat-by rule)",
+   "stop": 349.19,
+   "target": 356.71,
+   "pnl": 9.95,
+   "r": 0.139,
+   "risk_usd": 71.44,
+   "cost_usd": 2.68,
+   "why": {
+    "scanner": "AAPL: the 09:45 bar closed at $352.95, above the 15-min opening range high $352.50 (range 345.88-352.50)",
+    "exit": "plan: entry $352.95, stop $349.19 (opening-range midpoint), target $356.71 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 3.76 = $71.44 at the stop) (limits: max loss 26; position cap 19; max order 22; cash 23)",
+    "risk": "trader-risk PASS: entry 352.95 (the latest price), stop 349.19, target 356.71: risk 3.76 a share; max loss $71.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-23",
    "symbol": "MRNA",
@@ -1375,6 +1384,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795553700,
+   "et": "2026-11-24 15:55",
+   "kind": "exit",
+   "text": "SELL 19 AAPL at $353.48: flat by 15:55 ET (the skill's flat-by rule). P&L $+9.95 (+0.14R)",
+   "symbol": "AAPL"
+  },
   {
    "ts": 1795551000,
    "et": "2026-11-24 15:10",
@@ -2415,43 +2431,6 @@
    "kind": "fill",
    "text": "BUY 13 MSFT filled at $499.13 (next bar's open $499.03 + slippage). Stop $494.62, target $503.78",
    "symbol": "MSFT"
-  },
-  {
-   "ts": 1795186200,
-   "et": "2026-11-20 09:50",
-   "kind": "order",
-   "text": "BUY 13 MSFT at market (decided on the 09:50 close). opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 4.58 = $59.54 at the stop) (limits: max loss 21; position cap 13; max order 16; cash 16)",
-   "symbol": "MSFT",
-   "why": {
-    "scanner": "MSFT: the 09:45 bar closed at $499.20, above the 15-min opening range high $498.36 (range 490.88-498.36)",
-    "exit": "plan: entry $499.20, stop $494.62 (opening-range midpoint), target $503.78 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on MSFT: 13 shares, bound by your position cap (13 x 4.58 = $59.54 at the stop) (limits: max loss 21; position cap 13; max order 16; cash 16)",
-    "risk": "trader-risk PASS: entry 499.20 (the latest price), stop 494.62, target 503.78: risk 4.58 a share; max loss $59.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "INTC",
-    "CAT",
-    "BABA",
-    "PYPL",
-    "IBM",
-    "SNPS",
-    "SPOT",
-    "CDNS",
-    "F",
-    "MDB",
-    "JD",
-    "RBLX",
-    "HAL",
-    "DVN",
-    "HON",
-    "SLB",
-    "NOC",
-    "GD",
-    "FANG",
-    "BIIB",
-    "DOCU"
-   ]
   }
  ],
  "equity": [
@@ -8489,6 +8468,11 @@
    "ts": 1795553448,
    "equity": 9171.33,
    "spy": 9431.04
+  },
+  {
+   "ts": 1795553762,
+   "equity": 9194.98,
+   "spy": 9453.87
   }
  ],
  "daily": [
@@ -8590,6 +8574,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795553762,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 9.5,
+   "errors": [],
+   "run_id": "45485861110",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795553448,
    "phase": "open",
@@ -8979,23 +8973,13 @@
    "errors": [],
    "run_id": "45449140300",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795541072,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.6,
-   "errors": [],
-   "run_id": "45448171946",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795553448,
+  "tick_at": 1795553762,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795553455,
+  "yahoo_time": 1795553765,
   "candidates": 9,
   "charts_fetched": 11,
   "ok": true,
