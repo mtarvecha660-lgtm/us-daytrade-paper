@@ -1,21 +1,21 @@
 {
- "updated": 1795543591,
- "updated_et": "2026-11-24 13:06 ET",
+ "updated": 1795543912,
+ "updated_et": "2026-11-24 13:11 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2478.78,
-  "equity": 9193.75,
-  "return": -0.08062499999999995,
+  "equity": 9189.95,
+  "return": -0.08100499999999988,
   "started": 1793559735
  },
  "spy": {
-  "value": 9460.58,
-  "return": -0.053942000000000045,
+  "value": 9454.53,
+  "return": -0.0545469999999999,
   "start_price": 759.47998046875,
-  "last": 718.7999877929688
+  "last": 718.3400268554688
  },
  "position": {
   "symbol": "AAPL",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-24",
   "hits": [
-   {
-    "symbol": "VRTX",
-    "at": "09:55",
-    "price": 562.16,
-    "or_high": 560.29,
-    "or_low": 540.98,
-    "pct_over": 0.33
-   },
    {
     "symbol": "WFC",
     "at": "09:55",
@@ -516,9 +508,17 @@
     "or_high": 100.73,
     "or_low": 96.81,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "PDD",
+    "at": "13:10",
+    "price": 86.42,
+    "or_high": 86.3,
+    "or_low": 84.12,
+    "pct_over": 0.14
    }
   ],
-  "n_hits": 156,
+  "n_hits": 157,
   "entries": 1,
   "max_trades": 3
  },
@@ -1375,6 +1375,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795543800,
+   "et": "2026-11-24 13:10",
+   "kind": "busy",
+   "text": "1 more breakout (PDD) not taken: already in AAPL (one trade at a time)",
+   "symbols": [
+    "PDD"
+   ]
+  },
   {
    "ts": 1795542600,
    "et": "2026-11-24 12:50",
@@ -2442,21 +2451,6 @@
    "kind": "fill",
    "text": "BUY 65 UAL filled at $107.64 (next bar's open $107.62 + slippage). Stop $106.32, target $108.88",
    "symbol": "UAL"
-  },
-  {
-   "ts": 1795105800,
-   "et": "2026-11-19 11:30",
-   "kind": "order",
-   "text": "BUY 65 UAL at market (decided on the 11:30 close). opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
-   "symbol": "UAL",
-   "why": {
-    "scanner": "UAL: the 11:25 bar closed at $107.60, above the 15-min opening range high $107.55 (range 105.10-107.55)",
-    "exit": "plan: entry $107.60, stop $106.32 (opening-range midpoint), target $108.88 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on UAL: 65 shares, bound by your position cap (65 x 1.28 = $83.20 at the stop) (limits: max loss 78; position cap 65; max order 74; cash 78)",
-    "risk": "trader-risk PASS: entry 107.60 (the plan's entry), stop 106.32, target 108.88: risk 1.28 a share; max loss $83.20 (limit $100), reward:risk 1.00 (min 1); today before this: 2 of 3 trades, $168.74 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": []
   }
  ],
  "equity": [
@@ -8339,6 +8333,11 @@
    "ts": 1795543591,
    "equity": 9193.75,
    "spy": 9460.58
+  },
+  {
+   "ts": 1795543912,
+   "equity": 9189.95,
+   "spy": 9454.53
   }
  ],
  "daily": [
@@ -8440,6 +8439,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795543912,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 8.2,
+   "errors": [],
+   "run_id": "45456789949",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795543591,
    "phase": "open",
@@ -8829,23 +8838,13 @@
    "errors": [],
    "run_id": "45417795321",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795531270,
-   "phase": "open",
-   "status": "ok",
-   "bars": 2,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "45416820904",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795543591,
+  "tick_at": 1795543912,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795543598,
+  "yahoo_time": 1795543918,
   "candidates": 15,
   "charts_fetched": 17,
   "ok": true,

@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795543500,
+  "last_bar_end": 1795543800,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 156,
+  "triggers_seen": 157,
   "missed": [
    "ABBV",
    "ABT",
@@ -965,7 +965,8 @@
    "QCOM",
    "ENPH",
    "NCLH",
-   "BBY"
+   "BBY",
+   "PDD"
   ],
   "triggered": [
    "AAPL",
@@ -1123,7 +1124,8 @@
    "QCOM",
    "ENPH",
    "NCLH",
-   "BBY"
+   "BBY",
+   "PDD"
   ],
   "hits": [
    {
@@ -2373,6 +2375,14 @@
     "or_high": 100.73,
     "or_low": 96.81,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "PDD",
+    "at": "13:10",
+    "price": 86.42,
+    "or_high": 86.3,
+    "or_low": 84.12,
+    "pct_over": 0.14
    }
   ]
  },
@@ -2380,8 +2390,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 718.7999877929688,
-  "last_ts": 1795543500
+  "last": 718.3400268554688,
+  "last_ts": 1795543800
  },
  "seen_trades": 0,
  "daily": [
