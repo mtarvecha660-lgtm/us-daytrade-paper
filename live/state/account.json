@@ -825,7 +825,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-24",
-  "last_bar_end": 1795532100,
+  "last_bar_end": 1795532400,
   "position": {
    "symbol": "AAPL",
    "qty": 19,
@@ -876,7 +876,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 100,
+  "triggers_seen": 112,
   "missed": [
    "ABBV",
    "ABT",
@@ -909,7 +909,19 @@
    "VRTX",
    "WFC",
    "WMT",
-   "XOM"
+   "XOM",
+   "APO",
+   "APP",
+   "AVGO",
+   "DASH",
+   "META",
+   "MPC",
+   "PEP",
+   "RBLX",
+   "RUN",
+   "SLB",
+   "SOFI",
+   "T"
   ],
   "triggered": [
    "AAPL",
@@ -1011,7 +1023,19 @@
    "VRTX",
    "WFC",
    "WMT",
-   "XOM"
+   "XOM",
+   "APO",
+   "APP",
+   "AVGO",
+   "DASH",
+   "META",
+   "MPC",
+   "PEP",
+   "RBLX",
+   "RUN",
+   "SLB",
+   "SOFI",
+   "T"
   ],
   "hits": [
    {
@@ -1813,6 +1837,102 @@
     "or_high": 158.91,
     "or_low": 157.06,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "APO",
+    "at": "10:00",
+    "price": 119.52,
+    "or_high": 119.12,
+    "or_low": 115.64,
+    "pct_over": 0.34
+   },
+   {
+    "symbol": "APP",
+    "at": "10:00",
+    "price": 384.15,
+    "or_high": 380.24,
+    "or_low": 373.09,
+    "pct_over": 1.03
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:00",
+    "price": 307.99,
+    "or_high": 303.62,
+    "or_low": 298.41,
+    "pct_over": 1.44
+   },
+   {
+    "symbol": "DASH",
+    "at": "10:00",
+    "price": 163.42,
+    "or_high": 162.83,
+    "or_low": 159.19,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "META",
+    "at": "10:00",
+    "price": 598.82,
+    "or_high": 597.28,
+    "or_low": 588.28,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 358.82,
+    "or_high": 358.02,
+    "or_low": 348.27,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:00",
+    "price": 141.9,
+    "or_high": 141.87,
+    "or_low": 140.0,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:00",
+    "price": 53.72,
+    "or_high": 53.63,
+    "or_low": 51.46,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "RUN",
+    "at": "10:00",
+    "price": 7.1,
+    "or_high": 7.09,
+    "or_low": 6.82,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "SLB",
+    "at": "10:00",
+    "price": 46.67,
+    "or_high": 46.65,
+    "or_low": 45.55,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "SOFI",
+    "at": "10:00",
+    "price": 13.15,
+    "or_high": 13.07,
+    "or_low": 12.9,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "T",
+    "at": "10:00",
+    "price": 22.74,
+    "or_high": 22.69,
+    "or_low": 22.33,
+    "pct_over": 0.2
    }
   ]
  },
@@ -1820,8 +1940,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 718.89501953125,
-  "last_ts": 1795532100
+  "last": 719.7999877929688,
+  "last_ts": 1795532400
  },
  "seen_trades": 0,
  "daily": [
