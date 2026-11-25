@@ -849,21 +849,195 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795617900,
+  "last_bar_end": 1795618200,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "ADI",
+   "qty": 13,
+   "plan": {
+    "symbol": "ADI",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-25",
+    "entry_time": "9:50 AM",
+    "entry": 314.02,
+    "stop": 306.79,
+    "target": 321.25,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "15:55"
+   },
+   "why": {
+    "scanner": "ADI: the 09:45 bar closed at $314.02, above the 15-min opening range high $313.33 (range 300.25-313.33)",
+    "exit": "plan: entry $314.02, stop $306.79 (opening-range midpoint), target $321.25 (1R (one times the risk)), flat by 15:55 ET",
+    "budget": "opening-range breakout on ADI: 13 shares, bound by your $100 max loss per trade (13 x 7.23 = $93.99 at the stop) (limits: max loss 13; position cap 21; max order 25; cash 26)",
+    "risk": "trader-risk PASS: entry 314.02 (the latest price), stop 306.79, target 321.25: risk 7.23 a share; max loss $93.99 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795618200,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-25",
+    "symbol": "ADI",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 93.99,
+    "at": "2026-11-25T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 15,
+  "missed": [],
+  "triggered": [
+   "ABT",
+   "ADI",
+   "COP",
+   "CVX",
+   "DVN",
+   "ENPH",
+   "EOG",
+   "FANG",
+   "GD",
+   "HAL",
+   "OXY",
+   "PINS",
+   "SEDG",
+   "VLO",
+   "XOM"
+  ],
+  "hits": [
+   {
+    "symbol": "ABT",
+    "at": "09:50",
+    "price": 107.12,
+    "or_high": 106.92,
+    "or_low": 105.53,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "ADI",
+    "at": "09:50",
+    "price": 314.02,
+    "or_high": 313.33,
+    "or_low": 300.25,
+    "pct_over": 0.22
+   },
+   {
+    "symbol": "COP",
+    "at": "09:50",
+    "price": 135.74,
+    "or_high": 135.4,
+    "or_low": 133.0,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "CVX",
+    "at": "09:50",
+    "price": 210.55,
+    "or_high": 210.31,
+    "or_low": 207.19,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:50",
+    "price": 41.94,
+    "or_high": 41.65,
+    "or_low": 40.99,
+    "pct_over": 0.7
+   },
+   {
+    "symbol": "ENPH",
+    "at": "09:50",
+    "price": 19.53,
+    "or_high": 19.49,
+    "or_low": 19.08,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "EOG",
+    "at": "09:50",
+    "price": 148.18,
+    "or_high": 147.58,
+    "or_low": 145.51,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:50",
+    "price": 178.55,
+    "or_high": 178.06,
+    "or_low": 174.96,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "GD",
+    "at": "09:50",
+    "price": 352.82,
+    "or_high": 352.06,
+    "or_low": 348.69,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:50",
+    "price": 30.89,
+    "or_high": 30.81,
+    "or_low": 30.38,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:50",
+    "price": 54.09,
+    "or_high": 53.78,
+    "or_low": 52.96,
+    "pct_over": 0.58
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:50",
+    "price": 18.37,
+    "or_high": 18.29,
+    "or_low": 18.05,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "SEDG",
+    "at": "09:50",
+    "price": 18.09,
+    "or_high": 17.83,
+    "or_low": 17.3,
+    "pct_over": 1.49
+   },
+   {
+    "symbol": "VLO",
+    "at": "09:50",
+    "price": 319.54,
+    "or_high": 318.96,
+    "or_low": 314.15,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "XOM",
+    "at": "09:50",
+    "price": 159.2,
+    "or_high": 158.52,
+    "or_low": 156.83,
+    "pct_over": 0.43
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 696.2750244140625,
-  "last_ts": 1795617900
+  "last": 697.5999755859375,
+  "last_ts": 1795618200
  },
  "seen_trades": 0,
  "daily": [
