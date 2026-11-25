@@ -538,3 +538,4 @@
 {"ts": 1795619100, "et": "2026-11-25 10:05", "kind": "busy", "text": "15 more breakouts (ADBE, AVGO, BB, DASH, ELV, HOOD, HUM, NET ...) not taken: already in ADI (one trade at a time)", "symbols": ["ADBE", "AVGO", "BB", "DASH", "ELV", "HOOD", "HUM", "NET", "NU", "RTX", "SOFI", "TWLO", "U", "UNH", "ZM"]}
 {"ts": 1795619400, "et": "2026-11-25 10:10", "kind": "busy", "text": "4 more breakouts (CVS, PEP, SO, ZTS) not taken: already in ADI (one trade at a time)", "symbols": ["CVS", "PEP", "SO", "ZTS"]}
 {"ts": 1795619700, "et": "2026-11-25 10:15", "kind": "busy", "text": "3 more breakouts (APP, CHWY, T) not taken: already in ADI (one trade at a time)", "symbols": ["APP", "CHWY", "T"]}
+{"ts": 1795620600, "et": "2026-11-25 10:30", "kind": "busy", "text": "1 more breakout (D) not taken: already in ADI (one trade at a time)", "symbols": ["D"]}

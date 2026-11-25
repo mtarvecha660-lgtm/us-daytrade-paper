@@ -849,7 +849,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795620300,
+  "last_bar_end": 1795620600,
   "position": {
    "symbol": "ADI",
    "qty": 13,
@@ -900,7 +900,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 88,
+  "triggers_seen": 89,
   "missed": [
    "CHTR",
    "CSCO",
@@ -974,7 +974,8 @@
    "ZTS",
    "APP",
    "CHWY",
-   "T"
+   "T",
+   "D"
   ],
   "triggered": [
    "ABT",
@@ -1064,7 +1065,8 @@
    "ZTS",
    "APP",
    "CHWY",
-   "T"
+   "T",
+   "D"
   ],
   "hits": [
    {
@@ -1770,6 +1772,14 @@
     "or_high": 23.17,
     "or_low": 22.89,
     "pct_over": 0.04
+   },
+   {
+    "symbol": "D",
+    "at": "10:30",
+    "price": 67.74,
+    "or_high": 67.73,
+    "or_low": 67.28,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1777,8 +1787,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 698.4400024414062,
-  "last_ts": 1795620300
+  "last": 698.6099853515625,
+  "last_ts": 1795620600
  },
  "seen_trades": 0,
  "daily": [
