@@ -1,49 +1,39 @@
 {
- "updated": 1795618292,
- "updated_et": "2026-11-25 09:51 ET",
+ "updated": 1795618615,
+ "updated_et": "2026-11-25 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9194.98,
-  "equity": 9194.98,
-  "return": -0.08050200000000007,
+  "cash": 5115.29,
+  "equity": 9217.14,
+  "return": -0.07828600000000008,
   "started": 1793559735
  },
  "spy": {
-  "value": 9181.56,
-  "return": -0.08184400000000003,
+  "value": 9212.42,
+  "return": -0.078758,
   "start_price": 759.47998046875,
-  "last": 697.5999755859375
+  "last": 699.9450073242188
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "ADI",
   "qty": 13,
-  "plan": {
-   "symbol": "ADI",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-25",
-   "entry_time": "9:50 AM",
-   "entry": 314.02,
-   "stop": 306.79,
-   "target": 321.25,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "15:55"
-  },
+  "entry": 313.8228,
+  "entry_et": "09:50",
+  "stop": 306.79,
+  "target": 321.25,
+  "last": null,
   "why": {
    "scanner": "ADI: the 09:45 bar closed at $314.02, above the 15-min opening range high $313.33 (range 300.25-313.33)",
    "exit": "plan: entry $314.02, stop $306.79 (opening-range midpoint), target $321.25 (1R (one times the risk)), flat by 15:55 ET",
    "budget": "opening-range breakout on ADI: 13 shares, bound by your $100 max loss per trade (13 x 7.23 = $93.99 at the stop) (limits: max loss 13; position cap 21; max order 25; cash 26)",
    "risk": "trader-risk PASS: entry 314.02 (the latest price), stop 306.79, target 321.25: risk 7.23 a share; max loss $93.99 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795618200,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-25",
   "hits": [
@@ -166,13 +156,85 @@
     "or_high": 158.52,
     "or_low": 156.83,
     "pct_over": 0.43
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:55",
+    "price": 137.74,
+    "or_high": 137.25,
+    "or_low": 134.19,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:55",
+    "price": 92.2,
+    "or_high": 92.06,
+    "or_low": 91.05,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "09:55",
+    "price": 266.02,
+    "or_high": 265.73,
+    "or_low": 262.73,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "GS",
+    "at": "09:55",
+    "price": 781.15,
+    "or_high": 780.12,
+    "or_low": 772.74,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "IBM",
+    "at": "09:55",
+    "price": 235.85,
+    "or_high": 234.98,
+    "or_low": 232.17,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "LMT",
+    "at": "09:55",
+    "price": 589.67,
+    "or_high": 588.19,
+    "or_low": 581.22,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "RUN",
+    "at": "09:55",
+    "price": 6.64,
+    "or_high": 6.59,
+    "or_low": 6.4,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:55",
+    "price": 46.86,
+    "or_high": 46.6,
+    "or_low": 45.86,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TXN",
+    "at": "09:55",
+    "price": 251.13,
+    "or_high": 250.35,
+    "or_low": 244.81,
+    "pct_over": 0.31
    }
   ],
-  "n_hits": 15,
+  "n_hits": 24,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 13 ADI at the next bar's open (signal at 09:50 ET). Then: stop $306.79, target $321.25.",
+ "next_move": "Holding 13 ADI bought at $313.82. It sells at the stop $306.79, the target $321.25, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 35,
   "wins": 14,
@@ -1049,6 +1111,30 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795618500,
+   "et": "2026-11-25 09:55",
+   "kind": "busy",
+   "text": "9 more breakouts (CHTR, CSCO, GOOGL, GS, IBM, LMT, RUN, SLB ...) not taken: already in ADI (one trade at a time)",
+   "symbols": [
+    "CHTR",
+    "CSCO",
+    "GOOGL",
+    "GS",
+    "IBM",
+    "LMT",
+    "RUN",
+    "SLB",
+    "TXN"
+   ]
+  },
+  {
+   "ts": 1795618200,
+   "et": "2026-11-25 09:50",
+   "kind": "fill",
+   "text": "BUY 13 ADI filled at $313.82 (next bar's open $313.76 + slippage). Stop $306.79, target $321.25",
+   "symbol": "ADI"
+  },
   {
    "ts": 1795618200,
    "et": "2026-11-25 09:50",
@@ -2054,71 +2140,6 @@
    "kind": "exit",
    "text": "SELL 13 MSFT at $503.78: target $503.78 hit (1R). P&L $+60.45 (+1.01R)",
    "symbol": "MSFT"
-  },
-  {
-   "ts": 1795186800,
-   "et": "2026-11-20 10:00",
-   "kind": "busy",
-   "text": "30 more breakouts (ADBE, AEP, BA, CMCSA, COIN, CRM, CSCO, CVNA ...) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "ADBE",
-    "AEP",
-    "BA",
-    "CMCSA",
-    "COIN",
-    "CRM",
-    "CSCO",
-    "CVNA",
-    "DXCM",
-    "ENPH",
-    "FSLR",
-    "IONQ",
-    "LYFT",
-    "META",
-    "MPC",
-    "MRNA",
-    "NU",
-    "NXPI",
-    "PLTR",
-    "PSX",
-    "QBTS",
-    "RDDT",
-    "RUN",
-    "SE",
-    "SEDG",
-    "SMCI",
-    "SOFI",
-    "UAL",
-    "VLO",
-    "Z"
-   ]
-  },
-  {
-   "ts": 1795186500,
-   "et": "2026-11-20 09:55",
-   "kind": "busy",
-   "text": "19 more breakouts (AMZN, COP, CPNG, CVX, EBAY, EOG, GOOGL, HPQ ...) not taken: already in MSFT (one trade at a time)",
-   "symbols": [
-    "AMZN",
-    "COP",
-    "CPNG",
-    "CVX",
-    "EBAY",
-    "EOG",
-    "GOOGL",
-    "HPQ",
-    "MRK",
-    "OXY",
-    "PINS",
-    "RGTI",
-    "SNAP",
-    "TSLA",
-    "TSM",
-    "TWLO",
-    "U",
-    "XOM",
-    "ZM"
-   ]
   }
  ],
  "equity": [
@@ -8191,6 +8212,11 @@
    "ts": 1795618292,
    "equity": 9194.98,
    "spy": 9181.56
+  },
+  {
+   "ts": 1795618615,
+   "equity": 9217.14,
+   "spy": 9212.42
   }
  ],
  "daily": [
@@ -8298,6 +8324,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795618615,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 21.4,
+   "errors": [],
+   "run_id": "45639576559",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795618292,
    "phase": "open",
@@ -8687,25 +8723,15 @@
    "errors": [],
    "run_id": "45462505104",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795545480,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 11.6,
-   "errors": [],
-   "run_id": "45461585835",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795618292,
+  "tick_at": 1795618615,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795618310,
-  "candidates": 45,
-  "charts_fetched": 46,
+  "yahoo_time": 1795618635,
+  "candidates": 78,
+  "charts_fetched": 80,
   "ok": true,
   "errors": [],
   "stale_data": false,

@@ -1,5 +1,5 @@
 {
- "cash": 9194.9828,
+ "cash": 5115.2864,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -849,11 +849,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795618200,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795618500,
+  "position": {
    "symbol": "ADI",
    "qty": 13,
+   "entry_fill": 313.8228,
+   "entry_ts": 1795618200,
    "plan": {
     "symbol": "ADI",
     "side": "buy",
@@ -865,7 +866,8 @@
     "target": 321.25,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "15:55"
+    "flat_by": "15:55",
+    "entry_ref": 313.760009765625
    },
    "why": {
     "scanner": "ADI: the 09:45 bar closed at $314.02, above the 15-min opening range high $313.33 (range 300.25-313.33)",
@@ -874,9 +876,9 @@
     "risk": "trader-risk PASS: entry 314.02 (the latest price), stop 306.79, target 321.25: risk 7.23 a share; max loss $93.99 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795618200,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -886,12 +888,30 @@
     "kind": "entry",
     "max_loss": 93.99,
     "at": "2026-11-25T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-25",
+    "symbol": "ADI",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 13
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 15,
-  "missed": [],
+  "triggers_seen": 24,
+  "missed": [
+   "CHTR",
+   "CSCO",
+   "GOOGL",
+   "GS",
+   "IBM",
+   "LMT",
+   "RUN",
+   "SLB",
+   "TXN"
+  ],
   "triggered": [
    "ABT",
    "ADI",
@@ -907,7 +927,16 @@
    "PINS",
    "SEDG",
    "VLO",
-   "XOM"
+   "XOM",
+   "CHTR",
+   "CSCO",
+   "GOOGL",
+   "GS",
+   "IBM",
+   "LMT",
+   "RUN",
+   "SLB",
+   "TXN"
   ],
   "hits": [
    {
@@ -1029,6 +1058,78 @@
     "or_high": 158.52,
     "or_low": 156.83,
     "pct_over": 0.43
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:55",
+    "price": 137.74,
+    "or_high": 137.25,
+    "or_low": 134.19,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "CSCO",
+    "at": "09:55",
+    "price": 92.2,
+    "or_high": 92.06,
+    "or_low": 91.05,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "GOOGL",
+    "at": "09:55",
+    "price": 266.02,
+    "or_high": 265.73,
+    "or_low": 262.73,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "GS",
+    "at": "09:55",
+    "price": 781.15,
+    "or_high": 780.12,
+    "or_low": 772.74,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "IBM",
+    "at": "09:55",
+    "price": 235.85,
+    "or_high": 234.98,
+    "or_low": 232.17,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "LMT",
+    "at": "09:55",
+    "price": 589.67,
+    "or_high": 588.19,
+    "or_low": 581.22,
+    "pct_over": 0.25
+   },
+   {
+    "symbol": "RUN",
+    "at": "09:55",
+    "price": 6.64,
+    "or_high": 6.59,
+    "or_low": 6.4,
+    "pct_over": 0.68
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:55",
+    "price": 46.86,
+    "or_high": 46.6,
+    "or_low": 45.86,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "TXN",
+    "at": "09:55",
+    "price": 251.13,
+    "or_high": 250.35,
+    "or_low": 244.81,
+    "pct_over": 0.31
    }
   ]
  },
@@ -1036,8 +1137,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 697.5999755859375,
-  "last_ts": 1795618200
+  "last": 699.9450073242188,
+  "last_ts": 1795618500
  },
  "seen_trades": 0,
  "daily": [
