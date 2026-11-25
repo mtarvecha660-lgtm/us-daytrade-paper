@@ -1,21 +1,21 @@
 {
- "updated": 1795619242,
- "updated_et": "2026-11-25 10:07 ET",
+ "updated": 1795619558,
+ "updated_et": "2026-11-25 10:12 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5115.29,
-  "equity": 9252.94,
-  "return": -0.07470599999999994,
+  "equity": 9207.65,
+  "return": -0.07923500000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9268.43,
-  "return": -0.07315699999999992,
+  "value": 9248.68,
+  "return": -0.07513199999999998,
   "start_price": 759.47998046875,
-  "last": 704.2000122070312
+  "last": 702.7000122070312
  },
  "position": {
   "symbol": "ADI",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-25",
   "hits": [
-   {
-    "symbol": "RUN",
-    "at": "09:55",
-    "price": 6.64,
-    "or_high": 6.59,
-    "or_low": 6.4,
-    "pct_over": 0.68
-   },
-   {
-    "symbol": "SLB",
-    "at": "09:55",
-    "price": 46.86,
-    "or_high": 46.6,
-    "or_low": 45.86,
-    "pct_over": 0.56
-   },
-   {
-    "symbol": "TXN",
-    "at": "09:55",
-    "price": 251.13,
-    "or_high": 250.35,
-    "or_low": 244.81,
-    "pct_over": 0.31
-   },
-   {
-    "symbol": "AMAT",
-    "at": "10:00",
-    "price": 301.37,
-    "or_high": 301.36,
-    "or_low": 295.29,
-    "pct_over": 0.0
-   },
    {
     "symbol": "AMD",
     "at": "10:00",
@@ -516,9 +484,41 @@
     "or_high": 88.7,
     "or_low": 86.71,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:10",
+    "price": 81.28,
+    "or_high": 81.21,
+    "or_low": 80.02,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:10",
+    "price": 144.6,
+    "or_high": 144.6,
+    "or_low": 143.75,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SO",
+    "at": "10:10",
+    "price": 95.03,
+    "or_high": 95.0,
+    "or_low": 93.78,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ZTS",
+    "at": "10:10",
+    "price": 82.43,
+    "or_high": 82.36,
+    "or_low": 81.33,
+    "pct_over": 0.07
    }
   ],
-  "n_hits": 81,
+  "n_hits": 85,
   "entries": 1,
   "max_trades": 3
  },
@@ -1399,6 +1399,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795619400,
+   "et": "2026-11-25 10:10",
+   "kind": "busy",
+   "text": "4 more breakouts (CVS, PEP, SO, ZTS) not taken: already in ADI (one trade at a time)",
+   "symbols": [
+    "CVS",
+    "PEP",
+    "SO",
+    "ZTS"
+   ]
+  },
   {
    "ts": 1795619100,
    "et": "2026-11-25 10:05",
@@ -2454,13 +2466,6 @@
     "USB",
     "W"
    ]
-  },
-  {
-   "ts": 1795187100,
-   "et": "2026-11-20 10:05",
-   "kind": "fill",
-   "text": "BUY 20 UNH filled at $345.31 (next bar's open $345.24 + slippage). Stop $341.73, target $349.03",
-   "symbol": "UNH"
   }
  ],
  "equity": [
@@ -8548,6 +8553,11 @@
    "ts": 1795619242,
    "equity": 9252.94,
    "spy": 9268.43
+  },
+  {
+   "ts": 1795619558,
+   "equity": 9207.65,
+   "spy": 9248.68
   }
  ],
  "daily": [
@@ -8655,6 +8665,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795619558,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 19.5,
+   "errors": [],
+   "run_id": "45642516397",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795619242,
    "phase": "open",
@@ -9044,25 +9064,15 @@
    "errors": [],
    "run_id": "45465262917",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795546417,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 8.9,
-   "errors": [],
-   "run_id": "45464355009",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795619242,
+  "tick_at": 1795619558,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795619263,
-  "candidates": 83,
-  "charts_fetched": 85,
+  "yahoo_time": 1795619577,
+  "candidates": 66,
+  "charts_fetched": 68,
   "ok": true,
   "errors": [],
   "stale_data": false,

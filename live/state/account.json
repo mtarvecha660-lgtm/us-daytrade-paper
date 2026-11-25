@@ -849,7 +849,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795619100,
+  "last_bar_end": 1795619400,
   "position": {
    "symbol": "ADI",
    "qty": 13,
@@ -900,7 +900,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 81,
+  "triggers_seen": 85,
   "missed": [
    "CHTR",
    "CSCO",
@@ -967,7 +967,11 @@
    "TWLO",
    "U",
    "UNH",
-   "ZM"
+   "ZM",
+   "CVS",
+   "PEP",
+   "SO",
+   "ZTS"
   ],
   "triggered": [
    "ABT",
@@ -1050,7 +1054,11 @@
    "TWLO",
    "U",
    "UNH",
-   "ZM"
+   "ZM",
+   "CVS",
+   "PEP",
+   "SO",
+   "ZTS"
   ],
   "hits": [
    {
@@ -1700,6 +1708,38 @@
     "or_high": 88.7,
     "or_low": 86.71,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "CVS",
+    "at": "10:10",
+    "price": 81.28,
+    "or_high": 81.21,
+    "or_low": 80.02,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PEP",
+    "at": "10:10",
+    "price": 144.6,
+    "or_high": 144.6,
+    "or_low": 143.75,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "SO",
+    "at": "10:10",
+    "price": 95.03,
+    "or_high": 95.0,
+    "or_low": 93.78,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ZTS",
+    "at": "10:10",
+    "price": 82.43,
+    "or_high": 82.36,
+    "or_low": 81.33,
+    "pct_over": 0.07
    }
   ]
  },
@@ -1707,8 +1747,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 704.2000122070312,
-  "last_ts": 1795619100
+  "last": 702.7000122070312,
+  "last_ts": 1795619400
  },
  "seen_trades": 0,
  "daily": [
