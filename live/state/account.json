@@ -849,7 +849,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795620000,
+  "last_bar_end": 1795620300,
   "position": {
    "symbol": "ADI",
    "qty": 13,
@@ -1777,8 +1777,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 699.1199951171875,
-  "last_ts": 1795620000
+  "last": 698.4400024414062,
+  "last_ts": 1795620300
  },
  "seen_trades": 0,
  "daily": [
