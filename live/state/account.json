@@ -849,7 +849,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795618800,
+  "last_bar_end": 1795619100,
   "position": {
    "symbol": "ADI",
    "qty": 13,
@@ -900,7 +900,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 66,
+  "triggers_seen": 81,
   "missed": [
    "CHTR",
    "CSCO",
@@ -952,7 +952,22 @@
    "TSM",
    "TTD",
    "USB",
-   "WDC"
+   "WDC",
+   "ADBE",
+   "AVGO",
+   "BB",
+   "DASH",
+   "ELV",
+   "HOOD",
+   "HUM",
+   "NET",
+   "NU",
+   "RTX",
+   "SOFI",
+   "TWLO",
+   "U",
+   "UNH",
+   "ZM"
   ],
   "triggered": [
    "ABT",
@@ -1020,7 +1035,22 @@
    "TSM",
    "TTD",
    "USB",
-   "WDC"
+   "WDC",
+   "ADBE",
+   "AVGO",
+   "BB",
+   "DASH",
+   "ELV",
+   "HOOD",
+   "HUM",
+   "NET",
+   "NU",
+   "RTX",
+   "SOFI",
+   "TWLO",
+   "U",
+   "UNH",
+   "ZM"
   ],
   "hits": [
    {
@@ -1550,6 +1580,126 @@
     "or_high": 259.6,
     "or_low": 251.38,
     "pct_over": 0.39
+   },
+   {
+    "symbol": "ADBE",
+    "at": "10:05",
+    "price": 233.76,
+    "or_high": 233.38,
+    "or_low": 227.79,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:05",
+    "price": 288.82,
+    "or_high": 287.33,
+    "or_low": 278.41,
+    "pct_over": 0.52
+   },
+   {
+    "symbol": "BB",
+    "at": "10:05",
+    "price": 8.21,
+    "or_high": 8.18,
+    "or_low": 7.94,
+    "pct_over": 0.38
+   },
+   {
+    "symbol": "DASH",
+    "at": "10:05",
+    "price": 161.04,
+    "or_high": 160.92,
+    "or_low": 156.98,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "ELV",
+    "at": "10:05",
+    "price": 389.14,
+    "or_high": 388.2,
+    "or_low": 379.74,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "HOOD",
+    "at": "10:05",
+    "price": 63.43,
+    "or_high": 63.16,
+    "or_low": 61.36,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "HUM",
+    "at": "10:05",
+    "price": 404.55,
+    "or_high": 402.17,
+    "or_low": 391.3,
+    "pct_over": 0.59
+   },
+   {
+    "symbol": "NET",
+    "at": "10:05",
+    "price": 277.3,
+    "or_high": 276.83,
+    "or_low": 267.04,
+    "pct_over": 0.17
+   },
+   {
+    "symbol": "NU",
+    "at": "10:05",
+    "price": 11.79,
+    "or_high": 11.77,
+    "or_low": 11.57,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "RTX",
+    "at": "10:05",
+    "price": 194.63,
+    "or_high": 193.7,
+    "or_low": 192.38,
+    "pct_over": 0.48
+   },
+   {
+    "symbol": "SOFI",
+    "at": "10:05",
+    "price": 12.41,
+    "or_high": 12.39,
+    "or_low": 11.97,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "TWLO",
+    "at": "10:05",
+    "price": 175.24,
+    "or_high": 175.07,
+    "or_low": 171.08,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "U",
+    "at": "10:05",
+    "price": 47.12,
+    "or_high": 47.06,
+    "or_low": 45.0,
+    "pct_over": 0.13
+   },
+   {
+    "symbol": "UNH",
+    "at": "10:05",
+    "price": 342.03,
+    "or_high": 340.62,
+    "or_low": 335.1,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "ZM",
+    "at": "10:05",
+    "price": 88.84,
+    "or_high": 88.7,
+    "or_low": 86.71,
+    "pct_over": 0.16
    }
   ]
  },
@@ -1557,8 +1707,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 703.5698852539062,
-  "last_ts": 1795618800
+  "last": 704.2000122070312,
+  "last_ts": 1795619100
  },
  "seen_trades": 0,
  "daily": [
