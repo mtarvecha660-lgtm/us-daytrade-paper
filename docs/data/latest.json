@@ -1,21 +1,21 @@
 {
- "updated": 1795620823,
- "updated_et": "2026-11-25 10:33 ET",
+ "updated": 1795621141,
+ "updated_et": "2026-11-25 10:39 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5115.29,
-  "equity": 9197.41,
-  "return": -0.08025899999999997,
+  "equity": 9211.94,
+  "return": -0.07880599999999993,
   "started": 1793559735
  },
  "spy": {
-  "value": 9194.85,
-  "return": -0.080515,
+  "value": 9233.42,
+  "return": -0.076658,
   "start_price": 759.47998046875,
-  "last": 698.6099853515625
+  "last": 701.5399780273438
  },
  "position": {
   "symbol": "ADI",
@@ -37,78 +37,6 @@
  "today": {
   "date": "2026-11-25",
   "hits": [
-   {
-    "symbol": "BAC",
-    "at": "10:00",
-    "price": 47.81,
-    "or_high": 47.72,
-    "or_low": 46.94,
-    "pct_over": 0.18
-   },
-   {
-    "symbol": "C",
-    "at": "10:00",
-    "price": 111.26,
-    "or_high": 111.19,
-    "or_low": 109.99,
-    "pct_over": 0.06
-   },
-   {
-    "symbol": "CAT",
-    "at": "10:00",
-    "price": 524.47,
-    "or_high": 520.53,
-    "or_low": 512.78,
-    "pct_over": 0.76
-   },
-   {
-    "symbol": "CLSK",
-    "at": "10:00",
-    "price": 4.95,
-    "or_high": 4.81,
-    "or_low": 4.43,
-    "pct_over": 3.01
-   },
-   {
-    "symbol": "CRM",
-    "at": "10:00",
-    "price": 193.38,
-    "or_high": 191.68,
-    "or_low": 188.2,
-    "pct_over": 0.89
-   },
-   {
-    "symbol": "DE",
-    "at": "10:00",
-    "price": 625.39,
-    "or_high": 621.25,
-    "or_low": 580.51,
-    "pct_over": 0.67
-   },
-   {
-    "symbol": "DELL",
-    "at": "10:00",
-    "price": 279.71,
-    "or_high": 277.91,
-    "or_low": 265.0,
-    "pct_over": 0.65
-   },
-   {
-    "symbol": "DUOL",
-    "at": "10:00",
-    "price": 147.9,
-    "or_high": 147.9,
-    "or_low": 141.93,
-    "pct_over": 0.0
-   },
-   {
-    "symbol": "FSLR",
-    "at": "10:00",
-    "price": 146.07,
-    "or_high": 144.15,
-    "or_low": 141.69,
-    "pct_over": 1.34
-   },
    {
     "symbol": "KLAC",
     "at": "10:00",
@@ -516,9 +444,81 @@
     "or_high": 67.73,
     "or_low": 67.28,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "GE",
+    "at": "10:35",
+    "price": 312.18,
+    "or_high": 310.98,
+    "or_low": 307.26,
+    "pct_over": 0.39
+   },
+   {
+    "symbol": "HD",
+    "at": "10:35",
+    "price": 357.33,
+    "or_high": 357.07,
+    "or_low": 352.48,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "HON",
+    "at": "10:35",
+    "price": 221.29,
+    "or_high": 221.15,
+    "or_low": 219.09,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "IDXX",
+    "at": "10:35",
+    "price": 707.92,
+    "or_high": 707.67,
+    "or_low": 696.34,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "MCD",
+    "at": "10:35",
+    "price": 282.7,
+    "or_high": 282.35,
+    "or_low": 279.55,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MMM",
+    "at": "10:35",
+    "price": 185.95,
+    "or_high": 185.75,
+    "or_low": 183.02,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:35",
+    "price": 85.29,
+    "or_high": 85.17,
+    "or_low": 84.62,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "NOC",
+    "at": "10:35",
+    "price": 554.0,
+    "or_high": 553.45,
+    "or_low": 548.4,
+    "pct_over": 0.1
+   },
+   {
+    "symbol": "PG",
+    "at": "10:35",
+    "price": 173.67,
+    "or_high": 173.6,
+    "or_low": 172.78,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 89,
+  "n_hits": 98,
   "entries": 1,
   "max_trades": 3
  },
@@ -1399,6 +1399,23 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795620900,
+   "et": "2026-11-25 10:35",
+   "kind": "busy",
+   "text": "9 more breakouts (GE, HD, HON, IDXX, MCD, MMM, NEE, NOC ...) not taken: already in ADI (one trade at a time)",
+   "symbols": [
+    "GE",
+    "HD",
+    "HON",
+    "IDXX",
+    "MCD",
+    "MMM",
+    "NEE",
+    "NOC",
+    "PG"
+   ]
+  },
   {
    "ts": 1795620600,
    "et": "2026-11-25 10:30",
@@ -2442,16 +2459,6 @@
    "text": "1 more breakout (VZ) not taken: already in UNH (one trade at a time)",
    "symbols": [
     "VZ"
-   ]
-  },
-  {
-   "ts": 1795188000,
-   "et": "2026-11-20 10:20",
-   "kind": "busy",
-   "text": "2 more breakouts (DUK, JNJ) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "DUK",
-    "JNJ"
    ]
   }
  ],
@@ -8565,6 +8572,11 @@
    "ts": 1795620823,
    "equity": 9197.41,
    "spy": 9194.85
+  },
+  {
+   "ts": 1795621141,
+   "equity": 9211.94,
+   "spy": 9233.42
   }
  ],
  "daily": [
@@ -8672,6 +8684,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795621141,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 23.5,
+   "errors": [],
+   "run_id": "45647502858",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795620823,
    "phase": "open",
@@ -9061,29 +9083,19 @@
    "errors": [],
    "run_id": "45469966146",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795548002,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.9,
-   "errors": [],
-   "run_id": "45469023861",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795620823,
+  "tick_at": 1795621141,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795620834,
-  "candidates": 27,
-  "charts_fetched": 29,
+  "yahoo_time": 1795621163,
+  "candidates": 64,
+  "charts_fetched": 66,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.4,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
