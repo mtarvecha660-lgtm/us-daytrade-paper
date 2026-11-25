@@ -849,7 +849,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-25",
-  "last_bar_end": 1795618500,
+  "last_bar_end": 1795618800,
   "position": {
    "symbol": "ADI",
    "qty": 13,
@@ -900,7 +900,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 24,
+  "triggers_seen": 66,
   "missed": [
    "CHTR",
    "CSCO",
@@ -910,7 +910,49 @@
    "LMT",
    "RUN",
    "SLB",
-   "TXN"
+   "TXN",
+   "AMAT",
+   "AMD",
+   "ANET",
+   "ARM",
+   "BA",
+   "BAC",
+   "C",
+   "CAT",
+   "CLSK",
+   "CRM",
+   "DE",
+   "DELL",
+   "DUOL",
+   "FSLR",
+   "KLAC",
+   "MARA",
+   "MCHP",
+   "MDB",
+   "META",
+   "MPC",
+   "MRVL",
+   "MS",
+   "MU",
+   "NVDA",
+   "PANW",
+   "PATH",
+   "PLTR",
+   "PNC",
+   "PYPL",
+   "RIOT",
+   "SHOP",
+   "SMCI",
+   "SNPS",
+   "SPOT",
+   "STX",
+   "SWKS",
+   "TER",
+   "TMO",
+   "TSM",
+   "TTD",
+   "USB",
+   "WDC"
   ],
   "triggered": [
    "ABT",
@@ -936,7 +978,49 @@
    "LMT",
    "RUN",
    "SLB",
-   "TXN"
+   "TXN",
+   "AMAT",
+   "AMD",
+   "ANET",
+   "ARM",
+   "BA",
+   "BAC",
+   "C",
+   "CAT",
+   "CLSK",
+   "CRM",
+   "DE",
+   "DELL",
+   "DUOL",
+   "FSLR",
+   "KLAC",
+   "MARA",
+   "MCHP",
+   "MDB",
+   "META",
+   "MPC",
+   "MRVL",
+   "MS",
+   "MU",
+   "NVDA",
+   "PANW",
+   "PATH",
+   "PLTR",
+   "PNC",
+   "PYPL",
+   "RIOT",
+   "SHOP",
+   "SMCI",
+   "SNPS",
+   "SPOT",
+   "STX",
+   "SWKS",
+   "TER",
+   "TMO",
+   "TSM",
+   "TTD",
+   "USB",
+   "WDC"
   ],
   "hits": [
    {
@@ -1130,6 +1214,342 @@
     "or_high": 250.35,
     "or_low": 244.81,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "AMAT",
+    "at": "10:00",
+    "price": 301.37,
+    "or_high": 301.36,
+    "or_low": 295.29,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "AMD",
+    "at": "10:00",
+    "price": 387.53,
+    "or_high": 385.15,
+    "or_low": 371.5,
+    "pct_over": 0.62
+   },
+   {
+    "symbol": "ANET",
+    "at": "10:00",
+    "price": 160.49,
+    "or_high": 159.9,
+    "or_low": 156.25,
+    "pct_over": 0.37
+   },
+   {
+    "symbol": "ARM",
+    "at": "10:00",
+    "price": 150.7,
+    "or_high": 149.55,
+    "or_low": 144.11,
+    "pct_over": 0.77
+   },
+   {
+    "symbol": "BA",
+    "at": "10:00",
+    "price": 162.18,
+    "or_high": 161.35,
+    "or_low": 159.7,
+    "pct_over": 0.51
+   },
+   {
+    "symbol": "BAC",
+    "at": "10:00",
+    "price": 47.81,
+    "or_high": 47.72,
+    "or_low": 46.94,
+    "pct_over": 0.18
+   },
+   {
+    "symbol": "C",
+    "at": "10:00",
+    "price": 111.26,
+    "or_high": 111.19,
+    "or_low": 109.99,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "CAT",
+    "at": "10:00",
+    "price": 524.47,
+    "or_high": 520.53,
+    "or_low": 512.78,
+    "pct_over": 0.76
+   },
+   {
+    "symbol": "CLSK",
+    "at": "10:00",
+    "price": 4.95,
+    "or_high": 4.81,
+    "or_low": 4.43,
+    "pct_over": 3.01
+   },
+   {
+    "symbol": "CRM",
+    "at": "10:00",
+    "price": 193.38,
+    "or_high": 191.68,
+    "or_low": 188.2,
+    "pct_over": 0.89
+   },
+   {
+    "symbol": "DE",
+    "at": "10:00",
+    "price": 625.39,
+    "or_high": 621.25,
+    "or_low": 580.51,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "DELL",
+    "at": "10:00",
+    "price": 279.71,
+    "or_high": 277.91,
+    "or_low": 265.0,
+    "pct_over": 0.65
+   },
+   {
+    "symbol": "DUOL",
+    "at": "10:00",
+    "price": 147.9,
+    "or_high": 147.9,
+    "or_low": 141.93,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "FSLR",
+    "at": "10:00",
+    "price": 146.07,
+    "or_high": 144.15,
+    "or_low": 141.69,
+    "pct_over": 1.34
+   },
+   {
+    "symbol": "KLAC",
+    "at": "10:00",
+    "price": 126.81,
+    "or_high": 125.55,
+    "or_low": 122.49,
+    "pct_over": 1.0
+   },
+   {
+    "symbol": "MARA",
+    "at": "10:00",
+    "price": 5.25,
+    "or_high": 5.2,
+    "or_low": 4.92,
+    "pct_over": 0.96
+   },
+   {
+    "symbol": "MCHP",
+    "at": "10:00",
+    "price": 55.34,
+    "or_high": 54.65,
+    "or_low": 53.42,
+    "pct_over": 1.26
+   },
+   {
+    "symbol": "MDB",
+    "at": "10:00",
+    "price": 299.46,
+    "or_high": 295.29,
+    "or_low": 287.79,
+    "pct_over": 1.41
+   },
+   {
+    "symbol": "META",
+    "at": "10:00",
+    "price": 585.39,
+    "or_high": 578.84,
+    "or_low": 568.3,
+    "pct_over": 1.13
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:00",
+    "price": 347.39,
+    "or_high": 346.86,
+    "or_low": 342.06,
+    "pct_over": 0.15
+   },
+   {
+    "symbol": "MRVL",
+    "at": "10:00",
+    "price": 123.91,
+    "or_high": 123.0,
+    "or_low": 119.1,
+    "pct_over": 0.74
+   },
+   {
+    "symbol": "MS",
+    "at": "10:00",
+    "price": 165.03,
+    "or_high": 164.38,
+    "or_low": 162.58,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "MU",
+    "at": "10:00",
+    "price": 580.35,
+    "or_high": 578.99,
+    "or_low": 558.05,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "NVDA",
+    "at": "10:00",
+    "price": 145.62,
+    "or_high": 145.0,
+    "or_low": 141.22,
+    "pct_over": 0.43
+   },
+   {
+    "symbol": "PANW",
+    "at": "10:00",
+    "price": 349.12,
+    "or_high": 348.83,
+    "or_low": 337.41,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:00",
+    "price": 11.77,
+    "or_high": 11.76,
+    "or_low": 11.49,
+    "pct_over": 0.09
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:00",
+    "price": 155.99,
+    "or_high": 155.12,
+    "or_low": 152.1,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "PNC",
+    "at": "10:00",
+    "price": 216.82,
+    "or_high": 216.79,
+    "or_low": 215.02,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PYPL",
+    "at": "10:00",
+    "price": 55.97,
+    "or_high": 55.94,
+    "or_low": 55.28,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RIOT",
+    "at": "10:00",
+    "price": 15.45,
+    "or_high": 15.38,
+    "or_low": 15.0,
+    "pct_over": 0.49
+   },
+   {
+    "symbol": "SHOP",
+    "at": "10:00",
+    "price": 126.97,
+    "or_high": 126.79,
+    "or_low": 123.83,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "SMCI",
+    "at": "10:00",
+    "price": 22.05,
+    "or_high": 21.67,
+    "or_low": 21.02,
+    "pct_over": 1.74
+   },
+   {
+    "symbol": "SNPS",
+    "at": "10:00",
+    "price": 398.5,
+    "or_high": 397.88,
+    "or_low": 389.01,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "SPOT",
+    "at": "10:00",
+    "price": 599.89,
+    "or_high": 599.18,
+    "or_low": 587.2,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "STX",
+    "at": "10:00",
+    "price": 457.55,
+    "or_high": 455.0,
+    "or_low": 439.12,
+    "pct_over": 0.56
+   },
+   {
+    "symbol": "SWKS",
+    "at": "10:00",
+    "price": 80.66,
+    "or_high": 79.89,
+    "or_low": 78.46,
+    "pct_over": 0.96
+   },
+   {
+    "symbol": "TER",
+    "at": "10:00",
+    "price": 200.38,
+    "or_high": 199.96,
+    "or_low": 193.54,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "TMO",
+    "at": "10:00",
+    "price": 681.24,
+    "or_high": 680.92,
+    "or_low": 673.72,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "TSM",
+    "at": "10:00",
+    "price": 331.33,
+    "or_high": 329.72,
+    "or_low": 323.83,
+    "pct_over": 0.49
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:00",
+    "price": 14.03,
+    "or_high": 13.96,
+    "or_low": 13.5,
+    "pct_over": 0.5
+   },
+   {
+    "symbol": "USB",
+    "at": "10:00",
+    "price": 57.56,
+    "or_high": 57.53,
+    "or_low": 57.03,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "WDC",
+    "at": "10:00",
+    "price": 260.61,
+    "or_high": 259.6,
+    "or_low": 251.38,
+    "pct_over": 0.39
    }
   ]
  },
@@ -1137,8 +1557,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 699.9450073242188,
-  "last_ts": 1795618500
+  "last": 703.5698852539062,
+  "last_ts": 1795618800
  },
  "seen_trades": 0,
  "daily": [
