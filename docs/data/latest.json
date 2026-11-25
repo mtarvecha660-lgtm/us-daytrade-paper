@@ -1,21 +1,21 @@
 {
- "updated": 1795619558,
- "updated_et": "2026-11-25 10:12 ET",
+ "updated": 1795619873,
+ "updated_et": "2026-11-25 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 5115.29,
-  "equity": 9207.65,
-  "return": -0.07923500000000006,
+  "equity": 9229.22,
+  "return": -0.07707800000000009,
   "started": 1793559735
  },
  "spy": {
-  "value": 9248.68,
-  "return": -0.07513199999999998,
+  "value": 9245.13,
+  "return": -0.07548700000000008,
   "start_price": 759.47998046875,
-  "last": 702.7000122070312
+  "last": 702.4301147460938
  },
  "position": {
   "symbol": "ADI",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-25",
   "hits": [
-   {
-    "symbol": "AMD",
-    "at": "10:00",
-    "price": 387.53,
-    "or_high": 385.15,
-    "or_low": 371.5,
-    "pct_over": 0.62
-   },
-   {
-    "symbol": "ANET",
-    "at": "10:00",
-    "price": 160.49,
-    "or_high": 159.9,
-    "or_low": 156.25,
-    "pct_over": 0.37
-   },
-   {
-    "symbol": "ARM",
-    "at": "10:00",
-    "price": 150.7,
-    "or_high": 149.55,
-    "or_low": 144.11,
-    "pct_over": 0.77
-   },
    {
     "symbol": "BA",
     "at": "10:00",
@@ -516,9 +492,33 @@
     "or_high": 82.36,
     "or_low": 81.33,
     "pct_over": 0.07
+   },
+   {
+    "symbol": "APP",
+    "at": "10:15",
+    "price": 370.95,
+    "or_high": 370.0,
+    "or_low": 355.01,
+    "pct_over": 0.26
+   },
+   {
+    "symbol": "CHWY",
+    "at": "10:15",
+    "price": 19.68,
+    "or_high": 19.67,
+    "or_low": 19.16,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "T",
+    "at": "10:15",
+    "price": 23.18,
+    "or_high": 23.17,
+    "or_low": 22.89,
+    "pct_over": 0.04
    }
   ],
-  "n_hits": 85,
+  "n_hits": 88,
   "entries": 1,
   "max_trades": 3
  },
@@ -1399,6 +1399,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795619700,
+   "et": "2026-11-25 10:15",
+   "kind": "busy",
+   "text": "3 more breakouts (APP, CHWY, T) not taken: already in ADI (one trade at a time)",
+   "symbols": [
+    "APP",
+    "CHWY",
+    "T"
+   ]
+  },
   {
    "ts": 1795619400,
    "et": "2026-11-25 10:10",
@@ -2445,26 +2456,6 @@
     "HD",
     "NEE",
     "WMT"
-   ]
-  },
-  {
-   "ts": 1795187400,
-   "et": "2026-11-20 10:10",
-   "kind": "busy",
-   "text": "12 more breakouts (BBY, COF, D, DUOL, GME, LLY, PEP, RKT ...) not taken: already in UNH (one trade at a time)",
-   "symbols": [
-    "BBY",
-    "COF",
-    "D",
-    "DUOL",
-    "GME",
-    "LLY",
-    "PEP",
-    "RKT",
-    "T",
-    "TMUS",
-    "USB",
-    "W"
    ]
   }
  ],
@@ -8558,6 +8549,11 @@
    "ts": 1795619558,
    "equity": 9207.65,
    "spy": 9248.68
+  },
+  {
+   "ts": 1795619873,
+   "equity": 9229.22,
+   "spy": 9245.13
   }
  ],
  "daily": [
@@ -8665,6 +8661,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795619873,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.4,
+   "errors": [],
+   "run_id": "45643521062",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795619558,
    "phase": "open",
@@ -9054,29 +9060,19 @@
    "errors": [],
    "run_id": "45466213464",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795546733,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.4,
-   "errors": [],
-   "run_id": "45465262917",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795619558,
+  "tick_at": 1795619873,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795619577,
-  "candidates": 66,
-  "charts_fetched": 68,
+  "yahoo_time": 1795619888,
+  "candidates": 47,
+  "charts_fetched": 49,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
