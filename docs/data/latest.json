@@ -1,21 +1,21 @@
 {
- "updated": 1795793285,
- "updated_et": "2026-11-27 10:28 ET",
+ "updated": 1795793599,
+ "updated_et": "2026-11-27 10:33 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9328.98,
-  "return": -0.067102,
+  "equity": 9330.42,
+  "return": -0.06695799999999996,
   "started": 1793559735
  },
  "spy": {
-  "value": 9524.35,
-  "return": -0.04756499999999997,
+  "value": 9516.52,
+  "return": -0.04834799999999995,
   "start_price": 759.47998046875,
-  "last": 723.64501953125
+  "last": 723.0501098632812
  },
  "position": {
   "symbol": "COST",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "CVS",
-    "at": "09:50",
-    "price": 82.72,
-    "or_high": 82.66,
-    "or_low": 81.35,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "DIS",
-    "at": "09:50",
-    "price": 126.93,
-    "or_high": 126.89,
-    "or_low": 125.45,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "KO",
-    "at": "09:50",
-    "price": 97.18,
-    "or_high": 97.1,
-    "or_low": 96.5,
-    "pct_over": 0.08
-   },
-   {
-    "symbol": "MRK",
-    "at": "09:50",
-    "price": 141.73,
-    "or_high": 141.65,
-    "or_low": 140.4,
-    "pct_over": 0.06
-   },
    {
     "symbol": "PEP",
     "at": "09:50",
@@ -516,9 +484,41 @@
     "or_high": 106.11,
     "or_low": 105.0,
     "pct_over": 0.35
+   },
+   {
+    "symbol": "GM",
+    "at": "10:30",
+    "price": 85.66,
+    "or_high": 85.59,
+    "or_low": 84.6,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:30",
+    "price": 274.85,
+    "or_high": 274.79,
+    "or_low": 272.62,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LUV",
+    "at": "10:30",
+    "price": 46.53,
+    "or_high": 46.5,
+    "or_low": 46.06,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:30",
+    "price": 94.79,
+    "or_high": 94.48,
+    "or_low": 92.39,
+    "pct_over": 0.33
    }
   ],
-  "n_hits": 64,
+  "n_hits": 68,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795793400,
+   "et": "2026-11-27 10:30",
+   "kind": "busy",
+   "text": "4 more breakouts (GM, JNJ, LUV, RDDT) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "GM",
+    "JNJ",
+    "LUV",
+    "RDDT"
+   ]
+  },
   {
    "ts": 1795793100,
    "et": "2026-11-27 10:25",
@@ -2525,15 +2537,6 @@
    "text": "1 more breakout (VZ) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "VZ"
-   ]
-  },
-  {
-   "ts": 1795458600,
-   "et": "2026-11-23 13:30",
-   "kind": "busy",
-   "text": "1 more breakout (SBUX) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "SBUX"
    ]
   }
  ],
@@ -8717,6 +8720,11 @@
    "ts": 1795793285,
    "equity": 9328.98,
    "spy": 9524.35
+  },
+  {
+   "ts": 1795793599,
+   "equity": 9330.42,
+   "spy": 9516.52
   }
  ],
  "daily": [
@@ -8830,6 +8838,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795793599,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.6,
+   "errors": [],
+   "run_id": "46025908009",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795793285,
    "phase": "open",
@@ -9219,29 +9237,19 @@
    "errors": [],
    "run_id": "45505135648",
    "event": "schedule"
-  },
-  {
-   "ts": 1795555023,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45489485522",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795793285,
+  "tick_at": 1795793599,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795793298,
-  "candidates": 54,
-  "charts_fetched": 56,
+  "yahoo_time": 1795793615,
+  "candidates": 46,
+  "charts_fetched": 48,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

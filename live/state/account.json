@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795793100,
+  "last_bar_end": 1795793400,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 64,
+  "triggers_seen": 68,
   "missed": [
    "COP",
    "CRWD",
@@ -1001,7 +1001,11 @@
    "DAL",
    "F",
    "TSLA",
-   "UAL"
+   "UAL",
+   "GM",
+   "JNJ",
+   "LUV",
+   "RDDT"
   ],
   "triggered": [
    "BIIB",
@@ -1067,7 +1071,11 @@
    "DAL",
    "F",
    "TSLA",
-   "UAL"
+   "UAL",
+   "GM",
+   "JNJ",
+   "LUV",
+   "RDDT"
   ],
   "hits": [
    {
@@ -1581,6 +1589,38 @@
     "or_high": 106.11,
     "or_low": 105.0,
     "pct_over": 0.35
+   },
+   {
+    "symbol": "GM",
+    "at": "10:30",
+    "price": 85.66,
+    "or_high": 85.59,
+    "or_low": 84.6,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "JNJ",
+    "at": "10:30",
+    "price": 274.85,
+    "or_high": 274.79,
+    "or_low": 272.62,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "LUV",
+    "at": "10:30",
+    "price": 46.53,
+    "or_high": 46.5,
+    "or_low": 46.06,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "RDDT",
+    "at": "10:30",
+    "price": 94.79,
+    "or_high": 94.48,
+    "or_low": 92.39,
+    "pct_over": 0.33
    }
   ]
  },
@@ -1588,8 +1628,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.64501953125,
-  "last_ts": 1795793100
+  "last": 723.0501098632812,
+  "last_ts": 1795793400
  },
  "seen_trades": 0,
  "daily": [
