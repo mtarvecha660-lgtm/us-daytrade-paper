@@ -1,21 +1,21 @@
 {
- "updated": 1795792971,
- "updated_et": "2026-11-27 10:22 ET",
+ "updated": 1795793285,
+ "updated_et": "2026-11-27 10:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9324.13,
-  "return": -0.06758700000000006,
+  "equity": 9328.98,
+  "return": -0.067102,
   "started": 1793559735
  },
  "spy": {
-  "value": 9510.6,
-  "return": -0.048939999999999984,
+  "value": 9524.35,
+  "return": -0.04756499999999997,
   "start_price": 759.47998046875,
-  "last": 722.5999755859375
+  "last": 723.64501953125
  },
  "position": {
   "symbol": "COST",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "BIIB",
-    "at": "09:50",
-    "price": 262.65,
-    "or_high": 262.58,
-    "or_low": 259.31,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "CHTR",
-    "at": "09:50",
-    "price": 152.43,
-    "or_high": 150.22,
-    "or_low": 146.87,
-    "pct_over": 1.47
-   },
-   {
-    "symbol": "CMCSA",
-    "at": "09:50",
-    "price": 26.07,
-    "or_high": 26.02,
-    "or_low": 25.73,
-    "pct_over": 0.19
-   },
-   {
-    "symbol": "COST",
-    "at": "09:50",
-    "price": 1094.84,
-    "or_high": 1094.47,
-    "or_low": 1086.04,
-    "pct_over": 0.03
-   },
    {
     "symbol": "CVS",
     "at": "09:50",
@@ -508,9 +476,49 @@
     "or_high": 522.28,
     "or_low": 502.9,
     "pct_over": 0.28
+   },
+   {
+    "symbol": "ABNB",
+    "at": "10:25",
+    "price": 177.29,
+    "or_high": 177.18,
+    "or_low": 173.7,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "DAL",
+    "at": "10:25",
+    "price": 84.23,
+    "or_high": 84.05,
+    "or_low": 83.35,
+    "pct_over": 0.21
+   },
+   {
+    "symbol": "F",
+    "at": "10:25",
+    "price": 12.3,
+    "or_high": 12.27,
+    "or_low": 12.16,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "TSLA",
+    "at": "10:25",
+    "price": 396.01,
+    "or_high": 395.25,
+    "or_low": 384.66,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "UAL",
+    "at": "10:25",
+    "price": 106.49,
+    "or_high": 106.11,
+    "or_low": 105.0,
+    "pct_over": 0.35
    }
   ],
-  "n_hits": 59,
+  "n_hits": 64,
   "entries": 1,
   "max_trades": 3
  },
@@ -1439,6 +1447,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795793100,
+   "et": "2026-11-27 10:25",
+   "kind": "busy",
+   "text": "5 more breakouts (ABNB, DAL, F, TSLA, UAL) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "ABNB",
+    "DAL",
+    "F",
+    "TSLA",
+    "UAL"
+   ]
+  },
   {
    "ts": 1795792800,
    "et": "2026-11-27 10:20",
@@ -2513,16 +2534,6 @@
    "text": "1 more breakout (SBUX) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "SBUX"
-   ]
-  },
-  {
-   "ts": 1795458300,
-   "et": "2026-11-23 13:25",
-   "kind": "busy",
-   "text": "2 more breakouts (C, T) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "C",
-    "T"
    ]
   }
  ],
@@ -8701,6 +8712,11 @@
    "ts": 1795792971,
    "equity": 9324.13,
    "spy": 9510.6
+  },
+  {
+   "ts": 1795793285,
+   "equity": 9328.98,
+   "spy": 9524.35
   }
  ],
  "daily": [
@@ -8814,6 +8830,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795793285,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.4,
+   "errors": [],
+   "run_id": "46025139415",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795792971,
    "phase": "open",
@@ -9203,29 +9229,19 @@
    "errors": [],
    "run_id": "45489485522",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795554711,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 7.4,
-   "errors": [],
-   "run_id": "45488575791",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795792971,
+  "tick_at": 1795793285,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795792992,
-  "candidates": 53,
-  "charts_fetched": 55,
+  "yahoo_time": 1795793298,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
