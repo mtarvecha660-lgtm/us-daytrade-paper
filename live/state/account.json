@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795797000,
+  "last_bar_end": 1795797600,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 94,
+  "triggers_seen": 98,
   "missed": [
    "COP",
    "CRWD",
@@ -1031,7 +1031,11 @@
    "RIOT",
    "NET",
    "BX",
-   "MCHP"
+   "MCHP",
+   "GE",
+   "KKR",
+   "MS",
+   "ORCL"
   ],
   "triggered": [
    "BIIB",
@@ -1127,7 +1131,11 @@
    "RIOT",
    "NET",
    "BX",
-   "MCHP"
+   "MCHP",
+   "GE",
+   "KKR",
+   "MS",
+   "ORCL"
   ],
   "hits": [
    {
@@ -1881,6 +1889,38 @@
     "or_high": 59.28,
     "or_low": 57.31,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "GE",
+    "at": "11:35",
+    "price": 323.0,
+    "or_high": 322.76,
+    "or_low": 320.3,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:35",
+    "price": 96.28,
+    "or_high": 96.16,
+    "or_low": 95.2,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MS",
+    "at": "11:35",
+    "price": 171.96,
+    "or_high": 171.89,
+    "or_low": 170.28,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ORCL",
+    "at": "11:35",
+    "price": 107.3,
+    "or_high": 107.25,
+    "or_low": 104.72,
+    "pct_over": 0.05
    }
   ]
  },
@@ -1888,8 +1928,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 725.3099975585938,
-  "last_ts": 1795797000
+  "last": 725.3400268554688,
+  "last_ts": 1795797600
  },
  "seen_trades": 0,
  "daily": [

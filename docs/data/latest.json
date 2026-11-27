@@ -1,21 +1,21 @@
 {
- "updated": 1795797354,
- "updated_et": "2026-11-27 11:35 ET",
+ "updated": 1795797668,
+ "updated_et": "2026-11-27 11:41 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9322.6,
-  "return": -0.06773999999999991,
+  "equity": 9315.61,
+  "return": -0.06843899999999992,
   "started": 1793559735
  },
  "spy": {
-  "value": 9546.27,
-  "return": -0.045373,
+  "value": 9546.66,
+  "return": -0.045333999999999985,
   "start_price": 759.47998046875,
-  "last": 725.3099975585938
+  "last": 725.3400268554688
  },
  "position": {
   "symbol": "COST",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "SBUX",
-    "at": "10:10",
-    "price": 108.9,
-    "or_high": 108.88,
-    "or_low": 107.75,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "TOST",
-    "at": "10:10",
-    "price": 34.57,
-    "or_high": 34.48,
-    "or_low": 33.85,
-    "pct_over": 0.26
-   },
-   {
-    "symbol": "AVGO",
-    "at": "10:15",
-    "price": 309.41,
-    "or_high": 309.3,
-    "or_low": 304.75,
-    "pct_over": 0.03
-   },
-   {
-    "symbol": "EOG",
-    "at": "10:15",
-    "price": 151.02,
-    "or_high": 150.99,
-    "or_low": 149.89,
-    "pct_over": 0.02
-   },
    {
     "symbol": "HMC",
     "at": "10:15",
@@ -516,9 +484,41 @@
     "or_high": 59.28,
     "or_low": 57.31,
     "pct_over": 0.16
+   },
+   {
+    "symbol": "GE",
+    "at": "11:35",
+    "price": 323.0,
+    "or_high": 322.76,
+    "or_low": 320.3,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "KKR",
+    "at": "11:35",
+    "price": 96.28,
+    "or_high": 96.16,
+    "or_low": 95.2,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MS",
+    "at": "11:35",
+    "price": 171.96,
+    "or_high": 171.89,
+    "or_low": 170.28,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ORCL",
+    "at": "11:35",
+    "price": 107.3,
+    "or_high": 107.25,
+    "or_low": 104.72,
+    "pct_over": 0.05
    }
   ],
-  "n_hits": 94,
+  "n_hits": 98,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795797300,
+   "et": "2026-11-27 11:35",
+   "kind": "busy",
+   "text": "4 more breakouts (GE, KKR, MS, ORCL) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "GE",
+    "KKR",
+    "MS",
+    "ORCL"
+   ]
+  },
   {
    "ts": 1795797000,
    "et": "2026-11-27 11:30",
@@ -2433,26 +2445,6 @@
     "PG",
     "PLTR",
     "UAL"
-   ]
-  },
-  {
-   "ts": 1795532400,
-   "et": "2026-11-24 10:00",
-   "kind": "busy",
-   "text": "12 more breakouts (APO, APP, AVGO, DASH, META, MPC, PEP, RBLX ...) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "APO",
-    "APP",
-    "AVGO",
-    "DASH",
-    "META",
-    "MPC",
-    "PEP",
-    "RBLX",
-    "RUN",
-    "SLB",
-    "SOFI",
-    "T"
    ]
   }
  ],
@@ -8701,6 +8693,11 @@
    "ts": 1795797354,
    "equity": 9322.6,
    "spy": 9546.27
+  },
+  {
+   "ts": 1795797668,
+   "equity": 9315.61,
+   "spy": 9546.66
   }
  ],
  "daily": [
@@ -8814,6 +8811,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795797668,
+   "phase": "open",
+   "status": "ok",
+   "bars": 2,
+   "secs": 17.3,
+   "errors": [],
+   "run_id": "46035648875",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795797354,
    "phase": "open",
@@ -9203,25 +9210,15 @@
    "errors": [],
    "run_id": "45643521062",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795619558,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 19.5,
-   "errors": [],
-   "run_id": "45642516397",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795797354,
+  "tick_at": 1795797668,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795797366,
-  "candidates": 45,
-  "charts_fetched": 47,
+  "yahoo_time": 1795797683,
+  "candidates": 56,
+  "charts_fetched": 58,
   "ok": true,
   "errors": [],
   "stale_data": false,
