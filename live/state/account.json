@@ -897,21 +897,168 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795790700,
+  "last_bar_end": 1795791000,
   "position": null,
-  "pending": null,
-  "orders": [],
-  "entries": 0,
+  "pending": {
+   "symbol": "COST",
+   "qty": 6,
+   "plan": {
+    "symbol": "COST",
+    "side": "buy",
+    "setup": "orb",
+    "date": "2026-11-27",
+    "entry_time": "9:50 AM",
+    "entry": 1094.84,
+    "stop": 1090.25,
+    "target": 1099.43,
+    "stop_label": "opening-range midpoint",
+    "target_label": "1R (one times the risk)",
+    "flat_by": "12:55"
+   },
+   "why": {
+    "scanner": "COST: the 09:45 bar closed at $1094.84, above the 15-min opening range high $1094.47 (range 1086.04-1094.47)",
+    "exit": "plan: entry $1094.84, stop $1090.25 (opening-range midpoint), target $1099.43 (1R (one times the risk)), flat by 12:55 ET",
+    "budget": "opening-range breakout on COST: 6 shares, bound by your position cap (6 x 4.59 = $27.54 at the stop) (limits: max loss 21; position cap 6; max order 7; cash 7)",
+    "risk": "trader-risk PASS: entry 1094.84 (the plan's entry), stop 1090.25, target 1099.43: risk 4.59 a share; max loss $27.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "decided_ts": 1795791000,
+   "late": false
+  },
+  "orders": [
+   {
+    "status": "placed",
+    "date": "2026-11-27",
+    "symbol": "COST",
+    "side": "buy",
+    "kind": "entry",
+    "max_loss": 27.54,
+    "at": "2026-11-27T09:50:00"
+   }
+  ],
+  "entries": 1,
   "skips": 0,
-  "triggers_seen": 0,
-  "missed": []
+  "triggers_seen": 12,
+  "missed": [],
+  "triggered": [
+   "BIIB",
+   "CHTR",
+   "CMCSA",
+   "COST",
+   "CVS",
+   "DIS",
+   "KO",
+   "MRK",
+   "PEP",
+   "PYPL",
+   "TM",
+   "V"
+  ],
+  "hits": [
+   {
+    "symbol": "BIIB",
+    "at": "09:50",
+    "price": 262.65,
+    "or_high": 262.58,
+    "or_low": 259.31,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "CHTR",
+    "at": "09:50",
+    "price": 152.43,
+    "or_high": 150.22,
+    "or_low": 146.87,
+    "pct_over": 1.47
+   },
+   {
+    "symbol": "CMCSA",
+    "at": "09:50",
+    "price": 26.07,
+    "or_high": 26.02,
+    "or_low": 25.73,
+    "pct_over": 0.19
+   },
+   {
+    "symbol": "COST",
+    "at": "09:50",
+    "price": 1094.84,
+    "or_high": 1094.47,
+    "or_low": 1086.04,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "CVS",
+    "at": "09:50",
+    "price": 82.72,
+    "or_high": 82.66,
+    "or_low": 81.35,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "DIS",
+    "at": "09:50",
+    "price": 126.93,
+    "or_high": 126.89,
+    "or_low": 125.45,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "KO",
+    "at": "09:50",
+    "price": 97.18,
+    "or_high": 97.1,
+    "or_low": 96.5,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "MRK",
+    "at": "09:50",
+    "price": 141.73,
+    "or_high": 141.65,
+    "or_low": 140.4,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "PEP",
+    "at": "09:50",
+    "price": 144.49,
+    "or_high": 144.43,
+    "or_low": 143.55,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "PYPL",
+    "at": "09:50",
+    "price": 58.83,
+    "or_high": 58.66,
+    "or_low": 58.0,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "TM",
+    "at": "09:50",
+    "price": 214.18,
+    "or_high": 213.76,
+    "or_low": 212.86,
+    "pct_over": 0.2
+   },
+   {
+    "symbol": "V",
+    "at": "09:50",
+    "price": 427.89,
+    "or_high": 427.81,
+    "or_low": 423.02,
+    "pct_over": 0.02
+   }
+  ]
  },
  "spy": {
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 722.75,
-  "last_ts": 1795790700
+  "last": 721.0800170898438,
+  "last_ts": 1795791000
  },
  "seen_trades": 0,
  "daily": [
