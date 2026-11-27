@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795791900,
+  "last_bar_end": 1795792200,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 31,
+  "triggers_seen": 36,
   "missed": [
    "COP",
    "CRWD",
@@ -968,7 +968,12 @@
    "ZM",
    "ZS",
    "LYFT",
-   "PATH"
+   "PATH",
+   "AMZN",
+   "GILD",
+   "NEE",
+   "SBUX",
+   "TOST"
   ],
   "triggered": [
    "BIIB",
@@ -1001,7 +1006,12 @@
    "ZM",
    "ZS",
    "LYFT",
-   "PATH"
+   "PATH",
+   "AMZN",
+   "GILD",
+   "NEE",
+   "SBUX",
+   "TOST"
   ],
   "hits": [
    {
@@ -1251,6 +1261,46 @@
     "or_high": 12.78,
     "or_low": 12.53,
     "pct_over": 0.31
+   },
+   {
+    "symbol": "AMZN",
+    "at": "10:10",
+    "price": 250.98,
+    "or_high": 250.96,
+    "or_low": 248.45,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "GILD",
+    "at": "10:10",
+    "price": 176.18,
+    "or_high": 176.09,
+    "or_low": 174.01,
+    "pct_over": 0.05
+   },
+   {
+    "symbol": "NEE",
+    "at": "10:10",
+    "price": 84.96,
+    "or_high": 84.95,
+    "or_low": 84.32,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "SBUX",
+    "at": "10:10",
+    "price": 108.9,
+    "or_high": 108.88,
+    "or_low": 107.75,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TOST",
+    "at": "10:10",
+    "price": 34.57,
+    "or_high": 34.48,
+    "or_low": 33.85,
+    "pct_over": 0.26
    }
   ]
  },
@@ -1258,8 +1308,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 720.4949951171875,
-  "last_ts": 1795791900
+  "last": 721.0599975585938,
+  "last_ts": 1795792200
  },
  "seen_trades": 0,
  "daily": [
