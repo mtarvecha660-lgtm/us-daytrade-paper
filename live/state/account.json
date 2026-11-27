@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795791300,
+  "last_bar_end": 1795791600,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 29,
+  "triggers_seen": 30,
   "missed": [
    "COP",
    "CRWD",
@@ -966,7 +966,8 @@
    "TWLO",
    "VZ",
    "ZM",
-   "ZS"
+   "ZS",
+   "LYFT"
   ],
   "triggered": [
    "BIIB",
@@ -997,7 +998,8 @@
    "TWLO",
    "VZ",
    "ZM",
-   "ZS"
+   "ZS",
+   "LYFT"
   ],
   "hits": [
    {
@@ -1231,6 +1233,14 @@
     "or_high": 233.18,
     "or_low": 227.04,
     "pct_over": 0.92
+   },
+   {
+    "symbol": "LYFT",
+    "at": "10:00",
+    "price": 17.45,
+    "or_high": 17.4,
+    "or_low": 17.15,
+    "pct_over": 0.32
    }
   ]
  },
@@ -1238,8 +1248,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 721.4199829101562,
-  "last_ts": 1795791300
+  "last": 720.0850219726562,
+  "last_ts": 1795791600
  },
  "seen_trades": 0,
  "daily": [
