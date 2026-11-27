@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795793400,
+  "last_bar_end": 1795793700,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 68,
+  "triggers_seen": 72,
   "missed": [
    "COP",
    "CRWD",
@@ -1005,7 +1005,11 @@
    "GM",
    "JNJ",
    "LUV",
-   "RDDT"
+   "RDDT",
+   "ANET",
+   "CVX",
+   "DUK",
+   "ETSY"
   ],
   "triggered": [
    "BIIB",
@@ -1075,7 +1079,11 @@
    "GM",
    "JNJ",
    "LUV",
-   "RDDT"
+   "RDDT",
+   "ANET",
+   "CVX",
+   "DUK",
+   "ETSY"
   ],
   "hits": [
    {
@@ -1621,6 +1629,38 @@
     "or_high": 94.48,
     "or_low": 92.39,
     "pct_over": 0.33
+   },
+   {
+    "symbol": "ANET",
+    "at": "10:35",
+    "price": 170.54,
+    "or_high": 170.5,
+    "or_low": 167.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CVX",
+    "at": "10:35",
+    "price": 214.81,
+    "or_high": 214.79,
+    "or_low": 213.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:35",
+    "price": 132.15,
+    "or_high": 132.11,
+    "or_low": 131.2,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ETSY",
+    "at": "10:35",
+    "price": 80.66,
+    "or_high": 80.64,
+    "or_low": 79.13,
+    "pct_over": 0.03
    }
   ]
  },
@@ -1628,8 +1668,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 723.0501098632812,
-  "last_ts": 1795793400
+  "last": 723.280029296875,
+  "last_ts": 1795793700
  },
  "seen_trades": 0,
  "daily": [

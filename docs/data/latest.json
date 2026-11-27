@@ -1,21 +1,21 @@
 {
- "updated": 1795793599,
- "updated_et": "2026-11-27 10:33 ET",
+ "updated": 1795793911,
+ "updated_et": "2026-11-27 10:38 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9330.42,
-  "return": -0.06695799999999996,
+  "equity": 9342.54,
+  "return": -0.06574599999999986,
   "started": 1793559735
  },
  "spy": {
-  "value": 9516.52,
-  "return": -0.04834799999999995,
+  "value": 9519.55,
+  "return": -0.048045000000000115,
   "start_price": 759.47998046875,
-  "last": 723.0501098632812
+  "last": 723.280029296875
  },
  "position": {
   "symbol": "COST",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "PEP",
-    "at": "09:50",
-    "price": 144.49,
-    "or_high": 144.43,
-    "or_low": 143.55,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "PYPL",
-    "at": "09:50",
-    "price": 58.83,
-    "or_high": 58.66,
-    "or_low": 58.0,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "TM",
-    "at": "09:50",
-    "price": 214.18,
-    "or_high": 213.76,
-    "or_low": 212.86,
-    "pct_over": 0.2
-   },
-   {
-    "symbol": "V",
-    "at": "09:50",
-    "price": 427.89,
-    "or_high": 427.81,
-    "or_low": 423.02,
-    "pct_over": 0.02
-   },
    {
     "symbol": "COP",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 94.48,
     "or_low": 92.39,
     "pct_over": 0.33
+   },
+   {
+    "symbol": "ANET",
+    "at": "10:35",
+    "price": 170.54,
+    "or_high": 170.5,
+    "or_low": 167.48,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "CVX",
+    "at": "10:35",
+    "price": 214.81,
+    "or_high": 214.79,
+    "or_low": 213.0,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DUK",
+    "at": "10:35",
+    "price": 132.15,
+    "or_high": 132.11,
+    "or_low": 131.2,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "ETSY",
+    "at": "10:35",
+    "price": 80.66,
+    "or_high": 80.64,
+    "or_low": 79.13,
+    "pct_over": 0.03
    }
   ],
-  "n_hits": 68,
+  "n_hits": 72,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795793700,
+   "et": "2026-11-27 10:35",
+   "kind": "busy",
+   "text": "4 more breakouts (ANET, CVX, DUK, ETSY) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "ANET",
+    "CVX",
+    "DUK",
+    "ETSY"
+   ]
+  },
   {
    "ts": 1795793400,
    "et": "2026-11-27 10:30",
@@ -2528,15 +2540,6 @@
    "text": "1 more breakout (SO) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "SO"
-   ]
-  },
-  {
-   "ts": 1795459500,
-   "et": "2026-11-23 13:45",
-   "kind": "busy",
-   "text": "1 more breakout (VZ) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "VZ"
    ]
   }
  ],
@@ -8725,6 +8728,11 @@
    "ts": 1795793599,
    "equity": 9330.42,
    "spy": 9516.52
+  },
+  {
+   "ts": 1795793911,
+   "equity": 9342.54,
+   "spy": 9519.55
   }
  ],
  "daily": [
@@ -8838,6 +8846,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795793911,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.9,
+   "errors": [],
+   "run_id": "46026681459",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795793599,
    "phase": "open",
@@ -9227,25 +9245,15 @@
    "errors": [],
    "run_id": "45574959407",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795574834,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45505135648",
-   "event": "schedule"
   }
  ],
  "health": {
-  "tick_at": 1795793599,
+  "tick_at": 1795793911,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795793615,
-  "candidates": 46,
-  "charts_fetched": 48,
+  "yahoo_time": 1795793927,
+  "candidates": 51,
+  "charts_fetched": 53,
   "ok": true,
   "errors": [],
   "stale_data": false,
