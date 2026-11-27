@@ -1,21 +1,21 @@
 {
- "updated": 1795795474,
- "updated_et": "2026-11-27 11:04 ET",
+ "updated": 1795795788,
+ "updated_et": "2026-11-27 11:09 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9326.77,
-  "return": -0.06732299999999991,
+  "equity": 9329.58,
+  "return": -0.06704200000000005,
   "started": 1793559735
  },
  "spy": {
-  "value": 9542.71,
-  "return": -0.04572900000000013,
+  "value": 9549.29,
+  "return": -0.04507099999999986,
   "start_price": 759.47998046875,
-  "last": 725.0399780273438
+  "last": 725.5399780273438
  },
  "position": {
   "symbol": "COST",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "LYFT",
-    "at": "10:00",
-    "price": 17.45,
-    "or_high": 17.4,
-    "or_low": 17.15,
-    "pct_over": 0.32
-   },
-   {
-    "symbol": "PATH",
-    "at": "10:05",
-    "price": 12.82,
-    "or_high": 12.78,
-    "or_low": 12.53,
-    "pct_over": 0.31
-   },
    {
     "symbol": "AMZN",
     "at": "10:10",
@@ -516,9 +500,25 @@
     "or_high": 156.41,
     "or_low": 153.28,
     "pct_over": 0.01
+   },
+   {
+    "symbol": "AAL",
+    "at": "11:05",
+    "price": 12.78,
+    "or_high": 12.78,
+    "or_low": 12.6,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "RIOT",
+    "at": "11:05",
+    "price": 17.39,
+    "or_high": 17.35,
+    "or_low": 16.35,
+    "pct_over": 0.21
    }
   ],
-  "n_hits": 89,
+  "n_hits": 91,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795795500,
+   "et": "2026-11-27 11:05",
+   "kind": "busy",
+   "text": "2 more breakouts (AAL, RIOT) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "AAL",
+    "RIOT"
+   ]
+  },
   {
    "ts": 1795795200,
    "et": "2026-11-27 11:00",
@@ -2472,89 +2482,6 @@
    "kind": "fill",
    "text": "BUY 19 AAPL filled at $352.96 (next bar's open $352.89 + slippage). Stop $349.19, target $356.71",
    "symbol": "AAPL"
-  },
-  {
-   "ts": 1795531800,
-   "et": "2026-11-24 09:50",
-   "kind": "order",
-   "text": "BUY 19 AAPL at market (decided on the 09:50 close). opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 3.76 = $71.44 at the stop) (limits: max loss 26; position cap 19; max order 22; cash 23)",
-   "symbol": "AAPL",
-   "why": {
-    "scanner": "AAPL: the 09:45 bar closed at $352.95, above the 15-min opening range high $352.50 (range 345.88-352.50)",
-    "exit": "plan: entry $352.95, stop $349.19 (opening-range midpoint), target $356.71 (1R (one times the risk)), flat by 15:55 ET",
-    "budget": "opening-range breakout on AAPL: 19 shares, bound by your position cap (19 x 3.76 = $71.44 at the stop) (limits: max loss 26; position cap 19; max order 22; cash 23)",
-    "risk": "trader-risk PASS: entry 352.95 (the latest price), stop 349.19, target 356.71: risk 3.76 a share; max loss $71.44 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-   },
-   "others": [
-    "MSFT",
-    "AMZN",
-    "UNH",
-    "MDT",
-    "NFLX",
-    "V",
-    "JPM",
-    "CRM",
-    "PYPL",
-    "BAC",
-    "MMM",
-    "ADBE",
-    "AXP",
-    "CVX",
-    "MA",
-    "PFE",
-    "AMGN",
-    "IBM",
-    "NET",
-    "UBER",
-    "BKNG",
-    "PINS",
-    "DIS",
-    "LMT",
-    "SHOP",
-    "SPOT",
-    "BMY",
-    "EOG",
-    "CHTR",
-    "JD",
-    "DVN",
-    "COP",
-    "CPNG",
-    "BLK",
-    "OXY",
-    "BX",
-    "SCHW",
-    "TMUS",
-    "RDDT",
-    "U",
-    "BSX",
-    "DDOG",
-    "ELV",
-    "ABNB",
-    "RIVN",
-    "HUM",
-    "KKR",
-    "FSLR",
-    "TTD",
-    "AFRM",
-    "FANG",
-    "HAL",
-    "USB",
-    "TOST",
-    "TWLO",
-    "SONY",
-    "GD",
-    "EXPE",
-    "LUV",
-    "LYFT",
-    "DOCU",
-    "ETSY",
-    "DUOL",
-    "PNC",
-    "UPST",
-    "PATH",
-    "Z"
-   ]
   }
  ],
  "equity": [
@@ -8772,6 +8699,11 @@
    "ts": 1795795474,
    "equity": 9326.77,
    "spy": 9542.71
+  },
+  {
+   "ts": 1795795788,
+   "equity": 9329.58,
+   "spy": 9549.29
   }
  ],
  "daily": [
@@ -8885,6 +8817,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795795788,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.2,
+   "errors": [],
+   "run_id": "46031195807",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795795474,
    "phase": "open",
@@ -9274,29 +9216,19 @@
    "errors": [],
    "run_id": "45637627583",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795617656,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.3,
-   "errors": [],
-   "run_id": "45636666400",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795795474,
+  "tick_at": 1795795788,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795795489,
-  "candidates": 49,
-  "charts_fetched": 51,
+  "yahoo_time": 1795795804,
+  "candidates": 52,
+  "charts_fetched": 54,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
