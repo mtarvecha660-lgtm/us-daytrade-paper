@@ -1,21 +1,21 @@
 {
- "updated": 1795794540,
- "updated_et": "2026-11-27 10:49 ET",
+ "updated": 1795794853,
+ "updated_et": "2026-11-27 10:54 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9337.26,
-  "return": -0.06627399999999994,
+  "equity": 9338.94,
+  "return": -0.066106,
   "started": 1793559735
  },
  "spy": {
-  "value": 9549.95,
-  "return": -0.04500499999999996,
+  "value": 9544.82,
+  "return": -0.04551800000000006,
   "start_price": 759.47998046875,
-  "last": 725.5900268554688
+  "last": 725.2000122070312
  },
  "position": {
   "symbol": "COST",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "SNAP",
-    "at": "09:55",
-    "price": 5.24,
-    "or_high": 5.22,
-    "or_low": 5.16,
-    "pct_over": 0.29
-   },
-   {
-    "symbol": "SWKS",
-    "at": "09:55",
-    "price": 85.81,
-    "or_high": 84.97,
-    "or_low": 83.42,
-    "pct_over": 0.99
-   },
    {
     "symbol": "TWLO",
     "at": "09:55",
@@ -516,9 +500,25 @@
     "or_high": 14.62,
     "or_low": 14.26,
     "pct_over": 0.34
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:50",
+    "price": 418.18,
+    "or_high": 418.11,
+    "or_low": 415.24,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:50",
+    "price": 168.18,
+    "or_high": 168.15,
+    "or_low": 166.36,
+    "pct_over": 0.02
    }
   ],
-  "n_hits": 83,
+  "n_hits": 85,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795794600,
+   "et": "2026-11-27 10:50",
+   "kind": "busy",
+   "text": "2 more breakouts (MAR, TMUS) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "MAR",
+    "TMUS"
+   ]
+  },
   {
    "ts": 1795794300,
    "et": "2026-11-27 10:45",
@@ -2540,15 +2550,6 @@
    "text": "1 more breakout (CSCO) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "CSCO"
-   ]
-  },
-  {
-   "ts": 1795464600,
-   "et": "2026-11-23 15:10",
-   "kind": "busy",
-   "text": "1 more breakout (TMUS) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "TMUS"
    ]
   }
  ],
@@ -8752,6 +8753,11 @@
    "ts": 1795794540,
    "equity": 9337.26,
    "spy": 9549.95
+  },
+  {
+   "ts": 1795794853,
+   "equity": 9338.94,
+   "spy": 9544.82
   }
  ],
  "daily": [
@@ -8865,6 +8871,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795794853,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.2,
+   "errors": [],
+   "run_id": "46028945457",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795794540,
    "phase": "open",
@@ -9254,29 +9270,19 @@
    "errors": [],
    "run_id": "45634774113",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795616721,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45633819324",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795794540,
+  "tick_at": 1795794853,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795794555,
-  "candidates": 52,
-  "charts_fetched": 54,
+  "yahoo_time": 1795794870,
+  "candidates": 54,
+  "charts_fetched": 56,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

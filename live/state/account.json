@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795794300,
+  "last_bar_end": 1795794600,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 83,
+  "triggers_seen": 85,
   "missed": [
    "COP",
    "CRWD",
@@ -1020,7 +1020,9 @@
    "AAPL",
    "JPM",
    "MPC",
-   "TTD"
+   "TTD",
+   "MAR",
+   "TMUS"
   ],
   "triggered": [
    "BIIB",
@@ -1105,7 +1107,9 @@
    "AAPL",
    "JPM",
    "MPC",
-   "TTD"
+   "TTD",
+   "MAR",
+   "TMUS"
   ],
   "hits": [
    {
@@ -1771,6 +1775,22 @@
     "or_high": 14.62,
     "or_low": 14.26,
     "pct_over": 0.34
+   },
+   {
+    "symbol": "MAR",
+    "at": "10:50",
+    "price": 418.18,
+    "or_high": 418.11,
+    "or_low": 415.24,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TMUS",
+    "at": "10:50",
+    "price": 168.18,
+    "or_high": 168.15,
+    "or_low": 166.36,
+    "pct_over": 0.02
    }
   ]
  },
@@ -1778,8 +1798,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 725.5900268554688,
-  "last_ts": 1795794300
+  "last": 725.2000122070312,
+  "last_ts": 1795794600
  },
  "seen_trades": 0,
  "daily": [
