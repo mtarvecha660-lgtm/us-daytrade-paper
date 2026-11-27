@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795794900,
+  "last_bar_end": 1795795200,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 88,
+  "triggers_seen": 89,
   "missed": [
    "COP",
    "CRWD",
@@ -1025,7 +1025,8 @@
    "TMUS",
    "DPZ",
    "PLTR",
-   "SNOW"
+   "SNOW",
+   "DUOL"
   ],
   "triggered": [
    "BIIB",
@@ -1115,7 +1116,8 @@
    "TMUS",
    "DPZ",
    "PLTR",
-   "SNOW"
+   "SNOW",
+   "DUOL"
   ],
   "hits": [
    {
@@ -1821,6 +1823,14 @@
     "or_high": 274.9,
     "or_low": 268.45,
     "pct_over": 0.17
+   },
+   {
+    "symbol": "DUOL",
+    "at": "11:00",
+    "price": 156.43,
+    "or_high": 156.41,
+    "or_low": 153.28,
+    "pct_over": 0.01
    }
   ]
  },
@@ -1828,8 +1838,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.9299926757812,
-  "last_ts": 1795794900
+  "last": 725.0399780273438,
+  "last_ts": 1795795200
  },
  "seen_trades": 0,
  "daily": [
