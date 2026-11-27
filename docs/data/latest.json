@@ -1,21 +1,21 @@
 {
- "updated": 1795794225,
- "updated_et": "2026-11-27 10:43 ET",
+ "updated": 1795794540,
+ "updated_et": "2026-11-27 10:49 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9345.9,
-  "return": -0.06541000000000008,
+  "equity": 9337.26,
+  "return": -0.06627399999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9545.41,
-  "return": -0.04545900000000003,
+  "value": 9549.95,
+  "return": -0.04500499999999996,
   "start_price": 759.47998046875,
-  "last": 725.2449951171875
+  "last": 725.5900268554688
  },
  "position": {
   "symbol": "COST",
@@ -37,38 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "OXY",
-    "at": "09:55",
-    "price": 54.63,
-    "or_high": 54.62,
-    "or_low": 54.27,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "PANW",
-    "at": "09:55",
-    "price": 352.79,
-    "or_high": 351.81,
-    "or_low": 338.57,
-    "pct_over": 0.28
-   },
-   {
-    "symbol": "PINS",
-    "at": "09:55",
-    "price": 20.58,
-    "or_high": 20.53,
-    "or_low": 19.81,
-    "pct_over": 0.27
-   },
-   {
-    "symbol": "SLB",
-    "at": "09:55",
-    "price": 49.66,
-    "or_high": 49.65,
-    "or_low": 49.38,
-    "pct_over": 0.03
-   },
    {
     "symbol": "SNAP",
     "at": "09:55",
@@ -516,9 +484,41 @@
     "or_high": 31.17,
     "or_low": 30.57,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "AAPL",
+    "at": "10:45",
+    "price": 359.18,
+    "or_high": 358.9,
+    "or_low": 356.08,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "JPM",
+    "at": "10:45",
+    "price": 324.01,
+    "or_high": 323.61,
+    "or_low": 321.58,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:45",
+    "price": 362.52,
+    "or_high": 362.27,
+    "or_low": 353.08,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:45",
+    "price": 14.67,
+    "or_high": 14.62,
+    "or_low": 14.26,
+    "pct_over": 0.34
    }
   ],
-  "n_hits": 79,
+  "n_hits": 83,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,18 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795794300,
+   "et": "2026-11-27 10:45",
+   "kind": "busy",
+   "text": "4 more breakouts (AAPL, JPM, MPC, TTD) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "AAPL",
+    "JPM",
+    "MPC",
+    "TTD"
+   ]
+  },
   {
    "ts": 1795794000,
    "et": "2026-11-27 10:40",
@@ -2537,15 +2549,6 @@
    "text": "1 more breakout (TMUS) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "TMUS"
-   ]
-  },
-  {
-   "ts": 1795464300,
-   "et": "2026-11-23 15:05",
-   "kind": "busy",
-   "text": "1 more breakout (Z) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "Z"
    ]
   }
  ],
@@ -8744,6 +8747,11 @@
    "ts": 1795794225,
    "equity": 9345.9,
    "spy": 9545.41
+  },
+  {
+   "ts": 1795794540,
+   "equity": 9337.26,
+   "spy": 9549.95
   }
  ],
  "daily": [
@@ -8857,6 +8865,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795794540,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 16.3,
+   "errors": [],
+   "run_id": "46028197015",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795794225,
    "phase": "open",
@@ -9246,25 +9264,15 @@
    "errors": [],
    "run_id": "45633819324",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795614463,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45627179907",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795794225,
+  "tick_at": 1795794540,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795794240,
-  "candidates": 62,
-  "charts_fetched": 64,
+  "yahoo_time": 1795794555,
+  "candidates": 52,
+  "charts_fetched": 54,
   "ok": true,
   "errors": [],
   "stale_data": false,

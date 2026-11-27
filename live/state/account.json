@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795794000,
+  "last_bar_end": 1795794300,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 79,
+  "triggers_seen": 83,
   "missed": [
    "COP",
    "CRWD",
@@ -1016,7 +1016,11 @@
    "STX",
    "UPST",
    "YUM",
-   "Z"
+   "Z",
+   "AAPL",
+   "JPM",
+   "MPC",
+   "TTD"
   ],
   "triggered": [
    "BIIB",
@@ -1097,7 +1101,11 @@
    "STX",
    "UPST",
    "YUM",
-   "Z"
+   "Z",
+   "AAPL",
+   "JPM",
+   "MPC",
+   "TTD"
   ],
   "hits": [
    {
@@ -1731,6 +1739,38 @@
     "or_high": 31.17,
     "or_low": 30.57,
     "pct_over": 0.03
+   },
+   {
+    "symbol": "AAPL",
+    "at": "10:45",
+    "price": 359.18,
+    "or_high": 358.9,
+    "or_low": 356.08,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "JPM",
+    "at": "10:45",
+    "price": 324.01,
+    "or_high": 323.61,
+    "or_low": 321.58,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "MPC",
+    "at": "10:45",
+    "price": 362.52,
+    "or_high": 362.27,
+    "or_low": 353.08,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "TTD",
+    "at": "10:45",
+    "price": 14.67,
+    "or_high": 14.62,
+    "or_low": 14.26,
+    "pct_over": 0.34
    }
   ]
  },
@@ -1738,8 +1778,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 725.2449951171875,
-  "last_ts": 1795794000
+  "last": 725.5900268554688,
+  "last_ts": 1795794300
  },
  "seen_trades": 0,
  "daily": [
