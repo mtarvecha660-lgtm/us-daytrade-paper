@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795797900,
+  "last_bar_end": 1795798200,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 100,
+  "triggers_seen": 105,
   "missed": [
    "COP",
    "CRWD",
@@ -1037,7 +1037,12 @@
    "MS",
    "ORCL",
    "CAT",
-   "REGN"
+   "REGN",
+   "AMGN",
+   "IDXX",
+   "SNPS",
+   "WFC",
+   "WMT"
   ],
   "triggered": [
    "BIIB",
@@ -1139,7 +1144,12 @@
    "MS",
    "ORCL",
    "CAT",
-   "REGN"
+   "REGN",
+   "AMGN",
+   "IDXX",
+   "SNPS",
+   "WFC",
+   "WMT"
   ],
   "hits": [
    {
@@ -1941,6 +1951,46 @@
     "or_high": 987.99,
     "or_low": 976.82,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AMGN",
+    "at": "11:50",
+    "price": 473.29,
+    "or_high": 473.17,
+    "or_low": 467.13,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "IDXX",
+    "at": "11:50",
+    "price": 716.36,
+    "or_high": 715.92,
+    "or_low": 710.96,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SNPS",
+    "at": "11:50",
+    "price": 420.02,
+    "or_high": 419.72,
+    "or_low": 410.61,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "WFC",
+    "at": "11:50",
+    "price": 82.59,
+    "or_high": 82.5,
+    "or_low": 81.8,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "WMT",
+    "at": "11:50",
+    "price": 132.48,
+    "or_high": 132.32,
+    "or_low": 131.68,
+    "pct_over": 0.12
    }
   ]
  },
@@ -1948,8 +1998,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 726.280029296875,
-  "last_ts": 1795797900
+  "last": 727.0050048828125,
+  "last_ts": 1795798200
  },
  "seen_trades": 0,
  "daily": [

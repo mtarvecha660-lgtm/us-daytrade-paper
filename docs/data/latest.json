@@ -1,21 +1,21 @@
 {
- "updated": 1795797979,
- "updated_et": "2026-11-27 11:46 ET",
+ "updated": 1795798293,
+ "updated_et": "2026-11-27 11:51 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9326.97,
-  "return": -0.06730300000000011,
+  "equity": 9331.56,
+  "return": -0.06684400000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9559.04,
-  "return": -0.04409599999999991,
+  "value": 9568.58,
+  "return": -0.043142000000000014,
   "start_price": 759.47998046875,
-  "last": 726.280029296875
+  "last": 727.0050048828125
  },
  "position": {
   "symbol": "COST",
@@ -37,46 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "IBM",
-    "at": "10:15",
-    "price": 246.95,
-    "or_high": 246.78,
-    "or_low": 244.27,
-    "pct_over": 0.07
-   },
-   {
-    "symbol": "IONQ",
-    "at": "10:15",
-    "price": 25.06,
-    "or_high": 24.95,
-    "or_low": 24.16,
-    "pct_over": 0.46
-   },
-   {
-    "symbol": "NKE",
-    "at": "10:15",
-    "price": 37.12,
-    "or_high": 37.07,
-    "or_low": 36.57,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "NXPI",
-    "at": "10:15",
-    "price": 250.94,
-    "or_high": 249.33,
-    "or_low": 244.91,
-    "pct_over": 0.65
-   },
-   {
-    "symbol": "QBTS",
-    "at": "10:15",
-    "price": 7.58,
-    "or_high": 7.45,
-    "or_low": 7.11,
-    "pct_over": 1.74
-   },
    {
     "symbol": "QCOM",
     "at": "10:15",
@@ -516,9 +476,49 @@
     "or_high": 987.99,
     "or_low": 976.82,
     "pct_over": 0.1
+   },
+   {
+    "symbol": "AMGN",
+    "at": "11:50",
+    "price": 473.29,
+    "or_high": 473.17,
+    "or_low": 467.13,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "IDXX",
+    "at": "11:50",
+    "price": 716.36,
+    "or_high": 715.92,
+    "or_low": 710.96,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "SNPS",
+    "at": "11:50",
+    "price": 420.02,
+    "or_high": 419.72,
+    "or_low": 410.61,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "WFC",
+    "at": "11:50",
+    "price": 82.59,
+    "or_high": 82.5,
+    "or_low": 81.8,
+    "pct_over": 0.11
+   },
+   {
+    "symbol": "WMT",
+    "at": "11:50",
+    "price": 132.48,
+    "or_high": 132.32,
+    "or_low": 131.68,
+    "pct_over": 0.12
    }
   ],
-  "n_hits": 100,
+  "n_hits": 105,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,19 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795798200,
+   "et": "2026-11-27 11:50",
+   "kind": "busy",
+   "text": "5 more breakouts (AMGN, IDXX, SNPS, WFC, WMT) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "AMGN",
+    "IDXX",
+    "SNPS",
+    "WFC",
+    "WMT"
+   ]
+  },
   {
    "ts": 1795797900,
    "et": "2026-11-27 11:45",
@@ -2422,18 +2435,6 @@
     "MCD",
     "NKE",
     "REGN"
-   ]
-  },
-  {
-   "ts": 1795533000,
-   "et": "2026-11-24 10:10",
-   "kind": "busy",
-   "text": "4 more breakouts (DLTR, RTX, TGT, VZ) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "DLTR",
-    "RTX",
-    "TGT",
-    "VZ"
    ]
   }
  ],
@@ -8692,6 +8693,11 @@
    "ts": 1795797979,
    "equity": 9326.97,
    "spy": 9559.04
+  },
+  {
+   "ts": 1795798293,
+   "equity": 9331.56,
+   "spy": 9568.58
   }
  ],
  "daily": [
@@ -8805,6 +8811,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795798293,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.2,
+   "errors": [],
+   "run_id": "46037091513",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795797979,
    "phase": "open",
@@ -9194,29 +9210,19 @@
    "errors": [],
    "run_id": "45645504021",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795620189,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 9.2,
-   "errors": [],
-   "run_id": "45644513999",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795797979,
+  "tick_at": 1795798293,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795797995,
-  "candidates": 53,
-  "charts_fetched": 55,
+  "yahoo_time": 1795798308,
+  "candidates": 60,
+  "charts_fetched": 62,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
