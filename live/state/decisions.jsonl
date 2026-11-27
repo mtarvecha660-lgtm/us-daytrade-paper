@@ -599,3 +599,4 @@
 {"ts": 1795799400, "et": "2026-11-27 12:10", "kind": "busy", "text": "1 more breakout (W) not taken: already in COST (one trade at a time)", "symbols": ["W"]}
 {"ts": 1795800300, "et": "2026-11-27 12:25", "kind": "busy", "text": "2 more breakouts (ABBV, MCD) not taken: already in COST (one trade at a time)", "symbols": ["ABBV", "MCD"]}
 {"ts": 1795800600, "et": "2026-11-27 12:30", "kind": "busy", "text": "1 more breakout (HLT) not taken: already in COST (one trade at a time)", "symbols": ["HLT"]}
+{"ts": 1795801200, "et": "2026-11-27 12:40", "kind": "exit", "text": "SELL 6 COST at $1099.43: target $1099.43 hit (1R). P&L $+28.15 (+1.02R)", "symbol": "COST"}

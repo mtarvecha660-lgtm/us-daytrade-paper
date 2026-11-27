@@ -1,38 +1,23 @@
 {
- "updated": 1795801123,
- "updated_et": "2026-11-27 12:38 ET",
+ "updated": 1795801437,
+ "updated_et": "2026-11-27 12:43 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 2755.62,
-  "equity": 9347.94,
-  "return": -0.06520599999999999,
+  "cash": 9352.2,
+  "equity": 9352.2,
+  "return": -0.06477999999999995,
   "started": 1793559735
  },
  "spy": {
-  "value": 9568.77,
-  "return": -0.04312299999999991,
+  "value": 9557.98,
+  "return": -0.044202000000000075,
   "start_price": 759.47998046875,
-  "last": 727.02001953125
+  "last": 726.2000122070312
  },
- "position": {
-  "symbol": "COST",
-  "qty": 6,
-  "entry": 1094.7389,
-  "entry_et": "09:50",
-  "stop": 1090.25,
-  "target": 1099.43,
-  "last": null,
-  "why": {
-   "scanner": "COST: the 09:45 bar closed at $1094.84, above the 15-min opening range high $1094.47 (range 1086.04-1094.47)",
-   "exit": "plan: entry $1094.84, stop $1090.25 (opening-range midpoint), target $1099.43 (1R (one times the risk)), flat by 12:55 ET",
-   "budget": "opening-range breakout on COST: 6 shares, bound by your position cap (6 x 4.59 = $27.54 at the stop) (limits: max loss 21; position cap 6; max order 7; cash 7)",
-   "risk": "trader-risk PASS: entry 1094.84 (the plan's entry), stop 1090.25, target 1099.43: risk 4.59 a share; max loss $27.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
-   "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  }
- },
+ "position": null,
  "pending": null,
  "today": {
   "date": "2026-11-27",
@@ -522,22 +507,22 @@
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Holding 6 COST bought at $1094.74. It sells at the stop $1090.25, the target $1099.43, or at 15:55 ET, whichever comes first.",
+ "next_move": "Flat and watching 234 stocks for a 5-minute close above the opening-range high. 1 of 3 trades used today.",
  "stats": {
-  "trades": 37,
-  "wins": 16,
-  "win_rate": 0.43243243243243246,
-  "avg_r": -0.18248648648648652,
-  "t_stat_r": -1.2962389275820165,
-  "net_pnl": -675.98,
-  "profit_factor": 0.5214402525964051,
-  "expectancy_usd": -18.27,
-  "avg_win": 46.03,
+  "trades": 38,
+  "wins": 17,
+  "win_rate": 0.4473684210526316,
+  "avg_r": -0.15078947368421056,
+  "t_stat_r": -1.0721284181921291,
+  "net_pnl": -647.83,
+  "profit_factor": 0.5413690328700984,
+  "expectancy_usd": -17.05,
+  "avg_win": 44.98,
   "avg_loss": -67.26,
-  "costs_usd": 81.28,
+  "costs_usd": 82.59,
   "exits": {
    "stop": 16,
-   "target": 9,
+   "target": 10,
    "flat-by": 12
   }
  },
@@ -557,6 +542,30 @@
  },
  "intraday_max_drawdown": -0.09675026881693727,
  "trades": [
+  {
+   "date": "2026-11-27",
+   "symbol": "COST",
+   "qty": 6,
+   "entry_et": "09:50",
+   "entry_fill": 1094.7389,
+   "exit_et": "12:40",
+   "exit_fill": 1099.43,
+   "exit_reason": "target $1099.43 hit (1R)",
+   "stop": 1090.25,
+   "target": 1099.43,
+   "pnl": 28.15,
+   "r": 1.022,
+   "risk_usd": 27.54,
+   "cost_usd": 1.31,
+   "why": {
+    "scanner": "COST: the 09:45 bar closed at $1094.84, above the 15-min opening range high $1094.47 (range 1086.04-1094.47)",
+    "exit": "plan: entry $1094.84, stop $1090.25 (opening-range midpoint), target $1099.43 (1R (one times the risk)), flat by 12:55 ET",
+    "budget": "opening-range breakout on COST: 6 shares, bound by your position cap (6 x 4.59 = $27.54 at the stop) (limits: max loss 21; position cap 6; max order 7; cash 7)",
+    "risk": "trader-risk PASS: entry 1094.84 (the plan's entry), stop 1090.25, target 1099.43: risk 4.59 a share; max loss $27.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
+    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
+   },
+   "late": false
+  },
   {
    "date": "2026-11-25",
    "symbol": "AMZN",
@@ -1447,6 +1456,13 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795801200,
+   "et": "2026-11-27 12:40",
+   "kind": "exit",
+   "text": "SELL 6 COST at $1099.43: target $1099.43 hit (1R). P&L $+28.15 (+1.02R)",
+   "symbol": "COST"
+  },
   {
    "ts": 1795800600,
    "et": "2026-11-27 12:30",
@@ -2420,16 +2436,6 @@
    "text": "1 more breakout (BIIB) not taken: already in AAPL (one trade at a time)",
    "symbols": [
     "BIIB"
-   ]
-  },
-  {
-   "ts": 1795540200,
-   "et": "2026-11-24 12:10",
-   "kind": "busy",
-   "text": "2 more breakouts (CCL, W) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "CCL",
-    "W"
    ]
   }
  ],
@@ -8738,6 +8744,11 @@
    "ts": 1795801123,
    "equity": 9347.94,
    "spy": 9568.77
+  },
+  {
+   "ts": 1795801437,
+   "equity": 9352.2,
+   "spy": 9557.98
   }
  ],
  "daily": [
@@ -8851,6 +8862,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795801437,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 11.7,
+   "errors": [],
+   "run_id": "46044093493",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795801123,
    "phase": "open",
@@ -9240,29 +9261,19 @@
    "errors": [],
    "run_id": "46000415052",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795763345,
-   "phase": "pre-open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45956458581",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795801123,
+  "tick_at": 1795801437,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795801142,
-  "candidates": 42,
-  "charts_fetched": 44,
+  "yahoo_time": 1795801446,
+  "candidates": 33,
+  "charts_fetched": 35,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.1,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
