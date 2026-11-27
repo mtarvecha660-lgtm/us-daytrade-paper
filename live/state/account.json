@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795792200,
+  "last_bar_end": 1795792500,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 36,
+  "triggers_seen": 48,
   "missed": [
    "COP",
    "CRWD",
@@ -973,7 +973,19 @@
    "GILD",
    "NEE",
    "SBUX",
-   "TOST"
+   "TOST",
+   "AVGO",
+   "EOG",
+   "HMC",
+   "HPQ",
+   "IBM",
+   "IONQ",
+   "NKE",
+   "NXPI",
+   "QBTS",
+   "QCOM",
+   "RGTI",
+   "XOM"
   ],
   "triggered": [
    "BIIB",
@@ -1011,7 +1023,19 @@
    "GILD",
    "NEE",
    "SBUX",
-   "TOST"
+   "TOST",
+   "AVGO",
+   "EOG",
+   "HMC",
+   "HPQ",
+   "IBM",
+   "IONQ",
+   "NKE",
+   "NXPI",
+   "QBTS",
+   "QCOM",
+   "RGTI",
+   "XOM"
   ],
   "hits": [
    {
@@ -1301,6 +1325,102 @@
     "or_high": 34.48,
     "or_low": 33.85,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:15",
+    "price": 309.41,
+    "or_high": 309.3,
+    "or_low": 304.75,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "EOG",
+    "at": "10:15",
+    "price": 151.02,
+    "or_high": 150.99,
+    "or_low": 149.89,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:15",
+    "price": 33.63,
+    "or_high": 33.59,
+    "or_low": 33.36,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "HPQ",
+    "at": "10:15",
+    "price": 31.56,
+    "or_high": 31.43,
+    "or_low": 30.06,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:15",
+    "price": 246.95,
+    "or_high": 246.78,
+    "or_low": 244.27,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "IONQ",
+    "at": "10:15",
+    "price": 25.06,
+    "or_high": 24.95,
+    "or_low": 24.16,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:15",
+    "price": 37.12,
+    "or_high": 37.07,
+    "or_low": 36.57,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:15",
+    "price": 250.94,
+    "or_high": 249.33,
+    "or_low": 244.91,
+    "pct_over": 0.65
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:15",
+    "price": 7.58,
+    "or_high": 7.45,
+    "or_low": 7.11,
+    "pct_over": 1.74
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:15",
+    "price": 176.28,
+    "or_high": 174.34,
+    "or_low": 170.37,
+    "pct_over": 1.11
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:15",
+    "price": 8.33,
+    "or_high": 8.31,
+    "or_low": 7.94,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "XOM",
+    "at": "10:15",
+    "price": 160.89,
+    "or_high": 160.79,
+    "or_low": 159.59,
+    "pct_over": 0.06
    }
   ]
  },
@@ -1308,8 +1428,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 721.0599975585938,
-  "last_ts": 1795792200
+  "last": 722.2100219726562,
+  "last_ts": 1795792500
  },
  "seen_trades": 0,
  "daily": [

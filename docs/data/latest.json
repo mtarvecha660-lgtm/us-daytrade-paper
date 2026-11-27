@@ -1,21 +1,21 @@
 {
- "updated": 1795792344,
- "updated_et": "2026-11-27 10:12 ET",
+ "updated": 1795792658,
+ "updated_et": "2026-11-27 10:17 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9328.74,
-  "return": -0.06712600000000002,
+  "equity": 9319.54,
+  "return": -0.06804599999999994,
   "started": 1793559735
  },
  "spy": {
-  "value": 9490.33,
-  "return": -0.050966999999999985,
+  "value": 9505.47,
+  "return": -0.04945300000000008,
   "start_price": 759.47998046875,
-  "last": 721.0599975585938
+  "last": 722.2100219726562
  },
  "position": {
   "symbol": "COST",
@@ -324,9 +324,105 @@
     "or_high": 34.48,
     "or_low": 33.85,
     "pct_over": 0.26
+   },
+   {
+    "symbol": "AVGO",
+    "at": "10:15",
+    "price": 309.41,
+    "or_high": 309.3,
+    "or_low": 304.75,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "EOG",
+    "at": "10:15",
+    "price": 151.02,
+    "or_high": 150.99,
+    "or_low": 149.89,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "HMC",
+    "at": "10:15",
+    "price": 33.63,
+    "or_high": 33.59,
+    "or_low": 33.36,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "HPQ",
+    "at": "10:15",
+    "price": 31.56,
+    "or_high": 31.43,
+    "or_low": 30.06,
+    "pct_over": 0.41
+   },
+   {
+    "symbol": "IBM",
+    "at": "10:15",
+    "price": 246.95,
+    "or_high": 246.78,
+    "or_low": 244.27,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "IONQ",
+    "at": "10:15",
+    "price": 25.06,
+    "or_high": 24.95,
+    "or_low": 24.16,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "NKE",
+    "at": "10:15",
+    "price": 37.12,
+    "or_high": 37.07,
+    "or_low": 36.57,
+    "pct_over": 0.12
+   },
+   {
+    "symbol": "NXPI",
+    "at": "10:15",
+    "price": 250.94,
+    "or_high": 249.33,
+    "or_low": 244.91,
+    "pct_over": 0.65
+   },
+   {
+    "symbol": "QBTS",
+    "at": "10:15",
+    "price": 7.58,
+    "or_high": 7.45,
+    "or_low": 7.11,
+    "pct_over": 1.74
+   },
+   {
+    "symbol": "QCOM",
+    "at": "10:15",
+    "price": 176.28,
+    "or_high": 174.34,
+    "or_low": 170.37,
+    "pct_over": 1.11
+   },
+   {
+    "symbol": "RGTI",
+    "at": "10:15",
+    "price": 8.33,
+    "or_high": 8.31,
+    "or_low": 7.94,
+    "pct_over": 0.24
+   },
+   {
+    "symbol": "XOM",
+    "at": "10:15",
+    "price": 160.89,
+    "or_high": 160.79,
+    "or_low": 159.59,
+    "pct_over": 0.06
    }
   ],
-  "n_hits": 36,
+  "n_hits": 48,
   "entries": 1,
   "max_trades": 3
  },
@@ -1255,6 +1351,26 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795792500,
+   "et": "2026-11-27 10:15",
+   "kind": "busy",
+   "text": "12 more breakouts (AVGO, EOG, HMC, HPQ, IBM, IONQ, NKE, NXPI ...) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "AVGO",
+    "EOG",
+    "HMC",
+    "HPQ",
+    "IBM",
+    "IONQ",
+    "NKE",
+    "NXPI",
+    "QBTS",
+    "QCOM",
+    "RGTI",
+    "XOM"
+   ]
+  },
   {
    "ts": 1795792200,
    "et": "2026-11-27 10:10",
@@ -2310,17 +2426,6 @@
    "symbols": [
     "BSX",
     "GOOGL"
-   ]
-  },
-  {
-   "ts": 1795457700,
-   "et": "2026-11-23 13:15",
-   "kind": "busy",
-   "text": "3 more breakouts (COST, SYK, TTD) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "COST",
-    "SYK",
-    "TTD"
    ]
   }
  ],
@@ -8489,6 +8594,11 @@
    "ts": 1795792344,
    "equity": 9328.74,
    "spy": 9490.33
+  },
+  {
+   "ts": 1795792658,
+   "equity": 9319.54,
+   "spy": 9505.47
   }
  ],
  "daily": [
@@ -8602,6 +8712,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795792658,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 18.3,
+   "errors": [],
+   "run_id": "46023572468",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795792344,
    "phase": "open",
@@ -8991,25 +9111,15 @@
    "errors": [],
    "run_id": "45487659593",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795554082,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 1,
-   "secs": 7.5,
-   "errors": [],
-   "run_id": "45486731722",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795792344,
+  "tick_at": 1795792658,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795792360,
-  "candidates": 41,
-  "charts_fetched": 43,
+  "yahoo_time": 1795792675,
+  "candidates": 63,
+  "charts_fetched": 65,
   "ok": true,
   "errors": [],
   "stale_data": false,
