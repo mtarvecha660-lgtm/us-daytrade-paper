@@ -591,3 +591,4 @@
 {"ts": 1795795800, "et": "2026-11-27 11:10", "kind": "busy", "text": "1 more breakout (NET) not taken: already in COST (one trade at a time)", "symbols": ["NET"]}
 {"ts": 1795797000, "et": "2026-11-27 11:30", "kind": "busy", "text": "2 more breakouts (BX, MCHP) not taken: already in COST (one trade at a time)", "symbols": ["BX", "MCHP"]}
 {"ts": 1795797300, "et": "2026-11-27 11:35", "kind": "busy", "text": "4 more breakouts (GE, KKR, MS, ORCL) not taken: already in COST (one trade at a time)", "symbols": ["GE", "KKR", "MS", "ORCL"]}
+{"ts": 1795797900, "et": "2026-11-27 11:45", "kind": "busy", "text": "2 more breakouts (CAT, REGN) not taken: already in COST (one trade at a time)", "symbols": ["CAT", "REGN"]}

@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795797600,
+  "last_bar_end": 1795797900,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 98,
+  "triggers_seen": 100,
   "missed": [
    "COP",
    "CRWD",
@@ -1035,7 +1035,9 @@
    "GE",
    "KKR",
    "MS",
-   "ORCL"
+   "ORCL",
+   "CAT",
+   "REGN"
   ],
   "triggered": [
    "BIIB",
@@ -1135,7 +1137,9 @@
    "GE",
    "KKR",
    "MS",
-   "ORCL"
+   "ORCL",
+   "CAT",
+   "REGN"
   ],
   "hits": [
    {
@@ -1921,6 +1925,22 @@
     "or_high": 107.25,
     "or_low": 104.72,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "CAT",
+    "at": "11:45",
+    "price": 563.14,
+    "or_high": 562.74,
+    "or_low": 553.01,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "REGN",
+    "at": "11:45",
+    "price": 989.0,
+    "or_high": 987.99,
+    "or_low": 976.82,
+    "pct_over": 0.1
    }
   ]
  },
@@ -1928,8 +1948,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 725.3400268554688,
-  "last_ts": 1795797600
+  "last": 726.280029296875,
+  "last_ts": 1795797900
  },
  "seen_trades": 0,
  "daily": [

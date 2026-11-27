@@ -1,21 +1,21 @@
 {
- "updated": 1795797668,
- "updated_et": "2026-11-27 11:41 ET",
+ "updated": 1795797979,
+ "updated_et": "2026-11-27 11:46 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9315.61,
-  "return": -0.06843899999999992,
+  "equity": 9326.97,
+  "return": -0.06730300000000011,
   "started": 1793559735
  },
  "spy": {
-  "value": 9546.66,
-  "return": -0.045333999999999985,
+  "value": 9559.04,
+  "return": -0.04409599999999991,
   "start_price": 759.47998046875,
-  "last": 725.3400268554688
+  "last": 726.280029296875
  },
  "position": {
   "symbol": "COST",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "HMC",
-    "at": "10:15",
-    "price": 33.63,
-    "or_high": 33.59,
-    "or_low": 33.36,
-    "pct_over": 0.12
-   },
-   {
-    "symbol": "HPQ",
-    "at": "10:15",
-    "price": 31.56,
-    "or_high": 31.43,
-    "or_low": 30.06,
-    "pct_over": 0.41
-   },
    {
     "symbol": "IBM",
     "at": "10:15",
@@ -516,9 +500,25 @@
     "or_high": 107.25,
     "or_low": 104.72,
     "pct_over": 0.05
+   },
+   {
+    "symbol": "CAT",
+    "at": "11:45",
+    "price": 563.14,
+    "or_high": 562.74,
+    "or_low": 553.01,
+    "pct_over": 0.07
+   },
+   {
+    "symbol": "REGN",
+    "at": "11:45",
+    "price": 989.0,
+    "or_high": 987.99,
+    "or_low": 976.82,
+    "pct_over": 0.1
    }
   ],
-  "n_hits": 98,
+  "n_hits": 100,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795797900,
+   "et": "2026-11-27 11:45",
+   "kind": "busy",
+   "text": "2 more breakouts (CAT, REGN) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "CAT",
+    "REGN"
+   ]
+  },
   {
    "ts": 1795797300,
    "et": "2026-11-27 11:35",
@@ -2424,27 +2434,6 @@
     "RTX",
     "TGT",
     "VZ"
-   ]
-  },
-  {
-   "ts": 1795532700,
-   "et": "2026-11-24 10:05",
-   "kind": "busy",
-   "text": "13 more breakouts (AI, CMG, CVS, DAL, GS, HD, LLY, LOW ...) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "AI",
-    "CMG",
-    "CVS",
-    "DAL",
-    "GS",
-    "HD",
-    "LLY",
-    "LOW",
-    "MRK",
-    "ORCL",
-    "PG",
-    "PLTR",
-    "UAL"
    ]
   }
  ],
@@ -8698,6 +8687,11 @@
    "ts": 1795797668,
    "equity": 9315.61,
    "spy": 9546.66
+  },
+  {
+   "ts": 1795797979,
+   "equity": 9326.97,
+   "spy": 9559.04
   }
  ],
  "daily": [
@@ -8811,6 +8805,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795797979,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.7,
+   "errors": [],
+   "run_id": "46036372662",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795797668,
    "phase": "open",
@@ -9200,29 +9204,19 @@
    "errors": [],
    "run_id": "45644513999",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795619873,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 18.4,
-   "errors": [],
-   "run_id": "45643521062",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795797668,
+  "tick_at": 1795797979,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795797683,
-  "candidates": 56,
-  "charts_fetched": 58,
+  "yahoo_time": 1795797995,
+  "candidates": 53,
+  "charts_fetched": 55,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {
