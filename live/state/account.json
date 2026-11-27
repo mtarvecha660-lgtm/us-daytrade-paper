@@ -921,7 +921,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795802100,
+  "last_bar_end": 1795802400,
   "position": null,
   "pending": null,
   "orders": [
@@ -2143,8 +2143,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 726.52099609375,
-  "last_ts": 1795802100
+  "last": 728.72998046875,
+  "last_ts": 1795802400
  },
  "seen_trades": 0,
  "daily": [
