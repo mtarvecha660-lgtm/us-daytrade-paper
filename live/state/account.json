@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795791600,
+  "last_bar_end": 1795791900,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 30,
+  "triggers_seen": 31,
   "missed": [
    "COP",
    "CRWD",
@@ -967,7 +967,8 @@
    "VZ",
    "ZM",
    "ZS",
-   "LYFT"
+   "LYFT",
+   "PATH"
   ],
   "triggered": [
    "BIIB",
@@ -999,7 +1000,8 @@
    "VZ",
    "ZM",
    "ZS",
-   "LYFT"
+   "LYFT",
+   "PATH"
   ],
   "hits": [
    {
@@ -1241,6 +1243,14 @@
     "or_high": 17.4,
     "or_low": 17.15,
     "pct_over": 0.32
+   },
+   {
+    "symbol": "PATH",
+    "at": "10:05",
+    "price": 12.82,
+    "or_high": 12.78,
+    "or_low": 12.53,
+    "pct_over": 0.31
    }
   ]
  },
@@ -1248,8 +1258,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 720.0850219726562,
-  "last_ts": 1795791600
+  "last": 720.4949951171875,
+  "last_ts": 1795791900
  },
  "seen_trades": 0,
  "daily": [

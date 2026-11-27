@@ -575,3 +575,4 @@
 {"ts": 1795791000, "et": "2026-11-27 09:50", "kind": "fill", "text": "BUY 6 COST filled at $1094.74 (next bar's open $1094.52 + slippage). Stop $1090.25, target $1099.43", "symbol": "COST"}
 {"ts": 1795791300, "et": "2026-11-27 09:55", "kind": "busy", "text": "17 more breakouts (COP, CRWD, DE, DELL, DVN, FANG, HAL, OXY ...) not taken: already in COST (one trade at a time)", "symbols": ["COP", "CRWD", "DE", "DELL", "DVN", "FANG", "HAL", "OXY", "PANW", "PINS", "SLB", "SNAP", "SWKS", "TWLO", "VZ", "ZM", "ZS"]}
 {"ts": 1795791600, "et": "2026-11-27 10:00", "kind": "busy", "text": "1 more breakout (LYFT) not taken: already in COST (one trade at a time)", "symbols": ["LYFT"]}
+{"ts": 1795791900, "et": "2026-11-27 10:05", "kind": "busy", "text": "1 more breakout (PATH) not taken: already in COST (one trade at a time)", "symbols": ["PATH"]}
