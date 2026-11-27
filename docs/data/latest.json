@@ -1,21 +1,21 @@
 {
- "updated": 1795800183,
- "updated_et": "2026-11-27 12:23 ET",
+ "updated": 1795800501,
+ "updated_et": "2026-11-27 12:28 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9337.74,
-  "return": -0.06622600000000001,
+  "equity": 9342.61,
+  "return": -0.06573899999999999,
   "started": 1793559735
  },
  "spy": {
-  "value": 9562.19,
-  "return": -0.04378099999999996,
+  "value": 9567.85,
+  "return": -0.043215,
   "start_price": 759.47998046875,
-  "last": 726.52001953125
+  "last": 726.9500122070312
  },
  "position": {
   "symbol": "COST",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "SONY",
-    "at": "10:20",
-    "price": 27.94,
-    "or_high": 27.94,
-    "or_low": 27.62,
-    "pct_over": 0.02
-   },
-   {
-    "symbol": "TXN",
-    "at": "10:20",
-    "price": 274.93,
-    "or_high": 274.48,
-    "or_low": 269.66,
-    "pct_over": 0.16
-   },
    {
     "symbol": "VRTX",
     "at": "10:20",
@@ -516,9 +500,25 @@
     "or_high": 98.73,
     "or_low": 96.92,
     "pct_over": 0.38
+   },
+   {
+    "symbol": "ABBV",
+    "at": "12:25",
+    "price": 293.01,
+    "or_high": 293.0,
+    "or_low": 289.49,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "MCD",
+    "at": "12:25",
+    "price": 283.23,
+    "or_high": 283.19,
+    "or_low": 281.0,
+    "pct_over": 0.01
    }
   ],
-  "n_hits": 116,
+  "n_hits": 118,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795800300,
+   "et": "2026-11-27 12:25",
+   "kind": "busy",
+   "text": "2 more breakouts (ABBV, MCD) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "ABBV",
+    "MCD"
+   ]
+  },
   {
    "ts": 1795799400,
    "et": "2026-11-27 12:10",
@@ -2423,15 +2433,6 @@
     "RCL",
     "RKT",
     "SNOW"
-   ]
-  },
-  {
-   "ts": 1795538700,
-   "et": "2026-11-24 11:45",
-   "kind": "busy",
-   "text": "1 more breakout (OKTA) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "OKTA"
    ]
   }
  ],
@@ -8725,6 +8726,11 @@
    "ts": 1795800183,
    "equity": 9337.74,
    "spy": 9562.19
+  },
+  {
+   "ts": 1795800501,
+   "equity": 9342.61,
+   "spy": 9567.85
   }
  ],
  "daily": [
@@ -8838,6 +8844,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795800501,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 14.2,
+   "errors": [],
+   "run_id": "46042059079",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795800183,
    "phase": "open",
@@ -9227,25 +9243,15 @@
    "errors": [],
    "run_id": "45888818138",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795703901,
-   "phase": "closed",
-   "status": "ok",
-   "bars": 0,
-   "secs": 0.0,
-   "errors": [],
-   "run_id": "45840999216",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795800183,
+  "tick_at": 1795800501,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795800195,
-  "candidates": 37,
-  "charts_fetched": 39,
+  "yahoo_time": 1795800513,
+  "candidates": 41,
+  "charts_fetched": 43,
   "ok": true,
   "errors": [],
   "stale_data": false,

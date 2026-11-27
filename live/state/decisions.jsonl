@@ -597,3 +597,4 @@
 {"ts": 1795798800, "et": "2026-11-27 12:00", "kind": "busy", "text": "2 more breakouts (PFE, PG) not taken: already in COST (one trade at a time)", "symbols": ["PFE", "PG"]}
 {"ts": 1795799100, "et": "2026-11-27 12:05", "kind": "busy", "text": "1 more breakout (T) not taken: already in COST (one trade at a time)", "symbols": ["T"]}
 {"ts": 1795799400, "et": "2026-11-27 12:10", "kind": "busy", "text": "1 more breakout (W) not taken: already in COST (one trade at a time)", "symbols": ["W"]}
+{"ts": 1795800300, "et": "2026-11-27 12:25", "kind": "busy", "text": "2 more breakouts (ABBV, MCD) not taken: already in COST (one trade at a time)", "symbols": ["ABBV", "MCD"]}
