@@ -1,49 +1,39 @@
 {
- "updated": 1795791086,
- "updated_et": "2026-11-27 09:51 ET",
+ "updated": 1795791398,
+ "updated_et": "2026-11-27 09:56 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
-  "cash": 9324.05,
-  "equity": 9324.05,
-  "return": -0.06759500000000007,
+  "cash": 2755.62,
+  "equity": 9313.57,
+  "return": -0.06864300000000001,
   "started": 1793559735
  },
  "spy": {
-  "value": 9490.59,
-  "return": -0.050941000000000014,
+  "value": 9495.07,
+  "return": -0.05049300000000001,
   "start_price": 759.47998046875,
-  "last": 721.0800170898438
+  "last": 721.4199829101562
  },
- "position": null,
- "pending": {
+ "position": {
   "symbol": "COST",
   "qty": 6,
-  "plan": {
-   "symbol": "COST",
-   "side": "buy",
-   "setup": "orb",
-   "date": "2026-11-27",
-   "entry_time": "9:50 AM",
-   "entry": 1094.84,
-   "stop": 1090.25,
-   "target": 1099.43,
-   "stop_label": "opening-range midpoint",
-   "target_label": "1R (one times the risk)",
-   "flat_by": "12:55"
-  },
+  "entry": 1094.7389,
+  "entry_et": "09:50",
+  "stop": 1090.25,
+  "target": 1099.43,
+  "last": null,
   "why": {
    "scanner": "COST: the 09:45 bar closed at $1094.84, above the 15-min opening range high $1094.47 (range 1086.04-1094.47)",
    "exit": "plan: entry $1094.84, stop $1090.25 (opening-range midpoint), target $1099.43 (1R (one times the risk)), flat by 12:55 ET",
    "budget": "opening-range breakout on COST: 6 shares, bound by your position cap (6 x 4.59 = $27.54 at the stop) (limits: max loss 21; position cap 6; max order 7; cash 7)",
    "risk": "trader-risk PASS: entry 1094.84 (the plan's entry), stop 1090.25, target 1099.43: risk 4.59 a share; max loss $27.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
    "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
-  },
-  "decided_ts": 1795791000,
-  "late": false
+  }
  },
+ "pending": null,
  "today": {
   "date": "2026-11-27",
   "hits": [
@@ -142,13 +132,149 @@
     "or_high": 427.81,
     "or_low": 423.02,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 138.16,
+    "or_high": 137.61,
+    "or_low": 135.73,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:55",
+    "price": 212.99,
+    "or_high": 211.27,
+    "or_low": 205.77,
+    "pct_over": 0.82
+   },
+   {
+    "symbol": "DE",
+    "at": "09:55",
+    "price": 656.75,
+    "or_high": 653.85,
+    "or_low": 645.26,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "DELL",
+    "at": "09:55",
+    "price": 309.01,
+    "or_high": 308.97,
+    "or_low": 297.1,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:55",
+    "price": 43.3,
+    "or_high": 43.3,
+    "or_low": 42.95,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:55",
+    "price": 184.39,
+    "or_high": 184.14,
+    "or_low": 182.5,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:55",
+    "price": 32.58,
+    "or_high": 32.43,
+    "or_low": 32.03,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:55",
+    "price": 54.63,
+    "or_high": 54.62,
+    "or_low": 54.27,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:55",
+    "price": 352.79,
+    "or_high": 351.81,
+    "or_low": 338.57,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:55",
+    "price": 20.58,
+    "or_high": 20.53,
+    "or_low": 19.81,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:55",
+    "price": 49.66,
+    "or_high": 49.65,
+    "or_low": 49.38,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:55",
+    "price": 5.24,
+    "or_high": 5.22,
+    "or_low": 5.16,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 85.81,
+    "or_high": 84.97,
+    "or_low": 83.42,
+    "pct_over": 0.99
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:55",
+    "price": 186.22,
+    "or_high": 186.21,
+    "or_low": 182.57,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "VZ",
+    "at": "09:55",
+    "price": 47.58,
+    "or_high": 47.56,
+    "or_low": 47.14,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:55",
+    "price": 91.84,
+    "or_high": 91.83,
+    "or_low": 88.99,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:55",
+    "price": 235.32,
+    "or_high": 233.18,
+    "or_low": 227.04,
+    "pct_over": 0.92
    }
   ],
-  "n_hits": 12,
+  "n_hits": 29,
   "entries": 1,
   "max_trades": 3
  },
- "next_move": "Buying 6 COST at the next bar's open (signal at 09:50 ET). Then: stop $1090.25, target $1099.43.",
+ "next_move": "Holding 6 COST bought at $1094.74. It sells at the stop $1090.25, the target $1099.43, or at 15:55 ET, whichever comes first.",
  "stats": {
   "trades": 37,
   "wins": 16,
@@ -1073,6 +1199,38 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795791300,
+   "et": "2026-11-27 09:55",
+   "kind": "busy",
+   "text": "17 more breakouts (COP, CRWD, DE, DELL, DVN, FANG, HAL, OXY ...) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "COP",
+    "CRWD",
+    "DE",
+    "DELL",
+    "DVN",
+    "FANG",
+    "HAL",
+    "OXY",
+    "PANW",
+    "PINS",
+    "SLB",
+    "SNAP",
+    "SWKS",
+    "TWLO",
+    "VZ",
+    "ZM",
+    "ZS"
+   ]
+  },
+  {
+   "ts": 1795791000,
+   "et": "2026-11-27 09:50",
+   "kind": "fill",
+   "text": "BUY 6 COST filled at $1094.74 (next bar's open $1094.52 + slippage). Stop $1090.25, target $1099.43",
+   "symbol": "COST"
+  },
   {
    "ts": 1795791000,
    "et": "2026-11-27 09:50",
@@ -2104,26 +2262,6 @@
    "text": "1 more breakout (MDT) not taken: already in MRNA (one trade at a time)",
    "symbols": [
     "MDT"
-   ]
-  },
-  {
-   "ts": 1795452600,
-   "et": "2026-11-23 11:50",
-   "kind": "busy",
-   "text": "1 more breakout (CHTR) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "CHTR"
-   ]
-  },
-  {
-   "ts": 1795451700,
-   "et": "2026-11-23 11:35",
-   "kind": "busy",
-   "text": "3 more breakouts (LMT, META, NEE) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "LMT",
-    "META",
-    "NEE"
    ]
   }
  ],
@@ -8272,6 +8410,11 @@
    "ts": 1795791086,
    "equity": 9324.05,
    "spy": 9490.59
+  },
+  {
+   "ts": 1795791398,
+   "equity": 9313.57,
+   "spy": 9495.07
   }
  ],
  "daily": [
@@ -8385,6 +8528,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795791398,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 17.1,
+   "errors": [],
+   "run_id": "46020408484",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795791086,
    "phase": "open",
@@ -8774,29 +8927,19 @@
    "errors": [],
    "run_id": "45484081432",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795552818,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 6.9,
-   "errors": [],
-   "run_id": "45483180138",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795791086,
+  "tick_at": 1795791398,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795791100,
-  "candidates": 56,
-  "charts_fetched": 57,
+  "yahoo_time": 1795791414,
+  "candidates": 52,
+  "charts_fetched": 54,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.2,
+  "yahoo_lag_min": -0.3,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

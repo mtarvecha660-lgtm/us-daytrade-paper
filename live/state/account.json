@@ -1,5 +1,5 @@
 {
- "cash": 9324.0528,
+ "cash": 2755.6194,
  "start_cash": 10000.0,
  "started": 1793559735,
  "day": null,
@@ -897,11 +897,12 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795791000,
-  "position": null,
-  "pending": {
+  "last_bar_end": 1795791300,
+  "position": {
    "symbol": "COST",
    "qty": 6,
+   "entry_fill": 1094.7389,
+   "entry_ts": 1795791000,
    "plan": {
     "symbol": "COST",
     "side": "buy",
@@ -913,7 +914,8 @@
     "target": 1099.43,
     "stop_label": "opening-range midpoint",
     "target_label": "1R (one times the risk)",
-    "flat_by": "12:55"
+    "flat_by": "12:55",
+    "entry_ref": 1094.52001953125
    },
    "why": {
     "scanner": "COST: the 09:45 bar closed at $1094.84, above the 15-min opening range high $1094.47 (range 1086.04-1094.47)",
@@ -922,9 +924,9 @@
     "risk": "trader-risk PASS: entry 1094.84 (the plan's entry), stop 1090.25, target 1099.43: risk 4.59 a share; max loss $27.54 (limit $100), reward:risk 1.00 (min 1); today before this: 0 of 3 trades, $0 of $300 daily loss",
     "approval": "auto-approved on paper (the skill waits for a human yes here; this bot says yes to every PASS)"
    },
-   "decided_ts": 1795791000,
    "late": false
   },
+  "pending": null,
   "orders": [
    {
     "status": "placed",
@@ -934,12 +936,38 @@
     "kind": "entry",
     "max_loss": 27.54,
     "at": "2026-11-27T09:50:00"
+   },
+   {
+    "status": "filled",
+    "date": "2026-11-27",
+    "symbol": "COST",
+    "side": "buy",
+    "kind": "entry",
+    "qty": 6
    }
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 12,
-  "missed": [],
+  "triggers_seen": 29,
+  "missed": [
+   "COP",
+   "CRWD",
+   "DE",
+   "DELL",
+   "DVN",
+   "FANG",
+   "HAL",
+   "OXY",
+   "PANW",
+   "PINS",
+   "SLB",
+   "SNAP",
+   "SWKS",
+   "TWLO",
+   "VZ",
+   "ZM",
+   "ZS"
+  ],
   "triggered": [
    "BIIB",
    "CHTR",
@@ -952,7 +980,24 @@
    "PEP",
    "PYPL",
    "TM",
-   "V"
+   "V",
+   "COP",
+   "CRWD",
+   "DE",
+   "DELL",
+   "DVN",
+   "FANG",
+   "HAL",
+   "OXY",
+   "PANW",
+   "PINS",
+   "SLB",
+   "SNAP",
+   "SWKS",
+   "TWLO",
+   "VZ",
+   "ZM",
+   "ZS"
   ],
   "hits": [
    {
@@ -1050,6 +1095,142 @@
     "or_high": 427.81,
     "or_low": 423.02,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "COP",
+    "at": "09:55",
+    "price": 138.16,
+    "or_high": 137.61,
+    "or_low": 135.73,
+    "pct_over": 0.4
+   },
+   {
+    "symbol": "CRWD",
+    "at": "09:55",
+    "price": 212.99,
+    "or_high": 211.27,
+    "or_low": 205.77,
+    "pct_over": 0.82
+   },
+   {
+    "symbol": "DE",
+    "at": "09:55",
+    "price": 656.75,
+    "or_high": 653.85,
+    "or_low": 645.26,
+    "pct_over": 0.44
+   },
+   {
+    "symbol": "DELL",
+    "at": "09:55",
+    "price": 309.01,
+    "or_high": 308.97,
+    "or_low": 297.1,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "DVN",
+    "at": "09:55",
+    "price": 43.3,
+    "or_high": 43.3,
+    "or_low": 42.95,
+    "pct_over": 0.0
+   },
+   {
+    "symbol": "FANG",
+    "at": "09:55",
+    "price": 184.39,
+    "or_high": 184.14,
+    "or_low": 182.5,
+    "pct_over": 0.14
+   },
+   {
+    "symbol": "HAL",
+    "at": "09:55",
+    "price": 32.58,
+    "or_high": 32.43,
+    "or_low": 32.03,
+    "pct_over": 0.46
+   },
+   {
+    "symbol": "OXY",
+    "at": "09:55",
+    "price": 54.63,
+    "or_high": 54.62,
+    "or_low": 54.27,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "PANW",
+    "at": "09:55",
+    "price": 352.79,
+    "or_high": 351.81,
+    "or_low": 338.57,
+    "pct_over": 0.28
+   },
+   {
+    "symbol": "PINS",
+    "at": "09:55",
+    "price": 20.58,
+    "or_high": 20.53,
+    "or_low": 19.81,
+    "pct_over": 0.27
+   },
+   {
+    "symbol": "SLB",
+    "at": "09:55",
+    "price": 49.66,
+    "or_high": 49.65,
+    "or_low": 49.38,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "SNAP",
+    "at": "09:55",
+    "price": 5.24,
+    "or_high": 5.22,
+    "or_low": 5.16,
+    "pct_over": 0.29
+   },
+   {
+    "symbol": "SWKS",
+    "at": "09:55",
+    "price": 85.81,
+    "or_high": 84.97,
+    "or_low": 83.42,
+    "pct_over": 0.99
+   },
+   {
+    "symbol": "TWLO",
+    "at": "09:55",
+    "price": 186.22,
+    "or_high": 186.21,
+    "or_low": 182.57,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "VZ",
+    "at": "09:55",
+    "price": 47.58,
+    "or_high": 47.56,
+    "or_low": 47.14,
+    "pct_over": 0.04
+   },
+   {
+    "symbol": "ZM",
+    "at": "09:55",
+    "price": 91.84,
+    "or_high": 91.83,
+    "or_low": 88.99,
+    "pct_over": 0.01
+   },
+   {
+    "symbol": "ZS",
+    "at": "09:55",
+    "price": 235.32,
+    "or_high": 233.18,
+    "or_low": 227.04,
+    "pct_over": 0.92
    }
   ]
  },
@@ -1057,8 +1238,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 721.0800170898438,
-  "last_ts": 1795791000
+  "last": 721.4199829101562,
+  "last_ts": 1795791300
  },
  "seen_trades": 0,
  "daily": [
