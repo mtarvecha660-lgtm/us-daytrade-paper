@@ -1,21 +1,21 @@
 {
- "updated": 1795792658,
- "updated_et": "2026-11-27 10:17 ET",
+ "updated": 1795792971,
+ "updated_et": "2026-11-27 10:22 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9319.54,
-  "return": -0.06804599999999994,
+  "equity": 9324.13,
+  "return": -0.06758700000000006,
   "started": 1793559735
  },
  "spy": {
-  "value": 9505.47,
-  "return": -0.04945300000000008,
+  "value": 9510.6,
+  "return": -0.048939999999999984,
   "start_price": 759.47998046875,
-  "last": 722.2100219726562
+  "last": 722.5999755859375
  },
  "position": {
   "symbol": "COST",
@@ -420,9 +420,97 @@
     "or_high": 160.79,
     "or_low": 159.59,
     "pct_over": 0.06
+   },
+   {
+    "symbol": "BB",
+    "at": "10:20",
+    "price": 8.71,
+    "or_high": 8.68,
+    "or_low": 8.52,
+    "pct_over": 0.35
+   },
+   {
+    "symbol": "CVNA",
+    "at": "10:20",
+    "price": 70.1,
+    "or_high": 69.63,
+    "or_low": 68.47,
+    "pct_over": 0.67
+   },
+   {
+    "symbol": "MA",
+    "at": "10:20",
+    "price": 666.22,
+    "or_high": 665.79,
+    "or_low": 660.0,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "META",
+    "at": "10:20",
+    "price": 630.44,
+    "or_high": 630.09,
+    "or_low": 620.8,
+    "pct_over": 0.06
+   },
+   {
+    "symbol": "ON",
+    "at": "10:20",
+    "price": 64.45,
+    "or_high": 64.31,
+    "or_low": 62.62,
+    "pct_over": 0.23
+   },
+   {
+    "symbol": "RBLX",
+    "at": "10:20",
+    "price": 58.53,
+    "or_high": 57.9,
+    "or_low": 56.69,
+    "pct_over": 1.1
+   },
+   {
+    "symbol": "RIVN",
+    "at": "10:20",
+    "price": 12.03,
+    "or_high": 12.03,
+    "or_low": 11.81,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SEDG",
+    "at": "10:20",
+    "price": 21.17,
+    "or_high": 21.1,
+    "or_low": 20.25,
+    "pct_over": 0.36
+   },
+   {
+    "symbol": "SONY",
+    "at": "10:20",
+    "price": 27.94,
+    "or_high": 27.94,
+    "or_low": 27.62,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "TXN",
+    "at": "10:20",
+    "price": 274.93,
+    "or_high": 274.48,
+    "or_low": 269.66,
+    "pct_over": 0.16
+   },
+   {
+    "symbol": "VRTX",
+    "at": "10:20",
+    "price": 523.76,
+    "or_high": 522.28,
+    "or_low": 502.9,
+    "pct_over": 0.28
    }
   ],
-  "n_hits": 48,
+  "n_hits": 59,
   "entries": 1,
   "max_trades": 3
  },
@@ -1351,6 +1439,25 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795792800,
+   "et": "2026-11-27 10:20",
+   "kind": "busy",
+   "text": "11 more breakouts (BB, CVNA, MA, META, ON, RBLX, RIVN, SEDG ...) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "BB",
+    "CVNA",
+    "MA",
+    "META",
+    "ON",
+    "RBLX",
+    "RIVN",
+    "SEDG",
+    "SONY",
+    "TXN",
+    "VRTX"
+   ]
+  },
   {
    "ts": 1795792500,
    "et": "2026-11-27 10:15",
@@ -2416,16 +2523,6 @@
    "symbols": [
     "C",
     "T"
-   ]
-  },
-  {
-   "ts": 1795458000,
-   "et": "2026-11-23 13:20",
-   "kind": "busy",
-   "text": "2 more breakouts (BSX, GOOGL) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "BSX",
-    "GOOGL"
    ]
   }
  ],
@@ -8599,6 +8696,11 @@
    "ts": 1795792658,
    "equity": 9319.54,
    "spy": 9505.47
+  },
+  {
+   "ts": 1795792971,
+   "equity": 9324.13,
+   "spy": 9510.6
   }
  ],
  "daily": [
@@ -8712,6 +8814,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795792971,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 23.1,
+   "errors": [],
+   "run_id": "46024358303",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795792658,
    "phase": "open",
@@ -9101,25 +9213,15 @@
    "errors": [],
    "run_id": "45488575791",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795554400,
-   "phase": "after-close",
-   "status": "ok",
-   "bars": 0,
-   "secs": 7.1,
-   "errors": [],
-   "run_id": "45487659593",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795792658,
+  "tick_at": 1795792971,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795792675,
-  "candidates": 63,
-  "charts_fetched": 65,
+  "yahoo_time": 1795792992,
+  "candidates": 53,
+  "charts_fetched": 55,
   "ok": true,
   "errors": [],
   "stale_data": false,
