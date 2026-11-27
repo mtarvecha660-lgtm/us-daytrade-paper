@@ -1,21 +1,21 @@
 {
- "updated": 1795794853,
- "updated_et": "2026-11-27 10:54 ET",
+ "updated": 1795795163,
+ "updated_et": "2026-11-27 10:59 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9338.94,
-  "return": -0.066106,
+  "equity": 9333.15,
+  "return": -0.066685,
   "started": 1793559735
  },
  "spy": {
-  "value": 9544.82,
-  "return": -0.04551800000000006,
+  "value": 9541.27,
+  "return": -0.04587299999999994,
   "start_price": 759.47998046875,
-  "last": 725.2000122070312
+  "last": 724.9299926757812
  },
  "position": {
   "symbol": "COST",
@@ -37,30 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "TWLO",
-    "at": "09:55",
-    "price": 186.22,
-    "or_high": 186.21,
-    "or_low": 182.57,
-    "pct_over": 0.01
-   },
-   {
-    "symbol": "VZ",
-    "at": "09:55",
-    "price": 47.58,
-    "or_high": 47.56,
-    "or_low": 47.14,
-    "pct_over": 0.04
-   },
-   {
-    "symbol": "ZM",
-    "at": "09:55",
-    "price": 91.84,
-    "or_high": 91.83,
-    "or_low": 88.99,
-    "pct_over": 0.01
-   },
    {
     "symbol": "ZS",
     "at": "09:55",
@@ -516,9 +492,33 @@
     "or_high": 168.15,
     "or_low": 166.36,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:55",
+    "price": 362.16,
+    "or_high": 362.05,
+    "or_low": 359.98,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:55",
+    "price": 171.07,
+    "or_high": 171.04,
+    "or_low": 164.8,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SNOW",
+    "at": "10:55",
+    "price": 275.36,
+    "or_high": 274.9,
+    "or_low": 268.45,
+    "pct_over": 0.17
    }
   ],
-  "n_hits": 85,
+  "n_hits": 88,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,17 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795794900,
+   "et": "2026-11-27 10:55",
+   "kind": "busy",
+   "text": "3 more breakouts (DPZ, PLTR, SNOW) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "DPZ",
+    "PLTR",
+    "SNOW"
+   ]
+  },
   {
    "ts": 1795794600,
    "et": "2026-11-27 10:50",
@@ -2542,15 +2553,6 @@
    "kind": "exit",
    "text": "SELL 20 MRNA at $212.16: flat by 15:55 ET (the skill's flat-by rule). P&L $+8.83 (+0.09R)",
    "symbol": "MRNA"
-  },
-  {
-   "ts": 1795465500,
-   "et": "2026-11-23 15:25",
-   "kind": "busy",
-   "text": "1 more breakout (CSCO) not taken: already in MRNA (one trade at a time)",
-   "symbols": [
-    "CSCO"
-   ]
   }
  ],
  "equity": [
@@ -8758,6 +8760,11 @@
    "ts": 1795794853,
    "equity": 9338.94,
    "spy": 9544.82
+  },
+  {
+   "ts": 1795795163,
+   "equity": 9333.15,
+   "spy": 9541.27
   }
  ],
  "daily": [
@@ -8871,6 +8878,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795795163,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.8,
+   "errors": [],
+   "run_id": "46029672613",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795794853,
    "phase": "open",
@@ -9260,29 +9277,19 @@
    "errors": [],
    "run_id": "45635737781",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795617029,
-   "phase": "open",
-   "status": "ok",
-   "bars": 0,
-   "secs": 5.0,
-   "errors": [],
-   "run_id": "45634774113",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795794853,
+  "tick_at": 1795795163,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795794870,
-  "candidates": 54,
-  "charts_fetched": 56,
+  "yahoo_time": 1795795177,
+  "candidates": 47,
+  "charts_fetched": 49,
   "ok": true,
   "errors": [],
   "stale_data": false,
-  "yahoo_lag_min": -0.3,
+  "yahoo_lag_min": -0.2,
   "note": "Yahoo's free 5-minute bars; the bot only uses bars that closed at least a minute ago, so decisions run 1-6 minutes behind the market, plus however late GitHub starts the run."
  },
  "config": {

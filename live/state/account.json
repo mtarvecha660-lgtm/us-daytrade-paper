@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795794600,
+  "last_bar_end": 1795794900,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 85,
+  "triggers_seen": 88,
   "missed": [
    "COP",
    "CRWD",
@@ -1022,7 +1022,10 @@
    "MPC",
    "TTD",
    "MAR",
-   "TMUS"
+   "TMUS",
+   "DPZ",
+   "PLTR",
+   "SNOW"
   ],
   "triggered": [
    "BIIB",
@@ -1109,7 +1112,10 @@
    "MPC",
    "TTD",
    "MAR",
-   "TMUS"
+   "TMUS",
+   "DPZ",
+   "PLTR",
+   "SNOW"
   ],
   "hits": [
    {
@@ -1791,6 +1797,30 @@
     "or_high": 168.15,
     "or_low": 166.36,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "DPZ",
+    "at": "10:55",
+    "price": 362.16,
+    "or_high": 362.05,
+    "or_low": 359.98,
+    "pct_over": 0.03
+   },
+   {
+    "symbol": "PLTR",
+    "at": "10:55",
+    "price": 171.07,
+    "or_high": 171.04,
+    "or_low": 164.8,
+    "pct_over": 0.02
+   },
+   {
+    "symbol": "SNOW",
+    "at": "10:55",
+    "price": 275.36,
+    "or_high": 274.9,
+    "or_low": 268.45,
+    "pct_over": 0.17
    }
   ]
  },
@@ -1798,8 +1828,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 725.2000122070312,
-  "last_ts": 1795794600
+  "last": 724.9299926757812,
+  "last_ts": 1795794900
  },
  "seen_trades": 0,
  "daily": [
