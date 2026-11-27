@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795798800,
+  "last_bar_end": 1795799100,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 114,
+  "triggers_seen": 115,
   "missed": [
    "COP",
    "CRWD",
@@ -1051,7 +1051,8 @@
    "SYK",
    "USB",
    "PFE",
-   "PG"
+   "PG",
+   "T"
   ],
   "triggered": [
    "BIIB",
@@ -1167,7 +1168,8 @@
    "SYK",
    "USB",
    "PFE",
-   "PG"
+   "PG",
+   "T"
   ],
   "hits": [
    {
@@ -2081,6 +2083,14 @@
     "or_high": 172.92,
     "or_low": 171.4,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "T",
+    "at": "12:05",
+    "price": 23.26,
+    "or_high": 23.26,
+    "or_low": 22.91,
+    "pct_over": 0.0
    }
   ]
  },
@@ -2088,8 +2098,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 726.4199829101562,
-  "last_ts": 1795798800
+  "last": 726.0700073242188,
+  "last_ts": 1795799100
  },
  "seen_trades": 0,
  "daily": [

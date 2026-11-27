@@ -1,21 +1,21 @@
 {
- "updated": 1795798922,
- "updated_et": "2026-11-27 12:02 ET",
+ "updated": 1795799240,
+ "updated_et": "2026-11-27 12:07 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9330.36,
-  "return": -0.06696399999999991,
+  "equity": 9332.58,
+  "return": -0.06674199999999997,
   "started": 1793559735
  },
  "spy": {
-  "value": 9560.88,
-  "return": -0.04391200000000006,
+  "value": 9556.27,
+  "return": -0.044372999999999996,
   "start_price": 759.47998046875,
-  "last": 726.4199829101562
+  "last": 726.0700073242188
  },
  "position": {
   "symbol": "COST",
@@ -37,14 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "RIVN",
-    "at": "10:20",
-    "price": 12.03,
-    "or_high": 12.03,
-    "or_low": 11.81,
-    "pct_over": 0.02
-   },
    {
     "symbol": "SEDG",
     "at": "10:20",
@@ -516,9 +508,17 @@
     "or_high": 172.92,
     "or_low": 171.4,
     "pct_over": 0.02
+   },
+   {
+    "symbol": "T",
+    "at": "12:05",
+    "price": 23.26,
+    "or_high": 23.26,
+    "or_low": 22.91,
+    "pct_over": 0.0
    }
   ],
-  "n_hits": 114,
+  "n_hits": 115,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,15 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795799100,
+   "et": "2026-11-27 12:05",
+   "kind": "busy",
+   "text": "1 more breakout (T) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "T"
+   ]
+  },
   {
    "ts": 1795798800,
    "et": "2026-11-27 12:00",
@@ -2423,15 +2432,6 @@
    "text": "1 more breakout (UPS) not taken: already in AAPL (one trade at a time)",
    "symbols": [
     "UPS"
-   ]
-  },
-  {
-   "ts": 1795535700,
-   "et": "2026-11-24 10:55",
-   "kind": "busy",
-   "text": "1 more breakout (YUM) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "YUM"
    ]
   }
  ],
@@ -8705,6 +8705,11 @@
    "ts": 1795798922,
    "equity": 9330.36,
    "spy": 9560.88
+  },
+  {
+   "ts": 1795799240,
+   "equity": 9332.58,
+   "spy": 9556.27
   }
  ],
  "daily": [
@@ -8818,6 +8823,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795799240,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 13.2,
+   "errors": [],
+   "run_id": "46039231554",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795798922,
    "phase": "open",
@@ -9207,25 +9222,15 @@
    "errors": [],
    "run_id": "45710473965",
    "event": "schedule"
-  },
-  {
-   "ts": 1795621141,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 23.5,
-   "errors": [],
-   "run_id": "45647502858",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795798922,
+  "tick_at": 1795799240,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795798937,
-  "candidates": 43,
-  "charts_fetched": 45,
+  "yahoo_time": 1795799252,
+  "candidates": 37,
+  "charts_fetched": 39,
   "ok": true,
   "errors": [],
   "stale_data": false,
