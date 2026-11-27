@@ -1,21 +1,21 @@
 {
- "updated": 1795797040,
- "updated_et": "2026-11-27 11:30 ET",
+ "updated": 1795797354,
+ "updated_et": "2026-11-27 11:35 ET",
  "phase": "open",
  "paper": true,
  "version": "orb-v1",
  "account": {
   "start": 10000,
   "cash": 2755.62,
-  "equity": 9320.11,
-  "return": -0.06798899999999997,
+  "equity": 9322.6,
+  "return": -0.06773999999999991,
   "started": 1793559735
  },
  "spy": {
-  "value": 9541.27,
-  "return": -0.04587299999999994,
+  "value": 9546.27,
+  "return": -0.045373,
   "start_price": 759.47998046875,
-  "last": 724.9299926757812
+  "last": 725.3099975585938
  },
  "position": {
   "symbol": "COST",
@@ -37,22 +37,6 @@
  "today": {
   "date": "2026-11-27",
   "hits": [
-   {
-    "symbol": "GILD",
-    "at": "10:10",
-    "price": 176.18,
-    "or_high": 176.09,
-    "or_low": 174.01,
-    "pct_over": 0.05
-   },
-   {
-    "symbol": "NEE",
-    "at": "10:10",
-    "price": 84.96,
-    "or_high": 84.95,
-    "or_low": 84.32,
-    "pct_over": 0.01
-   },
    {
     "symbol": "SBUX",
     "at": "10:10",
@@ -516,9 +500,25 @@
     "or_high": 292.4,
     "or_low": 282.0,
     "pct_over": 0.24
+   },
+   {
+    "symbol": "BX",
+    "at": "11:30",
+    "price": 121.64,
+    "or_high": 121.54,
+    "or_low": 120.7,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "MCHP",
+    "at": "11:30",
+    "price": 59.38,
+    "or_high": 59.28,
+    "or_low": 57.31,
+    "pct_over": 0.16
    }
   ],
-  "n_hits": 92,
+  "n_hits": 94,
   "entries": 1,
   "max_trades": 3
  },
@@ -1447,6 +1447,16 @@
   }
  ],
  "decisions": [
+  {
+   "ts": 1795797000,
+   "et": "2026-11-27 11:30",
+   "kind": "busy",
+   "text": "2 more breakouts (BX, MCHP) not taken: already in COST (one trade at a time)",
+   "symbols": [
+    "BX",
+    "MCHP"
+   ]
+  },
   {
    "ts": 1795795800,
    "et": "2026-11-27 11:10",
@@ -2443,46 +2453,6 @@
     "SLB",
     "SOFI",
     "T"
-   ]
-  },
-  {
-   "ts": 1795532100,
-   "et": "2026-11-24 09:55",
-   "kind": "busy",
-   "text": "32 more breakouts (ABBV, ABT, AEP, CI, COF, COST, D, DUK ...) not taken: already in AAPL (one trade at a time)",
-   "symbols": [
-    "ABBV",
-    "ABT",
-    "AEP",
-    "CI",
-    "COF",
-    "COST",
-    "D",
-    "DUK",
-    "DXCM",
-    "F",
-    "GM",
-    "HON",
-    "IDXX",
-    "ISRG",
-    "JNJ",
-    "KO",
-    "LI",
-    "MRNA",
-    "MS",
-    "NEE",
-    "NOC",
-    "ROST",
-    "SE",
-    "SEDG",
-    "SO",
-    "SYK",
-    "TJX",
-    "VLO",
-    "VRTX",
-    "WFC",
-    "WMT",
-    "XOM"
    ]
   }
  ],
@@ -8726,6 +8696,11 @@
    "ts": 1795797040,
    "equity": 9320.11,
    "spy": 9541.27
+  },
+  {
+   "ts": 1795797354,
+   "equity": 9322.6,
+   "spy": 9546.27
   }
  ],
  "daily": [
@@ -8839,6 +8814,16 @@
   }
  ],
  "runs": [
+  {
+   "ts": 1795797354,
+   "phase": "open",
+   "status": "ok",
+   "bars": 1,
+   "secs": 15.2,
+   "errors": [],
+   "run_id": "46034932964",
+   "event": "workflow_dispatch"
+  },
   {
    "ts": 1795797040,
    "phase": "open",
@@ -9228,25 +9213,15 @@
    "errors": [],
    "run_id": "45642516397",
    "event": "workflow_dispatch"
-  },
-  {
-   "ts": 1795619242,
-   "phase": "open",
-   "status": "ok",
-   "bars": 1,
-   "secs": 22.5,
-   "errors": [],
-   "run_id": "45641530383",
-   "event": "workflow_dispatch"
   }
  ],
  "health": {
-  "tick_at": 1795797040,
+  "tick_at": 1795797354,
   "data_ok": 233,
   "data_failed": 1,
-  "yahoo_time": 1795797053,
-  "candidates": 42,
-  "charts_fetched": 44,
+  "yahoo_time": 1795797366,
+  "candidates": 45,
+  "charts_fetched": 47,
   "ok": true,
   "errors": [],
   "stale_data": false,

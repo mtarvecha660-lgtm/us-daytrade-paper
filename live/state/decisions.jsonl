@@ -589,3 +589,4 @@
 {"ts": 1795795200, "et": "2026-11-27 11:00", "kind": "busy", "text": "1 more breakout (DUOL) not taken: already in COST (one trade at a time)", "symbols": ["DUOL"]}
 {"ts": 1795795500, "et": "2026-11-27 11:05", "kind": "busy", "text": "2 more breakouts (AAL, RIOT) not taken: already in COST (one trade at a time)", "symbols": ["AAL", "RIOT"]}
 {"ts": 1795795800, "et": "2026-11-27 11:10", "kind": "busy", "text": "1 more breakout (NET) not taken: already in COST (one trade at a time)", "symbols": ["NET"]}
+{"ts": 1795797000, "et": "2026-11-27 11:30", "kind": "busy", "text": "2 more breakouts (BX, MCHP) not taken: already in COST (one trade at a time)", "symbols": ["BX", "MCHP"]}

@@ -897,7 +897,7 @@
  "equity": [],
  "day_state": {
   "date": "2026-11-27",
-  "last_bar_end": 1795796700,
+  "last_bar_end": 1795797000,
   "position": {
    "symbol": "COST",
    "qty": 6,
@@ -948,7 +948,7 @@
   ],
   "entries": 1,
   "skips": 0,
-  "triggers_seen": 92,
+  "triggers_seen": 94,
   "missed": [
    "COP",
    "CRWD",
@@ -1029,7 +1029,9 @@
    "DUOL",
    "AAL",
    "RIOT",
-   "NET"
+   "NET",
+   "BX",
+   "MCHP"
   ],
   "triggered": [
    "BIIB",
@@ -1123,7 +1125,9 @@
    "DUOL",
    "AAL",
    "RIOT",
-   "NET"
+   "NET",
+   "BX",
+   "MCHP"
   ],
   "hits": [
    {
@@ -1861,6 +1865,22 @@
     "or_high": 292.4,
     "or_low": 282.0,
     "pct_over": 0.24
+   },
+   {
+    "symbol": "BX",
+    "at": "11:30",
+    "price": 121.64,
+    "or_high": 121.54,
+    "or_low": 120.7,
+    "pct_over": 0.08
+   },
+   {
+    "symbol": "MCHP",
+    "at": "11:30",
+    "price": 59.38,
+    "or_high": 59.28,
+    "or_low": 57.31,
+    "pct_over": 0.16
    }
   ]
  },
@@ -1868,8 +1888,8 @@
   "shares": 13.16427074745018,
   "start_ts": 1793629800,
   "start_price": 759.47998046875,
-  "last": 724.9299926757812,
-  "last_ts": 1795796700
+  "last": 725.3099975585938,
+  "last_ts": 1795797000
  },
  "seen_trades": 0,
  "daily": [
